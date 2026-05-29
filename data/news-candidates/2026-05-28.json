@@ -1,15 +1,15 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-29T08:10:24.322420+00:00",
+  "generated_at": "2026-05-29T08:24:53.355458+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
-    "success_count": 37,
-    "failed_count": 9,
+    "success_count": 44,
+    "failed_count": 2,
     "global_source_count": 16,
-    "global_success_count": 10,
+    "global_success_count": 15,
     "china_source_count": 30,
-    "china_success_count": 27,
+    "china_success_count": 29,
     "auto_china_source_count": 18,
     "auto_china_success_count": 18
   },
@@ -55,6 +55,26 @@
       "source_group": "auto_china"
     },
     {
+      "title": "科氪 | 雷神联合AMD发布覆盖三大形态AI工作站产品矩阵",
+      "summary": "5月28日，雷神在北京举办以《聚势共生 智算同行》为主题的AI工作站新品发布会，正式推出覆盖塔式、迷你PC和移动三大类别的AI工作站全场景产品矩阵。这是业内首批完成三大形态全覆盖的AI工作站产品发布，以行业领先的品类矩阵和旗舰级算力水准，重新定义了AI工作站的性能基准。 官方图片 AI 正式迈入智能体时代，行业从文本预测转向自主逻辑思考，未来 AI 算力需求将迎来百倍增长，普及速度持续加快。 发布会上，AMD大中华区销售副总裁晁亚新首先分享了AMD公司整体的AI策略，面对飞速增长的AI需求构建AI无处不在的算力基础，AMD正打造覆盖云端、终端与边缘端的全栈式端到端算力体系，以开放的生态姿态与伙伴共建下一代智能算力基础设施。AMD大中",
+      "published_at": "2026-05-28T19:57:48+08:00",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3828898785858185?f=rss",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
+    },
+    {
+      "title": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 - 新京报",
+      "summary": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 新京报",
+      "published_at": "2026-05-28T23:38:00+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sTF91QXZ3VGZ0QUIzZ2hSb3k5VEdabnhjUDRtMmlCU3Z2TEpSYk9LSzRuRTBybEpDbFF0QnQtRExXZmtSc0lTaUFTUHRSZ0N1bV8ydDJhNWlzLUIwWGN1R3BJalg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
       "title": "比亚迪城市领航兜底_新浪新闻 - 手机新浪网",
       "summary": "比亚迪城市领航兜底_新浪新闻 手机新浪网",
       "published_at": "2026-05-28T23:04:00+08:00",
@@ -75,6 +95,16 @@
       "source_group": "auto_china"
     },
     {
+      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - 新浪财经",
+      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 新浪财经",
+      "published_at": "2026-05-28T18:41:15+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNOW9RVjBPWjNCUE00dlBwNkZUU2I4WW1peGpjaXZqbVBvem1rMEhpbVQ2M290SzZnbGNRU1dqcXVBbGp0cHdMTEZDek9zeHM5NnFvR0FkS0xna21EYkNSdDhCWHRvckFXSjhTaXA1enBseV9Fa3pQa25kZ05meURIRlh1NENRRVAyTDhySnBucWM5cjRvOGk5b2JjT3hqRzBUR2h6RmFSVkdnS2JuaWxfSkxzNFpmT1VKR3l3dkJLdTJZVlVuUmw5QVZ4elF2MDdReU1ab0g4UE5BQUcweWJaWWZvSDZXMEhfcnJ4eW8tVmZvV3pEQjZoZkhOZTVqa2NPVHp0UHNsYlI4M1Ns?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
       "title": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 - 电子工程专辑",
       "summary": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 电子工程专辑",
       "published_at": "2026-05-28T15:32:09+08:00",
@@ -85,41 +115,11 @@
       "source_group": "auto_china"
     },
     {
-      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - Sina finance",
-      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 Sina finance",
-      "published_at": "2026-05-28T15:18:00+08:00",
-      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Z0F4TzZnemFDUG9RT1c2ZC1zVEx6M09keWdRWmVHQkVrNnFIQW82ZEVwQnJkdzU4MkNQUXJudnZxbHJXLVJfRjJEWDVtZXQwZzNhUUstVE9BRk1lckxMWTlYR1N5T2lSMlB3Z0JxcVRscWxsYUlpSTR6YzA?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 - 新浪财经",
-      "summary": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 新浪财经",
-      "published_at": "2026-05-28T14:13:54+08:00",
-      "source": "\"具身智能 机器人\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWtGOHBXeVFJRzRpOFVNdndlR3hOT3RRN3hSaks2Zng3ZkpyQkZVX0x4alNxcFVkSURpQ1VZYkFzMVNHQy1PRXZoamVpRXRRRFl2QTlHRGNHOXhZYlJhdVZXT0dJc0lGSDJzcW81OGx6MVRZUm96Zk91VEk3UFVxcUk0MHZWbldBSmxMSVAtZ0NMZw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
-    },
-    {
       "title": "划重点！L2级辅助驾驶不是自动驾驶 - Sina finance",
       "summary": "划重点！L2级辅助驾驶不是自动驾驶 Sina finance",
       "published_at": "2026-05-28T13:48:00+08:00",
       "source": "\"自动驾驶 智能驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PbzRoVGc4MkR5aVZHMFNma2xtSV9iNjI0eEFwTlBQbFVFWDlWdGxtcWVEaml5TEdDa3VubWJLZmlqMWs1QmtnUjFlQjJQUVp4SHdycUc2RDlDbzRqUHJjXy14UFZGenpIMm9Zc1BYb0lBN1NxR2wxRw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ - 汽车之家",
-      "summary": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ 汽车之家",
-      "published_at": "2026-05-28T12:49:37+08:00",
-      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YTXVCUU9zZU1RWFI3cFFGd0wwTGNxaHJsNTN6RjRzQlpsalF2azNaeDNNOG1RV0x4QVlvZm5pQ1hMamNEWmRLcTVNTndnNUhnN3ZucWdFMGE2cHM?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china"
@@ -215,6 +215,16 @@
       "source_group": "auto_china"
     },
     {
+      "title": "美国AI大牛市会崩吗？ - 36kr.com",
+      "summary": "美国AI大牛市会崩吗？ 36kr.com",
+      "published_at": "2026-05-28T20:50:00+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaY2U2Z1JSZWpfQVdHZUxsemxXclYyT2RVbXp5Z2tMTTgtdzRWcnRVTGtXODluNDZ6UXZrc3FqemRDaFI1cE9xV0N3Vk9Idw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
       "title": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 - 36kr.com",
       "summary": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 36kr.com",
       "published_at": "2026-05-28T19:49:00+08:00",
@@ -230,16 +240,6 @@
       "published_at": "2026-05-28T18:15:58+08:00",
       "source": "\"人工智能 大模型\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kbUp0dDN0YXZlb2VxeUhWWWRqa1pudF9Sd3BMSmVBd1ljRzF4bFBSSUJJYmJveVZWcW5BaTlrM2VLMkRJbFJXak5sTXlXUQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 - 安全内参",
-      "summary": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 安全内参",
-      "published_at": "2026-05-28T18:10:55+08:00",
-      "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MSkMwS2hUdEN2SVhIT0wtU2thM3JuVkR4cWF4MmpYeGVweWFzLWpScDE2aDEwYVcydU1zUmVZSXJpajBmc3ZCejI3elVKUQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china"
@@ -305,11 +305,11 @@
       "source_group": "auto_china"
     },
     {
-      "title": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 - wenxuecity",
-      "summary": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 wenxuecity",
-      "published_at": "2026-05-28T04:21:42+08:00",
+      "title": "100%代码由自己生成！Claude Code负责人半年没写代码，程序员门槛被AI拆了 - 新浪财经",
+      "summary": "100%代码由自己生成！Claude Code负责人半年没写代码，程序员门槛被AI拆了 新浪财经",
+      "published_at": "2026-05-28T04:53:42+08:00",
       "source": "\"AI 编程工具\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YSTUxU2JxVDl2bE5qTVZaNmpqMGRLX245MmVLODE0LXJRQ05ZT2J4SWlwZXZMRlAyVk9fZ2xkQzRaZkJyZ1ZienM4eWxHajZidmlKM3J4Nmh5S0NKX004MDltbzF4blBM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNV1plZ2drSTFrOW03cnZ2TWFGeTdRSEUzUi16NWR5UUsxQXJhMmIxUkJoeWI2R3hGZF9yNXJNb3JsSUtvbS1tdEpYbGFGdXRYaE5VU0sybTVmYTJpSWs2TzdTRXRMa1ZFNWFwc3VDSFdWczI2NkdLNlJpTE5kSktKMW5hT2lUUlF5OEZnWGs2aVlDSVhRUHVYT1ZZcGpZTnVybkJsWU1TTUl1UUdVcUFHaTY4VC1IVm41aTY5bk5hRk5VdG01MzJ3V2lvWTFicUlrOTZ3MlFnR3FnS2hmX2g3WHNSdGJNN29DRjdQVW1TNUpZdndMZUowR0c2a05TaVlaVy13SURNWlMzMEpPOUVLbWRTWmEzY1d4SHJDMlNfdEhBNVFIZ2dnSmdfQ0xEUQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china"
