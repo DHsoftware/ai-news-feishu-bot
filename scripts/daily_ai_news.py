@@ -200,6 +200,9 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
         source = clean_text(item.get("source", ""))
         published_at = clean_text(item.get("published_at", "")) or "未知"
         link = clean_text(item.get("link", ""))
+        language = clean_text(item.get("language", ""))
+        region = clean_text(item.get("region", ""))
+        source_group = clean_text(item.get("source_group", ""))
 
         if not title or not link:
             continue
@@ -208,6 +211,9 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
             f"[{idx}]\n"
             f"标题: {title}\n"
             f"来源: {source}\n"
+            f"语言: {language or 'unknown'}\n"
+            f"区域: {region or 'unknown'}\n"
+            f"分组: {source_group or 'unknown'}\n"
             f"发布时间: {published_at} ({timezone_name})\n"
             f"链接: {link}\n"
             f"摘要: {summary}\n"
@@ -362,6 +368,55 @@ def build_fallback_news_from_candidates(items: list[dict[str, Any]], news_top_n:
     return fallback
 
 
+def is_china_candidate(item: dict[str, Any]) -> bool:
+    region = clean_text(item.get("region", "")).lower()
+    source_group = clean_text(item.get("source_group", "")).lower()
+    language = clean_text(item.get("language", "")).lower()
+    return (
+        region == "china"
+        or source_group in ("china", "auto_china")
+        or language == "zh"
+    )
+
+
+def count_china_news(top_news: list[dict[str, str]], china_links: set[str]) -> int:
+    count = 0
+    for item in top_news:
+        link = normalize_url(clean_text(item.get("source_url", "")))
+        if link and link in china_links:
+            count += 1
+    return count
+
+
+def build_china_fallback_news(items: list[dict[str, Any]], limit: int) -> list[dict[str, str]]:
+    fallback: list[dict[str, str]] = []
+    for item in items:
+        if not isinstance(item, dict) or not is_china_candidate(item):
+            continue
+
+        title = clean_text(item.get("title", ""))
+        link = clean_text(item.get("link", ""))
+        source = clean_text(item.get("source", "")) or source_name_from_url(link)
+        summary = clean_text(item.get("summary", ""))
+        if not title or not link:
+            continue
+
+        fallback.append(
+            {
+                "title": title,
+                "what_happened": summary or "该国内候选新闻已抓取，需结合原文核验细节。",
+                "why_important": "该动态与国内 AI/智能汽车产业链相关，可能影响车型规划、技术路线或供应链决策。",
+                "auto_relevance": RELATION_INDIRECT,
+                "auto_impact_brief": "短期可用于评估国内技术栈与合作生态变化，中长期需结合量产与法规进展持续观察。",
+                "source_name": source,
+                "source_url": link,
+            }
+        )
+        if len(fallback) >= max(limit, 1):
+            break
+    return fallback
+
+
 def normalize_report_payload(
     raw: dict[str, Any],
     report_date: str,
@@ -395,6 +450,36 @@ def normalize_report_payload(
 
     if not top_news:
         top_news = build_fallback_news_from_candidates(candidate_items, news_top_n)
+
+    china_links = {
+        normalize_url(clean_text(item.get("link", "")))
+        for item in candidate_items
+        if isinstance(item, dict) and is_china_candidate(item)
+    }
+    china_links = {link for link in china_links if link}
+    available_china_count = len(china_links)
+
+    desired_china_min = min(2, max(news_top_n, 1), available_china_count)
+    if available_china_count > 0 and desired_china_min <= 0:
+        desired_china_min = 1
+
+    current_china_count = count_china_news(top_news, china_links)
+    if current_china_count < desired_china_min:
+        supplements = build_china_fallback_news(candidate_items, desired_china_min - current_china_count)
+        existing_links = {normalize_url(clean_text(i.get("source_url", ""))) for i in top_news}
+        for candidate in supplements:
+            candidate_link = normalize_url(clean_text(candidate.get("source_url", "")))
+            if not candidate_link or candidate_link in existing_links:
+                continue
+            if len(top_news) < max(news_top_n, 1):
+                top_news.append(candidate)
+            else:
+                # Replace the least recent/least specific tail item to keep top N stable.
+                top_news[-1] = candidate
+            existing_links.add(candidate_link)
+            current_china_count += 1
+            if current_china_count >= desired_china_min:
+                break
 
     return {
         "title": title,
@@ -485,6 +570,20 @@ def create_report_json_with_litellm(
 ) -> dict[str, Any]:
     endpoint = base_url.rstrip("/") + "/chat/completions"
     prompt_items = build_prompt_items(items, timezone_name)
+    china_candidate_count = sum(
+        1 for item in items if isinstance(item, dict) and is_china_candidate(item)
+    )
+    global_candidate_count = sum(
+        1
+        for item in items
+        if isinstance(item, dict) and not is_china_candidate(item)
+    )
+    auto_china_candidate_count = sum(
+        1
+        for item in items
+        if isinstance(item, dict)
+        and clean_text(item.get("source_group", "")).lower() == "auto_china"
+    )
     cache_note = (
         f"目标日期 JSON 缺失，本次使用最近缓存文件 {source_json_name}。"
         if used_fallback_cache
@@ -527,7 +626,15 @@ def create_report_json_with_litellm(
 9) 不要输出独立“对我的关注建议”章节。
 10) 不要输出独立“来源链接汇总”章节。
 11) {cache_note}
-12) 最终内容应适合单条飞书消息阅读，目标总长度约 {news_max_chars} 字符。
+12) 必须综合考虑中英文新闻，不可只看英文来源。
+13) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
+14) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）进行简短分析。
+15) 最终内容应适合单条飞书消息阅读，目标总长度约 {news_max_chars} 字符。
+
+候选池概况：
+- 中国候选条数：{china_candidate_count}
+- 全球候选条数：{global_candidate_count}
+- 中国汽车智能化分组候选条数：{auto_china_candidate_count}
 
 候选新闻：
 {prompt_items}

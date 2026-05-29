@@ -1,287 +1,418 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-29T07:23:38.752998+00:00",
+  "generated_at": "2026-05-29T08:10:24.322420+00:00",
   "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 46,
+    "success_count": 37,
+    "failed_count": 9,
+    "global_source_count": 16,
+    "global_success_count": 10,
+    "china_source_count": 30,
+    "china_success_count": 27,
+    "auto_china_source_count": 18,
+    "auto_china_success_count": 18
+  },
   "items": [
     {
-      "title": "FuriosaAI and Broadcom partner on AI inference platform for agentic computing era - digitimes",
-      "summary": "FuriosaAI and Broadcom partner on AI inference platform for agentic computing era digitimes",
-      "published_at": "2026-05-28T16:18:29+08:00",
-      "source": "\"AI chip OR GPU OR NPU OR inference accelerator\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWC15ZEk5Z3hPUE5zX1hqTkFSZ0psVVJlc0szYzFleF9nZkp4dmJNYnF6UWQwNlFLWTk0bWlmZC01akw2UzNhYjNQQ050X0ttMHJXVDRfT1NsdmR1TWMyVWdnMFIySG1tYkVNbG9GRHBTb29zOTR5R1ptbzRuTlQxbmQyNHA2UjdGLWVWYlVOQzRsa2ljYzcxcnd5UWkyX00wV01kLXBB?oc=5"
+      "title": "今日新闻丨比亚迪宣布为城市辅助驾驶无条件兜底！小鹏、理想发布第一季度财报！新款吉利星愿、新款宋Ultra DM-i上市！ - 电子工程专辑",
+      "summary": "今日新闻丨比亚迪宣布为城市辅助驾驶无条件兜底！小鹏、理想发布第一季度财报！新款吉利星愿、新款宋Ultra DM-i上市！ 电子工程专辑",
+      "published_at": "2026-05-28T23:53:00+08:00",
+      "source": "\"理想 小鹏 蔚来 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTWDZvVDAxWDlUSV9xNjdTNTFfaGwxSG5XWGxZUE9YU0xqdndFZnZHRmhmY1dMaDJWVEJXb1kxMUo0ZTV5ektwMm1CSXpPb09uSEtZ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
     },
     {
-      "title": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era - The AI Journal",
-      "summary": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era The AI Journal",
-      "published_at": "2026-05-28T07:33:07+08:00",
-      "source": "\"AI chip OR GPU OR NPU OR inference accelerator\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSi13RG9RMzRRWmExUFpqQXZVRlRjbDBDVWttQ1l2VW9DY3RUS2dwTTcyYWd5YV9DYjVjQ0FoRE1HRXBCRFZwVlVqazVMeFpoOXg2Z2YxbHBKdjdnZHMyMUdQSk52dF9SZUtZanVGM2RFWXJBTmQtakpxaUNjREl0QkozRVBtTkxXeDMzdTZCZnpXOGhma0VGSWR0TU5ONnBOR0gySzJCZDF0amkxdUxOUWtOZWlpa3RH?oc=5"
+      "title": "L4级智能驾驶，三颗芯片协同算力突破2100TOPS，并已实现量产。更重要的是，这是中国车企首次​_新浪新闻 - 手机新浪网",
+      "summary": "L4级智能驾驶，三颗芯片协同算力突破2100TOPS，并已实现量产。更重要的是，这是中国车企首次​_新浪新闻 手机新浪网",
+      "published_at": "2026-05-28T23:20:00+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OYnNyRW96UXNxaXJMUjBFXzZweUt3LW53bDVxSERCQjJudEdEZEd4UUlEN1N3LVczOVBtNjU1aTdaYy1PQWduc3ZKdnJTR1hnLU1Oc3hrUXh2ZjZaVmpSMjdMdw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "#王传福说敢兜底才是真安全#当下智能驾驶赛道迭代迅猛，各家车企争相比拼算力、硬件与技术参数，行业热闹之余，权责界定模糊的痛点始终存在。辅助驾驶一旦发生事故，责任划分难题，也让不少消费者对前沿智驾功能望而却步。 5月28日比亚迪智能化战略发布会上 - 手机新浪网",
+      "summary": "#王传福说敢兜底才是真安全#当下智能驾驶赛道迭代迅猛，各家车企争相比拼算力、硬件与技术参数，行业热闹之余，权责界定模糊的痛点始终存在。辅助驾驶一旦发生事故，责任划分难题，也让不少消费者对前沿智驾功能望而却步。 5月28日比亚迪智能化战略发布会上 手机新浪网",
+      "published_at": "2026-05-28T20:51:00+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hMFhYZjBJTE1ZR3FDZmJ0RlBqM0xYX3ZIZDk3RThEQTR4M19oM3dJbEI5MHlBMnkyZlMyTzUyUWJLcFVGT3k3bUdjQmZsSm1BZERReWRWc3VhZkZhQm5vaHBYUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "ICML2026 | AutoMoT : B2D & nuScense双SOTA ，重新思考VLM和端到端驾驶的结合 - 51CTO",
+      "summary": "ICML2026 | AutoMoT : B2D & nuScense双SOTA ，重新思考VLM和端到端驾驶的结合 51CTO",
+      "published_at": "2026-05-28T15:27:04+08:00",
+      "source": "\"端到端自动驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkSk50TVFGamRCMWRtbEZQVXdUQ21tMUs3RmdJeVhKZlhOVkNGeXZualUyNnB3eTJtd1A2ZlJPeC1leXVyS241N3FWc1V2S195UWFN?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "比亚迪城市领航兜底_新浪新闻 - 手机新浪网",
+      "summary": "比亚迪城市领航兜底_新浪新闻 手机新浪网",
+      "published_at": "2026-05-28T23:04:00+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdDVrZWVoMXpwQTB6a1J2blE4NDJkSWFxUmZ2NE4tYk9lODJmLWR3ZDc2OEM4SmdaVjFDSmhQX3kzOWkyT1dsVHpPTGdKUDU2MGVpT2JfUFgtb21XQjFfQWx5NA?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "买车赠送靠谱随车秘书！比亚迪发布超级智能体“迪迪虾” - 新浪财经",
+      "summary": "买车赠送靠谱随车秘书！比亚迪发布超级智能体“迪迪虾” 新浪财经",
+      "published_at": "2026-05-28T23:02:04+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSFB1bVl4NGh4MTFvX1BTS2hxdzdZNjNUdmRzOUhjME44S2ttQzhkb2tUa2lmVDltT2NvMHBfWXFDbnl1WmNvdF9VbmY5RVVDOFZJdTc5ZDhTUUVBN3NwVTk5QV9HRHJaaEF3MUNmNHB0d3phUXh0NFNvcTZObmZLQlJJX0FLcVU2bVBsbWEyUEc0eVVIVEJzU1RoNmQzV3M4NnNnZVFtTVhLRU8wa2VsM3UzSlNIR3k4SHFMajRjaV9Dak9rZDhOMDNHc1RoU1ZhVVpaY2NPZ3R4MEVaSEYwSlg1aTFIdFg4SDNDSVY3elRiR3BOeURpekh4NnBYYUY5Y1NSUzE1NXJLd0dM?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 - 电子工程专辑",
+      "summary": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 电子工程专辑",
+      "published_at": "2026-05-28T15:32:09+08:00",
+      "source": "\"AI 芯片 算力\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6ZFZLVk5Fcm1ITDYwQ1JBdUZTOGZNbXQtM2hReWpMd2l1dGRXUG9HUEZKOVdEb3VVRFhnR2Z3VFE1YzVFdlNxcE1lWnlxR2REV0RkbG1ldWhNaHRz?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - Sina finance",
+      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 Sina finance",
+      "published_at": "2026-05-28T15:18:00+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Z0F4TzZnemFDUG9RT1c2ZC1zVEx6M09keWdRWmVHQkVrNnFIQW82ZEVwQnJkdzU4MkNQUXJudnZxbHJXLVJfRjJEWDVtZXQwZzNhUUstVE9BRk1lckxMWTlYR1N5T2lSMlB3Z0JxcVRscWxsYUlpSTR6YzA?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 - 新浪财经",
+      "summary": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 新浪财经",
+      "published_at": "2026-05-28T14:13:54+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWtGOHBXeVFJRzRpOFVNdndlR3hOT3RRN3hSaks2Zng3ZkpyQkZVX0x4alNxcFVkSURpQ1VZYkFzMVNHQy1PRXZoamVpRXRRRFl2QTlHRGNHOXhZYlJhdVZXT0dJc0lGSDJzcW81OGx6MVRZUm96Zk91VEk3UFVxcUk0MHZWbldBSmxMSVAtZ0NMZw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "划重点！L2级辅助驾驶不是自动驾驶 - Sina finance",
+      "summary": "划重点！L2级辅助驾驶不是自动驾驶 Sina finance",
+      "published_at": "2026-05-28T13:48:00+08:00",
+      "source": "\"自动驾驶 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PbzRoVGc4MkR5aVZHMFNma2xtSV9iNjI0eEFwTlBQbFVFWDlWdGxtcWVEaml5TEdDa3VubWJLZmlqMWs1QmtnUjFlQjJQUVp4SHdycUc2RDlDbzRqUHJjXy14UFZGenpIMm9Zc1BYb0lBN1NxR2wxRw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ - 汽车之家",
+      "summary": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ 汽车之家",
+      "published_at": "2026-05-28T12:49:37+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YTXVCUU9zZU1RWFI3cFFGd0wwTGNxaHJsNTN6RjRzQlpsalF2azNaeDNNOG1RV0x4QVlvZm5pQ1hMamNEWmRLcTVNTndnNUhnN3ZucWdFMGE2cHM?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "华为ads4.0搭载哪些车型呢？ - 汽车之家",
+      "summary": "华为ads4.0搭载哪些车型呢？ 汽车之家",
+      "published_at": "2026-05-28T11:29:16+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQeXFwRGo1bzhzYklyNXRQMDBxZ1pUVEhZcVRhRno2TWxZQlZIR011dUFCMmNBem9BVVVtcWlMV1RfczRmU0JqdkUzeFZIRHU2blVZQmpfMVNlM1k?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "墨芯10亿C轮融资背后：揭秘这家公司的AI芯片技术有何独特？ - 电子工程专辑",
+      "summary": "墨芯10亿C轮融资背后：揭秘这家公司的AI芯片技术有何独特？ 电子工程专辑",
+      "published_at": "2026-05-28T09:55:33+08:00",
+      "source": "\"AI 芯片 算力\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0ybHM2N3JIMGw3VTZIeEZLVUtmSHFjMlg4ZkRTaG81b292TUxqT0VIWVNrRkZmTXJOQ2NrMm5LM1FINzNSQjNLUUlzUXBrS2hzeGk1UDh6em5zaXdO?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "AI“芯片荒”蔓延，或成中美科技角力“最大变量” - 虎嗅",
+      "summary": "AI“芯片荒”蔓延，或成中美科技角力“最大变量” 虎嗅",
+      "published_at": "2026-05-28T21:17:24+08:00",
+      "source": "\"AI 芯片 算力\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dldSU05jdTl0a1JTWWxqVkZxa2cwZV9oMFJVSTdsY1RQRkZOT0VIcXFSQlBoalZsZGg4RjVNZ1ZxSlhfMmFuOEk0bndaV3YzR3Ztdw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "直击股东会，天奇股份预计下半年交付小批量具身智能订单 - 21财经",
+      "summary": "直击股东会，天奇股份预计下半年交付小批量具身智能订单 21财经",
+      "published_at": "2026-05-28T21:16:00+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUlkLXIxRmlUbl9pWENLcksxdXVLZmxodHp3N3E4aHJHWm9ncDJMOEw2T3dZMkRNYjA0Rk1oejh4VGFsVE1vQldHYmNIbVJEWmo0dV84Q09XSzltMjA2bWluUXFNcXhOY0RYZFhKa0tKTUg5bVV5WDFacFBaaF9kbDJVT09ScnNjQnk1MFVyRQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "港航业拥抱具身智能浪潮 如何跨越“最后一公里”？ - chinanews.com.cn",
+      "summary": "港航业拥抱具身智能浪潮 如何跨越“最后一公里”？ chinanews.com.cn",
+      "published_at": "2026-05-28T21:02:57+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52SkVIcDl1b1FtcUFCSWZ6LUlMU016S0lHcmltaHUxbC1CVWdlZjFheWViaUtFa01xb2tZOG1NTjd1WElRZHBnOThoR0xGaHNGSzVmRFR1VUhIZnNkWEFyVWpDNVFMQkNk?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "京津冀具身智能机器人产业对接会举行 - 搜狐网",
+      "summary": "京津冀具身智能机器人产业对接会举行 搜狐网",
+      "published_at": "2026-05-28T19:19:16+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLWk2Z25hRExCZjVvYkhUSmdodmpZQ0wxTHNwZ3lSRTkzTUwyVXRlRVNEaU9Fd2tqTWlicVFXZlJ6R3FydmNkcFZFWDFsTE1Ca1BRZDBDMnpnb1dPWFBVa0FWREN2ZHJVTE94YkNuLWVoM0FsQUp3MG1EMUJnUllWU2ZaTHVWdVpGUHZ4Zg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "法国AI公司Mistral拟自研芯片 CEO称正加速基础设施建设 - 财联社",
+      "summary": "法国AI公司Mistral拟自研芯片 CEO称正加速基础设施建设 财联社",
+      "published_at": "2026-05-28T18:53:09+08:00",
+      "source": "\"AI 芯片 算力\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWSFBGUzFHeGNFWkZ4dnNKMHpWNEZkc01uemlVREtId0o0dzRqb3A2eG9sdjZGWHczd1daRG5NUzV4TFRYdHlHNQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 - 汽车之家",
+      "summary": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 汽车之家",
+      "published_at": "2026-05-28T09:12:26+08:00",
+      "source": "\"车载 Agent\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IR25aLUJEbW1hZVVnOXdSb09UVnB5Ym1QMVd2ZUNFdzZwUmRPRXl5RV9la0ZkWmJtbWtLYlFqcV9OZWV1OVRhd250Y0paSGtPMEx0ZFJhNG94VUE?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "大厂全线押注AI编程，Vibe Coding掀起“全民造应用”浪潮 - 搜狐网",
+      "summary": "大厂全线押注AI编程，Vibe Coding掀起“全民造应用”浪潮 搜狐网",
+      "published_at": "2026-05-28T22:33:34+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPalEwOXNyZHN0UzM5eFNubkxINDEzSFNfUE8wZmlwa3h4OEpEWUhOTUkwTThfclF3ZjB0R1BXT05aUXMxOGotSU5CMDV2dmZBRm5pTWRZY0RYNXV0Ri1qMTBpQmZBZzNYSjFrYURyYmRkMEx3VEsxS1FNZ01hX1ZQSmdNZEdkbHFv?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 - 36kr.com",
+      "summary": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 36kr.com",
+      "published_at": "2026-05-28T19:49:00+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ONm5MWmlKWm9Sb2dXMkR3VXNQYnN1TVNiSWJaalVGZ0VJNklwOE8xYkY5bmdQMDl2NjZJdnphdXZHcjVvX1FzRGo0blJEUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "AI中转站低至1元引流：薅大模型羊毛掺假倒卖token - 安全内参",
+      "summary": "AI中转站低至1元引流：薅大模型羊毛掺假倒卖token 安全内参",
+      "published_at": "2026-05-28T18:15:58+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kbUp0dDN0YXZlb2VxeUhWWWRqa1pudF9Sd3BMSmVBd1ljRzF4bFBSSUJJYmJveVZWcW5BaTlrM2VLMkRJbFJXak5sTXlXUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 - 安全内参",
+      "summary": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 安全内参",
+      "published_at": "2026-05-28T18:10:55+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MSkMwS2hUdEN2SVhIT0wtU2thM3JuVkR4cWF4MmpYeGVweWFzLWpScDE2aDEwYVcydU1zUmVZSXJpajBmc3ZCejI3elVKUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "郭岳泉博士：AI大模型如何让我们“看见”政企协作网络？ - 教育在线",
+      "summary": "郭岳泉博士：AI大模型如何让我们“看见”政企协作网络？ 教育在线",
+      "published_at": "2026-05-28T17:44:00+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zS2JYTTVCZDRSMEpQUEIwWkgxTk81NkRlYmFRRm9oLXRjZVpyOUJFV2tnejR1d1pCeFBSSnczQW5Na3d5QkkxOW5tTVlrY0VmUXkyTWxiTzNGY0xRd19HckZuRjZoS19ieWlUZg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "一个AI写了自己90%的代码，然后估值涨了25倍 - 36kr.com",
+      "summary": "一个AI写了自己90%的代码，然后估值涨了25倍 36kr.com",
+      "published_at": "2026-05-28T15:57:00+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SUHBDVnRoT2lrYXMzMnhtRzl3V2lzYkVrVHRJal9pRU5KLWNfUG5hZzU3VzFPMVdQZXVYTzlzRmZMb0ViNGxjQ056cDVGUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "智谱再做LP 联手国泰海通设5.4亿AI产业基金 - 财联社",
+      "summary": "智谱再做LP 联手国泰海通设5.4亿AI产业基金 财联社",
+      "published_at": "2026-05-28T15:31:58+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBVRGxuWDZmWllKZWl1dFd1aDR1T3BlS1FIUDRJUk93d29TVHc5QzY4YmkzeVBTSVNVMkc4d2NYM19xcDE3UFZLQQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 - 爱范儿",
+      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 爱范儿",
+      "published_at": "2026-05-28T13:33:49+08:00",
+      "source": "\"国产大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE51WjZfSW9wQ1dCdzFsQlJaQkZ5N0ZTNkVpLWF2N0pUaXlDbVlFZjFJWWxjcTRiOGdjWEhkOF9TTk9CZE0?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "算力和存储芯片一涨再涨，国产大模型为何还敢“最高降价99%”？ - 新浪财经",
+      "summary": "算力和存储芯片一涨再涨，国产大模型为何还敢“最高降价99%”？ 新浪财经",
+      "published_at": "2026-05-28T09:26:24+08:00",
+      "source": "\"国产大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY3p5S2JDc3ZyN2ZhYWJnN2N5QjdpaUM1c2d5bld5ak5kQlBTNThyVVJLQm5hel9pRURlSjN6MVpENUxmMmhpWGZsZjFKNHFaN2RRbVdvV21MczZMeGdpdEJCZVREbHlmMU41V3IwOFltZ3lFREtwaWs0THU2SWJJU0dVTmY1ZmQ0XzZ4VXdxTFVveVIxOGlhUzhkUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "2026全球 AI 大模型 API 聚合平台服务商：企业及开发者的长期首选 - 中华网",
+      "summary": "2026全球 AI 大模型 API 聚合平台服务商：企业及开发者的长期首选 中华网",
+      "published_at": "2026-05-28T08:59:11+08:00",
+      "source": "\"国产大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YYlhZMzZBZ0pZWnBiSE81cFZSc2ZGUnYzUGI2aHN6LThvenZHYThVWHZxZkJRam03dE1LZkxjVm94UlFvTXdRRlE4WjluRE1JU0ozOGNaN3IxQUtyalYxaTB6aWhVdw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 - wenxuecity",
+      "summary": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 wenxuecity",
+      "published_at": "2026-05-28T04:21:42+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YSTUxU2JxVDl2bE5qTVZaNmpqMGRLX245MmVLODE0LXJRQ05ZT2J4SWlwZXZMRlAyVk9fZ2xkQzRaZkJyZ1ZienM4eWxHajZidmlKM3J4Nmh5S0NKX004MDltbzF4blBM?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
+      "title": "AI Coding 能力模型：代码都让 AI 写，还要学编程吗？ - 虎嗅",
+      "summary": "AI Coding 能力模型：代码都让 AI 写，还要学编程吗？ 虎嗅",
+      "published_at": "2026-05-28T21:57:30+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pOWRhUUxMMzZOODhnZFdNaVJLMUNBWHFDZ0t2TmFPMlV5a1drLVJBRU82RXN4a2prSWZMMGU4TVFoak56bEZsaUxmM3MydlFQS3RCUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
+    },
+    {
+      "title": "让机器人学会番茄炒蛋爆红网络的 Genesis AI，开源了自己的机器人「训练场」 - 36kr.com",
+      "summary": "让机器人学会番茄炒蛋爆红网络的 Genesis AI，开源了自己的机器人「训练场」 36kr.com",
+      "published_at": "2026-05-28T21:38:00+08:00",
+      "source": "\"36氪 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZTXd5dkZ2VVVqRWhINjdqMzdYTXJsSW1VcmNFZXlzWVo0SHZqa3BGT3pHUmpSWkE5RzhIeEkzb2wxR3RadVBWU0owYkpwUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
+    },
+    {
+      "title": "3.25亿次周下载、FastAPI“地基”爆雷，这个Python框架曝出「致命漏洞」：一个字符，AI Agent集体“裸奔”？ - 36kr.com",
+      "summary": "3.25亿次周下载、FastAPI“地基”爆雷，这个Python框架曝出「致命漏洞」：一个字符，AI Agent集体“裸奔”？ 36kr.com",
+      "published_at": "2026-05-28T21:16:00+08:00",
+      "source": "\"36氪 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yUFdXVjFKdnA0bDdsM3RNX2lKYTJmRXMzZEpVUVhQeVhKaWlxRTNZd2ZSRjdGSnYwdlZtR014S1RaY1VrWlZBQXphcGFKUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
+    },
+    {
+      "title": "AI创业告别粗放时代：垂直场景与数据安全成为新壁垒 - 虎嗅",
+      "summary": "AI创业告别粗放时代：垂直场景与数据安全成为新壁垒 虎嗅",
+      "published_at": "2026-05-28T10:11:36+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yYk1QVVpyVTNiYzF5cE0wQ3dXaVFpZkxGMU1jcUstbjl2T0VxbWJRYjNhTkYwakQ4SVh6VUpDUGhmQ1BfdW5ZVjhobkc3NmN2aFphRg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
     },
     {
       "title": "Neo4j: Context Graphs for AI Agents - StartupHub.ai",
       "summary": "Neo4j: Context Graphs for AI Agents StartupHub.ai",
       "published_at": "2026-05-28T23:03:02+08:00",
       "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUllUVVfM3hxSkdVWE1IOVFHai1iMXJ4cGltQkxKTFV3Qjlqc0tjWFV4aDktcGtxUEZ0TFphQjhfQXdBTHRjcVI5RTRzZklSSmFGTy1wcEpmSmRULXdZUG9qWGFWbEY1SU92aDh5ZTNJR2kzSHByd1o2WWNWRU1vMVJycVhvV05lSnk4SUJkSzJYRWJQMmJwWW5DTy1iQQ?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUllUVVfM3hxSkdVWE1IOVFHai1iMXJ4cGltQkxKTFV3Qjlqc0tjWFV4aDktcGtxUEZ0TFphQjhfQXdBTHRjcVI5RTRzZklSSmFGTy1wcEpmSmRULXdZUG9qWGFWbEY1SU92aDh5ZTNJR2kzSHByd1o2WWNWRU1vMVJycVhvV05lSnk4SUJkSzJYRWJQMmJwWW5DTy1iQQ?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global"
     },
     {
-      "title": "Inside Rocket One's bid to design cooler AI chips for space and defense - Stock Titan",
-      "summary": "Inside Rocket One's bid to design cooler AI chips for space and defense Stock Titan",
-      "published_at": "2026-05-28T20:19:00+08:00",
+      "title": "FuriosaAI and Broadcom partner on AI inference platform for agentic computing era - digitimes",
+      "summary": "FuriosaAI and Broadcom partner on AI inference platform for agentic computing era digitimes",
+      "published_at": "2026-05-28T16:18:29+08:00",
       "source": "\"AI chip OR GPU OR NPU OR inference accelerator\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLUZjS1dONjlrM2g0aTJNWGFPQWVCMTNOb1paamVyaUUxbkNHQ2cyaDhxdFNTR0Q1aGVVNzBFdTROUjd0SGxJcExrcm9IU1JQei05NURWeHJ6dGQtaW1UV1g5ZkpScG5Rb0MyX1BJTVhxM1FjYzhuX3lQSmdKUmtfdjRtaGFmbldYUnBWVXNJbHZsUWZBb2RFYXhyeGtVZFlpLTQ2MTlZXy1ZeFRRNGhGeDNqcXVLdw?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWC15ZEk5Z3hPUE5zX1hqTkFSZ0psVVJlc0szYzFleF9nZkp4dmJNYnF6UWQwNlFLWTk0bWlmZC01akw2UzNhYjNQQ050X0ttMHJXVDRfT1NsdmR1TWMyVWdnMFIySG1tYkVNbG9GRHBTb29zOTR5R1ptbzRuTlQxbmQyNHA2UjdGLWVWYlVOQzRsa2ljYzcxcnd5UWkyX00wV01kLXBB?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global"
+    },
+    {
+      "title": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era - The AI Journal",
+      "summary": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era The AI Journal",
+      "published_at": "2026-05-28T07:33:07+08:00",
+      "source": "\"AI chip OR GPU OR NPU OR inference accelerator\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSi13RG9RMzRRWmExUFpqQXZVRlRjbDBDVWttQ1l2VW9DY3RUS2dwTTcyYWd5YV9DYjVjQ0FoRE1HRXBCRFZwVlVqazVMeFpoOXg2Z2YxbHBKdjdnZHMyMUdQSk52dF9SZUtZanVGM2RFWXJBTmQtakpxaUNjREl0QkozRVBtTkxXeDMzdTZCZnpXOGhma0VGSWR0TU5ONnBOR0gySzJCZDF0amkxdUxOUWtOZWlpa3RH?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global"
     },
     {
       "title": "Coding agents in the social sciences - Anthropic",
       "summary": "Coding agents in the social sciences Anthropic",
       "published_at": "2026-05-28T07:09:02+08:00",
       "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOVA5Z3pKZ1JzSHJXaFl0LWdSQlZfZWhGb3AtY1R3MExZRm9KS2dfRmNzTE1XR2VXdjlPMVh6U25SU2JmcXBZQjlnSWRreHM2SGZmTnpQVzRLQVFmVFQyOExiR2o5dFhSb3A2WVBmV2RzQQ?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOVA5Z3pKZ1JzSHJXaFl0LWdSQlZfZWhGb3AtY1R3MExZRm9KS2dfRmNzTE1XR2VXdjlPMVh6U25SU2JmcXBZQjlnSWRreHM2SGZmTnpQVzRLQVFmVFQyOExiR2o5dFhSb3A2WVBmV2RzQQ?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global"
     },
     {
-      "title": "AI ‘art’ is boring, soulless theft – and when I see it as an artist I see red | Jess Harwood - The Guardian",
-      "summary": "AI ‘art’ is boring, soulless theft – and when I see it as an artist I see red | Jess Harwood The Guardian",
-      "published_at": "2026-05-28T23:48:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanBhTWo4SWFZVTdMdVM2RmVXckNrMDIxS0c3bWdPbkRHOFFaWEIyUzhIQUFZRXZLWnlpaU80UXNIRXM1M3BMaEFDMk42UTZKRGZzdDJzWkJKakVZWWhtRFNfcEJDWk95MjdsUDM5by1CempITHZpeTZuSkp0d19vcmRxUXgwYlAwMlRybXJsOTZBTFVqRG81bngwT1hDbXhWU0lHSG8xZ255OFpVT0gw?oc=5"
+      "title": "AI应用的价值在于深入垂直行业复杂业务，而非大模型公司的主航道 - 虎嗅",
+      "summary": "AI应用的价值在于深入垂直行业复杂业务，而非大模型公司的主航道 虎嗅",
+      "published_at": "2026-05-28T23:51:55+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LR1ZPNmEyRFY5Rlp4Z1BBLVVUeHBRVGQ5QkhXU2JFU1pHNkVCdVowV05YWGIwNTBnSmhoLXRiYU1rTmJvZ2xJZjMybXNGa1JPY0tfaw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
     },
     {
-      "title": "Amazon MGM’s Dream of a ‘New Golden Age’ of Animation Hinges on Three Iffy-Looking AI-Created Kids Shows - IndieWire",
-      "summary": "Amazon MGM’s Dream of a ‘New Golden Age’ of Animation Hinges on Three Iffy-Looking AI-Created Kids Shows IndieWire",
-      "published_at": "2026-05-28T23:30:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWU5S0Y1cHYwU0J4bGFUQ2Y1cnRtYXJlN3FwTGN4QURXTjRpWFc1RkNURXpfRXU5T3pIbUlpV09xdTFKRE13elJjZ0RPY094RERLZWZZQ3l3RGE1OW9HOUNEVVc3clJYYTM1OTdvMWxSQnN0b0NjenA4dTc2X0dTWWZDNkRNWGk1N0hOSVZ4eFRJd2M2RE50REM2YmpKMkpJ?oc=5"
-    },
-    {
-      "title": "AI systems are only as reliable as the data behind them - WFTV",
-      "summary": "AI systems are only as reliable as the data behind them WFTV",
-      "published_at": "2026-05-28T23:28:00+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPakxzbXEtZmJrdHptMGJBeXBoQk1tWm56YktzcGxuclBwWkJlaTA0YzJGUzJDNFlNTjU5N3VTVGFBQWhvRUFOWDFhd3loRExPRkRRSHZHLTJ1TUhaRGlmN2RfZmxJeHozU3ZDY3d5eTlRdjlUc2didWdwTEQ3V0ttTWRsZzhnRmtnUlZHZGRCOXhZRjR0WHJKQjViOEQtUHhOX0tKYUlMLXTSAbwBQVVfeXFMTUtlQVl4bkY0eWctYlFSUGVTZFYzTmI0V002SkFNNXVNWkM2aVhTVjIySjJVckJyY2gwNmV2akFLQk45ZEFSbVl1b3k3elBPUFhUbzFteGtGZ3ZuazQ2Mm9PVUNBMzllTVVhXzBqaFZZWFVHUEFxVUpiSnFNNUJDX09YLVM3U0VHZUQwMkp6T3c2c0Ewam9LUXZwNmtlbUZ6SUdBYzBqMUc3YmdUR2ZaODRYSENYVjVHN3FPRVE?oc=5"
-    },
-    {
-      "title": "Marc Andreessen doesn't mince words on why AI coding agents are better than humans - AOL.com",
-      "summary": "Marc Andreessen doesn't mince words on why AI coding agents are better than humans AOL.com",
-      "published_at": "2026-05-28T23:26:58+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mWUpOS1VrVjl2R1RLRDFrSE4wRUhVNHJkZ09qSUxzV1BNMjZ3TmJJY01GRkVxNDNGbjVQOUJKeTBsdURWVlVlWmpHM05UMXpMTkFENHVQUjAxU09DWDUwV1ZfbXNNNXpMU1h5MFEtWTVkTnFzc21adWd3?oc=5"
-    },
-    {
-      "title": "RSI is the new AGI — and it’s just as hard to pin down - TechCrunch",
-      "summary": "RSI is the new AGI — and it’s just as hard to pin down TechCrunch",
-      "published_at": "2026-05-28T22:30:17+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOejRBdUFQdDRfM0pudDhYU1V5N3dpZ0tJNk5NTmxPaDdBTVRCSHpKUDg2WFo0SUF5eHlYaU9IOHpqUV9NVDEtLXF2dEFneklVOEJQalVrY2ZaMWoxZFhhUnNhMWpDV2R5WExWM1NzdWNlSWZCLWV5Y0wxd3BReUhxNHh6UUFfd2tRT25WNmUxMA?oc=5"
-    },
-    {
-      "title": "Sundar Pichai on Google's answer to Anthropic and OpenAI's AI coding agents: I think coding ends up being - The Times of India",
-      "summary": "Sundar Pichai on Google's answer to Anthropic and OpenAI's AI coding agents: I think coding ends up being The Times of India",
-      "published_at": "2026-05-28T22:24:00+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRzB5cG1tdXBiRXpldEx4NnBNcmpWdTl1cnh4U2VPNzFBMDJlOVBBWHVsVm1oUWluT3ZjcDVjNXBtVDR3U0ttdEJYanhpZXdVRUJheGY3c3VjdHdVVHpNYUhJRnhudU1WM0NMcXhxS3JhcUJaT204SkhlZzgydGtWZVZWWUE5QXd1ajMtdmJXdHZmU3hoSnlodmplUF9uY1FqZlVKRXJHZmFRajRjeE9YeW1Oc3NxeFhLekV5QjIyMzBSTE5JclRyUXRoellqRl8ydkJTcTNXNllWbGxJUVRLUjdEUlRhU3VlaTdDcjZ0MmFuMEFwMDE5MlBDbm5QRjVZWXBsbVpNYTNfaHNVTFlpQ2ZfZ2U2Vkl1UkFB0gGgAkFVX3lxTE5NWUh3UTR2MkRuUWtyMndJWVlwVkJBdlJmc0FZQ2N2Y2xlVWRjQ0M1RU8zaHB3SndmY24xU21sSy10NVQ4dHFkWFcyeS13bTh1eGRxMklEaVNCMmVHS0JNc1Z4T09xNXp4TUdkOEplWS11dHNFb3c4SWNoZzVtdV9vdjAtNWFjYTJvSTNXcGQzdkU4a1A4NEN5eS1sYnhvX3R0SGprbFYtSWhTbWNaTWo4RXc1VVJ0bUdXcjFLa184LTBsaG5Ebmd2c0k3dEtIQmpabndCMmdaeDhCUGxDdjRCc2VTTmVzQVU5WFBhclE0aHJRSDRqUmtkVko1YUJ1SWstaGRWX2k3NDMxQTRpT2dxYmsyY0xva2UtRXQzTUp3Xw?oc=5"
-    },
-    {
-      "title": "Snowflake surges 36% for best day ever on AI frenzy, fueling software rally - CNBC",
-      "summary": "Snowflake surges 36% for best day ever on AI frenzy, fueling software rally CNBC",
-      "published_at": "2026-05-28T22:10:59+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44eUlqYUwzM3RabUg3ZXItM3hEbjY2amRfNnJwMHdhbnpCYzRyaTBiNWlRNmt4a2JyR3prQkVXNERzZmdvT01Nc2RQRFFuQ2J5SEdjM2FiY3d5Yk1RVkdxOU9jQjRFc2k0TnlDWjB6UGxUWDNiZTJZemxoZ07SAYIBQVVfeXFMTmpNQkl1aGdILVVlRmZwSmFyZE45Y2EyMFhBT1F6MVRGRGlXQXBVbElkT2hBZXBGcUh3aV9vbE1kRlRlOXplRC1vdjFJeXNPQllETkM2WkNfMFh3bmR2LWE5VjYzeE9MemZxNkdOTjJHSVZzeDhVM2taOWx0STVmM0tYZw?oc=5"
-    },
-    {
-      "title": "How Neurosymbolic AI Keeps AI Coding Agents Honest - Built In",
-      "summary": "How Neurosymbolic AI Keeps AI Coding Agents Honest Built In",
-      "published_at": "2026-05-28T22:05:56+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QWV9pV2ZLNnRZM0xNQnVhb0Z4Q01oeHJOTExCYWlLeG5tMDZwbjU3WVJCWGJaMVZNWHplSXpBSFY4dy1FVjNqcEMwQWlNTGF3ZkhPb01fVzk?oc=5"
-    },
-    {
-      "title": "Abaka.AI secures $8M to expand AI data infrastructure - WFTV",
-      "summary": "Abaka.AI secures $8M to expand AI data infrastructure WFTV",
-      "published_at": "2026-05-28T22:02:42+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUphX3Z0R29fNDk5T3l0VldPVEI5NHdCd3V4bXNJZ1dUdTBVQ0VremcyYks3d2pZU0tBM25mY2NuOFZwVWxLRFI0RVM1b0llMWw5N0prZVg5WmhSVkNPOUxYTG80bTFJMUpjdXpSOVJEbUc0OF9EZ2hJOGQtaXg5TzByX1kzSVFBdFV0OUdKaTRialhncndBNGFINDlaSjdYc2diaWRZdkdUSUF00gHAAUFVX3lxTE5rQUFwQU43TG43NkhNREJHOXAxcXB5UHh1Xzh5b1FEN3VaaW5VMWgzYkRPLUw4VFNJYmJoVDdVeGkxcEZwRnhHbzZ1VUotMUg4dnpkQ2dXYUdyVXoxVVJkTTZmNHNDVXlmWFlCUXlXNFlqM25yMkhkcnIwYVlyT2RoSTBiaGkzZnhwenBiUzYzOXFZTFJiRDNWUjU3b3pnVUdzdjNBSjVzeXlmclBDaWVodzNjY1JqR1Ria1ROWHZUVQ?oc=5"
-    },
-    {
-      "title": "Junk Food in the Age of AI - Avi Loeb – Medium",
-      "summary": "Junk Food in the Age of AI Avi Loeb – Medium",
-      "published_at": "2026-05-28T21:43:59+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SdHdIeHRxZU5RTUU4Z2ZNazcxZDNZblRYbmcxUmdNSzhkTUpnZlFsOGt4YmpXVFNUaTR3UkFrM29mcXBhUzRFRUFUOFN1VW1IM2FYYWtYMTc1OWFZWXY3WEhydzlnVzhOTDZjUHY2bmV3NnJ2MlE?oc=5"
-    },
-    {
-      "title": "Sprinklr Acquires ViralMoment to Expand AI-Powered Multimodal Customer Intelligence - citybiz",
-      "summary": "Sprinklr Acquires ViralMoment to Expand AI-Powered Multimodal Customer Intelligence citybiz",
-      "published_at": "2026-05-28T21:40:07+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTXpWSEJpWUJfOHhUTFZyc0NVOTBaOEI0NWdWd2MyN3dpZkxDYnM5N3Y5Q1lPS1kwd2pOLXBPUWlKUlducEp4djV6RTdCZW5HYjRDNEpCWDFBYXktTGRQa2NWQlRHSGV3TG0zMjlXOEZZRmRDczJkV09zbVFNRFlHWi0wVjVzeWlYYi1QMnZNa2xOby1oZDQ0QjhkNjZzaGtfOFBnelFYQkZZWW9FclkwUVdWak5mbjNFT2RYWjkwdw?oc=5"
-    },
-    {
-      "title": "Multimodal AI biomarkers: from biology to patient stratification - ESMO Daily Reporter",
-      "summary": "Multimodal AI biomarkers: from biology to patient stratification ESMO Daily Reporter",
-      "published_at": "2026-05-28T21:35:10+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbDE3M01UMldfc2I2aUhKN0tLNU04aXl0R29EM3c0dGN3WUdIVGpRTlRBLUdEcS1fUW9ZZGxzZXRiR3ZtcHlmRDVLTlBCWWI0YV9YeS1JeEJtNHRCLXN3ZGhFemxhNEhKMThNZTgxTzN5OFlfX0gtbFlhcnFFUS16aFRqc3ozcnRtbjJLcWs3OVRxdkN0R3lLbFNMZVlJZGox?oc=5"
-    },
-    {
-      "title": "Vibe gets to work. - Mistral AI",
-      "summary": "Vibe gets to work. Mistral AI",
-      "published_at": "2026-05-28T20:41:04+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ubUVYaXlzZ0hnWG8wTEt5cmNaYUNSVnZOSVdVS0tqd1Z0eDc4UUVEaXNfMTFfYXI2dnMxaUpZX1FVdzlxRE9McjlTTQ?oc=5"
-    },
-    {
-      "title": "CNN sues Perplexity over alleged AI copyright theft - CNN",
-      "summary": "CNN sues Perplexity over alleged AI copyright theft CNN",
-      "published_at": "2026-05-28T20:34:09+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5GNTdtWUV1Z1RlSy1IRGw1cC1MRG0yc1RYSEhleFJMRjFwNmstNFk1NmJPSDZ2Z0RvXy1wNjZkWkF3MndLb0p1ZERLazl0bEZyRmxUSm40TlBvckFtY0xDMGF4X3o2SG1PUHBmN2E3VnVWZ2o2M3pxYw?oc=5"
-    },
-    {
-      "title": "New Edamame Platform Aims to Catch AI Coding Agents Going Off the Rails - SecurityWeek",
-      "summary": "New Edamame Platform Aims to Catch AI Coding Agents Going Off the Rails SecurityWeek",
-      "published_at": "2026-05-28T20:00:00+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTEtoSzE4M3VqcGxQTk9Gb2FNTnNHd2tueGpTeXN6WmFoSW1FNldMMjVtYmtnV0hMRU00bV9lc2xiQjFqTW5PZG9Jb0tFaS1fWEt4STcwbGlfd3UzeTFfaXBZTXBwRUV6VGdsZ3RMSllyWW9URmVLRU5NT1lkVHRxM0xrQTNmQ3ZPOGdTcmc3Wkk4Zm1kank5TjNfSnUzOEpGSGFN0gGoAUFVX3lxTE5USzlZc2lCUWxfSExxcWlRVkdiWl9YVnVXOWNXbWVWZ1FnNU5WVjBNM09MSGhlcTUxOWh5OWlReVRwcFhOVFpYWExGc3lXWFU2SUZEeWVFUzZ4bG5fN3VEN21Bb3hvbWFIaG1jXzFJTzZ4X3JMaGI2RVZ5R25iWWxUUE95ZENwZHR0cXRaNmRaZGtZT3pkVVFfUm9PUTFfQy1aVWFSQ050eg?oc=5"
-    },
-    {
-      "title": "AI is changing this job so fast the interview process can’t keep up - CNN",
-      "summary": "AI is changing this job so fast the interview process can’t keep up CNN",
-      "published_at": "2026-05-28T18:30:08+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6YW5qaWVpQTh3V05RbDMzYXE4cFB1Y0U5Z2N4YmZQSFJCUUo3U0JPN0tuTmNvc0hOZ0p3NEVmc2hDV0R4cVdEVVZDejBvZjgwTzJ2WXlNVXE3RUhCNXN6OWJqV1FhUWoxa0NYZ29xaDRGWmNVVlQ0THFIMW1adw?oc=5"
-    },
-    {
-      "title": "The people who actually want AI to replace humanity - vox.com",
-      "summary": "The people who actually want AI to replace humanity vox.com",
-      "published_at": "2026-05-28T18:30:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRE5lTXF2VFM0aks0TldaNTdjYVEyajM3ZXAyV01PU1NnVVRLaTRZdGw0V2tseHBlbWY5amNmeVNrbU5qempBc0twaFJfVkdIUkk2Qm1tR3pJYVhsSThwUjc1aFZHUEFzNXY3cnVyX2ZxUVgxRjRpOVV1UnRCRlVYUE9yeGpCYmNvRjlBQzl3?oc=5"
-    },
-    {
-      "title": "AI Now Summit 2026 - Mistral AI",
-      "summary": "AI Now Summit 2026 Mistral AI",
-      "published_at": "2026-05-28T18:13:09+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WamJ4WnhZZVN3dFFSMWZ3Zk5kdk5tTE1kLUxkSExoOGVqM09aYlJPdEp4SnB4Ukt1eFFlZVdPM1pIQkRpcFNUdXNvc1VvUEJoRmdxSmRn?oc=5"
-    },
-    {
-      "title": "CrowdWorks Launches Physical AI Data Lab to Expand Multimodal Data Research - thelec.net",
-      "summary": "CrowdWorks Launches Physical AI Data Lab to Expand Multimodal Data Research thelec.net",
-      "published_at": "2026-05-28T18:04:19+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aYzAwSXFsdDhsdDJWODVmc3huZ0FQajJicU02RDBBWHUzbVdzWUVBTUJQVV9FNzAtamdseEY5emJDRkY5cWxhcGFPTnlJNGI3Vk1kZjVJWXFQVjBfNU1iYmNmWDczcEE?oc=5"
-    },
-    {
-      "title": "IBM and Red Hat Commit $5 Billion to Redefine the Future of Open Source in the AI Era - IBM Newsroom",
-      "summary": "IBM and Red Hat Commit $5 Billion to Redefine the Future of Open Source in the AI Era IBM Newsroom",
-      "published_at": "2026-05-28T18:02:54+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWWt0OS15bUhvZjZXbVdBYkE4MHI4R3ptWldmOV9SNzNCUXhhUm9iU3V2OVc0eUl0em0wRm0xblpoUXFlR185Wk5SSy04a2JicUlrMWdQeXJzQ0xDRVh4N0hBS0ZFcFVSYmNUVFJRUTVRVXhTYjFRS3cxODdlNGpMOFVDbnVJOUoyNS15RUZOMTlmUm9USEtHQ2kyUWFLUVlNaE5WTzliazF1TTJlNHVqNVVZMkFLR3JBckJ3eA?oc=5"
-    },
-    {
-      "title": "Airbus partners with Mistral AI to strengthen the use of artificial intelligence in sovereign aerospace applications - Airbus",
-      "summary": "Airbus partners with Mistral AI to strengthen the use of artificial intelligence in sovereign aerospace applications Airbus",
-      "published_at": "2026-05-28T18:00:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPc09ZWEhvR1F6YjRqblB1Q25iWXhENWo1UXZzOXpvYlBHcDFnZmxWYVZWM2pQQ3NYZndZYkh6THF1a2J3Tk5oS3F1eTl6d3l6YVdsaXR6Q3lVYnZlZlJaSkVYaEFCQk9aZlBoOHlQdk5fU1NJSjhVY3lzbWoxaUVaV0pqaFZER1pVWnEtOHE4ZUJWZmY5QmlRQWRRTFVJN3V1NU14bzJycnQySVBSRzhNcUsxbEI1blRHLS1Nb1pTR29Rc3hESzRZalpyOUpKaDA5VnoxeFdCYW5lcGtMUTBrRURGbmF6QQ?oc=5"
-    },
-    {
-      "title": "Nonfiction Book Publishers Aren’t Remotely Ready for AI - New York Magazine",
-      "summary": "Nonfiction Book Publishers Aren’t Remotely Ready for AI New York Magazine",
-      "published_at": "2026-05-28T18:00:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONW1iTHBJbDIyTVlRUVpual9SOWF4ZnN0RVZKSkhCcUxLYkFWOGJ0WFJZT21iaHJtTkprRDJVa0pVWnNwOGdwWHdIUmRTVjJBc3MyTDRja2ZXbnY1NW9fX1RMdjlsWmQyeGtaOVZPaXRDWGhGSkozQ21QX3dLLUhwTVY4YUxxUllWMnBpaXRXOVFxSzNSVmo5eDVIenhZVlNs?oc=5"
-    },
-    {
-      "title": "Factions inside the Trump administration wrestle over how to handle AI - Politico",
-      "summary": "Factions inside the Trump administration wrestle over how to handle AI Politico",
-      "published_at": "2026-05-28T17:55:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdjRoXzQ5U0dycGNua09FVEpSRG5lU1VtcEtGZVQ5Si02OU43X0NOWFhGaVFESzQ5Vl9VTG8zSnROTWpkN0NwYjY5NllqVkRkeVZZQThabE5jdXJ0dEw3UTRkcjdGR3FiRGlycXFSTmVYbHBwS3V2YjRiLVViUk9pZ0s2c2FVTlByRHI0RUFVOHRMQW9nRnBydHludlhlSExSbGU1WGNrbmo?oc=5"
-    },
-    {
-      "title": "AI sticker shock hits corporate America - Axios",
-      "summary": "AI sticker shock hits corporate America Axios",
-      "published_at": "2026-05-28T17:20:51+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxbTB6eVpQMDZZNWZqTEc0SC1LUkFaWEpybm5jc2NtMG5WLWV1TllsZGlEX2JYRVlfR3BMamllRjExZEZLZUpSM25xbWdlYTY5WHFmblZYNnFpdUFnQWY0TzZEUnlKZmVhZVZuZ1duYjh6R2c?oc=5"
-    },
-    {
-      "title": "AI costs are spiraling out of control at Microsoft and Uber, suggesting AI might not take your job after all - moneywise.com",
-      "summary": "AI costs are spiraling out of control at Microsoft and Uber, suggesting AI might not take your job after all moneywise.com",
-      "published_at": "2026-05-28T17:11:01+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamNKTTFHbWZ2VnlUNVhOSElBLVVvSFN4ZzRET0JwRU9wLTlIeHR4N3BoVktJQjE0SzYwV1VISmNZQ1hxM2hBVjRwZDhPWUI5dUJMTzBWQ0NwaDN1Z09YOVlyWTRad0FCeW1GMlRXVThKaWdjeDRsSWRhM0kxYzJLS0RCYTZVRjV6Y1lKYi1lNnRucEd0OVlpZlZiUEN6VlIwT2ZUcWNuRDI?oc=5"
-    },
-    {
-      "title": "I Tried to Sell My House With A.I. - The New York Times",
-      "summary": "I Tried to Sell My House With A.I. The New York Times",
-      "published_at": "2026-05-28T17:00:07+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnVpSE44ZEdqRWc0QnhENHRCa1p0YWpNQ2FyN2lEd2k4Wk9YWHdHbWU0eENsbDAyU1c5TENKWlF1NWZsLS1UbXU0S0ljRXBTWEpacEdBN1ZqQUR3dmFVNXR5LVdJampjVVBkX284VkJRcmtwaWliNGpIOEc2SU5TSjJzNy1JLU0?oc=5"
-    },
-    {
-      "title": "Google Gemini Omni Flash Brings Voice-Controlled AI Video Editing to the Future of Conversational AI - Tech Times",
-      "summary": "Google Gemini Omni Flash Brings Voice-Controlled AI Video Editing to the Future of Conversational AI Tech Times",
-      "published_at": "2026-05-28T13:55:35+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbzZhZy1fb013NmhhdlBPUVhnaENLNjNIZ0FTS2U1MXNkck1kOTQyRGZGNTlVdmFxLXQ4eGZjamozVDJfV3dtQlJjdk9iZmJBOHNHWW1lU2pQUGxIQk0wTTlqd1M4eUh0TDJwQTYtWlA1MDdDcEQ5SEZ3b212d3gtNFZ6cFIzejhhNU02UUppOHFYNG10NUwyUGFSemhwSWNZem45b2tYZy0waVlRUFlFakxoNFp0aUo4bjRRSjhteHppa3k1RWtnY2p0VUhER2l5ajBkRzFGQl9wYy1RdHc?oc=5"
-    },
-    {
-      "title": "myNEWS Holdings Deploys Lark as Its Operational Backbone, Embedding Multimodal AI Across Finance, Field Operations, and Store Management - Yahoo Finance",
-      "summary": "myNEWS Holdings Deploys Lark as Its Operational Backbone, Embedding Multimodal AI Across Finance, Field Operations, and Store Management Yahoo Finance",
-      "published_at": "2026-05-28T11:17:00+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOek1YUVJQMVkzV3p2ekQ2a25GSnBTRFpEQktlazRFZTExM0FFSENoZXNmUG9HMmFGUjA4dGZjdzJ6LXV3NTF2cVFYTU9mQU9JSFlHS1RmZ2x4WEFmOWh6dWI4c1VtUG1MTW9SZ1ZvUFZZZkdtNmRWalBES2Z5ZDV0R1RiSXphUVlVc3VWclJGT096S1Biajktc3dGVlZrTVd5d2NzSmRfWXU5QjZrN1E?oc=5"
-    },
-    {
-      "title": "Vibe coding startup Cognition more than doubles valuation in new $1B+ round - SiliconANGLE",
-      "summary": "Vibe coding startup Cognition more than doubles valuation in new $1B+ round SiliconANGLE",
-      "published_at": "2026-05-28T07:33:38+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzBtcGpEbWcwWXAtVGFtNFZzOHBhaGJxMVFOZDVsYUNiUFBFYmpBWVJlVVozSXpocmpWSDVjaGY1eHBRd3hHcHlZSVEtRElucVJuTnQwYWlWcHBLMEtEWElvcm9GTi1LQkx0OG9fbU84S2FqYXQ0N3lfbDIxVFBJQ2VJM0Q2RDFpT0hMU0d1c25Wc0U3OVg4cWlpd1NpZw?oc=5"
-    },
-    {
-      "title": "T3Q Wins Top Prize in South Korean Army AI Competition - thelec.net",
-      "summary": "T3Q Wins Top Prize in South Korean Army AI Competition thelec.net",
-      "published_at": "2026-05-28T07:24:43+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95a2pzRnVNLUUwTWIyWlE5UXNGR3BBZzhCeGMwRVJ1WVZDVWVacVFVa3FtSXpLWllsTmNqcFpHcWc5a3dIbW9yZlc2UTRFWUNqamtEVERnMEMtWXBUTFJ5eDlLNDJuWWM?oc=5"
-    },
-    {
-      "title": "Building a 30% Better AI: The Taste Graph Moat - VentureBeat",
-      "summary": "Building a 30% Better AI: The Taste Graph Moat VentureBeat",
-      "published_at": "2026-05-28T02:42:18+08:00",
-      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EV0g0dHRDdzl6N2t2dXZWb09MVGFoZ0Z4bU5iUjVOeTk0bmo4Y1Y0bGJwMUN6d3h1T0pFMXlRbVRFTFhDN1Q1TlByYkVneUpDVVlsd043RTl3OGtJRWM0Vlp4dGZmc0ZXdmNva1UtVTFET0pTbFZGRmdzLTJfTVU?oc=5"
-    },
-    {
-      "title": "AI coding agent Devin maker Cognition more than doubles its valuation to $26 billion in under nine months - the-decoder.com",
-      "summary": "AI coding agent Devin maker Cognition more than doubles its valuation to $26 billion in under nine months the-decoder.com",
-      "published_at": "2026-05-28T02:13:52+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObnpsMnZVUDdVZnNsc204ekpOd1JQSDdhYXlRYVhVYkowVFJHS19sYkdKV0o5aWtFczNCMXFIYTd2U1lWNnN5UXpTdzAzcnEtWFRJS1VhT0hxd205cEhESWxfZVRTV0lXcldRQTd1eU1MczJlRTk2Mkl6UnJjaTN3MVRieVJhdkNJMjVfb1RHX0thX2VWTTlBYWVIeW1PRU5fNVRveFczNlZUVzBNNC1HS0xZQTFPVFpBdjN2Znloa0NQSWFraVlLdw?oc=5"
-    },
-    {
-      "title": "\"There is no accountability\": AI coding agents are installing packages no one owns - The New Stack",
-      "summary": "\"There is no accountability\": AI coding agents are installing packages no one owns The New Stack",
-      "published_at": "2026-05-28T01:39:25+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xbXRzN3U3TDlkU0VtX01rOVFJdDhWYTFEY1hacS1LLVM5dTk0QjJMdTJlcFl4bS1BdWVyUGQtN2YtYk9udmozZ25RMi03emp3amZxWUJ1UE1Kbno4OEE?oc=5"
-    },
-    {
-      "title": "AI Coding Agents Are Already Spreading Across GitHub, Study Finds - ADTmag",
-      "summary": "AI Coding Agents Are Already Spreading Across GitHub, Study Finds ADTmag",
-      "published_at": "2026-05-28T00:51:00+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU5scE01cE03Nllkd24xOWhsQkttbzZLNmdWSXlicFZENE9WNk9nc29ONG5MTVo5WTRiWjFGdVlLWDRHRjRsVEhGWU5GS0ZiQTdBQ1ktMHFqSkdTYUZ6c0VhbDBBVElZRURGaGZKWmx3dVRCMm1KSVFBdGFnZ2Z2QzJXZjJBMWdMRzNrNWRnSjdQTWV5aWxDMmVGdjE?oc=5"
-    },
-    {
-      "title": "IT orgs cautiously try AI agents for infrastructure as code - TechTarget",
-      "summary": "IT orgs cautiously try AI agents for infrastructure as code TechTarget",
-      "published_at": "2026-05-28T00:38:12+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQVdYZHAyN3k1T1VDWV9XRkU3NDhsRjVvUk5SMXBVMjgyLXdmTDVNdzlTOW9IWDRLYm9HM3RUVWxaRkpmTDFvaGw4d0ZJaXcxRXJ4YVZOcEFJcTFzX3lxZC1PQ0hReTZmU01pVEMyUjJzeGxyUXE1Q3BiQndTSlhvRk1aWldjYXJzN3R3bE5WUzc4XzB6WV9FYlFXSy1IVTNfRldXSnhCWjlzM3AweVlXdjV3NkU4SlR4bDZ4Sg?oc=5"
+      "title": "豆包手机真的粘人，千问眼镜还常戴着吗？哪件产品最能让用户留下？ - 虎嗅",
+      "summary": "豆包手机真的粘人，千问眼镜还常戴着吗？哪件产品最能让用户留下？ 虎嗅",
+      "published_at": "2026-05-28T22:05:16+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54QjFPaGFnLUJHMFZuOC00cTdMQ2dpc3A5ZkhlREx3Nk1kcWpyYUg3Z2hObmNDWnFxRlF5Z0lPdnBBZnF4X0F0VmxUSXBLVW1tVnM2bg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
     }
   ]
 }

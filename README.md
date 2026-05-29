@@ -95,6 +95,15 @@ cp .env.example .env
 2. 生成/更新 `data/news-candidates/YYYY-MM-DD.json`。  
 3. 自动 commit 并 push 回仓库（`contents: write`）。
 
+RSS 抓取源分组：
+- `GLOBAL_SOURCES`：英文/全球 AI 新闻源（OpenAI、Google、NVIDIA、TechCrunch、The Verge、MIT Technology Review、VentureBeat 等）。
+- `CHINA_SOURCES`：国内中文新闻源（36氪 RSS、虎嗅 RSS、InfoQ 中文 RSS、中文 Google News 相关查询）。
+- `AUTO_CHINA_QUERIES`：国内汽车智能化关键词聚合（自动驾驶、智能座舱、车载 Agent、软件定义汽车、华为/比亚迪/理想/小鹏/蔚来/地平线/黑芝麻智能/芯驰科技等）。
+
+候选新闻 JSON 额外字段：
+- 每条新闻包含 `language`、`region`、`source_group`，用于后续中英文与区域分析。
+- `fetch_status` 包含抓取统计：`china_source_count`、`china_success_count`、`global_source_count`、`global_success_count`、`failed_count`。
+
 ## 7. 本地日报阶段
 
 入口脚本：  
