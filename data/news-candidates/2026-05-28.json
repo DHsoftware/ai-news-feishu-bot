@@ -4,10 +4,10 @@
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
-    "success_count": 37,
-    "failed_count": 9,
+    "success_count": 44,
+    "failed_count": 2,
     "global_source_count": 16,
-    "global_success_count": 10,
+    "global_success_count": 15,
     "china_source_count": 30,
     "china_success_count": 27
   },
@@ -73,6 +73,26 @@
       "tags": []
     },
     {
+      "title": "科氪 | 雷神联合AMD发布覆盖三大形态AI工作站产品矩阵",
+      "summary": "5月28日，雷神在北京举办以《聚势共生 智算同行》为主题的AI工作站新品发布会，正式推出覆盖塔式、迷你PC和移动三大类别的AI工作站全场景产品矩阵。这是业内首批完成三大形态全覆盖的AI工作站产品发布，以行业领先的品类矩阵和旗舰级算力水准，重新定义了AI工作站的性能基准。 官方图片 AI 正式迈入智能体时代，行业从文本预测转向自主逻辑思考，未来 AI 算力需求将迎来百倍增长，普及速度持续加快。 发布会上，AMD大中华区销售副总裁晁亚新首先分享了AMD公司整体的AI策略，面对飞速增长的AI需求构建AI无处不在的算力基础，AMD正打造覆盖云端、终端与边缘端的全栈式端到端算力体系，以开放的生态姿态与伙伴共建下一代智能算力基础设施。AMD大中",
+      "published_at": "2026-05-28T19:57:48+08:00",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3828898785858185?f=rss",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china"
+    },
+    {
+      "title": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 - 新京报",
+      "summary": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 新京报",
+      "published_at": "2026-05-28T23:38:00+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sTF91QXZ3VGZ0QUIzZ2hSb3k5VEdabnhjUDRtMmlCU3Z2TEpSYk9LSzRuRTBybEpDbFF0QnQtRExXZmtSc0lTaUFTUHRSZ0N1bV8ydDJhNWlzLUIwWGN1R3BJalg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
+    },
+    {
       "title": "比亚迪城市领航兜底_新浪新闻 - 手机新浪网",
       "summary": "比亚迪城市领航兜底_新浪新闻 手机新浪网",
       "published_at": "2026-05-28T23:04:00+08:00",
@@ -107,6 +127,16 @@
       "source_group": "auto_china",
       "source_type": "",
       "tags": []
+    },
+    {
+      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - 新浪财经",
+      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 新浪财经",
+      "published_at": "2026-05-28T18:41:15+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNOW9RVjBPWjNCUE00dlBwNkZUU2I4WW1peGpjaXZqbVBvem1rMEhpbVQ2M290SzZnbGNRU1dqcXVBbGp0cHdMTEZDek9zeHM5NnFvR0FkS0xna21EYkNSdDhCWHRvckFXSjhTaXA1enBseV9Fa3pQa25kZ05meURIRlh1NENRRVAyTDhySnBucWM5cjRvOGk5b2JjT3hqRzBUR2h6RmFSVkdnS2JuaWxfSkxzNFpmT1VKR3l3dkJLdTJZVlVuUmw5QVZ4elF2MDdReU1ab0g4UE5BQUcweWJaWWZvSDZXMEhfcnJ4eW8tVmZvV3pEQjZoZkhOZTVqa2NPVHp0UHNsYlI4M1Ns?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
     },
     {
       "title": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 - 电子工程专辑",
@@ -251,6 +281,16 @@
       "source_group": "auto_china",
       "source_type": "",
       "tags": []
+    },
+    {
+      "title": "美国AI大牛市会崩吗？ - 36kr.com",
+      "summary": "美国AI大牛市会崩吗？ 36kr.com",
+      "published_at": "2026-05-28T20:50:00+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaY2U2Z1JSZWpfQVdHZUxsemxXclYyT2RVbXp5Z2tMTTgtdzRWcnRVTGtXODluNDZ6UXZrc3FqemRDaFI1cE9xV0N3Vk9Idw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china"
     },
     {
       "title": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 - 36kr.com",
