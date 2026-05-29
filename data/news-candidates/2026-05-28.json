@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-29T08:10:24.322420+00:00",
+  "generated_at": "2026-05-29T08:41:25.979079+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -9,9 +9,7 @@
     "global_source_count": 16,
     "global_success_count": 10,
     "china_source_count": 30,
-    "china_success_count": 27,
-    "auto_china_source_count": 18,
-    "auto_china_success_count": 18
+    "china_success_count": 27
   },
   "items": [
     {
@@ -22,7 +20,9 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTWDZvVDAxWDlUSV9xNjdTNTFfaGwxSG5XWGxZUE9YU0xqdndFZnZHRmhmY1dMaDJWVEJXb1kxMUo0ZTV5ektwMm1CSXpPb09uSEtZ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "L4级智能驾驶，三颗芯片协同算力突破2100TOPS，并已实现量产。更重要的是，这是中国车企首次​_新浪新闻 - 手机新浪网",
@@ -32,7 +32,9 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OYnNyRW96UXNxaXJMUjBFXzZweUt3LW53bDVxSERCQjJudEdEZEd4UUlEN1N3LVczOVBtNjU1aTdaYy1PQWduc3ZKdnJTR1hnLU1Oc3hrUXh2ZjZaVmpSMjdMdw?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "#王传福说敢兜底才是真安全#当下智能驾驶赛道迭代迅猛，各家车企争相比拼算力、硬件与技术参数，行业热闹之余，权责界定模糊的痛点始终存在。辅助驾驶一旦发生事故，责任划分难题，也让不少消费者对前沿智驾功能望而却步。 5月28日比亚迪智能化战略发布会上 - 手机新浪网",
@@ -42,7 +44,9 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hMFhYZjBJTE1ZR3FDZmJ0RlBqM0xYX3ZIZDk3RThEQTR4M19oM3dJbEI5MHlBMnkyZlMyTzUyUWJLcFVGT3k3bUdjQmZsSm1BZERReWRWc3VhZkZhQm5vaHBYUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "ICML2026 | AutoMoT : B2D & nuScense双SOTA ，重新思考VLM和端到端驾驶的结合 - 51CTO",
@@ -52,7 +56,21 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkSk50TVFGamRCMWRtbEZQVXdUQ21tMUs3RmdJeVhKZlhOVkNGeXZualUyNnB3eTJtd1A2ZlJPeC1leXVyS241N3FWc1V2S195UWFN?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 - 新京报",
+      "summary": "理想汽车李想：中高端智能汽车未来3-5年是具身智能的竞争 新京报",
+      "published_at": "2026-05-28T23:38:00+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sTF91QXZ3VGZ0QUIzZ2hSb3k5VEdabnhjUDRtMmlCU3Z2TEpSYk9LSzRuRTBybEpDbFF0QnQtRExXZmtSc0lTaUFTUHRSZ0N1bV8ydDJhNWlzLUIwWGN1R3BJalg?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "比亚迪城市领航兜底_新浪新闻 - 手机新浪网",
@@ -62,7 +80,9 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1zdDVrZWVoMXpwQTB6a1J2blE4NDJkSWFxUmZ2NE4tYk9lODJmLWR3ZDc2OEM4SmdaVjFDSmhQX3kzOWkyT1dsVHpPTGdKUDU2MGVpT2JfUFgtb21XQjFfQWx5NA?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "买车赠送靠谱随车秘书！比亚迪发布超级智能体“迪迪虾” - 新浪财经",
@@ -72,7 +92,21 @@
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSFB1bVl4NGh4MTFvX1BTS2hxdzdZNjNUdmRzOUhjME44S2ttQzhkb2tUa2lmVDltT2NvMHBfWXFDbnl1WmNvdF9VbmY5RVVDOFZJdTc5ZDhTUUVBN3NwVTk5QV9HRHJaaEF3MUNmNHB0d3phUXh0NFNvcTZObmZLQlJJX0FLcVU2bVBsbWEyUEc0eVVIVEJzU1RoNmQzV3M4NnNnZVFtTVhLRU8wa2VsM3UzSlNIR3k4SHFMajRjaV9Dak9rZDhOMDNHc1RoU1ZhVVpaY2NPZ3R4MEVaSEYwSlg1aTFIdFg4SDNDSVY3elRiR3BOeURpekh4NnBYYUY5Y1NSUzE1NXJLd0dM?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - 新浪财经",
+      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 新浪财经",
+      "published_at": "2026-05-28T18:41:15+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNOW9RVjBPWjNCUE00dlBwNkZUU2I4WW1peGpjaXZqbVBvem1rMEhpbVQ2M290SzZnbGNRU1dqcXVBbGp0cHdMTEZDek9zeHM5NnFvR0FkS0xna21EYkNSdDhCWHRvckFXSjhTaXA1enBseV9Fa3pQa25kZ05meURIRlh1NENRRVAyTDhySnBucWM5cjRvOGk5b2JjT3hqRzBUR2h6RmFSVkdnS2JuaWxfSkxzNFpmT1VKR3l3dkJLdTJZVlVuUmw5QVZ4elF2MDdReU1ab0g4UE5BQUcweWJaWWZvSDZXMEhfcnJ4eW8tVmZvV3pEQjZoZkhOZTVqa2NPVHp0UHNsYlI4M1Ns?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "中国首次将国产AI芯片纳入安全可靠清单：华为昇腾等9款AI训练推理芯片获I级认证 - 电子工程专辑",
@@ -82,27 +116,9 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6ZFZLVk5Fcm1ITDYwQ1JBdUZTOGZNbXQtM2hReWpMd2l1dGRXUG9HUEZKOVdEb3VVRFhnR2Z3VFE1YzVFdlNxcE1lWnlxR2REV0RkbG1ldWhNaHRz?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 - Sina finance",
-      "summary": "华为乾崑智驾ADS 5首发搭载，全新一代问界M9上市 引领智能驾驶安全新高度 Sina finance",
-      "published_at": "2026-05-28T15:18:00+08:00",
-      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Z0F4TzZnemFDUG9RT1c2ZC1zVEx6M09keWdRWmVHQkVrNnFIQW82ZEVwQnJkdzU4MkNQUXJudnZxbHJXLVJfRjJEWDVtZXQwZzNhUUstVE9BRk1lckxMWTlYR1N5T2lSMlB3Z0JxcVRscWxsYUlpSTR6YzA?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 - 新浪财经",
-      "summary": "对许华哲：具身智能不是机器人学或自动驾驶，是世界上的新物种 新浪财经",
-      "published_at": "2026-05-28T14:13:54+08:00",
-      "source": "\"具身智能 机器人\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWtGOHBXeVFJRzRpOFVNdndlR3hOT3RRN3hSaks2Zng3ZkpyQkZVX0x4alNxcFVkSURpQ1VZYkFzMVNHQy1PRXZoamVpRXRRRFl2QTlHRGNHOXhZYlJhdVZXT0dJc0lGSDJzcW81OGx6MVRZUm96Zk91VEk3UFVxcUk0MHZWbldBSmxMSVAtZ0NMZw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "划重点！L2级辅助驾驶不是自动驾驶 - Sina finance",
@@ -112,7 +128,9 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PbzRoVGc4MkR5aVZHMFNma2xtSV9iNjI0eEFwTlBQbFVFWDlWdGxtcWVEaml5TEdDa3VubWJLZmlqMWs1QmtnUjFlQjJQUVp4SHdycUc2RDlDbzRqUHJjXy14UFZGenpIMm9Zc1BYb0lBN1NxR2wxRw?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ - 汽车之家",
@@ -122,7 +140,9 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YTXVCUU9zZU1RWFI3cFFGd0wwTGNxaHJsNTN6RjRzQlpsalF2azNaeDNNOG1RV0x4QVlvZm5pQ1hMamNEWmRLcTVNTndnNUhnN3ZucWdFMGE2cHM?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "华为ads4.0搭载哪些车型呢？ - 汽车之家",
@@ -132,7 +152,9 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQeXFwRGo1bzhzYklyNXRQMDBxZ1pUVEhZcVRhRno2TWxZQlZIR011dUFCMmNBem9BVVVtcWlMV1RfczRmU0JqdkUzeFZIRHU2blVZQmpfMVNlM1k?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "墨芯10亿C轮融资背后：揭秘这家公司的AI芯片技术有何独特？ - 电子工程专辑",
@@ -142,7 +164,9 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0ybHM2N3JIMGw3VTZIeEZLVUtmSHFjMlg4ZkRTaG81b292TUxqT0VIWVNrRkZmTXJOQ2NrMm5LM1FINzNSQjNLUUlzUXBrS2hzeGk1UDh6em5zaXdO?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "AI“芯片荒”蔓延，或成中美科技角力“最大变量” - 虎嗅",
@@ -152,7 +176,9 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dldSU05jdTl0a1JTWWxqVkZxa2cwZV9oMFJVSTdsY1RQRkZOT0VIcXFSQlBoalZsZGg4RjVNZ1ZxSlhfMmFuOEk0bndaV3YzR3Ztdw?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "直击股东会，天奇股份预计下半年交付小批量具身智能订单 - 21财经",
@@ -162,7 +188,9 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUlkLXIxRmlUbl9pWENLcksxdXVLZmxodHp3N3E4aHJHWm9ncDJMOEw2T3dZMkRNYjA0Rk1oejh4VGFsVE1vQldHYmNIbVJEWmo0dV84Q09XSzltMjA2bWluUXFNcXhOY0RYZFhKa0tKTUg5bVV5WDFacFBaaF9kbDJVT09ScnNjQnk1MFVyRQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "港航业拥抱具身智能浪潮 如何跨越“最后一公里”？ - chinanews.com.cn",
@@ -172,7 +200,9 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52SkVIcDl1b1FtcUFCSWZ6LUlMU016S0lHcmltaHUxbC1CVWdlZjFheWViaUtFa01xb2tZOG1NTjd1WElRZHBnOThoR0xGaHNGSzVmRFR1VUhIZnNkWEFyVWpDNVFMQkNk?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "京津冀具身智能机器人产业对接会举行 - 搜狐网",
@@ -182,7 +212,9 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLWk2Z25hRExCZjVvYkhUSmdodmpZQ0wxTHNwZ3lSRTkzTUwyVXRlRVNEaU9Fd2tqTWlicVFXZlJ6R3FydmNkcFZFWDFsTE1Ca1BRZDBDMnpnb1dPWFBVa0FWREN2ZHJVTE94YkNuLWVoM0FsQUp3MG1EMUJnUllWU2ZaTHVWdVpGUHZ4Zg?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "法国AI公司Mistral拟自研芯片 CEO称正加速基础设施建设 - 财联社",
@@ -192,7 +224,9 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWSFBGUzFHeGNFWkZ4dnNKMHpWNEZkc01uemlVREtId0o0dzRqb3A2eG9sdjZGWHczd1daRG5NUzV4TFRYdHlHNQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 - 汽车之家",
@@ -202,7 +236,9 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IR25aLUJEbW1hZVVnOXdSb09UVnB5Ym1QMVd2ZUNFdzZwUmRPRXl5RV9la0ZkWmJtbWtLYlFqcV9OZWV1OVRhd250Y0paSGtPMEx0ZFJhNG94VUE?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "大厂全线押注AI编程，Vibe Coding掀起“全民造应用”浪潮 - 搜狐网",
@@ -212,7 +248,9 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPalEwOXNyZHN0UzM5eFNubkxINDEzSFNfUE8wZmlwa3h4OEpEWUhOTUkwTThfclF3ZjB0R1BXT05aUXMxOGotSU5CMDV2dmZBRm5pTWRZY0RYNXV0Ri1qMTBpQmZBZzNYSjFrYURyYmRkMEx3VEsxS1FNZ01hX1ZQSmdNZEdkbHFv?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "Claude Code首发「自愈」功能，一锤砸碎开发者6大噩梦 - 36kr.com",
@@ -222,7 +260,9 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ONm5MWmlKWm9Sb2dXMkR3VXNQYnN1TVNiSWJaalVGZ0VJNklwOE8xYkY5bmdQMDl2NjZJdnphdXZHcjVvX1FzRGo0blJEUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "AI中转站低至1元引流：薅大模型羊毛掺假倒卖token - 安全内参",
@@ -232,17 +272,9 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kbUp0dDN0YXZlb2VxeUhWWWRqa1pudF9Sd3BMSmVBd1ljRzF4bFBSSUJJYmJveVZWcW5BaTlrM2VLMkRJbFJXak5sTXlXUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 - 安全内参",
-      "summary": "中国AI用户累计注册数超31亿，公众对治理规范诉求强烈 安全内参",
-      "published_at": "2026-05-28T18:10:55+08:00",
-      "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MSkMwS2hUdEN2SVhIT0wtU2thM3JuVkR4cWF4MmpYeGVweWFzLWpScDE2aDEwYVcydU1zUmVZSXJpajBmc3ZCejI3elVKUQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "郭岳泉博士：AI大模型如何让我们“看见”政企协作网络？ - 教育在线",
@@ -252,7 +284,9 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zS2JYTTVCZDRSMEpQUEIwWkgxTk81NkRlYmFRRm9oLXRjZVpyOUJFV2tnejR1d1pCeFBSSnczQW5Na3d5QkkxOW5tTVlrY0VmUXkyTWxiTzNGY0xRd19HckZuRjZoS19ieWlUZg?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "一个AI写了自己90%的代码，然后估值涨了25倍 - 36kr.com",
@@ -262,7 +296,9 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SUHBDVnRoT2lrYXMzMnhtRzl3V2lzYkVrVHRJal9pRU5KLWNfUG5hZzU3VzFPMVdQZXVYTzlzRmZMb0ViNGxjQ056cDVGUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "智谱再做LP 联手国泰海通设5.4亿AI产业基金 - 财联社",
@@ -272,7 +308,21 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBVRGxuWDZmWllKZWl1dFd1aDR1T3BlS1FIUDRJUk93d29TVHc5QzY4YmkzeVBTSVNVMkc4d2NYM19xcDE3UFZLQQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "房地产进入“AI原生”新赛道，大模型重构地产投研与营销全链路__新快网 - 新快网",
+      "summary": "房地产进入“AI原生”新赛道，大模型重构地产投研与营销全链路__新快网 新快网",
+      "published_at": "2026-05-28T14:30:00+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fT2ptRk9hM2YtMHNjRlp3a2VWd0JwakN0dTJQS25fT25zR2FYQUpWX0VncFJnT1lVN2xhQVFsTV9DRnd6eVIyOHB2WVlCZ1UtazlzS29n?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 - 爱范儿",
@@ -282,7 +332,21 @@
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE51WjZfSW9wQ1dCdzFsQlJaQkZ5N0ZTNkVpLWF2N0pUaXlDbVlFZjFJWWxjcTRiOGdjWEhkOF9TTk9CZE0?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "100%代码由自己生成！Claude Code负责人半年没写代码，程序员门槛被AI拆了 - 新浪财经",
+      "summary": "100%代码由自己生成！Claude Code负责人半年没写代码，程序员门槛被AI拆了 新浪财经",
+      "published_at": "2026-05-28T10:01:03+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOc1BSOXZoYTQtWlZ0anhNRFZWR2lOel9fLVJkZDUxdmlLOWRMQnIzVXQyYUp6WlNOSEN4UnNZV1NGUFA2WEdldmFzc1ZUTVgzeVNDak94WFBpT3ZMc3Y4Y1E2dEthX2FGc1JoSVNjN0hSVEdvcV95ejdvTnJ6b0FXT18zNFpJWU5mRG9LSjl4UENyYUZ1VUl5T0lURDN0S052Ylo2T0hTWWM2N3g2T2tmTjBERGIzOU9jNHAycUp0X2FfSmt4anVyVld2RlBNR1RGUG8xTWxzUmw3YTkycFJTRlMzdENEZHBzQ3NmU1BmeFlWSXBmd0RDczZUVnU1bUF1aGFXWFhLbG0xVGZzR0xzalUyWC1PSEExRDhvOUNwdU5KVkE4d0lmTmxlUWRJN2hZdV82cFhOTDJiUW1hX1JSX244LWRsdWg5N0hBeG9iZw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "算力和存储芯片一涨再涨，国产大模型为何还敢“最高降价99%”？ - 新浪财经",
@@ -292,7 +356,9 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY3p5S2JDc3ZyN2ZhYWJnN2N5QjdpaUM1c2d5bld5ak5kQlBTNThyVVJLQm5hel9pRURlSjN6MVpENUxmMmhpWGZsZjFKNHFaN2RRbVdvV21MczZMeGdpdEJCZVREbHlmMU41V3IwOFltZ3lFREtwaWs0THU2SWJJU0dVTmY1ZmQ0XzZ4VXdxTFVveVIxOGlhUzhkUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "2026全球 AI 大模型 API 聚合平台服务商：企业及开发者的长期首选 - 中华网",
@@ -302,17 +368,9 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YYlhZMzZBZ0pZWnBiSE81cFZSc2ZGUnYzUGI2aHN6LThvenZHYThVWHZxZkJRam03dE1LZkxjVm94UlFvTXdRRlE4WjluRE1JU0ozOGNaN3IxQUtyalYxaTB6aWhVdw?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china"
-    },
-    {
-      "title": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 - wenxuecity",
-      "summary": "用AI比雇人还贵 科技巨头发现不对劲 纷纷刹车 wenxuecity",
-      "published_at": "2026-05-28T04:21:42+08:00",
-      "source": "\"AI 编程工具\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YSTUxU2JxVDl2bE5qTVZaNmpqMGRLX245MmVLODE0LXJRQ05ZT2J4SWlwZXZMRlAyVk9fZ2xkQzRaZkJyZ1ZienM4eWxHajZidmlKM3J4Nmh5S0NKX004MDltbzF4blBM?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china"
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "AI Coding 能力模型：代码都让 AI 写，还要学编程吗？ - 虎嗅",
@@ -322,7 +380,9 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pOWRhUUxMMzZOODhnZFdNaVJLMUNBWHFDZ0t2TmFPMlV5a1drLVJBRU82RXN4a2prSWZMMGU4TVFoak56bEZsaUxmM3MydlFQS3RCUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "让机器人学会番茄炒蛋爆红网络的 Genesis AI，开源了自己的机器人「训练场」 - 36kr.com",
@@ -332,7 +392,9 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZTXd5dkZ2VVVqRWhINjdqMzdYTXJsSW1VcmNFZXlzWVo0SHZqa3BGT3pHUmpSWkE5RzhIeEkzb2wxR3RadVBWU0owYkpwUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "3.25亿次周下载、FastAPI“地基”爆雷，这个Python框架曝出「致命漏洞」：一个字符，AI Agent集体“裸奔”？ - 36kr.com",
@@ -342,7 +404,9 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yUFdXVjFKdnA0bDdsM3RNX2lKYTJmRXMzZEpVUVhQeVhKaWlxRTNZd2ZSRjdGSnYwdlZtR014S1RaY1VrWlZBQXphcGFKUQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "AI创业告别粗放时代：垂直场景与数据安全成为新壁垒 - 虎嗅",
@@ -352,7 +416,9 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yYk1QVVpyVTNiYzF5cE0wQ3dXaVFpZkxGMU1jcUstbjl2T0VxbWJRYjNhTkYwakQ4SVh6VUpDUGhmQ1BfdW5ZVjhobkc3NmN2aFphRg?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "Neo4j: Context Graphs for AI Agents - StartupHub.ai",
@@ -362,7 +428,9 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUllUVVfM3hxSkdVWE1IOVFHai1iMXJ4cGltQkxKTFV3Qjlqc0tjWFV4aDktcGtxUEZ0TFphQjhfQXdBTHRjcVI5RTRzZklSSmFGTy1wcEpmSmRULXdZUG9qWGFWbEY1SU92aDh5ZTNJR2kzSHByd1o2WWNWRU1vMVJycVhvV05lSnk4SUJkSzJYRWJQMmJwWW5DTy1iQQ?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global"
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "FuriosaAI and Broadcom partner on AI inference platform for agentic computing era - digitimes",
@@ -372,7 +440,9 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWC15ZEk5Z3hPUE5zX1hqTkFSZ0psVVJlc0szYzFleF9nZkp4dmJNYnF6UWQwNlFLWTk0bWlmZC01akw2UzNhYjNQQ050X0ttMHJXVDRfT1NsdmR1TWMyVWdnMFIySG1tYkVNbG9GRHBTb29zOTR5R1ptbzRuTlQxbmQyNHA2UjdGLWVWYlVOQzRsa2ljYzcxcnd5UWkyX00wV01kLXBB?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global"
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era - The AI Journal",
@@ -382,7 +452,9 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSi13RG9RMzRRWmExUFpqQXZVRlRjbDBDVWttQ1l2VW9DY3RUS2dwTTcyYWd5YV9DYjVjQ0FoRE1HRXBCRFZwVlVqazVMeFpoOXg2Z2YxbHBKdjdnZHMyMUdQSk52dF9SZUtZanVGM2RFWXJBTmQtakpxaUNjREl0QkozRVBtTkxXeDMzdTZCZnpXOGhma0VGSWR0TU5ONnBOR0gySzJCZDF0amkxdUxOUWtOZWlpa3RH?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global"
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "Coding agents in the social sciences - Anthropic",
@@ -392,7 +464,9 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOVA5Z3pKZ1JzSHJXaFl0LWdSQlZfZWhGb3AtY1R3MExZRm9KS2dfRmNzTE1XR2VXdjlPMVh6U25SU2JmcXBZQjlnSWRreHM2SGZmTnpQVzRLQVFmVFQyOExiR2o5dFhSb3A2WVBmV2RzQQ?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global"
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "AI应用的价值在于深入垂直行业复杂业务，而非大模型公司的主航道 - 虎嗅",
@@ -402,7 +476,9 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LR1ZPNmEyRFY5Rlp4Z1BBLVVUeHBRVGQ5QkhXU2JFU1pHNkVCdVowV05YWGIwNTBnSmhoLXRiYU1rTmJvZ2xJZjMybXNGa1JPY0tfaw?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     },
     {
       "title": "豆包手机真的粘人，千问眼镜还常戴着吗？哪件产品最能让用户留下？ - 虎嗅",
@@ -412,7 +488,9 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54QjFPaGFnLUJHMFZuOC00cTdMQ2dpc3A5ZkhlREx3Nk1kcWpyYUg3Z2hObmNDWnFxRlF5Z0lPdnBBZnF4X0F0VmxUSXBLVW1tVnM2bg?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china"
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
     }
   ]
 }

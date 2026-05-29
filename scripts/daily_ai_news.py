@@ -30,16 +30,53 @@ LOGGER = logging.getLogger("daily_ai_news")
 
 HTTP_TIMEOUT_SECONDS = 25
 MAX_CANDIDATES_FOR_PROMPT = 24
+MAX_LEARNING_CANDIDATES_FOR_PROMPT = 12
 FALLBACK_SCAN_DAYS = 14
 
 DEFAULT_TIMEZONE = "Asia/Shanghai"
 DEFAULT_NEWS_MAX_CHARS = 3500
 DEFAULT_NEWS_TOP_N = 5
 
+DEFAULT_LEARNING_NOTE = "基于资源标题/简介整理，建议打开原链接查看完整内容。"
+DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现新的 Codex Agent 学习资源。"
+
 RELATION_DIRECT = "直接影响"
 RELATION_INDIRECT = "间接影响"
 RELATION_NONE = "暂无明显影响"
 VALID_RELATIONS = {RELATION_DIRECT, RELATION_INDIRECT, RELATION_NONE}
+
+LEARNING_TYPE_YOUTUBE = "YouTube 视频"
+LEARNING_TYPE_OFFICIAL = "官方文档"
+LEARNING_TYPE_BLOG = "博客"
+LEARNING_TYPE_TUTORIAL = "教程"
+LEARNING_TYPE_NA = "N/A"
+
+DEFAULT_LEARNING_PROMPT = "请结合当前项目，给我一个基于 AGENTS.md 的分阶段执行计划，并列出每阶段验证命令。"
+
+LEARNING_CORE_KEYWORDS = [
+    "codex",
+    "agent",
+    "cli",
+    "mcp",
+    "agents.md",
+    "workflow",
+    "code review",
+    "代码审查",
+    "工作流",
+]
+
+LEARNING_NEGATIVE_KEYWORDS = [
+    "chatgpt",
+    "game",
+    "gaming",
+    "movie",
+    "trailer",
+    "music",
+    "娱乐",
+    "游戏",
+    "影视",
+    "广告",
+]
 
 
 class LiteLLMReportParseError(RuntimeError):
@@ -274,6 +311,245 @@ def source_name_from_url(url: str) -> str:
     return host or "来源"
 
 
+def parse_iso_datetime(value: Any, tz: timezone) -> datetime:
+    text = clean_text(value)
+    if not text:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    iso = text.replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(iso)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(tz)
+    except ValueError:
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def normalize_learning_type(raw_type: Any, fallback_item: dict[str, Any] | None = None) -> str:
+    text = clean_text(raw_type).lower()
+    if not text and fallback_item:
+        text = clean_text(fallback_item.get("source_type", "")).lower()
+
+    if "youtube" in text or "视频" in text:
+        return LEARNING_TYPE_YOUTUBE
+    if "official" in text or "doc" in text or "官方" in text or "文档" in text:
+        return LEARNING_TYPE_OFFICIAL
+    if "blog" in text or "博客" in text:
+        return LEARNING_TYPE_BLOG
+    if "tutorial" in text or "教程" in text:
+        return LEARNING_TYPE_TUTORIAL
+
+    if fallback_item:
+        link = clean_text(fallback_item.get("link", "")).lower()
+        source = clean_text(fallback_item.get("source", "")).lower()
+        if "youtube.com" in link or "youtu.be" in link:
+            return LEARNING_TYPE_YOUTUBE
+        if any(k in link for k in ("openai.com", "developers.openai.com", "platform.openai.com")):
+            return LEARNING_TYPE_OFFICIAL
+        if "blog" in source:
+            return LEARNING_TYPE_BLOG
+    return LEARNING_TYPE_TUTORIAL
+
+
+def learning_priority_bucket(item: dict[str, Any]) -> int:
+    link = clean_text(item.get("link", "")).lower()
+    source = clean_text(item.get("source", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    language = clean_text(item.get("language", "")).lower()
+
+    is_official = (
+        source_type == "official_doc"
+        or any(host in link for host in ("openai.com", "developers.openai.com", "platform.openai.com"))
+        or "openai developers" in source
+    )
+    if is_official:
+        return 4
+    if source_type == "youtube_video" or "youtube.com" in link or "youtu.be" in link:
+        return 3
+
+    if source_type in ("tutorial", "blog"):
+        if language == "zh":
+            return 1
+        return 2
+
+    if language == "zh":
+        return 1
+    return 0
+
+
+def learning_relevance_score(item: dict[str, Any]) -> int:
+    title = clean_text(item.get("title", ""))
+    summary = clean_text(item.get("summary", ""))
+    source = clean_text(item.get("source", ""))
+    tags = item.get("tags", [])
+    tag_text = " ".join(str(tag) for tag in tags if str(tag).strip())
+    text = f"{title} {summary} {source} {tag_text}".lower()
+
+    score = 0
+    for keyword in LEARNING_CORE_KEYWORDS:
+        if keyword in text:
+            if keyword in ("codex", "agent", "cli", "mcp", "agents.md"):
+                score += 6
+            else:
+                score += 3
+
+    if "openai" in text:
+        score += 2
+    if "tutorial" in text or "教程" in text:
+        score += 2
+    if "best practice" in text or "最佳实践" in text:
+        score += 1
+
+    if "chatgpt" in text and "codex" not in text:
+        score -= 5
+    for keyword in LEARNING_NEGATIVE_KEYWORDS:
+        if keyword in text and "codex" not in text:
+            score -= 3
+
+    return score
+
+
+def select_learning_candidate(items: list[dict[str, Any]], tz: timezone) -> dict[str, Any] | None:
+    ranked: list[tuple[int, int, datetime, dict[str, Any]]] = []
+    first_valid: dict[str, Any] | None = None
+    for item in items[:MAX_LEARNING_CANDIDATES_FOR_PROMPT]:
+        if not isinstance(item, dict):
+            continue
+        title = clean_text(item.get("title", ""))
+        link = clean_text(item.get("link", ""))
+        if not title or not link:
+            continue
+        if first_valid is None:
+            first_valid = item
+
+        relevance = learning_relevance_score(item)
+        priority = learning_priority_bucket(item)
+
+        # Keep low-relevance Chinese fallback only when we truly have nothing better.
+        if relevance <= 0 and priority < 1:
+            continue
+
+        published_dt = parse_iso_datetime(item.get("published_at", ""), tz)
+        ranked.append((priority, relevance, published_dt, item))
+
+    if not ranked:
+        return first_valid
+
+    ranked.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
+    return ranked[0][3]
+
+
+def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) -> str:
+    if not item:
+        return "今日学习候选为空。"
+
+    title = clean_text(item.get("title", ""))
+    summary = truncate_text(item.get("summary", ""), 400)
+    source = clean_text(item.get("source", ""))
+    source_type = clean_text(item.get("source_type", ""))
+    language = clean_text(item.get("language", ""))
+    region = clean_text(item.get("region", ""))
+    published_at = clean_text(item.get("published_at", "")) or "未知"
+    link = clean_text(item.get("link", ""))
+    tags = item.get("tags", [])
+    tags_text = ", ".join(str(tag) for tag in tags if str(tag).strip()) or "N/A"
+
+    return (
+        f"标题: {title}\n"
+        f"来源: {source}\n"
+        f"类型: {source_type or 'unknown'}\n"
+        f"语言: {language or 'unknown'}\n"
+        f"区域: {region or 'unknown'}\n"
+        f"发布时间: {published_at} ({timezone_name})\n"
+        f"链接: {link}\n"
+        f"标签: {tags_text}\n"
+        f"简介: {summary}\n"
+    )
+
+
+def ensure_metadata_note(note: str, has_resource: bool) -> str:
+    text = clean_text(note)
+    if not has_resource:
+        return "今日未发现可用学习候选资源。"
+    if not text:
+        return DEFAULT_LEARNING_NOTE
+    if ("标题" not in text and "简介" not in text) and ("metadata" not in text.lower()):
+        return f"{DEFAULT_LEARNING_NOTE} {truncate_text(text, 80)}"
+    return text
+
+
+def normalize_codex_learning(
+    value: Any,
+    selected_item: dict[str, Any] | None,
+    candidate_url_set: set[str],
+    url_to_source: dict[str, str],
+) -> dict[str, str]:
+    raw = value if isinstance(value, dict) else {}
+    has_resource = selected_item is not None
+
+    selected_url = normalize_url(clean_text(selected_item.get("link", ""))) if selected_item else ""
+    selected_source = clean_text(selected_item.get("source", "")) if selected_item else ""
+    selected_title = clean_text(selected_item.get("title", "")) if selected_item else ""
+
+    if not has_resource:
+        return {
+            "resource_title": DEFAULT_LEARNING_EMPTY_TEXT,
+            "resource_type": LEARNING_TYPE_NA,
+            "source_name": "",
+            "source_url": "",
+            "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
+            "how_to_apply": "可明日继续关注官方资源更新。",
+            "example_prompt": DEFAULT_LEARNING_PROMPT,
+            "confidence_note": ensure_metadata_note("", has_resource=False),
+        }
+
+    source_url_raw = clean_text(
+        raw.get("source_url")
+        or raw.get("link")
+        or selected_url
+    )
+    source_url = normalize_url(source_url_raw)
+    if source_url and source_url not in candidate_url_set and selected_url:
+        source_url = selected_url
+    if not source_url and selected_url:
+        source_url = selected_url
+
+    source_name = clean_text(raw.get("source_name", ""))
+    if not source_name and source_url:
+        source_name = url_to_source.get(source_url, "")
+    if not source_name:
+        source_name = selected_source or source_name_from_url(source_url)
+
+    resource_title = clean_text(raw.get("resource_title", "")) or selected_title
+    if not resource_title and not has_resource:
+        resource_title = DEFAULT_LEARNING_EMPTY_TEXT
+
+    resource_type = normalize_learning_type(raw.get("resource_type", ""), selected_item)
+    if not has_resource:
+        resource_type = LEARNING_TYPE_NA
+
+    learning_point = clean_text(raw.get("learning_point", ""))
+    how_to_apply = clean_text(raw.get("how_to_apply", ""))
+    example_prompt = clean_text(raw.get("example_prompt", ""))
+    confidence_note = clean_text(raw.get("confidence_note", ""))
+
+    learning_point = learning_point or "基于标题/简介，建议先关注该资源中关于 Codex Agent 工作流的实操片段。"
+    how_to_apply = how_to_apply or "把资源中的一个流程拆成可执行步骤，在当前仓库先做小范围验证，再逐步扩展。"
+    example_prompt = example_prompt or DEFAULT_LEARNING_PROMPT
+    confidence_note = ensure_metadata_note(confidence_note, has_resource=True)
+
+    return {
+        "resource_title": truncate_text(resource_title, 140),
+        "resource_type": truncate_text(resource_type, 30),
+        "source_name": truncate_text(source_name or "来源", 60),
+        "source_url": source_url,
+        "learning_point": truncate_text(learning_point, 140),
+        "how_to_apply": truncate_text(how_to_apply, 160),
+        "example_prompt": truncate_text(example_prompt, 220),
+        "confidence_note": truncate_text(confidence_note, 140),
+    }
+
+
 def build_candidate_index(items: list[dict[str, Any]]) -> tuple[set[str], dict[str, str], dict[str, str]]:
     url_set: set[str] = set()
     title_to_url: dict[str, str] = {}
@@ -422,6 +698,8 @@ def normalize_report_payload(
     report_date: str,
     news_top_n: int,
     candidate_items: list[dict[str, Any]],
+    selected_learning_item: dict[str, Any] | None,
+    learning_candidate_items: list[dict[str, Any]],
 ) -> dict[str, Any]:
     title = clean_text(raw.get("title", "")) or f"AI 科技日报｜{report_date}"
 
@@ -481,11 +759,28 @@ def normalize_report_payload(
             if current_china_count >= desired_china_min:
                 break
 
+    learning_url_set, _, learning_url_to_source = build_candidate_index(learning_candidate_items)
+    if selected_learning_item:
+        selected_url = normalize_url(clean_text(selected_learning_item.get("link", "")))
+        if selected_url:
+            learning_url_set.add(selected_url)
+            selected_source = clean_text(selected_learning_item.get("source", ""))
+            if selected_source:
+                learning_url_to_source[selected_url] = selected_source
+
+    codex_learning = normalize_codex_learning(
+        value=raw.get("codex_learning"),
+        selected_item=selected_learning_item,
+        candidate_url_set=learning_url_set,
+        url_to_source=learning_url_to_source,
+    )
+
     return {
         "title": title,
         "report_date": report_date,
         "summary": summary,
         "top_news": top_news,
+        "codex_learning": codex_learning,
     }
 
 
@@ -503,6 +798,29 @@ def apply_news_field_limits(report: dict[str, Any], what_max: int, why_max: int,
         item["source_name"] = truncate_text(item.get("source_name", "来源"), 48)
 
 
+def apply_learning_field_limits(
+    report: dict[str, Any],
+    learning_point_max: int,
+    apply_max: int,
+    prompt_max: int,
+    note_max: int,
+) -> None:
+    learning = report.get("codex_learning")
+    if not isinstance(learning, dict):
+        return
+
+    learning["resource_title"] = truncate_text(learning.get("resource_title", ""), 140)
+    learning["resource_type"] = truncate_text(learning.get("resource_type", LEARNING_TYPE_NA), 30)
+    learning["source_name"] = truncate_text(learning.get("source_name", "来源"), 60)
+    learning["learning_point"] = truncate_text(learning.get("learning_point", ""), learning_point_max)
+    learning["how_to_apply"] = truncate_text(learning.get("how_to_apply", ""), apply_max)
+    learning["example_prompt"] = truncate_text(learning.get("example_prompt", ""), prompt_max)
+    learning["confidence_note"] = truncate_text(
+        ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", "")))),
+        note_max,
+    )
+
+
 def estimate_report_size(report: dict[str, Any]) -> int:
     parts = [clean_text(report.get("title", ""))]
     for line in ensure_list_of_strings(report.get("summary")):
@@ -518,6 +836,20 @@ def estimate_report_size(report: dict[str, Any]) -> int:
                 clean_text(item.get("auto_relevance", "")),
                 clean_text(item.get("auto_impact_brief", "")),
                 clean_text(item.get("source_name", "")),
+            ]
+        )
+
+    learning = report.get("codex_learning")
+    if isinstance(learning, dict):
+        parts.extend(
+            [
+                clean_text(learning.get("resource_title", "")),
+                clean_text(learning.get("resource_type", "")),
+                clean_text(learning.get("source_name", "")),
+                clean_text(learning.get("learning_point", "")),
+                clean_text(learning.get("how_to_apply", "")),
+                clean_text(learning.get("example_prompt", "")),
+                clean_text(learning.get("confidence_note", "")),
             ]
         )
     return len("\n".join(parts))
@@ -539,6 +871,7 @@ def shrink_report_for_limit(report: dict[str, Any], news_max_chars: int, news_to
 
     for what_max, why_max, impact_max in profiles:
         apply_news_field_limits(compact, what_max, why_max, impact_max)
+        apply_learning_field_limits(compact, 140, 150, 200, 120)
         if estimate_report_size(compact) <= news_max_chars:
             return compact
 
@@ -549,9 +882,11 @@ def shrink_report_for_limit(report: dict[str, Any], news_max_chars: int, news_to
         compact["top_news"].pop()
 
     apply_news_field_limits(compact, 80, 80, 60)
+    apply_learning_field_limits(compact, 120, 120, 180, 110)
     if estimate_report_size(compact) > news_max_chars:
         compact["summary"] = [truncate_text(line, 60) for line in compact.get("summary", [])[:2]]
         apply_news_field_limits(compact, 70, 70, 50)
+        apply_learning_field_limits(compact, 100, 100, 140, 90)
 
     return compact
 
@@ -567,6 +902,10 @@ def create_report_json_with_litellm(
     items: list[dict[str, Any]],
     source_json_name: str,
     used_fallback_cache: bool,
+    selected_learning_item: dict[str, Any] | None,
+    learning_items: list[dict[str, Any]],
+    learning_source_json_name: str,
+    learning_used_fallback_cache: bool,
 ) -> dict[str, Any]:
     endpoint = base_url.rstrip("/") + "/chat/completions"
     prompt_items = build_prompt_items(items, timezone_name)
@@ -590,14 +929,27 @@ def create_report_json_with_litellm(
         else "本次使用目标日期候选新闻 JSON。"
     )
 
+    learning_prompt_item = build_learning_prompt_item(selected_learning_item, timezone_name)
+    learning_cache_note = (
+        f"学习资源使用目标日期 JSON：{learning_source_json_name}。"
+        if not learning_used_fallback_cache
+        else f"学习资源目标日期 JSON 缺失，本次使用最近缓存：{learning_source_json_name}。"
+    )
+    learning_source_count = len(learning_items)
+    selected_learning_link = (
+        normalize_url(clean_text(selected_learning_item.get("link", "")))
+        if selected_learning_item
+        else ""
+    )
+
     system_prompt = (
         "你是面向智能汽车行业从业者的 AI 科技日报分析助手。"
-        "你只能基于候选新闻生成结论，不得编造候选列表外事实。"
+        "你只能基于候选新闻和给定学习资源元数据生成结论，不得编造候选列表外事实。"
         "你必须只输出一个合法 JSON 对象，不要输出 Markdown、HTML、代码块或解释文字。"
     )
 
     user_prompt = f"""
-请基于候选新闻生成“单条飞书日报”所需 JSON，严格遵守 schema：
+请基于候选新闻与学习资源元数据，生成“单条飞书日报”所需 JSON，严格遵守 schema：
 {{
   "title": "AI 科技日报｜{report_date}",
   "summary": ["摘要句子1", "摘要句子2", "摘要句子3"],
@@ -607,11 +959,21 @@ def create_report_json_with_litellm(
       "what_happened": "发生了什么",
       "why_important": "为什么重要",
       "auto_relevance": "直接影响 / 间接影响 / 暂无明显影响",
-      "auto_impact_brief": "1-2 句话的简短汽车影响",
+      "auto_impact_brief": "1-2 句话说明对汽车行业最相关影响（系统工程/硬件/软件/AI应用择其一）",
       "source_name": "来源名称",
       "source_url": "来源链接"
     }}
-  ]
+  ],
+  "codex_learning": {{
+    "resource_title": "资源标题",
+    "resource_type": "YouTube 视频 / 官方文档 / 博客 / 教程",
+    "source_name": "来源名称",
+    "source_url": "资源链接",
+    "learning_point": "今天可以学到的一个 Codex Agent 使用技巧",
+    "how_to_apply": "如何在实际使用 Codex 时应用",
+    "example_prompt": "一条可复制给 Codex 的 Prompt",
+    "confidence_note": "基于资源标题/简介整理，建议打开原链接观看完整内容。"
+  }}
 }}
 
 约束：
@@ -620,21 +982,32 @@ def create_report_json_with_litellm(
 3) `top_news` 优先输出 {news_top_n} 条（不足可少于 {news_top_n}，但要在摘要里如实说明）。
 4) `what_happened` 控制在 80-120 字。
 5) `why_important` 控制在 80-120 字。
-6) `auto_impact_brief` 控制在 60-100 字，且只写 1-2 句，不要展开成系统工程/硬件/软件/AI应用四个小节。
+6) `auto_impact_brief` 控制在 60-100 字，且只写 1-2 句，不要展开成长篇。
 7) `source_url` 必须来自候选新闻链接；不得编造新链接。
-8) 不要输出独立“对汽车行业的影响”章节。
-9) 不要输出独立“对我的关注建议”章节。
-10) 不要输出独立“来源链接汇总”章节。
-11) {cache_note}
-12) 必须综合考虑中英文新闻，不可只看英文来源。
-13) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
-14) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）进行简短分析。
-15) 最终内容应适合单条飞书消息阅读，目标总长度约 {news_max_chars} 字符。
+8) 不要输出独立“对汽车行业的影响”“关注建议”“来源链接汇总”章节。
+9) {cache_note}
+10) 必须综合考虑中英文新闻，不可只看英文来源。
+11) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
+12) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）。
+13) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
+
+Codex Agent 每日一学约束：
+14) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
+15) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
+16) `confidence_note` 必须明确“基于资源标题/简介整理”。
+17) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
+18) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
+19) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
 - 全球候选条数：{global_candidate_count}
 - 中国汽车智能化分组候选条数：{auto_china_candidate_count}
+- 学习资源候选条数：{learning_source_count}
+- {learning_cache_note}
+
+学习资源（最多 1 条，优先官方 Codex / YouTube / 教程）：
+{learning_prompt_item}
 
 候选新闻：
 {prompt_items}
@@ -673,7 +1046,14 @@ def create_report_json_with_litellm(
         raise RuntimeError("LiteLLM returned empty content")
 
     raw_report = parse_litellm_report_json(content_text)
-    return normalize_report_payload(raw_report, report_date, news_top_n, items)
+    return normalize_report_payload(
+        raw=raw_report,
+        report_date=report_date,
+        news_top_n=news_top_n,
+        candidate_items=items,
+        selected_learning_item=selected_learning_item,
+        learning_candidate_items=learning_items,
+    )
 
 
 def make_card_shell(title: str) -> dict[str, Any]:
@@ -715,6 +1095,23 @@ def add_button(elements: list[dict[str, Any]], text: str, url: str, btn_type: st
     )
 
 
+def build_data_source_note(report: dict[str, Any]) -> str:
+    news_source = clean_text(report.get("source_json_name", "N/A"))
+    news_fallback = bool(report.get("used_fallback_cache", False))
+    learning_source = clean_text(report.get("learning_source_json_name", "N/A"))
+    learning_fallback = bool(report.get("learning_used_fallback_cache", False))
+
+    news_note = f"新闻源：{news_source}"
+    if news_fallback:
+        news_note += "（目标日期缺失，已使用最近缓存）"
+
+    learning_note = f"学习源：{learning_source}"
+    if learning_fallback:
+        learning_note += "（目标日期缺失，已使用最近缓存）"
+
+    return f"{news_note}；{learning_note}"
+
+
 def build_single_interactive_card(
     report: dict[str, Any],
     source_json_name: str,
@@ -723,6 +1120,8 @@ def build_single_interactive_card(
     title = clean_text(report.get("title", "AI 科技日报"))
     summary = ensure_list_of_strings(report.get("summary"))
     top_news = report.get("top_news", [])
+    learning = report.get("codex_learning")
+    learning = learning if isinstance(learning, dict) else {}
 
     card = make_card_shell(title)
     elements = card["elements"]
@@ -757,9 +1156,39 @@ def build_single_interactive_card(
         if idx != len(top_news):
             elements.append({"tag": "hr"})
 
-    note_text = f"数据源：{source_json_name}"
-    if used_fallback_cache:
-        note_text += "（目标日期缺失，已使用最近缓存）"
+    elements.append({"tag": "hr"})
+    add_section_title(elements, "三、Codex Agent 每日一学")
+
+    learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
+    learning_type = clean_text(learning.get("resource_type", LEARNING_TYPE_NA))
+    learning_source_name = clean_text(learning.get("source_name", "来源"))
+    learning_source_url = clean_text(learning.get("source_url", ""))
+    learning_point = clean_text(learning.get("learning_point", DEFAULT_LEARNING_EMPTY_TEXT))
+    learning_apply = clean_text(learning.get("how_to_apply", "可明日继续关注官方资源更新。"))
+    learning_prompt = clean_text(learning.get("example_prompt", DEFAULT_LEARNING_PROMPT))
+    confidence_note = clean_text(learning.get("confidence_note", DEFAULT_LEARNING_NOTE))
+
+    if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
+        add_markdown(elements, DEFAULT_LEARNING_EMPTY_TEXT)
+    else:
+        add_markdown(
+            elements,
+            "\n".join(
+                [
+                    f"今日资源：{learning_title}",
+                    f"类型：{learning_type}",
+                    f"来源：{learning_source_name}",
+                    f"今日学习点：{learning_point}",
+                    f"如何应用：{learning_apply}",
+                    f"可复制 Prompt：`{learning_prompt}`",
+                    f"备注：{confidence_note}",
+                ]
+            ),
+        )
+        if learning_source_url:
+            add_button(elements, "打开学习资源", learning_source_url, btn_type="default")
+
+    note_text = build_data_source_note(report)
     elements.append({"tag": "note", "elements": [{"tag": "plain_text", "content": note_text}]})
 
     return card
@@ -773,6 +1202,8 @@ def build_single_post_payload(
     title = clean_text(report.get("title", "AI 科技日报"))
     summary = ensure_list_of_strings(report.get("summary"))
     top_news = report.get("top_news", [])
+    learning = report.get("codex_learning")
+    learning = learning if isinstance(learning, dict) else {}
 
     rows: list[list[dict[str, Any]]] = []
 
@@ -805,9 +1236,25 @@ def build_single_post_payload(
         if source_url:
             rows.append(row_link("来源：", source_name or "打开链接", source_url))
 
-    note_text = f"数据源：{source_json_name}"
-    if used_fallback_cache:
-        note_text += "（目标日期缺失，已使用最近缓存）"
+    rows.append(row_text("三、Codex Agent 每日一学"))
+    learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
+    learning_type = clean_text(learning.get("resource_type", LEARNING_TYPE_NA))
+    learning_source_name = clean_text(learning.get("source_name", "来源"))
+    learning_source_url = clean_text(learning.get("source_url", ""))
+
+    if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
+        rows.append(row_text(DEFAULT_LEARNING_EMPTY_TEXT))
+    else:
+        rows.append(row_text(f"今日资源：{learning_title}"))
+        rows.append(row_text(f"类型：{learning_type}"))
+        rows.append(row_text(f"今日学习点：{learning.get('learning_point', DEFAULT_LEARNING_EMPTY_TEXT)}"))
+        rows.append(row_text(f"如何应用：{learning.get('how_to_apply', '可明日继续关注官方资源更新。')}"))
+        rows.append(row_text(f"可复制 Prompt：{learning.get('example_prompt', DEFAULT_LEARNING_PROMPT)}"))
+        rows.append(row_text(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}"))
+        if learning_source_url:
+            rows.append(row_link("来源：", learning_source_name or "打开链接", learning_source_url))
+
+    note_text = build_data_source_note(report)
     rows.append(row_text(note_text))
 
     return {
@@ -831,6 +1278,8 @@ def build_single_text_payload(
     title = clean_text(report.get("title", "AI 科技日报"))
     summary = ensure_list_of_strings(report.get("summary"))
     top_news = report.get("top_news", [])
+    learning = report.get("codex_learning")
+    learning = learning if isinstance(learning, dict) else {}
 
     lines = [title, "", "一、今日摘要"]
     lines.extend(f"- {line}" for line in summary[:5])
@@ -847,9 +1296,21 @@ def build_single_text_payload(
         lines.append(f"来源：{news.get('source_name', '来源')} {news.get('source_url', '')}")
         lines.append("")
 
-    note_text = f"数据源：{source_json_name}"
-    if used_fallback_cache:
-        note_text += "（目标日期缺失，已使用最近缓存）"
+    lines.extend(["三、Codex Agent 每日一学"])
+    learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
+    learning_source_url = clean_text(learning.get("source_url", ""))
+    if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
+        lines.append(DEFAULT_LEARNING_EMPTY_TEXT)
+    else:
+        lines.append(f"今日资源：{learning_title}")
+        lines.append(f"类型：{learning.get('resource_type', LEARNING_TYPE_NA)}")
+        lines.append(f"来源：{learning.get('source_name', '来源')} {learning_source_url}")
+        lines.append(f"今日学习点：{learning.get('learning_point', DEFAULT_LEARNING_EMPTY_TEXT)}")
+        lines.append(f"如何应用：{learning.get('how_to_apply', '可明日继续关注官方资源更新。')}")
+        lines.append(f"可复制 Prompt：{learning.get('example_prompt', DEFAULT_LEARNING_PROMPT)}")
+        lines.append(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}")
+
+    note_text = build_data_source_note(report)
     lines.append(note_text)
 
     return {
@@ -932,6 +1393,16 @@ def build_error_report(report_date: str, detail: str) -> dict[str, Any]:
         "report_date": report_date,
         "summary": [f"日报生成失败：{truncate_text(detail, 180)}"],
         "top_news": [],
+        "codex_learning": {
+            "resource_title": DEFAULT_LEARNING_EMPTY_TEXT,
+            "resource_type": LEARNING_TYPE_NA,
+            "source_name": "",
+            "source_url": "",
+            "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
+            "how_to_apply": "可明日继续关注官方资源更新。",
+            "example_prompt": DEFAULT_LEARNING_PROMPT,
+            "confidence_note": "今日未发现可用学习候选资源。",
+        },
     }
 
 
@@ -958,6 +1429,8 @@ def main() -> int:
         error_report = build_error_report(report_date, f"目录不存在：{data_dir.as_posix()}")
         error_report["source_json_name"] = "N/A"
         error_report["used_fallback_cache"] = False
+        error_report["learning_source_json_name"] = "N/A"
+        error_report["learning_used_fallback_cache"] = False
         send_report_with_fallback(webhook_url, feishu_secret, error_report)
         return 1
 
@@ -967,6 +1440,8 @@ def main() -> int:
         error_report = build_error_report(report_date, str(exc))
         error_report["source_json_name"] = "N/A"
         error_report["used_fallback_cache"] = False
+        error_report["learning_source_json_name"] = "N/A"
+        error_report["learning_used_fallback_cache"] = False
         send_report_with_fallback(webhook_url, feishu_secret, error_report)
         return 1
 
@@ -978,8 +1453,47 @@ def main() -> int:
         empty_report = build_error_report(report_date, f"候选新闻为空：{source_file.name}")
         empty_report["source_json_name"] = source_file.name
         empty_report["used_fallback_cache"] = used_fallback_cache
+        empty_report["learning_source_json_name"] = "N/A"
+        empty_report["learning_used_fallback_cache"] = False
         send_report_with_fallback(webhook_url, feishu_secret, empty_report)
         return 0
+
+    learning_data_dir = project_root / "data" / "learning-candidates"
+    learning_items: list[dict[str, Any]] = []
+    learning_source_json_name = "N/A"
+    learning_used_fallback_cache = False
+
+    if learning_data_dir.exists():
+        try:
+            learning_payload, learning_source_file, learning_used_fallback_cache = find_candidates_json(
+                learning_data_dir,
+                report_date,
+            )
+            learning_source_json_name = learning_source_file.name
+            raw_learning_items = learning_payload.get("items", [])
+            if isinstance(raw_learning_items, list):
+                learning_items = [item for item in raw_learning_items if isinstance(item, dict)]
+            else:
+                LOGGER.warning("Invalid learning JSON items list in %s", learning_source_file.name)
+            LOGGER.info(
+                "Loaded learning candidates from %s (items=%s, fallback_cache=%s)",
+                learning_source_file.name,
+                len(learning_items),
+                learning_used_fallback_cache,
+            )
+        except Exception as exc:
+            LOGGER.warning("Load learning candidates failed: %s", exc)
+    else:
+        LOGGER.warning("Learning candidates directory not found: %s", learning_data_dir.as_posix())
+
+    selected_learning_item = select_learning_candidate(learning_items, tz)
+    if selected_learning_item:
+        LOGGER.info(
+            "Selected learning resource: %s",
+            truncate_text(selected_learning_item.get("title", ""), 100),
+        )
+    else:
+        LOGGER.info("No suitable learning resource selected for today")
 
     api_key = os.getenv("LITELLM_API_KEY") or os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -992,10 +1506,11 @@ def main() -> int:
     model = os.getenv("LITELLM_MODEL", "gpt-5.4").strip() or "gpt-5.4"
 
     LOGGER.info(
-        "Generating report JSON from %s (items=%s, fallback_cache=%s)",
+        "Generating report JSON from %s (items=%s, fallback_cache=%s, learning_items=%s)",
         source_file.name,
         len(items),
         used_fallback_cache,
+        len(learning_items),
     )
 
     try:
@@ -1010,12 +1525,18 @@ def main() -> int:
             items=items,
             source_json_name=source_file.name,
             used_fallback_cache=used_fallback_cache,
+            selected_learning_item=selected_learning_item,
+            learning_items=learning_items,
+            learning_source_json_name=learning_source_json_name,
+            learning_used_fallback_cache=learning_used_fallback_cache,
         )
     except LiteLLMReportParseError as exc:
         LOGGER.warning("LiteLLM JSON parse failed: %s", exc)
         error_report = build_error_report(report_date, f"LiteLLM JSON 解析失败：{exc}")
         error_report["source_json_name"] = source_file.name
         error_report["used_fallback_cache"] = used_fallback_cache
+        error_report["learning_source_json_name"] = learning_source_json_name
+        error_report["learning_used_fallback_cache"] = learning_used_fallback_cache
         text_payload = build_single_text_payload(
             report=error_report,
             source_json_name=source_file.name,
@@ -1028,12 +1549,16 @@ def main() -> int:
         error_report = build_error_report(report_date, f"LiteLLM 生成失败：{exc}")
         error_report["source_json_name"] = source_file.name
         error_report["used_fallback_cache"] = used_fallback_cache
+        error_report["learning_source_json_name"] = learning_source_json_name
+        error_report["learning_used_fallback_cache"] = learning_used_fallback_cache
         send_report_with_fallback(webhook_url, feishu_secret, error_report)
         return 1
 
     report = shrink_report_for_limit(report, news_max_chars, news_top_n)
     report["source_json_name"] = source_file.name
     report["used_fallback_cache"] = used_fallback_cache
+    report["learning_source_json_name"] = learning_source_json_name
+    report["learning_used_fallback_cache"] = learning_used_fallback_cache
 
     send_report_with_fallback(webhook_url=webhook_url, secret=feishu_secret, report=report)
     LOGGER.info("Daily report sent successfully")
