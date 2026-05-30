@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T21:47:57.913660+00:00",
+  "generated_at": "2026-05-30T22:41:16.678334+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T05:47:16.329912+08:00",
+      "published_at": "2026-05-31T06:40:34.521463+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -332,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T05:47:16.329912+08:00",
+      "published_at": "2026-05-31T06:40:34.521463+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -411,11 +411,11 @@
       ]
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
-      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
+      "title": "From model to agent: Equipping the Responses API with a computer environment - OpenAI",
+      "summary": "From model to agent: Equipping the Responses API with a computer environment OpenAI",
       "published_at": "2026-05-27T15:00:00+08:00",
       "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16SS1qakJOZ1Y1SUZnRWdKOGplTHYwSHpOeDF0Ynl5dWxySUZTXzVCU0xBRzVIQjg0SjZxNUxvOFgzVFZjNjRRRmJpaTNpbXhSYU90OEtqZFRYWXlNYW1NNnM4UFJjN2k4WGJyQ2hFT0t6Y2IwdExGTkpacEg?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "learning_search_global",
@@ -430,7 +430,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T05:47:16.329912+08:00",
+      "published_at": "2026-05-31T06:40:34.521463+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
