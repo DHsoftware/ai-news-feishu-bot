@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T22:41:16.678334+00:00",
+  "generated_at": "2026-05-30T23:40:32.324395+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T06:40:34.521463+08:00",
+      "published_at": "2026-05-31T07:39:50.757023+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -332,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T06:40:34.521463+08:00",
+      "published_at": "2026-05-31T07:39:50.757023+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -362,11 +362,11 @@
       ]
     },
     {
-      "title": "Codex碾压Claude Code_新浪新闻 - 新浪网",
-      "summary": "Codex碾压Claude Code_新浪新闻 新浪网",
-      "published_at": "2026-05-23T13:29:00+08:00",
+      "title": "昆仑万维天工AI发布SkyClaw-v1.0 支持百万token上下文|OpenClaw|Hermes|Minimax|开源模型|Qwen_手机新浪网 - 新浪财经",
+      "summary": "昆仑万维天工AI发布SkyClaw-v1.0 支持百万token上下文|OpenClaw|Hermes|Minimax|开源模型|Qwen_手机新浪网 新浪财经",
+      "published_at": "2026-05-26T15:00:00+08:00",
       "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83dG9uemZwMTV5MXRjVkZQY180Mld1R0k3YlR5OFZHN2pOOXFqRXBpaWZYWWZzemFSSEVKSlZ4ZTBGcHd1TzY3MVd5YTMtOEhMa3pIb3AtUmFZV0cxbklHT2Etbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxNbkZFUDQ3OENQRUl2X1FsRFhzbm9tTS1DYzY2UkMtUFVjRUlGTWcwbThHUXBfYVdsZ2UyWHdtYjVZQ1ZoMWl5ZTVicnVsMTBDeDdmVVJOWlRCc3otaHhIeC1QQjB3UFVmRkdzRV9PX0NFS25kSDFqYXNmRUJreTVFUGVRUk5NX3hmQUlWd1hPY0JMa1k5QktyQ1dyNDRpX05Lb2Q1ZDItRWxUMlljTV9vbGJseDQ3aGM5ckF0VG04T1FpQjVYMUxhV190N0JGamRDNjVqVTJtV1hQNHd2LUFiVFh4dXRKTXQ0VzR5bnFTVHJNbjF2dVd6TE96bkpPRHRHenRmZ1g1SEQyOWhNV2NGN2J3ZjRTbGVPRnh1bTFTQUNXbDNQZ1ZzQnVoeVR3bW50YXJpQnNDRXhLQVJQTmxDSW16akgxVkZpTnlnRmo0THJ1LV9HSHk2a01rYnBmMXM2OV9pTU9CaElsRERRdFQ0c2x3S1hVenZhbVZyZk1VTk5SY0dLbXVteGg1ajRqX1VTZ1VkUDNDXzBWbC1mNjBKYXQwZl9LNVZ1ZnNVbUxUTFlFWEFsUnJsSERnb2JGSHg3NktzM1Y2R0JoSzR2S3lTdFFjX25DOU5JdGVRcFgtb0dQS1l0bTBLOEtJT1pRLVlWY2dSLXBIZmItZVR2NEFzZTV6SGlKMTJmdm5hSzk5eTU2RWFrVzQzUTF3aGFudG1CTzRpVElwWW5LYlE2Sl9nU2p0Zm5SaEg1TzYw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -378,11 +378,11 @@
       ]
     },
     {
-      "title": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 - 积墨 AI",
-      "summary": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 积墨 AI",
-      "published_at": "2026-05-11T15:00:00+08:00",
+      "title": "Codex碾压Claude Code_新浪新闻 - 新浪网",
+      "summary": "Codex碾压Claude Code_新浪新闻 新浪网",
+      "published_at": "2026-05-23T13:29:00+08:00",
       "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEhhVGl4MXBHcEk3ZURQdkNpZWJBSURZcGZlU0VfUkNhWExKbDBQOUlKOC1wSWx2ck05bEtvZjA0Y0VZdmZTOXpjc0RNdjdNM2h3TjJDVktnU3pNWkZWUFJhOTdOQ2RPR2pKTUk1dFNYNkxIN0Iydk43WDZyTExlQXdDQjAxdzdQNEVOdWxjVlFaZGZZLWQtM0JKVzhLM19QTnNfdFdNcmUyLVk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83dG9uemZwMTV5MXRjVkZQY180Mld1R0k3YlR5OFZHN2pOOXFqRXBpaWZYWWZzemFSSEVKSlZ4ZTBGcHd1TzY3MVd5YTMtOEhMa3pIb3AtUmFZV0cxbklHT2Etbw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -411,11 +411,11 @@
       ]
     },
     {
-      "title": "From model to agent: Equipping the Responses API with a computer environment - OpenAI",
-      "summary": "From model to agent: Equipping the Responses API with a computer environment OpenAI",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
+      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
       "published_at": "2026-05-27T15:00:00+08:00",
       "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16SS1qakJOZ1Y1SUZnRWdKOGplTHYwSHpOeDF0Ynl5dWxySUZTXzVCU0xBRzVIQjg0SjZxNUxvOFgzVFZjNjRRRmJpaTNpbXhSYU90OEtqZFRYWXlNYW1NNnM4UFJjN2k4WGJyQ2hFT0t6Y2IwdExGTkpacEg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "learning_search_global",
@@ -430,7 +430,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T06:40:34.521463+08:00",
+      "published_at": "2026-05-31T07:39:50.757023+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
