@@ -3,7 +3,7 @@ name: Collect RSS Candidates
 on:
   schedule:
     # 07:50 Asia/Shanghai == 23:50 UTC (previous day)
-    - cron: "50 23 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
