@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-30T13:47:06.020555+00:00",
+  "generated_at": "2026-05-30T14:56:09.571968+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -30,18 +30,6 @@
       "published_at": "2026-05-29T20:35:45+08:00",
       "source": "\"理想 小鹏 蔚来 智能驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UY3BNc2VkTkdndU1YUFcyWGUxU3YxYTMwVExGbWxKMk8yR21nQkxUc3otdGNrcC1OcFJ2RXZoZWFDV3VJNW5iR2VDckxFTE16M1pEd2VGd2tjbHc?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "理想交出“长期主义对账单” - 网易新闻客户端",
-      "summary": "理想交出“长期主义对账单” 网易新闻客户端",
-      "published_at": "2026-05-29T19:24:00+08:00",
-      "source": "\"理想 小鹏 蔚来 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QVWFqQVZEYVpVa2otOWRWOVpWd3hXWUhSbERqNUk3OEpSdUx5R1ZmNFNSVndnV3RKOHpJbnZQX1E5MnBkbFExa2dMSE9OMFNwUUQ1VE5UY1hBMmIx?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -313,18 +301,6 @@
       "tags": []
     },
     {
-      "title": "Grok Build 0.1编程实战表现亮眼，成本低于竞品获马斯克盛赞 - 天脉网",
-      "summary": "Grok Build 0.1编程实战表现亮眼，成本低于竞品获马斯克盛赞 天脉网",
-      "published_at": "2026-05-29T19:25:48+08:00",
-      "source": "\"AI 编程工具\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94ZTd5cjBtODNyQ3JmUUsyTnY2bHFlcVFaQXBvVXFvUzhUdS1wSExyWDdSUlh3TmwyQ240cHBCZ0pQN0dkUGVFdS1mM1hvQ1F6aEV3anpwRQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "图灵智能研究院院长、北京智源人工智能研究院创始副院长刘江：从工具到智能主体大模型开启AI全新时代 - zqrb.cn",
       "summary": "图灵智能研究院院长、北京智源人工智能研究院创始副院长刘江：从工具到智能主体大模型开启AI全新时代 zqrb.cn",
       "published_at": "2026-05-29T17:12:00+08:00",
@@ -378,6 +354,18 @@
       "published_at": "2026-05-29T08:41:00+08:00",
       "source": "\"AI 编程工具\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BT2o4TmZNREFiREtjR1FHeEtmbDROaTNzcE0zMEpVRUVCc3FjV2RvSWZYdkhiVlhtZ3NEenIySkdsLW5KSHkyaQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "在 PR 里写一句话，就能骗 AI 泄露密钥？ - 51CTO",
+      "summary": "在 PR 里写一句话，就能骗 AI 泄露密钥？ 51CTO",
+      "published_at": "2026-05-29T01:25:00+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKZEFma2dkN1JHdDBDT2xxZjdEdHpqTlNtN1g3ZTZSWl9ndGN6eW9oVUtjNG9SMWkybUJEY1ZfcUxRX1lPSkdESXhpc3N5VHgwX2dN?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -457,6 +445,18 @@
       "tags": []
     },
     {
+      "title": "Claude 4.8 发布引发行业反思：大模型高分低能，真实场景能力仍不足 - 虎嗅",
+      "summary": "Claude 4.8 发布引发行业反思：大模型高分低能，真实场景能力仍不足 虎嗅",
+      "published_at": "2026-05-29T23:10:45+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56X3VpcXc1ZEdtUnhvMjVyWTd2cnVMdzRUaTBYMm45bjMtZ0t6TnpfRVV3MV9TRzQzNGxydDBKYloxczJaUlc1TFhqbmVJM3FrM2d3Sw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
+    },
+    {
       "title": "思必驰递交科创板IPO申请：传统语音AI公司在大模型时代面临价值挑战 - 虎嗅",
       "summary": "思必驰递交科创板IPO申请：传统语音AI公司在大模型时代面临价值挑战 虎嗅",
       "published_at": "2026-05-29T21:56:58+08:00",
@@ -481,11 +481,11 @@
       "tags": []
     },
     {
-      "title": "AI大模型驱动语音办公崛起：接收方从人变AI，识别准确率不再是瓶颈 - 虎嗅",
-      "summary": "AI大模型驱动语音办公崛起：接收方从人变AI，识别准确率不再是瓶颈 虎嗅",
-      "published_at": "2026-05-29T20:54:43+08:00",
-      "source": "\"虎嗅 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51OUpiYk13SUM3SDcyWWRid1ZfQ21Id1VqQVNaUXlSakZRZWdLLVVYZ25tMVZXby1BczhUcEo0WWVabEhuRFNXdS1Yd2hFSUcxWHRSWg?oc=5",
+      "title": "思必驰要上市了，但AI语音的护城河没了 - 36氪",
+      "summary": "思必驰要上市了，但AI语音的护城河没了 36氪",
+      "published_at": "2026-05-29T20:15:00+08:00",
+      "source": "\"36氪 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95U1NEcW5GTWl1ZzhNdkF3dEt2XzNsWjJNY0dNZ1Z2MU8zNzRvM2Jka0xfdTFxQ2RtWDgzZFh1TXg0YzVFOVN4c2JHVWxYUQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "china",
