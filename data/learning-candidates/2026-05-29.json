@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-30T14:56:18.147653+00:00",
+  "generated_at": "2026-05-30T15:58:03.725404+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-30T22:55:31.410384+08:00",
+      "published_at": "2026-05-30T23:57:16.414949+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -313,9 +313,26 @@
       ]
     },
     {
+      "title": "Android CLI 实战指南：借助任意智能体，实现 3 倍速高效开发 - 53AI",
+      "summary": "Android CLI 实战指南：借助任意智能体，实现 3 倍速高效开发 53AI",
+      "published_at": "2026-05-06T15:00:00+08:00",
+      "source": "\"Codex CLI 使用教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tcEdpejQtM2pSd0lrWC1fMG01M2xSMUdKbkJXU0c1U3pNQkY4alpCRlhqbzRaRV9GZ05kcHk2THh1STFEcmlBZnU5eXBYelRDQUU0SG5KU1o5OWlPSWEyRXlQSzFEUVFRdGhUeVZQanQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-30T22:55:31.410384+08:00",
+      "published_at": "2026-05-30T23:57:16.414949+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -377,6 +394,23 @@
       ]
     },
     {
+      "title": "Introducing workspace agents in ChatGPT - OpenAI",
+      "summary": "Introducing workspace agents in ChatGPT OpenAI",
+      "published_at": "2026-05-30T18:53:04+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial",
+        "workflow"
+      ]
+    },
+    {
       "title": "Warp’s big bet on building open source with GPT-5.5 - OpenAI",
       "summary": "Warp’s big bet on building open source with GPT-5.5 OpenAI",
       "published_at": "2026-05-28T04:19:04+08:00",
@@ -394,26 +428,9 @@
       ]
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
-      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
-      "published_at": "2026-05-27T15:00:00+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-30T22:55:31.410384+08:00",
+      "published_at": "2026-05-30T23:57:16.414949+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
@@ -490,24 +507,6 @@
         "cli",
         "code_review",
         "codex",
-        "workflow"
-      ]
-    },
-    {
-      "title": "Google Stitch End-to-End Workflow Automation Guide - Blockchain Council",
-      "summary": "Google Stitch End-to-End Workflow Automation Guide Blockchain Council",
-      "published_at": "2026-05-26T02:39:07+08:00",
-      "source": "\"AI coding agent best practices\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFlfOElpdGNuMGlZVGI3a1k2RHI1bVhLVzRBT2N0MlpMMmlqQVN4OUloTEM5WXo4VWdtZEF2RXU3ZEg5c1I4cEZzbE9Sa203SDAyNkFqZ29fTDY5V19TNzR0dmM4VmVaVGNKNGU4ZnVNOTFBemtIZlRZeENxNlFVMS1RWHpCQWZyVFNqcVV4c3c5RHBtR3d1WTlNMmpSekN4QW5IOFZmb0s1T0pSSWpuQkFCX0l0bXVm?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "best_practice",
-        "codex",
-        "tutorial",
         "workflow"
       ]
     }
