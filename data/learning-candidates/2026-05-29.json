@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-30T10:57:11.135022+00:00",
+  "generated_at": "2026-05-30T12:01:53.563374+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -31,23 +31,6 @@
       "published_at": "2026-05-25T10:37:15+08:00",
       "source": "\"OpenAI Codex AGENTS.md\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15Vkd4WnYxLVZ4YTRhUU9JaUJneWRvaG0xeUxUWVVkRzlqdXBQNHlPTGk1S2tjdkw5TTZKMzgzZUdBak9zczZGanBoekRqakFoaUVhWGpLS1Z5V3lOMTRj0gFkQVVfeXFMT0ZWSktzYXY1dzhDY1MxdkxfY25WX29rQTRvT0l0dEprSnJ5VmtoWW54WW12YUhvWHp3bXVPTlR6bHdtaEJJSzJ0S0VjS2dya0VESGNDa3pHR256Y1ZzbkNvSnhvTQ?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "agents",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "OpenAI Codex vs Augment Cosmos: AI Coding Compared - Augment Code",
-      "summary": "OpenAI Codex vs Augment Cosmos: AI Coding Compared Augment Code",
-      "published_at": "2026-05-09T14:18:07+08:00",
-      "source": "\"OpenAI Codex AGENTS.md\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uaEJpWEZhVl9PSFlISUdnTzVKclZwNkxpVWVhRUMxZ1J6c1pNaEp4TGpyS1RaY1lfMnQ4elJEQndHM2JYTGdsMExJd2RvUTF3UmluNXQ3dnpHOGpKQzFBTlVsclhZMWhBbDBJYm5EU3V6UQ?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "learning_search_global",
@@ -145,23 +128,6 @@
       ]
     },
     {
-      "title": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival - Memeburn",
-      "summary": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival Memeburn",
-      "published_at": "2026-05-25T09:43:43+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abko4amh2MVRMbDNTTTB0dWcycy1tZE13YkU0b21MNnJNQ3RDbTRXZV9pVXdXZ1NqTlFZcVBidE1JdkMxTldtN2hrVnBaV3l5bVZCWklzQWRkdFE5YTlBcGV4MGRxQ3RPV09lUGVGT09yOEhLWWc?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
       "title": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
       "summary": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server Oracle Blogs",
       "published_at": "2026-05-23T04:06:57+08:00",
@@ -213,9 +179,26 @@
       ]
     },
     {
+      "title": "OpenAI Plans ‘Codex For Legal’ - Artificial Lawyer",
+      "summary": "OpenAI Plans ‘Codex For Legal’ Artificial Lawyer",
+      "published_at": "2026-05-18T15:00:00+08:00",
+      "source": "\"OpenAI Codex MCP\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uOUNXajMtRlVRSjEyemZJa1NtamZnOW5GbE9iMElSdC1KUHlJZzNFYXRiU0N6Nl8xMmdSMWk3dlluZjMwa2FhVV9kdTdCTFc5Y21wVWZaakU5bTh5MVJUWGdiSVprd1NXNDA5aXkta0hiNkI3eXJHQWp1a0pEQQ?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial"
+      ]
+    },
+    {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-30T18:56:29.318158+08:00",
+      "published_at": "2026-05-30T20:01:11.334185+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -315,7 +298,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-30T18:56:29.318158+08:00",
+      "published_at": "2026-05-30T20:01:11.334185+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -326,22 +309,6 @@
         "codex",
         "official",
         "workflow"
-      ]
-    },
-    {
-      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 - 爱范儿",
-      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 爱范儿",
-      "published_at": "2026-05-28T12:09:48+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE51WjZfSW9wQ1dCdzFsQlJaQkZ5N0ZTNkVpLWF2N0pUaXlDbVlFZjFJWWxjcTRiOGdjWEhkOF9TTk9CZE0?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
       ]
     },
     {
@@ -394,6 +361,22 @@
       ]
     },
     {
+      "title": "Harness Engineering课程发布_新浪新闻 - 新浪网",
+      "summary": "Harness Engineering课程发布_新浪新闻 新浪网",
+      "published_at": "2026-05-10T15:00:00+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DcHZNM252bTZrMDFXN1cwUWJXQkgwM3hxOXVyTDRqWEVjVmdZSjFpWVdVelNmQkFVY3FBblZMODdaR3luMWxFZXo5bV83QXdoN3lfZjdTNndVM2tFdHdnR2xTcw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
       "title": "Warp’s big bet on building open source with GPT-5.5 - OpenAI",
       "summary": "Warp’s big bet on building open source with GPT-5.5 OpenAI",
       "published_at": "2026-05-28T04:19:04+08:00",
@@ -430,7 +413,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-30T18:56:29.318158+08:00",
+      "published_at": "2026-05-30T20:01:11.334185+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
@@ -507,6 +490,24 @@
         "cli",
         "code_review",
         "codex",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Google Stitch End-to-End Workflow Automation Guide - Blockchain Council",
+      "summary": "Google Stitch End-to-End Workflow Automation Guide Blockchain Council",
+      "published_at": "2026-05-26T02:39:07+08:00",
+      "source": "\"AI coding agent best practices\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFlfOElpdGNuMGlZVGI3a1k2RHI1bVhLVzRBT2N0MlpMMmlqQVN4OUloTEM5WXo4VWdtZEF2RXU3ZEg5c1I4cEZzbE9Sa203SDAyNkFqZ29fTDY5V19TNzR0dmM4VmVaVGNKNGU4ZnVNOTFBemtIZlRZeENxNlFVMS1RWHpCQWZyVFNqcVV4c3c5RHBtR3d1WTlNMmpSekN4QW5IOFZmb0s1T0pSSWpuQkFCX0l0bXVm?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "best_practice",
+        "codex",
+        "tutorial",
         "workflow"
       ]
     }
