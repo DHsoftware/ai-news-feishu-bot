@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-30T12:01:53.563374+00:00",
+  "generated_at": "2026-05-30T13:47:11.959458+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -128,77 +128,9 @@
       ]
     },
     {
-      "title": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
-      "summary": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server Oracle Blogs",
-      "published_at": "2026-05-23T04:06:57+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGZLNEo2RUVTWDQ0UmpVNG0waHJWN1ZyUnlpSkN2WTVpLVNsTGstZmZLaG5sRkwtMWQzak9jWkxwcTJjeDdELXROc0NDYjlYdDVlaXNEWk9fV0F1SnZWX05JcXVDRmpIOFZrdzJhQjFTWkdEQXRrT0wtT2Q5RFY2ZFlXcGo4RzFjdzQydTBQNWVnVG5jNUVWSFVzNU81VU1XczBPYlpoWHdUaXliOVoxcGNsWWlTTk0tQ1g0QmxGbw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "1Password Extends OpenAI Integration with Codex MCP - Let's Data Science",
-      "summary": "1Password Extends OpenAI Integration with Codex MCP Let's Data Science",
-      "published_at": "2026-05-20T21:27:46+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa2dsUkt5RU03cHZaTWVETEtTQ2FxRDBJUzdwWVBWV2NYa25yZE9FRllLTTFrYlhzdGZRN3JSVnE1aTZ4SWJYcWhyUkMzeENlUWtHQmpxTS1jUElYS3FDRnR2WlZmVjRnU0FFR3B3ZlhtWjBPQ2Z6b2lYbFcwR1JQMzZnZUtZUWRBV3dEdFpxUWlVX0J0eWp3Mg?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities - Zoom",
-      "summary": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities Zoom",
-      "published_at": "2026-05-18T21:05:14+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6ZzYzNkcxTm1NRTJEdG5tX2p2VXliYUtVeGhwUUZCRjRmVUhMM1NWR25HV2VISXNDZGVTRUp2Y2xBRmxjSDBoaXpiQkJISTRJR29tRFZMbzN5ZE43T2FFMXFmaw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "OpenAI Plans ‘Codex For Legal’ - Artificial Lawyer",
-      "summary": "OpenAI Plans ‘Codex For Legal’ Artificial Lawyer",
-      "published_at": "2026-05-18T15:00:00+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uOUNXajMtRlVRSjEyemZJa1NtamZnOW5GbE9iMElSdC1KUHlJZzNFYXRiU0N6Nl8xMmdSMWk3dlluZjMwa2FhVV9kdTdCTFc5Y21wVWZaakU5bTh5MVJUWGdiSVprd1NXNDA5aXkta0hiNkI3eXJHQWp1a0pEQQ?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-30T20:01:11.334185+08:00",
+      "published_at": "2026-05-30T21:46:32.224025+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -208,6 +140,24 @@
         "cli",
         "codex",
         "official"
+      ]
+    },
+    {
+      "title": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
+      "summary": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server Oracle Blogs",
+      "published_at": "2026-05-23T04:06:57+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGZLNEo2RUVTWDQ0UmpVNG0waHJWN1ZyUnlpSkN2WTVpLVNsTGstZmZLaG5sRkwtMWQzak9jWkxwcTJjeDdELXROc0NDYjlYdDVlaXNEWk9fV0F1SnZWX05JcXVDRmpIOFZrdzJhQjFTWkdEQXRrT0wtT2Q5RFY2ZFlXcGo4RzFjdzQydTBQNWVnVG5jNUVWSFVzNU81VU1XczBPYlpoWHdUaXliOVoxcGNsWWlTTk0tQ1g0QmxGbw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial",
+        "workflow"
       ]
     },
     {
@@ -298,7 +248,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-30T20:01:11.334185+08:00",
+      "published_at": "2026-05-30T21:46:32.224025+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -324,23 +274,6 @@
       "tags": [
         "agent",
         "codex",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "可能是一份最详细的保姆级Codex教程，看完你就知道它为什么最近这么火 - 53AI",
-      "summary": "可能是一份最详细的保姆级Codex教程，看完你就知道它为什么最近这么火 53AI",
-      "published_at": "2026-05-19T15:00:00+08:00",
-      "source": "\"Codex MCP 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rX21UbHd6a2QwTkZPZWxnRDlDSWo4VEpGZEpZdVduREpMZV8zVDNzUG5XYkpmMzR0bE5yeDM4OXZwUV9rRjNQV1MtY1A2Nlo0TE1yblJaMUNlWGU5UUxUb0dwMG5UWGMwM0oxYmZtdk8?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
         "tutorial"
       ]
     },
@@ -394,26 +327,9 @@
       ]
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
-      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
-      "published_at": "2026-05-27T15:00:00+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-30T20:01:11.334185+08:00",
+      "published_at": "2026-05-30T21:46:32.224025+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
@@ -509,6 +425,89 @@
         "codex",
         "tutorial",
         "workflow"
+      ]
+    },
+    {
+      "title": "AI Coding Startup Cognition Hits $26B Valuation After Massive $1B Raise - eWeek",
+      "summary": "AI Coding Startup Cognition Hits $26B Valuation After Massive $1B Raise eWeek",
+      "published_at": "2026-05-29T05:31:33+08:00",
+      "source": "\"AI coding agent best practices\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UVjh2TlVtclI2amtGYWNzSzVycXk2aU44U3g3WUZGck9PMjNEWjIxMjh4alpQNTlQVzVtd19YMWo2RjBDS0d4enZ3dW0tNFg3aUExS1hveEVoZXM1QUJxM21TZEVzYUpIdzIwYjVrcGdYUDlPaWc?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "best_practice",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Alibaba’s Qwen Beats OpenAI, Google in AI Coding Rank - eWeek",
+      "summary": "Alibaba’s Qwen Beats OpenAI, Google in AI Coding Rank eWeek",
+      "published_at": "2026-05-29T05:30:51+08:00",
+      "source": "\"AI coding agent best practices\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYU1XVXlCa0tBZFNzVkIxTEFoQmZrX0xUTk1wNzBUNjgyWk1BOFpVOXpyWFFRbWxlMUtrN2hPTlM2VWlQanl4N1c4NFJ4X3RVTjNFMFhmeXpKZFBqTS1YcDVCYjVTdHNId216RDdvM0UxdmZ4bGRVTDlfSEFFamJQSWczMTExOTQ?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "best_practice",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "11 Best AI Coding Tools for Data Science & ML in 2026 - Augment Code",
+      "summary": "11 Best AI Coding Tools for Data Science & ML in 2026 Augment Code",
+      "published_at": "2026-05-27T15:00:00+08:00",
+      "source": "\"AI coding agent best practices\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaHBGOWZOaERaNVMxVVpPTU9FU1VaMnJ3WkZvMUtUd1MwaGtUQThJZE1nNnNsN25ZemFPZXpUZ1pEdG10NjhhNEx1MnBLTWZOMVg1WUd2MEhzeXM0eWZuOWc3cVgwYkRHUXpYTUF4ZnR0dzlsYmhoVnpKRDd4RjFqRkw4RTE?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "best_practice",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "After this major update of Codex, the value of Mac has been further enhanced. - 36氪",
+      "summary": "After this major update of Codex, the value of Mac has been further enhanced. 36氪",
+      "published_at": "2026-05-25T13:01:17+08:00",
+      "source": "\"OpenAI Codex tutorial\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ELXpOZkp6SWVmTHE5UUxtS3huWldKTFR5SGNUODRUTGN1Z0JzdGZDLTFveHQ4TlRIZGwtY180aTZxaHBfX296UWthYjZ1N0VDOW5z?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Codex Goal Tutorial: Set a Goal, Walk Away, Come Back to Finished Code - HackerNoon",
+      "summary": "Codex Goal Tutorial: Set a Goal, Walk Away, Come Back to Finished Code HackerNoon",
+      "published_at": "2026-05-25T06:18:15+08:00",
+      "source": "\"OpenAI Codex tutorial\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUEZfUzZoZE5MWmlaTU5kMi1ObVhDb3FEOXZ0T2I5bWxxM1pnMUJHT0xwdk1zcVBEakZYNHBPSFZndUNTMC0tY2xpSEVpamVINzhpdW9qVUx6bUpsd01LUTd6angxSmljUEY1QVRDdDdXbkUzZHdBTkhOdEQtY3dxbXpwelBIOHN3QW5NTHNtM3ZibV9y?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
       ]
     }
   ]
