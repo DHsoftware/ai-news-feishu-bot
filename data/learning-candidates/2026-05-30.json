@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T18:53:29.827906+00:00",
+  "generated_at": "2026-05-30T20:00:05.469829+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T02:52:47.079137+08:00",
+      "published_at": "2026-05-31T03:59:23.385572+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -315,7 +315,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T02:52:47.079137+08:00",
+      "published_at": "2026-05-31T03:59:23.385572+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -345,22 +345,6 @@
       ]
     },
     {
-      "title": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 - 积墨 AI",
-      "summary": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 积墨 AI",
-      "published_at": "2026-05-11T15:00:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEhhVGl4MXBHcEk3ZURQdkNpZWJBSURZcGZlU0VfUkNhWExKbDBQOUlKOC1wSWx2ck05bEtvZjA0Y0VZdmZTOXpjc0RNdjdNM2h3TjJDVktnU3pNWkZWUFJhOTdOQ2RPR2pKTUk1dFNYNkxIN0Iydk43WDZyTExlQXdDQjAxdzdQNEVOdWxjVlFaZGZZLWQtM0JKVzhLM19QTnNfdFdNcmUyLVk?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
       "title": "Harness Engineering课程发布_新浪新闻 - 新浪网",
       "summary": "Harness Engineering课程发布_新浪新闻 新浪网",
       "published_at": "2026-05-10T15:00:00+08:00",
@@ -374,6 +358,39 @@
         "agent",
         "codex",
         "tutorial"
+      ]
+    },
+    {
+      "title": "Codex Chrome 插件实测：多标签并行后，AI 浏览器代理终于顺手了 - 53AI",
+      "summary": "Codex Chrome 插件实测：多标签并行后，AI 浏览器代理终于顺手了 53AI",
+      "published_at": "2026-05-08T15:00:00+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04eExpZ1doWEdBbGViWnQtZkIyWXRSdGJzRGpocEJNZzFzbTZDTVNNdDc4WVBPZ3hsRVF6QVdyV0ZxTE16Yjd6MGM3b0xBSlotakxES051dmRsNWFZVHF2cHVNZmlyc2MwNW9NblVUUm4?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT - OpenAI",
+      "summary": "Introducing workspace agents in ChatGPT OpenAI",
+      "published_at": "2026-05-30T18:53:04+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial",
+        "workflow"
       ]
     },
     {
@@ -394,26 +411,9 @@
       ]
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
-      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
-      "published_at": "2026-05-27T15:00:00+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T02:52:47.079137+08:00",
+      "published_at": "2026-05-31T03:59:23.385572+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
