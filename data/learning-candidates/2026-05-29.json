@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-30T04:35:44.447239+00:00",
+  "generated_at": "2026-05-30T07:28:03.986960+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -8,23 +8,6 @@
     "failed_count": 0
   },
   "items": [
-    {
-      "title": "OpenAI Codex 新手必读：从入门到上手全指南 - 51CTO",
-      "summary": "OpenAI Codex 新手必读：从入门到上手全指南 51CTO",
-      "published_at": "2026-05-13T15:00:00+08:00",
-      "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qajJzbnNMM2Z0OWFzc0JHd1VPdkl6WFJGX1lxcUc4V1BQRUxJN3BmaVpwVUZrV2h5dFlrNWs3OWcxYTZZakhSOUtpTGZoVzRhY1lr?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "agents",
-        "codex",
-        "tutorial"
-      ]
-    },
     {
       "title": "Building self-improving tax agents with Codex - OpenAI",
       "summary": "Building self-improving tax agents with Codex OpenAI",
@@ -74,6 +57,23 @@
         "codex",
         "tutorial",
         "workflow"
+      ]
+    },
+    {
+      "title": "Codex 入门最佳实践「OpenAI官方」 - 53AI",
+      "summary": "Codex 入门最佳实践「OpenAI官方」 53AI",
+      "published_at": "2026-05-30T07:31:09+08:00",
+      "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pRkJCR183dEFEamM4ZXZPcnVVRDBxeWxRU1hJSW5KRXphMkV1WS1GaEo4V3VwT3BFcVpNQTlXRlhhNGNKV09vTFVDOFRQNXg3SVZvNGlzYzZHcXN2VlFmbHFjVWtaS1g1X1E?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "agents",
+        "codex",
+        "tutorial"
       ]
     },
     {
@@ -181,7 +181,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-30T12:35:02.267494+08:00",
+      "published_at": "2026-05-30T15:27:19.558530+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -281,7 +281,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-30T12:35:02.267494+08:00",
+      "published_at": "2026-05-30T15:27:19.558530+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -292,6 +292,54 @@
         "codex",
         "official",
         "workflow"
+      ]
+    },
+    {
+      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 - 爱范儿",
+      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 爱范儿",
+      "published_at": "2026-05-28T12:09:48+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE51WjZfSW9wQ1dCdzFsQlJaQkZ5N0ZTNkVpLWF2N0pUaXlDbVlFZjFJWWxjcTRiOGdjWEhkOF9TTk9CZE0?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "昆仑万维天工AI发布SkyClaw-v1.0 支持百万token上下文 - 新浪财经",
+      "summary": "昆仑万维天工AI发布SkyClaw-v1.0 支持百万token上下文 新浪财经",
+      "published_at": "2026-05-27T05:58:03+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMi_wlBVV95cUxQZVNidzktV3hGUUhhMjA2MTZrTEZOcElJTW1VLUtfVDdrYU1lU1dvYkZraW5RTXA3c2s4M0FPVG1LWHAyRm1XOVFYZXFNWUU1dFpkSG9iUUs2RVNTUkw3aWtaNVBrTHVuUFA4R3pRUFVMUF9TY2ptcEx3elJ5d05XQ29oanFmSHRFRlNOOEdmNVp3TTJIYmFXcEg5VzYxT3I1WGlqbG5kYy1QQ1kxemk2QVg3RTNvejN0WDJTNnBGb01VQUV1RmFTeUlCZEdWcE95cndTWUpMZFpJYVJVcHJaM2dqb3BHOE1yUjBLOTZFVWt2RGZTR3k1Ui1VRjZIclNaM2duWnNOakpkME91djlaUy04UEpJX3JWbm5yMEVncnVqSkZ5WW1Qc25Hbi1mTllobS03eWRJYUZtZnFSUjl4TlZySXNDYXppdDBySWx6bFpUei1zVWdCZ3Q3SG1jUG1zMXVrVk82alU2VlhUbENqUU9kRWg0bVdDOU5vVjVSUlVuS0VoR0s1UEUxUTVPVE05eGlPZ2JKU0h6aGNocE5QNGJrVUYtSzUzdGItcmRZbE1VOEdJOWdxanFVQlV4TjBVTXZpTnRUbURYT3ViNzNHaUptcklFWWZhTFEwU1FRbTZkb0VHMXhXMVhSZ0ExUHpRYUhYZTdFbGhVeHZ1TGxiS2J4OE9kSHp3UDVMX2JFZkJhcVgxMG92MnhjMkhlT19TMUVvUFRwVnZlSnJGSXVWYlZKVlpaemVMSE1kNEkyM1lBdGpGdUxndFc1MFFzOWl1MU1fZjd1N3dhRGRtVlh0OVo1WVQzb1J6VU9SWGg2SUppMTliMDZnTUNUcWJuclFYenhtTkpVbGVCMzNYRWdVdVBwazRjVkJwSTJhRFdITGxSWW9uS3BUSE5pUEVvSHVOeW15TlhNRmRFTkpDeVZOLXROZ2hHWEloMWJvY1hRQ2Z0NjUxdUlLOHdKT2I1Mmhnc2NuNUJQNWxNN3dReWFmRjdWUXF3Tk5wWERmMXVaaVZvQ1R4MGRFZ0QtY243RkZDWk1FTmI3MWp5QjRCbF93NVFoSmQ5Y3huck5OVXIzVWltbUJWZkZYTzN3bmMwdC15MEZsUWRZeTZOZEV2cmwtc3BSWVFQRGY1RGZMSEhDQjFtd2gydHoxQktkdm9SYU1jZERDTk5mOE0xMkZoXzM5cWpad2hKOVhQU3NQQXozbWtRVktlbkV5TWl6Z2loVHktZ2RwOWl2QlRQNXVnajJ3bWtILVlFdkhmTGd6RVJvdTJzUVRJR0NodXFwREs4LU5sQlpERXNYcnpralJOMzd1d3ppdVBfcFhZZU1vWUl5c2FZWWVZR2UyTVdTcGJ2aEJlZGpTOWdVTXdWZExYd3Q2Y3o1NE1CRVk0ZjJEQ3JnQWhBb21VQl9qRldmc0laTWhiYkowT3Zza1FmRVhfS3NOVzNLalRiakN5SXBpd1JOSVlpQmFOMGRlWWExdW5EQWU4dUdldndyZnN4X2JPNEJoRXgzaGYwb0JHOGk4ZkxWVzRleHlqQmowR1BLcWlNb2I1TFhSRUVTVFFoemROb19PRkIzSWRXelEtWW5aMF9Gb0hud0JOcV9ycG01Q3gtUEdiS25mTy1CVDVsWm9XZF91ZGI4by1mOXhkMDFqRE5xdS1sd3NCZjZ6UGQwdFFTS1hrU29MZE9XSXJTbXVWSDBn?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Codex碾压Claude Code_新浪新闻 - 新浪网",
+      "summary": "Codex碾压Claude Code_新浪新闻 新浪网",
+      "published_at": "2026-05-23T13:29:00+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83dG9uemZwMTV5MXRjVkZQY180Mld1R0k3YlR5OFZHN2pOOXFqRXBpaWZYWWZzemFSSEVKSlZ4ZTBGcHd1TzY3MVd5YTMtOEhMa3pIb3AtUmFZV0cxbklHT2Etbw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
       ]
     },
     {
@@ -308,54 +356,6 @@
         "agent",
         "codex",
         "mcp",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 - 积墨 AI",
-      "summary": "Codex 集成图像生成：OpenAI 再次重新定义编程 Agent 的能力边界 积墨 AI",
-      "published_at": "2026-05-11T15:00:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEhhVGl4MXBHcEk3ZURQdkNpZWJBSURZcGZlU0VfUkNhWExKbDBQOUlKOC1wSWx2ck05bEtvZjA0Y0VZdmZTOXpjc0RNdjdNM2h3TjJDVktnU3pNWkZWUFJhOTdOQ2RPR2pKTUk1dFNYNkxIN0Iydk43WDZyTExlQXdDQjAxdzdQNEVOdWxjVlFaZGZZLWQtM0JKVzhLM19QTnNfdFdNcmUyLVk?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "Harness Engineering课程发布_新浪新闻 - 新浪网",
-      "summary": "Harness Engineering课程发布_新浪新闻 新浪网",
-      "published_at": "2026-05-10T15:00:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DcHZNM252bTZrMDFXN1cwUWJXQkgwM3hxOXVyTDRqWEVjVmdZSjFpWVdVelNmQkFVY3FBblZMODdaR3luMWxFZXo5bV83QXdoN3lfZjdTNndVM2tFdHdnR2xTcw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "Codex Chrome 插件实测：多标签并行后，AI 浏览器代理终于顺手了 - 53AI",
-      "summary": "Codex Chrome 插件实测：多标签并行后，AI 浏览器代理终于顺手了 53AI",
-      "published_at": "2026-05-08T15:00:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04eExpZ1doWEdBbGViWnQtZkIyWXRSdGJzRGpocEJNZzFzbTZDTVNNdDc4WVBPZ3hsRVF6QVdyV0ZxTE16Yjd6MGM3b0xBSlotakxES051dmRsNWFZVHF2cHVNZmlyc2MwNW9NblVUUm4?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
         "tutorial"
       ]
     },
@@ -396,7 +396,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-30T12:35:02.267494+08:00",
+      "published_at": "2026-05-30T15:27:19.558530+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
