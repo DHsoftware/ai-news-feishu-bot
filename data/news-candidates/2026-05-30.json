@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T20:55:46.496715+00:00",
+  "generated_at": "2026-05-30T21:47:51.362801+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -37,23 +37,11 @@
       "tags": []
     },
     {
-      "title": "比亚迪发布中国首款自研4纳米智能驾驶芯片，算力突破2100 TOPS - 搜狐网",
-      "summary": "比亚迪发布中国首款自研4纳米智能驾驶芯片，算力突破2100 TOPS 搜狐网",
-      "published_at": "2026-05-30T22:21:00+08:00",
+      "title": "天神之眼双兜底,比亚迪智能化战略推开自动驾驶时代半扇大门 - 新浪财经",
+      "summary": "天神之眼双兜底,比亚迪智能化战略推开自动驾驶时代半扇大门 新浪财经",
+      "published_at": "2026-05-30T07:15:10+08:00",
       "source": "\"比亚迪 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVVIUWcxdE1BT2tjd3hwVEhudW00TzE5RDBMWUplSTR2SzI4bVdQYkNURGRZU1pfY1dxcE1WQnR2U2NNVUJBcURzVHVlLXh2OVdKVUpKOXh0VXJseDNldGFfSGlhVWdhbEFrSkF3eXRMM2FKd2ZyaVlsNHA0Zml2UjR6cjVtYldh?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 - 汽车之家",
-      "summary": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 汽车之家",
-      "published_at": "2026-05-30T16:23:01+08:00",
-      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hbjNfNDIxZDFZeGJ5Rno5bzJ6S1A4RFBrYXduMHJ4NDgweEkxWTNldFY4UlhVY2RiNGdVRWVQQ1J0eFVnaHgwaHZFM3RRSW1RbWp3bmF4bW81dTY0Q3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96dUxIQ1ZsZmhRWUlhb2VrRGJpRm11aGoxZnF1UDZJbGtDWTdULUFYNUQxWjVOTjA2YV9oeFJlYVVuNUhfcTJmRlUyZW84WE1LZFoyMVRuNmRLRHJPb25felBXbUwxRFJXNnRzMFhQbkM4b05tSHJxQUZKcjBhZw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -99,9 +87,9 @@
     {
       "title": "【视频】比亚迪这个阳谋将改变全国智能驾驶格局 - 汽车之家",
       "summary": "【视频】比亚迪这个阳谋将改变全国智能驾驶格局 汽车之家",
-      "published_at": "2026-05-30T09:12:04+08:00",
+      "published_at": "2026-05-30T09:06:03+08:00",
       "source": "\"比亚迪 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwUFU3dHFwTGc1bkdReDE5RlJpTXlpLUFtel9EWW9JMU9vOG1VaGZHRnVZY1FPSUNYbjVkdXNURnNBcTA5d1lnTmdRVjlKUDY4OHVaY1Z2VGhRWEoxZm9WLUE4N0ZiT2JsaVdn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tbTRHYWpyU0R6QUNTaktJdDFQQjBfem9TcExGM214WEJKSWhmTjlETTlnaERldXdpa2E4c2NrcHN2TGl1c3pTU0dOSXprU29vNWFDNmlWczh2Wnc?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -229,20 +217,8 @@
       "tags": []
     },
     {
-      "title": "Hyundai’s $1.5B Bet Puts Robots And Robotaxis In Focus - Dallas Express",
-      "summary": "Hyundai’s $1.5B Bet Puts Robots And Robotaxis In Focus Dallas Express",
-      "published_at": "2026-05-30T23:31:45+08:00",
-      "source": "\"robotics OR humanoid robot\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcmJXQS1jcmNSQUJSRFdsUld6R3AtbGU0NXZNMFhwWFdGOVI4YWdEbUZvVFRITWd6Z0V3NHRlTUJBZW8zWkttY19tdkYtb1ZrbUgyUFBjckZQM2QyaTRudFJLT0dnQUY5eVlEdGtzZ2hrLVJXMjQ2SHFGdU1TSGtJeGItQjk5bF8tOGtLN1A3QkZuZWF6ajlvSnFBamg?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "日均Token调用量增长 专家建言AI时代“水电煤”高效流通 - 新浪财经",
-      "summary": "日均Token调用量增长 专家建言AI时代“水电煤”高效流通 新浪财经",
+      "title": "日均Token调用量增长 专家建言AI时代“水电煤”高效流通 - Sina finance",
+      "summary": "日均Token调用量增长 专家建言AI时代“水电煤”高效流通 Sina finance",
       "published_at": "2026-05-30T20:38:00+08:00",
       "source": "\"人工智能 大模型\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WU1BEaWFQS0hiSmMwUENDMV80SzJCYUxuZTFNSGQtV0FCRjFCbDVuZHFud0F1Z0NaZmVqMGxxUUZzWHZnVi1uQzNtVXUtU3pwVW9QVmJJaWFzWmxJbGc1SlBGNGNSbmVVeDdxczV2UkhJWVktdmtPRg?oc=5",
@@ -337,6 +313,18 @@
       "tags": []
     },
     {
+      "title": "AI重构2026世界杯：从转播到观赛的全面变革 - 虎嗅",
+      "summary": "AI重构2026世界杯：从转播到观赛的全面变革 虎嗅",
+      "published_at": "2026-05-30T22:27:10+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yX1JFamRGVkw0YXUzaElDNVdmb2h1VDUwMkYzVGs3YWxZZjVpUU9wLUtrcVFaS2ZVRW9lRDVUdkVVRWF4MjJIekVJT05CNVhMV3IzVw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
+    },
+    {
       "title": "凯文·沃什宣誓就任美联储主席 白宫典礼打破美联储独立性传统 - 虎嗅",
       "summary": "凯文·沃什宣誓就任美联储主席 白宫典礼打破美联储独立性传统 虎嗅",
       "published_at": "2026-05-30T22:05:04+08:00",
@@ -409,18 +397,6 @@
       "tags": []
     },
     {
-      "title": "AI写作引发信任危机：无限猴子定理的现实演绎 - 虎嗅",
-      "summary": "AI写作引发信任危机：无限猴子定理的现实演绎 虎嗅",
-      "published_at": "2026-05-30T17:05:38+08:00",
-      "source": "\"虎嗅 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Na0xQTnZFeFdhZ0JZMnBydWE3MWtfMktnRldSaHo4M3pBY2lHVHJxTTFoWURfV1l1bDBHS3RoaWJTSkJXRmt0djFNRF9OOVFvNFlQSQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "4大顶尖模型被扔进虚拟小镇求生！GPT全员饿死，Grok四天灭世 - 智源社区",
       "summary": "4大顶尖模型被扔进虚拟小镇求生！GPT全员饿死，Grok四天灭世 智源社区",
       "published_at": "2026-05-30T16:50:00+08:00",
@@ -486,6 +462,30 @@
       "published_at": "2026-05-30T23:59:58+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQVljSWpkdkhSQzdxWUcxVVN6STJXS3V0ZnBUNjlzMnUzMGJoRjFyYm14S01NT09WRUhBaGpSYkk3b2M4dVdCdWp2Ql8yQTMzSEZxa2k3aC1jM0ZnT2NfT0NRRERQUVEyZEVyR1dNV0JYTHBHQU5Wa240Q05BbWhKcUh0NDA?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "Man accused of using AI to make child porn from South Texas school photos - San Antonio Express-News",
+      "summary": "Man accused of using AI to make child porn from South Texas school photos San Antonio Express-News",
+      "published_at": "2026-05-30T23:40:39+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlpNSm1VQjFtRnBvZDBvdUhQRFl1dFJpVXpJUXk4d1hOdmZJcjR0TXg2RW1QbnFFeXNyRFY0NmNBeUIyWlNucHM0REgweEV6blhYckNwd1JLODRVZ0d4ZHZxTTdhQ3hYMTJXU0NJTU8zV1RSdVE5czQxcGo5Vmc5eWZFaENmTFNSMTYwaXVxTTdWem5I?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful - TechCrunch",
+      "summary": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful TechCrunch",
+      "published_at": "2026-05-30T23:30:00+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmdyS3JaMl9ZRGFUTURBNUFNOUpESDlWcWxpdnM1Tl92bHZSWGMyV2ZmTU1vX2Z0UTE2Tk80S0tZcF9KNDctN09vbjAzWjlDdWl3MXlIOWtuTlI5cUFES3RtazhjdWlDdkxrbDhIODNnaExNWVBLWHVJa0Q0enN5SXJyREhTNTZ1VmtZRlJvdUFxdFFKbVgxcm5jVjNLR1BseGI2QzFxXzR0Qm5zZ3BpMmd3ejVnN2RodkE?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
