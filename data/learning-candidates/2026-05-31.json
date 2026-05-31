@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T18:50:04.302447+00:00",
+  "generated_at": "2026-05-31T19:57:21.555227+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -179,6 +179,23 @@
       ]
     },
     {
+      "title": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival - Memeburn",
+      "summary": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival Memeburn",
+      "published_at": "2026-05-25T09:43:43+08:00",
+      "source": "\"OpenAI Codex MCP\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abko4amh2MVRMbDNTTTB0dWcycy1tZE13YkU0b21MNnJNQ3RDbTRXZV9pVXdXZ1NqTlFZcVBidE1JdkMxTldtN2hrVnBaV3l5bVZCWklzQWRkdFE5YTlBcGV4MGRxQ3RPV09lUGVGT09yOEhLWWc?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial"
+      ]
+    },
+    {
       "title": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
       "summary": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server Oracle Blogs",
       "published_at": "2026-05-23T04:06:57+08:00",
@@ -213,26 +230,9 @@
       ]
     },
     {
-      "title": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities - Zoom",
-      "summary": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities Zoom",
-      "published_at": "2026-05-18T21:05:14+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6ZzYzNkcxTm1NRTJEdG5tX2p2VXliYUtVeGhwUUZCRjRmVUhMM1NWR25HV2VISXNDZGVTRUp2Y2xBRmxjSDBoaXpiQkJISTRJR29tRFZMbzN5ZE43T2FFMXFmaw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-06-01T02:49:22.548310+08:00",
+      "published_at": "2026-06-01T03:56:41.523111+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -296,8 +296,8 @@
       ]
     },
     {
-      "title": "Codex 这波大更新后，Mac 的含金量再次提升 - 36氪",
-      "summary": "Codex 这波大更新后，Mac 的含金量再次提升 36氪",
+      "title": "Codex 这波大更新后，Mac 的含金量再次提升 - 36kr.com",
+      "summary": "Codex 这波大更新后，Mac 的含金量再次提升 36kr.com",
       "published_at": "2026-05-25T10:31:00+08:00",
       "source": "\"Codex CLI 使用教程\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zdDZSN2FRLWNKTmR2VDJXdzZRd1JZNHZnNW1TcXktd1F6OWNkVnNWWEp0OFlkZjU0dWFOVE5SWXJ5ajdXZjUzSEo0WXVVdw?oc=5",
@@ -349,7 +349,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-06-01T02:49:22.548310+08:00",
+      "published_at": "2026-06-01T03:56:41.523111+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -465,7 +465,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-06-01T02:49:22.548310+08:00",
+      "published_at": "2026-06-01T03:56:41.523111+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
