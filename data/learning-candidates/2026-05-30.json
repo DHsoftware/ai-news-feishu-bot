@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T14:06:42.411092+00:00",
+  "generated_at": "2026-05-31T15:24:42.629032+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -128,11 +128,11 @@
       ]
     },
     {
-      "title": "Hermes Agent，看这一篇就够了！ - 电子工程专辑",
-      "summary": "Hermes Agent，看这一篇就够了！ 电子工程专辑",
-      "published_at": "2026-05-26T07:33:00+08:00",
+      "title": "OpenAI大神教你如何榨干Codex - 智源社区",
+      "summary": "OpenAI大神教你如何榨干Codex 智源社区",
+      "published_at": "2026-05-25T12:40:00+08:00",
       "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SbXk1Nm82OTRiWDlZcHBiNW13bm9LQk5wSWJNckNZc0t0WldHbjlfU0F3QVFtazZCNHhnUHlDcWdJc2lFVEx4S2tmaUdRVkJneVdJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52S05xN1hXTHFOVWtTWGNyQnJLS3IzanFrRldmbTZDT3hNQUZ6bGJGemVzbXc3RUYwTEpPa1V4VWJRWUhaV1hqMw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -145,11 +145,11 @@
       ]
     },
     {
-      "title": "OpenAI大神教你如何榨干Codex - 智源社区",
-      "summary": "OpenAI大神教你如何榨干Codex 智源社区",
-      "published_at": "2026-05-25T12:40:00+08:00",
+      "title": "一文搞懂如何极致的使用Codex「最佳实践」 - 51CTO",
+      "summary": "一文搞懂如何极致的使用Codex「最佳实践」 51CTO",
+      "published_at": "2026-05-22T15:00:00+08:00",
       "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52S05xN1hXTHFOVWtTWGNyQnJLS3IzanFrRldmbTZDT3hNQUZ6bGJGemVzbXc3RUYwTEpPa1V4VWJRWUhaV1hqMw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WeElxQ3NRY1lHdjRycjhacHkxZGgtMTV6NWlSOWFheHY2NHdudVRrb1dfaUtweE84aUhrMjgxSGZXZTdHd1YyQUdQUTF3VWY0MnJF?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T22:06:00.920256+08:00",
+      "published_at": "2026-05-31T23:24:02.084429+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -332,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T22:06:00.920256+08:00",
+      "published_at": "2026-05-31T23:24:02.084429+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -343,6 +343,22 @@
         "codex",
         "official",
         "workflow"
+      ]
+    },
+    {
+      "title": "测完几个Agent工具 我发现他们能代打游戏了 - 17173",
+      "summary": "测完几个Agent工具 我发现他们能代打游戏了 17173",
+      "published_at": "2026-05-31T14:04:21+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnQzB1WmlYRzl2aDZQb2J5MUFqcTEyVWdJY0dDdEdkQUtMd2RjVnBYVjJGVHpLOTloSDhjYkpMWFR2Sl83ODFOekJ0V0lSblBEY0ppOXpFN3pOaHZmQU1fVGt1U2Q?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
       ]
     },
     {
@@ -395,39 +411,6 @@
       ]
     },
     {
-      "title": "Harness Engineering课程发布_新浪新闻 - 新浪网",
-      "summary": "Harness Engineering课程发布_新浪新闻 新浪网",
-      "published_at": "2026-05-10T15:00:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DcHZNM252bTZrMDFXN1cwUWJXQkgwM3hxOXVyTDRqWEVjVmdZSjFpWVdVelNmQkFVY3FBblZMODdaR3luMWxFZXo5bV83QXdoN3lfZjdTNndVM2tFdHdnR2xTcw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "据说高手在同时这样使用三个工具：Cursor、Claude Code、Codex - 51CTO",
-      "summary": "据说高手在同时这样使用三个工具：Cursor、Claude Code、Codex 51CTO",
-      "published_at": "2026-05-07T15:00:00+08:00",
-      "source": "\"Codex MCP 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iMWlPNWs0dmlmcktQTF9EN01MMlNIdmZ2YWdtREFSZkZoZVcyeXB2ZFNNMmIyTmIyRUlNRzBHVTRVZUtvQ29aWVhJb3gtRjJqOWJ3?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "mcp",
-        "tutorial"
-      ]
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT - OpenAI",
       "summary": "Introducing workspace agents in ChatGPT OpenAI",
       "published_at": "2026-05-30T18:53:04+08:00",
@@ -464,7 +447,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T22:06:00.920256+08:00",
+      "published_at": "2026-05-31T23:24:02.084429+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
@@ -499,6 +482,23 @@
       "published_at": "2026-05-26T08:00:00+08:00",
       "source": "Codex changelog",
       "link": "https://developers.openai.com/codex/changelog/#github-release-329640454",
+      "language": "en",
+      "region": "global",
+      "source_group": "official",
+      "source_type": "official_doc",
+      "tags": [
+        "cli",
+        "code_review",
+        "codex",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Codex CLI Release: 0.133.0",
+      "summary": "0.133.0",
+      "published_at": "2026-05-21T08:00:00+08:00",
+      "source": "Codex changelog",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-327109656",
       "language": "en",
       "region": "global",
       "source_group": "official",

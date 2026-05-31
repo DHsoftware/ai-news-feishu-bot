@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T14:06:36.921177+00:00",
+  "generated_at": "2026-05-31T15:24:37.458575+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -12,6 +12,18 @@
     "china_success_count": 29
   },
   "items": [
+    {
+      "title": "UWB淘汰超声波？2026智驾感知革命：理想、华为、蔚来的终局博弈 - 汽车之家",
+      "summary": "UWB淘汰超声波？2026智驾感知革命：理想、华为、蔚来的终局博弈 汽车之家",
+      "published_at": "2026-05-30T01:01:37+08:00",
+      "source": "\"理想 小鹏 蔚来 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56NnNzXy1LN0FTbVJCWWxlZHBneDJZYkFKTG4yZHZVMjVVWGl6bUs2ZkZhNVl0Z2F0QmctZUtkSWZOaGtjYllTbXBTaHY0aDF2dTc5R2s4Ylo3Q1k?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
     {
       "title": "小鹏汽车为何开年遭遇滑铁卢 - 汽车之家",
       "summary": "小鹏汽车为何开年遭遇滑铁卢 汽车之家",
@@ -474,18 +486,6 @@
       "published_at": "2026-05-30T08:40:20+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHel9Mb3NqNDNwREprSmNXeFYzUHdrVkkzRURsUUt5UHBnQWlRTlZ0TElGdi14UVNqQ3g4eFZDVU9aRmpabmNDM2tQdzRjODYwSUF6Sm04UlhMOG1lTy1qUW0wV2FQc1VROUtmVTB6SXJDN25k?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "How can organizations move AI from token maxxing to production value? - R&D World",
-      "summary": "How can organizations move AI from token maxxing to production value? R&D World",
-      "published_at": "2026-05-30T08:17:22+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNelR2MjgtLTdINmlJNUljb0NRUWRWck5LMHFVaFlPYmFTUjAzekVDd0RUbFIyZDFCUFowNFBUMGZXem9DY2N6NU9UWU1STW9QcnJuQ0IyRFhNYUpyS3dWZWxUalNEZkc2dEpqY3hDeUVRUVlkNGZHd2dnYlN0el9Bcm5MT05pVDFLR0ktN1hhaGVBcjA1Sm9kYjctNUlhVTdu?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
