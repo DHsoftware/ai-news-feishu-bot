@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T16:39:07.308590+00:00",
+  "generated_at": "2026-05-31T17:43:03.085294+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -42,18 +42,6 @@
       "published_at": "2026-05-31T23:00:43+08:00",
       "source": "\"端到端自动驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOenRMeW5DcUNSS1V0ZTRzdmIwdDJlcmhScWoydkcweVg1TXFOSUZYUFBEUk41TXZnM2NpZzU0VTBKRGZpR2JVVjNOQ2lJTFFkYmtBOFphalB6UDA?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "【网通社快报】多家企业加速具身智能与辅助驾驶商业化：小鹏机器人冲刺量产，灵心巧手并购京灵智康推动仿生手普及 - 凤凰网汽车",
-      "summary": "【网通社快报】多家企业加速具身智能与辅助驾驶商业化：小鹏机器人冲刺量产，灵心巧手并购京灵智康推动仿生手普及 凤凰网汽车",
-      "published_at": "2026-05-31T19:10:53+08:00",
-      "source": "\"具身智能 机器人\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBJb0J6RVNQaVE4aEhVTndtem1lTjdzVlRQUEFEOHd0SHBjTFphLUFac1g2YmJTMTdleW55d3o0Q1Q0ekg4YTFTbTA3N1Y?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -157,6 +145,18 @@
       "tags": []
     },
     {
+      "title": "卡诺普机器人提交来港上市申请财经新闻Financial News - AASTOCKS.com",
+      "summary": "卡诺普机器人提交来港上市申请财经新闻Financial News AASTOCKS.com",
+      "published_at": "2026-05-31T22:54:00+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOTFfakdTMWlZYk43NTNjVUJYc2lTc3JVR1dweXJSeEVWOUhiTnYyRmR4ZFUxSmRUNEhvdkFuZnpKRmtERWhCR1RpRVJZczh2SlozMWtlV09BX3ViNjZfUGhnWVJrRDFvYjZYRzVBZ1RQdzg5M0lCVGJyODZzaTVKb1hPdUw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
       "title": "推理吃掉七成算力，国产芯片突围 - 新浪财经",
       "summary": "推理吃掉七成算力，国产芯片突围 新浪财经",
       "published_at": "2026-05-31T19:26:53+08:00",
@@ -217,18 +217,6 @@
       "tags": []
     },
     {
-      "title": "Inside China's push for global dominance: Evs, robotics, AI, pandas - NBC News",
-      "summary": "Inside China's push for global dominance: Evs, robotics, AI, pandas NBC News",
-      "published_at": "2026-05-31T19:43:40+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZG1Db2RaSlZVLTQ2ajlUUFJIVlV1cUtaT1NndzJwY19iaURFbDhmN05ZYnpkV0d5VTVoSy1pcWU2Vm94X0tCZS05bEtsRG9RTi1zbEpFQ1otNWF0QTN5ay1wN1R4dkFGdDNEYV82Si1HalpTeFVrclJoUXJHSTJGTC03SktZMHh5OFk4dHF3c3hrTW51T3JRZVhpUkVqSHNQTGx3Mkp1NHd4SUcyYklkVmloYkxoT3Yzbmp3?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "大规模可靠 LLM 推理服务的实践经验构建可靠 LLM 推理基础设施的经验总结 - blog.csdn.net",
       "summary": "大规模可靠 LLM 推理服务的实践经验构建可靠 LLM 推理基础设施的经验总结 blog.csdn.net",
       "published_at": "2026-05-31T23:44:45+08:00",
@@ -255,9 +243,9 @@
     {
       "title": "AI编程工具普及背后：效率提升的假象与代码维护的隐患|程序员|AI代码生成|研究人员|速度|博客_手机新浪网 - 新浪财经",
       "summary": "AI编程工具普及背后：效率提升的假象与代码维护的隐患|程序员|AI代码生成|研究人员|速度|博客_手机新浪网 新浪财经",
-      "published_at": "2026-05-31T13:56:40+08:00",
+      "published_at": "2026-05-31T14:20:03+08:00",
       "source": "\"AI 编程工具\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjFSWmNMVEJGRDJqMV9qWEZmaDZ4VWdvcDJzMXM1ZnR3cU5lM2dDcHh3Z0EtTk1xUFZkcGh1WG1wWVVmcnc3WklPX29uLXFkMkdneG9NVXptbkFQNmVnbW9vZkdNZVRsZWI1d3pFd3BEQ25YS0F0OWtFNVNISnNMRTZSSDlOSmFZWmdoYTdWUi1WQXRGZHhmZXFQSjFFQXcyWWNKMF9DTXBCM2I5N2Y0czhSZWZ2dXg0bWh2Wlc2V2g2Vy1WckE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRllCSTlRQ0gwTU5ZMTRjZGFvbi1SWWJLbmljOFJQLUhnX1g4Nm5iTEJxUEcyTmY3ckpGNE42ZGpoV2dJeHh5bXdNUE9IeVE0cXJiV3hUby02ME8wN2cwdFo2Zm1LdXdZdG95S3JRbG9qNVJNR3ZCbC1QSHR3S2lla1ZmUlVYZGZ4Q3dhbVRzUnhiUTF6dUNpRnlEdURKTFA0WlNBWVZR?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -340,7 +328,7 @@
       "title": "Tempus Unveils the Next-Generation of Lens, Expanding its Agentic AI Platform for Oncology Drug Development - Business Wire",
       "summary": "Tempus Unveils the Next-Generation of Lens, Expanding its Agentic AI Platform for Oncology Drug Development Business Wire",
       "published_at": "2026-05-31T20:30:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "source": "\"multimodal AI OR edge AI OR on-device AI\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNX2E2TTJ4NEFpSFdSYWY3MXo0TWlVNFpTcWtDc0thSUk1TzZfWjRwOVBfdkpIVEpfOWlVaWk2YTR1T2pmYjNvbW80b0NMdG9neV9oWm9rLTZoRGIxalU2cFlwZ0dRaVJtd09aeGVQUDA2RTNEYUdjY2dXT2tQMjYwRVZYMEk5eFZsTklablpBSi1sXzBnWkdfMENTamE3Y3hkT0tQVVQ3SThPQ3JwUzF6VVNGaTJXWHZjekdJZXBJaTlyb2VpejhiV0xfZFFSVGwzNUNSaW5EUENGU19aZzNOSDlDQ21hYzZsbWJnRnVQOE9zaE11Zmc?oc=5",
       "language": "en",
       "region": "global",
@@ -481,11 +469,23 @@
       "tags": []
     },
     {
-      "title": "Ukraine Testing Shows Limited Suitability of Phantom MK-1 Humanoid Robots for Battlefield Use - Мілітарний",
-      "summary": "Ukraine Testing Shows Limited Suitability of Phantom MK-1 Humanoid Robots for Battlefield Use Мілітарний",
-      "published_at": "2026-05-31T22:28:03+08:00",
-      "source": "\"robotics OR humanoid robot\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHJoSGI2dGVIT1FBZ2EtU29VQlllWElzMGJoTmR1a3NSeGt6V1pMZ2w5Tm9xZUcxVm9keHpid2QwOGlPcDNRN2xqaGlnT1AzbENJcWh3OUx3WHZXVVdkdGdBUEJhYXlEOHdnNFUtMEJJZ29qaDVwaDMtbXM1MEgzSTZzZ20zWkJqTl9wNzU0RDlBU29QWWlCMHVNaHpVSU5LY3BhQjhxVG9ZaUlkdGVQeVE4MUtwUTlpVm1qYnBfWHRkTkk?oc=5",
+      "title": "Opinion | The Hallucinatory AI Math - WSJ",
+      "summary": "Opinion | The Hallucinatory AI Math WSJ",
+      "published_at": "2026-05-31T23:47:00+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93WjBhQTZNNzNEMklYZUZ3TTJKYjFxN3M0N1psaF90MU1OSmJYMGJlUFRNZ3pKdkFiSHMtOER1dUZVRDc4djlSdmVZOWZxVWdzMXBtTHdUVGxucF9uMGVSZnVJakg3b3dJNHR6UVJ3dw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "AI in Conflict Zones: A Driver of Peace or an Accelerator of War? - The Times of Israel",
+      "summary": "AI in Conflict Zones: A Driver of Peace or an Accelerator of War? The Times of Israel",
+      "published_at": "2026-05-31T23:17:00+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazZxRWprdFU5eWctQnpjSVA5V0pzLUhtcnJxb2lpMmpXdWJLZ3RkeVRvUmh3aUJiWlI3ZFBPSVhuZ05ZeFFRdTFuMlBrdm9KbzMwbVdvMS1hRGRIX0JtQ0k2ejl5MjdUVFNWc0ZwX3I2bE9xQ09mOHZTNDVWT1NPeVhTbXpVNlUtOVdPa05Wc0tmYUZQRWFFVDZCeG8?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
