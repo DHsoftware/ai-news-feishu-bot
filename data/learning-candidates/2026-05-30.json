@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T23:40:32.324395+00:00",
+  "generated_at": "2026-05-31T01:39:14.569225+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T07:39:50.757023+08:00",
+      "published_at": "2026-05-31T09:38:25.461691+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -332,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T07:39:50.757023+08:00",
+      "published_at": "2026-05-31T09:38:25.461691+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -394,6 +394,23 @@
       ]
     },
     {
+      "title": "Introducing workspace agents in ChatGPT - OpenAI",
+      "summary": "Introducing workspace agents in ChatGPT OpenAI",
+      "published_at": "2026-05-30T18:53:04+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial",
+        "workflow"
+      ]
+    },
+    {
       "title": "Warp’s big bet on building open source with GPT-5.5 - OpenAI",
       "summary": "Warp’s big bet on building open source with GPT-5.5 OpenAI",
       "published_at": "2026-05-28T04:19:04+08:00",
@@ -411,26 +428,9 @@
       ]
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex - OpenAI",
-      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex OpenAI",
-      "published_at": "2026-05-27T15:00:00+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZmJNOVJBYUN6ZHFnVzk0d1g1Yi1iUFJLM2cwdzNJQmpoVzRBM2ZvdXRJMGlzQU5IeFZRT3RVSEMtcHZnQ3c?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T07:39:50.757023+08:00",
+      "published_at": "2026-05-31T09:38:25.461691+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
