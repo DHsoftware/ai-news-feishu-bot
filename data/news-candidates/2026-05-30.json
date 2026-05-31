@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T10:49:23.342481+00:00",
+  "generated_at": "2026-05-31T12:05:25.121077+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -61,18 +61,6 @@
       "tags": []
     },
     {
-      "title": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 - 汽车之家",
-      "summary": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 汽车之家",
-      "published_at": "2026-05-30T16:23:01+08:00",
-      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hbjNfNDIxZDFZeGJ5Rno5bzJ6S1A4RFBrYXduMHJ4NDgweEkxWTNldFY4UlhVY2RiNGdVRWVQQ1J0eFVnaHgwaHZFM3RRSW1RbWp3bmF4bW81dTY0Q3c?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "比亚迪发布4nm智驾芯片璇玑A3，车企开始争夺AI芯片定义权 - 虎嗅",
       "summary": "比亚迪发布4nm智驾芯片璇玑A3，车企开始争夺AI芯片定义权 虎嗅",
       "published_at": "2026-05-30T10:56:39+08:00",
@@ -85,11 +73,11 @@
       "tags": []
     },
     {
-      "title": "比亚迪智能驾驶会不会超过华为？ - 新浪财经",
-      "summary": "比亚迪智能驾驶会不会超过华为？ 新浪财经",
-      "published_at": "2026-05-30T08:08:04+08:00",
-      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81b280MVU1WVBnYlFMU3JpenZYUC0wSTl1QlEwTnpLTGxiVXhUMGNNWFdBZmxnX0lMVmZaV0FDdFh1bjNwVE9ZQVBOQ3BkLW1DQ1hGbjZaRDZYbkZkTEZFSEgzTzNPNXlXSGtiQ0hXbDF2dkVoMThMeTBPMlpldw?oc=5",
+      "title": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ - 汽车之家",
+      "summary": "岚图泰山“黑武士”版，搭载华为ADS 4四激光，将3月上市！ 汽车之家",
+      "published_at": "2026-05-30T22:06:24+08:00",
+      "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YTXVCUU9zZU1RWFI3cFFGd0wwTGNxaHJsNTN6RjRzQlpsalF2azNaeDNNOG1RV0x4QVlvZm5pQ1hMamNEWmRLcTVNTndnNUhnN3ZucWdFMGE2cHM?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -138,6 +126,18 @@
       "published_at": "2026-05-30T06:53:00+08:00",
       "source": "\"比亚迪 智能驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01WUp3OXVrNlhVWEVXVWx0bkhzaDBreTFtZHdHalJGNnR1elZHbE1QOGstSGhHc2o4UWZuT3dmVmVsN1BkVDZaT1BlTTBuUFM2bXpXb3F1N19mNWhCdzZjb0NTSQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "比亚迪智能发布会说了点啥？ - 汽车之家",
+      "summary": "比亚迪智能发布会说了点啥？ 汽车之家",
+      "published_at": "2026-05-30T03:49:23+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XVXgxOXpjcHdFVGxtVkpCSlZhUm1PdjFoMTFCaGFvU3VFUXhDS3lLOC1Uc1AxYkJXNzV1VHlJeEdGcUFoZDdpOFBteEVkSDJkLUp6U3plS0pTSk9tTmc?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -277,11 +277,11 @@
       "tags": []
     },
     {
-      "title": "从能力展示到产业应用 40余款AI大模型集中亮相 - chinanews.com.cn",
-      "summary": "从能力展示到产业应用 40余款AI大模型集中亮相 chinanews.com.cn",
-      "published_at": "2026-05-30T08:47:13+08:00",
+      "title": "从能力展示到产业应用 40余款AI大模型集中亮相 - 央视网",
+      "summary": "从能力展示到产业应用 40余款AI大模型集中亮相 央视网",
+      "published_at": "2026-05-30T09:10:59+08:00",
       "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SeDVPTFJoNFpVYmxORjV3ckxRa2JmY1NCVUdQeHJwdnR1ZHgwTFdvMW9UcmJVSXlIaGhHdUNLdFZuUlhjSUY0TTdLSmI1dmtBYTJZb01IbUEzUUQ2d19JN2FUYlVMV01J?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UQ1F6OUlKY013Mlh3WlFjUWJGS25EN0ZIbDFwYWU4NU5tdldUaWk5LXh4R0xiVGpCNHhiQzBXTUlMa3pVSS10dUZIUHZxNWlIbi1MOTFjQzZLWVJhM3MyWTlDR1o1aW10cGNMeDZFQlBOUzVlYTFENQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -294,18 +294,6 @@
       "published_at": "2026-05-30T08:48:34+08:00",
       "source": "36氪",
       "link": "https://36kr.com/p/3831071878358659?f=rss",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "AI人脸伪造突破平台身份验证，国内公司账号被盗发文宣布停更 - 虎嗅",
-      "summary": "AI人脸伪造突破平台身份验证，国内公司账号被盗发文宣布停更 虎嗅",
-      "published_at": "2026-05-30T23:12:30+08:00",
-      "source": "\"虎嗅 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84UnFvSFFXX2RhWHpzWTl3eG9jbkR2Y25ISWVhSEJZdjllZ2UwcTZZeTlCRXQ5dnE1MV9xV2JEX2JyTURHSXVlR2tzQzFONHphUFZF?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "china",
@@ -361,8 +349,20 @@
       "tags": []
     },
     {
-      "title": "王小川和李开复，领着六小虎“AI的迫降” - 36氪",
-      "summary": "王小川和李开复，领着六小虎“AI的迫降” 36氪",
+      "title": "AI社交失控与人格价值：从‘小冰’到情感陪伴的深度探索 - 虎嗅",
+      "summary": "AI社交失控与人格价值：从‘小冰’到情感陪伴的深度探索 虎嗅",
+      "published_at": "2026-05-30T14:09:13+08:00",
+      "source": "\"虎嗅 AI\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1IMmpzT3RzMk11QWF4ekZLZFdEV1hZV043d2VpV0hMX2JaRXdfNlQ3cFpacGlOWjZVdGRfRkxWR2hHRlJ6czdoUWhPaEN0dUlNNDU5dw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "王小川和李开复，领着六小虎“AI的迫降” - 36kr.com",
+      "summary": "王小川和李开复，领着六小虎“AI的迫降” 36kr.com",
       "published_at": "2026-05-30T12:28:00+08:00",
       "source": "\"36氪 AI\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBRQ0h4LWtjNjBodGZDU2liaGlMYVoxc3c1ZVdLdGdPektwV2NFVl9hN3p5bG1YNFNESmtWbVIza2NuX2xoRGRpVFB1UGVWdw?oc=5",
@@ -385,8 +385,8 @@
       "tags": []
     },
     {
-      "title": "700亿融资赶紧到位吧，DeepSeek 开始限制重生、修改次数了 - 36氪",
-      "summary": "700亿融资赶紧到位吧，DeepSeek 开始限制重生、修改次数了 36氪",
+      "title": "700亿融资赶紧到位吧，DeepSeek 开始限制重生、修改次数了 - 36kr.com",
+      "summary": "700亿融资赶紧到位吧，DeepSeek 开始限制重生、修改次数了 36kr.com",
       "published_at": "2026-05-30T10:32:00+08:00",
       "source": "\"36氪 AI\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wUTVxQUVsUkxiXzNlOWJ2Ni1JYnZDa0QxV3FveHpnc0dxLTBKZ3hBWk5kTzFoV3hWVE51QmZJYkY4RkpZUDFSdVVWSWUwUQ?oc=5",
@@ -397,8 +397,8 @@
       "tags": []
     },
     {
-      "title": "6道题，看懂AI的商业趋势 - 36氪",
-      "summary": "6道题，看懂AI的商业趋势 36氪",
+      "title": "6道题，看懂AI的商业趋势 - 36kr.com",
+      "summary": "6道题，看懂AI的商业趋势 36kr.com",
       "published_at": "2026-05-30T09:48:00+08:00",
       "source": "\"36氪 AI\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8taWlOQ3ZPQzB0QXNuUVpSSjdiZEZfNEktNW1PYnRXQlBVRjg2VnZ5cXlMRlVjRzU4NmdkNXdHd25xUnd5LUZOMWxJWVczUQ?oc=5",
@@ -469,11 +469,11 @@
       "tags": []
     },
     {
-      "title": "Replit's vibe coding platform just got a Visa-backed identity layer for AI agents — and it changes how agents spend money - The New Stack",
-      "summary": "Replit's vibe coding platform just got a Visa-backed identity layer for AI agents — and it changes how agents spend money The New Stack",
-      "published_at": "2026-05-30T20:52:09+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80TU1zOVdiQlJqWFh2eHJ6R001dXBxYkJqSHEta2Q0TzBfY0pGOUs2OEEyUjRjV1VvbHRiLWlRaGRwcmVsc2psNy02aHVTU296bnhRSERSUWtlbHM?oc=5",
+      "title": "A.I. Doesn’t Have to Mean Layoffs - The New York Times",
+      "summary": "A.I. Doesn’t Have to Mean Layoffs The New York Times",
+      "published_at": "2026-05-30T22:23:00+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTXZ3cWNGY01ZMWl5LWoxWnFRa0tpcHZ2TmotSVZUY1ZTdmxPR2hyaEdDMHJtRGo4UklCR1RzY3ZpUEItOG1RWmctWm04LUYta2FoeVRJZk5NYjNLdnloZTJHN0ttUFJCMlR6NDJGZ0I4R1VQMjRybVlmQXNsWXpWck14RQ?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
@@ -481,11 +481,11 @@
       "tags": []
     },
     {
-      "title": "Opinion | The First A.I. High School in the U.S. Is Surprisingly Human - The New York Times",
-      "summary": "Opinion | The First A.I. High School in the U.S. Is Surprisingly Human The New York Times",
-      "published_at": "2026-05-30T19:00:09+08:00",
+      "title": "A.I. Boom Leads to Record Home Prices in San Francisco - The New York Times",
+      "summary": "A.I. Boom Leads to Record Home Prices in San Francisco The New York Times",
+      "published_at": "2026-05-30T22:12:00+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YeVFBOU9acF82bzFULVA3dVh1MTdmcUVEYVgzbGFKaWQ3eEFMZGNTOE9TR1VvTS12V0hKMnBkdXJEX2U1LThGcjM3a3FCb2p6RzQwNXMwZHp0U2FBS3BCVU5aNHBBM3pybFJrN3A3cw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUnh4YjBzc2Z2ZFZiMjdpY3hTYWtaOWNubkVCcUFJbDJQck91NUlHRWxQN1FaUTBQTkwyNGJaaWFrY1lxb1FtdnBfZ05VN2V2ZmhuZGl3ZGNnY0FfT2h0MHc5NzMzSkdoZ3NLRjRFY2RSdkY3dGtNMjRyckhueGlsNkotZXh2dTdrYXc?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
