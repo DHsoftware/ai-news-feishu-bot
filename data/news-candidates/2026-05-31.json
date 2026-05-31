@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T20:50:57.632767+00:00",
+  "generated_at": "2026-05-31T21:43:59.330237+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -25,8 +25,8 @@
       "tags": []
     },
     {
-      "title": "新款尚界H5实车亮相，上市不足一年即改款补短板，配置升级是重点 - 汽车之家",
-      "summary": "新款尚界H5实车亮相，上市不足一年即改款补短板，配置升级是重点 汽车之家",
+      "title": "新款尚界H5实车亮相，上市不足一年即改款补短板，配置升级是重点 - 车家号",
+      "summary": "新款尚界H5实车亮相，上市不足一年即改款补短板，配置升级是重点 车家号",
       "published_at": "2026-05-31T23:38:53+08:00",
       "source": "\"华为 ADS 智能驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Taks4cGdHdElfQl9YcjlsVElzTlJMcUEtbC1RSmxFYTM3UWZoNEFEX0RZdVRTZ2huMW1WVGJEN0QwaEhZYm93Z2xlaUM3bzFwZlVqWEdZNlZKXzQ?oc=5",
@@ -37,8 +37,8 @@
       "tags": []
     },
     {
-      "title": "零一汽车赴港IPO：要把重卡变成“AI原生智能终端” - 汽车之家",
-      "summary": "零一汽车赴港IPO：要把重卡变成“AI原生智能终端” 汽车之家",
+      "title": "零一汽车赴港IPO：要把重卡变成“AI原生智能终端” - 车家号",
+      "summary": "零一汽车赴港IPO：要把重卡变成“AI原生智能终端” 车家号",
       "published_at": "2026-05-31T23:00:43+08:00",
       "source": "\"端到端自动驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOenRMeW5DcUNSS1V0ZTRzdmIwdDJlcmhScWoydkcweVg1TXFOSUZYUFBEUk41TXZnM2NpZzU0VTBKRGZpR2JVVjNOQ2lJTFFkYmtBOFphalB6UDA?oc=5",
@@ -49,8 +49,8 @@
       "tags": []
     },
     {
-      "title": "重押数据流架构，理想又要成为车圈新“过河石头”？ - 汽车之家",
-      "summary": "重押数据流架构，理想又要成为车圈新“过河石头”？ 汽车之家",
+      "title": "重押数据流架构，理想又要成为车圈新“过河石头”？ - 车家号",
+      "summary": "重押数据流架构，理想又要成为车圈新“过河石头”？ 车家号",
       "published_at": "2026-05-31T17:52:20+08:00",
       "source": "\"AI 芯片 算力\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwclVkWmhqdmFObEF0X3dTdzFraWsxdkxBcWsyUThXMnpCdGJKUWJzYkkwc1hMT0JuSlhVRXBnR1F0Mk9SOEM3QkFOODJYOHp6RWZMUHVidzVLUzg?oc=5",
@@ -78,6 +78,18 @@
       "published_at": "2026-05-31T12:49:00+08:00",
       "source": "\"自动驾驶 智能驾驶\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IengwZmRPOGNfdm1NWnVNMWdRUDhpc1F4UjdubUJGbUJ2M2RvZldrcU5HMVhQYThSaHY0SXlsSDhrQnRjZ0ljNFA2RmU0dlNOSk16RkFMVzFYWmMzT1FhZDNMRQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "比亚迪与Momenta官宣成立智能驾驶合资公司 “迪派智行” - 新浪财经",
+      "summary": "比亚迪与Momenta官宣成立智能驾驶合资公司 “迪派智行” 新浪财经",
+      "published_at": "2026-05-31T07:42:57+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXemlSaW5PNEs2S21OUUl3OXRKWkNUeG9xOGtraWtJT0dSRFBSUDlHRlh2SzZGTWV1amFxSTB3M0o4dnZ0UF9YbGtlLUszQmxYbFFxYjc4MGlVN0RHZXJxYWRpN0dnMV9PaHhfbWdSVVdNZGw1WXFycnBrZ20yZw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -193,11 +205,23 @@
       "tags": []
     },
     {
-      "title": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 - 汽车之家",
-      "summary": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 汽车之家",
+      "title": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 - 车家号",
+      "summary": "腾讯智慧出行：单纯大模型上车无意义，要落地场景智能体 车家号",
       "published_at": "2026-05-31T08:21:02+08:00",
       "source": "\"车载 Agent\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IR25aLUJEbW1hZVVnOXdSb09UVnB5Ym1QMVd2ZUNFdzZwUmRPRXl5RV9la0ZkWmJtbWtLYlFqcV9OZWV1OVRhd250Y0paSGtPMEx0ZFJhNG94VUE?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "Snowflake业绩超预期，AI编程工具Cortex Code推动股价暴涨 - 虎嗅",
+      "summary": "Snowflake业绩超预期，AI编程工具Cortex Code推动股价暴涨 虎嗅",
+      "published_at": "2026-05-31T23:20:20+08:00",
+      "source": "\"AI 编程工具\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mQmdkOWxENEJWcHFuY0NGbHUwdk1xYjhyeEowYk9adW1rQXFqNTJMNVk1aGFmZUFBaU9hbVYxMG1kek5ZOEFnaGRyQWZhU2dUb3phUw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -462,30 +486,6 @@
       "published_at": "2026-05-31T23:47:00+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93WjBhQTZNNzNEMklYZUZ3TTJKYjFxN3M0N1psaF90MU1OSmJYMGJlUFRNZ3pKdkFiSHMtOER1dUZVRDc4djlSdmVZOWZxVWdzMXBtTHdUVGxucF9uMGVSZnVJakg3b3dJNHR6UVJ3dw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "Apple AI glasses launch pushed back to late 2027, Vision Air to arrive by 2029: report - 9to5Mac",
-      "summary": "Apple AI glasses launch pushed back to late 2027, Vision Air to arrive by 2029: report 9to5Mac",
-      "published_at": "2026-05-31T23:13:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMTYwRWozZllTeGc5Q0g2aEo1Uk9ZdHRfNGYzb3dPVkVyVWZQNWllNEgwZ250WXZINEJmLXJ6UEYxOE9FRTBoRDFXRE5XTkkzeXQwWHk3NjcwZlhJRXpqdUM2SGZKM19mbXItU083X2dENXFCZ0Y5b05WVmVwYWJQLVBZdURidER1NXJJM1Z6aUhKNms2SV9tZlhxVFMwTDY3?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "Study highlights major gaps in online info for patients about AI and cancer - Medical Xpress",
-      "summary": "Study highlights major gaps in online info for patients about AI and cancer Medical Xpress",
-      "published_at": "2026-05-31T22:50:01+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZHJXQXY4WjFkb083N3lJbmRVV0ZqMGlYM0ltV252LVVJZ1dvWDZMS0cwWjlnN0NucEhOcHB0ZmdnSUwwM3FqNTRRSGRiVWRKZ1loM0J1eElTY1hRVXZpeHdnWlM2NmhRUDlyNnUzNVFMbzVvX3BJNjdjazJoTkd6V2VaNA?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
