@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T12:05:32.678352+00:00",
+  "generated_at": "2026-05-31T14:06:42.411092+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -79,7 +79,7 @@
     {
       "title": "1Password Secures Coding Agents with New OpenAI Codex Integration - Business Wire",
       "summary": "1Password Secures Coding Agents with New OpenAI Codex Integration Business Wire",
-      "published_at": "2026-05-20T15:00:00+08:00",
+      "published_at": "2026-05-20T21:00:00+08:00",
       "source": "\"Codex agent workflow\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeVo2MGtwbk03WXVLNndwYnlXSERYSWNIMzNVVzFJY0drOVBPZFN5MXJYeUhKbnRVYVBkS2w5aG0tQ0RpdzQ3dUxhV003VmM4UTZyMUNBWGJfdUJnZ1ktZmxxbDZlay1WUDRGZkFmbk91bXpGb0FLbzZXczh3dzRFdUhPZmpNSFZ3MGVVZVpWYWItZGlmLTBEVHBYd3RSQ0VTSThMT0pvZkdsVm8tYVZEWDJSWXEzZXd2YzZUREljOA?oc=5",
       "language": "en",
@@ -215,7 +215,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T20:04:47.434540+08:00",
+      "published_at": "2026-05-31T22:06:00.920256+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -279,8 +279,8 @@
       ]
     },
     {
-      "title": "Codex 这波大更新后，Mac 的含金量再次提升 - 36kr.com",
-      "summary": "Codex 这波大更新后，Mac 的含金量再次提升 36kr.com",
+      "title": "Codex 这波大更新后，Mac 的含金量再次提升 - 36氪",
+      "summary": "Codex 这波大更新后，Mac 的含金量再次提升 36氪",
       "published_at": "2026-05-25T10:31:00+08:00",
       "source": "\"Codex CLI 使用教程\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zdDZSN2FRLWNKTmR2VDJXdzZRd1JZNHZnNW1TcXktd1F6OWNkVnNWWEp0OFlkZjU0dWFOVE5SWXJ5ajdXZjUzSEo0WXVVdw?oc=5",
@@ -332,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T20:04:47.434540+08:00",
+      "published_at": "2026-05-31T22:06:00.920256+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -428,6 +428,23 @@
       ]
     },
     {
+      "title": "Introducing workspace agents in ChatGPT - OpenAI",
+      "summary": "Introducing workspace agents in ChatGPT OpenAI",
+      "published_at": "2026-05-30T18:53:04+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial",
+        "workflow"
+      ]
+    },
+    {
       "title": "Warp’s big bet on building open source with GPT-5.5 - OpenAI",
       "summary": "Warp’s big bet on building open source with GPT-5.5 OpenAI",
       "published_at": "2026-05-28T04:19:04+08:00",
@@ -445,26 +462,9 @@
       ]
     },
     {
-      "title": "From model to agent: Equipping the Responses API with a computer environment - OpenAI",
-      "summary": "From model to agent: Equipping the Responses API with a computer environment OpenAI",
-      "published_at": "2026-05-27T15:00:00+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16SS1qakJOZ1Y1SUZnRWdKOGplTHYwSHpOeDF0Ynl5dWxySUZTXzVCU0xBRzVIQjg0SjZxNUxvOFgzVFZjNjRRRmJpaTNpbXhSYU90OEtqZFRYWXlNYW1NNnM4UFJjN2k4WGJyQ2hFT0t6Y2IwdExGTkpacEg?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T20:04:47.434540+08:00",
+      "published_at": "2026-05-31T22:06:00.920256+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
