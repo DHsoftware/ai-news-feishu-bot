@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T06:01:50.253121+00:00",
+  "generated_at": "2026-05-31T08:51:53.912372+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -80,7 +80,7 @@
       "title": "1Password Secures Coding Agents with New OpenAI Codex Integration - Business Wire",
       "summary": "1Password Secures Coding Agents with New OpenAI Codex Integration Business Wire",
       "published_at": "2026-05-20T21:00:00+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
+      "source": "\"Codex agent workflow\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeVo2MGtwbk03WXVLNndwYnlXSERYSWNIMzNVVzFJY0drOVBPZFN5MXJYeUhKbnRVYVBkS2w5aG0tQ0RpdzQ3dUxhV003VmM4UTZyMUNBWGJfdUJnZ1ktZmxxbDZlay1WUDRGZkFmbk91bXpGb0FLbzZXczh3dzRFdUhPZmpNSFZ3MGVVZVpWYWItZGlmLTBEVHBYd3RSQ0VTSThMT0pvZkdsVm8tYVZEWDJSWXEzZXd2YzZUREljOA?oc=5",
       "language": "en",
       "region": "global",
@@ -89,8 +89,8 @@
       "tags": [
         "agent",
         "codex",
-        "mcp",
-        "tutorial"
+        "tutorial",
+        "workflow"
       ]
     },
     {
@@ -128,23 +128,6 @@
       ]
     },
     {
-      "title": "Hermes Agent，看这一篇就够了！ - 电子工程专辑",
-      "summary": "Hermes Agent，看这一篇就够了！ 电子工程专辑",
-      "published_at": "2026-05-26T07:33:00+08:00",
-      "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SbXk1Nm82OTRiWDlZcHBiNW13bm9LQk5wSWJNckNZc0t0WldHbjlfU0F3QVFtazZCNHhnUHlDcWdJc2lFVEx4S2tmaUdRVkJneVdJ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "agents",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
       "title": "OpenAI大神教你如何榨干Codex - 智源社区",
       "summary": "OpenAI大神教你如何榨干Codex 智源社区",
       "published_at": "2026-05-25T12:40:00+08:00",
@@ -162,19 +145,19 @@
       ]
     },
     {
-      "title": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival - Memeburn",
-      "summary": "DeepSeek Code: DeepSeek Wants Its Own Claude Code Rival Memeburn",
-      "published_at": "2026-05-25T09:43:43+08:00",
-      "source": "\"OpenAI Codex MCP\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abko4amh2MVRMbDNTTTB0dWcycy1tZE13YkU0b21MNnJNQ3RDbTRXZV9pVXdXZ1NqTlFZcVBidE1JdkMxTldtN2hrVnBaV3l5bVZCWklzQWRkdFE5YTlBcGV4MGRxQ3RPV09lUGVGT09yOEhLWWc?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
+      "title": "一文搞懂如何极致的使用Codex「最佳实践」 - 51CTO",
+      "summary": "一文搞懂如何极致的使用Codex「最佳实践」 51CTO",
+      "published_at": "2026-05-22T15:00:00+08:00",
+      "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WeElxQ3NRY1lHdjRycjhacHkxZGgtMTV6NWlSOWFheHY2NHdudVRrb1dfaUtweE84aUhrMjgxSGZXZTdHd1YyQUdQUTF3VWY0MnJF?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
       "source_type": "tutorial",
       "tags": [
         "agent",
+        "agents",
         "codex",
-        "mcp",
         "tutorial"
       ]
     },
@@ -196,9 +179,43 @@
       ]
     },
     {
+      "title": "1Password Extends OpenAI Integration with Codex MCP - Let's Data Science",
+      "summary": "1Password Extends OpenAI Integration with Codex MCP Let's Data Science",
+      "published_at": "2026-05-20T21:27:46+08:00",
+      "source": "\"OpenAI Codex MCP\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa2dsUkt5RU03cHZaTWVETEtTQ2FxRDBJUzdwWVBWV2NYa25yZE9FRllLTTFrYlhzdGZRN3JSVnE1aTZ4SWJYcWhyUkMzeENlUWtHQmpxTS1jUElYS3FDRnR2WlZmVjRnU0FFR3B3ZlhtWjBPQ2Z6b2lYbFcwR1JQMzZnZUtZUWRBV3dEdFpxUWlVX0J0eWp3Mg?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities - Zoom",
+      "summary": "Zoom connects conversations and organizational context across AI tools through expanded MCP capabilities Zoom",
+      "published_at": "2026-05-18T21:05:14+08:00",
+      "source": "\"OpenAI Codex MCP\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6ZzYzNkcxTm1NRTJEdG5tX2p2VXliYUtVeGhwUUZCRjRmVUhMM1NWR25HV2VISXNDZGVTRUp2Y2xBRmxjSDBoaXpiQkJISTRJR29tRFZMbzN5ZE43T2FFMXFmaw?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial"
+      ]
+    },
+    {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-05-31T14:01:07.325201+08:00",
+      "published_at": "2026-05-31T16:51:13.025641+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -315,7 +332,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-05-31T14:01:07.325201+08:00",
+      "published_at": "2026-05-31T16:51:13.025641+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -326,6 +343,39 @@
         "codex",
         "official",
         "workflow"
+      ]
+    },
+    {
+      "title": "测完几个Agent工具 我发现他们能代打游戏了 - 17173",
+      "summary": "测完几个Agent工具 我发现他们能代打游戏了 17173",
+      "published_at": "2026-05-31T14:04:21+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrRU1mdFRQQThTQV9oODV0NmtBQS0zVUNBZmItSDMwSlBrZmdSUkl2SUxtem9pV0hSR2hma2VmdzlFN19WWTB5bklCdzRiNTJGamxFNTVuQXNoUUtYVE0ta01QSk9oUQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "爆肝两周，我把 Codex 最全实战指南开源了 - 凤凰网",
+      "summary": "爆肝两周，我把 Codex 最全实战指南开源了 凤凰网",
+      "published_at": "2026-05-30T15:19:22+08:00",
+      "source": "\"Codex MCP 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9EMWpUWFZoeVZGSE1nZzhlR2pVekF1SVoxbGZhTjF0UWtvSHhfOXlJM2lVNVNKQ1hkYXVYS3FMcEdwa2I0U1ZiOQ?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "mcp",
+        "tutorial"
       ]
     },
     {
@@ -361,22 +411,6 @@
       ]
     },
     {
-      "title": "Codex碾压Claude Code_新浪新闻 - 新浪网",
-      "summary": "Codex碾压Claude Code_新浪新闻 新浪网",
-      "published_at": "2026-05-23T13:29:00+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83dG9uemZwMTV5MXRjVkZQY180Mld1R0k3YlR5OFZHN2pOOXFqRXBpaWZYWWZzemFSSEVKSlZ4ZTBGcHd1TzY3MVd5YTMtOEhMa3pIb3AtUmFZV0cxbklHT2Etbw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial"
-      ]
-    },
-    {
       "title": "据说高手在同时这样使用三个工具：Cursor、Claude Code、Codex - 51CTO",
       "summary": "据说高手在同时这样使用三个工具：Cursor、Claude Code、Codex 51CTO",
       "published_at": "2026-05-07T15:00:00+08:00",
@@ -391,23 +425,6 @@
         "codex",
         "mcp",
         "tutorial"
-      ]
-    },
-    {
-      "title": "Introducing workspace agents in ChatGPT - OpenAI",
-      "summary": "Introducing workspace agents in ChatGPT OpenAI",
-      "published_at": "2026-05-30T18:53:04+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
       ]
     },
     {
@@ -447,7 +464,7 @@
     {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-05-31T14:01:07.325201+08:00",
+      "published_at": "2026-05-31T16:51:13.025641+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
@@ -482,23 +499,6 @@
       "published_at": "2026-05-26T08:00:00+08:00",
       "source": "Codex changelog",
       "link": "https://developers.openai.com/codex/changelog/#github-release-329640454",
-      "language": "en",
-      "region": "global",
-      "source_group": "official",
-      "source_type": "official_doc",
-      "tags": [
-        "cli",
-        "code_review",
-        "codex",
-        "workflow"
-      ]
-    },
-    {
-      "title": "Codex CLI Release: 0.133.0",
-      "summary": "0.133.0",
-      "published_at": "2026-05-21T08:00:00+08:00",
-      "source": "Codex changelog",
-      "link": "https://developers.openai.com/codex/changelog/#github-release-327109656",
       "language": "en",
       "region": "global",
       "source_group": "official",
