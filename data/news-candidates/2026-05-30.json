@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T08:51:48.035032+00:00",
+  "generated_at": "2026-05-31T10:49:23.342481+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -54,6 +54,18 @@
       "published_at": "2026-05-30T20:30:34+08:00",
       "source": "\"地平线 车载芯片\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtQmlMaC02RVdIRnMwalZGZVBtbHk0QzI4Q1o4U0FwcU45ZHVGaEY1MEtKcnNZNVJ1QUlZbEIxRU5fWWI3VlUxTGc2Z3RldkdWakQtRFZYcUZIOWM?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 - 汽车之家",
+      "summary": "比亚迪激光雷达全面超越华为，高阶智驾普及时代加速到来 汽车之家",
+      "published_at": "2026-05-30T16:23:01+08:00",
+      "source": "\"比亚迪 智能驾驶\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hbjNfNDIxZDFZeGJ5Rno5bzJ6S1A4RFBrYXduMHJ4NDgweEkxWTNldFY4UlhVY2RiNGdVRWVQQ1J0eFVnaHgwaHZFM3RRSW1RbWp3bmF4bW81dTY0Q3c?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -133,11 +145,11 @@
       "tags": []
     },
     {
-      "title": "原油黄金轮动趋势研判，石油美元与人民币AI芯片算力案例分析 - video.sina.com.cn",
-      "summary": "原油黄金轮动趋势研判，石油美元与人民币AI芯片算力案例分析 video.sina.com.cn",
-      "published_at": "2026-05-30T19:40:07+08:00",
-      "source": "\"AI 芯片 算力\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQWk3MlNIQWdOUUV3dy1NS0lPNHR5NV8wdW5jMjVqZ0kwNVpCUTUyX1o3WXNhWFNjMlVqZHVkWXd2bGF3TDFITVQyOHFyRk9BOU9Fb1V0RU9DeFB5SnJ5M3VlREFaUzFnS2JOODhaeUZKNUVDX3dyc1hib3BPdkU0RGF3?oc=5",
+      "title": "共建“AI+自适应智造”生态：上海消费电子龙头携手机器人“独角兽”，加速具身智能产业化落地的“最后一公里” - 手机网易网",
+      "summary": "共建“AI+自适应智造”生态：上海消费电子龙头携手机器人“独角兽”，加速具身智能产业化落地的“最后一公里” 手机网易网",
+      "published_at": "2026-05-30T17:26:04+08:00",
+      "source": "\"具身智能 机器人\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RYlp5TjU4ZkliT01STkNEZmRMRThzYXlfN0tBaVB3WV9uWHJkUTVKMkRKMXdpX2VOQzhKN1YxNDRQM1NnbkNvOXZIcjE0dUhNb0JsN003ZGpJNmVQSGxNOFFR?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -169,18 +181,6 @@
       "tags": []
     },
     {
-      "title": "2026首钢冬奥办公区机器人大本营产业大会举办 - 中国科技网",
-      "summary": "2026首钢冬奥办公区机器人大本营产业大会举办 中国科技网",
-      "published_at": "2026-05-30T22:35:17+08:00",
-      "source": "\"具身智能 机器人\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqSXZudG1vQUx5cFB6VkhxT1I1cHliTldYYkk4V0FwMU9WTnZHRkR0UWw3dVUtZmRCVFpselNuRWJzMENCcmE5SFBsYW5qc1gxekUwYkdiQlIteTdJWUFfZ0p6Y29HREFPVzJEb0FkUUo?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "智博会“机器人小镇”巡礼：具身智能从展品走向“实战” - chinanews.com.cn",
       "summary": "智博会“机器人小镇”巡礼：具身智能从展品走向“实战” chinanews.com.cn",
       "published_at": "2026-05-30T21:41:00+08:00",
@@ -198,6 +198,18 @@
       "published_at": "2026-05-30T19:52:30+08:00",
       "source": "\"具身智能 机器人\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95ZWxFUUNoVktKRGZfLU9FZUtQS0NEcjhWeEpfcmtGdVpmUTZFX1hUZ3lTNGhucVBxQXpYRmhoaTdnbmhjMXhRaGp5VldvblNIeUZKSzZORXF3QlNuN1VzR3phUEQ1eVh1Vmx0WEJyblU3aWdBRjZPSjFzblpjZw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "人工智能行情从“主题炒作”走向“产业主线”，这只ETF今年更适合做AI配置 - 风闻",
+      "summary": "人工智能行情从“主题炒作”走向“产业主线”，这只ETF今年更适合做AI配置 风闻",
+      "published_at": "2026-05-30T18:26:28+08:00",
+      "source": "\"AI 芯片 算力\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XUldmeEotdjR3N0YxXzBRMmYwQ0Z5cXNrTV9PY3IzN25MbTlmaGpNc1V4UEpLRXlPLS1vSG9UcHc2cU8tcmxvdUdIUkMtZE91VjE3RjVSWGNfZUZaWDlLWmR0V1AxbzNMZE1kSFp0VzdybWhJ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -318,18 +330,6 @@
       "published_at": "2026-05-30T22:05:00+08:00",
       "source": "\"虎嗅 AI\" - Google 新闻",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YeVdSRnF0RU50ZFU0cUNIdTNqS2RMSU05UjY5dkM5Ri1CdGNhWndORHAwMWxHNVo0SERvYm1PQTJzWURPem9BQVl4Vjd0ZUp6WW9mbg?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了 - 智源社区",
-      "summary": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了 智源社区",
-      "published_at": "2026-05-30T18:30:00+08:00",
-      "source": "\"量子位 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4zR24tOHRBOFJDTWlXZ2luX1hfWkNDV2dhcFF1aHllbmNORnFDZFI3S3RDZmp4cVJhRmsyM2RtUnFXUVlhbm5YQQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "china",
@@ -469,11 +469,11 @@
       "tags": []
     },
     {
-      "title": "A.I. Doesn’t Have to Mean Layoffs - The New York Times",
-      "summary": "A.I. Doesn’t Have to Mean Layoffs The New York Times",
-      "published_at": "2026-05-30T22:23:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTXZ3cWNGY01ZMWl5LWoxWnFRa0tpcHZ2TmotSVZUY1ZTdmxPR2hyaEdDMHJtRGo4UklCR1RzY3ZpUEItOG1RWmctWm04LUYta2FoeVRJZk5NYjNLdnloZTJHN0ttUFJCMlR6NDJGZ0I4R1VQMjRybVlmQXNsWXpWck14RQ?oc=5",
+      "title": "Replit's vibe coding platform just got a Visa-backed identity layer for AI agents — and it changes how agents spend money - The New Stack",
+      "summary": "Replit's vibe coding platform just got a Visa-backed identity layer for AI agents — and it changes how agents spend money The New Stack",
+      "published_at": "2026-05-30T20:52:09+08:00",
+      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80TU1zOVdiQlJqWFh2eHJ6R001dXBxYkJqSHEta2Q0TzBfY0pGOUs2OEEyUjRjV1VvbHRiLWlRaGRwcmVsc2psNy02aHVTU296bnhRSERSUWtlbHM?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
@@ -481,11 +481,11 @@
       "tags": []
     },
     {
-      "title": "A.I. Boom Leads to Record Home Prices in San Francisco - The New York Times",
-      "summary": "A.I. Boom Leads to Record Home Prices in San Francisco The New York Times",
-      "published_at": "2026-05-30T22:12:00+08:00",
+      "title": "Opinion | The First A.I. High School in the U.S. Is Surprisingly Human - The New York Times",
+      "summary": "Opinion | The First A.I. High School in the U.S. Is Surprisingly Human The New York Times",
+      "published_at": "2026-05-30T19:00:09+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUnh4YjBzc2Z2ZFZiMjdpY3hTYWtaOWNubkVCcUFJbDJQck91NUlHRWxQN1FaUTBQTkwyNGJaaWFrY1lxb1FtdnBfZ05VN2V2ZmhuZGl3ZGNnY0FfT2h0MHc5NzMzSkdoZ3NLRjRFY2RSdkY3dGtNMjRyckhueGlsNkotZXh2dTdrYXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YeVFBOU9acF82bzFULVA3dVh1MTdmcUVEYVgzbGFKaWQ3eEFMZGNTOE9TR1VvTS12V0hKMnBkdXJEX2U1LThGcjM3a3FCb2p6RzQwNXMwZHp0U2FBS3BCVU5aNHBBM3pybFJrN3A3cw?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
