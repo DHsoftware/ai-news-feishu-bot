@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T21:44:04.383333+00:00",
+  "generated_at": "2026-05-31T22:40:46.426682+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -145,11 +145,11 @@
       ]
     },
     {
-      "title": "OpenAI大神教你如何榨干Codex - 智源社区",
-      "summary": "OpenAI大神教你如何榨干Codex 智源社区",
-      "published_at": "2026-05-25T12:40:00+08:00",
+      "title": "Hermes Agent，看这一篇就够了！ - 电子工程专辑",
+      "summary": "Hermes Agent，看这一篇就够了！ 电子工程专辑",
+      "published_at": "2026-05-26T07:33:00+08:00",
       "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52S05xN1hXTHFOVWtTWGNyQnJLS3IzanFrRldmbTZDT3hNQUZ6bGJGemVzbXc3RUYwTEpPa1V4VWJRWUhaV1hqMw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SbXk1Nm82OTRiWDlZcHBiNW13bm9LQk5wSWJNckNZc0t0WldHbjlfU0F3QVFtazZCNHhnUHlDcWdJc2lFVEx4S2tmaUdRVkJneVdJ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -162,11 +162,11 @@
       ]
     },
     {
-      "title": "一文搞懂如何极致的使用Codex「最佳实践」 - 51CTO",
-      "summary": "一文搞懂如何极致的使用Codex「最佳实践」 51CTO",
-      "published_at": "2026-05-22T15:00:00+08:00",
+      "title": "OpenAI大神教你如何榨干Codex - 智源社区",
+      "summary": "OpenAI大神教你如何榨干Codex 智源社区",
+      "published_at": "2026-05-25T12:40:00+08:00",
       "source": "\"Codex AGENTS.md 使用\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WeElxQ3NRY1lHdjRycjhacHkxZGgtMTV6NWlSOWFheHY2NHdudVRrb1dfaUtweE84aUhrMjgxSGZXZTdHd1YyQUdQUTF3VWY0MnJF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52S05xN1hXTHFOVWtTWGNyQnJLS3IzanFrRldmbTZDT3hNQUZ6bGJGemVzbXc3RUYwTEpPa1V4VWJRWUhaV1hqMw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "learning_search_china",
@@ -232,7 +232,7 @@
     {
       "title": "CLI – Codex | OpenAI Developers",
       "summary": "Pair with Codex in your terminal",
-      "published_at": "2026-06-01T05:43:24.332470+08:00",
+      "published_at": "2026-06-01T06:39:57.621818+08:00",
       "source": "OpenAI Codex CLI Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -349,7 +349,7 @@
     {
       "title": "Workflows – Codex | OpenAI Developers",
       "summary": "Development usage patterns with Codex",
-      "published_at": "2026-06-01T05:43:24.332470+08:00",
+      "published_at": "2026-06-01T06:39:57.621818+08:00",
       "source": "OpenAI Codex Workflows Docs",
       "source_type": "official_doc",
       "language": "en",
@@ -379,6 +379,22 @@
       ]
     },
     {
+      "title": "AI编程工具讨论_新浪新闻 - 新浪网",
+      "summary": "AI编程工具讨论_新浪新闻 新浪网",
+      "published_at": "2026-05-30T19:45:00+08:00",
+      "source": "\"Codex Agent 教程\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xNml2SWx3UzV3eUZYLXZBWHp4eHFMWnVxM1pCM2pMQlM3ZFhuVVZlbjM1Q0kzSmdOT2xPcnlJU2ZtTnA2MmJPYXB0bHFNRnVPU2YzdWMxSUFWUUpENzZKeWY5OA?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "learning_search_china",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial"
+      ]
+    },
+    {
       "title": "爆肝两周，我把 Codex 最全实战指南开源了 - 凤凰网",
       "summary": "爆肝两周，我把 Codex 最全实战指南开源了 凤凰网",
       "published_at": "2026-05-30T15:19:22+08:00",
@@ -392,22 +408,6 @@
         "agent",
         "codex",
         "mcp",
-        "tutorial"
-      ]
-    },
-    {
-      "title": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 - 爱范儿",
-      "summary": "国产AI编程冲上全球第二！实测五大模型，谁才是Vibe Coding神器 爱范儿",
-      "published_at": "2026-05-28T12:09:48+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE51WjZfSW9wQ1dCdzFsQlJaQkZ5N0ZTNkVpLWF2N0pUaXlDbVlFZjFJWWxjcTRiOGdjWEhkOF9TTk9CZE0?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
         "tutorial"
       ]
     },
@@ -429,23 +429,6 @@
       ]
     },
     {
-      "title": "Introducing workspace agents in ChatGPT - OpenAI",
-      "summary": "Introducing workspace agents in ChatGPT OpenAI",
-      "published_at": "2026-05-30T18:53:04+08:00",
-      "source": "\"Codex agent workflow\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51LTJmeFpZNWRfRjVseUZQdGNtRC0zWXZpMVI4ODV1X0s4b25BaVpPVC1GWjFUenA2bTBlelMtaHRadFpGeUoxMjl1SWpTSEJXUF9HajlJcGdadm5PUzVyYnZmcjR3Yno1QW9CblJSZ1kwZjhzSHVpZVY1aw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "learning_search_global",
-      "source_type": "tutorial",
-      "tags": [
-        "agent",
-        "codex",
-        "tutorial",
-        "workflow"
-      ]
-    },
-    {
       "title": "Warp’s big bet on building open source with GPT-5.5 - OpenAI",
       "summary": "Warp’s big bet on building open source with GPT-5.5 OpenAI",
       "published_at": "2026-05-28T04:19:04+08:00",
@@ -463,9 +446,26 @@
       ]
     },
     {
+      "title": "From model to agent: Equipping the Responses API with a computer environment - OpenAI",
+      "summary": "From model to agent: Equipping the Responses API with a computer environment OpenAI",
+      "published_at": "2026-05-27T15:00:00+08:00",
+      "source": "\"Codex agent workflow\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16SS1qakJOZ1Y1SUZnRWdKOGplTHYwSHpOeDF0Ynl5dWxySUZTXzVCU0xBRzVIQjg0SjZxNUxvOFgzVFZjNjRRRmJpaTNpbXhSYU90OEtqZFRYWXlNYW1NNnM4UFJjN2k4WGJyQ2hFT0t6Y2IwdExGTkpacEg?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
+      "source_type": "tutorial",
+      "tags": [
+        "agent",
+        "codex",
+        "tutorial",
+        "workflow"
+      ]
+    },
+    {
       "title": "Web – Codex | OpenAI Developers",
       "summary": "Delegate to Codex in the cloud",
-      "published_at": "2026-06-01T05:43:24.332470+08:00",
+      "published_at": "2026-06-01T06:39:57.621818+08:00",
       "source": "OpenAI Codex Overview",
       "source_type": "official_doc",
       "language": "en",
