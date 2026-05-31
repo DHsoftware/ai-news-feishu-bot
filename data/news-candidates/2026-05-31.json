@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T19:57:16.363010+00:00",
+  "generated_at": "2026-05-31T20:50:57.632767+00:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 46,
@@ -205,18 +205,6 @@
       "tags": []
     },
     {
-      "title": "帕科科技发布“灵境AI数智超媒平台” 携手广电伙伴及火山引擎成立AI超媒生态联盟 - 流媒体网",
-      "summary": "帕科科技发布“灵境AI数智超媒平台” 携手广电伙伴及火山引擎成立AI超媒生态联盟 流媒体网",
-      "published_at": "2026-05-31T20:57:00+08:00",
-      "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xOTN1NWdKVDRyV3JuczVlYm00a0tSNzNKX0Fqa21HYnNBU1podzM0cFJYWlBScTc5MXFzczQ2M2MxWXlXRzBEWkF3TVY0RjZJa2d5NVlnbWs?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": []
-    },
-    {
       "title": "AI赋能学龄特需儿童教育：RICE AI学龄版大模型正式发布 - 搜狐网",
       "summary": "AI赋能学龄特需儿童教育：RICE AI学龄版大模型正式发布 搜狐网",
       "published_at": "2026-05-31T20:36:00+08:00",
@@ -229,11 +217,23 @@
       "tags": []
     },
     {
+      "title": "【明日主题前瞻】AI竞赛日益“以内存为中心”，客户抢签长期采购协议 - 财联社",
+      "summary": "【明日主题前瞻】AI竞赛日益“以内存为中心”，客户抢签长期采购协议 财联社",
+      "published_at": "2026-05-31T20:03:00+08:00",
+      "source": "\"人工智能 大模型\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tNl84MjA4dzFkMk1YWFU4XzRSSkxkUHhtYXh0eWh1NFBOeWJMVHFFWTVUV2dEaVhzWU5jMzZieE4wUnN0V3ZvZw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "tags": []
+    },
+    {
       "title": "AI编程工具普及背后：效率提升的假象与代码维护的隐患|程序员|AI代码生成|研究人员|速度|博客_手机新浪网 - 新浪财经",
       "summary": "AI编程工具普及背后：效率提升的假象与代码维护的隐患|程序员|AI代码生成|研究人员|速度|博客_手机新浪网 新浪财经",
-      "published_at": "2026-05-31T13:56:40+08:00",
+      "published_at": "2026-05-31T14:20:03+08:00",
       "source": "\"AI 编程工具\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjFSWmNMVEJGRDJqMV9qWEZmaDZ4VWdvcDJzMXM1ZnR3cU5lM2dDcHh3Z0EtTk1xUFZkcGh1WG1wWVVmcnc3WklPX29uLXFkMkdneG9NVXptbkFQNmVnbW9vZkdNZVRsZWI1d3pFd3BEQ25YS0F0OWtFNVNISnNMRTZSSDlOSmFZWmdoYTdWUi1WQXRGZHhmZXFQSjFFQXcyWWNKMF9DTXBCM2I5N2Y0czhSZWZ2dXg0bWh2Wlc2V2g2Vy1WckE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRllCSTlRQ0gwTU5ZMTRjZGFvbi1SWWJLbmljOFJQLUhnX1g4Nm5iTEJxUEcyTmY3ckpGNE42ZGpoV2dJeHh5bXdNUE9IeVE0cXJiV3hUby02ME8wN2cwdFo2Zm1LdXdZdG95S3JRbG9qNVJNR3ZCbC1QSHR3S2lla1ZmUlVYZGZ4Q3dhbVRzUnhiUTF6dUNpRnlEdURKTFA0WlNBWVZR?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "auto_china",
@@ -297,6 +297,18 @@
       "language": "zh",
       "region": "china",
       "source_group": "china",
+      "source_type": "",
+      "tags": []
+    },
+    {
+      "title": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic - Yahoo Finance",
+      "summary": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic Yahoo Finance",
+      "published_at": "2026-05-31T21:00:07+08:00",
+      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSDJwRFFjRmtWTkkxQzEteXljQjNSUzRKUndMa2JZTUVKQkhBZVlROHZZSmZiQkZvRlY3UllWSndickN3SWJLZGJhSlJNMUZNV1VaTV9qNlpJYllwUkhBcWs4cVBvZHE2QnlyWHVKaTNpNkNFby11dnFXUi0zLUR0UjhtUTZFb0p1ckE2MjNuQWUwOWhtcHc?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
       "source_type": "",
       "tags": []
     },
@@ -445,11 +457,11 @@
       "tags": []
     },
     {
-      "title": "Connecticut’s Lamont Signs AI Law With Employer Notice Mandate - Bloomberg Law News",
-      "summary": "Connecticut’s Lamont Signs AI Law With Employer Notice Mandate Bloomberg Law News",
-      "published_at": "2026-05-31T22:47:00+08:00",
+      "title": "Opinion | The Hallucinatory AI Math - WSJ",
+      "summary": "Opinion | The Hallucinatory AI Math WSJ",
+      "published_at": "2026-05-31T23:47:00+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeFEtLVQwNFk4SUZPZnZGczVNYjBHcE1NVkxTT2RQYjBIZi1vRnM1VW5QSlpfdmpMRlVVcVBudFRmcVY1M1FZRlpVWXNNaDA5R1JOWUM3QW0wVkNjRF83TWR2Z2lYS0syXzVXZFFESi0tajNaLUZFcV9YQ0FnVlVIckhNdzdlVkx2VWtZZDdiMUxRZjAxYTYyT1lDYVFmd0xYRkJFM0s5SV9raVQyVDdF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93WjBhQTZNNzNEMklYZUZ3TTJKYjFxN3M0N1psaF90MU1OSmJYMGJlUFRNZ3pKdkFiSHMtOER1dUZVRDc4djlSdmVZOWZxVWdzMXBtTHdUVGxucF9uMGVSZnVJakg3b3dJNHR6UVJ3dw?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
@@ -457,11 +469,11 @@
       "tags": []
     },
     {
-      "title": "The hidden copyright risk inside AI-generated content - CTech",
-      "summary": "The hidden copyright risk inside AI-generated content CTech",
-      "published_at": "2026-05-31T22:29:00+08:00",
+      "title": "Apple AI glasses launch pushed back to late 2027, Vision Air to arrive by 2029: report - 9to5Mac",
+      "summary": "Apple AI glasses launch pushed back to late 2027, Vision Air to arrive by 2029: report 9to5Mac",
+      "published_at": "2026-05-31T23:13:00+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41MWlrTU5GSXVhbGRBdU9pSHBCWWE3VDh2TlBLT3lSaEVMeVktaTBVZ1AzUlUyS19nZHNYRDk1ZVRVTlJnRzRKSk45d21fd19LNjIzeHZ3YzIzT1pjLUlUY3JSUzY5bzQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMTYwRWozZllTeGc5Q0g2aEo1Uk9ZdHRfNGYzb3dPVkVyVWZQNWllNEgwZ250WXZINEJmLXJ6UEYxOE9FRTBoRDFXRE5XTkkzeXQwWHk3NjcwZlhJRXpqdUM2SGZKM19mbXItU083X2dENXFCZ0Y5b05WVmVwYWJQLVBZdURidER1NXJJM1Z6aUhKNms2SV9tZlhxVFMwTDY3?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
@@ -469,23 +481,11 @@
       "tags": []
     },
     {
-      "title": "Ukraine Testing Shows Limited Suitability of Phantom MK-1 Humanoid Robots for Battlefield Use - Мілітарний",
-      "summary": "Ukraine Testing Shows Limited Suitability of Phantom MK-1 Humanoid Robots for Battlefield Use Мілітарний",
-      "published_at": "2026-05-31T22:28:03+08:00",
-      "source": "\"robotics OR humanoid robot\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHJoSGI2dGVIT1FBZ2EtU29VQlllWElzMGJoTmR1a3NSeGt6V1pMZ2w5Tm9xZUcxVm9keHpid2QwOGlPcDNRN2xqaGlnT1AzbENJcWh3OUx3WHZXVVdkdGdBUEJhYXlEOHdnNFUtMEJJZ29qaDVwaDMtbXM1MEgzSTZzZ20zWkJqTl9wNzU0RDlBU29QWWlCMHVNaHpVSU5LY3BhQjhxVG9ZaUlkdGVQeVE4MUtwUTlpVm1qYnBfWHRkTkk?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": []
-    },
-    {
-      "title": "AI didn't kill the junior developer, it changed the rules - CTech",
-      "summary": "AI didn't kill the junior developer, it changed the rules CTech",
-      "published_at": "2026-05-31T21:59:00+08:00",
+      "title": "Study highlights major gaps in online info for patients about AI and cancer - Medical Xpress",
+      "summary": "Study highlights major gaps in online info for patients about AI and cancer Medical Xpress",
+      "published_at": "2026-05-31T22:50:01+08:00",
       "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xLWQ1N25UVVM4X1BDQ0hsVFdhQTFPSTJ1Q1VmSFduMlB2TWlMMEtsOHdNREtkVFBWV3RndkdCNkpVdGVxNERsM3VfMVRZMHZ1Q2ZwcTZOUXV0Vk1SdUdSeUd4V2FCbkk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZHJXQXY4WjFkb083N3lJbmRVV0ZqMGlYM0ltV252LVVJZ1dvWDZMS0cwWjlnN0NucEhOcHB0ZmdnSUwwM3FqNTRRSGRiVWRKZ1loM0J1eElTY1hRVXZpeHdnWlM2NmhRUDlyNnUzNVFMbzVvX3BJNjdjazJoTkd6V2VaNA?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "global",
