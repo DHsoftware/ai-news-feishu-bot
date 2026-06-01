@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-02T07:10:30.731362+08:00",
+  "generated_at": "2026-06-02T07:44:04.175077+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 212,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 137,
+    "history_size_before": 140,
     "history_size_after": 140,
-    "history_duplicate_count": 6
+    "history_duplicate_count": 7
   },
   "raw_item_count": 4788,
-  "deduped_item_count": 3896,
-  "filtered_item_count": 429,
+  "deduped_item_count": 3894,
+  "filtered_item_count": 437,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -213,13 +213,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 892,
-    "history_duplicate": 6,
-    "weak_relevance": 199,
+    "duplicate": 894,
+    "history_duplicate": 7,
+    "weak_relevance": 196,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3268,
+    "old_news": 3261,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,
@@ -229,6 +229,6 @@
     "no_productivity_candidate": 0,
     "no_company_research_candidate": 0,
     "no_power_electronics_candidate": 0,
-    "source_limit_applied": 2
+    "source_limit_applied": 1
   }
 }

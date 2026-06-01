@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-02T07:10:30.731362+08:00",
+  "generated_at": "2026-06-02T07:44:04.175077+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 26,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 48,
+    "history_size_before": 49,
     "history_size_after": 49,
     "history_duplicate_count": 7
   },
@@ -31,7 +31,7 @@
       "summary": "Lightweight coding agent that runs in your terminal - openai/codex",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-06-02T07:10:30.731362+08:00",
+      "published_at": "2026-06-02T07:44:04.175077+08:00",
       "source": "OpenAI Codex GitHub",
       "source_type": "github_repo",
       "source_quality": "high",
