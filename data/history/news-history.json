@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T14:05:41.664855+08:00",
+  "updated_at": "2026-06-01T16:25:14.378764+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1737,7 +1737,7 @@
       "category": "AI编程工具",
       "region": "global",
       "source_group": "global",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1810,6 +1810,66 @@
       "category": "OBC/DCDC",
       "region": "china",
       "source_group": "power_electronics",
+      "source_type": "news_search",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "nvidia vera cpu sets a new standard for agentic workloads in ai factories",
+      "normalized_title": "nvidia vera cpu sets a new standard for agentic workloads in ai factories",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
+      "title": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
+      "normalized_title": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
+      "normalized_link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
+      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
+      "normalized_title": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTIzaTA5SGM2WkVPRDRrVldodnpDR3M3b2FtQTA0Mjh4MlNid3kwWXZtNHBmd0I3alNETkxoVEpQSER6dEVOTUpZai1TZ0R2R1hIUVlvaFJMWXlEREh3VV9JZ0RJT0JnQldLQXIzTXZsU21BSEEwaDJZYjRqUGFJaDNVQzdEMnl5UllBeDl6RWdxZ3I4WW9sYzY1M2hkTFVtWk5qbGdjOVFIWUMybW00cDRLYmhVR3c?oc=5",
+      "title": "NVIDIA 发布面向物理 AI 的开源智能体工具和技能集合 - NVIDIA",
+      "source": "NVIDIA",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTIzaTA5SGM2WkVPRDRrVldodnpDR3M3b2FtQTA0Mjh4MlNid3kwWXZtNHBmd0I3alNETkxoVEpQSER6dEVOTUpZai1TZ0R2R1hIUVlvaFJMWXlEREh3VV9JZ0RJT0JnQldLQXIzTXZsU21BSEEwaDJZYjRqUGFJaDNVQzdEMnl5UllBeDl6RWdxZ3I4WW9sYzY1M2hkTFVtWk5qbGdjOVFIWUMybW00cDRLYmhVR3c?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "nvidia 正式发布 vera 专为智能体打造的 cpu",
+      "normalized_title": "nvidia 正式发布 vera 专为智能体打造的 cpu",
+      "normalized_link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXTjlCMG1leURWd29kaHY0UURhMGU1dzhESTAybVM5ZGtYVV9OOU9iRVlMeVFJeXpRbEhIMkpFQnRSa3VUVENQNXFaRWVURXBDQnN3clpKTllnVW9CMzFwNndTYWpPTjNsdXREUll0a29iOHdENWsw?oc=5",
+      "title": "NVIDIA 正式发布 Vera：专为智能体打造的 CPU - NVIDIA",
+      "source": "NVIDIA",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXTjlCMG1leURWd29kaHY0UURhMGU1dzhESTAybVM5ZGtYVV9OOU9iRVlMeVFJeXpRbEhIMkpFQnRSa3VUVENQNXFaRWVURXBDQnN3clpKTllnVW9CMzFwNndTYWpPTjNsdXREUll0a29iOHdENWsw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "seen_count": 1
     }

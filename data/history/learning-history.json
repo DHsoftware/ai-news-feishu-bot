@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T14:05:41.664855+08:00",
+  "updated_at": "2026-06-01T16:25:14.378764+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -657,6 +657,22 @@
       "source": "\"OpenAI Codex AGENTS.md\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
       "source_type": "tutorial",
+      "language": "en",
+      "region": "global",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "build hour agents sdk",
+      "normalized_title": "build hour agents sdk",
+      "normalized_link": "https://www.youtube.com/watch?v=tK32trvj_b4",
+      "title": "Build Hour: Agents SDK",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=tK32trvj_b4",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
       "language": "en",
       "region": "global",
       "seen_count": 1
