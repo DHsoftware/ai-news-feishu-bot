@@ -41,8 +41,8 @@ DEFAULT_NEWS_MAX_CHARS = 3500
 DEFAULT_NEWS_TOP_N = 3
 DEFAULT_MAX_ITEMS_FOR_LLM = 5
 
-DEFAULT_LEARNING_NOTE = "基于资源标题/简介整理，建议打开原链接查看完整内容。"
-DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现新的 Codex Agent 学习资源。"
+DEFAULT_LEARNING_NOTE = "基于标题/简介整理，未验证完整正文，建议打开原链接查看。"
+DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现高质量 Codex Agent 学习资源。"
 
 RELATION_DIRECT = "直接影响"
 RELATION_INDIRECT = "间接影响"
@@ -51,11 +51,14 @@ VALID_RELATIONS = {RELATION_DIRECT, RELATION_INDIRECT, RELATION_NONE}
 
 LEARNING_TYPE_YOUTUBE = "YouTube 视频"
 LEARNING_TYPE_OFFICIAL = "官方文档"
+LEARNING_TYPE_OFFICIAL_VIDEO = "官方视频"
 LEARNING_TYPE_BLOG = "博客"
+LEARNING_TYPE_TECH_BLOG = "技术博客"
 LEARNING_TYPE_TUTORIAL = "教程"
+LEARNING_TYPE_NEWS = "新闻"
 LEARNING_TYPE_NA = "N/A"
 
-DEFAULT_LEARNING_PROMPT = "请结合当前项目，给我一个基于 AGENTS.md 的分阶段执行计划，并列出每阶段验证命令。"
+DEFAULT_LEARNING_PROMPT = "请先读取 AGENTS.md、README.md 和相关脚本，列出你计划修改的文件、测试命令和潜在风险。暂时不要改代码，等我确认后再执行。"
 
 LEARNING_CORE_KEYWORDS = [
     "codex",
@@ -400,6 +403,57 @@ def source_name_from_url(url: str) -> str:
     return host or "来源"
 
 
+def is_google_news_learning_item(item: dict[str, Any]) -> bool:
+    source = clean_text(item.get("source", "")).lower()
+    link = clean_text(item.get("link", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    return source_type == "google_news" or "google news" in source or "news.google.com" in link
+
+
+def safe_learning_source_name(item: dict[str, Any]) -> str:
+    source = clean_text(item.get("source", ""))
+    link = clean_text(item.get("link", ""))
+    link_l = link.lower()
+    mapping = [
+        ("developers.openai.com", "OpenAI Developers"),
+        ("openai.com", "OpenAI"),
+        ("github.com/openai/codex", "OpenAI Codex GitHub"),
+        ("github.blog", "GitHub Blog"),
+        ("docs.github.com", "GitHub Docs"),
+        ("docs.anthropic.com", "Anthropic Docs"),
+        ("anthropic.com", "Anthropic"),
+        ("docs.cursor.com", "Cursor Docs"),
+        ("cursor.com", "Cursor"),
+        ("sourcegraph.com", "Sourcegraph"),
+        ("jetbrains.com", "JetBrains"),
+        ("learn.microsoft.com", "Microsoft Learn"),
+        ("microsoft.com", "Microsoft"),
+        ("youtube.com", "OpenAI YouTube"),
+        ("youtu.be", "OpenAI YouTube"),
+    ]
+    for needle, label in mapping:
+        if needle in link_l:
+            return label
+    if "google news" in source.lower():
+        cleaned = re.sub(r"\s*-\s*Google News\s*$", "", source, flags=re.IGNORECASE).strip()
+        if cleaned and cleaned.lower() != "google news" and not cleaned.lower().startswith("google news"):
+            return cleaned[:60]
+        return source_name_from_url(link)
+    return source or source_name_from_url(link)
+
+
+def is_high_quality_learning_item(item: dict[str, Any]) -> bool:
+    source_quality = clean_text(item.get("source_quality", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    if is_google_news_learning_item(item):
+        return False
+    if bool(item.get("is_official_source", False)):
+        return True
+    if source_quality == "high" and source_type in {"technical_blog", "official_blog", "official_doc", "github_repo", "official_video"}:
+        return True
+    return False
+
+
 def parse_iso_datetime(value: Any, tz: timezone) -> datetime:
     text = clean_text(value)
     if not text:
@@ -419,10 +473,16 @@ def normalize_learning_type(raw_type: Any, fallback_item: dict[str, Any] | None 
     if not text and fallback_item:
         text = clean_text(fallback_item.get("source_type", "")).lower()
 
+    if "official_video" in text or "官方视频" in text:
+        return LEARNING_TYPE_OFFICIAL_VIDEO
     if "youtube" in text or "视频" in text:
         return LEARNING_TYPE_YOUTUBE
     if "official" in text or "doc" in text or "官方" in text or "文档" in text:
         return LEARNING_TYPE_OFFICIAL
+    if "technical_blog" in text or "技术博客" in text:
+        return LEARNING_TYPE_TECH_BLOG
+    if "media_article" in text or "google_news" in text or "新闻" in text:
+        return LEARNING_TYPE_NEWS
     if "blog" in text or "博客" in text:
         return LEARNING_TYPE_BLOG
     if "tutorial" in text or "教程" in text:
@@ -442,28 +502,23 @@ def normalize_learning_type(raw_type: Any, fallback_item: dict[str, Any] | None 
 
 def learning_priority_bucket(item: dict[str, Any]) -> int:
     link = clean_text(item.get("link", "")).lower()
-    source = clean_text(item.get("source", "")).lower()
     source_type = clean_text(item.get("source_type", "")).lower()
-    language = clean_text(item.get("language", "")).lower()
+    source_quality = clean_text(item.get("source_quality", "")).lower()
 
-    is_official = (
-        source_type == "official_doc"
-        or any(host in link for host in ("openai.com", "developers.openai.com", "platform.openai.com"))
-        or "openai developers" in source
-    )
-    if is_official:
+    if is_google_news_learning_item(item):
+        return -2
+    if bool(item.get("is_official_source", False)):
+        return 6
+    if source_type in {"official_doc", "official_video", "github_repo", "official_blog"}:
+        return 6
+    if any(host in link for host in ("developers.openai.com", "openai.com/codex", "github.com/openai/codex", "docs.github.com", "github.blog")):
+        return 6
+    if source_quality == "high":
         return 4
-    if source_type == "youtube_video" or "youtube.com" in link or "youtu.be" in link:
-        return 3
-
-    if source_type in ("tutorial", "blog"):
-        if language == "zh":
-            return 1
+    if source_quality == "medium":
         return 2
 
-    if language == "zh":
-        return 1
-    return 0
+    return -1 if source_type in {"media_article", "google_news"} else 0
 
 
 def learning_relevance_score(item: dict[str, Any]) -> int:
@@ -489,6 +544,19 @@ def learning_relevance_score(item: dict[str, Any]) -> int:
     if "best practice" in text or "最佳实践" in text:
         score += 1
 
+    source_quality = clean_text(item.get("source_quality", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    if bool(item.get("is_official_source", False)):
+        score += 8
+    if source_quality == "high":
+        score += 5
+    elif source_quality == "low":
+        score -= 10
+    if source_type == "google_news" or is_google_news_learning_item(item):
+        score -= 12
+    if source_type == "media_article":
+        score -= 5
+
     if "chatgpt" in text and "codex" not in text:
         score -= 5
     for keyword in LEARNING_NEGATIVE_KEYWORDS:
@@ -500,7 +568,6 @@ def learning_relevance_score(item: dict[str, Any]) -> int:
 
 def select_learning_candidate(items: list[dict[str, Any]], tz: timezone) -> dict[str, Any] | None:
     ranked: list[tuple[int, int, datetime, dict[str, Any]]] = []
-    first_valid: dict[str, Any] | None = None
     for item in items[:MAX_LEARNING_CANDIDATES_FOR_PROMPT]:
         if not isinstance(item, dict):
             continue
@@ -508,21 +575,20 @@ def select_learning_candidate(items: list[dict[str, Any]], tz: timezone) -> dict
         link = clean_text(item.get("link", ""))
         if not title or not link:
             continue
-        if first_valid is None:
-            first_valid = item
+        if not is_high_quality_learning_item(item):
+            continue
 
         relevance = learning_relevance_score(item)
         priority = learning_priority_bucket(item)
 
-        # Keep low-relevance Chinese fallback only when we truly have nothing better.
-        if relevance <= 0 and priority < 1:
+        if relevance <= 0:
             continue
 
         published_dt = parse_iso_datetime(item.get("published_at", ""), tz)
         ranked.append((priority, relevance, published_dt, item))
 
     if not ranked:
-        return first_valid
+        return None
 
     ranked.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
     return ranked[0][3]
@@ -535,7 +601,10 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
     title = clean_text(item.get("title", ""))
     summary = truncate_text(item.get("summary", ""), 400)
     source = clean_text(item.get("source", ""))
+    source_name = safe_learning_source_name(item)
     source_type = clean_text(item.get("source_type", ""))
+    source_quality = clean_text(item.get("source_quality", "")) or "unknown"
+    is_official = bool(item.get("is_official_source", False))
     language = clean_text(item.get("language", ""))
     region = clean_text(item.get("region", ""))
     published_at = clean_text(item.get("published_at", "")) or "未知"
@@ -545,8 +614,10 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
 
     return (
         f"标题: {title}\n"
-        f"来源: {source}\n"
+        f"来源: {source_name or source}\n"
         f"类型: {source_type or 'unknown'}\n"
+        f"来源质量: {source_quality}\n"
+        f"是否官方来源: {'true' if is_official else 'false'}\n"
         f"语言: {language or 'unknown'}\n"
         f"区域: {region or 'unknown'}\n"
         f"发布时间: {published_at} ({timezone_name})\n"
@@ -577,7 +648,7 @@ def normalize_codex_learning(
     has_resource = selected_item is not None
 
     selected_url = normalize_url(clean_text(selected_item.get("link", ""))) if selected_item else ""
-    selected_source = clean_text(selected_item.get("source", "")) if selected_item else ""
+    selected_source = safe_learning_source_name(selected_item) if selected_item else ""
     selected_title = clean_text(selected_item.get("title", "")) if selected_item else ""
 
     if not has_resource:
@@ -587,7 +658,7 @@ def normalize_codex_learning(
             "source_name": "",
             "source_url": "",
             "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
-            "how_to_apply": "可明日继续关注官方资源更新。",
+            "how_to_apply": "可明日继续关注官方文档、官方视频或高质量技术博客更新。",
             "example_prompt": DEFAULT_LEARNING_PROMPT,
             "confidence_note": ensure_metadata_note("", has_resource=False),
         }
@@ -604,8 +675,12 @@ def normalize_codex_learning(
         source_url = selected_url
 
     source_name = clean_text(raw.get("source_name", ""))
+    if "google news" in source_name.lower():
+        source_name = ""
     if not source_name and source_url:
         source_name = url_to_source.get(source_url, "")
+    if "google news" in source_name.lower() and selected_item:
+        source_name = safe_learning_source_name(selected_item)
     if not source_name:
         source_name = selected_source or source_name_from_url(source_url)
 
@@ -622,9 +697,16 @@ def normalize_codex_learning(
     example_prompt = clean_text(raw.get("example_prompt", ""))
     confidence_note = clean_text(raw.get("confidence_note", ""))
 
-    learning_point = learning_point or "基于标题/简介，建议先关注该资源中关于 Codex Agent 工作流的实操片段。"
-    how_to_apply = how_to_apply or "把资源中的一个流程拆成可执行步骤，在当前仓库先做小范围验证，再逐步扩展。"
+    learning_point = learning_point or "先让 Codex 读取项目说明，再要求它列出计划和验证命令。"
+    how_to_apply = how_to_apply or "把任务拆成读取约束、列计划、确认后修改、运行测试四步，避免直接改动敏感文件。"
     example_prompt = example_prompt or DEFAULT_LEARNING_PROMPT
+    source_quality = clean_text(selected_item.get("source_quality", "")) if selected_item else ""
+    is_official = bool(selected_item.get("is_official_source", False)) if selected_item else False
+    if not confidence_note:
+        if is_official and source_quality == "high":
+            confidence_note = "基于官方或高质量来源的标题/简介整理，建议打开原链接查看完整内容。"
+        else:
+            confidence_note = DEFAULT_LEARNING_NOTE
     confidence_note = ensure_metadata_note(confidence_note, has_resource=True)
 
     return {
@@ -632,9 +714,9 @@ def normalize_codex_learning(
         "resource_type": truncate_text(resource_type, 30),
         "source_name": truncate_text(source_name or "来源", 60),
         "source_url": source_url,
-        "learning_point": truncate_text(learning_point, 140),
-        "how_to_apply": truncate_text(how_to_apply, 160),
-        "example_prompt": truncate_text(example_prompt, 220),
+        "learning_point": truncate_text(learning_point, 80),
+        "how_to_apply": truncate_text(how_to_apply, 120),
+        "example_prompt": truncate_text(example_prompt, 160),
         "confidence_note": truncate_text(confidence_note, 140),
     }
 
@@ -915,9 +997,9 @@ def apply_learning_field_limits(
     learning["resource_title"] = truncate_text(learning.get("resource_title", ""), 140)
     learning["resource_type"] = truncate_text(learning.get("resource_type", LEARNING_TYPE_NA), 30)
     learning["source_name"] = truncate_text(learning.get("source_name", "来源"), 60)
-    learning["learning_point"] = truncate_text(learning.get("learning_point", ""), learning_point_max)
-    learning["how_to_apply"] = truncate_text(learning.get("how_to_apply", ""), apply_max)
-    learning["example_prompt"] = truncate_text(learning.get("example_prompt", ""), prompt_max)
+    learning["learning_point"] = truncate_text(learning.get("learning_point", ""), min(learning_point_max, 80))
+    learning["how_to_apply"] = truncate_text(learning.get("how_to_apply", ""), min(apply_max, 120))
+    learning["example_prompt"] = truncate_text(learning.get("example_prompt", ""), min(prompt_max, 160))
     learning["confidence_note"] = truncate_text(
         ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", "")))),
         note_max,
@@ -1070,7 +1152,7 @@ def create_report_json_with_litellm(
   ],
   "codex_learning": {{
     "resource_title": "资源标题",
-    "resource_type": "YouTube 视频 / 官方文档 / 博客 / 教程",
+    "resource_type": "官方文档 / 官方视频 / 技术博客 / 教程 / 新闻",
     "source_name": "来源名称",
     "source_url": "资源链接",
     "learning_point": "今天可以学到的一个 Codex Agent 使用技巧",
@@ -1106,12 +1188,15 @@ def create_report_json_with_litellm(
 23) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
 Codex Agent 每日一学约束：
-24) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
-25) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
-26) `confidence_note` 必须明确“基于资源标题/简介整理”。
-27) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
-28) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
-29) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
+24) `codex_learning` 只基于给定资源元数据（title、summary、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
+25) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
+26) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
+27) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
+28) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
+29) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
+30) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
+31) 如果今日没有高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
+32) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}

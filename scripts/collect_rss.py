@@ -127,6 +127,8 @@ def make_source(
     source_group: str,
     source_type: str = "",
     tags: list[str] | None = None,
+    source_quality: str = "",
+    is_official_source: bool = False,
 ) -> dict[str, Any]:
     return {
         "name": name,
@@ -136,6 +138,8 @@ def make_source(
         "source_group": source_group,
         "source_type": source_type,
         "tags": tags or [],
+        "source_quality": source_quality,
+        "is_official_source": is_official_source,
     }
 
 
@@ -687,8 +691,10 @@ YOUTUBE_LEARNING_FEEDS: list[dict[str, Any]] = [
         "en",
         "global",
         "youtube",
-        source_type="youtube_video",
+        source_type="official_video",
         tags=["codex", "agent", "cli"],
+        source_quality="high",
+        is_official_source=True,
     ),
 ]
 
@@ -701,6 +707,8 @@ OFFICIAL_LEARNING_RSS_SOURCES: list[dict[str, Any]] = [
         "official",
         source_type="official_doc",
         tags=["codex", "agent", "cli", "mcp"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Codex Changelog RSS",
@@ -710,6 +718,8 @@ OFFICIAL_LEARNING_RSS_SOURCES: list[dict[str, Any]] = [
         "official",
         source_type="official_doc",
         tags=["codex", "cli", "workflow", "code_review"],
+        source_quality="high",
+        is_official_source=True,
     ),
 ]
 
@@ -722,6 +732,8 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "agent", "workflow"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Developers Resources",
@@ -731,6 +743,8 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "video", "tutorial"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Codex CLI Docs",
@@ -740,6 +754,8 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "cli"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Codex Workflows Docs",
@@ -749,6 +765,8 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "workflow", "agent"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Docs MCP Guide",
@@ -758,6 +776,8 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "mcp", "agent"],
+        source_quality="high",
+        is_official_source=True,
     ),
     make_source(
         "OpenAI Codex Overview",
@@ -767,6 +787,74 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
         "official_page",
         source_type="official_doc",
         tags=["codex", "agent"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "OpenAI Codex GitHub",
+        "https://github.com/openai/codex",
+        "en",
+        "global",
+        "official_page",
+        source_type="github_repo",
+        tags=["codex", "cli", "agents_md", "workflow"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "GitHub Copilot Docs",
+        "https://docs.github.com/en/copilot",
+        "en",
+        "global",
+        "official_page",
+        source_type="official_doc",
+        tags=["coding_agent", "code_review", "workflow"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "Anthropic Claude Code Docs",
+        "https://docs.anthropic.com/en/docs/claude-code",
+        "en",
+        "global",
+        "official_page",
+        source_type="official_doc",
+        tags=["coding_agent", "workflow"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "Cursor Docs",
+        "https://docs.cursor.com/",
+        "en",
+        "global",
+        "official_page",
+        source_type="official_doc",
+        tags=["coding_agent", "workflow"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "Sourcegraph Cody Docs",
+        "https://sourcegraph.com/docs/cody",
+        "en",
+        "global",
+        "official_page",
+        source_type="official_doc",
+        tags=["coding_agent", "workflow"],
+        source_quality="high",
+        is_official_source=True,
+    ),
+    make_source(
+        "JetBrains AI Assistant Docs",
+        "https://www.jetbrains.com/help/ai-assistant/getting-started.html",
+        "en",
+        "global",
+        "official_page",
+        source_type="official_doc",
+        tags=["coding_agent", "developer_productivity"],
+        source_quality="high",
+        is_official_source=True,
     ),
 ]
 
@@ -798,8 +886,10 @@ def build_learning_gnews_sources() -> list[dict[str, Any]]:
                 "en",
                 "global",
                 "learning_search_global",
-                source_type="tutorial",
+                source_type="google_news",
                 tags=["codex", "agent", "tutorial"],
+                source_quality="low",
+                is_official_source=False,
             )
         )
     for query in LEARNING_GNEWS_QUERIES_ZH:
@@ -810,8 +900,10 @@ def build_learning_gnews_sources() -> list[dict[str, Any]]:
                 "zh",
                 "china",
                 "learning_search_china",
-                source_type="tutorial",
+                source_type="google_news",
                 tags=["codex", "agent", "tutorial"],
+                source_quality="low",
+                is_official_source=False,
             )
         )
     return sources
@@ -828,7 +920,7 @@ LEARNING_KEYWORD_RULES: list[tuple[str, int, str]] = [
     ("agent workflow", 5, "workflow"),
     ("workflow", 3, "workflow"),
     ("code review", 4, "code_review"),
-    ("agents.md", 7, "agents"),
+    ("agents.md", 7, "agents_md"),
     ("mcp", 6, "mcp"),
     ("model context protocol", 6, "mcp"),
     ("best practices", 3, "best_practice"),
@@ -841,7 +933,7 @@ LEARNING_KEYWORD_RULES: list[tuple[str, int, str]] = [
     ("codex cli 使用", 8, "cli"),
     ("codex agent 教程", 8, "agent"),
     ("codex mcp", 8, "mcp"),
-    ("agents.md", 7, "agents"),
+    ("agents.md", 7, "agents_md"),
     ("代码审查", 3, "code_review"),
     ("工作流", 3, "workflow"),
 ]
@@ -877,6 +969,118 @@ LEARNING_EXCLUDE_KEYWORDS = [
 ]
 
 LEARNING_CORE_TERMS = ["codex", "agent", "cli", "mcp", "agents.md"]
+
+OFFICIAL_LEARNING_HOSTS = (
+    "developers.openai.com",
+    "openai.com",
+    "github.com/openai/codex",
+    "github.blog",
+    "docs.github.com",
+    "anthropic.com",
+    "docs.anthropic.com",
+    "cursor.com",
+    "docs.cursor.com",
+    "sourcegraph.com",
+    "jetbrains.com",
+    "microsoft.com",
+    "learn.microsoft.com",
+)
+HIGH_QUALITY_LEARNING_HOSTS = (
+    "github.blog",
+    "docs.github.com",
+    "anthropic.com",
+    "cursor.com",
+    "sourcegraph.com",
+    "jetbrains.com",
+    "microsoft.com",
+    "learn.microsoft.com",
+    "infoq.com",
+    "martinfowler.com",
+)
+
+
+def is_google_news_source_text(source: str, link: str) -> bool:
+    source_l = clean_text(source).lower()
+    link_l = clean_text(link).lower()
+    return "google news" in source_l or "news.google.com" in link_l
+
+
+def normalize_learning_source_name(source: str, link: str) -> str:
+    source_clean = clean_text(source)
+    link_l = clean_text(link).lower()
+    mapping = [
+        ("developers.openai.com", "OpenAI Developers"),
+        ("openai.com", "OpenAI"),
+        ("github.com/openai/codex", "OpenAI Codex GitHub"),
+        ("github.blog", "GitHub Blog"),
+        ("docs.github.com", "GitHub Docs"),
+        ("docs.anthropic.com", "Anthropic Docs"),
+        ("anthropic.com", "Anthropic"),
+        ("docs.cursor.com", "Cursor Docs"),
+        ("cursor.com", "Cursor"),
+        ("sourcegraph.com", "Sourcegraph"),
+        ("jetbrains.com", "JetBrains"),
+        ("learn.microsoft.com", "Microsoft Learn"),
+        ("microsoft.com", "Microsoft"),
+        ("youtube.com", "OpenAI YouTube"),
+        ("youtu.be", "OpenAI YouTube"),
+    ]
+    for needle, label in mapping:
+        if needle in link_l:
+            return label
+    if is_google_news_source_text(source_clean, link_l):
+        title_part = source_clean.split(" - Google News", 1)[0].strip()
+        if title_part and not title_part.lower().startswith("google news"):
+            return title_part[:60]
+        return ""
+    return source_clean
+
+
+def infer_learning_source_metadata(item: dict[str, Any]) -> dict[str, Any]:
+    out = dict(item)
+    source = clean_text(out.get("source", ""))
+    link = clean_text(out.get("link", ""))
+    source_type = clean_text(out.get("source_type", "")).lower()
+    text = f"{out.get('title', '')} {out.get('summary', '')} {source}".lower()
+    link_l = link.lower()
+
+    is_google = is_google_news_source_text(source, link)
+    is_official = bool(out.get("is_official_source")) or any(host in link_l for host in OFFICIAL_LEARNING_HOSTS)
+    quality = clean_text(out.get("source_quality", "")).lower()
+
+    if is_google:
+        source_type = "google_news"
+        quality = "low"
+        is_official = False
+    elif "youtube.com" in link_l or "youtu.be" in link_l:
+        source_type = "official_video" if is_official or "openai" in source.lower() else "media_article"
+        quality = "high" if source_type == "official_video" else "medium"
+    elif "github.com/openai/codex" in link_l:
+        source_type = "github_repo"
+        quality = "high"
+        is_official = True
+    elif is_official:
+        if source_type not in {"official_doc", "official_video", "official_blog", "github_repo", "technical_blog"}:
+            source_type = "official_doc" if "docs" in link_l or "developers" in link_l else "official_blog"
+        quality = "high"
+    elif any(host in link_l for host in HIGH_QUALITY_LEARNING_HOSTS):
+        source_type = "technical_blog"
+        quality = "high"
+    elif source_type in {"tutorial", "blog", ""}:
+        has_steps = any(term in text for term in ("step-by-step", "tutorial", "guide", "how to", "walkthrough", "实操", "教程", "步骤", "指南"))
+        source_type = "technical_blog" if has_steps else "media_article"
+        quality = "medium" if has_steps else "low"
+
+    if quality not in {"high", "medium", "low"}:
+        quality = "medium"
+
+    out["source_type"] = source_type or "media_article"
+    out["source_quality"] = quality
+    out["is_official_source"] = bool(is_official)
+    normalized_source = normalize_learning_source_name(source, link)
+    if normalized_source:
+        out["source"] = normalized_source
+    return out
 
 
 def setup_logging() -> None:
@@ -1711,6 +1915,8 @@ def update_learning_history_with_items(
             "source": clean_text(item.get("source", "")),
             "link": clean_text(item.get("link", "")),
             "source_type": clean_text(item.get("source_type", "")),
+            "source_quality": clean_text(item.get("source_quality", "")),
+            "is_official_source": bool(item.get("is_official_source", False)),
             "language": clean_text(item.get("language", "")),
             "region": clean_text(item.get("region", "")),
             "seen_count": 1,
@@ -1728,17 +1934,24 @@ def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dic
     selected: list[dict[str, Any]] = []
     source_counts: dict[str, int] = {}
 
-    def learning_sort_key(item: dict[str, Any]) -> tuple[int, int, int, datetime]:
+    def learning_sort_key(item: dict[str, Any]) -> tuple[int, int, int, int, int, datetime]:
         source_type = clean_text(item.get("source_type", "")).lower()
+        source_quality = clean_text(item.get("source_quality", "")).lower()
         source_type_weight = {
-            "official_doc": 4,
-            "youtube_video": 3,
+            "official_doc": 7,
+            "official_video": 7,
+            "github_repo": 7,
+            "official_blog": 6,
+            "technical_blog": 4,
             "tutorial": 2,
-            "blog": 1,
+            "media_article": -2,
+            "google_news": -4,
         }.get(source_type, 0)
+        quality_weight = {"high": 3, "medium": 1, "low": -3}.get(source_quality, 0)
+        official_weight = 5 if item.get("is_official_source") else 0
         language_weight = 1 if item.get("language") == "zh" else 0
         dt = item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
-        return int(item.get("_score", item.get("score", 0))), source_type_weight, language_weight, dt
+        return official_weight, source_type_weight, quality_weight, int(item.get("_score", item.get("score", 0))), language_weight, dt
 
     for item in sorted(items, key=learning_sort_key, reverse=True):
         source_key = clean_text(item.get("source", "")) or "unknown"
@@ -2050,6 +2263,8 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
     source_group = source_info["source_group"]
     source_type = source_info.get("source_type", "")
     source_tags = list(source_info.get("tags", []))
+    source_quality = source_info.get("source_quality", "")
+    is_official_source = bool(source_info.get("is_official_source", False))
 
     try:
         root = ET.fromstring(xml_bytes)
@@ -2101,6 +2316,8 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
                 "region": source_region,
                 "source_group": source_group,
                 "source_type": source_type,
+                "source_quality": source_quality,
+                "is_official_source": is_official_source,
                 "tags": source_tags.copy(),
                 "_published_dt": published_dt,
             }
@@ -2184,7 +2401,7 @@ def infer_learning_tags(text: str, seed_tags: list[str]) -> list[str]:
         ("codex", "codex"),
         ("agent", "agent"),
         ("mcp", "mcp"),
-        ("agents.md", "agents"),
+        ("agents.md", "agents_md"),
         ("code review", "code_review"),
         ("workflow", "workflow"),
         ("best practice", "best_practice"),
@@ -2201,6 +2418,8 @@ def infer_learning_tags(text: str, seed_tags: list[str]) -> list[str]:
 
 def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
     source_type = str(item.get("source_type", "")).strip().lower()
+    source_quality = str(item.get("source_quality", "")).strip().lower()
+    is_official_source = bool(item.get("is_official_source", False))
     seed_tags = [str(tag).strip().lower() for tag in item.get("tags", []) if str(tag).strip()]
     text = f"{item['title']} {item.get('summary', '')} {item.get('source', '')}".lower()
 
@@ -2216,7 +2435,7 @@ def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
     if learning_is_excluded(text):
         score -= 8
 
-    has_core = any(term in text for term in LEARNING_CORE_TERMS) or bool(tags.intersection({"codex", "agent", "cli", "mcp", "agents"}))
+    has_core = any(term in text for term in LEARNING_CORE_TERMS) or bool(tags.intersection({"codex", "agent", "cli", "mcp", "agents_md"}))
     if not has_core:
         return 0, 0, sorted(tags)
 
@@ -2225,12 +2444,26 @@ def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
         return 0, 0, sorted(tags)
 
     type_bonus = {
-        "official_doc": 6,
-        "youtube_video": 4,
+        "official_doc": 10,
+        "official_video": 9,
+        "official_blog": 8,
+        "github_repo": 8,
+        "technical_blog": 5,
         "tutorial": 3,
         "blog": 2,
+        "media_article": -4,
+        "google_news": -8,
     }.get(source_type, 0)
     score += type_bonus
+
+    if is_official_source:
+        score += 10
+    if source_quality == "high":
+        score += 6
+    elif source_quality == "medium":
+        score += 1
+    elif source_quality == "low":
+        score -= 8
 
     if item.get("language") == "zh":
         score += 1
@@ -2468,12 +2701,15 @@ def collect_learning_page_items(
                 "published_at": now_local.isoformat(),
                 "source": clean_text(name),
                 "source_type": source["source_type"] or "official_doc",
+                "source_quality": source.get("source_quality", "high"),
+                "is_official_source": bool(source.get("is_official_source", True)),
                 "language": source["language"],
                 "region": source["region"],
                 "link": source["url"],
                 "tags": list(source.get("tags", [])),
                 "_published_dt": now_local,
             }
+            item = infer_learning_source_metadata(item)
             score, hits, tags = learning_score(item)
             if hits > 0 and score > 0:
                 item["_score"] = score
@@ -2503,6 +2739,7 @@ def collect_learning_candidates(
             xml_bytes = fetch_bytes(source["url"])
             parsed = parse_feed_entries(source, xml_bytes, tz)
             for item in parsed:
+                item = infer_learning_source_metadata(item)
                 score, hits, tags = learning_score(item)
                 if hits <= 0 or score <= 0:
                     continue

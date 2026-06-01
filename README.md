@@ -108,7 +108,9 @@ cp .env.example .env
 - `summary`
 - `published_at`
 - `source`
-- `source_type`（`youtube_video` / `official_doc` / `blog` / `tutorial`）
+- `source_type`（`official_doc` / `official_video` / `official_blog` / `github_repo` / `technical_blog` / `media_article` / `google_news`）
+- `source_quality`（`high` / `medium` / `low`）
+- `is_official_source`
 - `language`
 - `region`
 - `link`
@@ -118,6 +120,9 @@ cp .env.example .env
 - YouTube RSS 只能拿到标题、链接、发布时间、简介等元数据。
 - 不等于拿到完整字幕或完整视频内容。
 - 因此“Codex Agent 每日一学”只会基于元数据提炼学习建议，并附原链接。
+- Codex Agent 每日一学优先使用官方文档、官方视频和高质量技术博客。
+- Google News 仅作为发现线索，不作为高可信学习内容来源；如果没有高质量学习资源，日报会提示“今日未发现高质量 Codex Agent 学习资源”。
+- 对 AGENTS.md 的解释应限于项目说明、构建测试命令、代码风格和安全约束，不应过度解释为组织角色管理文件。
 
 ## 8. 如何新增 YouTube 频道/播放列表 RSS
 在 `scripts/collect_rss.py` 的 `YOUTUBE_LEARNING_FEEDS` 中新增条目。
