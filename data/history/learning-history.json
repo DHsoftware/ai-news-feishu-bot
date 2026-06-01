@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T17:59:40.718253+08:00",
+  "updated_at": "2026-06-02T07:10:30.731362+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -676,6 +676,23 @@
       "language": "en",
       "region": "global",
       "seen_count": 8
+    },
+    {
+      "first_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-01",
+      "canonical_key": "github openai codex lightweight coding agent that runs in your terminal github",
+      "normalized_title": "github openai codex lightweight coding agent that runs in your terminal github",
+      "normalized_link": "https://github.com/openai/codex",
+      "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub",
+      "summary": "Lightweight coding agent that runs in your terminal - openai/codex",
+      "source": "OpenAI Codex GitHub",
+      "link": "https://github.com/openai/codex",
+      "source_type": "github_repo",
+      "source_quality": "high",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "seen_count": 1
     }
   ]
 }

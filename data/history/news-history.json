@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T17:59:40.718253+08:00",
+  "updated_at": "2026-06-02T07:10:30.731362+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1830,7 +1830,7 @@
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
+      "last_seen_date": "2026-06-01",
       "canonical_key": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
       "normalized_title": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
       "normalized_link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
@@ -1841,11 +1841,11 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
+      "last_seen_date": "2026-06-01",
       "canonical_key": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
       "normalized_title": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
       "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTIzaTA5SGM2WkVPRDRrVldodnpDR3M3b2FtQTA0Mjh4MlNid3kwWXZtNHBmd0I3alNETkxoVEpQSER6dEVOTUpZai1TZ0R2R1hIUVlvaFJMWXlEREh3VV9JZ0RJT0JnQldLQXIzTXZsU21BSEEwaDJZYjRqUGFJaDNVQzdEMnl5UllBeDl6RWdxZ3I4WW9sYzY1M2hkTFVtWk5qbGdjOVFIWUMybW00cDRLYmhVR3c?oc=5",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1964,6 +1964,80 @@
         "ai_agent",
         "coding",
         "coding_agent"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-01",
+      "canonical_key": "openai frontier models and codex are now available on aws",
+      "normalized_title": "openai frontier models and codex are now available on aws",
+      "normalized_link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-01",
+      "canonical_key": "mellum2 goes open source a fast model for ai workflows",
+      "normalized_title": "mellum2 goes open source a fast model for ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYU5rekRib2l2dkdkVERKcDVlZnBvMHVtVGZGT09LamRkWTJBVlR3bXhaZjNsT2tfZWdLdmdCYlVRSEQ2S19ma2V3dWMxSFJhdmZFYWNMNi15SmdEeEo0Y2VsRmhCSFpMTHZHRDlyZk13S05iaVRUWXIxaE82cUEyUlRUYUlLV1NVSUZXdWI0WHlOdWl2UnpzSQ?oc=5",
+      "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows - The JetBrains Blog",
+      "summary": "Mellum2 Goes Open Source: A Fast Model for AI Workflows The JetBrains Blog",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYU5rekRib2l2dkdkVERKcDVlZnBvMHVtVGZGT09LamRkWTJBVlR3bXhaZjNsT2tfZWdLdmdCYlVRSEQ2S19ma2V3dWMxSFJhdmZFYWNMNi15SmdEeEo0Y2VsRmhCSFpMTHZHRDlyZk13S05iaVRUWXIxaE82cUEyUlRUYUlLV1NVSUZXdWI0WHlOdWl2UnpzSQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "technical_blog",
+        "workflow_automation"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-01",
+      "canonical_key": "连续完成五源 峰瑞两轮数千万元融资 清华00后团队要解决token账单焦虑",
+      "normalized_title": "连续完成五源 峰瑞两轮数千万元融资 清华00后团队要解决token账单焦虑",
+      "normalized_link": "https://36kr.com/p/3834310434875011?f=rss",
+      "title": "连续完成五源、峰瑞两轮数千万元融资，清华00后团队要解决Token账单焦虑｜智能涌现首发",
+      "summary": "文｜王欣逸 编辑｜邓咏仪 万格智元团队有这样一些标签：00后、博士团队、埋头搞技术。 CEO王冠博恰好占全了，他现博士就读于清华大学计算机系，是一位00后连续创业者。 其团队相当年轻，规模约20人，其中近90%的成员为00后，大多数为清华、北大等院校的硕博生，也有来自亚马逊、OpenAI、字节跳动等公司的成员。 《智能涌现》独家获悉， 近日，万格智元连续完成两轮五源资本、峰瑞资本参投的数千万元天使轮及天使+轮融资，源合资本担任独家财务顾问 。本轮融资将用于产品研发和市场推广。 在过去，算力上云几乎是必选项。随着Claude Code、Codex、OpenClaw等Agent能力的爆发，Tok…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3834310434875011?f=rss",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "chip",
+        "cloud",
+        "codex",
+        "coding",
+        "coding_agent",
+        "llm"
       ],
       "seen_count": 1
     }
