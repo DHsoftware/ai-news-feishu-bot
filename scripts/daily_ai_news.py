@@ -327,6 +327,10 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
         language = clean_text(item.get("language", ""))
         region = clean_text(item.get("region", ""))
         source_group = clean_text(item.get("source_group", ""))
+        source_type = clean_text(item.get("source_type", ""))
+        source_quality = clean_text(item.get("source_quality", ""))
+        summary_source = clean_text(item.get("summary_source", ""))
+        summary_quality = clean_text(item.get("summary_quality", ""))
         category = clean_text(item.get("category", ""))
         topic_tags = item.get("topic_tags", [])
         tags_text = ", ".join(str(tag) for tag in topic_tags if str(tag).strip()) or "N/A"
@@ -341,10 +345,14 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
             f"语言: {language or 'unknown'}\n"
             f"区域: {region or 'unknown'}\n"
             f"分组: {source_group or 'unknown'}\n"
+            f"来源类型: {source_type or 'unknown'}\n"
+            f"来源质量: {source_quality or 'unknown'}\n"
             f"类别: {category or '其他'}\n"
             f"标签: {tags_text}\n"
             f"发布时间: {published_at} ({timezone_name})\n"
             f"链接: {link}\n"
+            f"摘要来源: {summary_source or 'unknown'}\n"
+            f"摘要质量: {summary_quality or 'unknown'}\n"
             f"摘要: {summary}\n"
         )
 
@@ -445,11 +453,14 @@ def safe_learning_source_name(item: dict[str, Any]) -> str:
 def is_high_quality_learning_item(item: dict[str, Any]) -> bool:
     source_quality = clean_text(item.get("source_quality", "")).lower()
     source_type = clean_text(item.get("source_type", "")).lower()
+    summary_quality = clean_text(item.get("summary_quality", "")).lower()
     if is_google_news_learning_item(item):
+        return False
+    if summary_quality == "empty":
         return False
     if bool(item.get("is_official_source", False)):
         return True
-    if source_quality == "high" and source_type in {"technical_blog", "official_blog", "official_doc", "github_repo", "official_video"}:
+    if source_quality == "high" and summary_quality in {"high", "medium"} and source_type in {"technical_blog", "official_blog", "official_doc", "github_repo", "official_video"}:
         return True
     return False
 
@@ -556,6 +567,15 @@ def learning_relevance_score(item: dict[str, Any]) -> int:
         score -= 12
     if source_type == "media_article":
         score -= 5
+    summary_quality = clean_text(item.get("summary_quality", "")).lower()
+    if summary_quality == "high":
+        score += 4
+    elif summary_quality == "medium":
+        score += 2
+    elif summary_quality == "low":
+        score -= 4
+    elif summary_quality == "empty":
+        score -= 12
 
     if "chatgpt" in text and "codex" not in text:
         score -= 5
@@ -604,6 +624,8 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
     source_name = safe_learning_source_name(item)
     source_type = clean_text(item.get("source_type", ""))
     source_quality = clean_text(item.get("source_quality", "")) or "unknown"
+    summary_source = clean_text(item.get("summary_source", "")) or "unknown"
+    summary_quality = clean_text(item.get("summary_quality", "")) or "unknown"
     is_official = bool(item.get("is_official_source", False))
     language = clean_text(item.get("language", ""))
     region = clean_text(item.get("region", ""))
@@ -618,6 +640,8 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
         f"类型: {source_type or 'unknown'}\n"
         f"来源质量: {source_quality}\n"
         f"是否官方来源: {'true' if is_official else 'false'}\n"
+        f"摘要来源: {summary_source}\n"
+        f"摘要质量: {summary_quality}\n"
         f"语言: {language or 'unknown'}\n"
         f"区域: {region or 'unknown'}\n"
         f"发布时间: {published_at} ({timezone_name})\n"
@@ -701,9 +725,12 @@ def normalize_codex_learning(
     how_to_apply = how_to_apply or "把任务拆成读取约束、列计划、确认后修改、运行测试四步，避免直接改动敏感文件。"
     example_prompt = example_prompt or DEFAULT_LEARNING_PROMPT
     source_quality = clean_text(selected_item.get("source_quality", "")) if selected_item else ""
+    summary_quality = clean_text(selected_item.get("summary_quality", "")) if selected_item else ""
     is_official = bool(selected_item.get("is_official_source", False)) if selected_item else False
     if not confidence_note:
-        if is_official and source_quality == "high":
+        if summary_quality in {"low", "empty"}:
+            confidence_note = "仅基于标题/简短摘要整理，未验证完整正文，建议打开原链接查看。"
+        elif is_official and source_quality == "high":
             confidence_note = "基于官方或高质量来源的标题/简介整理，建议打开原链接查看完整内容。"
         else:
             confidence_note = DEFAULT_LEARNING_NOTE
@@ -1184,19 +1211,23 @@ def create_report_json_with_litellm(
 19) 如果是公司白皮书或研究报告，不要夸大为“已经量产”或“已经落地”，除非候选内容明确说明。
 20) 对车载 OBC/DCDC 和功率电子相关内容，要区分研究/白皮书、参考设计、芯片或模块发布、量产应用、行业趋势。
 21) 今日摘要要求：若候选中有 AI Agent / AI 编程工具 / AI 工作流内容，至少一句总结该趋势；若有 AI 组织提效 / 研发提效内容，至少一句总结该趋势；若有 OBC/DCDC 或功率电子内容，至少一句说明其对车载电源或硬件平台的影响；若有官方研究/技术报告，至少一句说明其技术价值。不要所有摘要都围绕自动驾驶和智能座舱。
-22) 汽车行业相关判断优先结合系统工程、硬件平台、汽车软件、AI 应用、组织提效、OBC/DCDC 与车载电源方向。
-23) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
+22) 只能基于候选的 title 和 summary 生成内容；如果 summary_quality 是 low/empty，不要编造细节。
+23) 如果来源是官方研究/技术博客/白皮书，但 summary_quality 是 low/empty，只能说明“该资源可能值得关注”，不要写成确定结论。
+24) 不要假装看过完整视频、完整论文或完整白皮书（complete video / full paper / full whitepaper）。
+25) 汽车行业相关判断优先结合系统工程、硬件平台、汽车软件、AI 应用、组织提效、OBC/DCDC 与车载电源方向。
+26) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
 Codex Agent 每日一学约束：
-24) `codex_learning` 只基于给定资源元数据（title、summary、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
-25) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
-26) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
-27) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
-28) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
-29) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
-30) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
-31) 如果今日没有高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
-32) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
+27) `codex_learning` 只基于给定资源元数据（title、summary、summary_source、summary_quality、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
+28) 如果 summary_quality 是 low，最多生成保守建议，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细技巧。
+29) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
+30) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
+31) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
+32) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
+33) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
+34) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
+35) 如果今日没有 high/medium 摘要质量的高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
+36) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}

@@ -106,6 +106,8 @@ cp .env.example .env
 `collect_rss.py` 会收集 Codex 学习资源候选，字段包括：
 - `title`
 - `summary`
+- `summary_source`（如 `rss_description` / `rss_content_encoded` / `atom_summary` / `atom_content` / `page_meta_description` / `page_og_description` / `page_title` / `empty`）
+- `summary_quality`（`high` / `medium` / `low` / `empty`）
 - `published_at`
 - `source`
 - `source_type`（`official_doc` / `official_video` / `official_blog` / `github_repo` / `technical_blog` / `media_article` / `google_news`）
@@ -123,6 +125,7 @@ cp .env.example .env
 - Codex Agent 每日一学优先使用官方文档、官方视频和高质量技术博客。
 - Google News 仅作为发现线索，不作为高可信学习内容来源；如果没有高质量学习资源，日报会提示“今日未发现高质量 Codex Agent 学习资源”。
 - 对 AGENTS.md 的解释应限于项目说明、构建测试命令、代码风格和安全约束，不应过度解释为组织角色管理文件。
+- 新闻和学习候选会尽量从 RSS/Atom 摘要、`content:encoded`、页面 meta description / og description 中提取轻量摘要；如果摘要为空或很短，会写入 `summary_quality=low/empty`，日报 prompt 会要求模型不要过度推断。
 
 ## 8. 如何新增 YouTube 频道/播放列表 RSS
 在 `scripts/collect_rss.py` 的 `YOUTUBE_LEARNING_FEEDS` 中新增条目。

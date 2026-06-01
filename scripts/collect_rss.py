@@ -29,6 +29,8 @@ LOGGER = logging.getLogger("collect_rss")
 
 TIMEZONE_NAME = "Asia/Shanghai"
 RSS_TIMEOUT_SECONDS = 15
+PAGE_SUMMARY_TIMEOUT_SECONDS = 10
+PAGE_SUMMARY_MAX_BYTES = 200 * 1024
 MAX_ENTRIES_PER_FEED = 40
 MAX_NEWS_OUTPUT_ITEMS = 40
 MAX_LEARNING_OUTPUT_ITEMS = 30
@@ -1108,6 +1110,27 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
+def clean_html_text(html_text: str) -> str:
+    if not html_text:
+        return ""
+    text = unescape(str(html_text))
+    text = re.sub(r"<script\b[^>]*>.*?</script>", " ", text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.DOTALL)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = text.replace("&nbsp;", " ")
+    text = text.replace("&#160;", " ")
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def truncate_summary(text: str, limit: int = 800) -> str:
+    value = clean_html_text(text)
+    if len(value) <= limit:
+        return value
+    return value[: limit - 1].rstrip() + "…"
+
+
 TITLE_SOURCE_SUFFIX_RE = re.compile(r"\s*[-_|｜—]\s*[^-_|｜—]{2,30}$")
 TITLE_NOISE_WORDS = [
     "视频",
@@ -2184,6 +2207,26 @@ def find_first_text(element: ET.Element, names: list[str]) -> str:
     return ""
 
 
+def find_text_by_local_names(element: ET.Element, names: list[str]) -> str:
+    names_set = {name.lower() for name in names}
+    for child in element:
+        child_name = local_name(child.tag)
+        if child_name in names_set and child.text and child.text.strip():
+            return clean_html_text(child.text)
+    return ""
+
+
+def extract_item_source_name(entry: ET.Element) -> str:
+    for child in entry:
+        if local_name(child.tag) == "source":
+            if child.text and child.text.strip():
+                return clean_text(child.text)
+            title = find_first_text(child, ["title"])
+            if title:
+                return title
+    return ""
+
+
 def extract_link(entry: ET.Element) -> str:
     link_text = find_first_text(entry, ["link"])
     if link_text.startswith("http"):
@@ -2201,22 +2244,86 @@ def extract_link(entry: ET.Element) -> str:
     return ""
 
 
-def extract_entry_summary(entry: ET.Element) -> str:
-    summary = find_first_text(entry, ["description", "summary", "content", "content:encoded"])
-    if summary:
-        return summary
+def summary_quality_for_text(summary: str, summary_source: str, link: str = "", is_official: bool = False) -> str:
+    text = clean_html_text(summary)
+    if not text:
+        return "empty"
+    if is_google_news_link(link):
+        return "medium" if len(text) >= 80 else "low"
+    if len(text) < 60:
+        return "low"
+    if summary_source in {"rss_content_encoded", "atom_content", "page_meta_description", "page_og_description"}:
+        return "high" if len(text) >= 120 or is_official else "medium"
+    if summary_source in {"rss_description", "atom_summary"}:
+        return "medium" if len(text) >= 80 else "low"
+    if summary_source == "page_title":
+        return "low"
+    return "medium" if len(text) >= 100 else "low"
+
+
+def make_summary_meta(summary: str, summary_source: str, link: str = "", is_official: bool = False) -> dict[str, str]:
+    text = truncate_summary(summary, 800)
+    return {
+        "summary": text,
+        "summary_source": summary_source if text else "empty",
+        "summary_quality": summary_quality_for_text(text, summary_source, link=link, is_official=is_official),
+    }
+
+
+def extract_item_summary(entry: ET.Element, link: str = "", is_official: bool = False) -> dict[str, str]:
+    candidates: list[tuple[str, str]] = []
+
+    rss_description = find_text_by_local_names(entry, ["description"])
+    if rss_description:
+        candidates.append(("rss_description", rss_description))
+
+    rss_content = find_text_by_local_names(entry, ["encoded", "content:encoded"])
+    if rss_content:
+        candidates.append(("rss_content_encoded", rss_content))
+
+    rss_summary = find_text_by_local_names(entry, ["summary"])
+    if rss_summary:
+        candidates.append(("atom_summary", rss_summary))
+
+    atom_content = find_text_by_local_names(entry, ["content"])
+    if atom_content:
+        candidates.append(("atom_content", atom_content))
+
+    atom_subtitle = find_text_by_local_names(entry, ["subtitle"])
+    if atom_subtitle:
+        candidates.append(("atom_summary", atom_subtitle))
 
     for child in entry:
         if local_name(child.tag) == "group":
-            group_summary = find_first_text(child, ["description", "summary"])
-            if group_summary:
-                return group_summary
+            media_description = find_text_by_local_names(child, ["description", "summary"])
+            if media_description:
+                candidates.append(("rss_description", media_description))
 
-    # Fallback: direct text of children named description.
-    for child in entry:
-        if local_name(child.tag) == "description" and child.text:
-            return clean_text(child.text)
-    return ""
+    if not candidates:
+        return make_summary_meta("", "empty", link=link, is_official=is_official)
+
+    source_rank = {
+        "rss_content_encoded": 6,
+        "atom_content": 6,
+        "page_meta_description": 5,
+        "page_og_description": 5,
+        "rss_description": 4,
+        "atom_summary": 4,
+        "page_title": 1,
+    }
+    best_source, best_text = max(
+        candidates,
+        key=lambda pair: (
+            {"high": 3, "medium": 2, "low": 1, "empty": 0}[summary_quality_for_text(pair[1], pair[0], link=link, is_official=is_official)],
+            source_rank.get(pair[0], 0),
+            len(clean_html_text(pair[1])),
+        ),
+    )
+    return make_summary_meta(best_text, best_source, link=link, is_official=is_official)
+
+
+def extract_entry_summary(entry: ET.Element) -> str:
+    return extract_item_summary(entry).get("summary", "")
 
 
 def parse_published_at(raw: str, tz: timezone) -> datetime | None:
@@ -2254,6 +2361,55 @@ def fetch_text(url: str) -> str:
         return data.decode("utf-8", errors="replace")
     except Exception:
         return data.decode("latin-1", errors="replace")
+
+
+def should_skip_page_summary_fetch(url: str) -> bool:
+    parsed = urlparse(clean_text(url))
+    path = parsed.path.lower()
+    host = parsed.netloc.lower()
+    if not parsed.scheme.startswith("http"):
+        return True
+    if host in GOOGLE_NEWS_HOSTS:
+        return True
+    if any(host_part in host for host_part in ("youtube.com", "youtu.be")):
+        return True
+    if re.search(r"\.(pdf|png|jpg|jpeg|gif|webp|svg|mp4|mov|avi|zip|rar)(\?|$)", path):
+        return True
+    return False
+
+
+def fetch_page_summary(
+    url: str,
+    timeout: int = PAGE_SUMMARY_TIMEOUT_SECONDS,
+    is_official: bool = False,
+) -> dict[str, str]:
+    if should_skip_page_summary_fetch(url):
+        return make_summary_meta("", "empty", link=url, is_official=is_official)
+
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "ai-news-feishu-bot-summary-fetcher/1.0",
+            "Accept": "text/html,application/xhtml+xml",
+        },
+    )
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            content_type = response.headers.get("Content-Type", "").lower()
+            if content_type and "html" not in content_type and "text/plain" not in content_type:
+                return make_summary_meta("", "empty", link=url, is_official=is_official)
+            raw = response.read(PAGE_SUMMARY_MAX_BYTES + 1)[:PAGE_SUMMARY_MAX_BYTES]
+    except (HTTPError, URLError, TimeoutError, OSError) as exc:
+        LOGGER.warning("Page summary fetch failed %s: %s", url, exc)
+        return make_summary_meta("", "empty", link=url, is_official=is_official)
+
+    html_text = raw.decode("utf-8", errors="replace")
+    title, description, description_source = extract_html_metadata(html_text)
+    if description:
+        return make_summary_meta(description, description_source, link=url, is_official=is_official)
+    if title:
+        return make_summary_meta(title, "page_title", link=url, is_official=is_official)
+    return make_summary_meta("", "empty", link=url, is_official=is_official)
 
 
 def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezone) -> list[dict[str, Any]]:
@@ -2294,23 +2450,47 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
             break
 
         title = find_first_text(elem, ["title"])
-        summary = extract_entry_summary(elem)
         link = extract_link(elem)
         raw_published = find_first_text(elem, ["pubdate", "published", "updated", "dc:date"])
         published_dt = parse_published_at(raw_published, tz) if raw_published else None
 
         title_clean = clean_text(title)
-        summary_clean = clean_text(summary)
         link_clean = clean_text(link)
         if not title_clean or not link_clean:
             continue
 
+        summary_meta = extract_item_summary(elem, link=link_clean, is_official=is_official_source)
+        needs_page_summary = (
+            len(summary_meta.get("summary", "")) < 60
+            or (
+                len(summary_meta.get("summary", "")) < 120
+                and (
+                    is_official_source
+                    or source_group in {"company_research", "official_research", "technical_report", "whitepaper", "company_blog", "official", "official_page"}
+                    or source_type in {"official_doc", "official_blog", "technical_blog", "whitepaper", "research_paper", "github_repo"}
+                )
+            )
+        )
+        if needs_page_summary and not is_google_news_link(link_clean):
+            page_summary = fetch_page_summary(link_clean, is_official=is_official_source)
+            if page_summary.get("summary") and (
+                summary_meta.get("summary_quality") in {"empty", "low"}
+                or len(page_summary.get("summary", "")) > len(summary_meta.get("summary", ""))
+            ):
+                summary_meta = page_summary
+
+        item_source_name = extract_item_source_name(elem) or feed_title or source_name
+        if is_google_news_link(link_clean) and item_source_name.lower().startswith("google news"):
+            item_source_name = feed_title or source_name
+
         entries.append(
             {
                 "title": title_clean,
-                "summary": summary_clean[:420],
+                "summary": summary_meta.get("summary", "")[:800],
+                "summary_source": summary_meta.get("summary_source", "empty"),
+                "summary_quality": summary_meta.get("summary_quality", "empty"),
                 "published_at": published_dt.isoformat() if published_dt else "",
-                "source": clean_text(feed_title or source_name),
+                "source": clean_text(item_source_name),
                 "link": link_clean,
                 "language": source_language,
                 "region": source_region,
@@ -2325,25 +2505,29 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
     return entries
 
 
-def extract_html_metadata(html_text: str) -> tuple[str, str]:
+def extract_html_metadata(html_text: str) -> tuple[str, str, str]:
     title_match = re.search(r"<title[^>]*>(.*?)</title>", html_text, flags=re.IGNORECASE | re.DOTALL)
-    title = clean_text(title_match.group(1)) if title_match else ""
+    title = clean_html_text(title_match.group(1)) if title_match else ""
 
     meta_patterns = [
-        r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']',
-        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']',
-        r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']description["\']',
-        r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:description["\']',
+        ("page_meta_description", r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']'),
+        ("page_og_description", r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']'),
+        ("page_meta_description", r'<meta[^>]+name=["\']twitter:description["\'][^>]+content=["\'](.*?)["\']'),
+        ("page_meta_description", r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']description["\']'),
+        ("page_og_description", r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:description["\']'),
+        ("page_meta_description", r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']twitter:description["\']'),
     ]
     description = ""
-    for pattern in meta_patterns:
+    description_source = "empty"
+    for source, pattern in meta_patterns:
         match = re.search(pattern, html_text, flags=re.IGNORECASE | re.DOTALL)
         if match:
-            description = clean_text(match.group(1))
+            description = clean_html_text(match.group(1))
             if description:
+                description_source = source
                 break
 
-    return title, description
+    return title, description, description_source
 
 
 def keyword_hits(text: str, keywords: list[str]) -> int:
@@ -2692,12 +2876,19 @@ def collect_learning_page_items(
         try:
             LOGGER.info("Fetching learning page [official_page]: %s", name)
             html_text = fetch_text(source["url"])
-            title, summary = extract_html_metadata(html_text)
+            title, summary, summary_source = extract_html_metadata(html_text)
             item_title = title or name
-            item_summary = summary or "基于公开页面标题和简介抓取。"
+            summary_meta = make_summary_meta(
+                summary or title or "",
+                summary_source if summary else ("page_title" if title else "empty"),
+                link=source["url"],
+                is_official=bool(source.get("is_official_source", True)),
+            )
             item = {
                 "title": clean_text(item_title),
-                "summary": clean_text(item_summary)[:420],
+                "summary": summary_meta.get("summary", "")[:800],
+                "summary_source": summary_meta.get("summary_source", "empty"),
+                "summary_quality": summary_meta.get("summary_quality", "empty"),
                 "published_at": now_local.isoformat(),
                 "source": clean_text(name),
                 "source_type": source["source_type"] or "official_doc",
