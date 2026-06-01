@@ -28,7 +28,10 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 LOGGER = logging.getLogger("daily_ai_news")
 
-HTTP_TIMEOUT_SECONDS = 25
+DEFAULT_HTTP_TIMEOUT_SECONDS = 25
+DEFAULT_LITELLM_TIMEOUT_SECONDS = 90
+DEFAULT_LITELLM_RETRY_TIMEOUT_SECONDS = 120
+DEFAULT_LITELLM_RETRY_COUNT = 1
 MAX_CANDIDATES_FOR_PROMPT = 24
 MAX_LEARNING_CANDIDATES_FOR_PROMPT = 12
 FALLBACK_SCAN_DAYS = 14
@@ -121,6 +124,18 @@ def parse_int_env(name: str, default: int) -> int:
         return default
 
 
+def parse_nonnegative_int_env(name: str, default: int) -> int:
+    raw = os.getenv(name, str(default)).strip()
+    try:
+        value = int(raw)
+        if value < 0:
+            raise ValueError
+        return value
+    except ValueError:
+        LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
+        return default
+
+
 def get_timezone(tz_name: str) -> timezone:
     try:
         return ZoneInfo(tz_name)
@@ -189,23 +204,64 @@ def truncate_text(text: str, max_len: int) -> str:
     return text[: max_len - 1].rstrip() + "…"
 
 
-def http_post_json(url: str, payload: dict[str, Any], headers: dict[str, str] | None = None) -> dict[str, Any]:
+def http_post_json(
+    url: str,
+    payload: dict[str, Any],
+    headers: dict[str, str] | None = None,
+    timeout_seconds: int | None = None,
+    retry_count: int = 0,
+    retry_timeout_seconds: int | None = None,
+) -> dict[str, Any]:
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req_headers = {"Content-Type": "application/json"}
     if headers:
         req_headers.update(headers)
 
-    request = Request(url=url, data=data, headers=req_headers, method="POST")
-    try:
-        with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
-            body = response.read().decode("utf-8", errors="replace")
-    except HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace") if exc.fp else ""
-        raise RuntimeError(
-            f"HTTP {exc.code} calling endpoint={safe_endpoint_label(url)}: {body[:200]}"
-        ) from exc
-    except URLError as exc:
-        raise RuntimeError(f"Network error calling endpoint={safe_endpoint_label(url)}: {exc}") from exc
+    timeout_value = timeout_seconds or parse_int_env("HTTP_TIMEOUT_SECONDS", DEFAULT_HTTP_TIMEOUT_SECONDS)
+    retry_timeout_value = retry_timeout_seconds or timeout_value
+    attempts = max(retry_count, 0) + 1
+    last_exc: Exception | None = None
+
+    for attempt in range(1, attempts + 1):
+        attempt_timeout = timeout_value if attempt == 1 else retry_timeout_value
+        request = Request(url=url, data=data, headers=req_headers, method="POST")
+        try:
+            with urlopen(request, timeout=attempt_timeout) as response:
+                body = response.read().decode("utf-8", errors="replace")
+            break
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace") if exc.fp else ""
+            raise RuntimeError(
+                f"HTTP {exc.code} calling endpoint={safe_endpoint_label(url)}: {body[:200]}"
+            ) from exc
+        except TimeoutError as exc:
+            last_exc = exc
+            if attempt < attempts:
+                LOGGER.warning(
+                    "Request timed out calling endpoint=%s after %ss, retry %s/%s",
+                    safe_endpoint_label(url),
+                    attempt_timeout,
+                    attempt,
+                    retry_count,
+                )
+                continue
+            raise RuntimeError(
+                f"Request timed out calling endpoint={safe_endpoint_label(url)} after {attempt_timeout}s"
+            ) from exc
+        except URLError as exc:
+            last_exc = exc
+            if attempt < attempts:
+                LOGGER.warning(
+                    "Network error calling endpoint=%s, retry %s/%s: %s",
+                    safe_endpoint_label(url),
+                    attempt,
+                    retry_count,
+                    exc,
+                )
+                continue
+            raise RuntimeError(f"Network error calling endpoint={safe_endpoint_label(url)}: {exc}") from exc
+    else:
+        raise RuntimeError(f"Request failed calling endpoint={safe_endpoint_label(url)}: {last_exc}")
 
     try:
         return json.loads(body) if body else {}
@@ -1081,7 +1137,20 @@ Codex Agent 每日一学约束：
         "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
     }
 
-    resp = http_post_json(endpoint, payload, headers={"Authorization": f"Bearer {api_key}"})
+    litellm_timeout_seconds = parse_int_env("LITELLM_TIMEOUT_SECONDS", DEFAULT_LITELLM_TIMEOUT_SECONDS)
+    litellm_retry_timeout_seconds = parse_int_env(
+        "LITELLM_RETRY_TIMEOUT_SECONDS",
+        DEFAULT_LITELLM_RETRY_TIMEOUT_SECONDS,
+    )
+    litellm_retry_count = parse_nonnegative_int_env("LITELLM_RETRY_COUNT", DEFAULT_LITELLM_RETRY_COUNT)
+    resp = http_post_json(
+        endpoint,
+        payload,
+        headers={"Authorization": f"Bearer {api_key}"},
+        timeout_seconds=litellm_timeout_seconds,
+        retry_count=litellm_retry_count,
+        retry_timeout_seconds=litellm_retry_timeout_seconds,
+    )
 
     choices = resp.get("choices")
     if not isinstance(choices, list) or not choices:
@@ -1537,13 +1606,20 @@ def main() -> int:
     try:
         candidates_payload, source_file, used_fallback_cache = find_candidates_json(data_dir, report_date)
     except Exception as exc:
-        error_report = build_error_report(report_date, str(exc))
-        error_report["source_json_name"] = "N/A"
-        error_report["used_fallback_cache"] = False
-        error_report["learning_source_json_name"] = "N/A"
-        error_report["learning_used_fallback_cache"] = False
-        send_report_with_fallback(webhook_url, feishu_secret, error_report)
-        return 1
+        LOGGER.info(
+            "No fresh news candidates JSON for %s; skip Feishu push silently. detail=%s",
+            report_date,
+            exc,
+        )
+        return 0
+
+    if used_fallback_cache:
+        LOGGER.info(
+            "Fresh news candidates JSON %s.json not found; latest available is %s. Skip Feishu push silently.",
+            report_date,
+            source_file.name,
+        )
+        return 0
 
     items, items_field = select_news_items_for_llm(candidates_payload, max_items_for_llm)
 
@@ -1642,12 +1718,7 @@ def main() -> int:
         return 1
     except Exception as exc:
         LOGGER.warning("LiteLLM JSON generation failed: %s", exc)
-        error_report = build_error_report(report_date, f"LiteLLM 生成失败：{exc}")
-        error_report["source_json_name"] = source_file.name
-        error_report["used_fallback_cache"] = used_fallback_cache
-        error_report["learning_source_json_name"] = learning_source_json_name
-        error_report["learning_used_fallback_cache"] = learning_used_fallback_cache
-        send_report_with_fallback(webhook_url, feishu_secret, error_report)
+        LOGGER.info("Stop Feishu push because LiteLLM generation failed after retry.")
         return 1
 
     report = shrink_report_for_limit(report, news_max_chars, news_top_n)
