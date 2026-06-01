@@ -76,7 +76,7 @@ cp .env.example .env
 - `FEISHU_BOT_SECRET`
 - `TIMEZONE`（默认 `Asia/Shanghai`）
 - `NEWS_MAX_CHARS`（默认 `3500`）
-- `NEWS_TOP_N`（默认 `3`）
+- `NEWS_TOP_N`（默认 `5`）
 - `LITELLM_TIMEOUT_SECONDS`（默认 `90`）
 - `LITELLM_RETRY_TIMEOUT_SECONDS`（默认 `120`）
 - `LITELLM_RETRY_COUNT`（默认 `1`）
@@ -215,7 +215,7 @@ data/history/learning-history.json
 
 ```bash
 NEWS_REGION_MODE=balanced
-NEWS_TOP_N=3
+NEWS_TOP_N=5
 TARGET_CANDIDATE_COUNT=5
 MIN_GLOBAL_NEWS=2
 MAX_CHINA_NEWS=2

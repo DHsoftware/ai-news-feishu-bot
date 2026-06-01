@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T16:25:14.378764+08:00",
+  "updated_at": "2026-06-01T17:59:40.718253+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1781,7 +1781,7 @@
       "region": "global",
       "source_group": "ai_productivity",
       "source_type": "news_search",
-      "seen_count": 1
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1826,7 +1826,7 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 1
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1841,7 +1841,7 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 1
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 1
+      "seen_count": 7
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1871,6 +1871,100 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
+      "normalized_title": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlQ1U0tXSTJTRlZHNzlXRnFVcVk3ZEVkMXBCNWpESEZ4anRfWkR0akt0QXpEWDlIeDVCa19NQjEtcEFBMWVhM3p4blJKc3ZKenBYRlhLcEJXd0ZwdG9zazZveTM3RWs1V0tKNWhrSkl2Q05BOENXSzBBT2ptU1ZmSExCd3pDaWc?oc=5",
+      "title": "SQLite 才是 AI 工作流持久化的答案 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "summary": "SQLite 才是 AI 工作流持久化的答案 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "source": "OSCHINA",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlQ1U0tXSTJTRlZHNzlXRnFVcVk3ZEVkMXBCNWpESEZ4anRfWkR0akt0QXpEWDlIeDVCa19NQjEtcEFBMWVhM3p4blJKc3ZKenBYRlhLcEJXd0ZwdG9zazZveTM3RWs1V0tKNWhrSkl2Q05BOENXSzBBT2ptU1ZmSExCd3pDaWc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource",
+        "workflow_automation"
+      ],
+      "seen_count": 5
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "welcome nvidia cosmos 3 the first open omni model for physical ai reasoning and action",
+      "normalized_title": "welcome nvidia cosmos 3 the first open omni model for physical ai reasoning and action",
+      "normalized_link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "summary": "A Blog post by NVIDIA on Hugging Face",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "minimax m3 正式发布 前沿 coding 能力 1m 上下文 原生多模态 oschina 开源 ai 开发者生态社区",
+      "normalized_title": "minimax m3 正式发布 前沿 coding 能力 1m 上下文 原生多模态 oschina 开源 ai 开发者生态社区",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSbTA0NWMxZVV6Ukp6OFBmWWoyZXg3RDROMWdZTG5ZcUhVTk80dFRwMzlNV1dYdkpxd1BVa2pMZFBoZGlDc1VOOHNMVQ?oc=5",
+      "title": "MiniMax M3 正式发布：前沿 Coding 能力、1M 上下文、原生多模态- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "summary": "MiniMax M3 正式发布：前沿 Coding 能力、1M 上下文、原生多模态- OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "source": "OSCHINA",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSbTA0NWMxZVV6Ukp6OFBmWWoyZXg3RDROMWdZTG5ZcUhVTk80dFRwMzlNV1dYdkpxd1BVa2pMZFBoZGlDc1VOOHNMVQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "multimodal",
+        "opensource"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "from an unpaid first internship to openai s first intern cohort what i learned about becoming an ai native engineer",
+      "normalized_title": "from an unpaid first internship to openai s first intern cohort what i learned about becoming an ai native engineer",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjVGNlJmUENLTDRMYkRDSmNvay13cFZvOF8wZFFZbzUzbk1mYnZscGhZQWdBSVh0SnJ3YmN0emlYWGIweVFlQ3ZsaWZXLVIxaDh5S3hqYTJ5NkdVel95RmpqUk1RRThOSmJ5UUVsdVRLUHpSM1VmMmJLMnZXdnZuNTI1eXA2VTBRS3JFcWt2dE55ZFNaUHdEakdMWndGUy11SUxZZVVoMng2QnJnd1dkSDloeDBZUGhGQzFlTVpUOFlObjlJUDNBcUdybkxZWmdk?oc=5",
+      "title": "From an unpaid first internship to OpenAI’s first intern cohort: what I learned about becoming an AI-native engineer - The AI Journal",
+      "summary": "From an unpaid first internship to OpenAI’s first intern cohort: what I learned about becoming an AI-native engineer The AI Journal",
+      "source": "The AI Journal",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjVGNlJmUENLTDRMYkRDSmNvay13cFZvOF8wZFFZbzUzbk1mYnZscGhZQWdBSVh0SnJ3YmN0emlYWGIweVFlQ3ZsaWZXLVIxaDh5S3hqYTJ5NkdVel95RmpqUk1RRThOSmJ5UUVsdVRLUHpSM1VmMmJLMnZXdnZuNTI1eXA2VTBRS3JFcWt2dE55ZFNaUHdEakdMWndGUy11SUxZZVVoMng2QnJnd1dkSDloeDBZUGhGQzFlTVpUOFlObjlJUDNBcUdybkxZWmdk?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
       "seen_count": 1
     }
   ]

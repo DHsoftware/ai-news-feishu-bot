@@ -13,6 +13,7 @@ import json
 import logging
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
@@ -28,10 +29,11 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 LOGGER = logging.getLogger("collect_rss")
 
 TIMEZONE_NAME = "Asia/Shanghai"
-RSS_TIMEOUT_SECONDS = 15
-PAGE_SUMMARY_TIMEOUT_SECONDS = 10
+RSS_TIMEOUT_SECONDS = 10
+PAGE_SUMMARY_TIMEOUT_SECONDS = 5
 PAGE_SUMMARY_MAX_BYTES = 200 * 1024
-MAX_ENTRIES_PER_FEED = 40
+MAX_ENTRIES_PER_FEED = 25
+PAGE_SUMMARY_MAX_PER_FEED = 2
 MAX_NEWS_OUTPUT_ITEMS = 40
 MAX_LEARNING_OUTPUT_ITEMS = 30
 MAX_ITEMS_PER_SOURCE = 4
@@ -77,6 +79,7 @@ def parse_bool_env(name: str, default: bool) -> bool:
     return default
 
 
+RSS_FETCH_WORKERS = parse_int_env("RSS_FETCH_WORKERS", 24)
 NEWS_REGION_MODE = os.getenv("NEWS_REGION_MODE", "balanced")
 TARGET_CANDIDATE_COUNT = parse_int_env("TARGET_CANDIDATE_COUNT", 5)
 MIN_GLOBAL_NEWS = parse_int_env("MIN_GLOBAL_NEWS", 2)
@@ -1332,6 +1335,166 @@ def simple_title_similarity(a: str, b: str) -> float:
     return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
 
 
+SOURCE_ALIAS_RE = re.compile(r"\s+[-|｜]\s+google news$", re.IGNORECASE)
+TOPIC_STOPWORDS = {
+    "the",
+    "and",
+    "for",
+    "with",
+    "from",
+    "this",
+    "that",
+    "into",
+    "over",
+    "under",
+    "after",
+    "before",
+    "about",
+    "using",
+    "amid",
+    "says",
+    "said",
+    "news",
+    "report",
+    "reports",
+    "launch",
+    "launches",
+    "announces",
+    "announced",
+    "reveals",
+    "video",
+    "latest",
+}
+ENTITY_TERMS = (
+    "nvidia",
+    "openai",
+    "anthropic",
+    "google",
+    "microsoft",
+    "github",
+    "meta",
+    "apple",
+    "deepseek",
+    "huawei",
+    "byd",
+    "tesla",
+    "阿里",
+    "百度",
+    "腾讯",
+    "字节",
+    "华为",
+    "比亚迪",
+)
+MAX_SAME_ENTITY_NEWS = 2
+
+
+def source_identity_key(item: dict[str, Any]) -> str:
+    link = clean_text(item.get("link", ""))
+    host = urlparse(link).netloc.lower()
+    source_text = clean_text(item.get("source", "")).lower()
+    is_google_host = host in GOOGLE_NEWS_HOSTS
+    brand_terms = (
+        "nvidia",
+        "openai",
+        "anthropic",
+        "google",
+        "microsoft",
+        "github",
+        "meta",
+        "apple",
+        "business wire",
+        "oschina",
+        "机器之心",
+        "量子位",
+        "infoq",
+    )
+    for term in brand_terms:
+        if (not is_google_host and term in host) or term in source_text:
+            return term
+    if host and not is_google_host:
+        return host.removeprefix("www.")
+    source = SOURCE_ALIAS_RE.sub("", source_text)
+    source = re.sub(r"\s+", " ", source)
+    return source or clean_text(item.get("source_group", "unknown")).lower()
+
+
+def topic_token_set(item: dict[str, Any]) -> set[str]:
+    text = f"{item.get('title', '')} {item.get('summary', '')}"
+    tokens = title_tokens(text)
+    return {
+        token
+        for token in tokens
+        if (len(token) >= 3 or re.search(r"[\u4e00-\u9fff]", token))
+        and token not in TOPIC_STOPWORDS
+        and not token.isdigit()
+    }
+
+
+def duplicate_index_tokens(item: dict[str, Any], limit: int = 8) -> list[str]:
+    tokens = {
+        token
+        for token in title_tokens(str(item.get("title", "")))
+        if (len(token) >= 3 or re.search(r"[\u4e00-\u9fff]", token))
+        and token not in TOPIC_STOPWORDS
+        and not token.isdigit()
+    }
+    return sorted(tokens, key=lambda token: (-len(token), token))[:limit]
+
+
+def primary_entity_key(item: dict[str, Any]) -> str:
+    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')} {item.get('link', '')}".lower()
+    for term in ENTITY_TERMS:
+        if term in text:
+            return term
+    return ""
+
+
+def topic_signature(item: dict[str, Any], limit: int = 6) -> str:
+    tags = sorted(str(tag).lower() for tag in item.get("topic_tags", item.get("tags", [])) if str(tag).strip())
+    category = clean_text(item.get("category", "")).lower()
+    tokens = sorted(topic_token_set(item), key=lambda token: (-len(token), token))[:limit]
+    return "|".join([category, *tags[:4], *tokens])
+
+
+def token_similarity(a_tokens: set[str], b_tokens: set[str]) -> float:
+    if not a_tokens or not b_tokens:
+        return 0.0
+    return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
+
+
+def likely_same_story(a: dict[str, Any], b: dict[str, Any], base_threshold: float | None = None) -> bool:
+    threshold = base_threshold if base_threshold is not None else min(HISTORY_SIMILARITY_THRESHOLD, 0.78)
+    a_title = normalize_title(str(a.get("title", "")))
+    b_title = normalize_title(str(b.get("title", "")))
+    if a_title and b_title and a_title == b_title:
+        return True
+
+    a_link = normalize_link(str(a.get("link", "")))
+    b_link = normalize_link(str(b.get("link", "")))
+    if a_link and a_link == b_link and not is_google_news_link(a_link):
+        return True
+
+    title_sim = simple_title_similarity(a_title, b_title)
+    if title_sim >= threshold:
+        return True
+
+    same_source = source_identity_key(a) == source_identity_key(b)
+    if same_source and title_sim >= 0.62:
+        return True
+
+    a_topic = topic_signature(a)
+    b_topic = topic_signature(b)
+    same_topic = bool(a_topic and b_topic and a_topic == b_topic)
+    content_sim = token_similarity(topic_token_set(a), topic_token_set(b))
+    if same_source and content_sim >= 0.60:
+        return True
+    if same_topic and (title_sim >= 0.66 or content_sim >= 0.70):
+        return True
+    if content_sim >= 0.82:
+        return True
+    return False
+
+
 def make_canonical_key(item: dict[str, Any]) -> str:
     title_key = normalize_title(str(item.get("title", "")))
     if len(title_key) >= 8:
@@ -1699,23 +1862,51 @@ def better_duplicate_choice(old_item: dict[str, Any], new_item: dict[str, Any]) 
 
 def deduplicate_news_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
     selected: list[dict[str, Any]] = []
+    by_title: dict[str, int] = {}
+    by_link: dict[str, int] = {}
+    by_source: dict[str, set[int]] = {}
+    token_index: dict[str, set[int]] = {}
     duplicate_count = 0
+
+    def index_item(idx: int, item: dict[str, Any]) -> None:
+        title_key = normalize_title(str(item.get("title", "")))
+        link_key = normalize_link(str(item.get("link", "")))
+        if title_key:
+            by_title[title_key] = idx
+        if link_key and not is_google_news_link(link_key):
+            by_link[link_key] = idx
+        by_source.setdefault(source_identity_key(item), set()).add(idx)
+        for token in duplicate_index_tokens(item):
+            token_index.setdefault(token, set()).add(idx)
+
     for item in items:
         key = normalize_title(str(item.get("title", "")))
+        link_key = normalize_link(str(item.get("link", "")))
         match_index: int | None = None
-        for idx, existing in enumerate(selected):
-            existing_key = normalize_title(str(existing.get("title", "")))
-            if key and key == existing_key:
-                match_index = idx
-                break
-            if simple_title_similarity(key, existing_key) > HISTORY_SIMILARITY_THRESHOLD:
-                match_index = idx
-                break
+        if link_key and link_key in by_link:
+            match_index = by_link[link_key]
+        elif key and key in by_title:
+            match_index = by_title[key]
+        else:
+            candidate_indexes: set[int] = set()
+            candidate_indexes.update(by_source.get(source_identity_key(item), set()))
+            for token in duplicate_index_tokens(item):
+                candidate_indexes.update(token_index.get(token, set()))
+            if not candidate_indexes and selected:
+                candidate_indexes = set(range(max(0, len(selected) - 30), len(selected)))
+            if len(candidate_indexes) > 180:
+                candidate_indexes = set(sorted(candidate_indexes, reverse=True)[:180])
+            for idx in sorted(candidate_indexes):
+                if likely_same_story(item, selected[idx]):
+                    match_index = idx
+                    break
         if match_index is None:
             selected.append(item)
+            index_item(len(selected) - 1, item)
             continue
         duplicate_count += 1
         selected[match_index] = better_duplicate_choice(selected[match_index], item)
+        index_item(match_index, selected[match_index])
     return selected, duplicate_count
 
 
@@ -1800,7 +1991,20 @@ def is_seen_in_history(
         if canonical_key and canonical_key == history_item.get("canonical_key"):
             return True, "same_canonical_key", history_item
         old_title = str(history_item.get("normalized_title", ""))
-        if old_title and simple_title_similarity(normalized_title, old_title) > HISTORY_SIMILARITY_THRESHOLD:
+        if old_title and likely_same_story(
+            item,
+            {
+                "title": history_item.get("title") or old_title,
+                "summary": history_item.get("summary", ""),
+                "source": history_item.get("source", ""),
+                "link": history_item.get("link", history_item.get("normalized_link", "")),
+                "category": history_item.get("category", ""),
+                "source_group": history_item.get("source_group", ""),
+                "source_type": history_item.get("source_type", ""),
+                "topic_tags": history_item.get("topic_tags", []),
+            },
+            base_threshold=min(HISTORY_SIMILARITY_THRESHOLD, 0.78),
+        ):
             return True, "similar_title", history_item
         old_link = str(history_item.get("normalized_link", ""))
         if normalized_link and normalized_link == old_link and not is_google_news_link(normalized_link):
@@ -1828,12 +2032,14 @@ def update_history_with_items(history: dict[str, Any], selected_items: list[dict
             "normalized_title": normalize_title(str(item.get("title", ""))),
             "normalized_link": normalize_link(str(item.get("link", ""))),
             "title": clean_text(item.get("title", "")),
+            "summary": truncate_summary(str(item.get("summary", "")), 300),
             "source": clean_text(item.get("source", "")),
             "link": clean_text(item.get("link", "")),
             "category": clean_text(item.get("category", "")),
             "region": clean_text(item.get("region", "")),
             "source_group": clean_text(item.get("source_group", "")),
             "source_type": clean_text(item.get("source_type", "")),
+            "topic_tags": list(item.get("topic_tags", []))[:12],
             "seen_count": 1,
         }
         history.setdefault("items", []).append(record)
@@ -1905,7 +2111,18 @@ def is_seen_in_learning_history(
         if normalized_link and normalized_link == old_link:
             return True, "same_link", history_item
         old_title = str(history_item.get("normalized_title", ""))
-        if old_title and simple_title_similarity(normalized_title, old_title) > LEARNING_HISTORY_SIMILARITY_THRESHOLD:
+        if old_title and likely_same_story(
+            item,
+            {
+                "title": history_item.get("title") or old_title,
+                "summary": history_item.get("summary", ""),
+                "source": history_item.get("source", ""),
+                "link": history_item.get("link", history_item.get("normalized_link", "")),
+                "source_type": history_item.get("source_type", ""),
+                "source_quality": history_item.get("source_quality", ""),
+            },
+            base_threshold=min(LEARNING_HISTORY_SIMILARITY_THRESHOLD, 0.78),
+        ):
             return True, "similar_title", history_item
     return False, "", None
 
@@ -1935,6 +2152,7 @@ def update_learning_history_with_items(
             "normalized_title": normalize_title(str(item.get("title", ""))),
             "normalized_link": normalize_link(str(item.get("link", ""))),
             "title": clean_text(item.get("title", "")),
+            "summary": truncate_summary(str(item.get("summary", "")), 300),
             "source": clean_text(item.get("source", "")),
             "link": clean_text(item.get("link", "")),
             "source_type": clean_text(item.get("source_type", "")),
@@ -1953,7 +2171,7 @@ def update_learning_history_with_items(
 
 
 def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
-    rejected_stats = {"same_source_limit": 0}
+    rejected_stats = {"same_source_limit": 0, "similar_selected": 0}
     selected: list[dict[str, Any]] = []
     source_counts: dict[str, int] = {}
 
@@ -1977,9 +2195,12 @@ def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dic
         return official_weight, source_type_weight, quality_weight, int(item.get("_score", item.get("score", 0))), language_weight, dt
 
     for item in sorted(items, key=learning_sort_key, reverse=True):
-        source_key = clean_text(item.get("source", "")) or "unknown"
+        source_key = source_identity_key(item) or "unknown"
         if source_counts.get(source_key, 0) >= MAX_SAME_SOURCE_LEARNING:
             rejected_stats["same_source_limit"] += 1
+            continue
+        if any(likely_same_story(item, existing, base_threshold=min(LEARNING_HISTORY_SIMILARITY_THRESHOLD, 0.78)) for existing in selected):
+            rejected_stats["similar_selected"] += 1
             continue
         chosen = dict(item)
         chosen["score"] = int(chosen.get("_score", chosen.get("score", 0)))
@@ -2029,6 +2250,8 @@ def is_smart_cockpit_candidate(item: dict[str, Any]) -> bool:
 def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
     rejected_stats = {
         "same_source_limit": 0,
+        "same_entity_limit": 0,
+        "similar_selected": 0,
         "china_limit": 0,
         "auto_china_limit": 0,
         "company_research_limit": 0,
@@ -2041,6 +2264,7 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
     }
     selected: list[dict[str, Any]] = []
     source_counts: dict[str, int] = {}
+    entity_counts: dict[str, int] = {}
     china_count = 0
     auto_china_count = 0
     google_news_count = 0
@@ -2063,9 +2287,12 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
         enforce_topic_limits: bool = True,
     ) -> tuple[bool, str]:
         nonlocal china_count, auto_china_count, google_news_count, company_research_count, auto_driving_count, smart_cockpit_count
-        source = clean_text(item.get("source", "unknown")) or "unknown"
+        source = source_identity_key(item) or "unknown"
         if source_counts.get(source, 0) >= MAX_SAME_SOURCE_NEWS:
             return False, "source_limit_applied"
+        entity = primary_entity_key(item)
+        if entity and entity_counts.get(entity, 0) >= MAX_SAME_ENTITY_NEWS:
+            return False, "same_entity_limit"
         source_group = clean_text(item.get("source_group", "")).lower()
         is_china = item.get("region") == "china" or source_group in ("china", "auto_china")
         is_auto = source_group == "auto_china" or item.get("category") == "中国汽车"
@@ -2096,6 +2323,9 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
         nonlocal china_count, auto_china_count, google_news_count, company_research_count, auto_driving_count, smart_cockpit_count
         if any(item.get("canonical_key") == existing.get("canonical_key") for existing in selected):
             return False
+        if any(likely_same_story(item, existing) for existing in selected):
+            rejected_stats["similar_selected"] += 1
+            return False
         ok, rejected_reason = can_add(
             item,
             enforce_region_limits=enforce_region_limits,
@@ -2107,8 +2337,11 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
         chosen = dict(item)
         chosen["selection_reason"] = reason
         selected.append(chosen)
-        source = clean_text(chosen.get("source", "unknown")) or "unknown"
+        source = source_identity_key(chosen) or "unknown"
         source_counts[source] = source_counts.get(source, 0) + 1
+        entity = primary_entity_key(chosen)
+        if entity:
+            entity_counts[entity] = entity_counts.get(entity, 0) + 1
         source_group = clean_text(chosen.get("source_group", "")).lower()
         if chosen.get("region") == "china" or source_group in ("china", "auto_china"):
             china_count += 1
@@ -2442,6 +2675,7 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
 
     entries: list[dict[str, Any]] = []
     count = 0
+    page_summary_fetch_count = 0
     for elem in channel_or_feed.iter():
         if local_name(elem.tag) not in ("item", "entry"):
             continue
@@ -2471,7 +2705,12 @@ def parse_feed_entries(source_info: dict[str, Any], xml_bytes: bytes, tz: timezo
                 )
             )
         )
-        if needs_page_summary and not is_google_news_link(link_clean):
+        if (
+            needs_page_summary
+            and page_summary_fetch_count < PAGE_SUMMARY_MAX_PER_FEED
+            and not is_google_news_link(link_clean)
+        ):
+            page_summary_fetch_count += 1
             page_summary = fetch_page_summary(link_clean, is_official=is_official_source)
             if page_summary.get("summary") and (
                 summary_meta.get("summary_quality") in {"empty", "low"}
@@ -2657,34 +2896,100 @@ def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
     return score, hits, sorted(tags)
 
 
-def deduplicate_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    by_link: dict[str, dict[str, Any]] = {}
-    by_title_key: dict[str, str] = {}
+def deduplicate_items_with_count(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    selected: list[dict[str, Any]] = []
+    by_title: dict[str, int] = {}
+    by_link: dict[str, int] = {}
+    by_source: dict[str, set[int]] = {}
+    token_index: dict[str, set[int]] = {}
+    duplicate_count = 0
+
+    def index_item(idx: int, item: dict[str, Any]) -> None:
+        title_key = canonical_title_key(str(item.get("title", "")))
+        link_key = normalize_link(str(item.get("link", "")))
+        if title_key:
+            by_title[title_key] = idx
+        if link_key:
+            by_link[link_key] = idx
+        by_source.setdefault(source_identity_key(item), set()).add(idx)
+        for token in duplicate_index_tokens(item):
+            token_index.setdefault(token, set()).add(idx)
 
     for item in items:
-        link_key = clean_text(item.get("link", "")).lower()
+        link_key = normalize_link(str(item.get("link", "")))
         title_key = canonical_title_key(str(item.get("title", "")))
-        if not link_key or not title_key:
+        match_index: int | None = None
+
+        if link_key and link_key in by_link:
+            match_index = by_link[link_key]
+        elif title_key and title_key in by_title:
+            match_index = by_title[title_key]
+        else:
+            candidate_indexes: set[int] = set()
+            candidate_indexes.update(by_source.get(source_identity_key(item), set()))
+            for token in duplicate_index_tokens(item):
+                candidate_indexes.update(token_index.get(token, set()))
+            if len(candidate_indexes) > 120:
+                candidate_indexes = set(sorted(candidate_indexes, reverse=True)[:120])
+            for idx in sorted(candidate_indexes):
+                if likely_same_story(item, selected[idx], base_threshold=min(LEARNING_HISTORY_SIMILARITY_THRESHOLD, 0.78)):
+                    match_index = idx
+                    break
+
+        if match_index is None:
+            selected.append(item)
+            index_item(len(selected) - 1, item)
             continue
 
-        old_link = by_title_key.get(title_key, link_key)
-        old_item = by_link.get(old_link)
-        if not old_item:
-            by_link[link_key] = item
-            by_title_key[title_key] = link_key
-            continue
-
+        duplicate_count += 1
+        old_item = selected[match_index]
         old_score = int(old_item.get("_score", 0))
         new_score = int(item.get("_score", 0))
         old_dt = old_item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
         new_dt = item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
 
         if new_score > old_score or (new_score == old_score and new_dt > old_dt):
-            by_link.pop(old_link, None)
-            by_link[link_key] = item
-            by_title_key[title_key] = link_key
+            selected[match_index] = item
+            index_item(match_index, item)
 
-    return list(by_link.values())
+    return selected, duplicate_count
+
+
+def deduplicate_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    deduped, _ = deduplicate_items_with_count(items)
+    return deduped
+
+
+def fetch_and_parse_source(source: dict[str, Any], tz: timezone) -> tuple[dict[str, Any], list[dict[str, Any]], Exception | None]:
+    try:
+        xml_bytes = fetch_bytes(source["url"])
+        return source, parse_feed_entries(source, xml_bytes, tz), None
+    except (HTTPError, URLError, TimeoutError, OSError) as exc:
+        return source, [], exc
+
+
+def collect_feed_sources(
+    sources: list[dict[str, Any]],
+    tz: timezone,
+    log_label: str,
+) -> tuple[list[dict[str, Any]], int, int]:
+    all_items: list[dict[str, Any]] = []
+    success_count = 0
+    failed_count = 0
+    workers = max(1, min(RSS_FETCH_WORKERS, len(sources) or 1))
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(fetch_and_parse_source, source, tz) for source in sources]
+        for future in as_completed(futures):
+            source, parsed, error = future.result()
+            name = source["name"]
+            group = source.get("source_group", "unknown")
+            if error:
+                failed_count += 1
+                LOGGER.warning("%s fetch failed [%s] %s: %s", log_label, group, name, error)
+                continue
+            success_count += 1
+            all_items.extend(parsed)
+    return all_items, success_count, failed_count
 
 
 def collect_news_candidates(
@@ -2705,21 +3010,22 @@ def collect_news_candidates(
     china_success_count = 0
     failed_count = 0
 
-    for source in sources:
-        name = source["name"]
-        group = source["source_group"]
-        try:
-            LOGGER.info("Fetching news RSS [%s]: %s", group, name)
-            xml_bytes = fetch_bytes(source["url"])
-            parsed = parse_feed_entries(source, xml_bytes, tz)
+    workers = max(1, min(RSS_FETCH_WORKERS, len(sources) or 1))
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(fetch_and_parse_source, source, tz) for source in sources]
+        for future in as_completed(futures):
+            source, parsed, error = future.result()
+            name = source["name"]
+            group = source["source_group"]
+            if error:
+                failed_count += 1
+                LOGGER.warning("News fetch failed [%s] %s: %s", group, name, error)
+                continue
             raw_items.extend(parsed)
             if group == "global":
                 global_success_count += 1
             else:
                 china_success_count += 1
-        except (HTTPError, URLError, TimeoutError, OSError) as exc:
-            failed_count += 1
-            LOGGER.warning("News fetch failed [%s] %s: %s", group, name, exc)
 
     dedup, duplicate_count = deduplicate_news_items(raw_items)
     fallback_start = now_local - timedelta(hours=NEWS_FALLBACK_HOURS)
@@ -2922,32 +3228,22 @@ def collect_learning_candidates(
     success_count = 0
     failed_count = 0
 
-    for source in sources:
-        name = source["name"]
-        group = source.get("source_group", "learning")
-        try:
-            LOGGER.info("Fetching learning RSS [%s]: %s", group, name)
-            xml_bytes = fetch_bytes(source["url"])
-            parsed = parse_feed_entries(source, xml_bytes, tz)
-            for item in parsed:
-                item = infer_learning_source_metadata(item)
-                score, hits, tags = learning_score(item)
-                if hits <= 0 or score <= 0:
-                    continue
-                item["_score"] = score
-                item["tags"] = tags
-                all_items.append(item)
-            success_count += 1
-        except (HTTPError, URLError, TimeoutError, OSError) as exc:
-            failed_count += 1
-            LOGGER.warning("Learning fetch failed [%s] %s: %s", group, name, exc)
+    raw_feed_items, success_count, failed_count = collect_feed_sources(sources, tz, "Learning")
+    for item in raw_feed_items:
+        item = infer_learning_source_metadata(item)
+        score, hits, tags = learning_score(item)
+        if hits <= 0 or score <= 0:
+            continue
+        item["_score"] = score
+        item["tags"] = tags
+        all_items.append(item)
 
     page_items, page_success, page_failed = collect_learning_page_items(tz=tz, now_local=now_local)
     all_items.extend(page_items)
     success_count += page_success
     failed_count += page_failed
 
-    dedup = deduplicate_items(all_items)
+    dedup, duplicate_count = deduplicate_items_with_count(all_items)
 
     recent_start = now_local - timedelta(days=LEARNING_RECENT_DAYS)
     fallback_start = now_local - timedelta(days=LEARNING_FALLBACK_DAYS)
@@ -2989,7 +3285,7 @@ def collect_learning_candidates(
     history_duplicate_samples: list[dict[str, Any]] = []
     history_filtered_items: list[dict[str, Any]] = []
     rejected_stats: dict[str, int] = {
-        "duplicate": len(all_items) - len(dedup),
+        "duplicate": duplicate_count,
         "history_duplicate": 0,
         "same_source_limit": 0,
         "old_resource": 0,
@@ -3015,7 +3311,7 @@ def collect_learning_candidates(
             continue
         history_filtered_items.append(item)
 
-    rejected_stats["old_resource"] = max(0, len(dedup) - len(merged) - rejected_stats["duplicate"])
+    rejected_stats["old_resource"] = max(0, len(dedup) - len(merged))
 
     curated_items, selection_rejected = select_curated_learning_items(history_filtered_items)
     for key, value in selection_rejected.items():

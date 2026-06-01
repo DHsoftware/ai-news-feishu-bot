@@ -1,11 +1,11 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-06-01T16:25:14.378764+08:00",
+  "generated_at": "2026-06-01T17:59:40.718253+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 26,
-    "success_count": 25,
-    "failed_count": 1
+    "success_count": 23,
+    "failed_count": 3
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -17,13 +17,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 47,
+    "history_size_before": 48,
     "history_size_after": 48,
-    "history_duplicate_count": 19
+    "history_duplicate_count": 6
   },
-  "raw_item_count": 101,
-  "deduped_item_count": 80,
-  "filtered_item_count": 13,
+  "raw_item_count": 72,
+  "deduped_item_count": 42,
+  "filtered_item_count": 11,
   "curated_item_count": 1,
   "curated_items": [
     {
@@ -54,9 +54,10 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 21,
-    "history_duplicate": 19,
+    "duplicate": 30,
+    "history_duplicate": 6,
     "same_source_limit": 0,
-    "old_resource": 27
+    "old_resource": 25,
+    "similar_selected": 0
   }
 }
