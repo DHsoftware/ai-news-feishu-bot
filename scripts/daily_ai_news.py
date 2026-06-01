@@ -35,7 +35,7 @@ FALLBACK_SCAN_DAYS = 14
 
 DEFAULT_TIMEZONE = "Asia/Shanghai"
 DEFAULT_NEWS_MAX_CHARS = 3500
-DEFAULT_NEWS_TOP_N = 5
+DEFAULT_NEWS_TOP_N = 3
 DEFAULT_MAX_ITEMS_FOR_LLM = 5
 
 DEFAULT_LEARNING_NOTE = "基于资源标题/简介整理，建议打开原链接查看完整内容。"
@@ -1002,12 +1002,12 @@ def create_report_json_with_litellm(
   "summary": ["摘要句子1", "摘要句子2", "摘要句子3"],
   "top_news": [
     {{
-      "category": "全球AI / 中国AI / 中国汽车 / AI芯片 / AI编程工具 / 研究论文 / 机器人 / 开源模型 / AI安全监管 / 其他",
+      "category": "AI Agent / AI编程工具 / AI组织提效 / AI工作流自动化 / 车载电源电子 / OBC/DCDC / 功率电子 / 官方研究 / 技术报告 / 白皮书 / 全球AI / 中国AI / AI芯片 / 研究论文 / 开源模型 / 中国汽车 / 自动驾驶 / 智能座舱 / 其他",
       "title": "新闻标题",
       "what_happened": "发生了什么",
       "why_important": "为什么重要",
       "auto_relevance": "直接影响 / 间接影响 / 暂无明显影响",
-      "auto_impact_brief": "1-2 句话说明对汽车行业最相关影响（系统工程/硬件/软件/AI应用择其一）",
+      "auto_impact_brief": "1-2 句话说明对汽车行业、系统工程、硬件、软件、AI 应用、组织提效或 OBC/DCDC 方向的影响",
       "source_name": "来源名称",
       "source_url": "来源链接"
     }}
@@ -1027,7 +1027,7 @@ def create_report_json_with_litellm(
 约束：
 1) 只输出 JSON，不要任何多余文字。
 2) `summary` 输出 3-5 句中文。
-3) `top_news` 优先输出 {news_top_n} 条（不足可少于 {news_top_n}，但要在摘要里如实说明）。
+3) 从最多 {min(len(items), 5)} 条候选新闻中选择最终 {news_top_n} 条 Top News；`top_news` 只输出 {news_top_n} 条（有效新闻不足可少于 {news_top_n}，但要在摘要里如实说明）。
 4) `what_happened` 控制在 80-120 字。
 5) `why_important` 控制在 80-120 字。
 6) `auto_impact_brief` 控制在 60-100 字，且只写 1-2 句，不要展开成长篇。
@@ -1037,22 +1037,25 @@ def create_report_json_with_litellm(
 10) 候选新闻已经过 RSS 阶段去重、跨天历史去重、弱相关过滤、分类打标和全球/中国平衡筛选；请从这些候选中选择 Top News，不要主动扩展旧闻。
 11) 不要把同一事件的不同转载写成多条 Top News；如果两条候选讲的是同一事件，只保留信息更完整、来源更可靠的一条。
 12) 不要选入多条来自同一媒体、同一公司、同一发布会的重复内容。
-13) 必须综合考虑中英文新闻，不可只看英文来源，也不可全部选择中国汽车新闻。
-14) 若候选中存在全球 AI 候选，今日摘要至少一句写全球 AI 趋势；若候选中存在中国汽车/车载 AI 候选，今日摘要至少一句写中国智能汽车动态。
-15) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
-16) 不要硬凑 Top N；如果有效新闻不足，可以少于 Top N，并在摘要里说明。
+13) Top News 选择优先级：第一 AI Agent / AI 编程工具 / Codex / MCP / Agent workflow；第二 AI 组织变革 / 研发提效 / 软件工程提效 / 工作流自动化；第三 AI + 车载 OBC / DCDC / 功率电子 / 电源控制 / 故障诊断 / 预测性维护 / 数字孪生；第四头部公司官方研究报告 / 技术博客 / 白皮书；第五其他重大 AI 技术新闻；第六自动驾驶 / 智能座舱，仅作为补充。
+14) 不要让普通自动驾驶、普通智能座舱新闻占据 Top 3；只有明显体现 AI Agent、组织提效、软件工程、OBC/DCDC 或重大模型/算法/工具链突破时，才可进入 Top 3。
+15) 不要选择纯股市、投资、评级、研报、财报视角新闻，除非其中包含明确 AI 技术或车载电源技术进展。
+16) curated_items 中可能包含头部公司官方研究报告、技术博客、白皮书；优先选择信息密度高、技术价值高、对 AI Agent / 组织提效 / OBC-DCDC / 汽车软件有启发的内容。
 17) 不要编造候选新闻中不存在的事实。
-18) 尽量不要选择股市/投资视角新闻，例如股价、股票、评级、研报、市值、盘前盘后、投资组合、财报解读；除非候选内容明确包含重大 AI、芯片、智驾或软件技术进展。
-19) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）。
-20) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
+18) 如果来源是官方研究报告或技术博客，请在 `why_important` 说明技术价值，而不是写成普通新闻。
+19) 如果是公司白皮书或研究报告，不要夸大为“已经量产”或“已经落地”，除非候选内容明确说明。
+20) 对车载 OBC/DCDC 和功率电子相关内容，要区分研究/白皮书、参考设计、芯片或模块发布、量产应用、行业趋势。
+21) 今日摘要要求：若候选中有 AI Agent / AI 编程工具 / AI 工作流内容，至少一句总结该趋势；若有 AI 组织提效 / 研发提效内容，至少一句总结该趋势；若有 OBC/DCDC 或功率电子内容，至少一句说明其对车载电源或硬件平台的影响；若有官方研究/技术报告，至少一句说明其技术价值。不要所有摘要都围绕自动驾驶和智能座舱。
+22) 汽车行业相关判断优先结合系统工程、硬件平台、汽车软件、AI 应用、组织提效、OBC/DCDC 与车载电源方向。
+23) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
 Codex Agent 每日一学约束：
-21) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
-22) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
-23) `confidence_note` 必须明确“基于资源标题/简介整理”。
-24) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
-25) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
-26) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
+24) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
+25) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
+26) `confidence_note` 必须明确“基于资源标题/简介整理”。
+27) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
+28) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
+29) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
@@ -1185,7 +1188,7 @@ def build_single_interactive_card(
     add_markdown(elements, "\n".join(f"- {line}" for line in summary[:5]) or "- 暂无摘要")
     elements.append({"tag": "hr"})
 
-    add_section_title(elements, f"二、重要新闻 Top {len(top_news)}")
+    add_section_title(elements, "二、重要新闻 Top 3")
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
@@ -1276,7 +1279,7 @@ def build_single_post_payload(
     for line in summary[:5]:
         rows.append(row_text(f"- {line}"))
 
-    rows.append(row_text(f"二、重要新闻 Top {len(top_news)}"))
+    rows.append(row_text("二、重要新闻 Top 3"))
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
@@ -1338,7 +1341,7 @@ def build_single_text_payload(
 
     lines = [title, "", "一、今日摘要"]
     lines.extend(f"- {line}" for line in summary[:5])
-    lines.extend(["", f"二、重要新闻 Top {len(top_news)}"])
+    lines.extend(["", "二、重要新闻 Top 3"])
 
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):

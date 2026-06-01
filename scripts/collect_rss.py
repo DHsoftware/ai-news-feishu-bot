@@ -62,6 +62,19 @@ def parse_float_env(name: str, default: float) -> float:
         return default
 
 
+def parse_bool_env(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    value = raw.strip().lower()
+    if value in {"1", "true", "yes", "y", "on"}:
+        return True
+    if value in {"0", "false", "no", "n", "off"}:
+        return False
+    LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
+    return default
+
+
 NEWS_REGION_MODE = os.getenv("NEWS_REGION_MODE", "balanced")
 TARGET_CANDIDATE_COUNT = parse_int_env("TARGET_CANDIDATE_COUNT", 5)
 MIN_GLOBAL_NEWS = parse_int_env("MIN_GLOBAL_NEWS", 2)
@@ -70,6 +83,13 @@ MAX_AUTO_CHINA_NEWS = parse_int_env("MAX_AUTO_CHINA_NEWS", 1)
 MAX_SAME_SOURCE_NEWS = parse_int_env("MAX_SAME_SOURCE_NEWS", 2)
 MAX_ITEMS_FOR_LLM = parse_int_env("MAX_ITEMS_FOR_LLM", 5)
 CANDIDATE_RETENTION_DAYS = parse_int_env("CANDIDATE_RETENTION_DAYS", 3)
+MIN_AGENT_NEWS = parse_int_env("MIN_AGENT_NEWS", 1)
+MIN_PRODUCTIVITY_NEWS = parse_int_env("MIN_PRODUCTIVITY_NEWS", 1)
+MIN_COMPANY_RESEARCH_NEWS = parse_int_env("MIN_COMPANY_RESEARCH_NEWS", 1)
+MAX_COMPANY_RESEARCH_NEWS = parse_int_env("MAX_COMPANY_RESEARCH_NEWS", 2)
+MAX_AUTO_DRIVING_NEWS = parse_int_env("MAX_AUTO_DRIVING_NEWS", 1)
+MAX_SMART_COCKPIT_NEWS = parse_int_env("MAX_SMART_COCKPIT_NEWS", 1)
+POWER_ELECTRONICS_BOOST = parse_bool_env("POWER_ELECTRONICS_BOOST", True)
 
 HISTORY_DEDUPE_DAYS = parse_int_env("HISTORY_DEDUPE_DAYS", 14)
 HISTORY_RETENTION_DAYS = parse_int_env("HISTORY_RETENTION_DAYS", 30)
@@ -122,6 +142,233 @@ def make_source(
 # ----------------------------
 # News sources
 # ----------------------------
+
+AI_AGENT_QUERIES = [
+    "AI agent",
+    "agentic AI",
+    "autonomous agent",
+    "coding agent",
+    "OpenAI Codex",
+    "Codex CLI",
+    "Claude Code",
+    "Cursor AI",
+    "GitHub Copilot coding agent",
+    "Devin AI software engineer",
+    "MCP Model Context Protocol",
+    "AI workflow automation",
+    "AI software engineering",
+    "AI code review",
+    "AI testing automation",
+    "AI developer productivity",
+    "AI engineering productivity",
+    "software engineering agent",
+    "AI Agent",
+    "智能体",
+    "编程智能体",
+    "代码智能体",
+    "Codex",
+    "Codex CLI",
+    "Claude Code",
+    "Cursor",
+    "Devin",
+    "GitHub Copilot",
+    "MCP 模型上下文协议",
+    "AI 工作流",
+    "AI 自动化",
+    "AI 软件工程",
+    "AI 代码审查",
+    "AI 测试自动化",
+    "AI 研发提效",
+    "研发智能体",
+    "软件工程智能体",
+]
+
+AI_ORG_PRODUCTIVITY_QUERIES = [
+    "AI productivity",
+    "AI transformation",
+    "AI organizational change",
+    "AI enterprise automation",
+    "AI workflow transformation",
+    "AI knowledge management",
+    "AI copilots in enterprise",
+    "AI software development productivity",
+    "AI engineering management",
+    "AI product development",
+    "AI process automation",
+    "AI operating model",
+    "AI 组织变革",
+    "AI 提效",
+    "AI 研发效率",
+    "AI 企业自动化",
+    "AI 流程自动化",
+    "AI 知识管理",
+    "企业 Copilot",
+    "研发 Copilot",
+    "AI 组织效率",
+    "AI 软件研发提效",
+    "AI 项目管理",
+    "AI 产品研发",
+    "AI 降本增效",
+    "AI 办公自动化",
+    "AI 运营模式",
+    "AI 组织重构",
+]
+
+AI_POWER_ELECTRONICS_QUERIES = [
+    "AI power electronics",
+    "AI onboard charger",
+    "AI OBC",
+    "AI DC-DC converter",
+    "automotive OBC AI",
+    "automotive DCDC AI",
+    "AI SiC power module",
+    "AI GaN power electronics",
+    "AI battery charger control",
+    "AI power converter control",
+    "AI thermal management power electronics",
+    "AI fault diagnosis power electronics",
+    "predictive maintenance power electronics",
+    "digital twin power electronics",
+    "AI simulation power electronics",
+    "AI design optimization power electronics",
+    "AI control algorithm power converter",
+    "AI 功率电子",
+    "AI 车载充电机",
+    "AI OBC",
+    "AI DCDC",
+    "AI DC-DC",
+    "车载 OBC AI",
+    "车载 DCDC AI",
+    "AI 电源控制",
+    "AI 功率变换器",
+    "AI SiC",
+    "AI 碳化硅 功率模块",
+    "AI GaN",
+    "AI 氮化镓 功率电子",
+    "AI 热管理 功率电子",
+    "AI 故障诊断 功率电子",
+    "AI 预测性维护 电源",
+    "AI 数字孪生 功率电子",
+    "AI 仿真优化 电源",
+    "AI 自动化测试 电源控制",
+    "OBC 故障诊断",
+    "DCDC 故障诊断",
+    "OBC 数字孪生",
+    "DCDC 数字孪生",
+]
+
+COMPANY_RESEARCH_SITE_QUERIES = [
+    ("OpenAI Research - AI agent", "site:openai.com/research AI agent", "official_research", "research_paper", ["company_research", "official_report", "ai_research", "ai_agent"]),
+    ("OpenAI Blog - Codex", "site:openai.com/blog Codex", "company_blog", "official_blog", ["company_research", "technical_blog", "codex", "coding_agent"]),
+    ("Anthropic Research - agentic AI", "site:anthropic.com/research agentic AI", "official_research", "research_paper", ["company_research", "official_report", "ai_agent"]),
+    ("Anthropic Engineering - AI agent", "site:anthropic.com/engineering AI agent", "company_blog", "technical_blog", ["company_research", "technical_blog", "ai_agent"]),
+    ("Google DeepMind - AI agent", "site:deepmind.google AI agent", "official_research", "research_paper", ["company_research", "ai_research", "ai_agent"]),
+    ("Google Research - AI coding", "site:research.google AI coding", "official_research", "research_paper", ["company_research", "ai_research", "coding_agent"]),
+    ("Microsoft Research - AI software engineering", "site:microsoft.com/en-us/research AI software engineering", "official_research", "research_paper", ["company_research", "ai_research", "engineering_productivity"]),
+    ("NVIDIA - AI agent", "site:nvidia.com AI agent", "technical_report", "technical_blog", ["company_research", "technical_blog", "ai_agent"]),
+    ("NVIDIA Developer - AI inference", "site:developer.nvidia.com/blog AI inference", "company_blog", "technical_blog", ["company_research", "technical_blog", "ai_research"]),
+    ("Apple ML Research - AI model", "site:apple.com/machine-learning AI model", "official_research", "research_paper", ["company_research", "ai_research"]),
+    ("Amazon Science - AI agent", "site:amazon.science AI agent", "official_research", "research_paper", ["company_research", "ai_research", "ai_agent"]),
+    ("Meta AI Research - AI agent", "site:ai.meta.com/research AI agent", "official_research", "research_paper", ["company_research", "ai_research", "ai_agent"]),
+    ("IBM Research - AI agent", "site:research.ibm.com AI agent", "official_research", "research_paper", ["company_research", "ai_research", "ai_agent"]),
+    ("Salesforce AI Research - AI agent", "site:salesforceairesearch.com AI agent", "official_research", "research_paper", ["company_research", "ai_research", "ai_agent"]),
+    ("GitHub Blog - Copilot coding agent", "site:github.blog Copilot coding agent", "company_blog", "technical_blog", ["company_research", "technical_blog", "coding_agent"]),
+    ("Cursor Blog - AI coding", "site:cursor.com blog AI coding", "company_blog", "technical_blog", ["company_research", "technical_blog", "coding_agent"]),
+    ("Sourcegraph Blog - AI coding agent", "site:sourcegraph.com/blog AI coding agent", "company_blog", "technical_blog", ["company_research", "technical_blog", "coding_agent"]),
+    ("JetBrains AI Engineering - AI coding", "site:blog.jetbrains.com AI coding", "company_blog", "technical_blog", ["company_research", "technical_blog", "coding_agent"]),
+    ("Tesla AI - autonomous AI", "site:tesla.com/AI AI software", "technical_report", "official_blog", ["company_research", "technical_blog", "ai_research"]),
+    ("Waymo Research - AI driving", "site:waymo.com/research AI", "official_research", "research_paper", ["company_research", "ai_research"]),
+    ("Toyota Research Institute - AI", "site:tri.global AI research", "official_research", "research_paper", ["company_research", "ai_research"]),
+    ("Bosch Research - AI software", "site:bosch.com AI automotive software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("Continental AI software", "site:continental.com AI automotive software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("ZF AI software", "site:zf.com AI automotive software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("Mercedes-Benz AI software", "site:mercedes-benz.com AI software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("BMW AI software", "site:bmwgroup.com AI software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("Volkswagen CARIAD AI software", "site:cariad.technology AI software", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("Infineon - AI power electronics", "site:infineon.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("TI - AI power electronics", "site:ti.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("NXP - AI automotive power", "site:nxp.com AI automotive power", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("onsemi - AI power electronics", "site:onsemi.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Wolfspeed - AI SiC automotive", "site:wolfspeed.com AI SiC automotive", "technical_report", "technical_blog", ["company_research", "technical_blog", "sic", "power_electronics"]),
+    ("ST - AI power electronics", "site:st.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("ROHM - AI SiC automotive", "site:rohm.com AI SiC automotive", "technical_report", "technical_blog", ["company_research", "technical_blog", "sic", "power_electronics"]),
+    ("Renesas - AI automotive power", "site:renesas.com AI automotive power", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Analog Devices - AI power", "site:analog.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Vishay - AI power electronics", "site:vishay.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Qorvo - AI GaN power", "site:qorvo.com AI GaN power", "technical_report", "technical_blog", ["company_research", "technical_blog", "gan", "power_electronics"]),
+    ("Navitas - AI GaN power", "site:navitassemi.com AI GaN power", "technical_report", "technical_blog", ["company_research", "technical_blog", "gan", "power_electronics"]),
+    ("Power Integrations - AI power", "site:power.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("MPS - AI power electronics", "site:monolithicpower.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Vicor - AI power electronics", "site:vicorpower.com AI power electronics", "technical_report", "technical_blog", ["company_research", "technical_blog", "power_electronics"]),
+    ("Huawei - AI intelligent automotive", "site:huawei.com AI 智能汽车", "company_blog", "official_blog", ["company_research", "technical_blog", "ai_research"]),
+    ("Huawei - AI productivity", "site:huawei.com 研发提效 AI", "company_blog", "official_blog", ["company_research", "technical_blog", "org_productivity"]),
+    ("Horizon Robotics - AI chip", "site:horizon.cc 地平线 AI 芯片", "technical_report", "official_blog", ["company_research", "ai_research", "benchmark"]),
+    ("Black Sesame - AI chip", "site:blacksesame.com 黑芝麻智能 AI 芯片", "technical_report", "official_blog", ["company_research", "ai_research", "benchmark"]),
+    ("SemiDrive - automotive AI chip", "site:semidrive.com 芯驰科技 AI 车载芯片", "technical_report", "official_blog", ["company_research", "ai_research", "benchmark"]),
+    ("BYD - AI intelligentization", "site:byd.com 比亚迪 AI 智能化", "company_blog", "official_blog", ["company_research", "technical_blog"]),
+    ("Bosch China - AI automotive software", "site:bosch.com.cn AI 汽车软件", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+    ("Continental - AI automotive software", "site:continental.com AI 汽车软件", "technical_report", "official_blog", ["company_research", "technical_blog", "engineering_report"]),
+]
+
+
+def build_google_query_sources(
+    queries: list[str],
+    name_prefix: str,
+    source_group: str,
+    source_type: str,
+    tags: list[str],
+) -> list[dict[str, Any]]:
+    sources: list[dict[str, Any]] = []
+    for query in queries:
+        has_chinese = bool(re.search(r"[\u4e00-\u9fff]", query))
+        sources.append(
+            make_source(
+                f"{name_prefix} - {query}",
+                make_google_news_rss_url(
+                    query,
+                    GOOGLE_NEWS_ZH_HL if has_chinese else GOOGLE_NEWS_EN_HL,
+                    GOOGLE_NEWS_ZH_GL if has_chinese else GOOGLE_NEWS_EN_GL,
+                    GOOGLE_NEWS_ZH_CEID if has_chinese else GOOGLE_NEWS_EN_CEID,
+                ),
+                "zh" if has_chinese else "en",
+                "china" if has_chinese else "global",
+                source_group,
+                source_type=source_type,
+                tags=tags,
+            )
+        )
+    return sources
+
+
+def build_company_research_sources() -> list[dict[str, Any]]:
+    rss_sources = [
+        make_source("OpenAI News", "https://openai.com/news/rss.xml", "en", "global", "company_research", "official_blog", ["company_research", "official_report", "ai_research"]),
+        make_source("Google AI Blog", "https://blog.google/technology/ai/rss/", "en", "global", "company_research", "technical_blog", ["company_research", "technical_blog", "ai_research"]),
+        make_source("NVIDIA Technical Blog", "https://developer.nvidia.com/blog/feed/", "en", "global", "company_research", "technical_blog", ["company_research", "technical_blog", "ai_research"]),
+        make_source("NVIDIA Blog", "https://blogs.nvidia.com/feed/", "en", "global", "company_research", "technical_blog", ["company_research", "technical_blog", "ai_research"]),
+        make_source("Microsoft Research Blog", "https://www.microsoft.com/en-us/research/feed/", "en", "global", "company_research", "research_paper", ["company_research", "official_report", "ai_research"]),
+        make_source("GitHub Blog", "https://github.blog/feed/", "en", "global", "company_research", "technical_blog", ["company_research", "technical_blog", "coding_agent"]),
+        make_source("Hugging Face Blog", "https://huggingface.co/blog/feed.xml", "en", "global", "company_research", "technical_blog", ["company_research", "technical_blog", "ai_research"]),
+    ]
+    site_sources = [
+        make_source(
+            f"Google News Company Research - {name}",
+            make_google_news_rss_url(
+                query,
+                GOOGLE_NEWS_ZH_HL if re.search(r"[\u4e00-\u9fff]", query) else GOOGLE_NEWS_EN_HL,
+                GOOGLE_NEWS_ZH_GL if re.search(r"[\u4e00-\u9fff]", query) else GOOGLE_NEWS_EN_GL,
+                GOOGLE_NEWS_ZH_CEID if re.search(r"[\u4e00-\u9fff]", query) else GOOGLE_NEWS_EN_CEID,
+            ),
+            "zh" if re.search(r"[\u4e00-\u9fff]", query) else "en",
+            "china" if re.search(r"[\u4e00-\u9fff]", query) else "global",
+            source_group,
+            source_type=source_type,
+            tags=tags,
+        )
+        for name, query, source_group, source_type, tags in COMPANY_RESEARCH_SITE_QUERIES
+    ]
+    return rss_sources + site_sources
+
 
 GLOBAL_SOURCES: list[dict[str, Any]] = [
     make_source(
@@ -208,6 +455,11 @@ GLOBAL_SOURCES: list[dict[str, Any]] = [
     make_source("OpenAI News", "https://openai.com/news/rss.xml", "en", "global", "global"),
 ]
 
+AGENT_SOURCES = build_google_query_sources(AI_AGENT_QUERIES, "Google News AI Agent", "ai_agent", "news_search", ["ai_agent", "agentic_ai", "coding_agent"])
+PRODUCTIVITY_SOURCES = build_google_query_sources(AI_ORG_PRODUCTIVITY_QUERIES, "Google News AI Productivity", "ai_productivity", "news_search", ["org_productivity", "ai_transformation", "workflow_automation"])
+POWER_ELECTRONICS_SOURCES = build_google_query_sources(AI_POWER_ELECTRONICS_QUERIES, "Google News AI Power Electronics", "power_electronics", "news_search", ["power_electronics", "obc", "dcdc"])
+COMPANY_RESEARCH_SOURCES = build_company_research_sources()
+
 CHINA_NEWS_GQUERIES = [
     "人工智能 大模型",
     "国产大模型",
@@ -257,6 +509,10 @@ AUTO_CHINA_QUERIES = [
     "地平线 车载芯片",
     "黑芝麻智能 车载芯片",
     "芯驰科技 车载芯片",
+    "车载 Agent",
+    "汽车软件 研发提效 AI",
+    "车载 OBC AI",
+    "车载 DCDC AI",
 ]
 
 
@@ -273,7 +529,15 @@ def build_auto_china_news_sources() -> list[dict[str, Any]]:
     ]
 
 
-NEWS_SOURCES = GLOBAL_SOURCES + CHINA_SOURCES + build_auto_china_news_sources()
+NEWS_SOURCES = (
+    GLOBAL_SOURCES
+    + AGENT_SOURCES
+    + PRODUCTIVITY_SOURCES
+    + POWER_ELECTRONICS_SOURCES
+    + COMPANY_RESEARCH_SOURCES
+    + CHINA_SOURCES
+    + build_auto_china_news_sources()
+)
 
 NEWS_KEYWORDS = [
     "ai",
@@ -283,9 +547,38 @@ NEWS_KEYWORDS = [
     "foundation model",
     "multimodal",
     "agent",
+    "agentic ai",
+    "autonomous agent",
+    "coding agent",
+    "software engineering agent",
+    "mcp",
+    "model context protocol",
+    "codex",
+    "claude code",
+    "cursor",
+    "devin",
     "ai coding",
     "code generation",
+    "code review",
+    "testing automation",
+    "developer productivity",
+    "engineering productivity",
+    "workflow automation",
+    "enterprise automation",
+    "organizational change",
     "copilot",
+    "power electronics",
+    "onboard charger",
+    "obc",
+    "dcdc",
+    "dc-dc",
+    "sic",
+    "gan",
+    "power converter",
+    "thermal management",
+    "fault diagnosis",
+    "predictive maintenance",
+    "digital twin",
     "edge ai",
     "on-device",
     "端侧",
@@ -311,6 +604,29 @@ NEWS_KEYWORDS = [
     "智能座舱",
     "车载大模型",
     "车载agent",
+    "ai agent",
+    "智能体",
+    "编程智能体",
+    "代码智能体",
+    "模型上下文协议",
+    "研发提效",
+    "组织变革",
+    "流程自动化",
+    "知识管理",
+    "代码审查",
+    "测试自动化",
+    "功率电子",
+    "车载充电机",
+    "obc",
+    "dcdc",
+    "dc-dc",
+    "电源控制",
+    "碳化硅",
+    "氮化镓",
+    "故障诊断",
+    "预测性维护",
+    "数字孪生",
+    "仿真优化",
     "具身智能",
     "机器人",
     "软件定义汽车",
@@ -678,12 +994,30 @@ FINANCE_SOURCE_TERMS = [
 STRONG_TECH_TAGS = {
     "llm",
     "agent",
+    "ai_agent",
+    "agentic_ai",
     "coding",
+    "coding_agent",
+    "mcp",
+    "codex",
+    "org_productivity",
+    "engineering_productivity",
+    "workflow_automation",
+    "developer_productivity",
     "chip",
+    "power_electronics",
+    "obc",
+    "dcdc",
+    "sic",
+    "gan",
     "robotics",
     "autonomous_driving",
     "smart_cockpit",
     "research",
+    "company_research",
+    "technical_blog",
+    "whitepaper",
+    "research_report",
     "opensource",
     "security",
     "regulation",
@@ -783,6 +1117,15 @@ def make_canonical_key(item: dict[str, Any]) -> str:
 def is_official_or_primary_source(item: dict[str, Any]) -> bool:
     source = clean_text(item.get("source", "")).lower()
     link = clean_text(item.get("link", "")).lower()
+    source_group = clean_text(item.get("source_group", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    tags = {str(tag).strip().lower() for tag in item.get("tags", []) if str(tag).strip()}
+    if source_group in {"company_research", "official_research", "technical_report", "whitepaper", "company_blog"}:
+        return True
+    if source_type in {"company_research_report", "technical_blog", "whitepaper", "research_paper", "official_blog"}:
+        return True
+    if tags & {"company_research", "official_report", "technical_blog", "whitepaper", "research_report"}:
+        return True
     primary_terms = [
         "openai",
         "anthropic",
@@ -795,24 +1138,89 @@ def is_official_or_primary_source(item: dict[str, Any]) -> bool:
         "github",
         "arxiv",
         "research",
+        "infineon",
+        "st.com",
+        "ti.com",
+        "nxp",
+        "onsemi",
+        "wolfspeed",
+        "renesas",
+        "analog devices",
+        "navitas",
     ]
     return any(term in source or term in link for term in primary_terms)
 
 
+def source_preference_rank(item: dict[str, Any]) -> int:
+    source_group = clean_text(item.get("source_group", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    source = clean_text(item.get("source", "")).lower()
+    link = clean_text(item.get("link", "")).lower()
+    tags = {str(tag).strip().lower() for tag in item.get("topic_tags", item.get("tags", [])) if str(tag).strip()}
+
+    if source_group in {"official_research", "company_research"} or source_type in {"company_research_report", "research_paper", "official_blog"} or tags & {"official_report", "company_research", "ai_research"}:
+        return 60
+    if source_type == "technical_blog" or source_group in {"technical_report", "company_blog"} or "technical_blog" in tags:
+        return 50
+    if source_type == "whitepaper" or source_group == "whitepaper" or "whitepaper" in tags:
+        return 45
+    if any(term in source or term in link for term in ("technologyreview", "venturebeat", "theverge", "techcrunch", "infoq", "机器之心", "量子位")):
+        return 35
+    if is_google_news_link(str(item.get("link", ""))) or "google news" in source:
+        return 10
+    return 25
+
+
 def classify_item(item: dict[str, Any]) -> dict[str, Any]:
-    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}".lower()
-    tags: set[str] = set()
+    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')} {' '.join(str(t) for t in item.get('tags', []))}".lower()
+    tags: set[str] = {str(tag).strip().lower() for tag in item.get("tags", []) if str(tag).strip()}
 
     tag_rules = [
         ("llm", ["llm", "large language model", "大模型", "生成式ai", "generative ai"]),
         ("agent", ["agent", "智能体", "mcp", "codex", "devin"]),
+        ("ai_agent", ["ai agent", "agentic ai", "autonomous agent", "智能体", "研发智能体", "软件工程智能体", "车载 agent"]),
+        ("agentic_ai", ["agentic ai", "autonomous agent", "workflow agent", "agent workflow"]),
         ("coding", ["coding assistant", "ai coding", "code generation", "copilot", "cursor", "codex", "代码助手", "ai编程"]),
+        ("coding_agent", ["coding agent", "code agent", "software engineering agent", "编程智能体", "代码智能体", "claude code", "cursor", "devin", "github copilot", "codex"]),
+        ("mcp", ["mcp", "model context protocol", "模型上下文协议"]),
+        ("codex", ["openai codex", "codex cli", "codex"]),
+        ("org_productivity", ["ai productivity", "ai transformation", "organizational change", "enterprise automation", "组织变革", "组织效率", "降本增效"]),
+        ("ai_transformation", ["ai transformation", "workflow transformation", "operating model", "组织重构", "运营模式"]),
+        ("engineering_productivity", ["developer productivity", "engineering productivity", "software development productivity", "研发提效", "研发效率", "软件研发提效"]),
+        ("workflow_automation", ["workflow automation", "process automation", "ai workflow", "ai 工作流", "流程自动化", "办公自动化"]),
+        ("knowledge_management", ["knowledge management", "知识管理"]),
+        ("ai_code_review", ["ai code review", "code review", "代码审查"]),
+        ("ai_testing", ["ai testing", "testing automation", "test automation", "测试自动化"]),
+        ("ci_cd", ["ci/cd", "cicd", "continuous integration", "continuous delivery"]),
+        ("developer_productivity", ["developer productivity", "开发者效率", "研发 copilot", "企业 copilot"]),
         ("chip", ["gpu", "npu", "ai chip", "inference", "training", "算力", "芯片", "昇腾", "寒武纪", "地平线", "黑芝麻", "芯驰"]),
+        ("power_electronics", ["power electronics", "power module", "power converter", "功率电子", "功率模块", "功率变换器"]),
+        ("obc", ["onboard charger", "on-board charger", "obc", "车载充电机"]),
+        ("dcdc", ["dc-dc", "dc/dc", "dcdc", "dc dc converter", "直流变换器"]),
+        ("sic", ["sic", "silicon carbide", "碳化硅"]),
+        ("gan", ["gan", "gallium nitride", "氮化镓"]),
+        ("power_control", ["power control", "converter control", "电源控制", "控制算法"]),
+        ("thermal_management", ["thermal management", "热管理"]),
+        ("fault_diagnosis", ["fault diagnosis", "故障诊断"]),
+        ("predictive_maintenance", ["predictive maintenance", "预测性维护"]),
+        ("digital_twin", ["digital twin", "数字孪生"]),
+        ("simulation_optimization", ["simulation", "design optimization", "仿真优化", "设计优化"]),
+        ("automated_testing", ["automated testing", "自动化测试"]),
         ("robotics", ["robot", "robotics", "humanoid", "机器人", "具身智能"]),
         ("autonomous_driving", ["autonomous driving", "self-driving", "adas", "noa", "自动驾驶", "智能驾驶", "端到端", "华为ads"]),
         ("smart_cockpit", ["smart cockpit", "智能座舱", "车载大模型", "车载agent"]),
         ("automotive", ["automotive", "vehicle", "车载", "汽车", "比亚迪", "理想", "小鹏", "蔚来"]),
         ("research", ["arxiv", "paper", "icml", "neurips", "cvpr", "sota", "论文"]),
+        ("company_research", ["company_research", "official research", "research blog", "官方研究", "技术博客"]),
+        ("official_report", ["official report", "官方报告"]),
+        ("whitepaper", ["whitepaper", "white paper", "白皮书"]),
+        ("technical_blog", ["technical blog", "developer blog", "engineering blog", "技术博客", "工程博客"]),
+        ("research_report", ["research report", "研究报告"]),
+        ("ai_research", ["ai research", "machine learning research", "ai 研究"]),
+        ("engineering_report", ["engineering report", "工程报告"]),
+        ("benchmark", ["benchmark", "基准"]),
+        ("reference_architecture", ["reference architecture", "参考架构"]),
+        ("design_guide", ["design guide", "reference design", "设计指南", "参考设计"]),
         ("opensource", ["open source", "opensource", "开源"]),
         ("security", ["security", "safety", "安全"]),
         ("regulation", ["regulation", "policy", "监管", "法规"]),
@@ -820,25 +1228,46 @@ def classify_item(item: dict[str, Any]) -> dict[str, Any]:
         ("multimodal", ["multimodal", "多模态"]),
     ]
     for tag, needles in tag_rules:
-        if any(needle in text for needle in needles):
+        if any(contains_keyword(text, needle) for needle in needles):
             tags.add(tag)
 
     source_group = clean_text(item.get("source_group", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
     category = "其他"
-    if tags & {"autonomous_driving", "smart_cockpit", "automotive"} and source_group == "auto_china":
-        category = "中国汽车"
-    elif "coding" in tags:
+    if tags & {"obc", "dcdc"}:
+        category = "OBC/DCDC"
+    elif tags & {"power_electronics", "sic", "gan", "power_control"}:
+        category = "功率电子"
+    elif tags & {"fault_diagnosis", "predictive_maintenance", "digital_twin", "simulation_optimization", "thermal_management"} and tags & {"obc", "dcdc", "power_electronics", "sic", "gan"}:
+        category = "车载电源电子"
+    elif tags & {"coding", "coding_agent", "codex", "mcp"}:
         category = "AI编程工具"
+    elif tags & {"ai_agent", "agentic_ai", "agent"}:
+        category = "AI Agent"
+    elif tags & {"org_productivity", "ai_transformation", "engineering_productivity", "developer_productivity", "knowledge_management"}:
+        category = "AI组织提效"
+    elif "workflow_automation" in tags:
+        category = "AI工作流自动化"
+    elif "whitepaper" in tags or source_type == "whitepaper":
+        category = "白皮书"
+    elif tags & {"official_report", "company_research", "ai_research"} or source_group in {"company_research", "official_research"}:
+        category = "官方研究"
+    elif "technical_blog" in tags or source_type in {"technical_blog", "official_blog"} or source_group in {"technical_report", "company_blog"}:
+        category = "技术报告"
     elif "chip" in tags:
         category = "AI芯片"
     elif "research" in tags:
         category = "研究论文"
     elif "robotics" in tags:
-        category = "机器人"
+        category = "全球AI"
     elif "opensource" in tags:
         category = "开源模型"
-    elif tags & {"security", "regulation"}:
-        category = "AI安全监管"
+    elif "autonomous_driving" in tags:
+        category = "自动驾驶"
+    elif "smart_cockpit" in tags:
+        category = "智能座舱"
+    elif tags & {"autonomous_driving", "smart_cockpit", "automotive"} and source_group == "auto_china":
+        category = "中国汽车"
     elif source_group in ("china", "auto_china") or item.get("region") == "china":
         category = "中国AI"
     elif tags:
@@ -858,8 +1287,24 @@ def score_item(item: dict[str, Any]) -> int:
     tags = set(item.get("topic_tags", []))
     score = 0
 
+    source_group = clean_text(item.get("source_group", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+
     if is_official_or_primary_source(item):
         score += 20
+    if source_group == "company_research":
+        score += 25
+    if source_group == "official_research":
+        score += 25
+    if source_group == "whitepaper" or source_type == "whitepaper" or "whitepaper" in tags:
+        score += 22
+    if source_group in {"technical_report", "company_blog"} or source_type in {"technical_blog", "official_blog"} or "technical_blog" in tags:
+        score += 18
+    if source_type == "research_paper" or "research" in tags:
+        score += 18
+    if tags & {"benchmark", "reference_architecture", "design_guide"}:
+        score += 16
+
     source = clean_text(item.get("source", "")).lower()
     if any(term in source for term in ("techcrunch", "the verge", "venturebeat", "mit technology review", "nvidia", "openai")):
         score += 15
@@ -867,22 +1312,50 @@ def score_item(item: dict[str, Any]) -> int:
         score += 15
     if any(term in text for term in ("阿里", "通义", "百度", "文心", "腾讯", "混元", "字节", "豆包", "华为", "盘古", "deepseek", "智谱", "minimax", "月之暗面")):
         score += 10
-    if "coding" in tags:
-        score += 15
+    if tags & {"ai_agent", "agentic_ai", "agent"}:
+        score += 22
+    if tags & {"coding", "coding_agent", "codex"}:
+        score += 22
+    if tags & {"mcp", "workflow_automation"}:
+        score += 18
+    if tags & {"org_productivity", "ai_transformation", "engineering_productivity", "developer_productivity", "knowledge_management"}:
+        score += 18
+    if tags & {"ai_code_review", "ai_testing", "ci_cd"}:
+        score += 18
+    if tags & {"automotive"} and tags & {"engineering_productivity", "ai_testing", "ci_cd", "ai_code_review", "coding_agent", "workflow_automation"}:
+        score += 10
+    if tags & {"obc", "dcdc"} and ("ai" in text or "人工智能" in text or "智能" in text):
+        score += 20
+    if tags & {"power_electronics", "sic", "gan", "power_control"} and ("ai" in text or "人工智能" in text or "智能" in text):
+        score += 16
+    if tags & {"fault_diagnosis", "predictive_maintenance", "digital_twin", "simulation_optimization"} and ("ai" in text or "人工智能" in text or "智能" in text):
+        score += 14
+    if POWER_ELECTRONICS_BOOST and tags & {"obc", "dcdc", "power_electronics", "sic", "gan", "power_control"}:
+        score += 8
     if "chip" in tags:
         score += 12
+    if tags & {"chip"} and any(term in text for term in ("inference", "edge ai", "边缘 ai", "车载算力", "ai 芯片", "推理")):
+        score += 16
     if tags & {"research", "opensource"}:
         score += 12
-    if tags & {"autonomous_driving", "smart_cockpit"}:
-        score += 10
+    if "autonomous_driving" in tags:
+        score += 4
+    if "smart_cockpit" in tags:
+        score += 4
     if item.get("source_group") == "auto_china":
-        score += 8
+        score += 5
     if item.get("language") == "zh":
         score += 2
     if is_google_news_link(str(item.get("link", ""))) or "google news" in source:
         score -= 3
+    if any(term in text for term in ("转载", "编译自", "综合自")) and tags & {"company_research", "official_report", "technical_blog", "whitepaper"}:
+        score -= 8
+    if any(term in text for term in ("引用报告", "据报告", "根据白皮书")) and not is_official_or_primary_source(item):
+        score -= 10
     if any(term in text for term in WEAK_BUSINESS_TERMS):
-        score -= 18
+        score -= 20
+    if any(term in text for term in ("发布会", "车型发布", "上市发布", "语音助手", "普通座舱", "销量", "价格战", "财报", "评级", "券商")):
+        score -= 20
     if is_stock_market_noise(item):
         score -= 40
     if len(clean_text(item.get("summary", ""))) < 30:
@@ -901,7 +1374,24 @@ def is_stock_market_noise(item: dict[str, Any]) -> bool:
     ticker_like = bool(re.search(r"\([A-Z]{1,5}\)", f"{item.get('title', '')} {item.get('summary', '')}"))
     if (has_market_term or ticker_like) and not strong_tech:
         return True
-    if finance_source and (has_market_term or ticker_like) and not (tags & {"chip", "autonomous_driving", "smart_cockpit", "coding", "llm", "agent"}):
+    if finance_source and (has_market_term or ticker_like) and not (
+        tags
+        & {
+            "chip",
+            "autonomous_driving",
+            "smart_cockpit",
+            "coding",
+            "coding_agent",
+            "llm",
+            "agent",
+            "ai_agent",
+            "org_productivity",
+            "power_electronics",
+            "obc",
+            "dcdc",
+            "company_research",
+        }
+    ):
         return True
     return False
 
@@ -912,7 +1402,48 @@ def is_relevant_ai_auto(item: dict[str, Any]) -> bool:
     if is_stock_market_noise(item):
         return False
     if tags:
-        if tags & {"llm", "agent", "coding", "chip", "robotics", "autonomous_driving", "smart_cockpit", "research", "opensource", "security", "regulation", "multimodal"}:
+        if tags & {
+            "llm",
+            "agent",
+            "ai_agent",
+            "agentic_ai",
+            "coding",
+            "coding_agent",
+            "mcp",
+            "codex",
+            "org_productivity",
+            "ai_transformation",
+            "engineering_productivity",
+            "workflow_automation",
+            "developer_productivity",
+            "ai_code_review",
+            "ai_testing",
+            "ci_cd",
+            "chip",
+            "power_electronics",
+            "obc",
+            "dcdc",
+            "sic",
+            "gan",
+            "power_control",
+            "fault_diagnosis",
+            "predictive_maintenance",
+            "digital_twin",
+            "simulation_optimization",
+            "company_research",
+            "official_report",
+            "whitepaper",
+            "technical_blog",
+            "research_report",
+            "robotics",
+            "autonomous_driving",
+            "smart_cockpit",
+            "research",
+            "opensource",
+            "security",
+            "regulation",
+            "multimodal",
+        }:
             return True
     if any(term in text for term in WEAK_BUSINESS_TERMS) and not tags:
         return False
@@ -922,6 +1453,10 @@ def is_relevant_ai_auto(item: dict[str, Any]) -> bool:
 def better_duplicate_choice(old_item: dict[str, Any], new_item: dict[str, Any]) -> dict[str, Any]:
     old_score = score_item(classify_item(old_item))
     new_score = score_item(classify_item(new_item))
+    old_rank = source_preference_rank(classify_item(old_item))
+    new_rank = source_preference_rank(classify_item(new_item))
+    if new_rank != old_rank:
+        return new_item if new_rank > old_rank else old_item
     old_primary = is_official_or_primary_source(old_item) and not is_google_news_link(str(old_item.get("link", "")))
     new_primary = is_official_or_primary_source(new_item) and not is_google_news_link(str(new_item.get("link", "")))
     if new_primary != old_primary:
@@ -1016,6 +1551,14 @@ def has_new_development_signal(item: dict[str, Any], matched_history_item: dict[
     return has_signal and simple_title_similarity(text, old_text) < 0.95
 
 
+def should_prefer_over_history_duplicate(item: dict[str, Any], matched_history_item: dict[str, Any] | None) -> bool:
+    if not matched_history_item:
+        return False
+    new_rank = source_preference_rank(item)
+    old_rank = source_preference_rank(matched_history_item)
+    return new_rank >= 45 and new_rank > old_rank
+
+
 def is_seen_in_history(
     item: dict[str, Any],
     history: dict[str, Any],
@@ -1063,6 +1606,7 @@ def update_history_with_items(history: dict[str, Any], selected_items: list[dict
             "category": clean_text(item.get("category", "")),
             "region": clean_text(item.get("region", "")),
             "source_group": clean_text(item.get("source_group", "")),
+            "source_type": clean_text(item.get("source_type", "")),
             "seen_count": 1,
         }
         history.setdefault("items", []).append(record)
@@ -1215,40 +1759,112 @@ def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dic
 
 
 def is_global_candidate(item: dict[str, Any]) -> bool:
-    return item.get("region") == "global" or item.get("category") in {"全球AI", "AI芯片", "AI编程工具", "研究论文", "开源模型"}
+    return item.get("region") == "global" or item.get("category") in {"全球AI", "AI芯片", "AI编程工具", "AI Agent", "官方研究", "技术报告", "白皮书", "研究论文", "开源模型"}
+
+
+def is_agent_candidate(item: dict[str, Any]) -> bool:
+    tags = set(item.get("topic_tags", []))
+    return item.get("category") in {"AI Agent", "AI编程工具"} or bool(tags & {"ai_agent", "agentic_ai", "coding_agent", "mcp", "codex", "ai_code_review", "ai_testing"})
+
+
+def is_productivity_candidate(item: dict[str, Any]) -> bool:
+    tags = set(item.get("topic_tags", []))
+    return item.get("category") in {"AI组织提效", "AI工作流自动化"} or bool(tags & {"org_productivity", "ai_transformation", "engineering_productivity", "workflow_automation", "knowledge_management", "developer_productivity", "ci_cd"})
+
+
+def is_company_research_candidate(item: dict[str, Any]) -> bool:
+    tags = set(item.get("topic_tags", []))
+    return item.get("category") in {"官方研究", "技术报告", "白皮书"} or clean_text(item.get("source_group", "")).lower() in {"company_research", "official_research", "technical_report", "whitepaper", "company_blog"} or bool(tags & {"company_research", "official_report", "whitepaper", "technical_blog", "research_report"})
+
+
+def is_power_candidate(item: dict[str, Any]) -> bool:
+    tags = set(item.get("topic_tags", []))
+    return item.get("category") in {"车载电源电子", "OBC/DCDC", "功率电子"} or bool(tags & {"power_electronics", "obc", "dcdc", "sic", "gan", "power_control", "fault_diagnosis", "predictive_maintenance", "digital_twin", "simulation_optimization"})
+
+
+def is_auto_driving_candidate(item: dict[str, Any]) -> bool:
+    return item.get("category") == "自动驾驶" or "autonomous_driving" in set(item.get("topic_tags", []))
+
+
+def is_smart_cockpit_candidate(item: dict[str, Any]) -> bool:
+    return item.get("category") == "智能座舱" or "smart_cockpit" in set(item.get("topic_tags", []))
 
 
 def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
-    rejected_stats = {"same_source_limit": 0, "china_limit": 0, "auto_china_limit": 0}
+    rejected_stats = {
+        "same_source_limit": 0,
+        "china_limit": 0,
+        "auto_china_limit": 0,
+        "company_research_limit": 0,
+        "auto_driving_limit": 0,
+        "smart_cockpit_limit": 0,
+        "no_agent_candidate": 0,
+        "no_productivity_candidate": 0,
+        "no_company_research_candidate": 0,
+        "no_power_electronics_candidate": 0,
+    }
     selected: list[dict[str, Any]] = []
     source_counts: dict[str, int] = {}
     china_count = 0
     auto_china_count = 0
     google_news_count = 0
-    sorted_items = sorted(items, key=lambda item: int(item.get("score", 0)), reverse=True)
+    company_research_count = 0
+    auto_driving_count = 0
+    smart_cockpit_count = 0
+    sorted_items = sorted(
+        items,
+        key=lambda item: (
+            int(item.get("score", 0)),
+            source_preference_rank(item),
+            item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc),
+        ),
+        reverse=True,
+    )
 
-    def can_add(item: dict[str, Any], enforce_region_limits: bool = True) -> tuple[bool, str]:
-        nonlocal china_count, auto_china_count, google_news_count
+    def can_add(
+        item: dict[str, Any],
+        enforce_region_limits: bool = True,
+        enforce_topic_limits: bool = True,
+    ) -> tuple[bool, str]:
+        nonlocal china_count, auto_china_count, google_news_count, company_research_count, auto_driving_count, smart_cockpit_count
         source = clean_text(item.get("source", "unknown")) or "unknown"
         if source_counts.get(source, 0) >= MAX_SAME_SOURCE_NEWS:
             return False, "source_limit_applied"
         source_group = clean_text(item.get("source_group", "")).lower()
         is_china = item.get("region") == "china" or source_group in ("china", "auto_china")
         is_auto = source_group == "auto_china" or item.get("category") == "中国汽车"
+        is_company = is_company_research_candidate(item)
+        is_auto_driving = is_auto_driving_candidate(item)
+        is_smart_cockpit = is_smart_cockpit_candidate(item)
         if enforce_region_limits and is_china and china_count >= MAX_CHINA_NEWS:
             return False, "china_limit"
         if enforce_region_limits and is_auto and auto_china_count >= MAX_AUTO_CHINA_NEWS:
             return False, "auto_china_limit"
+        if enforce_topic_limits and is_company and company_research_count >= MAX_COMPANY_RESEARCH_NEWS:
+            return False, "company_research_limit"
+        if enforce_topic_limits and is_auto_driving and not (is_agent_candidate(item) or is_productivity_candidate(item) or is_power_candidate(item) or "chip" in set(item.get("topic_tags", []))) and auto_driving_count >= MAX_AUTO_DRIVING_NEWS:
+            return False, "auto_driving_limit"
+        if enforce_topic_limits and is_smart_cockpit and not (is_agent_candidate(item) or is_productivity_candidate(item) or is_power_candidate(item) or "chip" in set(item.get("topic_tags", []))) and smart_cockpit_count >= MAX_SMART_COCKPIT_NEWS:
+            return False, "smart_cockpit_limit"
         google_news_limit = TARGET_CANDIDATE_COUNT
         if is_google_news_link(str(item.get("link", ""))) and google_news_count >= google_news_limit:
             return False, "source_limit_applied"
         return True, ""
 
-    def add_item(item: dict[str, Any], reason: str, enforce_region_limits: bool = True) -> bool:
-        nonlocal china_count, auto_china_count, google_news_count
+    def add_item(
+        item: dict[str, Any],
+        reason: str,
+        enforce_region_limits: bool = True,
+        enforce_topic_limits: bool = True,
+    ) -> bool:
+        nonlocal china_count, auto_china_count, google_news_count, company_research_count, auto_driving_count, smart_cockpit_count
         if any(item.get("canonical_key") == existing.get("canonical_key") for existing in selected):
             return False
-        ok, rejected_reason = can_add(item, enforce_region_limits=enforce_region_limits)
+        ok, rejected_reason = can_add(
+            item,
+            enforce_region_limits=enforce_region_limits,
+            enforce_topic_limits=enforce_topic_limits,
+        )
         if not ok:
             rejected_stats[rejected_reason] = rejected_stats.get(rejected_reason, 0) + 1
             return False
@@ -1264,13 +1880,40 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
             auto_china_count += 1
         if is_google_news_link(str(chosen.get("link", ""))):
             google_news_count += 1
+        if is_company_research_candidate(chosen):
+            company_research_count += 1
+        if is_auto_driving_candidate(chosen):
+            auto_driving_count += 1
+        if is_smart_cockpit_candidate(chosen):
+            smart_cockpit_count += 1
         return True
 
-    for item in sorted_items:
-        if len([i for i in selected if is_global_candidate(i)]) >= MIN_GLOBAL_NEWS:
-            break
-        if is_global_candidate(item):
-            add_item(item, "required_global_quota")
+    def add_quota(predicate: Any, target: int, reason: str, enforce_topic_limits: bool = True) -> None:
+        if target <= 0:
+            return
+        for item in sorted_items:
+            if len(selected) >= TARGET_CANDIDATE_COUNT:
+                break
+            if len([i for i in selected if predicate(i)]) >= target:
+                break
+            if predicate(item):
+                add_item(item, reason, enforce_topic_limits=enforce_topic_limits)
+
+    if not any(is_agent_candidate(item) for item in sorted_items):
+        rejected_stats["no_agent_candidate"] = 1
+    if not any(is_productivity_candidate(item) for item in sorted_items):
+        rejected_stats["no_productivity_candidate"] = 1
+    if not any(is_company_research_candidate(item) for item in sorted_items):
+        rejected_stats["no_company_research_candidate"] = 1
+    if not any(is_power_candidate(item) for item in sorted_items):
+        rejected_stats["no_power_electronics_candidate"] = 1
+
+    add_quota(is_agent_candidate, MIN_AGENT_NEWS, "required_agent_or_coding")
+    add_quota(is_productivity_candidate, MIN_PRODUCTIVITY_NEWS, "required_productivity")
+    if POWER_ELECTRONICS_BOOST:
+        add_quota(is_power_candidate, 1, "power_electronics_boost", enforce_topic_limits=False)
+    add_quota(is_company_research_candidate, MIN_COMPANY_RESEARCH_NEWS, "required_company_research", enforce_topic_limits=False)
+    add_quota(is_global_candidate, MIN_GLOBAL_NEWS, "required_global_quota")
 
     for item in sorted_items:
         if len(selected) >= TARGET_CANDIDATE_COUNT:
@@ -1283,7 +1926,25 @@ def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, An
     for item in sorted_items:
         if len(selected) >= TARGET_CANDIDATE_COUNT:
             break
-        add_item(item, "fill_remaining_high_score")
+        missing_reasons = [
+            key
+            for key in (
+                "no_agent_candidate",
+                "no_productivity_candidate",
+                "no_company_research_candidate",
+                "no_power_electronics_candidate",
+            )
+            if rejected_stats.get(key)
+        ]
+        reason = "fill_remaining_high_score"
+        if missing_reasons:
+            reason += ";" + ";".join(missing_reasons)
+        add_item(item, reason)
+
+    for item in sorted_items:
+        if len(selected) >= TARGET_CANDIDATE_COUNT:
+            break
+        add_item(item, "fill_remaining_relaxed_topic_limits", enforce_topic_limits=False)
 
     return selected[:TARGET_CANDIDATE_COUNT], rejected_stats
 
@@ -1471,6 +2132,17 @@ def extract_html_metadata(html_text: str) -> tuple[str, str]:
 def keyword_hits(text: str, keywords: list[str]) -> int:
     value = text.lower()
     return sum(1 for keyword in keywords if keyword in value)
+
+
+def contains_keyword(text: str, keyword: str) -> bool:
+    needle = keyword.lower().strip()
+    if not needle:
+        return False
+    if re.search(r"[\u4e00-\u9fff]", needle):
+        return needle in text
+    if len(needle) <= 4 and re.fullmatch(r"[a-z0-9][a-z0-9+.-]*", needle):
+        return re.search(rf"(?<![a-z0-9]){re.escape(needle)}(?![a-z0-9])", text) is not None
+    return needle in text
 
 
 def news_auto_focus_bonus(text: str) -> int:
@@ -1690,6 +2362,10 @@ def collect_news_candidates(
             item["selection_reason"] = "new_development_after_previous_topic"
             history_filtered_items.append(item)
             continue
+        if seen and should_prefer_over_history_duplicate(item, matched):
+            item["selection_reason"] = "preferred_official_source_over_history_duplicate"
+            history_filtered_items.append(item)
+            continue
         if seen:
             rejected_stats["history_duplicate"] += 1
             if len(history_duplicate_samples) < 10:
@@ -1737,6 +2413,13 @@ def collect_news_candidates(
         "max_auto_china_news": MAX_AUTO_CHINA_NEWS,
         "max_same_source_news": MAX_SAME_SOURCE_NEWS,
         "max_items_for_llm": MAX_ITEMS_FOR_LLM,
+        "min_agent_news": MIN_AGENT_NEWS,
+        "min_productivity_news": MIN_PRODUCTIVITY_NEWS,
+        "min_company_research_news": MIN_COMPANY_RESEARCH_NEWS,
+        "max_company_research_news": MAX_COMPANY_RESEARCH_NEWS,
+        "max_auto_driving_news": MAX_AUTO_DRIVING_NEWS,
+        "max_smart_cockpit_news": MAX_SMART_COCKPIT_NEWS,
+        "power_electronics_boost": POWER_ELECTRONICS_BOOST,
     }
     history_dedupe = {
         "history_path": HISTORY_PATH.as_posix(),

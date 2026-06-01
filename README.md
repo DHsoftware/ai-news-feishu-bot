@@ -76,7 +76,7 @@ cp .env.example .env
 - `FEISHU_BOT_SECRET`
 - `TIMEZONE`（默认 `Asia/Shanghai`）
 - `NEWS_MAX_CHARS`（默认 `3500`）
-- `NEWS_TOP_N`（默认 `5`）
+- `NEWS_TOP_N`（默认 `3`）
 
 说明：
 - 代码优先读取 `LITELLM_API_KEY`，兼容 `OPENAI_API_KEY`。
@@ -149,7 +149,7 @@ cp .env.example .env
 
 飞书消息结构：
 1. 今日摘要
-2. 重要新闻 Top N
+2. 重要新闻 Top 3
 3. Codex Agent 每日一学
 
 如果学习资源为空：
@@ -185,17 +185,36 @@ data/history/learning-history.json
 - `curated_items`：默认 1 条，供“Codex Agent 每日一学”直接使用。
 - `history_dedupe`：学习资源历史去重统计。
 
+当前新闻重点已调整为：
+1. AI Agent / AI 编程工具 / Codex / MCP / Agent workflow。
+2. AI 组织变革、研发提效、企业流程自动化、软件工程提效。
+3. AI + 车载 OBC / DCDC / 功率电子 / 电源控制 / 故障诊断 / 预测性维护 / 数字孪生。
+4. 头部公司官方研究报告、技术博客、白皮书、研究论文和官方技术文章。
+5. 其他重大 AI 技术新闻。
+
+自动驾驶和智能座舱现在只是补充方向，不再是默认主线。只有明确涉及 AI Agent、车载 Agent、研发提效、软件工程工具链、OBC/DCDC/功率电子、AI 芯片或车载算力平台技术进展、重大模型/算法/工具链突破时，才会优先进入候选。
+
+信息源不仅包含新闻媒体，也包含头部公司官方研究报告、技术博客、白皮书和论文。官方技术内容优先级高于媒体转载；同一事件重复时，保留顺序为：官方研究报告 > 官方技术博客 > 白皮书 > 高质量技术媒体 > 普通媒体转载 > Google News 聚合链接。默认 `curated_items` 中会尽量保留 1 条高质量公司研究/技术报告。
+
 ## 10.2 RSS 策展配置
 可通过环境变量调整，不填写则使用默认值：
 
 ```bash
 NEWS_REGION_MODE=balanced
+NEWS_TOP_N=3
 TARGET_CANDIDATE_COUNT=5
 MIN_GLOBAL_NEWS=2
 MAX_CHINA_NEWS=2
 MAX_AUTO_CHINA_NEWS=1
 MAX_SAME_SOURCE_NEWS=2
 MAX_ITEMS_FOR_LLM=5
+MIN_AGENT_NEWS=1
+MIN_PRODUCTIVITY_NEWS=1
+MIN_COMPANY_RESEARCH_NEWS=1
+MAX_COMPANY_RESEARCH_NEWS=2
+MAX_AUTO_DRIVING_NEWS=1
+MAX_SMART_COCKPIT_NEWS=1
+POWER_ELECTRONICS_BOOST=true
 CANDIDATE_RETENTION_DAYS=3
 HISTORY_DEDUPE_DAYS=14
 HISTORY_RETENTION_DAYS=30
@@ -210,6 +229,9 @@ LEARNING_HISTORY_SIMILARITY_THRESHOLD=0.82
 调参建议：
 - 如果日报中国新闻太多：降低 `MAX_CHINA_NEWS`、降低 `MAX_AUTO_CHINA_NEWS`、提高 `MIN_GLOBAL_NEWS`。
 - 如果日报全球新闻太多：提高 `MAX_CHINA_NEWS` 或 `MAX_AUTO_CHINA_NEWS`。
+- 如果日报官方报告太多：降低 `MAX_COMPANY_RESEARCH_NEWS`。
+- 如果希望更多技术深度：提高 `MIN_COMPANY_RESEARCH_NEWS` 或 `TARGET_CANDIDATE_COUNT`。
+- 如果普通自动驾驶/智能座舱仍然太多：降低 `MAX_AUTO_DRIVING_NEWS` 和 `MAX_SMART_COCKPIT_NEWS`。
 - 如果当天重复新闻仍然很多：检查 `dedupe_key` / normalized title，并降低相似度阈值，例如 `0.82` 改为 `0.78`。
 - 如果跨天重复新闻仍然很多：提高 `HISTORY_DEDUPE_DAYS`，或降低 `HISTORY_SIMILARITY_THRESHOLD`。
 - 如果新进展被误杀：提高 `HISTORY_SIMILARITY_THRESHOLD`，降低 `HISTORY_DEDUPE_DAYS`，并检查 `has_new_development_signal`。
@@ -220,7 +242,7 @@ LEARNING_HISTORY_SIMILARITY_THRESHOLD=0.82
 当天重复新闻判断：
 - 标题规范化后完全相同，视为重复。
 - 标题相似度高于阈值，视为重复。
-- 同一标题多来源转载时，优先保留官方/原始来源、分数更高或摘要更完整的条目。
+- 同一标题多来源转载时，优先保留官方研究报告、官方技术博客、白皮书、高质量技术媒体，再看分数、摘要完整度和发布时间。
 - Google News 聚合链接不会单独作为强唯一依据，优先按标题判断。
 
 跨天重复新闻判断：
@@ -228,6 +250,7 @@ LEARNING_HISTORY_SIMILARITY_THRESHOLD=0.82
 - normalized title 相似度超过 `HISTORY_SIMILARITY_THRESHOLD`，视为旧闻。
 - normalized link 相同且不是 Google News 聚合链接，视为旧闻。
 - 标题/摘要包含明确新进展信号（如发布、上线、量产、开源、benchmark）时可保守放行，并写入 `selection_reason`。
+- 如果历史里已有普通媒体转载，但当天出现更高优先级的官方研究、技术博客或白皮书，脚本会优先放行官方来源，并写入 `selection_reason`。
 
 手动测试 GitHub Actions 抓取结果：
 
