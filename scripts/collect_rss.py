@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -18,7 +19,7 @@ from html import unescape
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import parse_qsl, quote, urlencode, urlparse, urlunparse
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
@@ -35,6 +36,54 @@ MAX_ITEMS_PER_SOURCE = 4
 NEWS_FALLBACK_HOURS = 48
 LEARNING_RECENT_DAYS = 30
 LEARNING_FALLBACK_DAYS = 90
+
+
+def parse_int_env(name: str, default: int) -> int:
+    raw = os.getenv(name, str(default)).strip()
+    try:
+        value = int(raw)
+        if value <= 0:
+            raise ValueError
+        return value
+    except ValueError:
+        LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
+        return default
+
+
+def parse_float_env(name: str, default: float) -> float:
+    raw = os.getenv(name, str(default)).strip()
+    try:
+        value = float(raw)
+        if value <= 0:
+            raise ValueError
+        return value
+    except ValueError:
+        LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
+        return default
+
+
+NEWS_REGION_MODE = os.getenv("NEWS_REGION_MODE", "balanced")
+TARGET_CANDIDATE_COUNT = parse_int_env("TARGET_CANDIDATE_COUNT", 5)
+MIN_GLOBAL_NEWS = parse_int_env("MIN_GLOBAL_NEWS", 2)
+MAX_CHINA_NEWS = parse_int_env("MAX_CHINA_NEWS", 2)
+MAX_AUTO_CHINA_NEWS = parse_int_env("MAX_AUTO_CHINA_NEWS", 1)
+MAX_SAME_SOURCE_NEWS = parse_int_env("MAX_SAME_SOURCE_NEWS", 2)
+MAX_ITEMS_FOR_LLM = parse_int_env("MAX_ITEMS_FOR_LLM", 5)
+CANDIDATE_RETENTION_DAYS = parse_int_env("CANDIDATE_RETENTION_DAYS", 3)
+
+HISTORY_DEDUPE_DAYS = parse_int_env("HISTORY_DEDUPE_DAYS", 14)
+HISTORY_RETENTION_DAYS = parse_int_env("HISTORY_RETENTION_DAYS", 30)
+HISTORY_SIMILARITY_THRESHOLD = parse_float_env("HISTORY_SIMILARITY_THRESHOLD", 0.82)
+HISTORY_PATH = Path("data") / "history" / "news-history.json"
+LEARNING_HISTORY_DEDUPE_DAYS = parse_int_env("LEARNING_HISTORY_DEDUPE_DAYS", HISTORY_DEDUPE_DAYS)
+LEARNING_HISTORY_RETENTION_DAYS = parse_int_env("LEARNING_HISTORY_RETENTION_DAYS", HISTORY_RETENTION_DAYS)
+LEARNING_HISTORY_SIMILARITY_THRESHOLD = parse_float_env(
+    "LEARNING_HISTORY_SIMILARITY_THRESHOLD",
+    HISTORY_SIMILARITY_THRESHOLD,
+)
+LEARNING_HISTORY_PATH = Path("data") / "history" / "learning-history.json"
+TARGET_LEARNING_CANDIDATE_COUNT = parse_int_env("TARGET_LEARNING_CANDIDATE_COUNT", 1)
+MAX_SAME_SOURCE_LEARNING = parse_int_env("MAX_SAME_SOURCE_LEARNING", 1)
 
 GOOGLE_NEWS_ZH_HL = "zh-CN"
 GOOGLE_NEWS_ZH_GL = "CN"
@@ -489,11 +538,26 @@ LEARNING_EXCLUDE_KEYWORDS = [
     "带货",
     "广告投放",
     "娱乐八卦",
+    "手机号",
+    "手机验证",
+    "接码",
+    "验证码",
+    "账号购买",
+    "账号注册",
+    "代充",
+    "充值",
+    "订阅账号",
+    "解锁",
+    "coupon",
     "music video",
     "gaming",
     "movie trailer",
     "celebrity",
     "coupon",
+    "phone verification",
+    "sms verification",
+    "virtual number",
+    "account verification",
 ]
 
 LEARNING_CORE_TERMS = ["codex", "agent", "cli", "mcp", "agents.md"]
@@ -522,6 +586,706 @@ def clean_text(text: str) -> str:
     text = text.replace("&#160;", " ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+TITLE_SOURCE_SUFFIX_RE = re.compile(r"\s*[-_|｜—]\s*[^-_|｜—]{2,30}$")
+TITLE_NOISE_WORDS = [
+    "视频",
+    "图文",
+    "快讯",
+    "重磅",
+    "独家",
+    "刚刚",
+    "最新",
+    "盘中",
+    "收评",
+    "异动",
+    "股价",
+    "涨停",
+    "跌停",
+]
+TRACKING_QUERY_KEYS = {
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
+    "fbclid",
+    "gclid",
+    "spm",
+    "from",
+    "source",
+}
+WEAK_BUSINESS_TERMS = [
+    "stock",
+    "stocks",
+    "shares",
+    "share price",
+    "nasdaq",
+    "nyse",
+    "price target",
+    "analyst",
+    "rating",
+    "market cap",
+    "premarket",
+    "pre-market",
+    "after-hours",
+    "portfolio",
+    "hedge fund",
+    "investment",
+    "funding",
+    "sales",
+    "price war",
+    "earnings",
+    "corp.",
+    "(nvda)",
+    "股价",
+    "股票",
+    "股市",
+    "行情",
+    "美股",
+    "港股",
+    "a股",
+    "涨幅",
+    "跌幅",
+    "目标价",
+    "评级",
+    "研报",
+    "市值",
+    "盘前",
+    "盘后",
+    "投资",
+    "融资",
+    "销量",
+    "价格战",
+    "车型上市",
+    "上市",
+    "营销",
+    "财报",
+]
+FINANCE_SOURCE_TERMS = [
+    "yahoo finance",
+    "moomoo",
+    "sina finance",
+    "新浪财经",
+    "东方财富",
+    "证券时报",
+    "财联社",
+    "marketwatch",
+    "motley fool",
+    "investor",
+]
+STRONG_TECH_TAGS = {
+    "llm",
+    "agent",
+    "coding",
+    "chip",
+    "robotics",
+    "autonomous_driving",
+    "smart_cockpit",
+    "research",
+    "opensource",
+    "security",
+    "regulation",
+    "multimodal",
+}
+NEW_DEVELOPMENT_TERMS = [
+    "update",
+    "launches",
+    "releases",
+    "announces",
+    "version",
+    "rollout",
+    "approval",
+    "production",
+    "open source",
+    "benchmark",
+    "新版本",
+    "发布",
+    "上线",
+    "获批",
+    "量产",
+    "首发",
+    "开源",
+    "基准",
+    "重大更新",
+    "正式推出",
+    "开始交付",
+]
+GOOGLE_NEWS_HOSTS = {"news.google.com"}
+
+
+def normalize_title(title: str) -> str:
+    value = clean_text(title).lower()
+    value = TITLE_SOURCE_SUFFIX_RE.sub("", value)
+    value = re.sub(r"\b\d{4}[-/.年]\d{1,2}[-/.月]\d{1,2}日?\b", " ", value)
+    value = re.sub(r"\b\d{1,2}:\d{2}(:\d{2})?\b", " ", value)
+    for word in TITLE_NOISE_WORDS:
+        value = value.replace(word, " ")
+    value = re.sub(r"[^\w\u4e00-\u9fff]+", " ", value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
+
+
+def normalize_link(link: str) -> str:
+    value = clean_text(link)
+    if not value:
+        return ""
+    parsed = urlparse(value)
+    query = [
+        (key, val)
+        for key, val in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in TRACKING_QUERY_KEYS
+    ]
+    return urlunparse(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path.rstrip("/"),
+            "",
+            urlencode(query, doseq=True),
+            "",
+        )
+    )
+
+
+def is_google_news_link(link: str) -> bool:
+    return urlparse(clean_text(link)).netloc.lower() in GOOGLE_NEWS_HOSTS
+
+
+def title_tokens(value: str) -> set[str]:
+    normalized = normalize_title(value)
+    if re.search(r"[\u4e00-\u9fff]", normalized):
+        compact = re.sub(r"\s+", "", normalized)
+        if len(compact) <= 2:
+            return {compact} if compact else set()
+        return {compact[i : i + 2] for i in range(len(compact) - 1)}
+    return {token for token in normalized.split() if token}
+
+
+def simple_title_similarity(a: str, b: str) -> float:
+    a_tokens = title_tokens(a)
+    b_tokens = title_tokens(b)
+    if not a_tokens or not b_tokens:
+        return 0.0
+    return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
+
+
+def make_canonical_key(item: dict[str, Any]) -> str:
+    title_key = normalize_title(str(item.get("title", "")))
+    if len(title_key) >= 8:
+        return title_key
+    link_key = normalize_link(str(item.get("link", "")))
+    source_group = clean_text(item.get("source_group", "unknown")).lower()
+    return f"{source_group}:{link_key or title_key}"
+
+
+def is_official_or_primary_source(item: dict[str, Any]) -> bool:
+    source = clean_text(item.get("source", "")).lower()
+    link = clean_text(item.get("link", "")).lower()
+    primary_terms = [
+        "openai",
+        "anthropic",
+        "deepmind",
+        "google ai",
+        "meta ai",
+        "microsoft",
+        "nvidia",
+        "apple",
+        "github",
+        "arxiv",
+        "research",
+    ]
+    return any(term in source or term in link for term in primary_terms)
+
+
+def classify_item(item: dict[str, Any]) -> dict[str, Any]:
+    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}".lower()
+    tags: set[str] = set()
+
+    tag_rules = [
+        ("llm", ["llm", "large language model", "大模型", "生成式ai", "generative ai"]),
+        ("agent", ["agent", "智能体", "mcp", "codex", "devin"]),
+        ("coding", ["coding assistant", "ai coding", "code generation", "copilot", "cursor", "codex", "代码助手", "ai编程"]),
+        ("chip", ["gpu", "npu", "ai chip", "inference", "training", "算力", "芯片", "昇腾", "寒武纪", "地平线", "黑芝麻", "芯驰"]),
+        ("robotics", ["robot", "robotics", "humanoid", "机器人", "具身智能"]),
+        ("autonomous_driving", ["autonomous driving", "self-driving", "adas", "noa", "自动驾驶", "智能驾驶", "端到端", "华为ads"]),
+        ("smart_cockpit", ["smart cockpit", "智能座舱", "车载大模型", "车载agent"]),
+        ("automotive", ["automotive", "vehicle", "车载", "汽车", "比亚迪", "理想", "小鹏", "蔚来"]),
+        ("research", ["arxiv", "paper", "icml", "neurips", "cvpr", "sota", "论文"]),
+        ("opensource", ["open source", "opensource", "开源"]),
+        ("security", ["security", "safety", "安全"]),
+        ("regulation", ["regulation", "policy", "监管", "法规"]),
+        ("cloud", ["cloud", "云"]),
+        ("multimodal", ["multimodal", "多模态"]),
+    ]
+    for tag, needles in tag_rules:
+        if any(needle in text for needle in needles):
+            tags.add(tag)
+
+    source_group = clean_text(item.get("source_group", "")).lower()
+    category = "其他"
+    if tags & {"autonomous_driving", "smart_cockpit", "automotive"} and source_group == "auto_china":
+        category = "中国汽车"
+    elif "coding" in tags:
+        category = "AI编程工具"
+    elif "chip" in tags:
+        category = "AI芯片"
+    elif "research" in tags:
+        category = "研究论文"
+    elif "robotics" in tags:
+        category = "机器人"
+    elif "opensource" in tags:
+        category = "开源模型"
+    elif tags & {"security", "regulation"}:
+        category = "AI安全监管"
+    elif source_group in ("china", "auto_china") or item.get("region") == "china":
+        category = "中国AI"
+    elif tags:
+        category = "全球AI"
+
+    out = dict(item)
+    out["topic_tags"] = sorted(tags)
+    out["category"] = category
+    out["dedupe_key"] = normalize_title(str(item.get("title", "")))
+    out["canonical_key"] = make_canonical_key(item)
+    out["normalized_link"] = normalize_link(str(item.get("link", "")))
+    return out
+
+
+def score_item(item: dict[str, Any]) -> int:
+    text = f"{item.get('title', '')} {item.get('summary', '')} {item.get('source', '')}".lower()
+    tags = set(item.get("topic_tags", []))
+    score = 0
+
+    if is_official_or_primary_source(item):
+        score += 20
+    source = clean_text(item.get("source", "")).lower()
+    if any(term in source for term in ("techcrunch", "the verge", "venturebeat", "mit technology review", "nvidia", "openai")):
+        score += 15
+    if any(term in text for term in ("openai", "anthropic", "deepmind", "meta ai", "microsoft", "nvidia", "apple")):
+        score += 15
+    if any(term in text for term in ("阿里", "通义", "百度", "文心", "腾讯", "混元", "字节", "豆包", "华为", "盘古", "deepseek", "智谱", "minimax", "月之暗面")):
+        score += 10
+    if "coding" in tags:
+        score += 15
+    if "chip" in tags:
+        score += 12
+    if tags & {"research", "opensource"}:
+        score += 12
+    if tags & {"autonomous_driving", "smart_cockpit"}:
+        score += 10
+    if item.get("source_group") == "auto_china":
+        score += 8
+    if item.get("language") == "zh":
+        score += 2
+    if is_google_news_link(str(item.get("link", ""))) or "google news" in source:
+        score -= 3
+    if any(term in text for term in WEAK_BUSINESS_TERMS):
+        score -= 18
+    if is_stock_market_noise(item):
+        score -= 40
+    if len(clean_text(item.get("summary", ""))) < 30:
+        score -= 5
+    return score
+
+
+def is_stock_market_noise(item: dict[str, Any]) -> bool:
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    source = clean_text(item.get("source", "")).lower()
+    tags = set(item.get("topic_tags", []))
+    has_market_term = any(term in text for term in WEAK_BUSINESS_TERMS)
+    finance_source = any(term in source for term in FINANCE_SOURCE_TERMS)
+    strong_tech = bool(tags & STRONG_TECH_TAGS)
+
+    ticker_like = bool(re.search(r"\([A-Z]{1,5}\)", f"{item.get('title', '')} {item.get('summary', '')}"))
+    if (has_market_term or ticker_like) and not strong_tech:
+        return True
+    if finance_source and (has_market_term or ticker_like) and not (tags & {"chip", "autonomous_driving", "smart_cockpit", "coding", "llm", "agent"}):
+        return True
+    return False
+
+
+def is_relevant_ai_auto(item: dict[str, Any]) -> bool:
+    tags = set(item.get("topic_tags", []))
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    if is_stock_market_noise(item):
+        return False
+    if tags:
+        if tags & {"llm", "agent", "coding", "chip", "robotics", "autonomous_driving", "smart_cockpit", "research", "opensource", "security", "regulation", "multimodal"}:
+            return True
+    if any(term in text for term in WEAK_BUSINESS_TERMS) and not tags:
+        return False
+    return False
+
+
+def better_duplicate_choice(old_item: dict[str, Any], new_item: dict[str, Any]) -> dict[str, Any]:
+    old_score = score_item(classify_item(old_item))
+    new_score = score_item(classify_item(new_item))
+    old_primary = is_official_or_primary_source(old_item) and not is_google_news_link(str(old_item.get("link", "")))
+    new_primary = is_official_or_primary_source(new_item) and not is_google_news_link(str(new_item.get("link", "")))
+    if new_primary != old_primary:
+        return new_item if new_primary else old_item
+    if new_score != old_score:
+        return new_item if new_score > old_score else old_item
+    if len(clean_text(new_item.get("summary", ""))) != len(clean_text(old_item.get("summary", ""))):
+        return new_item if len(clean_text(new_item.get("summary", ""))) > len(clean_text(old_item.get("summary", ""))) else old_item
+    old_dt = old_item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
+    new_dt = new_item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
+    return new_item if new_dt > old_dt else old_item
+
+
+def deduplicate_news_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    selected: list[dict[str, Any]] = []
+    duplicate_count = 0
+    for item in items:
+        key = normalize_title(str(item.get("title", "")))
+        match_index: int | None = None
+        for idx, existing in enumerate(selected):
+            existing_key = normalize_title(str(existing.get("title", "")))
+            if key and key == existing_key:
+                match_index = idx
+                break
+            if simple_title_similarity(key, existing_key) > HISTORY_SIMILARITY_THRESHOLD:
+                match_index = idx
+                break
+        if match_index is None:
+            selected.append(item)
+            continue
+        duplicate_count += 1
+        selected[match_index] = better_duplicate_choice(selected[match_index], item)
+    return selected, duplicate_count
+
+
+def load_history() -> dict[str, Any]:
+    if not HISTORY_PATH.exists():
+        return {"updated_at": "", "timezone": TIMEZONE_NAME, "retention_days": HISTORY_RETENTION_DAYS, "items": []}
+    try:
+        data = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+            raise ValueError("invalid history structure")
+        return data
+    except Exception as exc:
+        LOGGER.warning("Load history failed, start with empty history: %s", exc)
+        return {"updated_at": "", "timezone": TIMEZONE_NAME, "retention_days": HISTORY_RETENTION_DAYS, "items": []}
+
+
+def save_history(history: dict[str, Any]) -> None:
+    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def parse_date(value: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def history_item_recent(history_item: dict[str, Any], target_date: str, days: int) -> bool:
+    target_dt = parse_date(target_date)
+    last_dt = parse_date(str(history_item.get("last_seen_date") or history_item.get("first_seen_date") or ""))
+    if not target_dt or not last_dt:
+        return False
+    delta_days = (target_dt - last_dt).days
+    return 0 < delta_days <= days
+
+
+def prune_history(history: dict[str, Any], target_date: str) -> dict[str, Any]:
+    target_dt = parse_date(target_date)
+    if not target_dt:
+        return history
+    kept = []
+    for item in history.get("items", []):
+        first_dt = parse_date(str(item.get("first_seen_date", "")))
+        last_dt = parse_date(str(item.get("last_seen_date", "")))
+        anchor = last_dt or first_dt
+        if anchor and (target_dt - anchor).days <= HISTORY_RETENTION_DAYS:
+            kept.append(item)
+    history["items"] = kept
+    history["retention_days"] = HISTORY_RETENTION_DAYS
+    return history
+
+
+def has_new_development_signal(item: dict[str, Any], matched_history_item: dict[str, Any] | None) -> bool:
+    if not matched_history_item:
+        return False
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
+    old_text = str(matched_history_item.get("title", "")).lower()
+    has_signal = any(term in text for term in NEW_DEVELOPMENT_TERMS)
+    return has_signal and simple_title_similarity(text, old_text) < 0.95
+
+
+def is_seen_in_history(
+    item: dict[str, Any],
+    history: dict[str, Any],
+    target_date: str,
+) -> tuple[bool, str, dict[str, Any] | None]:
+    canonical_key = make_canonical_key(item)
+    normalized_title = normalize_title(str(item.get("title", "")))
+    normalized_link = normalize_link(str(item.get("link", "")))
+    for history_item in history.get("items", []):
+        if not isinstance(history_item, dict) or not history_item_recent(history_item, target_date, HISTORY_DEDUPE_DAYS):
+            continue
+        if canonical_key and canonical_key == history_item.get("canonical_key"):
+            return True, "same_canonical_key", history_item
+        old_title = str(history_item.get("normalized_title", ""))
+        if old_title and simple_title_similarity(normalized_title, old_title) > HISTORY_SIMILARITY_THRESHOLD:
+            return True, "similar_title", history_item
+        old_link = str(history_item.get("normalized_link", ""))
+        if normalized_link and normalized_link == old_link and not is_google_news_link(normalized_link):
+            return True, "same_link", history_item
+    return False, "", None
+
+
+def update_history_with_items(history: dict[str, Any], selected_items: list[dict[str, Any]], target_date: str, now_local: datetime) -> dict[str, Any]:
+    by_key = {
+        str(item.get("canonical_key", "")): item
+        for item in history.get("items", [])
+        if isinstance(item, dict) and item.get("canonical_key")
+    }
+    for item in selected_items:
+        canonical_key = make_canonical_key(item)
+        existing = by_key.get(canonical_key)
+        if existing:
+            existing["last_seen_date"] = target_date
+            existing["seen_count"] = int(existing.get("seen_count", 1)) + 1
+            continue
+        record = {
+            "first_seen_date": target_date,
+            "last_seen_date": target_date,
+            "canonical_key": canonical_key,
+            "normalized_title": normalize_title(str(item.get("title", ""))),
+            "normalized_link": normalize_link(str(item.get("link", ""))),
+            "title": clean_text(item.get("title", "")),
+            "source": clean_text(item.get("source", "")),
+            "link": clean_text(item.get("link", "")),
+            "category": clean_text(item.get("category", "")),
+            "region": clean_text(item.get("region", "")),
+            "source_group": clean_text(item.get("source_group", "")),
+            "seen_count": 1,
+        }
+        history.setdefault("items", []).append(record)
+        by_key[canonical_key] = record
+    history["updated_at"] = now_local.isoformat()
+    history["timezone"] = TIMEZONE_NAME
+    history["retention_days"] = HISTORY_RETENTION_DAYS
+    return history
+
+
+def load_learning_history() -> dict[str, Any]:
+    if not LEARNING_HISTORY_PATH.exists():
+        return {
+            "updated_at": "",
+            "timezone": TIMEZONE_NAME,
+            "retention_days": LEARNING_HISTORY_RETENTION_DAYS,
+            "items": [],
+        }
+    try:
+        data = json.loads(LEARNING_HISTORY_PATH.read_text(encoding="utf-8"))
+        if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+            raise ValueError("invalid learning history structure")
+        return data
+    except Exception as exc:
+        LOGGER.warning("Load learning history failed, start with empty history: %s", exc)
+        return {
+            "updated_at": "",
+            "timezone": TIMEZONE_NAME,
+            "retention_days": LEARNING_HISTORY_RETENTION_DAYS,
+            "items": [],
+        }
+
+
+def save_learning_history(history: dict[str, Any]) -> None:
+    LEARNING_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    LEARNING_HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def prune_learning_history(history: dict[str, Any], target_date: str) -> dict[str, Any]:
+    target_dt = parse_date(target_date)
+    if not target_dt:
+        return history
+    kept = []
+    for item in history.get("items", []):
+        last_dt = parse_date(str(item.get("last_seen_date") or item.get("first_seen_date") or ""))
+        if last_dt and (target_dt - last_dt).days <= LEARNING_HISTORY_RETENTION_DAYS:
+            kept.append(item)
+    history["items"] = kept
+    history["retention_days"] = LEARNING_HISTORY_RETENTION_DAYS
+    return history
+
+
+def is_seen_in_learning_history(
+    item: dict[str, Any],
+    history: dict[str, Any],
+    target_date: str,
+) -> tuple[bool, str, dict[str, Any] | None]:
+    canonical_key = make_canonical_key(item)
+    normalized_title = normalize_title(str(item.get("title", "")))
+    normalized_link = normalize_link(str(item.get("link", "")))
+    for history_item in history.get("items", []):
+        if not isinstance(history_item, dict):
+            continue
+        if not history_item_recent(history_item, target_date, LEARNING_HISTORY_DEDUPE_DAYS):
+            continue
+        if canonical_key and canonical_key == history_item.get("canonical_key"):
+            return True, "same_canonical_key", history_item
+        old_link = str(history_item.get("normalized_link", ""))
+        if normalized_link and normalized_link == old_link:
+            return True, "same_link", history_item
+        old_title = str(history_item.get("normalized_title", ""))
+        if old_title and simple_title_similarity(normalized_title, old_title) > LEARNING_HISTORY_SIMILARITY_THRESHOLD:
+            return True, "similar_title", history_item
+    return False, "", None
+
+
+def update_learning_history_with_items(
+    history: dict[str, Any],
+    selected_items: list[dict[str, Any]],
+    target_date: str,
+    now_local: datetime,
+) -> dict[str, Any]:
+    by_key = {
+        str(item.get("canonical_key", "")): item
+        for item in history.get("items", [])
+        if isinstance(item, dict) and item.get("canonical_key")
+    }
+    for item in selected_items:
+        canonical_key = make_canonical_key(item)
+        existing = by_key.get(canonical_key)
+        if existing:
+            existing["last_seen_date"] = target_date
+            existing["seen_count"] = int(existing.get("seen_count", 1)) + 1
+            continue
+        record = {
+            "first_seen_date": target_date,
+            "last_seen_date": target_date,
+            "canonical_key": canonical_key,
+            "normalized_title": normalize_title(str(item.get("title", ""))),
+            "normalized_link": normalize_link(str(item.get("link", ""))),
+            "title": clean_text(item.get("title", "")),
+            "source": clean_text(item.get("source", "")),
+            "link": clean_text(item.get("link", "")),
+            "source_type": clean_text(item.get("source_type", "")),
+            "language": clean_text(item.get("language", "")),
+            "region": clean_text(item.get("region", "")),
+            "seen_count": 1,
+        }
+        history.setdefault("items", []).append(record)
+        by_key[canonical_key] = record
+    history["updated_at"] = now_local.isoformat()
+    history["timezone"] = TIMEZONE_NAME
+    history["retention_days"] = LEARNING_HISTORY_RETENTION_DAYS
+    return history
+
+
+def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    rejected_stats = {"same_source_limit": 0}
+    selected: list[dict[str, Any]] = []
+    source_counts: dict[str, int] = {}
+
+    def learning_sort_key(item: dict[str, Any]) -> tuple[int, int, int, datetime]:
+        source_type = clean_text(item.get("source_type", "")).lower()
+        source_type_weight = {
+            "official_doc": 4,
+            "youtube_video": 3,
+            "tutorial": 2,
+            "blog": 1,
+        }.get(source_type, 0)
+        language_weight = 1 if item.get("language") == "zh" else 0
+        dt = item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
+        return int(item.get("_score", item.get("score", 0))), source_type_weight, language_weight, dt
+
+    for item in sorted(items, key=learning_sort_key, reverse=True):
+        source_key = clean_text(item.get("source", "")) or "unknown"
+        if source_counts.get(source_key, 0) >= MAX_SAME_SOURCE_LEARNING:
+            rejected_stats["same_source_limit"] += 1
+            continue
+        chosen = dict(item)
+        chosen["score"] = int(chosen.get("_score", chosen.get("score", 0)))
+        chosen["canonical_key"] = make_canonical_key(chosen)
+        chosen["dedupe_key"] = normalize_title(str(chosen.get("title", "")))
+        chosen["selection_reason"] = "learning_high_score"
+        selected.append(chosen)
+        source_counts[source_key] = source_counts.get(source_key, 0) + 1
+        if len(selected) >= TARGET_LEARNING_CANDIDATE_COUNT:
+            break
+
+    return selected, rejected_stats
+
+
+def is_global_candidate(item: dict[str, Any]) -> bool:
+    return item.get("region") == "global" or item.get("category") in {"全球AI", "AI芯片", "AI编程工具", "研究论文", "开源模型"}
+
+
+def select_curated_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    rejected_stats = {"same_source_limit": 0, "china_limit": 0, "auto_china_limit": 0}
+    selected: list[dict[str, Any]] = []
+    source_counts: dict[str, int] = {}
+    china_count = 0
+    auto_china_count = 0
+    google_news_count = 0
+    sorted_items = sorted(items, key=lambda item: int(item.get("score", 0)), reverse=True)
+
+    def can_add(item: dict[str, Any], enforce_region_limits: bool = True) -> tuple[bool, str]:
+        nonlocal china_count, auto_china_count, google_news_count
+        source = clean_text(item.get("source", "unknown")) or "unknown"
+        if source_counts.get(source, 0) >= MAX_SAME_SOURCE_NEWS:
+            return False, "source_limit_applied"
+        source_group = clean_text(item.get("source_group", "")).lower()
+        is_china = item.get("region") == "china" or source_group in ("china", "auto_china")
+        is_auto = source_group == "auto_china" or item.get("category") == "中国汽车"
+        if enforce_region_limits and is_china and china_count >= MAX_CHINA_NEWS:
+            return False, "china_limit"
+        if enforce_region_limits and is_auto and auto_china_count >= MAX_AUTO_CHINA_NEWS:
+            return False, "auto_china_limit"
+        google_news_limit = TARGET_CANDIDATE_COUNT
+        if is_google_news_link(str(item.get("link", ""))) and google_news_count >= google_news_limit:
+            return False, "source_limit_applied"
+        return True, ""
+
+    def add_item(item: dict[str, Any], reason: str, enforce_region_limits: bool = True) -> bool:
+        nonlocal china_count, auto_china_count, google_news_count
+        if any(item.get("canonical_key") == existing.get("canonical_key") for existing in selected):
+            return False
+        ok, rejected_reason = can_add(item, enforce_region_limits=enforce_region_limits)
+        if not ok:
+            rejected_stats[rejected_reason] = rejected_stats.get(rejected_reason, 0) + 1
+            return False
+        chosen = dict(item)
+        chosen["selection_reason"] = reason
+        selected.append(chosen)
+        source = clean_text(chosen.get("source", "unknown")) or "unknown"
+        source_counts[source] = source_counts.get(source, 0) + 1
+        source_group = clean_text(chosen.get("source_group", "")).lower()
+        if chosen.get("region") == "china" or source_group in ("china", "auto_china"):
+            china_count += 1
+        if source_group == "auto_china" or chosen.get("category") == "中国汽车":
+            auto_china_count += 1
+        if is_google_news_link(str(chosen.get("link", ""))):
+            google_news_count += 1
+        return True
+
+    for item in sorted_items:
+        if len([i for i in selected if is_global_candidate(i)]) >= MIN_GLOBAL_NEWS:
+            break
+        if is_global_candidate(item):
+            add_item(item, "required_global_quota")
+
+    for item in sorted_items:
+        if len(selected) >= TARGET_CANDIDATE_COUNT:
+            break
+        source_group = clean_text(item.get("source_group", "")).lower()
+        if item.get("region") == "china" or source_group in ("china", "auto_china"):
+            reason = "auto_china_quota" if source_group == "auto_china" else "china_quota"
+            add_item(item, reason)
+
+    for item in sorted_items:
+        if len(selected) >= TARGET_CANDIDATE_COUNT:
+            break
+        add_item(item, "fill_remaining_high_score")
+
+    return selected[:TARGET_CANDIDATE_COUNT], rejected_stats
 
 
 def canonical_title_key(title: str) -> str:
@@ -839,13 +1603,13 @@ def collect_news_candidates(
     day_start: datetime,
     day_end: datetime,
     now_local: datetime,
-) -> tuple[list[dict[str, Any]], dict[str, int]]:
+) -> dict[str, Any]:
     sources = sorted(
         NEWS_SOURCES,
         key=lambda src: {"auto_china": 0, "china": 1, "global": 2}.get(str(src.get("source_group")), 9),
     )
 
-    all_items: list[dict[str, Any]] = []
+    raw_items: list[dict[str, Any]] = []
     global_source_count = sum(1 for s in sources if s["source_group"] == "global")
     china_source_count = sum(1 for s in sources if s["source_group"] in ("china", "auto_china"))
     global_success_count = 0
@@ -859,12 +1623,7 @@ def collect_news_candidates(
             LOGGER.info("Fetching news RSS [%s]: %s", group, name)
             xml_bytes = fetch_bytes(source["url"])
             parsed = parse_feed_entries(source, xml_bytes, tz)
-            for item in parsed:
-                score, hits = news_score(item)
-                if hits <= 0:
-                    continue
-                item["_score"] = score
-                all_items.append(item)
+            raw_items.extend(parsed)
             if group == "global":
                 global_success_count += 1
             else:
@@ -873,7 +1632,7 @@ def collect_news_candidates(
             failed_count += 1
             LOGGER.warning("News fetch failed [%s] %s: %s", group, name, exc)
 
-    dedup = deduplicate_items(all_items)
+    dedup, duplicate_count = deduplicate_news_items(raw_items)
     fallback_start = now_local - timedelta(hours=NEWS_FALLBACK_HOURS)
 
     yesterday_items: list[dict[str, Any]] = []
@@ -889,33 +1648,79 @@ def collect_news_candidates(
         elif fallback_start <= published_dt <= now_local:
             recent_items.append(item)
 
+    rejected_stats: dict[str, int] = {
+        "duplicate": duplicate_count,
+        "history_duplicate": 0,
+        "weak_relevance": 0,
+        "same_source_limit": 0,
+        "china_limit": 0,
+        "auto_china_limit": 0,
+        "old_news": 0,
+    }
+
+    candidate_pool = yesterday_items + recent_items + no_time_items
+    old_seen = {id(item) for item in dedup} - {id(item) for item in candidate_pool}
+    rejected_stats["old_news"] = len(old_seen)
+
+    classified_items: list[dict[str, Any]] = []
+    for item in candidate_pool:
+        classified = classify_item(item)
+        score = score_item(classified)
+        classified["score"] = score
+        if not is_relevant_ai_auto(classified) or score < 0:
+            rejected_stats["weak_relevance"] += 1
+            continue
+        classified_items.append(classified)
+
     def sort_key(entry: dict[str, Any]) -> tuple[int, int, datetime]:
         dt = entry.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
         group_weight = {"auto_china": 3, "china": 2, "global": 1}.get(entry.get("source_group", "global"), 0)
-        return int(entry.get("_score", 0)), group_weight, dt
+        return int(entry.get("score", 0)), group_weight, dt
 
-    yesterday_items.sort(key=sort_key, reverse=True)
-    recent_items.sort(key=sort_key, reverse=True)
-    no_time_items.sort(key=sort_key, reverse=True)
+    classified_items.sort(key=sort_key, reverse=True)
 
-    merged = yesterday_items + recent_items + no_time_items
-    output: list[dict[str, Any]] = []
-    per_source_count: dict[str, int] = {}
-    for item in merged:
-        source_key = clean_text(item.get("source", "")) or "unknown"
-        count = per_source_count.get(source_key, 0)
-        if count >= MAX_ITEMS_PER_SOURCE:
+    history = load_history()
+    history_size_before = len(history.get("items", []))
+    history_duplicate_samples: list[dict[str, Any]] = []
+    history_filtered_items: list[dict[str, Any]] = []
+    target_date = day_start.date().isoformat()
+    for item in classified_items:
+        seen, reason, matched = is_seen_in_history(item, history, target_date)
+        if seen and has_new_development_signal(item, matched):
+            item["selection_reason"] = "new_development_after_previous_topic"
+            history_filtered_items.append(item)
             continue
-        output.append(item)
-        per_source_count[source_key] = count + 1
-        if len(output) >= MAX_NEWS_OUTPUT_ITEMS:
-            break
+        if seen:
+            rejected_stats["history_duplicate"] += 1
+            if len(history_duplicate_samples) < 10:
+                history_duplicate_samples.append(
+                    {
+                        "title": clean_text(item.get("title", "")),
+                        "source": clean_text(item.get("source", "")),
+                        "matched_title": clean_text((matched or {}).get("title", "")),
+                        "matched_date": clean_text((matched or {}).get("last_seen_date", "")),
+                        "reason": reason,
+                    }
+                )
+            continue
+        history_filtered_items.append(item)
 
-    for item in output:
-        item.pop("_score", None)
+    curated_items, selection_rejected = select_curated_items(history_filtered_items)
+    for key, value in selection_rejected.items():
+        rejected_stats[key] = rejected_stats.get(key, 0) + value
+
+    history = update_history_with_items(history, curated_items, target_date=target_date, now_local=now_local)
+    history = prune_history(history, target_date)
+    save_history(history)
+    history_size_after = len(history.get("items", []))
+
+    for item in classified_items:
         item.pop("_published_dt", None)
 
-    status = {
+    for item in curated_items:
+        item.pop("_published_dt", None)
+
+    fetch_status = {
         "source_count": len(sources),
         "success_count": global_success_count + china_success_count,
         "failed_count": failed_count,
@@ -924,7 +1729,38 @@ def collect_news_candidates(
         "china_source_count": china_source_count,
         "china_success_count": china_success_count,
     }
-    return output, status
+    selection_config = {
+        "news_region_mode": NEWS_REGION_MODE,
+        "target_candidate_count": TARGET_CANDIDATE_COUNT,
+        "min_global_news": MIN_GLOBAL_NEWS,
+        "max_china_news": MAX_CHINA_NEWS,
+        "max_auto_china_news": MAX_AUTO_CHINA_NEWS,
+        "max_same_source_news": MAX_SAME_SOURCE_NEWS,
+        "max_items_for_llm": MAX_ITEMS_FOR_LLM,
+    }
+    history_dedupe = {
+        "history_path": HISTORY_PATH.as_posix(),
+        "dedupe_days": HISTORY_DEDUPE_DAYS,
+        "retention_days": HISTORY_RETENTION_DAYS,
+        "similarity_threshold": HISTORY_SIMILARITY_THRESHOLD,
+        "history_size_before": history_size_before,
+        "history_size_after": history_size_after,
+        "history_duplicate_count": rejected_stats["history_duplicate"],
+    }
+    return {
+        "date": target_date,
+        "generated_at": now_local.isoformat(),
+        "timezone": TIMEZONE_NAME,
+        "fetch_status": fetch_status,
+        "selection_config": selection_config,
+        "history_dedupe": history_dedupe,
+        "raw_item_count": len(raw_items),
+        "deduped_item_count": len(dedup),
+        "filtered_item_count": len(classified_items),
+        "curated_item_count": len(curated_items),
+        "curated_items": curated_items,
+        "rejected_stats": rejected_stats,
+    }
 
 
 def collect_learning_page_items(
@@ -970,7 +1806,7 @@ def collect_learning_page_items(
 def collect_learning_candidates(
     tz: timezone,
     now_local: datetime,
-) -> tuple[list[dict[str, Any]], dict[str, int]]:
+) -> dict[str, Any]:
     sources = LEARNING_FEED_SOURCES
     all_items: list[dict[str, Any]] = []
     success_count = 0
@@ -1036,19 +1872,50 @@ def collect_learning_candidates(
 
     merged = recent_items if recent_items else (fallback_items + undated_items)
 
-    output: list[dict[str, Any]] = []
-    per_source_count: dict[str, int] = {}
-    for item in merged:
-        source_key = clean_text(item.get("source", "")) or "unknown"
-        count = per_source_count.get(source_key, 0)
-        if count >= MAX_ITEMS_PER_SOURCE:
-            continue
-        output.append(item)
-        per_source_count[source_key] = count + 1
-        if len(output) >= MAX_LEARNING_OUTPUT_ITEMS:
-            break
+    target_date = (now_local - timedelta(days=1)).date().isoformat()
+    history = load_learning_history()
+    history_size_before = len(history.get("items", []))
+    history_duplicate_samples: list[dict[str, Any]] = []
+    history_filtered_items: list[dict[str, Any]] = []
+    rejected_stats: dict[str, int] = {
+        "duplicate": len(all_items) - len(dedup),
+        "history_duplicate": 0,
+        "same_source_limit": 0,
+        "old_resource": 0,
+    }
 
-    for item in output:
+    for item in merged:
+        item["score"] = int(item.get("_score", 0))
+        item["canonical_key"] = make_canonical_key(item)
+        item["dedupe_key"] = normalize_title(str(item.get("title", "")))
+        seen, reason, matched = is_seen_in_learning_history(item, history, target_date)
+        if seen:
+            rejected_stats["history_duplicate"] += 1
+            if len(history_duplicate_samples) < 10:
+                history_duplicate_samples.append(
+                    {
+                        "title": clean_text(item.get("title", "")),
+                        "source": clean_text(item.get("source", "")),
+                        "matched_title": clean_text((matched or {}).get("title", "")),
+                        "matched_date": clean_text((matched or {}).get("last_seen_date", "")),
+                        "reason": reason,
+                    }
+                )
+            continue
+        history_filtered_items.append(item)
+
+    rejected_stats["old_resource"] = max(0, len(dedup) - len(merged) - rejected_stats["duplicate"])
+
+    curated_items, selection_rejected = select_curated_learning_items(history_filtered_items)
+    for key, value in selection_rejected.items():
+        rejected_stats[key] = rejected_stats.get(key, 0) + value
+
+    history = update_learning_history_with_items(history, curated_items, target_date=target_date, now_local=now_local)
+    history = prune_learning_history(history, target_date)
+    save_learning_history(history)
+    history_size_after = len(history.get("items", []))
+
+    for item in curated_items:
         item.pop("_score", None)
         item.pop("_published_dt", None)
 
@@ -1057,7 +1924,32 @@ def collect_learning_candidates(
         "success_count": success_count,
         "failed_count": failed_count,
     }
-    return output, status
+    return {
+        "date": target_date,
+        "generated_at": now_local.isoformat(),
+        "timezone": TIMEZONE_NAME,
+        "fetch_status": status,
+        "selection_config": {
+            "target_learning_candidate_count": TARGET_LEARNING_CANDIDATE_COUNT,
+            "max_same_source_learning": MAX_SAME_SOURCE_LEARNING,
+            "max_items_for_llm": TARGET_LEARNING_CANDIDATE_COUNT,
+        },
+        "history_dedupe": {
+            "history_path": LEARNING_HISTORY_PATH.as_posix(),
+            "dedupe_days": LEARNING_HISTORY_DEDUPE_DAYS,
+            "retention_days": LEARNING_HISTORY_RETENTION_DAYS,
+            "similarity_threshold": LEARNING_HISTORY_SIMILARITY_THRESHOLD,
+            "history_size_before": history_size_before,
+            "history_size_after": history_size_after,
+            "history_duplicate_count": rejected_stats["history_duplicate"],
+        },
+        "raw_item_count": len(all_items),
+        "deduped_item_count": len(dedup),
+        "filtered_item_count": len(history_filtered_items),
+        "curated_item_count": len(curated_items),
+        "curated_items": curated_items,
+        "rejected_stats": rejected_stats,
+    }
 
 
 def save_candidates(
@@ -1083,6 +1975,51 @@ def save_candidates(
     return out_file
 
 
+def save_news_payload(payload: dict[str, Any]) -> Path:
+    out_dir = Path("data") / "news-candidates"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    target_date = clean_text(payload.get("date", "")) or datetime.now().date().isoformat()
+    out_file = out_dir / f"{target_date}.json"
+    out_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return out_file
+
+
+def save_learning_payload(payload: dict[str, Any]) -> Path:
+    out_dir = Path("data") / "learning-candidates"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    target_date = clean_text(payload.get("date", "")) or datetime.now().date().isoformat()
+    out_file = out_dir / f"{target_date}.json"
+    out_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return out_file
+
+
+def prune_candidate_files(base_dir_name: str, target_date: str) -> int:
+    data_dir = Path("data") / base_dir_name
+    if not data_dir.exists():
+        return 0
+
+    try:
+        target_dt = datetime.fromisoformat(target_date).date()
+    except ValueError:
+        return 0
+
+    cutoff_date = target_dt - timedelta(days=max(CANDIDATE_RETENTION_DAYS, 1) - 1)
+    deleted_count = 0
+    for path in data_dir.glob("*.json"):
+        try:
+            file_date = datetime.fromisoformat(path.stem).date()
+        except ValueError:
+            continue
+        if file_date >= cutoff_date:
+            continue
+        try:
+            path.unlink()
+            deleted_count += 1
+        except OSError as exc:
+            LOGGER.warning("Delete old candidate file failed %s: %s", path.as_posix(), exc)
+    return deleted_count
+
+
 def main() -> int:
     setup_logging()
     tz = get_timezone()
@@ -1092,38 +2029,30 @@ def main() -> int:
     day_start = datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0, tzinfo=tz)
     day_end = datetime(target_date.year, target_date.month, target_date.day, 23, 59, 59, tzinfo=tz)
 
-    news_items, news_status = collect_news_candidates(
+    news_payload = collect_news_candidates(
         tz=tz,
         day_start=day_start,
         day_end=day_end,
         now_local=now_local,
     )
-    news_file = save_candidates(
-        base_dir_name="news-candidates",
-        target_date=target_date.isoformat(),
-        timezone_name=TIMEZONE_NAME,
-        items=news_items,
-        fetch_status=news_status,
-    )
+    news_file = save_news_payload(news_payload)
 
-    learning_items, learning_status = collect_learning_candidates(
+    learning_payload = collect_learning_candidates(
         tz=tz,
         now_local=now_local,
     )
-    learning_file = save_candidates(
-        base_dir_name="learning-candidates",
-        target_date=target_date.isoformat(),
-        timezone_name=TIMEZONE_NAME,
-        items=learning_items,
-        fetch_status=learning_status,
-    )
+    learning_file = save_learning_payload(learning_payload)
+    deleted_news_files = prune_candidate_files("news-candidates", target_date.isoformat())
+    deleted_learning_files = prune_candidate_files("learning-candidates", target_date.isoformat())
 
     LOGGER.info(
-        "Saved news candidates=%s to %s | learning candidates=%s to %s",
-        len(news_items),
+        "Saved news candidates=%s to %s | learning candidates=%s to %s | pruned old candidates news=%s learning=%s",
+        len(news_payload.get("curated_items", [])),
         news_file.as_posix(),
-        len(learning_items),
+        len(learning_payload.get("curated_items", [])),
         learning_file.as_posix(),
+        deleted_news_files,
+        deleted_learning_files,
     )
     return 0
 

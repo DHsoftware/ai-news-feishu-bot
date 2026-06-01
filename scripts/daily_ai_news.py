@@ -21,7 +21,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
@@ -36,6 +36,7 @@ FALLBACK_SCAN_DAYS = 14
 DEFAULT_TIMEZONE = "Asia/Shanghai"
 DEFAULT_NEWS_MAX_CHARS = 3500
 DEFAULT_NEWS_TOP_N = 5
+DEFAULT_MAX_ITEMS_FOR_LLM = 5
 
 DEFAULT_LEARNING_NOTE = "基于资源标题/简介整理，建议打开原链接查看完整内容。"
 DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现新的 Codex Agent 学习资源。"
@@ -140,7 +141,34 @@ def normalize_url(url: str) -> str:
     value = (url or "").strip()
     if not value:
         return ""
-    return value.rstrip("/")
+    parsed = urlparse(value)
+    tracking_keys = {
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+        "fbclid",
+        "gclid",
+        "spm",
+        "from",
+        "source",
+    }
+    query = [
+        (key, val)
+        for key, val in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in tracking_keys
+    ]
+    return urlunparse(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path.rstrip("/"),
+            "",
+            urlencode(query, doseq=True),
+            "",
+        )
+    )
 
 
 def clean_text(value: Any) -> str:
@@ -205,9 +233,9 @@ def read_candidates_file(path: Path) -> dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise RuntimeError(f"Invalid JSON structure: {path.name}")
-    items = data.get("items")
+    items = data.get("curated_items", data.get("items"))
     if not isinstance(items, list):
-        raise RuntimeError(f"Invalid JSON items list: {path.name}")
+        raise RuntimeError(f"Invalid JSON curated_items/items list: {path.name}")
     return data
 
 
@@ -240,6 +268,9 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
         language = clean_text(item.get("language", ""))
         region = clean_text(item.get("region", ""))
         source_group = clean_text(item.get("source_group", ""))
+        category = clean_text(item.get("category", ""))
+        topic_tags = item.get("topic_tags", [])
+        tags_text = ", ".join(str(tag) for tag in topic_tags if str(tag).strip()) or "N/A"
 
         if not title or not link:
             continue
@@ -251,6 +282,8 @@ def build_prompt_items(items: list[dict[str, Any]], timezone_name: str) -> str:
             f"语言: {language or 'unknown'}\n"
             f"区域: {region or 'unknown'}\n"
             f"分组: {source_group or 'unknown'}\n"
+            f"类别: {category or '其他'}\n"
+            f"标签: {tags_text}\n"
             f"发布时间: {published_at} ({timezone_name})\n"
             f"链接: {link}\n"
             f"摘要: {summary}\n"
@@ -550,10 +583,11 @@ def normalize_codex_learning(
     }
 
 
-def build_candidate_index(items: list[dict[str, Any]]) -> tuple[set[str], dict[str, str], dict[str, str]]:
+def build_candidate_index(items: list[dict[str, Any]]) -> tuple[set[str], dict[str, str], dict[str, str], dict[str, str]]:
     url_set: set[str] = set()
     title_to_url: dict[str, str] = {}
     url_to_source: dict[str, str] = {}
+    url_to_category: dict[str, str] = {}
 
     for item in items:
         if not isinstance(item, dict):
@@ -566,10 +600,13 @@ def build_candidate_index(items: list[dict[str, Any]]) -> tuple[set[str], dict[s
             url_set.add(norm_url)
             if source:
                 url_to_source[norm_url] = source
+            category = clean_text(item.get("category", ""))
+            if category:
+                url_to_category[norm_url] = category
         if title and norm_url:
             title_to_url[title] = norm_url
 
-    return url_set, title_to_url, url_to_source
+    return url_set, title_to_url, url_to_source, url_to_category
 
 
 def normalize_top_news_item(
@@ -577,6 +614,7 @@ def normalize_top_news_item(
     candidate_url_set: set[str],
     title_to_url: dict[str, str],
     url_to_source: dict[str, str],
+    url_to_category: dict[str, str],
 ) -> dict[str, str] | None:
     if not isinstance(value, dict):
         return None
@@ -605,8 +643,14 @@ def normalize_top_news_item(
         source_name = url_to_source.get(source_url_norm, "")
     if not source_name:
         source_name = source_name_from_url(source_url_norm)
+    category = clean_text(value.get("category", ""))
+    if not category:
+        category = url_to_category.get(source_url_norm, "")
+    if not category:
+        category = "其他"
 
     return {
+        "category": category,
         "title": title,
         "what_happened": clean_text(value.get("what_happened", "")),
         "why_important": clean_text(value.get("why_important", "")),
@@ -630,6 +674,7 @@ def build_fallback_news_from_candidates(items: list[dict[str, Any]], news_top_n:
             continue
         fallback.append(
             {
+                "category": clean_text(item.get("category", "")) or "其他",
                 "title": title,
                 "what_happened": summary or "候选新闻已抓取，需结合原文核验细节。",
                 "why_important": "该新闻反映 AI 技术或产业动态，可能影响车型与研发路线决策。",
@@ -679,6 +724,7 @@ def build_china_fallback_news(items: list[dict[str, Any]], limit: int) -> list[d
 
         fallback.append(
             {
+                "category": clean_text(item.get("category", "")) or "中国汽车",
                 "title": title,
                 "what_happened": summary or "该国内候选新闻已抓取，需结合原文核验细节。",
                 "why_important": "该动态与国内 AI/智能汽车产业链相关，可能影响车型规划、技术路线或供应链决策。",
@@ -711,7 +757,7 @@ def normalize_report_payload(
     if not isinstance(top_raw, list):
         top_raw = []
 
-    candidate_url_set, title_to_url, url_to_source = build_candidate_index(candidate_items)
+    candidate_url_set, title_to_url, url_to_source, url_to_category = build_candidate_index(candidate_items)
     top_news: list[dict[str, str]] = []
     for item in top_raw:
         normalized = normalize_top_news_item(
@@ -719,6 +765,7 @@ def normalize_report_payload(
             candidate_url_set=candidate_url_set,
             title_to_url=title_to_url,
             url_to_source=url_to_source,
+            url_to_category=url_to_category,
         )
         if not normalized:
             continue
@@ -759,7 +806,7 @@ def normalize_report_payload(
             if current_china_count >= desired_china_min:
                 break
 
-    learning_url_set, _, learning_url_to_source = build_candidate_index(learning_candidate_items)
+    learning_url_set, _, learning_url_to_source, _ = build_candidate_index(learning_candidate_items)
     if selected_learning_item:
         selected_url = normalize_url(clean_text(selected_learning_item.get("link", "")))
         if selected_url:
@@ -955,6 +1002,7 @@ def create_report_json_with_litellm(
   "summary": ["摘要句子1", "摘要句子2", "摘要句子3"],
   "top_news": [
     {{
+      "category": "全球AI / 中国AI / 中国汽车 / AI芯片 / AI编程工具 / 研究论文 / 机器人 / 开源模型 / AI安全监管 / 其他",
       "title": "新闻标题",
       "what_happened": "发生了什么",
       "why_important": "为什么重要",
@@ -986,18 +1034,25 @@ def create_report_json_with_litellm(
 7) `source_url` 必须来自候选新闻链接；不得编造新链接。
 8) 不要输出独立“对汽车行业的影响”“关注建议”“来源链接汇总”章节。
 9) {cache_note}
-10) 必须综合考虑中英文新闻，不可只看英文来源。
-11) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
-12) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）。
-13) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
+10) 候选新闻已经过 RSS 阶段去重、跨天历史去重、弱相关过滤、分类打标和全球/中国平衡筛选；请从这些候选中选择 Top News，不要主动扩展旧闻。
+11) 不要把同一事件的不同转载写成多条 Top News；如果两条候选讲的是同一事件，只保留信息更完整、来源更可靠的一条。
+12) 不要选入多条来自同一媒体、同一公司、同一发布会的重复内容。
+13) 必须综合考虑中英文新闻，不可只看英文来源，也不可全部选择中国汽车新闻。
+14) 若候选中存在全球 AI 候选，今日摘要至少一句写全球 AI 趋势；若候选中存在中国汽车/车载 AI 候选，今日摘要至少一句写中国智能汽车动态。
+15) 若候选中存在质量较高且相关的国内新闻，Top News 至少保留 1-2 条国内新闻；只有在国内候选明显弱相关或质量低时才可少于 1 条，并在摘要里简要说明。
+16) 不要硬凑 Top N；如果有效新闻不足，可以少于 Top N，并在摘要里说明。
+17) 不要编造候选新闻中不存在的事实。
+18) 尽量不要选择股市/投资视角新闻，例如股价、股票、评级、研报、市值、盘前盘后、投资组合、财报解读；除非候选内容明确包含重大 AI、芯片、智驾或软件技术进展。
+19) 汽车行业相关判断优先结合国内智能汽车产业链（华为、比亚迪、理想、小鹏、蔚来、地平线、黑芝麻智能、芯驰科技、寒武纪、百度 Apollo 等）。
+20) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
 Codex Agent 每日一学约束：
-14) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
-15) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
-16) `confidence_note` 必须明确“基于资源标题/简介整理”。
-17) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
-18) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
-19) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
+21) `codex_learning` 只基于给定资源元数据（标题、简介、来源、链接）整理，不能假装看过完整视频字幕或全文。
+22) 如果资源来自 YouTube RSS，只能根据标题/简介给建议。
+23) `confidence_note` 必须明确“基于资源标题/简介整理”。
+24) `example_prompt` 需可直接复制使用，围绕 Codex CLI / AGENTS.md / MCP / code review / workflow。
+25) 如果今日没有学习资源候选，`codex_learning` 输出保守占位，不得编造具体演示细节。
+26) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
@@ -1139,7 +1194,7 @@ def build_single_interactive_card(
             elements,
             "\n".join(
                 [
-                    f"**{idx}. {news.get('title', '未命名新闻')}**",
+                    f"**{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}**",
                     f"发生了什么：{news.get('what_happened', '仍需观察。')}",
                     f"为什么重要：{news.get('why_important', '仍需观察。')}",
                     f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}",
@@ -1225,7 +1280,7 @@ def build_single_post_payload(
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
-        rows.append(row_text(f"{idx}. {news.get('title', '未命名新闻')}"))
+        rows.append(row_text(f"{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}"))
         rows.append(row_text(f"发生了什么：{news.get('what_happened', '仍需观察。')}"))
         rows.append(row_text(f"为什么重要：{news.get('why_important', '仍需观察。')}"))
         rows.append(row_text(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}"))
@@ -1288,7 +1343,7 @@ def build_single_text_payload(
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
-        lines.append(f"{idx}. {news.get('title', '未命名新闻')}")
+        lines.append(f"{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}")
         lines.append(f"发生了什么：{news.get('what_happened', '仍需观察。')}")
         lines.append(f"为什么重要：{news.get('why_important', '仍需观察。')}")
         lines.append(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}")
@@ -1406,6 +1461,47 @@ def build_error_report(report_date: str, detail: str) -> dict[str, Any]:
     }
 
 
+def select_news_items_for_llm(candidates_payload: dict[str, Any], max_items_for_llm: int) -> tuple[list[dict[str, Any]], str]:
+    curated_items = candidates_payload.get("curated_items", [])
+    if isinstance(curated_items, list) and curated_items:
+        return [item for item in curated_items if isinstance(item, dict)][:max_items_for_llm], "curated_items"
+
+    raw_items = candidates_payload.get("items", [])
+    if isinstance(raw_items, list):
+        return [item for item in raw_items if isinstance(item, dict)][:max_items_for_llm], "items"
+    return [], "none"
+
+
+def select_learning_items_for_report(learning_payload: dict[str, Any]) -> tuple[list[dict[str, Any]], str]:
+    curated_items = learning_payload.get("curated_items", [])
+    if isinstance(curated_items, list) and curated_items:
+        return [item for item in curated_items if isinstance(item, dict)], "curated_items"
+
+    raw_items = learning_payload.get("items", [])
+    if isinstance(raw_items, list):
+        return [item for item in raw_items if isinstance(item, dict)], "items"
+    return [], "none"
+
+
+def build_no_significant_news_report(report_date: str, source_name: str, learning_item: dict[str, Any] | None) -> dict[str, Any]:
+    learning = normalize_codex_learning(
+        value={},
+        selected_item=learning_item,
+        candidate_url_set={normalize_url(clean_text(learning_item.get("link", "")))} if learning_item else set(),
+        url_to_source={normalize_url(clean_text(learning_item.get("link", ""))): clean_text(learning_item.get("source", ""))} if learning_item else {},
+    )
+    return {
+        "title": f"AI 科技日报｜{report_date}",
+        "report_date": report_date,
+        "summary": [
+            f"{source_name} 中未发现足够显著的新增 AI 新闻，已跳过 LiteLLM 新闻总结以避免旧闻或弱相关新闻刷屏。",
+            "RSS 抓取阶段已经完成当天去重、跨天历史去重和全球/中国新闻平衡筛选。",
+        ],
+        "top_news": [],
+        "codex_learning": learning,
+    }
+
+
 def main() -> int:
     setup_logging()
     project_root = Path(__file__).resolve().parents[1]
@@ -1414,6 +1510,7 @@ def main() -> int:
     timezone_name = os.getenv("TIMEZONE", DEFAULT_TIMEZONE)
     news_max_chars = parse_int_env("NEWS_MAX_CHARS", DEFAULT_NEWS_MAX_CHARS)
     news_top_n = parse_int_env("NEWS_TOP_N", DEFAULT_NEWS_TOP_N)
+    max_items_for_llm = parse_int_env("MAX_ITEMS_FOR_LLM", DEFAULT_MAX_ITEMS_FOR_LLM)
 
     tz = get_timezone(timezone_name)
     now_local = datetime.now(tz)
@@ -1445,18 +1542,7 @@ def main() -> int:
         send_report_with_fallback(webhook_url, feishu_secret, error_report)
         return 1
 
-    items = candidates_payload.get("items", [])
-    if not isinstance(items, list):
-        raise RuntimeError("Invalid candidates JSON: items is not a list")
-
-    if not items:
-        empty_report = build_error_report(report_date, f"候选新闻为空：{source_file.name}")
-        empty_report["source_json_name"] = source_file.name
-        empty_report["used_fallback_cache"] = used_fallback_cache
-        empty_report["learning_source_json_name"] = "N/A"
-        empty_report["learning_used_fallback_cache"] = False
-        send_report_with_fallback(webhook_url, feishu_secret, empty_report)
-        return 0
+    items, items_field = select_news_items_for_llm(candidates_payload, max_items_for_llm)
 
     learning_data_dir = project_root / "data" / "learning-candidates"
     learning_items: list[dict[str, Any]] = []
@@ -1470,14 +1556,11 @@ def main() -> int:
                 report_date,
             )
             learning_source_json_name = learning_source_file.name
-            raw_learning_items = learning_payload.get("items", [])
-            if isinstance(raw_learning_items, list):
-                learning_items = [item for item in raw_learning_items if isinstance(item, dict)]
-            else:
-                LOGGER.warning("Invalid learning JSON items list in %s", learning_source_file.name)
+            learning_items, learning_items_field = select_learning_items_for_report(learning_payload)
             LOGGER.info(
-                "Loaded learning candidates from %s (items=%s, fallback_cache=%s)",
+                "Loaded learning candidates from %s (%s=%s, fallback_cache=%s)",
                 learning_source_file.name,
+                learning_items_field,
                 len(learning_items),
                 learning_used_fallback_cache,
             )
@@ -1495,6 +1578,15 @@ def main() -> int:
     else:
         LOGGER.info("No suitable learning resource selected for today")
 
+    if not items:
+        empty_report = build_no_significant_news_report(report_date, source_file.name, selected_learning_item)
+        empty_report["source_json_name"] = source_file.name
+        empty_report["used_fallback_cache"] = used_fallback_cache
+        empty_report["learning_source_json_name"] = learning_source_json_name
+        empty_report["learning_used_fallback_cache"] = learning_used_fallback_cache
+        send_report_with_fallback(webhook_url, feishu_secret, empty_report)
+        return 0
+
     api_key = os.getenv("LITELLM_API_KEY") or os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("Missing LITELLM_API_KEY or OPENAI_API_KEY")
@@ -1506,8 +1598,9 @@ def main() -> int:
     model = os.getenv("LITELLM_MODEL", "gpt-5.4").strip() or "gpt-5.4"
 
     LOGGER.info(
-        "Generating report JSON from %s (items=%s, fallback_cache=%s, learning_items=%s)",
+        "Generating report JSON from %s (%s=%s, fallback_cache=%s, learning_items=%s)",
         source_file.name,
+        items_field,
         len(items),
         used_fallback_cache,
         len(learning_items),

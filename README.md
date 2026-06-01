@@ -140,8 +140,8 @@ cp .env.example .env
 入口：`scripts/daily_ai_news.py`
 
 流程：
-1. 读取 `data/news-candidates/YYYY-MM-DD.json`，缺失时回退最近缓存。
-2. 读取 `data/learning-candidates/YYYY-MM-DD.json`，缺失时回退最近缓存。
+1. 读取 `data/news-candidates/YYYY-MM-DD.json`，优先使用 `curated_items`，缺失时回退最近缓存。
+2. 读取 `data/learning-candidates/YYYY-MM-DD.json`，优先使用 learning `curated_items`，缺失时回退最近缓存。
 3. 从 learning candidates 选择 1 条“Codex Agent 每日一学”资源（优先官方 Codex > YouTube > 教程）。
 4. 调用 LiteLLM：`POST {LITELLM_BASE_URL}/chat/completions`。
 5. 解析严格 JSON（`summary`、`top_news`、`codex_learning`）。
@@ -154,6 +154,90 @@ cp .env.example .env
 
 如果学习资源为空：
 - 第三部分显示“今日未发现新的 Codex Agent 学习资源。”
+
+## 10.1 RSS 前端策展与去重
+`collect_rss.py` 现在会在 GitHub Actions 阶段完成新闻候选清洗，减少 LiteLLM 输入噪声：
+- RSS 抓取与来源分组
+- 当天内部标题/链接去重
+- 跨天历史去重
+- 弱相关过滤
+- 主题打标与分类
+- 新闻评分
+- 全球/中国/中国汽车新闻平衡筛选
+- 生成 `curated_items`
+
+新闻 JSON 会保留：
+- `curated_items`：默认 5 条，供 `daily_ai_news.py` 直接传给 LiteLLM。
+- `selection_config`：本次筛选配置。
+- `history_dedupe`：历史去重统计。
+- `rejected_stats` / `rejected_samples`：被过滤原因与样例。
+
+历史去重文件：
+
+```text
+data/history/news-history.json
+data/history/learning-history.json
+```
+
+这些文件由 GitHub Actions 自动维护并提交，只包含公开标题、来源、链接、分类/类型和去重键，不包含公司密钥，默认保留 30 天。
+
+学习资源 JSON 也会保留：
+- `curated_items`：默认 1 条，供“Codex Agent 每日一学”直接使用。
+- `history_dedupe`：学习资源历史去重统计。
+
+## 10.2 RSS 策展配置
+可通过环境变量调整，不填写则使用默认值：
+
+```bash
+NEWS_REGION_MODE=balanced
+TARGET_CANDIDATE_COUNT=5
+MIN_GLOBAL_NEWS=2
+MAX_CHINA_NEWS=2
+MAX_AUTO_CHINA_NEWS=1
+MAX_SAME_SOURCE_NEWS=2
+MAX_ITEMS_FOR_LLM=5
+CANDIDATE_RETENTION_DAYS=3
+HISTORY_DEDUPE_DAYS=14
+HISTORY_RETENTION_DAYS=30
+HISTORY_SIMILARITY_THRESHOLD=0.82
+TARGET_LEARNING_CANDIDATE_COUNT=1
+MAX_SAME_SOURCE_LEARNING=1
+LEARNING_HISTORY_DEDUPE_DAYS=14
+LEARNING_HISTORY_RETENTION_DAYS=30
+LEARNING_HISTORY_SIMILARITY_THRESHOLD=0.82
+```
+
+调参建议：
+- 如果日报中国新闻太多：降低 `MAX_CHINA_NEWS`、降低 `MAX_AUTO_CHINA_NEWS`、提高 `MIN_GLOBAL_NEWS`。
+- 如果日报全球新闻太多：提高 `MAX_CHINA_NEWS` 或 `MAX_AUTO_CHINA_NEWS`。
+- 如果当天重复新闻仍然很多：检查 `dedupe_key` / normalized title，并降低相似度阈值，例如 `0.82` 改为 `0.78`。
+- 如果跨天重复新闻仍然很多：提高 `HISTORY_DEDUPE_DAYS`，或降低 `HISTORY_SIMILARITY_THRESHOLD`。
+- 如果新进展被误杀：提高 `HISTORY_SIMILARITY_THRESHOLD`，降低 `HISTORY_DEDUPE_DAYS`，并检查 `has_new_development_signal`。
+- 如果 Codex 每日一学重复：提高 `LEARNING_HISTORY_DEDUPE_DAYS`，或降低 `LEARNING_HISTORY_SIMILARITY_THRESHOLD`。
+- 如果学习资源同一来源太多：降低 `MAX_SAME_SOURCE_LEARNING`。
+- `CANDIDATE_RETENTION_DAYS` 控制 `data/news-candidates/` 和 `data/learning-candidates/` 只保留最近几天；history 不受影响，仍按各自 retention 保留用于未来去重。
+
+当天重复新闻判断：
+- 标题规范化后完全相同，视为重复。
+- 标题相似度高于阈值，视为重复。
+- 同一标题多来源转载时，优先保留官方/原始来源、分数更高或摘要更完整的条目。
+- Google News 聚合链接不会单独作为强唯一依据，优先按标题判断。
+
+跨天重复新闻判断：
+- 最近 `HISTORY_DEDUPE_DAYS` 天内 canonical key 相同，视为旧闻。
+- normalized title 相似度超过 `HISTORY_SIMILARITY_THRESHOLD`，视为旧闻。
+- normalized link 相同且不是 Google News 聚合链接，视为旧闻。
+- 标题/摘要包含明确新进展信号（如发布、上线、量产、开源、benchmark）时可保守放行，并写入 `selection_reason`。
+
+手动测试 GitHub Actions 抓取结果：
+
+```bash
+python scripts/collect_rss.py
+python -m json.tool data/news-candidates/$(date -d yesterday +%F).json >/tmp/news.json
+python -m json.tool data/history/news-history.json >/tmp/history.json
+```
+
+Windows Git Bash 下也可以直接运行 `python scripts/collect_rss.py`，然后打开最新的 `data/news-candidates/YYYY-MM-DD.json` 查看 `curated_items`、`rejected_stats` 与 `history_dedupe`。
 
 ## 11. 如何手动触发 GitHub Actions
 1. 打开 GitHub 仓库 `Actions`。
