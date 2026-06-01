@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-06-01T10:54:52.499147+08:00",
+  "generated_at": "2026-06-01T14:05:41.664855+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 20,
@@ -17,41 +17,41 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 45,
-    "history_size_after": 46,
+    "history_size_before": 46,
+    "history_size_after": 47,
     "history_duplicate_count": 39
   },
   "raw_item_count": 500,
-  "deduped_item_count": 381,
-  "filtered_item_count": 43,
+  "deduped_item_count": 379,
+  "filtered_item_count": 44,
   "curated_item_count": 1,
   "curated_items": [
     {
-      "title": "实操指南：Codex CLI 0.132升级+移动端远程控制+Triggers 自动修复流水线配置 - 51CTO",
-      "summary": "实操指南：Codex CLI 0.132升级+移动端远程控制+Triggers 自动修复流水线配置 51CTO",
-      "published_at": "2026-05-25T13:56:55+08:00",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFByXzl0ckN4M0w1bXFCbHozdUpuaXhTd2lHWndGUWJwUGhUS0xzX3REc0ZtbVI0WE9ZMXFWby1wN0xYVnVuQTJ2ZWNoRzZQdw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "learning_search_china",
+      "title": "How to Build an Agentic Organization with OpenAI Codex, By Endava - Memeburn",
+      "summary": "How to Build an Agentic Organization with OpenAI Codex, By Endava Memeburn",
+      "published_at": "2026-06-01T14:12:39+08:00",
+      "source": "\"OpenAI Codex AGENTS.md\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "learning_search_global",
       "source_type": "tutorial",
       "tags": [
         "agent",
-        "cli",
+        "agents",
         "codex",
         "tutorial"
       ],
-      "score": 33,
-      "canonical_key": "实操指南 codex cli 0 132升级 移动端远程控制 triggers 自动修复流水线配置",
-      "dedupe_key": "实操指南 codex cli 0 132升级 移动端远程控制 triggers 自动修复流水线配置",
+      "score": 37,
+      "canonical_key": "how to build an agentic organization with openai codex by endava",
+      "dedupe_key": "how to build an agentic organization with openai codex by endava",
       "selection_reason": "learning_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 119,
+    "duplicate": 121,
     "history_duplicate": 39,
     "same_source_limit": 0,
-    "old_resource": 180
+    "old_resource": 175
   }
 }

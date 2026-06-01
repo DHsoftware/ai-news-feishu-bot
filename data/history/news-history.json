@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T10:54:52.499147+08:00",
+  "updated_at": "2026-06-01T14:05:41.664855+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1737,7 +1737,7 @@
       "category": "AI编程工具",
       "region": "global",
       "source_group": "global",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1751,6 +1751,66 @@
       "category": "AI芯片",
       "region": "global",
       "source_group": "global",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "nvidia levels up local ai agents across rtx pcs and dgx spark",
+      "normalized_title": "nvidia levels up local ai agents across rtx pcs and dgx spark",
+      "normalized_link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+      "title": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "synera advances ai agents for design and engineering simulation with nvidia",
+      "normalized_title": "synera advances ai agents for design and engineering simulation with nvidia",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
+      "title": "Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire",
+      "source": "\"AI product development\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
+      "normalized_title": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
+      "title": "Anthropic 在 Code With Claude 上发布托管式智能体、主动式工作流与能力曲线 - Infoq.cn",
+      "source": "\"AI 工作流\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
+      "normalized_title": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
+      "title": "Power Integrations推出节省空间的超薄型辅助电源参考设计，适用于NVIDIA的Kyber 800VDC AI数据中心应用 - Business Wire",
+      "source": "\"AI 功率变换器\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
       "seen_count": 1
     }
   ]

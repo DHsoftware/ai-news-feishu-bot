@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T10:54:52.499147+08:00",
+  "updated_at": "2026-06-01T14:05:41.664855+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -645,6 +645,20 @@
       "source_type": "tutorial",
       "language": "zh",
       "region": "china",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-05-31",
+      "last_seen_date": "2026-05-31",
+      "canonical_key": "how to build an agentic organization with openai codex by endava",
+      "normalized_title": "how to build an agentic organization with openai codex by endava",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
+      "title": "How to Build an Agentic Organization with OpenAI Codex, By Endava - Memeburn",
+      "source": "\"OpenAI Codex AGENTS.md\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
+      "source_type": "tutorial",
+      "language": "en",
+      "region": "global",
       "seen_count": 1
     }
   ]

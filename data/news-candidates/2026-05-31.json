@@ -1,15 +1,15 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-06-01T10:54:52.499147+08:00",
+  "generated_at": "2026-06-01T14:05:41.664855+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
-    "source_count": 46,
-    "success_count": 37,
-    "failed_count": 9,
+    "source_count": 212,
+    "success_count": 210,
+    "failed_count": 2,
     "global_source_count": 16,
-    "global_success_count": 10,
-    "china_source_count": 30,
-    "china_success_count": 27
+    "global_success_count": 15,
+    "china_source_count": 34,
+    "china_success_count": 195
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -18,139 +18,192 @@
     "max_china_news": 2,
     "max_auto_china_news": 1,
     "max_same_source_news": 2,
-    "max_items_for_llm": 5
+    "max_items_for_llm": 5,
+    "min_agent_news": 1,
+    "min_productivity_news": 1,
+    "min_company_research_news": 1,
+    "max_company_research_news": 2,
+    "max_auto_driving_news": 1,
+    "max_smart_cockpit_news": 1,
+    "power_electronics_boost": true
   },
   "history_dedupe": {
     "history_path": "data/history/news-history.json",
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 120,
-    "history_size_after": 125,
-    "history_duplicate_count": 8
+    "history_size_before": 125,
+    "history_size_after": 129,
+    "history_duplicate_count": 6
   },
-  "raw_item_count": 1370,
-  "deduped_item_count": 1209,
-  "filtered_item_count": 78,
+  "raw_item_count": 7394,
+  "deduped_item_count": 6087,
+  "filtered_item_count": 330,
   "curated_item_count": 5,
   "curated_items": [
     {
-      "title": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了 - 36kr.com",
-      "summary": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了 36kr.com",
-      "published_at": "2026-06-01T10:48:00+08:00",
-      "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Lc0RZNU8xdWlFYlFRNkdWcUY4aTZCVy1vS0JSd1JvLWxFa25yWklBLV9oaTBYeUZoV3g0NEZFVE1mMVViMVYxZ3dKazBxQQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "tags": [],
-      "topic_tags": [
-        "llm",
-        "research"
-      ],
-      "category": "研究论文",
-      "dedupe_key": "deepseek陈德里ai论文第二弹 从6分到8分 deliautoresearch skill又进化了",
-      "canonical_key": "deepseek陈德里ai论文第二弹 从6分到8分 deliautoresearch skill又进化了",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Lc0RZNU8xdWlFYlFRNkdWcUY4aTZCVy1vS0JSd1JvLWxFa25yWklBLV9oaTBYeUZoV3g0NEZFVE1mMVViMVYxZ3dKazBxQQ?oc=5",
-      "score": 29,
-      "selection_reason": "required_global_quota"
-    },
-    {
-      "title": "Anthropic releases Claude Opus 4.8 for coding agents | ETIH EdTech News - EdTech Innovation Hub",
-      "summary": "Anthropic releases Claude Opus 4.8 for coding agents | ETIH EdTech News EdTech Innovation Hub",
-      "published_at": "2026-06-01T07:51:44+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlBRc3JUSjFUZGF2Y1lLX2s3bkNmZDFWaG41Vk9wbTJfZm8zX2dJc1VWZm5MbkhYWG5LT280R3VwTnpZSVZwWkhaNHZCb2p2LVI4Wm16LTVsaERaUXpfTV9tbzhZa2lkR0hBdTJQXzM1RGMxY3NIV05mdndzMnFPSUZXV0Y3aTBKQnNOdlNjQWVpRlhnWWN1VlBvMDI3Y1F4V19rOGlvQ2NYSU9wbC1MVlhJeDl1dGFPQWc?oc=5",
+      "title": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
+      "summary": "Personal agents are exploding in popularity, with open source projects like OpenClaw and Hermes seeing rapid adoption by AI developer communities on GitHub. Built to adapt to individual preferences and workflows, these agents can interact with applications, generate content, automate repetitive processes and manage multi-step tasks — all while running locally on device. Today at […]",
+      "published_at": "2026-06-01T12:30:11+08:00",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
       "language": "en",
       "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": [],
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "tags": [
+        "company_research",
+        "technical_blog",
+        "ai_research"
+      ],
       "topic_tags": [
         "agent",
-        "coding"
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "opensource",
+        "technical_blog"
       ],
-      "category": "AI编程工具",
-      "dedupe_key": "anthropic releases claude opus 4 8 for coding agents etih edtech news",
-      "canonical_key": "anthropic releases claude opus 4 8 for coding agents etih edtech news",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlBRc3JUSjFUZGF2Y1lLX2s3bkNmZDFWaG41Vk9wbTJfZm8zX2dJc1VWZm5MbkhYWG5LT280R3VwTnpZSVZwWkhaNHZCb2p2LVI4Wm16LTVsaERaUXpfTV9tbzhZa2lkR0hBdTJQXzM1RGMxY3NIV05mdndzMnFPSUZXV0Y3aTBKQnNOdlNjQWVpRlhnWWN1VlBvMDI3Y1F4V19rOGlvQ2NYSU9wbC1MVlhJeDl1dGFPQWc?oc=5",
-      "score": 27,
-      "selection_reason": "required_global_quota"
-    },
-    {
-      "title": "英伟达发布Arm架构AI PC芯片N1X，开启PC新时代 - 虎嗅",
-      "summary": "英伟达发布Arm架构AI PC芯片N1X，开启PC新时代 虎嗅",
-      "published_at": "2026-06-01T10:25:08+08:00",
-      "source": "\"虎嗅 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mTDNob19kai1NQVdRSlZJZi1oQmh5V0lKWWd5WXBRUWhHUEcwcTNiYjgzN3RPZEoyV0lDM0FFYXZoVTJ2SHJHdjFNR2RfRFZZNzJWSQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "tags": [],
-      "topic_tags": [
-        "chip"
-      ],
-      "category": "AI芯片",
-      "dedupe_key": "英伟达发布arm架构ai pc芯片n1x 开启pc新时代",
-      "canonical_key": "英伟达发布arm架构ai pc芯片n1x 开启pc新时代",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mTDNob19kai1NQVdRSlZJZi1oQmh5V0lKWWd5WXBRUWhHUEcwcTNiYjgzN3RPZEoyV0lDM0FFYXZoVTJ2SHJHdjFNR2RfRFZZNzJWSQ?oc=5",
-      "score": 11,
-      "selection_reason": "china_quota"
+      "category": "AI Agent",
+      "dedupe_key": "nvidia levels up local ai agents across rtx pcs and dgx spark",
+      "canonical_key": "nvidia levels up local ai agents across rtx pcs and dgx spark",
+      "normalized_link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+      "score": 127,
+      "selection_reason": "required_agent_or_coding"
     },
     {
       "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research - The Decoder",
       "summary": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research The Decoder",
       "published_at": "2026-05-31T17:44:10+08:00",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
+      "source": "\"AI productivity\" - Google News",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhXNHh0azVRYm04SU5aOGJFZXY0VnZMWlRHTXpwTm5Od1RLT0NGTGxpb3VOUF9uUjIwS01BN3VZZkdzVDJpZXRWbk9tMGM0VjB1dmw1Q2JWZFJPTzY2endiX09tTFVGeHBlaUd0OUpVM0d3dzBJYmRuVkh5MlBKbDdOUS1wNlNEMTBQZU90RTJ0a0l2eXV4LU9la0RwZ2NNTTF0UTRLekwwOVA2ZTJqeTR2Y041M3hNMkhGQWVMX2VaaFhRNjlsdlQxRnc?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": [],
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "tags": [
+        "org_productivity",
+        "ai_transformation",
+        "workflow_automation"
+      ],
       "topic_tags": [
         "agent",
-        "coding"
+        "ai_transformation",
+        "coding",
+        "coding_agent",
+        "org_productivity",
+        "workflow_automation"
       ],
       "category": "AI编程工具",
       "dedupe_key": "anthropic study finds men use ai coding agents more than twice as often as women in social science research",
       "canonical_key": "anthropic study finds men use ai coding agents more than twice as often as women in social science research",
       "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhXNHh0azVRYm04SU5aOGJFZXY0VnZMWlRHTXpwTm5Od1RLT0NGTGxpb3VOUF9uUjIwS01BN3VZZkdzVDJpZXRWbk9tMGM0VjB1dmw1Q2JWZFJPTzY2endiX09tTFVGeHBlaUd0OUpVM0d3dzBJYmRuVkh5MlBKbDdOUS1wNlNEMTBQZU90RTJ0a0l2eXV4LU9la0RwZ2NNTTF0UTRLekwwOVA2ZTJqeTR2Y041M3hNMkhGQWVMX2VaaFhRNjlsdlQxRnc?oc=5",
-      "score": 27,
-      "selection_reason": "fill_remaining_high_score"
+      "score": 92,
+      "selection_reason": "required_productivity"
     },
     {
-      "title": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China - Reuters",
-      "summary": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China Reuters",
-      "published_at": "2026-06-01T04:09:00+08:00",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
+      "title": "Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire",
+      "summary": "Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA Business Wire",
+      "published_at": "2026-06-01T13:30:00+08:00",
+      "source": "\"AI product development\" - Google News",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "tags": [],
-      "topic_tags": [
-        "chip",
-        "llm"
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "tags": [
+        "org_productivity",
+        "ai_transformation",
+        "workflow_automation"
       ],
-      "category": "AI芯片",
-      "dedupe_key": "us takes step to halt nvidia ai chip shipments to chinese firms outside china",
-      "canonical_key": "us takes step to halt nvidia ai chip shipments to chinese firms outside china",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
-      "score": 24,
-      "selection_reason": "fill_remaining_high_score"
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "simulation_optimization",
+        "workflow_automation"
+      ],
+      "category": "AI Agent",
+      "dedupe_key": "synera advances ai agents for design and engineering simulation with nvidia",
+      "canonical_key": "synera advances ai agents for design and engineering simulation with nvidia",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
+      "score": 84,
+      "selection_reason": "power_electronics_boost"
+    },
+    {
+      "title": "Anthropic 在 Code With Claude 上发布托管式智能体、主动式工作流与能力曲线 - Infoq.cn",
+      "summary": "Anthropic 在 Code With Claude 上发布托管式智能体、主动式工作流与能力曲线 Infoq.cn",
+      "published_at": "2026-06-01T09:58:12+08:00",
+      "source": "\"AI 工作流\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "tags": [
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
+      ],
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
+      "canonical_key": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
+      "score": 76,
+      "selection_reason": "china_quota"
+    },
+    {
+      "title": "Power Integrations推出节省空间的超薄型辅助电源参考设计，适用于NVIDIA的Kyber 800VDC AI数据中心应用 - Business Wire",
+      "summary": "Power Integrations推出节省空间的超薄型辅助电源参考设计，适用于NVIDIA的Kyber 800VDC AI数据中心应用 Business Wire",
+      "published_at": "2026-06-01T12:00:00+08:00",
+      "source": "\"AI 功率变换器\" - Google 新闻",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "tags": [
+        "power_electronics",
+        "obc",
+        "dcdc"
+      ],
+      "topic_tags": [
+        "dcdc",
+        "design_guide",
+        "obc",
+        "power_electronics"
+      ],
+      "category": "OBC/DCDC",
+      "dedupe_key": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
+      "canonical_key": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
+      "score": 74,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 161,
-    "history_duplicate": 8,
-    "weak_relevance": 147,
+    "duplicate": 1307,
+    "history_duplicate": 6,
+    "weak_relevance": 186,
     "same_source_limit": 0,
-    "china_limit": 36,
-    "auto_china_limit": 23,
-    "old_news": 984
+    "china_limit": 0,
+    "auto_china_limit": 0,
+    "old_news": 5571,
+    "company_research_limit": 0,
+    "auto_driving_limit": 0,
+    "smart_cockpit_limit": 0,
+    "no_agent_candidate": 0,
+    "no_productivity_candidate": 0,
+    "no_company_research_candidate": 0,
+    "no_power_electronics_candidate": 0
   }
 }
