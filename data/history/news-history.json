@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T11:41:39.857886+08:00",
+  "updated_at": "2026-06-03T07:09:05.695349+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1830,7 +1830,7 @@
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-02",
       "canonical_key": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
       "normalized_title": "taiwan s industry titans turbocharge world s ai infrastructure buildout with nvidia",
       "normalized_link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
@@ -1841,11 +1841,11 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-06-01",
+      "last_seen_date": "2026-06-02",
       "canonical_key": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
       "normalized_title": "nvidia 发布面向物理 ai 的开源智能体工具和技能集合",
       "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTIzaTA5SGM2WkVPRDRrVldodnpDR3M3b2FtQTA0Mjh4MlNid3kwWXZtNHBmd0I3alNETkxoVEpQSER6dEVOTUpZai1TZ0R2R1hIUVlvaFJMWXlEREh3VV9JZ0RJT0JnQldLQXIzTXZsU21BSEEwaDJZYjRqUGFJaDNVQzdEMnl5UllBeDl6RWdxZ3I4WW9sYzY1M2hkTFVtWk5qbGdjOVFIWUMybW00cDRLYmhVR3c?oc=5",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 11
+      "seen_count": 12
     },
     {
       "first_seen_date": "2026-05-31",
@@ -2040,6 +2040,80 @@
         "llm"
       ],
       "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-06-02",
+      "last_seen_date": "2026-06-02",
+      "canonical_key": "codex is becoming a productivity tool for everyone",
+      "normalized_title": "codex is becoming a productivity tool for everyone",
+      "normalized_link": "https://openai.com/index/codex-for-knowledge-work",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/codex-for-knowledge-work",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report",
+        "workflow_automation"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-02",
+      "last_seen_date": "2026-06-02",
+      "canonical_key": "科研自动化的里程碑 nature正刊发布theaiscientist或许将改变ai科研新方式",
+      "normalized_title": "科研自动化的里程碑 nature正刊发布theaiscientist或许将改变ai科研新方式",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9US0c0M0VVcFRSWUh1RkhDallJM0NjQ296QVNVbjNjdUhDOFIxVnd6M2xUOURoZWwtd1BIeEpZUWQ0ZGg0YncwQWpMcGRCdTdZNktncWtVNU52cjVCZ2RIdQ?oc=5",
+      "title": "科研自动化的里程碑：Nature正刊发布TheAIScientist或许将改变AI科研新方式！ - thepaper.cn",
+      "summary": "科研自动化的里程碑：Nature正刊发布TheAIScientist或许将改变AI科研新方式！ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9US0c0M0VVcFRSWUh1RkhDallJM0NjQ296QVNVbjNjdUhDOFIxVnd6M2xUOURoZWwtd1BIeEpZUWQ0ZGg0YncwQWpMcGRCdTdZNktncWtVNU52cjVCZ2RIdQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-02",
+      "last_seen_date": "2026-06-02",
+      "canonical_key": "shape copilot code review around your team",
+      "normalized_title": "shape copilot code review around your team",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1VjLVZsY1JNZjhYTWpaTTJXbzB0Wkt0Tl9hVzFZODBLY2p2MVZSd25zZU4tMG9IczBkWmNwVjRONGlrc1V6V1l0WkhtSnJ5QXVIZ0E1MDUtZXVEd2cxeUxIekVjZHF2eVZlRlhobEIxSjVrSUl6aGRWZWs4YlVCY1lfYWR5TG8zZEZRSg?oc=5",
+      "title": "Shape Copilot code review around your team - The GitHub Blog",
+      "summary": "Shape Copilot code review around your team The GitHub Blog",
+      "source": "The GitHub Blog",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1VjLVZsY1JNZjhYTWpaTTJXbzB0Wkt0Tl9hVzFZODBLY2p2MVZSd25zZU4tMG9IczBkWmNwVjRONGlrc1V6V1l0WkhtSnJ5QXVIZ0E1MDUtZXVEd2cxeUxIekVjZHF2eVZlRlhobEIxSjVrSUl6aGRWZWs4YlVCY1lfYWR5TG8zZEZRSg?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "seen_count": 1
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T11:41:39.857886+08:00",
+  "updated_at": "2026-06-03T07:09:05.695349+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -708,6 +708,25 @@
       "source_quality": "high",
       "summary_quality": "high",
       "concept_hint": "Agent Workflow",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-02",
+      "last_seen_date": "2026-06-02",
+      "canonical_key": "model context protocol",
+      "normalized_title": "model context protocol",
+      "normalized_link": "https://developers.openai.com/codex/mcp",
+      "title": "Model Context Protocol - Codex",
+      "summary": "OpenAI Codex guide explaining how MCP connects Codex with external tools and context providers.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/mcp",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Tool Calling",
       "is_official_source": true,
       "language": "en",
       "region": "global",
