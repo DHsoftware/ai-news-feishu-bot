@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T07:44:04.175077+08:00",
+  "updated_at": "2026-06-02T09:35:55.968947+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1841,7 +1841,7 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1990,7 +1990,7 @@
         "company_research",
         "official_report"
       ],
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-01",
@@ -2014,7 +2014,7 @@
         "technical_blog",
         "workflow_automation"
       ],
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-01",
@@ -2039,7 +2039,7 @@
         "coding_agent",
         "llm"
       ],
-      "seen_count": 2
+      "seen_count": 3
     }
   ]
 }
