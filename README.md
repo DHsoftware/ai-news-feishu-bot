@@ -5,7 +5,7 @@
 
 A. GitHub Actions（公网侧）
 - 抓取 AI 科技新闻 RSS 候选。
-- 抓取 Codex Agent 学习资源候选（YouTube RSS、OpenAI Developers/Docs、Google News 教程搜索）。
+- 抓取 Agent 概念学习资源候选（优先官方 Agent / Agents SDK / MCP / Codex 文档，YouTube 和 Google News 仅作低优先级发现线索）。
 - 生成 JSON 缓存：
   - `data/news-candidates/YYYY-MM-DD.json`
   - `data/learning-candidates/YYYY-MM-DD.json`
@@ -107,7 +107,7 @@ cp .env.example .env
   - `data/learning-candidates/`
 
 ## 7. 学习资源抓取说明
-`collect_rss.py` 会收集 Codex 学习资源候选，字段包括：
+`collect_rss.py` 会收集 Agent 概念学习资源候选，字段包括：
 - `title`
 - `summary`
 - `summary_source`（如 `rss_description` / `rss_content_encoded` / `atom_summary` / `atom_content` / `page_meta_description` / `page_og_description` / `page_title` / `empty`）
@@ -121,15 +121,38 @@ cp .env.example .env
 - `region`
 - `link`
 - `tags`
+- `concept_hint`（如 `Agent Workflow` / `Tool Calling` / `Guardrails` / `Observability`）
 
 限制说明：
 - YouTube RSS 只能拿到标题、链接、发布时间、简介等元数据。
 - 不等于拿到完整字幕或完整视频内容。
-- 因此“Codex Agent 每日一学”只会基于元数据提炼学习建议，并附原链接。
-- Codex Agent 每日一学优先使用官方文档、官方视频和高质量技术博客。
-- Google News 仅作为发现线索，不作为高可信学习内容来源；如果没有高质量学习资源，日报会提示“今日未发现高质量 Codex Agent 学习资源”。
-- 对 AGENTS.md 的解释应限于项目说明、构建测试命令、代码风格和安全约束，不应过度解释为组织角色管理文件。
+- “Codex Agent 每日一学”已调整为“Agent 概念每日一学”，用于解释 Agent 相关概念，而不是提供操作 prompt。
+- Agent 概念每日一学优先使用 OpenAI 官方文档、OpenAI Codex GitHub、Agents SDK、MCP、guardrails、evals、observability 等稳定一手来源。
+- `OFFICIAL_AGENT_CONCEPT_RESOURCES` 是稳定的一手来源池，每次抓取都会作为 learning 候选进入历史去重、质量评分和 curated 选择。
+- Google News / YouTube 仅作为低优先级发现线索；如果有官方概念资源可用，它们不会优先进入 learning `curated_items`。
+- 对 AGENTS.md 的解释会落在 `Agent Instructions` 概念，而不是教用户如何写 AGENTS.md 或生成可复制 Prompt。
 - 新闻和学习候选会尽量从 RSS/Atom 摘要、`content:encoded`、页面 meta description / og description 中提取轻量摘要；如果摘要为空或很短，会写入 `summary_quality=low/empty`，日报 prompt 会要求模型不要过度推断。
+
+支持的 Agent 概念包括：
+- AI Agent
+- Coding Agent
+- Agent Workflow
+- Tool Calling
+- Guardrails
+- Human-in-the-loop
+- Agent Evaluation
+- Observability
+- MCP
+- Agent Instructions
+- Orchestration
+- Agent State
+- Agent Skills
+
+来源优先级：
+1. 官方 Agent 概念文档。
+2. 官方 Codex / Agents SDK / MCP / AGENTS.md 文档。
+3. GitHub / Anthropic / Cursor 等高质量工程文档或技术博客。
+4. 普通教程、媒体文章、Google News 聚合和 YouTube 视频。
 
 ## 8. 如何新增 YouTube 频道/播放列表 RSS
 在 `scripts/collect_rss.py` 的 `YOUTUBE_LEARNING_FEEDS` 中新增条目。
@@ -146,11 +169,11 @@ cp .env.example .env
 3. 组装 RSS URL。
 4. 加入 `YOUTUBE_LEARNING_FEEDS`。
 
-## 9. 如何新增中文教程搜索关键词
+## 9. 如何新增中文概念搜索关键词
 在 `scripts/collect_rss.py` 中扩展 `LEARNING_GNEWS_QUERIES_ZH`，例如：
-- `Codex CLI 进阶`
-- `Codex Agent 工作流 实战`
-- `Codex MCP 集成`
+- `AI Agent 工作流 概念`
+- `智能体 工具调用 护栏 评估 可观测性`
+- `MCP 智能体 工具 协议`
 
 ## 10. 本地日报脚本行为
 入口：`scripts/daily_ai_news.py`
@@ -158,16 +181,16 @@ cp .env.example .env
 流程：
 1. 读取 `data/news-candidates/YYYY-MM-DD.json`，优先使用 `curated_items`；如果目标日期新闻 JSON 缺失则静默退出，不回退旧新闻。
 2. 读取 `data/learning-candidates/YYYY-MM-DD.json`，优先使用 learning `curated_items`，缺失时回退最近缓存。
-3. 从 learning candidates 选择 1 条“Codex Agent 每日一学”资源（优先官方 Codex > YouTube > 教程）。
+3. 从 learning candidates 选择 1 条“Agent 概念每日一学”资源（优先官方 Agent 概念文档 > 官方 Codex / Agents SDK / MCP 文档 > 高质量技术博客 > 普通教程或媒体）。
 4. 调用 LiteLLM：`POST {LITELLM_BASE_URL}/chat/completions`。
 5. 解析严格 JSON（`summary`、`top_news`、`codex_learning`）。
-6. 如果 LiteLLM 超时、返回空、JSON 解析失败或请求异常，则自动使用 rule-based fallback 生成模板日报。
+6. 如果 LiteLLM 超时、返回空、JSON 解析失败或请求异常，则自动使用 rule-based fallback 生成概念解释型日报。
 7. 执行最终治理：同源、同主题、相似标题去重，并按 `NEWS_TOP_N=5` 截断。
 8. 飞书发送仅 1 条消息（interactive 失败降级 post，再降级 text）。
 
 rule-based fallback 行为：
 - 只使用 `data/news-candidates/YYYY-MM-DD.json` 的 `curated_items`，最多 5 条。
-- 只使用 `data/learning-candidates/YYYY-MM-DD.json` 的 `curated_items` 中选出的高质量 Codex Agent 学习资源，最多 1 条。
+- 只使用 `data/learning-candidates/YYYY-MM-DD.json` 的 `curated_items` 中选出的高质量 Agent 概念学习资源，最多 1 条。
 - 直接复用候选中的标题、摘要、主题标签、来源和链接，不编造候选中不存在的信息。
 - 对官方研究、技术报告和白皮书保持保守表述，不夸大为量产落地。
 - 如果候选不足，就显示实际条数，不硬凑。
@@ -178,12 +201,12 @@ rule-based fallback 行为：
 飞书消息结构：
 1. 今日摘要
 2. 重要新闻 Top 5
-3. Codex Agent 每日一学
+3. Agent 概念每日一学
 
 新闻标题展示为自然标题，例如 `1. OpenAI frontier models and Codex are now available on AWS`，不再展示 `[AI编程工具]`、`[AI基础设施]`、`[AI组织提效]`、`[OBC/DCDC]` 等分类前缀。日报正文更接近自然新闻摘要，而不是分类清单。
 
 如果学习资源为空：
-- 第三部分显示“今日未发现高质量 Codex Agent 学习资源。”
+- 第三部分显示“今日未发现高质量 Agent 概念学习资源。”
 
 ## 10.1 RSS 前端策展与去重
 `collect_rss.py` 现在会在 GitHub Actions 阶段完成新闻候选清洗，减少 LiteLLM 输入噪声：
@@ -214,7 +237,7 @@ data/history/learning-history.json
 这些文件由 GitHub Actions 自动维护并提交，只包含公开标题、来源、链接、分类/类型和去重键，不包含公司密钥，默认保留 30 天。
 
 学习资源 JSON 也会保留：
-- `curated_items`：默认 1 条，供“Codex Agent 每日一学”直接使用。
+- `curated_items`：默认 1 条，供“Agent 概念每日一学”直接使用。
 - `history_dedupe`：学习资源历史去重统计。
 
 当前新闻重点已调整为：

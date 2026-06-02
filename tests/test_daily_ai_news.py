@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -9,6 +10,7 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from scripts import collect_rss as collect  # noqa: E402
 from scripts import daily_ai_news as daily  # noqa: E402
 
 
@@ -45,6 +47,7 @@ def sample_learning_item() -> dict[str, object]:
         "is_official_source": True,
         "link": "https://github.com/openai/codex",
         "tags": ["agent", "agents_md", "cli", "codex"],
+        "concept_hint": "Agent Instructions",
     }
 
 
@@ -108,10 +111,12 @@ def llm_report() -> dict[str, object]:
             "resource_type": "官方文档",
             "source_name": "OpenAI Codex GitHub",
             "source_url": sample_learning_item()["link"],
-            "learning_point": "Read AGENTS.md first.",
-            "how_to_apply": "Ask Codex to inspect project instructions before editing.",
-            "example_prompt": daily.DEFAULT_LEARNING_PROMPT,
-            "confidence_note": daily.DEFAULT_LEARNING_NOTE,
+            "concept": "Agent Instructions",
+            "concept_explanation": "Agent Instructions 是给 Agent 的项目级背景、约束和工作规则。",
+            "why_it_matters": "它帮助 Agent 在具体项目中保持一致的工程上下文。",
+            "auto_relevance": "适合表达代码规范、测试要求、安全边界和工具链限制。",
+            "example_scenario": "例如在项目说明中定义哪些目录可改、哪些配置不能触碰。",
+            "confidence_note": "基于官方文档摘要整理。",
         },
     }
 
@@ -225,6 +230,25 @@ class DailyAiNewsTest(unittest.TestCase):
         self.assertNotIn("[AI编程工具]", text)
         self.assertNotIn("1. [", text)
 
+    def test_rule_based_feishu_hides_generated_analysis_fields(self) -> None:
+        report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
+        report["news_top_n"] = 5
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        for hidden in ("汽车行业关联：", "简要影响：", "可复制 Prompt："):
+            self.assertNotIn(hidden, text)
+        self.assertIn("发生了什么：", text)
+        self.assertIn("来源：", text)
+        self.assertIn("Agent 概念每日一学", text)
+        self.assertIn("今日概念：Agent Instructions", text)
+
+    def test_litellm_feishu_keeps_generated_analysis_fields(self) -> None:
+        report = llm_report()
+        report["news_top_n"] = 5
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        for visible in ("为什么重要：", "汽车行业关联：", "简要影响：", "今日概念：", "一句话解释："):
+            self.assertIn(visible, text)
+        self.assertNotIn("可复制 Prompt：", text)
+
     def test_feishu_renders_when_llm_omits_category(self) -> None:
         report = llm_report()
         for item in report["top_news"]:
@@ -242,11 +266,123 @@ class DailyAiNewsTest(unittest.TestCase):
         self.assertIn("topic_tags", collect_rss)
         self.assertIn("topic_signature", collect_rss)
 
+    def test_official_agent_concept_resources_are_static_high_quality(self) -> None:
+        self.assertGreaterEqual(len(collect.OFFICIAL_AGENT_CONCEPT_RESOURCES), 11)
+        first = collect.OFFICIAL_AGENT_CONCEPT_RESOURCES[0]
+        self.assertEqual(first["source_quality"], "high")
+        self.assertEqual(first["summary_quality"], "high")
+        self.assertEqual(first["summary_source"], "official_static_summary")
+        self.assertTrue(first["is_official_source"])
+
+    def test_collect_learning_candidates_adds_official_static_resources(self) -> None:
+        now = datetime(2026, 6, 2, 8, 0, tzinfo=timezone.utc)
+        with patch.object(collect, "collect_feed_sources", return_value=([], 0, 0)):
+            with patch.object(collect, "collect_learning_page_items", return_value=([], 0, 0)):
+                with patch.object(collect, "load_learning_history", return_value={"items": []}):
+                    with patch.object(collect, "save_learning_history"):
+                        payload = collect.collect_learning_candidates(timezone.utc, now)
+        self.assertGreaterEqual(payload["raw_item_count"], len(collect.OFFICIAL_AGENT_CONCEPT_RESOURCES))
+        self.assertEqual(payload["curated_item_count"], 1)
+        self.assertEqual(payload["curated_items"][0]["source_type"], "official_doc")
+        self.assertTrue(payload["curated_items"][0]["is_official_source"])
+
+    def test_collect_learning_prefers_official_concept_over_google_youtube(self) -> None:
+        official = {
+            "title": "Agents SDK | OpenAI API",
+            "summary": "OpenAI official guide for building agent workflows with tool calling and guardrails.",
+            "summary_source": "official_static_summary",
+            "summary_quality": "high",
+            "source": "OpenAI Developers",
+            "source_type": "official_doc",
+            "source_quality": "high",
+            "is_official_source": True,
+            "link": "https://developers.openai.com/api/docs/guides/agents",
+            "tags": ["agents_sdk", "agent_workflow", "tool_calling"],
+            "_score": 120,
+        }
+        google = {
+            "title": "Codex prompt tutorial - Google News",
+            "summary": "Short prompt tips.",
+            "summary_source": "rss_description",
+            "summary_quality": "medium",
+            "source": "Google News",
+            "source_type": "google_news",
+            "source_quality": "low",
+            "is_official_source": False,
+            "link": "https://news.google.com/rss/articles/x",
+            "tags": ["tutorial"],
+            "_score": 999,
+        }
+        youtube = {
+            "title": "Build Hour: Agents SDK",
+            "summary": "Video about agents.",
+            "summary_source": "rss_description",
+            "summary_quality": "medium",
+            "source": "OpenAI YouTube",
+            "source_type": "official_video",
+            "source_quality": "high",
+            "is_official_source": True,
+            "link": "https://www.youtube.com/watch?v=x",
+            "tags": ["agents_sdk"],
+            "_score": 998,
+        }
+        selected, rejected = collect.select_curated_learning_items([google, youtube, official])
+        self.assertEqual(selected[0]["link"], official["link"])
+        self.assertEqual(selected[0]["concept_hint"], "Agent Workflow")
+        self.assertNotIn(selected[0]["source_type"], {"google_news", "official_video"})
+
+    def test_concept_hint_mapping(self) -> None:
+        self.assertEqual(collect.concept_hint_from_tags(["agents_sdk"]), "Agent Workflow")
+        self.assertEqual(collect.concept_hint_from_tags(["tool_calling"]), "Tool Calling")
+        self.assertEqual(collect.concept_hint_from_tags(["guardrails"]), "Guardrails")
+        self.assertEqual(collect.concept_hint_from_tags(["codex", "coding_agent"]), "Coding Agent")
+        self.assertEqual(collect.concept_hint_from_tags(["agents_md"]), "Agent Instructions")
+
+    def test_daily_uses_concept_hint_and_tag_mapping(self) -> None:
+        self.assertEqual(daily.concept_from_learning_item({"concept_hint": "Tool Calling", "tags": ["agents_sdk"]}), "Tool Calling")
+        self.assertEqual(daily.concept_from_learning_item({"tags": ["agents_sdk"]}), "Agent Workflow")
+        self.assertEqual(daily.concept_from_learning_item({"tags": ["tool_calling"]}), "Tool Calling")
+        self.assertEqual(daily.concept_from_learning_item({"tags": ["guardrails"]}), "Guardrails")
+        self.assertEqual(daily.concept_from_learning_item({"tags": ["codex", "coding_agent"]}), "Coding Agent")
+        self.assertEqual(daily.concept_from_learning_item({"tags": ["agents_md"]}), "Agent Instructions")
+
+    def test_codex_learning_no_longer_requires_example_prompt(self) -> None:
+        report = daily.normalize_report_payload(
+            raw={
+                "title": "AI 科技日报｜2026-06-01",
+                "summary": ["x"],
+                "top_news": [],
+                "codex_learning": {"concept": "Guardrails"},
+            },
+            report_date="2026-06-01",
+            news_top_n=5,
+            candidate_items=sample_news_items(),
+            selected_learning_item={**sample_learning_item(), "concept_hint": "Guardrails", "tags": ["guardrails"]},
+            learning_candidate_items=[sample_learning_item()],
+        )
+        self.assertEqual(report["codex_learning"]["concept"], "Guardrails")
+        self.assertNotIn("example_prompt", report["codex_learning"])
+
+    def test_feishu_learning_section_has_no_copyable_prompt(self) -> None:
+        report = llm_report()
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        self.assertIn("三、Agent 概念每日一学", text)
+        self.assertNotIn("可复制 Prompt", text)
+        self.assertNotIn("请先读取 AGENTS.md", text)
+
+    def test_fallback_outputs_concept_learning(self) -> None:
+        item = {**sample_learning_item(), "concept_hint": "Tool Calling", "tags": ["tool_calling"]}
+        learning = daily.build_rule_based_codex_learning(item)
+        self.assertEqual(learning["concept"], "Tool Calling")
+        self.assertIn("Tool Calling", learning["concept_explanation"])
+        self.assertNotIn("example_prompt", learning)
+
     def test_fallback_contains_codex_learning(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
         learning = report["codex_learning"]
         self.assertEqual(learning["source_url"], "https://github.com/openai/codex")
-        self.assertTrue(learning["learning_point"])
+        self.assertEqual(learning["concept"], "Agent Instructions")
+        self.assertTrue(learning["concept_explanation"])
 
     def test_fallback_summary_hides_internal_words(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")

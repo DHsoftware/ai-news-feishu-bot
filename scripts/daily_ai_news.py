@@ -43,8 +43,8 @@ DEFAULT_NEWS_MAX_CHARS = 3500
 DEFAULT_NEWS_TOP_N = 5
 DEFAULT_MAX_ITEMS_FOR_LLM = 5
 
-DEFAULT_LEARNING_NOTE = "基于标题/简介整理，未验证完整正文，建议打开原链接查看。"
-DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现高质量 Codex Agent 学习资源。"
+DEFAULT_LEARNING_NOTE = "基于标题和摘要整理，建议打开原链接查看完整内容。"
+DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现高质量 Agent 概念学习资源。"
 
 RELATION_DIRECT = "直接影响"
 RELATION_INDIRECT = "间接影响"
@@ -60,8 +60,6 @@ LEARNING_TYPE_TUTORIAL = "教程"
 LEARNING_TYPE_NEWS = "新闻"
 LEARNING_TYPE_NA = "N/A"
 
-DEFAULT_LEARNING_PROMPT = "请先读取 AGENTS.md、README.md 和相关脚本，列出你计划修改的文件、测试命令和潜在风险。暂时不要改代码，等我确认后再执行。"
-
 LEARNING_CORE_KEYWORDS = [
     "codex",
     "agent",
@@ -73,6 +71,102 @@ LEARNING_CORE_KEYWORDS = [
     "代码审查",
     "工作流",
 ]
+
+CONCEPT_HINT_RULES: list[tuple[set[str], str]] = [
+    ({"agents_sdk", "agent_workflow", "openai_agents"}, "Agent Workflow"),
+    ({"tool_calling", "tools", "tool_integration"}, "Tool Calling"),
+    ({"guardrails", "safety", "approvals"}, "Guardrails"),
+    ({"human_in_the_loop", "approvals"}, "Human-in-the-loop"),
+    ({"evals", "agent_evaluation", "graders", "datasets"}, "Agent Evaluation"),
+    ({"observability", "tracing", "debugging"}, "Observability"),
+    ({"mcp", "integrations", "external_tools"}, "MCP"),
+    ({"agents_md", "agent_instructions", "project_context"}, "Agent Instructions"),
+    ({"codex", "coding_agent", "cli", "local_agent"}, "Coding Agent"),
+    ({"orchestration", "handoffs", "multi_agent", "agent_orchestration"}, "Orchestration"),
+    ({"state", "context_management", "memory"}, "Agent State"),
+    ({"agent_skills", "reusable_capabilities"}, "Agent Skills"),
+]
+
+CONCEPT_EXPLANATIONS: dict[str, dict[str, str]] = {
+    "Agent Workflow": {
+        "concept_explanation": "Agent Workflow 是把模型、工具、状态、决策和结果处理组织成连续任务流的方式。",
+        "why_it_matters": "它让 AI 不只是回答问题，而是能围绕目标推进多步骤任务。",
+        "auto_relevance": "可用于组织需求分析、测试执行、缺陷定位和工程数据处理等流程。",
+        "example_scenario": "例如一个研发 Agent 先读取需求，再调用测试工具，最后汇总失败原因。",
+    },
+    "Tool Calling": {
+        "concept_explanation": "Tool Calling 是让模型在需要时调用外部函数、API 或系统工具的机制。",
+        "why_it_matters": "它让 Agent 能查询数据、执行动作并处理真实系统任务。",
+        "auto_relevance": "可用于连接需求库、测试平台、缺陷系统、仿真工具和内部知识库。",
+        "example_scenario": "例如 Agent 查询缺陷单后调用测试脚本，再整理定位结果。",
+    },
+    "Guardrails": {
+        "concept_explanation": "Guardrails 是限制 Agent 行为边界的规则、检查或审批机制。",
+        "why_it_matters": "它能降低错误操作、越权访问、不可靠输出和安全风险。",
+        "auto_relevance": "适合用于安全关键软件、配置变更、测试发布和敏感数据访问场景。",
+        "example_scenario": "例如 Agent 想修改配置文件前，需要通过规则检查或人工确认。",
+    },
+    "Human-in-the-loop": {
+        "concept_explanation": "Human-in-the-loop 是在人类确认后再执行关键动作的机制。",
+        "why_it_matters": "它在自动化效率和工程安全之间建立缓冲区。",
+        "auto_relevance": "适合代码合入、测试发布、需求变更和安全相关决策。",
+        "example_scenario": "例如 Agent 生成修复方案后，由工程师确认再执行修改。",
+    },
+    "Agent Evaluation": {
+        "concept_explanation": "Agent Evaluation 是评估 Agent 在多步骤任务中的成功率、稳定性和安全性的过程。",
+        "why_it_matters": "不能只看单次回答质量，还要看任务是否可靠完成。",
+        "auto_relevance": "可用于评估研发 Agent 在日志分析、测试生成、缺陷定位中的效果。",
+        "example_scenario": "例如用一组历史缺陷案例测试 Agent 是否能稳定定位问题。",
+    },
+    "Observability": {
+        "concept_explanation": "Observability 是记录和观察 Agent 的决策、工具调用、失败点和中间状态。",
+        "why_it_matters": "它让复杂 Agent 工作流可调试、可审计、可持续改进。",
+        "auto_relevance": "适合用于追踪自动化测试、需求分析和故障诊断 Agent 的行为。",
+        "example_scenario": "例如查看 Agent 哪一步调用了错误工具，导致测试结论不一致。",
+    },
+    "MCP": {
+        "concept_explanation": "MCP 是一种让模型或 Agent 连接外部工具和上下文的协议思路。",
+        "why_it_matters": "它统一工具接入方式，降低不同系统之间的集成复杂度。",
+        "auto_relevance": "可用于连接代码仓库、测试系统、需求平台、仿真环境和文档库。",
+        "example_scenario": "例如通过 MCP 让 Agent 同时访问代码、测试结果和缺陷系统。",
+    },
+    "Agent Instructions": {
+        "concept_explanation": "Agent Instructions 是给 Agent 的项目级背景、约束和工作规则。",
+        "why_it_matters": "它帮助 Agent 在具体项目中保持一致的工程上下文。",
+        "auto_relevance": "适合表达代码规范、测试要求、安全边界和工具链限制。",
+        "example_scenario": "例如在项目说明中定义哪些目录可改、哪些配置不能触碰。",
+    },
+    "Coding Agent": {
+        "concept_explanation": "Coding Agent 是面向软件工程任务的 Agent，能理解代码仓库、修改文件、运行测试并反馈结果。",
+        "why_it_matters": "它把 AI 从代码补全推进到任务级研发协作。",
+        "auto_relevance": "可用于辅助脚本维护、测试补全、日志分析和工具链自动化。",
+        "example_scenario": "例如 Agent 阅读测试失败日志，定位相关代码路径并提出修改建议。",
+    },
+    "Orchestration": {
+        "concept_explanation": "Orchestration 是协调多个步骤、工具或 Agent 的机制。",
+        "why_it_matters": "复杂任务需要拆解、路由、执行和结果合并，不能只靠单次模型回答。",
+        "auto_relevance": "可用于把需求分析、代码检查、测试执行和报告生成串成工作流。",
+        "example_scenario": "例如一个主 Agent 把任务分给测试 Agent、文档 Agent 和代码审查 Agent。",
+    },
+    "Agent State": {
+        "concept_explanation": "Agent State 是 Agent 在任务过程中保留的上下文、进度和中间结果。",
+        "why_it_matters": "它让多轮任务具备连续性，避免每一步都重新开始。",
+        "auto_relevance": "适合长流程研发任务，例如跨多个模块的缺陷排查和测试跟踪。",
+        "example_scenario": "例如 Agent 记住已检查过的日志、配置和测试结果，再继续下一步分析。",
+    },
+    "Agent Skills": {
+        "concept_explanation": "Agent Skills 是可复用的能力单元，让 Agent 在类似任务中复用经验和流程。",
+        "why_it_matters": "它能把常见任务沉淀成稳定能力，减少重复配置。",
+        "auto_relevance": "可用于沉淀日志分析、测试生成、代码审查和发布检查等研发能力。",
+        "example_scenario": "例如把分析失败测试并生成复现步骤沉淀成一个可复用技能。",
+    },
+    "AI Agent": {
+        "concept_explanation": "AI Agent 是能围绕目标进行规划、调用工具、处理反馈并推进任务的 AI 系统。",
+        "why_it_matters": "它把 AI 从单轮问答扩展到多步骤任务执行。",
+        "auto_relevance": "可用于研发流程自动化、测试分析、文档处理和工程工具链协同。",
+        "example_scenario": "例如 Agent 根据问题描述查找代码、读取日志并生成排查建议。",
+    },
+}
 
 LEARNING_NEGATIVE_KEYWORDS = [
     "chatgpt",
@@ -648,6 +742,7 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
     link = clean_text(item.get("link", ""))
     tags = item.get("tags", [])
     tags_text = ", ".join(str(tag) for tag in tags if str(tag).strip()) or "N/A"
+    concept_hint = clean_text(item.get("concept_hint", "")) or concept_from_learning_item(item)
 
     return (
         f"标题: {title}\n"
@@ -662,6 +757,7 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
         f"发布时间: {published_at} ({timezone_name})\n"
         f"链接: {link}\n"
         f"标签: {tags_text}\n"
+        f"建议概念: {concept_hint}\n"
         f"简介: {summary}\n"
     )
 
@@ -672,8 +768,6 @@ def ensure_metadata_note(note: str, has_resource: bool) -> str:
         return "今日未发现可用学习资源。"
     if not text:
         return DEFAULT_LEARNING_NOTE
-    if ("标题" not in text and "简介" not in text) and ("metadata" not in text.lower()):
-        return f"{DEFAULT_LEARNING_NOTE} {truncate_text(text, 80)}"
     return text
 
 
@@ -691,14 +785,13 @@ def normalize_codex_learning(
     selected_title = clean_text(selected_item.get("title", "")) if selected_item else ""
 
     if not has_resource:
+        concept_payload = concept_payload_for_item(None)
         return {
             "resource_title": DEFAULT_LEARNING_EMPTY_TEXT,
             "resource_type": LEARNING_TYPE_NA,
             "source_name": "",
             "source_url": "",
-            "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
-            "how_to_apply": "可明日继续关注官方文档、官方视频或高质量技术博客更新。",
-            "example_prompt": DEFAULT_LEARNING_PROMPT,
+            **concept_payload,
             "confidence_note": ensure_metadata_note("", has_resource=False),
         }
 
@@ -731,22 +824,28 @@ def normalize_codex_learning(
     if not has_resource:
         resource_type = LEARNING_TYPE_NA
 
-    learning_point = clean_text(raw.get("learning_point", ""))
-    how_to_apply = clean_text(raw.get("how_to_apply", ""))
-    example_prompt = clean_text(raw.get("example_prompt", ""))
+    concept_payload = concept_payload_for_item(selected_item)
+    concept = clean_text(raw.get("concept", "")) or concept_payload["concept"]
+    if concept not in CONCEPT_EXPLANATIONS:
+        concept = concept_payload["concept"]
+    defaults = CONCEPT_EXPLANATIONS.get(concept, CONCEPT_EXPLANATIONS["AI Agent"])
+    concept_explanation = clean_text(raw.get("concept_explanation", "")) or defaults["concept_explanation"]
+    why_it_matters = clean_text(raw.get("why_it_matters", "")) or defaults["why_it_matters"]
+    auto_relevance = clean_text(raw.get("auto_relevance", "")) or defaults["auto_relevance"]
+    example_scenario = clean_text(raw.get("example_scenario", "")) or defaults["example_scenario"]
     confidence_note = clean_text(raw.get("confidence_note", ""))
 
-    learning_point = learning_point or "先让 Codex 读取项目说明，再要求它列出计划和验证命令。"
-    how_to_apply = how_to_apply or "把任务拆成读取约束、列计划、确认后修改、运行测试四步，避免直接改动敏感文件。"
-    example_prompt = example_prompt or DEFAULT_LEARNING_PROMPT
     source_quality = clean_text(selected_item.get("source_quality", "")) if selected_item else ""
     summary_quality = clean_text(selected_item.get("summary_quality", "")) if selected_item else ""
+    source_type = clean_text(selected_item.get("source_type", "")) if selected_item else ""
     is_official = bool(selected_item.get("is_official_source", False)) if selected_item else False
     if not confidence_note:
         if summary_quality in {"low", "empty"}:
             confidence_note = "仅基于标题/简短摘要整理，未验证完整正文，建议打开原链接查看。"
-        elif is_official and source_quality == "high":
-            confidence_note = "基于官方或高质量来源的标题/简介整理，建议打开原链接查看完整内容。"
+        elif is_official and source_quality == "high" and summary_quality == "high" and source_type == "official_doc":
+            confidence_note = "基于官方文档摘要整理。"
+        elif source_type in {"google_news", "media_article", "official_video"}:
+            confidence_note = "基于标题和摘要整理，建议打开原链接查看完整内容。"
         else:
             confidence_note = DEFAULT_LEARNING_NOTE
     confidence_note = ensure_metadata_note(confidence_note, has_resource=True)
@@ -756,9 +855,11 @@ def normalize_codex_learning(
         "resource_type": truncate_text(resource_type, 30),
         "source_name": truncate_text(source_name or "来源", 60),
         "source_url": source_url,
-        "learning_point": truncate_text(learning_point, 80),
-        "how_to_apply": truncate_text(how_to_apply, 120),
-        "example_prompt": truncate_text(example_prompt, 160),
+        "concept": truncate_text(concept, 40),
+        "concept_explanation": truncate_text(concept_explanation, 80),
+        "why_it_matters": truncate_text(why_it_matters, 100),
+        "auto_relevance": truncate_text(auto_relevance, 100),
+        "example_scenario": truncate_text(example_scenario, 100),
         "confidence_note": truncate_text(confidence_note, 140),
     }
 
@@ -781,6 +882,31 @@ def tag_texts(item: dict[str, Any]) -> set[str]:
 
 def has_any_tag(tags: set[str], needles: tuple[str, ...]) -> bool:
     return any(any(needle in tag for needle in needles) for tag in tags)
+
+
+def concept_from_learning_item(item: dict[str, Any] | None) -> str:
+    if not item:
+        return "AI Agent"
+    hint = clean_text(item.get("concept_hint", ""))
+    if hint in CONCEPT_EXPLANATIONS:
+        return hint
+    tags = tag_texts(item)
+    for needles, concept in CONCEPT_HINT_RULES:
+        if tags & needles:
+            return concept
+    return "AI Agent"
+
+
+def concept_payload_for_item(item: dict[str, Any] | None) -> dict[str, str]:
+    concept = concept_from_learning_item(item)
+    details = CONCEPT_EXPLANATIONS.get(concept, CONCEPT_EXPLANATIONS["AI Agent"])
+    return {
+        "concept": concept,
+        "concept_explanation": details["concept_explanation"],
+        "why_it_matters": details["why_it_matters"],
+        "auto_relevance": details["auto_relevance"],
+        "example_scenario": details["example_scenario"],
+    }
 
 
 def impact_brief_for_item(item: dict[str, Any]) -> str:
@@ -939,43 +1065,28 @@ def build_rule_based_codex_learning(learning_item: dict[str, Any] | None) -> dic
         return normalize_codex_learning(value={}, selected_item=None, candidate_url_set=set(), url_to_source={})
 
     link = normalize_url(clean_text(learning_item.get("link", "")))
-    tags = tag_texts(learning_item)
-    if has_any_tag(tags, ("agents_md", "agents.md")):
-        learning_point = "把 AGENTS.md 写清楚，让 Codex 先读取项目约束、测试命令和安全边界。"
-        how_to_apply = "启动任务时要求 Codex 先阅读 AGENTS.md、README 和相关脚本，列出计划后再改代码。"
-        example_prompt = DEFAULT_LEARNING_PROMPT
-    elif has_any_tag(tags, ("mcp",)):
-        learning_point = "优先让 Codex 使用已配置的 MCP 工具获取上下文，减少手工复制信息。"
-        how_to_apply = "在任务开头说明可用工具和目标资源，让 Codex 先查证再实现。"
-        example_prompt = "请先使用可用 MCP 工具读取相关资源，确认上下文后列出修改计划和测试命令。"
-    elif has_any_tag(tags, ("cli", "codex", "agent", "workflow")):
-        learning_point = "把 Codex 任务拆成读上下文、列计划、修改、验证、总结几个稳定步骤。"
-        how_to_apply = "对代码任务先限定修改范围和测试标准，完成后要求给出变更摘要与验证结果。"
-        example_prompt = "请先读取 README 和相关脚本，说明你会改哪些文件并运行哪些测试，然后再实现。"
-    else:
-        learning_point = "将学习资源作为提示词设计参考，保持任务边界清晰并要求验证输出。"
-        how_to_apply = "让 Codex 基于项目文件而不是泛泛经验给建议，避免改动密钥和无关文件。"
-        example_prompt = DEFAULT_LEARNING_PROMPT
-
+    concept_payload = concept_payload_for_item(learning_item)
     summary_quality = clean_text(learning_item.get("summary_quality", "")).lower()
     source_quality = clean_text(learning_item.get("source_quality", "")).lower()
+    source_type = clean_text(learning_item.get("source_type", "")).lower()
     if summary_quality in {"low", "empty"}:
         confidence_note = "仅基于标题/简短摘要整理，未验证完整正文，建议打开原链接查看。"
-    elif source_quality == "high" or bool(learning_item.get("is_official_source", False)):
-        confidence_note = "基于官方或高质量来源的标题/简介整理，建议打开原链接查看完整内容。"
+    elif source_type == "official_doc" and source_quality == "high" and bool(learning_item.get("is_official_source", False)):
+        confidence_note = "基于官方文档摘要整理。"
+    elif source_type in {"google_news", "media_article", "official_video"}:
+        confidence_note = "基于标题和摘要整理，建议打开原链接查看完整内容。"
     else:
         confidence_note = DEFAULT_LEARNING_NOTE
 
-    return {
+    result = {
         "resource_title": truncate_text(clean_text(learning_item.get("title", "")), 140),
         "resource_type": normalize_learning_type(learning_item.get("source_type", ""), learning_item),
         "source_name": truncate_text(safe_learning_source_name(learning_item), 60),
         "source_url": link,
-        "learning_point": truncate_text(learning_point, 80),
-        "how_to_apply": truncate_text(how_to_apply, 120),
-        "example_prompt": truncate_text(example_prompt, 160),
         "confidence_note": truncate_text(confidence_note, 140),
     }
+    result.update(concept_payload)
+    return result
 
 
 def build_rule_based_report(
@@ -1012,6 +1123,7 @@ def build_rule_based_report(
 
     return {
         "title": f"AI 科技日报｜{target_date}",
+        "is_rule_based_fallback": True,
         "summary": build_rule_based_summary(top_news),
         "top_news": top_news,
         "codex_learning": build_rule_based_codex_learning(learning_item),
@@ -1345,9 +1457,11 @@ def apply_learning_field_limits(
     learning["resource_title"] = truncate_text(learning.get("resource_title", ""), 140)
     learning["resource_type"] = truncate_text(learning.get("resource_type", LEARNING_TYPE_NA), 30)
     learning["source_name"] = truncate_text(learning.get("source_name", "来源"), 60)
-    learning["learning_point"] = truncate_text(learning.get("learning_point", ""), min(learning_point_max, 80))
-    learning["how_to_apply"] = truncate_text(learning.get("how_to_apply", ""), min(apply_max, 120))
-    learning["example_prompt"] = truncate_text(learning.get("example_prompt", ""), min(prompt_max, 160))
+    learning["concept"] = truncate_text(learning.get("concept", "AI Agent"), 40)
+    learning["concept_explanation"] = truncate_text(learning.get("concept_explanation", ""), 80)
+    learning["why_it_matters"] = truncate_text(learning.get("why_it_matters", ""), 100)
+    learning["auto_relevance"] = truncate_text(learning.get("auto_relevance", ""), 100)
+    learning["example_scenario"] = truncate_text(learning.get("example_scenario", ""), 100)
     learning["confidence_note"] = truncate_text(
         ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", "")))),
         note_max,
@@ -1379,9 +1493,11 @@ def estimate_report_size(report: dict[str, Any]) -> int:
                 clean_text(learning.get("resource_title", "")),
                 clean_text(learning.get("resource_type", "")),
                 clean_text(learning.get("source_name", "")),
-                clean_text(learning.get("learning_point", "")),
-                clean_text(learning.get("how_to_apply", "")),
-                clean_text(learning.get("example_prompt", "")),
+                clean_text(learning.get("concept", "")),
+                clean_text(learning.get("concept_explanation", "")),
+                clean_text(learning.get("why_it_matters", "")),
+                clean_text(learning.get("auto_relevance", "")),
+                clean_text(learning.get("example_scenario", "")),
                 clean_text(learning.get("confidence_note", "")),
             ]
         )
@@ -1502,10 +1618,12 @@ def create_report_json_with_litellm(
     "resource_type": "官方文档 / 官方视频 / 技术博客 / 教程 / 新闻",
     "source_name": "来源名称",
     "source_url": "资源链接",
-    "learning_point": "今天可以学到的一个 Codex Agent 使用技巧",
-    "how_to_apply": "如何在实际使用 Codex 时应用",
-    "example_prompt": "一条可复制给 Codex 的 Prompt",
-    "confidence_note": "基于资源标题/简介整理，建议打开原链接观看完整内容。"
+    "concept": "Agent 相关概念名称",
+    "concept_explanation": "这个概念是什么",
+    "why_it_matters": "为什么重要",
+    "auto_relevance": "和汽车软件 / 系统工程 / 研发提效 / 工具链的关系",
+    "example_scenario": "一个简短应用场景或类比",
+    "confidence_note": "基于来源标题/摘要/官方文档整理，说明可信度"
   }}
 }}
 
@@ -1538,16 +1656,16 @@ def create_report_json_with_litellm(
 26) `top_news` 不要输出 `category` 字段；日报正文不要出现 `[AI编程工具]`、`[AI基础设施]`、`[AI组织提效]`、`[OBC/DCDC]` 这类方括号分类标签。
 27) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
-Codex Agent 每日一学约束：
-28) `codex_learning` 只基于给定资源元数据（title、summary、summary_source、summary_quality、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
-29) 如果 summary_quality 是 low，最多生成保守建议，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细技巧。
-30) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
-31) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
-32) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
-33) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
-34) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
-35) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
-36) 如果今日没有 high/medium 摘要质量的高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
+Agent 概念每日一学约束：
+28) `codex_learning` 只基于给定资源元数据（title、summary、summary_source、summary_quality、source、source_type、source_quality、is_official_source、link、tags、concept_hint）整理，不能假装看过完整视频、字幕或正文。
+29) 不要输出 `example_prompt`，不要输出可复制 Prompt，不要输出操作步骤，不要写“你应该执行以下步骤”。
+30) 优先使用 `concept_hint` 作为 `concept`；没有 concept_hint 时根据 tags/title/summary 映射；仍无法识别时使用 "AI Agent"。
+31) 如果资源是 OpenAI Agents SDK，优先解释 Agent Workflow、Tool Calling、Guardrails、Orchestration、Agent Evaluation 或 Observability。
+32) 如果资源是 Codex CLI 或 Codex GitHub，优先解释 Coding Agent；如果资源是 AGENTS.md，解释 Agent Instructions；如果资源是 MCP，解释 MCP。
+33) 文案像每日科普，不是操作手册；`concept_explanation` 不超过 80 字，`why_it_matters`、`auto_relevance`、`example_scenario` 各不超过 100 字。
+34) 如果 summary_quality 是 low，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细概念延展。
+35) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题和摘要整理，建议打开原链接查看完整内容。”
+36) 如果是 official_doc 且 summary_quality=high，`confidence_note` 可写“基于官方文档摘要整理。”
 37) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
 
 候选池概况：
@@ -1557,7 +1675,7 @@ Codex Agent 每日一学约束：
 - 学习资源候选条数：{learning_source_count}
 - {learning_cache_note}
 
-学习资源（最多 1 条，优先官方 Codex / YouTube / 教程）：
+学习资源（最多 1 条，优先官方 Agent 概念文档 / Agents SDK / MCP / Codex 文档）：
 {learning_prompt_item}
 
 候选新闻：
@@ -1708,6 +1826,10 @@ def top_news_section_title(report: dict[str, Any]) -> str:
     return f"二、重要新闻 Top {top_n}"
 
 
+def is_rule_based_fallback_report(report: dict[str, Any]) -> bool:
+    return bool(report.get("is_rule_based_fallback", False))
+
+
 def build_single_interactive_card(
     report: dict[str, Any],
     source_json_name: str,
@@ -1718,6 +1840,7 @@ def build_single_interactive_card(
     top_news = report.get("top_news", [])
     learning = report.get("codex_learning")
     learning = learning if isinstance(learning, dict) else {}
+    hide_generated_fields = is_rule_based_fallback_report(report)
 
     card = make_card_shell(title)
     elements = card["elements"]
@@ -1731,19 +1854,20 @@ def build_single_interactive_card(
         if not isinstance(news, dict):
             continue
 
-        add_markdown(
-            elements,
-            "\n".join(
+        news_lines = [
+            f"**{idx}. {news.get('title', '未命名新闻')}**",
+            f"发生了什么：{news.get('what_happened', '仍需观察。')}",
+        ]
+        if not hide_generated_fields:
+            news_lines.extend(
                 [
-                    f"**{idx}. {news.get('title', '未命名新闻')}**",
-                    f"发生了什么：{news.get('what_happened', '仍需观察。')}",
                     f"为什么重要：{news.get('why_important', '仍需观察。')}",
                     f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}",
                     f"简要影响：{news.get('auto_impact_brief', '仍需观察。')}",
-                    f"来源：{news.get('source_name', '来源')}",
                 ]
-            ),
-        )
+            )
+        news_lines.append(f"来源：{news.get('source_name', '来源')}")
+        add_markdown(elements, "\n".join(news_lines))
 
         source_url = clean_text(news.get("source_url", ""))
         if source_url:
@@ -1753,34 +1877,32 @@ def build_single_interactive_card(
             elements.append({"tag": "hr"})
 
     elements.append({"tag": "hr"})
-    add_section_title(elements, "三、Codex Agent 每日一学")
+    add_section_title(elements, "三、Agent 概念每日一学")
 
     learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
     learning_type = clean_text(learning.get("resource_type", LEARNING_TYPE_NA))
     learning_source_name = clean_text(learning.get("source_name", "来源"))
     learning_source_url = clean_text(learning.get("source_url", ""))
-    learning_point = clean_text(learning.get("learning_point", DEFAULT_LEARNING_EMPTY_TEXT))
-    learning_apply = clean_text(learning.get("how_to_apply", "可明日继续关注官方资源更新。"))
-    learning_prompt = clean_text(learning.get("example_prompt", DEFAULT_LEARNING_PROMPT))
+    concept = clean_text(learning.get("concept", "AI Agent"))
+    concept_explanation = clean_text(learning.get("concept_explanation", ""))
+    why_it_matters = clean_text(learning.get("why_it_matters", ""))
+    auto_relevance = clean_text(learning.get("auto_relevance", ""))
+    example_scenario = clean_text(learning.get("example_scenario", ""))
     confidence_note = clean_text(learning.get("confidence_note", DEFAULT_LEARNING_NOTE))
 
     if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
         add_markdown(elements, DEFAULT_LEARNING_EMPTY_TEXT)
     else:
-        add_markdown(
-            elements,
-            "\n".join(
-                [
-                    f"今日资源：{learning_title}",
-                    f"类型：{learning_type}",
-                    f"来源：{learning_source_name}",
-                    f"今日学习点：{learning_point}",
-                    f"如何应用：{learning_apply}",
-                    f"可复制 Prompt：`{learning_prompt}`",
-                    f"备注：{confidence_note}",
-                ]
-            ),
-        )
+        learning_lines = [
+            f"今日概念：{concept}",
+            f"一句话解释：{concept_explanation}",
+            f"为什么重要：{why_it_matters}",
+            f"汽车研发关联：{auto_relevance}",
+            f"简单场景：{example_scenario}",
+            f"来源：{learning_source_name}",
+        ]
+        learning_lines.append(f"备注：{confidence_note}")
+        add_markdown(elements, "\n".join(learning_lines))
         if learning_source_url:
             add_button(elements, "打开学习资源", learning_source_url, btn_type="default")
 
@@ -1800,6 +1922,7 @@ def build_single_post_payload(
     top_news = report.get("top_news", [])
     learning = report.get("codex_learning")
     learning = learning if isinstance(learning, dict) else {}
+    hide_generated_fields = is_rule_based_fallback_report(report)
 
     rows: list[list[dict[str, Any]]] = []
 
@@ -1823,16 +1946,17 @@ def build_single_post_payload(
             continue
         rows.append(row_text(f"{idx}. {news.get('title', '未命名新闻')}"))
         rows.append(row_text(f"发生了什么：{news.get('what_happened', '仍需观察。')}"))
-        rows.append(row_text(f"为什么重要：{news.get('why_important', '仍需观察。')}"))
-        rows.append(row_text(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}"))
-        rows.append(row_text(f"简要影响：{news.get('auto_impact_brief', '仍需观察。')}"))
+        if not hide_generated_fields:
+            rows.append(row_text(f"为什么重要：{news.get('why_important', '仍需观察。')}"))
+            rows.append(row_text(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}"))
+            rows.append(row_text(f"简要影响：{news.get('auto_impact_brief', '仍需观察。')}"))
 
         source_name = clean_text(news.get("source_name", "来源"))
         source_url = clean_text(news.get("source_url", ""))
         if source_url:
             rows.append(row_link("来源：", source_name or "打开链接", source_url))
 
-    rows.append(row_text("三、Codex Agent 每日一学"))
+    rows.append(row_text("三、Agent 概念每日一学"))
     learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
     learning_type = clean_text(learning.get("resource_type", LEARNING_TYPE_NA))
     learning_source_name = clean_text(learning.get("source_name", "来源"))
@@ -1843,9 +1967,11 @@ def build_single_post_payload(
     else:
         rows.append(row_text(f"今日资源：{learning_title}"))
         rows.append(row_text(f"类型：{learning_type}"))
-        rows.append(row_text(f"今日学习点：{learning.get('learning_point', DEFAULT_LEARNING_EMPTY_TEXT)}"))
-        rows.append(row_text(f"如何应用：{learning.get('how_to_apply', '可明日继续关注官方资源更新。')}"))
-        rows.append(row_text(f"可复制 Prompt：{learning.get('example_prompt', DEFAULT_LEARNING_PROMPT)}"))
+        rows.append(row_text(f"今日概念：{learning.get('concept', 'AI Agent')}"))
+        rows.append(row_text(f"一句话解释：{learning.get('concept_explanation', '')}"))
+        rows.append(row_text(f"为什么重要：{learning.get('why_it_matters', '')}"))
+        rows.append(row_text(f"汽车研发关联：{learning.get('auto_relevance', '')}"))
+        rows.append(row_text(f"简单场景：{learning.get('example_scenario', '')}"))
         rows.append(row_text(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}"))
         if learning_source_url:
             rows.append(row_link("来源：", learning_source_name or "打开链接", learning_source_url))
@@ -1876,6 +2002,7 @@ def build_single_text_payload(
     top_news = report.get("top_news", [])
     learning = report.get("codex_learning")
     learning = learning if isinstance(learning, dict) else {}
+    hide_generated_fields = is_rule_based_fallback_report(report)
 
     lines = [title, "", "一、今日摘要"]
     lines.extend(f"- {line}" for line in summary[:5])
@@ -1886,13 +2013,14 @@ def build_single_text_payload(
             continue
         lines.append(f"{idx}. {news.get('title', '未命名新闻')}")
         lines.append(f"发生了什么：{news.get('what_happened', '仍需观察。')}")
-        lines.append(f"为什么重要：{news.get('why_important', '仍需观察。')}")
-        lines.append(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}")
-        lines.append(f"简要影响：{news.get('auto_impact_brief', '仍需观察。')}")
+        if not hide_generated_fields:
+            lines.append(f"为什么重要：{news.get('why_important', '仍需观察。')}")
+            lines.append(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}")
+            lines.append(f"简要影响：{news.get('auto_impact_brief', '仍需观察。')}")
         lines.append(f"来源：{news.get('source_name', '来源')} {news.get('source_url', '')}")
         lines.append("")
 
-    lines.extend(["三、Codex Agent 每日一学"])
+    lines.extend(["三、Agent 概念每日一学"])
     learning_title = clean_text(learning.get("resource_title", DEFAULT_LEARNING_EMPTY_TEXT))
     learning_source_url = clean_text(learning.get("source_url", ""))
     if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
@@ -1900,10 +2028,12 @@ def build_single_text_payload(
     else:
         lines.append(f"今日资源：{learning_title}")
         lines.append(f"类型：{learning.get('resource_type', LEARNING_TYPE_NA)}")
+        lines.append(f"今日概念：{learning.get('concept', 'AI Agent')}")
+        lines.append(f"一句话解释：{learning.get('concept_explanation', '')}")
+        lines.append(f"为什么重要：{learning.get('why_it_matters', '')}")
+        lines.append(f"汽车研发关联：{learning.get('auto_relevance', '')}")
+        lines.append(f"简单场景：{learning.get('example_scenario', '')}")
         lines.append(f"来源：{learning.get('source_name', '来源')} {learning_source_url}")
-        lines.append(f"今日学习点：{learning.get('learning_point', DEFAULT_LEARNING_EMPTY_TEXT)}")
-        lines.append(f"如何应用：{learning.get('how_to_apply', '可明日继续关注官方资源更新。')}")
-        lines.append(f"可复制 Prompt：{learning.get('example_prompt', DEFAULT_LEARNING_PROMPT)}")
         lines.append(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}")
 
     note_text = build_data_source_note(report)
@@ -1994,9 +2124,7 @@ def build_error_report(report_date: str, detail: str) -> dict[str, Any]:
             "resource_type": LEARNING_TYPE_NA,
             "source_name": "",
             "source_url": "",
-            "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
-            "how_to_apply": "可明日继续关注官方资源更新。",
-            "example_prompt": DEFAULT_LEARNING_PROMPT,
+            **concept_payload_for_item(None),
             "confidence_note": "今日未发现可用学习资源。",
         },
     }
@@ -2209,6 +2337,7 @@ def main() -> int:
     )
     report = final_dedupe_top_news(report, news_top_n)
     if used_rule_based_report:
+        report["is_rule_based_fallback"] = True
         report["summary"] = build_rule_based_summary(report.get("top_news", []))
     report = shrink_report_for_limit(report, news_max_chars, news_top_n)
     report["news_top_n"] = news_top_n

@@ -863,21 +863,152 @@ OFFICIAL_LEARNING_PAGES: list[dict[str, Any]] = [
     ),
 ]
 
+OFFICIAL_AGENT_CONCEPT_RESOURCES: list[dict[str, Any]] = [
+    {
+        "title": "Agents SDK | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agents",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide for building agent workflows with the Agents SDK, covering agent definitions, running agents, orchestration, tool use, guardrails, observability, and evaluation.",
+        "tags": ["agents_sdk", "openai_agents", "agent_workflow", "orchestration", "tool_calling", "guardrails", "evals", "observability"],
+    },
+    {
+        "title": "Agents SDK Quickstart | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agents/quickstart",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official quickstart for creating and running an agent workflow with tools, handoffs, and basic orchestration concepts.",
+        "tags": ["agents_sdk", "openai_agents", "agent_workflow", "tools", "handoffs", "orchestration"],
+    },
+    {
+        "title": "Guardrails and human review | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide explaining how guardrails and human review help constrain agent behavior and control sensitive actions.",
+        "tags": ["guardrails", "human_in_the_loop", "approvals", "safety", "agent_governance"],
+    },
+    {
+        "title": "Evaluate agent workflows | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agent-evals",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide on evaluating agent workflows using traces, graders, datasets, and evaluation runs.",
+        "tags": ["evals", "agent_evaluation", "traces", "graders", "datasets", "agent_quality"],
+    },
+    {
+        "title": "Integrations and observability | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agents/integrations-observability",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide on tracing, debugging, integrations, and observability for agent workflows.",
+        "tags": ["observability", "tracing", "mcp", "integrations", "debugging"],
+    },
+    {
+        "title": "Running agents | OpenAI API",
+        "link": "https://developers.openai.com/api/docs/guides/agents/running-agents",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide covering how to run agents, manage context, handle state, stream outputs, and operate agent workflows.",
+        "tags": ["running_agents", "state", "context_management", "streaming", "agent_runtime"],
+    },
+    {
+        "title": "Codex CLI",
+        "link": "https://developers.openai.com/codex/cli",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI official guide for Codex CLI, a local coding agent that runs in the terminal and helps with software engineering tasks.",
+        "tags": ["codex", "coding_agent", "cli", "local_agent"],
+    },
+    {
+        "title": "Custom instructions with AGENTS.md",
+        "link": "https://developers.openai.com/codex/guides/agents-md",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI Codex guide explaining how AGENTS.md provides project-level context and instructions for coding agents.",
+        "tags": ["agents_md", "agent_instructions", "project_context", "coding_agent"],
+    },
+    {
+        "title": "Model Context Protocol - Codex",
+        "link": "https://developers.openai.com/codex/mcp",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI Codex guide explaining how MCP connects Codex with external tools and context providers.",
+        "tags": ["mcp", "tool_integration", "external_tools", "codex"],
+    },
+    {
+        "title": "Use Codex with the Agents SDK",
+        "link": "https://developers.openai.com/codex/guides/agents-sdk",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI guide describing how Codex can work with the Agents SDK, MCP, and agent-oriented tool workflows.",
+        "tags": ["codex", "agents_sdk", "mcp", "tool_calling", "agent_orchestration"],
+    },
+    {
+        "title": "Agent Skills - Codex",
+        "link": "https://developers.openai.com/codex/skills",
+        "source": "OpenAI Developers",
+        "source_type": "official_doc",
+        "source_quality": "high",
+        "summary_source": "official_static_summary",
+        "summary_quality": "high",
+        "is_official_source": True,
+        "summary": "OpenAI Codex guide about reusable agent skills and structured capabilities for coding workflows.",
+        "tags": ["agent_skills", "reusable_capabilities", "workflow", "codex"],
+    },
+]
+
 LEARNING_GNEWS_QUERIES_EN = [
-    "OpenAI Codex tutorial",
-    "Codex CLI tutorial",
-    "Codex agent workflow",
-    "OpenAI Codex AGENTS.md",
-    "OpenAI Codex MCP",
-    "Codex code review",
-    "AI coding agent best practices",
+    "AI agent workflow concept",
+    "Agents SDK tool calling guardrails evals observability",
+    "Model Context Protocol agent tools",
+    "coding agent concept",
 ]
 
 LEARNING_GNEWS_QUERIES_ZH = [
-    "Codex CLI 使用教程",
-    "Codex Agent 教程",
-    "Codex MCP 教程",
-    "Codex AGENTS.md 使用",
+    "AI Agent 工作流 概念",
+    "智能体 工具调用 护栏 评估 可观测性",
+    "MCP 智能体 工具 协议",
 ]
 
 
@@ -892,7 +1023,7 @@ def build_learning_gnews_sources() -> list[dict[str, Any]]:
                 "global",
                 "learning_search_global",
                 source_type="google_news",
-                tags=["codex", "agent", "tutorial"],
+                tags=["agent", "agent_workflow"],
                 source_quality="low",
                 is_official_source=False,
             )
@@ -906,7 +1037,7 @@ def build_learning_gnews_sources() -> list[dict[str, Any]]:
                 "china",
                 "learning_search_china",
                 source_type="google_news",
-                tags=["codex", "agent", "tutorial"],
+                tags=["agent", "agent_workflow"],
                 source_quality="low",
                 is_official_source=False,
             )
@@ -917,30 +1048,43 @@ def build_learning_gnews_sources() -> list[dict[str, Any]]:
 LEARNING_FEED_SOURCES = OFFICIAL_LEARNING_RSS_SOURCES + YOUTUBE_LEARNING_FEEDS + build_learning_gnews_sources()
 
 LEARNING_KEYWORD_RULES: list[tuple[str, int, str]] = [
-    ("openai codex", 8, "codex"),
-    ("codex cli", 8, "cli"),
-    ("codex", 6, "codex"),
-    ("ai coding agent", 6, "agent"),
-    ("coding agent", 5, "agent"),
-    ("agent workflow", 5, "workflow"),
-    ("workflow", 3, "workflow"),
-    ("code review", 4, "code_review"),
+    ("agents sdk", 10, "agents_sdk"),
+    ("agent workflow", 10, "agent_workflow"),
+    ("ai agent", 8, "agent"),
+    ("tool calling", 9, "tool_calling"),
+    ("tools", 4, "tools"),
+    ("orchestration", 8, "orchestration"),
+    ("guardrails", 9, "guardrails"),
+    ("human review", 8, "human_in_the_loop"),
+    ("human-in-the-loop", 8, "human_in_the_loop"),
+    ("evaluation", 7, "agent_evaluation"),
+    ("evals", 9, "evals"),
+    ("observability", 9, "observability"),
+    ("tracing", 7, "tracing"),
+    ("model context protocol", 9, "mcp"),
+    ("mcp", 9, "mcp"),
+    ("agent instructions", 8, "agent_instructions"),
+    ("agents.md", 8, "agents_md"),
+    ("coding agent", 8, "coding_agent"),
+    ("multi-agent", 7, "multi_agent"),
+    ("state", 5, "state"),
+    ("memory", 5, "memory"),
+    ("context management", 7, "context_management"),
+    ("agent skills", 8, "agent_skills"),
+    ("openai codex", 6, "codex"),
+    ("codex cli", 6, "cli"),
+    ("codex", 5, "codex"),
+    ("workflow", 5, "agent_workflow"),
     ("agents.md", 7, "agents_md"),
-    ("mcp", 6, "mcp"),
-    ("model context protocol", 6, "mcp"),
-    ("best practices", 3, "best_practice"),
-    ("prompting", 2, "prompt"),
-    ("codex agent", 6, "agent"),
     ("openai developers", 2, "official"),
-    ("codex 教程", 7, "tutorial"),
-    ("codex 使用", 6, "tutorial"),
-    ("codex 工作流", 6, "workflow"),
-    ("codex cli 使用", 8, "cli"),
-    ("codex agent 教程", 8, "agent"),
-    ("codex mcp", 8, "mcp"),
-    ("agents.md", 7, "agents_md"),
-    ("代码审查", 3, "code_review"),
-    ("工作流", 3, "workflow"),
+    ("智能体 工作流", 8, "agent_workflow"),
+    ("工具调用", 8, "tool_calling"),
+    ("护栏", 8, "guardrails"),
+    ("人工审核", 8, "human_in_the_loop"),
+    ("评估", 6, "agent_evaluation"),
+    ("可观测性", 8, "observability"),
+    ("编程智能体", 7, "coding_agent"),
+    ("工作流", 5, "agent_workflow"),
 ]
 
 LEARNING_EXCLUDE_KEYWORDS = [
@@ -973,7 +1117,23 @@ LEARNING_EXCLUDE_KEYWORDS = [
     "account verification",
 ]
 
-LEARNING_CORE_TERMS = ["codex", "agent", "cli", "mcp", "agents.md"]
+LEARNING_CORE_TERMS = [
+    "agent",
+    "agents sdk",
+    "tool calling",
+    "orchestration",
+    "guardrails",
+    "human-in-the-loop",
+    "evaluation",
+    "evals",
+    "observability",
+    "tracing",
+    "mcp",
+    "agents.md",
+    "codex",
+    "coding agent",
+    "智能体",
+]
 
 OFFICIAL_LEARNING_HOSTS = (
     "developers.openai.com",
@@ -2157,6 +2317,8 @@ def update_learning_history_with_items(
             "link": clean_text(item.get("link", "")),
             "source_type": clean_text(item.get("source_type", "")),
             "source_quality": clean_text(item.get("source_quality", "")),
+            "summary_quality": clean_text(item.get("summary_quality", "")),
+            "concept_hint": clean_text(item.get("concept_hint", "")),
             "is_official_source": bool(item.get("is_official_source", False)),
             "language": clean_text(item.get("language", "")),
             "region": clean_text(item.get("region", "")),
@@ -2171,19 +2333,31 @@ def update_learning_history_with_items(
 
 
 def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, int]]:
-    rejected_stats = {"same_source_limit": 0, "similar_selected": 0}
+    rejected_stats = {
+        "same_source_limit": 0,
+        "similar_selected": 0,
+        "google_or_youtube_deprioritized": 0,
+        "low_quality_learning_source": 0,
+    }
     selected: list[dict[str, Any]] = []
     source_counts: dict[str, int] = {}
+    has_official_concept_resource = any(
+        clean_text(item.get("source_type", "")).lower() == "official_doc"
+        and clean_text(item.get("source_quality", "")).lower() == "high"
+        and clean_text(item.get("summary_quality", "")).lower() == "high"
+        and bool(item.get("is_official_source", False))
+        for item in items
+    )
 
     def learning_sort_key(item: dict[str, Any]) -> tuple[int, int, int, int, int, datetime]:
         source_type = clean_text(item.get("source_type", "")).lower()
         source_quality = clean_text(item.get("source_quality", "")).lower()
         source_type_weight = {
-            "official_doc": 7,
-            "official_video": 7,
-            "github_repo": 7,
+            "official_doc": 10,
+            "github_repo": 8,
             "official_blog": 6,
             "technical_blog": 4,
+            "official_video": 1,
             "tutorial": 2,
             "media_article": -2,
             "google_news": -4,
@@ -2199,6 +2373,20 @@ def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dic
         if source_counts.get(source_key, 0) >= MAX_SAME_SOURCE_LEARNING:
             rejected_stats["same_source_limit"] += 1
             continue
+        source_type = clean_text(item.get("source_type", "")).lower()
+        summary_quality = clean_text(item.get("summary_quality", "")).lower()
+        if has_official_concept_resource and (source_type == "google_news" or is_youtube_learning_item(item)):
+            rejected_stats["google_or_youtube_deprioritized"] += 1
+            continue
+        if source_type == "google_news" and (
+            summary_quality not in {"medium", "high"}
+            or is_google_news_source_text(clean_text(item.get("source", "")), clean_text(item.get("link", "")))
+        ):
+            rejected_stats["low_quality_learning_source"] += 1
+            continue
+        if is_youtube_learning_item(item) and summary_quality not in {"medium", "high"}:
+            rejected_stats["low_quality_learning_source"] += 1
+            continue
         if any(likely_same_story(item, existing, base_threshold=min(LEARNING_HISTORY_SIMILARITY_THRESHOLD, 0.78)) for existing in selected):
             rejected_stats["similar_selected"] += 1
             continue
@@ -2206,6 +2394,7 @@ def select_curated_learning_items(items: list[dict[str, Any]]) -> tuple[list[dic
         chosen["score"] = int(chosen.get("_score", chosen.get("score", 0)))
         chosen["canonical_key"] = make_canonical_key(chosen)
         chosen["dedupe_key"] = normalize_title(str(chosen.get("title", "")))
+        chosen["concept_hint"] = clean_text(chosen.get("concept_hint", "")) or concept_hint_from_tags(chosen.get("tags", []))
         chosen["selection_reason"] = "learning_high_score"
         selected.append(chosen)
         source_counts[source_key] = source_counts.get(source_key, 0) + 1
@@ -2820,16 +3009,49 @@ def learning_is_excluded(text: str) -> bool:
 def infer_learning_tags(text: str, seed_tags: list[str]) -> list[str]:
     out: set[str] = {tag.strip().lower() for tag in seed_tags if tag}
     mapping = [
+        ("agents sdk", "agents_sdk"),
+        ("agent workflow", "agent_workflow"),
+        ("openai agents", "openai_agents"),
+        ("tool calling", "tool_calling"),
+        ("tool integration", "tool_integration"),
+        ("orchestration", "orchestration"),
+        ("handoffs", "handoffs"),
+        ("guardrails", "guardrails"),
+        ("human review", "human_in_the_loop"),
+        ("human-in-the-loop", "human_in_the_loop"),
+        ("approvals", "approvals"),
+        ("evals", "evals"),
+        ("evaluation", "agent_evaluation"),
+        ("graders", "graders"),
+        ("datasets", "datasets"),
+        ("observability", "observability"),
+        ("tracing", "tracing"),
+        ("debugging", "debugging"),
+        ("integrations", "integrations"),
+        ("external tools", "external_tools"),
+        ("agent instructions", "agent_instructions"),
+        ("project context", "project_context"),
+        ("coding agent", "coding_agent"),
+        ("local agent", "local_agent"),
+        ("multi-agent", "multi_agent"),
+        ("context management", "context_management"),
+        ("memory", "memory"),
+        ("agent skills", "agent_skills"),
+        ("reusable capabilities", "reusable_capabilities"),
         ("codex cli", "cli"),
         ("codex", "codex"),
         ("agent", "agent"),
         ("mcp", "mcp"),
         ("agents.md", "agents_md"),
         ("code review", "code_review"),
-        ("workflow", "workflow"),
+        ("workflow", "agent_workflow"),
         ("best practice", "best_practice"),
         ("教程", "tutorial"),
-        ("工作流", "workflow"),
+        ("工具调用", "tool_calling"),
+        ("护栏", "guardrails"),
+        ("人工审核", "human_in_the_loop"),
+        ("可观测性", "observability"),
+        ("工作流", "agent_workflow"),
         ("代码审查", "code_review"),
     ]
     lower = text.lower()
@@ -2839,16 +3061,73 @@ def infer_learning_tags(text: str, seed_tags: list[str]) -> list[str]:
     return sorted(out)
 
 
+CONCEPT_HINT_RULES: list[tuple[set[str], str]] = [
+    ({"agents_sdk", "agent_workflow", "openai_agents"}, "Agent Workflow"),
+    ({"tool_calling", "tools", "tool_integration"}, "Tool Calling"),
+    ({"guardrails", "safety", "approvals"}, "Guardrails"),
+    ({"human_in_the_loop", "approvals"}, "Human-in-the-loop"),
+    ({"evals", "agent_evaluation", "graders", "datasets"}, "Agent Evaluation"),
+    ({"observability", "tracing", "debugging"}, "Observability"),
+    ({"mcp", "integrations", "external_tools"}, "MCP"),
+    ({"agents_md", "agent_instructions", "project_context"}, "Agent Instructions"),
+    ({"codex", "coding_agent", "cli", "local_agent"}, "Coding Agent"),
+    ({"orchestration", "handoffs", "multi_agent", "agent_orchestration"}, "Orchestration"),
+    ({"state", "context_management", "memory"}, "Agent State"),
+    ({"agent_skills", "reusable_capabilities"}, "Agent Skills"),
+]
+
+
+CONCEPT_TAGS = set().union(*(tags for tags, _ in CONCEPT_HINT_RULES))
+
+
+def concept_hint_from_tags(tags: list[str] | set[str]) -> str:
+    tag_set = {str(tag).strip().lower() for tag in tags if str(tag).strip()}
+    for needles, concept in CONCEPT_HINT_RULES:
+        if tag_set & needles:
+            return concept
+    return "AI Agent" if "agent" in tag_set else ""
+
+
+def is_youtube_learning_item(item: dict[str, Any]) -> bool:
+    link = clean_text(item.get("link", "")).lower()
+    source_type = clean_text(item.get("source_type", "")).lower()
+    return source_type in {"official_video", "youtube_video"} or "youtube.com" in link or "youtu.be" in link
+
+
+def has_operational_tutorial_bias(text: str, tags: set[str]) -> bool:
+    operation_terms = (
+        "prompt",
+        "prompting",
+        "tutorial",
+        "how to",
+        "step-by-step",
+        "create pr",
+        "pull request",
+        "edit files",
+        "modify code",
+        "automate coding task",
+        "教程",
+        "提示词",
+        "如何",
+        "创建 pr",
+        "修改代码",
+        "自动改文件",
+    )
+    return any(term in text for term in operation_terms) and not bool(tags & CONCEPT_TAGS)
+
+
 def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
     source_type = str(item.get("source_type", "")).strip().lower()
     source_quality = str(item.get("source_quality", "")).strip().lower()
+    summary_source = str(item.get("summary_source", "")).strip().lower()
+    summary_quality = str(item.get("summary_quality", "")).strip().lower()
     is_official_source = bool(item.get("is_official_source", False))
     seed_tags = [str(tag).strip().lower() for tag in item.get("tags", []) if str(tag).strip()]
     text = f"{item['title']} {item.get('summary', '')} {item.get('source', '')}".lower()
 
     hits = 0
     score = 0
-    tags = set(seed_tags)
+    tags = set(infer_learning_tags(text, seed_tags))
     for keyword, weight, tag in LEARNING_KEYWORD_RULES:
         if keyword in text:
             hits += 1
@@ -2858,35 +3137,51 @@ def learning_score(item: dict[str, Any]) -> tuple[int, int, list[str]]:
     if learning_is_excluded(text):
         score -= 8
 
-    has_core = any(term in text for term in LEARNING_CORE_TERMS) or bool(tags.intersection({"codex", "agent", "cli", "mcp", "agents_md"}))
+    has_core = any(term in text for term in LEARNING_CORE_TERMS) or bool(tags.intersection(CONCEPT_TAGS | {"agent"}))
     if not has_core:
         return 0, 0, sorted(tags)
 
     # Reject broad ChatGPT-only guides that do not mention Codex/agent workflow context.
-    if "chatgpt" in text and not any(term in text for term in ("codex", "agent", "cli", "mcp", "agents.md")):
+    if "chatgpt" in text and not any(term in text for term in ("codex", "agent", "cli", "mcp", "agents.md", "tool calling", "guardrails")):
         return 0, 0, sorted(tags)
 
-    type_bonus = {
-        "official_doc": 10,
-        "official_video": 9,
-        "official_blog": 8,
-        "github_repo": 8,
-        "technical_blog": 5,
-        "tutorial": 3,
-        "blog": 2,
-        "media_article": -4,
-        "google_news": -8,
-    }.get(source_type, 0)
-    score += type_bonus
+    if source_type == "official_doc":
+        score += 30
+    elif source_type in {"official_blog", "github_repo"}:
+        score += 18
+    elif source_type == "technical_blog":
+        score += 8
+    elif source_type == "media_article":
+        score -= 15
+    elif source_type == "google_news":
+        score -= 20
 
-    if is_official_source:
-        score += 10
+    if summary_source == "official_static_summary":
+        score += 20
     if source_quality == "high":
-        score += 6
+        score += 15
     elif source_quality == "medium":
         score += 1
     elif source_quality == "low":
         score -= 8
+    if summary_quality == "high":
+        score += 15
+    elif summary_quality == "medium":
+        score += 4
+    elif summary_quality == "low":
+        score -= 10
+    elif summary_quality == "empty":
+        score -= 25
+    if tags & {"agents_sdk", "agent_workflow", "guardrails", "evals", "observability", "tool_calling", "mcp"}:
+        score += 15
+    if tags & {"codex", "coding_agent"}:
+        score += 10
+    if is_youtube_learning_item(item):
+        score -= 10
+    if has_operational_tutorial_bias(text, tags):
+        score -= 10
+    if is_google_news_source_text(str(item.get("source", "")), str(item.get("link", ""))):
+        score -= 20
 
     if item.get("language") == "zh":
         score += 1
@@ -3211,6 +3506,7 @@ def collect_learning_page_items(
             if hits > 0 and score > 0:
                 item["_score"] = score
                 item["tags"] = tags
+                item["concept_hint"] = concept_hint_from_tags(tags)
                 items.append(item)
             success_count += 1
         except (HTTPError, URLError, TimeoutError, OSError) as exc:
@@ -3236,12 +3532,33 @@ def collect_learning_candidates(
             continue
         item["_score"] = score
         item["tags"] = tags
+        item["concept_hint"] = concept_hint_from_tags(tags)
         all_items.append(item)
 
     page_items, page_success, page_failed = collect_learning_page_items(tz=tz, now_local=now_local)
     all_items.extend(page_items)
     success_count += page_success
     failed_count += page_failed
+
+    for resource in OFFICIAL_AGENT_CONCEPT_RESOURCES:
+        item = dict(resource)
+        item.update(
+            {
+                "published_at": now_local.isoformat(),
+                "language": "en",
+                "region": "global",
+                "source_group": "official_agent_concept",
+                "_published_dt": now_local,
+            }
+        )
+        item = infer_learning_source_metadata(item)
+        score, hits, tags = learning_score(item)
+        item["_score"] = score
+        item["score"] = score
+        item["tags"] = tags
+        item["concept_hint"] = concept_hint_from_tags(tags)
+        if hits > 0 and score > 0:
+            all_items.append(item)
 
     dedup, duplicate_count = deduplicate_items_with_count(all_items)
 
