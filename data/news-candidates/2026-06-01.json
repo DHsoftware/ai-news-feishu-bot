@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-02T07:44:04.175077+08:00",
+  "generated_at": "2026-06-02T09:35:55.968947+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 212,
@@ -34,11 +34,11 @@
     "similarity_threshold": 0.82,
     "history_size_before": 140,
     "history_size_after": 140,
-    "history_duplicate_count": 7
+    "history_duplicate_count": 6
   },
-  "raw_item_count": 4788,
-  "deduped_item_count": 3894,
-  "filtered_item_count": 437,
+  "raw_item_count": 4765,
+  "deduped_item_count": 3869,
+  "filtered_item_count": 433,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -213,13 +213,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 894,
-    "history_duplicate": 7,
-    "weak_relevance": 196,
+    "duplicate": 896,
+    "history_duplicate": 6,
+    "weak_relevance": 200,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3261,
+    "old_news": 3236,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,
