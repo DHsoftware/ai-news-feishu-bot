@@ -10,6 +10,7 @@ Hybrid architecture (local stage only):
 from __future__ import annotations
 
 import base64
+import difflib
 import hashlib
 import hmac
 import json
@@ -29,9 +30,10 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 LOGGER = logging.getLogger("daily_ai_news")
 
 DEFAULT_HTTP_TIMEOUT_SECONDS = 25
-DEFAULT_LITELLM_TIMEOUT_SECONDS = 90
-DEFAULT_LITELLM_RETRY_TIMEOUT_SECONDS = 120
-DEFAULT_LITELLM_RETRY_COUNT = 1
+DEFAULT_LLM_PROVIDER = "litellm"
+DEFAULT_LLM_TIMEOUT_SECONDS = 60
+DEFAULT_LLM_MAX_RETRIES = 1
+DEFAULT_ENABLE_RULE_BASED_FALLBACK = True
 MAX_CANDIDATES_FOR_PROMPT = 24
 MAX_LEARNING_CANDIDATES_FOR_PROMPT = 12
 FALLBACK_SCAN_DAYS = 14
@@ -137,6 +139,19 @@ def parse_nonnegative_int_env(name: str, default: int) -> int:
     except ValueError:
         LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
         return default
+
+
+def parse_bool_env(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    text = raw.strip().lower()
+    if text in {"1", "true", "yes", "y", "on"}:
+        return True
+    if text in {"0", "false", "no", "n", "off"}:
+        return False
+    LOGGER.warning("%s invalid (%s), fallback to %s", name, raw, default)
+    return default
 
 
 def get_timezone(tz_name: str) -> timezone:
@@ -748,6 +763,162 @@ def normalize_codex_learning(
     }
 
 
+def tag_texts(item: dict[str, Any]) -> set[str]:
+    tags: set[str] = set()
+    for key in ("category", "source_group", "source_type"):
+        text = clean_text(item.get(key, "")).lower()
+        if text:
+            tags.add(text)
+    for key in ("topic_tags", "tags"):
+        values = item.get(key, [])
+        if isinstance(values, list):
+            for value in values:
+                text = clean_text(value).lower()
+                if text:
+                    tags.add(text)
+    return tags
+
+
+def has_any_tag(tags: set[str], needles: tuple[str, ...]) -> bool:
+    return any(any(needle in tag for needle in needles) for tag in tags)
+
+
+def impact_brief_for_item(item: dict[str, Any]) -> str:
+    tags = tag_texts(item)
+    if has_any_tag(tags, ("agent", "coding", "codex", "mcp", "ai编程工具")):
+        return "对汽车软件研发、测试自动化、代码审查、问题定位和研发流程提效有参考价值，但安全关键代码仍需人工审查。"
+    if has_any_tag(tags, ("组织提效", "workflow", "automation", "governance", "productivity", "工作流")):
+        return "对研发组织的知识管理、需求分析、项目协同、流程自动化和工具推广策略有参考意义。"
+    if has_any_tag(tags, ("obc", "dcdc", "车载电源", "power_supply", "电源电子")):
+        return "与车载电源电子、OBC、DCDC、电源控制、故障诊断或预测性维护相关，对硬件平台和测试验证有直接参考价值。"
+    if has_any_tag(tags, ("power", "sic", "gan", "功率电子", "thermal", "module")):
+        return "可能影响 SiC/GaN 功率模块、电源控制、热管理、仿真优化和硬件设计流程。"
+    if has_any_tag(tags, ("official", "report", "whitepaper", "research", "白皮书", "技术报告", "官方研究")):
+        return "该内容来自官方研究或技术报告，适合作为技术趋势观察，但需要区分研究、参考设计和量产落地。"
+    if has_any_tag(tags, ("infrastructure", "chip", "gpu", "accelerator", "ai芯片", "ai基础设施")):
+        return "对云端训练、推理基础设施、边缘 AI 或车企研发算力平台有间接参考意义。"
+    if has_any_tag(tags, ("自动驾驶", "智能座舱", "autonomous", "cockpit", "adas")):
+        return "该内容仅作为汽车智能化补充信息，除非涉及明确 AI 工具链或系统工程变化，否则短期影响有限。"
+    return "该动态可作为 AI 技术趋势补充观察，实际影响需要结合具体产品、研发流程和工程约束判断。"
+
+
+def why_important_for_item(item: dict[str, Any]) -> str:
+    category = clean_text(item.get("category", "")) or "AI 技术"
+    tags = [clean_text(tag) for tag in item.get("topic_tags", []) if clean_text(tag)]
+    tag_hint = "、".join(tags[:3])
+    if tag_hint:
+        return f"该内容属于{category}方向，并涉及{tag_hint}，可用于观察相关技术路线和工具链变化。"
+    return f"该内容属于{category}方向，可用于观察相关技术路线、生态变化和潜在工程影响。"
+
+
+def auto_relevance_for_item(item: dict[str, Any]) -> str:
+    tags = tag_texts(item)
+    if has_any_tag(tags, ("obc", "dcdc", "车载电源", "power", "功率电子")):
+        return RELATION_DIRECT
+    if has_any_tag(tags, ("自动驾驶", "智能座舱")) and not has_any_tag(tags, ("agent", "coding", "workflow")):
+        return RELATION_NONE
+    return RELATION_INDIRECT
+
+
+def build_rule_based_codex_learning(learning_item: dict[str, Any] | None) -> dict[str, str]:
+    if not learning_item:
+        return normalize_codex_learning(value={}, selected_item=None, candidate_url_set=set(), url_to_source={})
+
+    link = normalize_url(clean_text(learning_item.get("link", "")))
+    tags = tag_texts(learning_item)
+    if has_any_tag(tags, ("agents_md", "agents.md")):
+        learning_point = "把 AGENTS.md 写清楚，让 Codex 先读取项目约束、测试命令和安全边界。"
+        how_to_apply = "启动任务时要求 Codex 先阅读 AGENTS.md、README 和相关脚本，列出计划后再改代码。"
+        example_prompt = DEFAULT_LEARNING_PROMPT
+    elif has_any_tag(tags, ("mcp",)):
+        learning_point = "优先让 Codex 使用已配置的 MCP 工具获取上下文，减少手工复制信息。"
+        how_to_apply = "在任务开头说明可用工具和目标资源，让 Codex 先查证再实现。"
+        example_prompt = "请先使用可用 MCP 工具读取相关资源，确认上下文后列出修改计划和测试命令。"
+    elif has_any_tag(tags, ("cli", "codex", "agent", "workflow")):
+        learning_point = "把 Codex 任务拆成读上下文、列计划、修改、验证、总结几个稳定步骤。"
+        how_to_apply = "对代码任务先限定修改范围和测试标准，完成后要求给出变更摘要与验证结果。"
+        example_prompt = "请先读取 README 和相关脚本，说明你会改哪些文件并运行哪些测试，然后再实现。"
+    else:
+        learning_point = "将学习资源作为提示词设计参考，保持任务边界清晰并要求验证输出。"
+        how_to_apply = "让 Codex 基于项目文件而不是泛泛经验给建议，避免改动密钥和无关文件。"
+        example_prompt = DEFAULT_LEARNING_PROMPT
+
+    summary_quality = clean_text(learning_item.get("summary_quality", "")).lower()
+    source_quality = clean_text(learning_item.get("source_quality", "")).lower()
+    if summary_quality in {"low", "empty"}:
+        confidence_note = "仅基于标题/简短摘要整理，未验证完整正文，建议打开原链接查看。"
+    elif source_quality == "high" or bool(learning_item.get("is_official_source", False)):
+        confidence_note = "基于官方或高质量来源的标题/简介整理，建议打开原链接查看完整内容。"
+    else:
+        confidence_note = DEFAULT_LEARNING_NOTE
+
+    return {
+        "resource_title": truncate_text(clean_text(learning_item.get("title", "")), 140),
+        "resource_type": normalize_learning_type(learning_item.get("source_type", ""), learning_item),
+        "source_name": truncate_text(safe_learning_source_name(learning_item), 60),
+        "source_url": link,
+        "learning_point": truncate_text(learning_point, 80),
+        "how_to_apply": truncate_text(how_to_apply, 120),
+        "example_prompt": truncate_text(example_prompt, 160),
+        "confidence_note": truncate_text(confidence_note, 140),
+    }
+
+
+def build_rule_based_report(
+    news_items: list[dict[str, Any]],
+    learning_item: dict[str, Any] | None,
+    target_date: str,
+) -> dict[str, Any]:
+    top_news: list[dict[str, str]] = []
+    for item in news_items[:DEFAULT_NEWS_TOP_N]:
+        if not isinstance(item, dict):
+            continue
+        title = clean_text(item.get("title", ""))
+        link = clean_text(item.get("link", ""))
+        if not title or not link:
+            continue
+        summary = truncate_text(item.get("summary", ""), 160)
+        if not summary:
+            summary = "候选新闻摘要为空，需打开原链接核验细节。"
+        if clean_text(item.get("summary_quality", "")).lower() == "low":
+            summary = f"公开摘要较短：{summary}"
+        source = clean_text(item.get("source", "")) or source_name_from_url(link)
+        top_news.append(
+            {
+                "category": clean_text(item.get("category", "")) or "其他",
+                "title": title,
+                "what_happened": summary,
+                "why_important": why_important_for_item(item),
+                "auto_relevance": auto_relevance_for_item(item),
+                "auto_impact_brief": impact_brief_for_item(item),
+                "source_name": source,
+                "source_url": normalize_url(link) or link,
+            }
+        )
+
+    summary_lines = [
+        f"今日基于 RSS 候选自动生成模板日报，共筛选出 {len(top_news)} 条重要新闻。",
+        "本次 fallback 不调用任何 LLM，只使用候选标题、摘要、分类、来源和链接生成保守摘要。",
+    ]
+    if top_news:
+        categories = []
+        for item in top_news:
+            category = clean_text(item.get("category", ""))
+            if category and category not in categories:
+                categories.append(category)
+        if categories:
+            summary_lines.append(f"覆盖方向包括：{'、'.join(categories[:4])}。")
+    else:
+        summary_lines.append("今日候选不足，未硬凑新闻条目。")
+
+    return {
+        "title": f"AI 科技日报｜{target_date}",
+        "summary": summary_lines,
+        "top_news": top_news,
+        "codex_learning": build_rule_based_codex_learning(learning_item),
+    }
+
+
 def build_candidate_index(items: list[dict[str, Any]]) -> tuple[set[str], dict[str, str], dict[str, str], dict[str, str]]:
     url_set: set[str] = set()
     title_to_url: dict[str, str] = {}
@@ -994,6 +1165,57 @@ def normalize_report_payload(
         "top_news": top_news,
         "codex_learning": codex_learning,
     }
+
+
+def normalize_title_for_dedupe(title: Any) -> str:
+    text = clean_text(title).lower()
+    text = re.sub(r"https?://\S+", "", text)
+    text = re.sub(r"[^\w\u4e00-\u9fff]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def final_dedupe_top_news(report: dict[str, Any], news_top_n: int) -> dict[str, Any]:
+    raw_items = report.get("top_news")
+    if not isinstance(raw_items, list):
+        report["top_news"] = []
+        return report
+
+    deduped: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
+    seen_titles: list[str] = []
+    seen_source_topics: set[tuple[str, str]] = set()
+
+    for item in raw_items:
+        if not isinstance(item, dict):
+            continue
+        title_key = normalize_title_for_dedupe(item.get("title", ""))
+        if not title_key:
+            continue
+        url_key = normalize_url(clean_text(item.get("source_url", "")))
+        if url_key and url_key in seen_urls:
+            continue
+        if title_key in seen_titles:
+            continue
+        if any(difflib.SequenceMatcher(None, title_key, old).ratio() >= 0.82 for old in seen_titles):
+            continue
+
+        source_key = clean_text(item.get("source_name", "")).lower()
+        topic_key = clean_text(item.get("category", "")).lower()
+        source_topic_key = (source_key, topic_key)
+        if source_key and topic_key and source_topic_key in seen_source_topics:
+            continue
+
+        deduped.append(item)
+        seen_titles.append(title_key)
+        if url_key:
+            seen_urls.add(url_key)
+        if source_key and topic_key:
+            seen_source_topics.add(source_topic_key)
+        if len(deduped) >= max(news_top_n, 1):
+            break
+
+    report["top_news"] = deduped
+    return report
 
 
 def apply_news_field_limits(report: dict[str, Any], what_max: int, why_max: int, impact_max: int) -> None:
@@ -1253,42 +1475,66 @@ Codex Agent 每日一学约束：
         "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
     }
 
-    litellm_timeout_seconds = parse_int_env("LITELLM_TIMEOUT_SECONDS", DEFAULT_LITELLM_TIMEOUT_SECONDS)
-    litellm_retry_timeout_seconds = parse_int_env(
-        "LITELLM_RETRY_TIMEOUT_SECONDS",
-        DEFAULT_LITELLM_RETRY_TIMEOUT_SECONDS,
+    litellm_timeout_seconds = parse_int_env(
+        "LLM_TIMEOUT_SECONDS",
+        parse_int_env("LITELLM_TIMEOUT_SECONDS", DEFAULT_LLM_TIMEOUT_SECONDS),
     )
-    litellm_retry_count = parse_nonnegative_int_env("LITELLM_RETRY_COUNT", DEFAULT_LITELLM_RETRY_COUNT)
-    resp = http_post_json(
-        endpoint,
-        payload,
-        headers={"Authorization": f"Bearer {api_key}"},
-        timeout_seconds=litellm_timeout_seconds,
-        retry_count=litellm_retry_count,
-        retry_timeout_seconds=litellm_retry_timeout_seconds,
+    litellm_retry_count = parse_nonnegative_int_env(
+        "LLM_MAX_RETRIES",
+        parse_nonnegative_int_env("LITELLM_RETRY_COUNT", DEFAULT_LLM_MAX_RETRIES),
     )
+    attempts = litellm_retry_count + 1
+    last_exc: Exception | None = None
+    raw_report: dict[str, Any] | None = None
 
-    choices = resp.get("choices")
-    if not isinstance(choices, list) or not choices:
-        raise RuntimeError("LiteLLM response missing choices")
+    for attempt in range(1, attempts + 1):
+        try:
+            resp = http_post_json(
+                endpoint,
+                payload,
+                headers={"Authorization": f"Bearer {api_key}"},
+                timeout_seconds=litellm_timeout_seconds,
+                retry_count=0,
+            )
 
-    message = choices[0].get("message", {})
-    content = message.get("content")
+            choices = resp.get("choices")
+            if not isinstance(choices, list) or not choices:
+                raise RuntimeError("LiteLLM response missing choices")
 
-    if isinstance(content, list):
-        text_parts: list[str] = []
-        for part in content:
-            if isinstance(part, dict):
-                text_parts.append(str(part.get("text", "")))
-            else:
-                text_parts.append(str(part))
-        content = "".join(text_parts)
+            message = choices[0].get("message", {})
+            content = message.get("content")
 
-    content_text = str(content or "").strip()
-    if not content_text:
-        raise RuntimeError("LiteLLM returned empty content")
+            if isinstance(content, list):
+                text_parts: list[str] = []
+                for part in content:
+                    if isinstance(part, dict):
+                        text_parts.append(str(part.get("text", "")))
+                    else:
+                        text_parts.append(str(part))
+                content = "".join(text_parts)
 
-    raw_report = parse_litellm_report_json(content_text)
+            content_text = str(content or "").strip()
+            if not content_text:
+                raise RuntimeError("LiteLLM returned empty content")
+
+            raw_report = parse_litellm_report_json(content_text)
+            break
+        except (TimeoutError, URLError, HTTPError, json.JSONDecodeError, RuntimeError, LiteLLMReportParseError) as exc:
+            last_exc = exc
+            if attempt < attempts:
+                LOGGER.warning(
+                    "LiteLLM attempt %s/%s failed against endpoint=%s: %s",
+                    attempt,
+                    attempts,
+                    safe_endpoint_label(endpoint),
+                    exc,
+                )
+                continue
+            raise RuntimeError(f"LiteLLM failed after {attempts} attempt(s): {exc}") from exc
+
+    if raw_report is None:
+        raise RuntimeError(f"LiteLLM failed after {attempts} attempt(s): {last_exc}")
+
     return normalize_report_payload(
         raw=raw_report,
         report_date=report_date,
@@ -1355,6 +1601,14 @@ def build_data_source_note(report: dict[str, Any]) -> str:
     return f"{news_note}；{learning_note}"
 
 
+def top_news_section_title(report: dict[str, Any]) -> str:
+    top_n = parse_int_env("NEWS_TOP_N", DEFAULT_NEWS_TOP_N)
+    raw = report.get("news_top_n")
+    if isinstance(raw, int) and raw > 0:
+        top_n = raw
+    return f"二、重要新闻 Top {top_n}"
+
+
 def build_single_interactive_card(
     report: dict[str, Any],
     source_json_name: str,
@@ -1373,7 +1627,7 @@ def build_single_interactive_card(
     add_markdown(elements, "\n".join(f"- {line}" for line in summary[:5]) or "- 暂无摘要")
     elements.append({"tag": "hr"})
 
-    add_section_title(elements, "二、重要新闻 Top 3")
+    add_section_title(elements, top_news_section_title(report))
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
@@ -1464,7 +1718,7 @@ def build_single_post_payload(
     for line in summary[:5]:
         rows.append(row_text(f"- {line}"))
 
-    rows.append(row_text("二、重要新闻 Top 3"))
+    rows.append(row_text(top_news_section_title(report)))
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
@@ -1526,7 +1780,7 @@ def build_single_text_payload(
 
     lines = [title, "", "一、今日摘要"]
     lines.extend(f"- {line}" for line in summary[:5])
-    lines.extend(["", "二、重要新闻 Top 3"])
+    lines.extend(["", top_news_section_title(report)])
 
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
@@ -1699,6 +1953,11 @@ def main() -> int:
     news_max_chars = parse_int_env("NEWS_MAX_CHARS", DEFAULT_NEWS_MAX_CHARS)
     news_top_n = parse_int_env("NEWS_TOP_N", DEFAULT_NEWS_TOP_N)
     max_items_for_llm = parse_int_env("MAX_ITEMS_FOR_LLM", DEFAULT_MAX_ITEMS_FOR_LLM)
+    llm_provider = os.getenv("LLM_PROVIDER", DEFAULT_LLM_PROVIDER).strip().lower() or DEFAULT_LLM_PROVIDER
+    enable_rule_based_fallback = parse_bool_env(
+        "ENABLE_RULE_BASED_FALLBACK",
+        DEFAULT_ENABLE_RULE_BASED_FALLBACK,
+    )
 
     tz = get_timezone(timezone_name)
     now_local = datetime.now(tz)
@@ -1782,62 +2041,74 @@ def main() -> int:
         send_report_with_fallback(webhook_url, feishu_secret, empty_report)
         return 0
 
-    api_key = os.getenv("LITELLM_API_KEY") or os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        raise RuntimeError("Missing LITELLM_API_KEY or OPENAI_API_KEY")
+    report: dict[str, Any] | None = None
+    if llm_provider == "litellm":
+        api_key = os.getenv("LITELLM_API_KEY") or os.getenv("OPENAI_API_KEY")
+        base_url = os.getenv("LITELLM_BASE_URL", "").strip()
+        model = os.getenv("LITELLM_MODEL", "gpt-5.4").strip() or "gpt-5.4"
 
-    base_url = os.getenv("LITELLM_BASE_URL", "").strip()
-    if not base_url:
-        raise RuntimeError("Missing LITELLM_BASE_URL")
+        LOGGER.info(
+            "Generating report JSON from %s (%s=%s, fallback_cache=%s, learning_items=%s)",
+            source_file.name,
+            items_field,
+            len(items),
+            used_fallback_cache,
+            len(learning_items),
+        )
 
-    model = os.getenv("LITELLM_MODEL", "gpt-5.4").strip() or "gpt-5.4"
+        if not api_key or not base_url:
+            message = "Missing LiteLLM API key or base URL"
+            if not enable_rule_based_fallback:
+                raise RuntimeError(message)
+            LOGGER.warning("%s; use rule-based fallback", message)
+        else:
+            try:
+                report = create_report_json_with_litellm(
+                    base_url=base_url,
+                    api_key=api_key,
+                    model=model,
+                    report_date=report_date,
+                    timezone_name=timezone_name,
+                    news_top_n=news_top_n,
+                    news_max_chars=news_max_chars,
+                    items=items,
+                    source_json_name=source_file.name,
+                    used_fallback_cache=used_fallback_cache,
+                    selected_learning_item=selected_learning_item,
+                    learning_items=learning_items,
+                    learning_source_json_name=learning_source_json_name,
+                    learning_used_fallback_cache=learning_used_fallback_cache,
+                )
+            except (TimeoutError, URLError, HTTPError, json.JSONDecodeError, RuntimeError, LiteLLMReportParseError) as exc:
+                if not enable_rule_based_fallback:
+                    raise
+                LOGGER.warning(
+                    "LiteLLM report generation failed; use rule-based fallback. reason=%s",
+                    exc,
+                )
+    else:
+        if not enable_rule_based_fallback:
+            raise RuntimeError(f"Unsupported LLM_PROVIDER: {llm_provider}")
+        LOGGER.warning("Unsupported LLM_PROVIDER=%s; use rule-based fallback", llm_provider)
 
-    LOGGER.info(
-        "Generating report JSON from %s (%s=%s, fallback_cache=%s, learning_items=%s)",
-        source_file.name,
-        items_field,
-        len(items),
-        used_fallback_cache,
-        len(learning_items),
+    if report is None:
+        report = build_rule_based_report(
+            news_items=items[:news_top_n],
+            learning_item=selected_learning_item,
+            target_date=report_date,
+        )
+
+    report = normalize_report_payload(
+        raw=report,
+        report_date=report_date,
+        news_top_n=news_top_n,
+        candidate_items=items,
+        selected_learning_item=selected_learning_item,
+        learning_candidate_items=learning_items,
     )
-
-    try:
-        report = create_report_json_with_litellm(
-            base_url=base_url,
-            api_key=api_key,
-            model=model,
-            report_date=report_date,
-            timezone_name=timezone_name,
-            news_top_n=news_top_n,
-            news_max_chars=news_max_chars,
-            items=items,
-            source_json_name=source_file.name,
-            used_fallback_cache=used_fallback_cache,
-            selected_learning_item=selected_learning_item,
-            learning_items=learning_items,
-            learning_source_json_name=learning_source_json_name,
-            learning_used_fallback_cache=learning_used_fallback_cache,
-        )
-    except LiteLLMReportParseError as exc:
-        LOGGER.warning("LiteLLM JSON parse failed: %s", exc)
-        error_report = build_error_report(report_date, f"LiteLLM JSON 解析失败：{exc}")
-        error_report["source_json_name"] = source_file.name
-        error_report["used_fallback_cache"] = used_fallback_cache
-        error_report["learning_source_json_name"] = learning_source_json_name
-        error_report["learning_used_fallback_cache"] = learning_used_fallback_cache
-        text_payload = build_single_text_payload(
-            report=error_report,
-            source_json_name=source_file.name,
-            used_fallback_cache=used_fallback_cache,
-        )
-        send_feishu_payload(webhook_url, text_payload, secret=feishu_secret)
-        return 1
-    except Exception as exc:
-        LOGGER.warning("LiteLLM JSON generation failed: %s", exc)
-        LOGGER.info("Stop Feishu push because LiteLLM generation failed after retry.")
-        return 1
-
+    report = final_dedupe_top_news(report, news_top_n)
     report = shrink_report_for_limit(report, news_max_chars, news_top_n)
+    report["news_top_n"] = news_top_n
     report["source_json_name"] = source_file.name
     report["used_fallback_cache"] = used_fallback_cache
     report["learning_source_json_name"] = learning_source_json_name

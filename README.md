@@ -77,14 +77,18 @@ cp .env.example .env
 - `TIMEZONE`（默认 `Asia/Shanghai`）
 - `NEWS_MAX_CHARS`（默认 `3500`）
 - `NEWS_TOP_N`（默认 `5`）
-- `LITELLM_TIMEOUT_SECONDS`（默认 `90`）
-- `LITELLM_RETRY_TIMEOUT_SECONDS`（默认 `120`）
-- `LITELLM_RETRY_COUNT`（默认 `1`）
+- `LLM_PROVIDER`（默认 `litellm`）
+- `LLM_TIMEOUT_SECONDS`（默认 `60`）
+- `LLM_MAX_RETRIES`（默认 `1`）
+- `ENABLE_RULE_BASED_FALLBACK`（默认 `true`）
 
 说明：
 - 代码优先读取 `LITELLM_API_KEY`，兼容 `OPENAI_API_KEY`。
 - `TIMEZONE`、`NEWS_MAX_CHARS`、`NEWS_TOP_N` 不填也可运行。
-- 如果 LiteLLM 偶发 `timed out`，第一次请求默认等待 `90` 秒；`LITELLM_RETRY_COUNT=1` 表示超时或网络错误后重试 1 次，重试默认等待 `120` 秒。重试后仍失败时，脚本停止本次发送，不向飞书推送失败日报。
+- 默认仍使用公司 LiteLLM：`LLM_PROVIDER=litellm`。
+- LiteLLM 请求最多等待 `LLM_TIMEOUT_SECONDS` 秒；`LLM_MAX_RETRIES=1` 表示失败后最多重试 1 次。
+- 如果 LiteLLM 超时、返回空、返回非法 JSON 或请求异常，且 `ENABLE_RULE_BASED_FALLBACK=true`，系统会自动降级为模板日报，飞书仍然只发送 1 条消息。
+- rule-based fallback 不调用任何 LLM，不消耗 token，也不受 LiteLLM 可用性影响；缺点是文案不如 LLM 自然，分析更模板化。
 - `FEISHU_BOT_SECRET` 是飞书机器人“签名校验”密钥，不是 Webhook URL token。
 - 若未开启签名校验，`FEISHU_BOT_SECRET` 留空。
 - 不要提交 `.env`。
@@ -157,17 +161,26 @@ cp .env.example .env
 3. 从 learning candidates 选择 1 条“Codex Agent 每日一学”资源（优先官方 Codex > YouTube > 教程）。
 4. 调用 LiteLLM：`POST {LITELLM_BASE_URL}/chat/completions`。
 5. 解析严格 JSON（`summary`、`top_news`、`codex_learning`）。
-6. 飞书发送仅 1 条消息（interactive 失败降级 post，再降级 text）。
+6. 如果 LiteLLM 超时、返回空、JSON 解析失败或请求异常，则自动使用 rule-based fallback 生成模板日报。
+7. 执行最终治理：同源、同主题、相似标题去重，并按 `NEWS_TOP_N=5` 截断。
+8. 飞书发送仅 1 条消息（interactive 失败降级 post，再降级 text）。
+
+rule-based fallback 行为：
+- 只使用 `data/news-candidates/YYYY-MM-DD.json` 的 `curated_items`，最多 5 条。
+- 只使用 `data/learning-candidates/YYYY-MM-DD.json` 的 `curated_items` 中选出的高质量 Codex Agent 学习资源，最多 1 条。
+- 直接复用候选中的标题、摘要、分类、来源和链接，不编造候选中不存在的信息。
+- 对官方研究、技术报告和白皮书保持保守表述，不夸大为量产落地。
+- 如果候选不足，就显示实际条数，不硬凑。
 
 如果目标日期的新闻 candidates JSON 不存在，通常表示本地 `git pull` 没有拉到新的日报候选文件；脚本会静默退出，不调用 LiteLLM，也不推送飞书，避免重复发送旧日报。
 
 飞书消息结构：
 1. 今日摘要
-2. 重要新闻 Top 3
+2. 重要新闻 Top 5
 3. Codex Agent 每日一学
 
 如果学习资源为空：
-- 第三部分显示“今日未发现新的 Codex Agent 学习资源。”
+- 第三部分显示“今日未发现高质量 Codex Agent 学习资源。”
 
 ## 10.1 RSS 前端策展与去重
 `collect_rss.py` 现在会在 GitHub Actions 阶段完成新闻候选清洗，减少 LiteLLM 输入噪声：
