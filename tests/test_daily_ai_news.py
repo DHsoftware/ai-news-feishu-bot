@@ -48,6 +48,43 @@ def sample_learning_item() -> dict[str, object]:
     }
 
 
+def sample_power_news_items() -> list[dict[str, object]]:
+    return [
+        {
+            "title": "OBC control design note highlights DCDC diagnostics",
+            "summary": "The note discusses OBC, DCDC and power control validation topics.",
+            "summary_quality": "medium",
+            "category": "OBC/DCDC",
+            "source": "Power Source",
+            "link": "https://example.com/power/1",
+            "topic_tags": ["obc", "dcdc", "power_electronics"],
+        },
+        {
+            "title": "SiC module simulation workflow update",
+            "summary": "The article covers SiC module simulation and thermal validation.",
+            "summary_quality": "medium",
+            "category": "功率电子",
+            "source": "Power Source 2",
+            "link": "https://example.com/power/2",
+            "topic_tags": ["sic", "power_electronics"],
+        },
+    ]
+
+
+def sample_official_news_items() -> list[dict[str, object]]:
+    return [
+        {
+            "title": "Official research report on AI engineering methods",
+            "summary": "An official technical report describes engineering practices for AI systems.",
+            "summary_quality": "medium",
+            "category": "官方研究",
+            "source": "Official Lab",
+            "link": "https://example.com/official/1",
+            "topic_tags": ["official_report", "technical_blog"],
+        }
+    ]
+
+
 def llm_report() -> dict[str, object]:
     items = sample_news_items()
     return {
@@ -159,13 +196,17 @@ class DailyAiNewsTest(unittest.TestCase):
                         self.assertEqual(daily.main(), 0)
 
         self.assertEqual(len(sent), 1)
-        self.assertIn("模板日报", sent[0]["summary"][0])
+        summary_text = "\n".join(sent[0]["summary"])
+        self.assertNotIn("模板日报", summary_text)
+        self.assertNotIn("fallback", summary_text)
+        self.assertNotIn("LLM", summary_text)
 
     def test_fallback_generates_report_json(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
         self.assertEqual(report["title"], "AI 科技日报｜2026-06-01")
         self.assertEqual(len(report["top_news"]), 5)
         self.assertIn("codex_learning", report)
+        self.assertLessEqual(len(report["summary"]), 3)
 
     def test_feishu_title_is_top_5_for_litellm_and_fallback(self) -> None:
         report = llm_report()
@@ -206,6 +247,48 @@ class DailyAiNewsTest(unittest.TestCase):
         learning = report["codex_learning"]
         self.assertEqual(learning["source_url"], "https://github.com/openai/codex")
         self.assertTrue(learning["learning_point"])
+
+    def test_fallback_summary_hides_internal_words(self) -> None:
+        report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
+        summary_text = "\n".join(report["summary"])
+        for forbidden in ("fallback", "LLM", "RSS", "模板", "curated_items", "不调用", "自动生成", "候选", "规则生成"):
+            self.assertNotIn(forbidden, summary_text)
+
+    def test_fallback_summary_dedupes_repeated_ai_agent_topic(self) -> None:
+        agent_items = [
+            {
+                "title": f"AI Agent workflow update {idx}",
+                "summary": "The item describes coding agent workflow and developer productivity.",
+                "summary_quality": "medium",
+                "category": "AI编程工具",
+                "source": f"Agent Source {idx}",
+                "link": f"https://example.com/agent/{idx}",
+                "topic_tags": ["ai_agent", "coding_agent", "agent"],
+            }
+            for idx in range(1, 4)
+        ]
+        report = daily.build_rule_based_report(agent_items, sample_learning_item(), "2026-06-01")
+        summary_text = "\n".join(report["summary"])
+        self.assertEqual(summary_text.count("AI Agent"), 1)
+
+    def test_fallback_summary_mentions_official_content_naturally(self) -> None:
+        report = daily.build_rule_based_report(sample_official_news_items(), sample_learning_item(), "2026-06-01")
+        summary_text = "\n".join(report["summary"])
+        self.assertIn("官方", summary_text)
+        self.assertTrue("技术" in summary_text or "研究" in summary_text)
+        self.assertNotIn("模板", summary_text)
+
+    def test_fallback_summary_mentions_power_topics(self) -> None:
+        report = daily.build_rule_based_report(sample_power_news_items(), sample_learning_item(), "2026-06-01")
+        summary_text = "\n".join(report["summary"])
+        self.assertTrue("车载电源电子" in summary_text or "功率电子" in summary_text)
+        self.assertNotIn("fallback", summary_text)
+
+    def test_fallback_summary_empty_top_news(self) -> None:
+        self.assertEqual(
+            daily.build_rule_based_summary([]),
+            ["今日未发现足够高质量的 AI 相关新增内容，暂不生成完整日报。"],
+        )
 
     def test_litellm_empty_content_retries(self) -> None:
         content = json.dumps(llm_report(), ensure_ascii=False)

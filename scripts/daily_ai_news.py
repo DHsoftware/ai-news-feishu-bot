@@ -669,7 +669,7 @@ def build_learning_prompt_item(item: dict[str, Any] | None, timezone_name: str) 
 def ensure_metadata_note(note: str, has_resource: bool) -> str:
     text = clean_text(note)
     if not has_resource:
-        return "今日未发现可用学习候选资源。"
+        return "今日未发现可用学习资源。"
     if not text:
         return DEFAULT_LEARNING_NOTE
     if ("标题" not in text and "简介" not in text) and ("metadata" not in text.lower()):
@@ -830,6 +830,101 @@ def natural_topic_phrase(item: dict[str, Any]) -> str:
     return "、".join(phrases[:3]) if phrases else "AI 技术进展"
 
 
+def summary_topic_tags(item: dict[str, Any]) -> set[str]:
+    tags = tag_texts(item)
+    for key in ("title", "summary", "what_happened", "why_important", "auto_impact_brief"):
+        text = clean_text(item.get(key, "")).lower()
+        if text:
+            tags.add(text)
+    return tags
+
+
+def dedupe_summary_topics(top_news: list[dict[str, Any]]) -> list[str]:
+    topic_rules: list[tuple[str, tuple[str, ...]]] = [
+        ("AI Agent 与编程智能体", ("ai agent", "agent", "agentic", "codex", "mcp", "coding_agent", "ai编程工具", "编程智能体")),
+        ("研发效率与软件工程提效", ("coding", "developer", "software engineering", "代码", "研发效率", "软件工程", "测试自动化", "代码审查")),
+        ("企业 AI 工作流自动化", ("workflow", "automation", "enterprise", "工作流", "流程自动化", "企业 ai", "协同")),
+        ("官方研究与技术报告", ("official", "report", "whitepaper", "research", "technical_blog", "官方研究", "技术报告", "白皮书", "官方技术")),
+        ("AI 基础设施与云平台", ("infrastructure", "cloud", "aws", "azure", "云平台", "ai基础设施", "算力平台")),
+        ("OBC/DCDC 与车载电源电子", ("obc", "dcdc", "车载电源", "电源电子", "电源控制")),
+        ("功率电子与 SiC/GaN", ("power_electronics", "功率电子", "sic", "gan", "功率模块")),
+        ("AI 芯片与推理基础设施", ("ai芯片", "chip", "gpu", "accelerator", "推理", "inference", "边缘 ai")),
+        ("AI 采用治理与组织变革", ("governance", "adoption", "组织提效", "组织变革", "治理", "推广策略")),
+        ("汽车软件与系统工程", ("automotive software", "system engineering", "汽车软件", "系统工程", "智能汽车")),
+    ]
+
+    topics: list[str] = []
+    for item in top_news:
+        if not isinstance(item, dict):
+            continue
+        tags = summary_topic_tags(item)
+        for label, needles in topic_rules:
+            if label in topics:
+                continue
+            if has_any_tag(tags, needles):
+                topics.append(label)
+            if len(topics) >= 3:
+                return topics
+
+    return topics[:3] or ["AI 技术与工程应用"]
+
+
+def join_chinese_list(values: list[str]) -> str:
+    cleaned = [clean_text(value) for value in values if clean_text(value)]
+    if not cleaned:
+        return ""
+    if len(cleaned) == 1:
+        return cleaned[0]
+    if len(cleaned) == 2:
+        return f"{cleaned[0]}和{cleaned[1]}"
+    return f"{'、'.join(cleaned[:-1])}和{cleaned[-1]}"
+
+
+def build_rule_based_summary(top_news: list[dict[str, Any]]) -> list[str]:
+    if not top_news:
+        return ["今日未发现足够高质量的 AI 相关新增内容，暂不生成完整日报。"]
+
+    topics = dedupe_summary_topics(top_news)
+    topic_text = join_chinese_list(topics)
+    tags = set()
+    for item in top_news:
+        if isinstance(item, dict):
+            tags.update(summary_topic_tags(item))
+
+    has_power = has_any_tag(tags, ("obc", "dcdc", "车载电源", "power_electronics", "功率电子", "sic", "gan"))
+    has_agent = has_any_tag(tags, ("ai agent", "agent", "codex", "coding_agent", "ai编程工具", "编程智能体"))
+    has_official = has_any_tag(tags, ("official", "report", "whitepaper", "research", "technical_blog", "官方研究", "技术报告", "白皮书"))
+    has_infra = has_any_tag(tags, ("infrastructure", "cloud", "aws", "azure", "gpu", "chip", "云平台", "ai基础设施", "推理"))
+    has_workflow = has_any_tag(tags, ("workflow", "automation", "productivity", "工作流", "流程自动化", "研发效率", "软件工程"))
+
+    if has_power:
+        lines = [f"今日重点关注 {topic_text}相关进展。"]
+        lines.append("其中车载电源电子、功率电子或电源控制相关内容，对硬件平台选型、仿真验证和故障诊断有参考价值。")
+        if has_agent:
+            lines.append("AI Agent 与编程工具方向则更偏向汽车软件研发流程和测试自动化提效。")
+        else:
+            lines.append("对汽车行业的启发主要集中在系统工程、测试验证和工程工具链演进。")
+        return [truncate_text(line, 80) for line in lines[:3]]
+
+    if has_official and len(top_news) <= 3 and not has_agent and not has_workflow:
+        lines = [
+            "今日入选内容以官方研究、技术报告和工程实践文章为主。",
+            "这些内容更适合作为技术趋势观察和方法参考，不宜直接解读为短期量产落地。",
+            "对汽车行业的价值主要体现在研发工具链、系统工程和平台技术储备。",
+        ]
+        return [truncate_text(line, 80) for line in lines]
+
+    lines = [f"今日重点关注 {topic_text}等方向。"]
+    if has_workflow or has_infra:
+        lines.append("多条内容与企业工具链、软件工程提效和云端基础设施有关。")
+    elif has_official:
+        lines.append("入选内容以官方技术文章和工程实践为主，适合作为技术趋势观察。")
+    else:
+        lines.append("入选内容更偏向 AI 技术进展和工程应用线索，适合持续跟踪。")
+    lines.append("对汽车行业的启发主要集中在研发流程自动化、测试效率提升和工程工具链演进。")
+    return [truncate_text(line, 80) for line in lines[:3]]
+
+
 def auto_relevance_for_item(item: dict[str, Any]) -> str:
     tags = tag_texts(item)
     if has_any_tag(tags, ("obc", "dcdc", "车载电源", "power", "功率电子")):
@@ -898,7 +993,7 @@ def build_rule_based_report(
             continue
         summary = truncate_text(item.get("summary", ""), 160)
         if not summary:
-            summary = "候选新闻摘要为空，需打开原链接核验细节。"
+            summary = "公开摘要为空，需打开原链接核验细节。"
         if clean_text(item.get("summary_quality", "")).lower() == "low":
             summary = f"公开摘要较短：{summary}"
         source = clean_text(item.get("source", "")) or source_name_from_url(link)
@@ -915,24 +1010,9 @@ def build_rule_based_report(
             }
         )
 
-    summary_lines = [
-        f"今日基于 RSS 候选自动生成模板日报，共筛选出 {len(top_news)} 条重要新闻。",
-        "本次 fallback 不调用任何 LLM，只使用候选标题、摘要、主题标签、来源和链接生成保守摘要。",
-    ]
-    if top_news:
-        topics = []
-        for item in news_items[:DEFAULT_NEWS_TOP_N]:
-            topic = natural_topic_phrase(item)
-            if topic and topic not in topics:
-                topics.append(topic)
-        if topics:
-            summary_lines.append(f"今日重点关注{'、'.join(topics[:3])}相关进展。")
-    else:
-        summary_lines.append("今日候选不足，未硬凑新闻条目。")
-
     return {
         "title": f"AI 科技日报｜{target_date}",
-        "summary": summary_lines,
+        "summary": build_rule_based_summary(top_news),
         "top_news": top_news,
         "codex_learning": build_rule_based_codex_learning(learning_item),
     }
@@ -1031,7 +1111,7 @@ def build_fallback_news_from_candidates(items: list[dict[str, Any]], news_top_n:
             {
                 "category": clean_text(item.get("category", "")) or "其他",
                 "title": title,
-                "what_happened": summary or "候选新闻已抓取，需结合原文核验细节。",
+                "what_happened": summary or "公开摘要为空，需结合原文核验细节。",
                 "why_important": "该新闻反映 AI 技术或产业动态，可能影响车型与研发路线决策。",
                 "auto_relevance": RELATION_INDIRECT,
                 "auto_impact_brief": "短期主要影响研发优先级与技术评估，量产影响仍需结合平台节奏观察。",
@@ -1081,7 +1161,7 @@ def build_china_fallback_news(items: list[dict[str, Any]], limit: int) -> list[d
             {
                 "category": clean_text(item.get("category", "")) or "中国汽车",
                 "title": title,
-                "what_happened": summary or "该国内候选新闻已抓取，需结合原文核验细节。",
+                "what_happened": summary or "公开摘要为空，需结合原文核验细节。",
                 "why_important": "该动态与国内 AI/智能汽车产业链相关，可能影响车型规划、技术路线或供应链决策。",
                 "auto_relevance": RELATION_INDIRECT,
                 "auto_impact_brief": "短期可用于评估国内技术栈与合作生态变化，中长期需结合量产与法规进展持续观察。",
@@ -1106,7 +1186,7 @@ def normalize_report_payload(
 
     summary = ensure_list_of_strings(raw.get("summary"))[:5]
     if not summary:
-        summary = ["候选新闻已生成，但模型未返回有效摘要。"]
+        summary = ["新闻内容已整理，但未返回有效摘要。"]
 
     top_raw = raw.get("top_news")
     if not isinstance(top_raw, list):
@@ -1917,7 +1997,7 @@ def build_error_report(report_date: str, detail: str) -> dict[str, Any]:
             "learning_point": DEFAULT_LEARNING_EMPTY_TEXT,
             "how_to_apply": "可明日继续关注官方资源更新。",
             "example_prompt": DEFAULT_LEARNING_PROMPT,
-            "confidence_note": "今日未发现可用学习候选资源。",
+            "confidence_note": "今日未发现可用学习资源。",
         },
     }
 
@@ -1955,8 +2035,8 @@ def build_no_significant_news_report(report_date: str, source_name: str, learnin
         "title": f"AI 科技日报｜{report_date}",
         "report_date": report_date,
         "summary": [
-            f"{source_name} 中未发现足够显著的新增 AI 新闻，已跳过 LiteLLM 新闻总结以避免旧闻或弱相关新闻刷屏。",
-            "RSS 抓取阶段已经完成当天去重、跨天历史去重和全球/中国新闻平衡筛选。",
+            "今日未发现足够高质量的 AI 相关新增内容，暂不生成完整日报。",
+            "可继续关注 AI Agent、研发效率、车载电源电子和云端基础设施等方向的后续进展。",
         ],
         "top_news": [],
         "codex_learning": learning,
@@ -2061,6 +2141,7 @@ def main() -> int:
         return 0
 
     report: dict[str, Any] | None = None
+    used_rule_based_report = False
     if llm_provider == "litellm":
         api_key = os.getenv("LITELLM_API_KEY") or os.getenv("OPENAI_API_KEY")
         base_url = os.getenv("LITELLM_BASE_URL", "").strip()
@@ -2116,6 +2197,7 @@ def main() -> int:
             learning_item=selected_learning_item,
             target_date=report_date,
         )
+        used_rule_based_report = True
 
     report = normalize_report_payload(
         raw=report,
@@ -2126,6 +2208,8 @@ def main() -> int:
         learning_candidate_items=learning_items,
     )
     report = final_dedupe_top_news(report, news_top_n)
+    if used_rule_based_report:
+        report["summary"] = build_rule_based_summary(report.get("top_news", []))
     report = shrink_report_for_limit(report, news_max_chars, news_top_n)
     report["news_top_n"] = news_top_n
     report["source_json_name"] = source_file.name
