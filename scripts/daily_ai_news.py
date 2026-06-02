@@ -91,80 +91,80 @@ CONCEPT_EXPLANATIONS: dict[str, dict[str, str]] = {
     "Agent Workflow": {
         "concept_explanation": "Agent Workflow 是把模型、工具、状态、决策和结果处理组织成连续任务流的方式。",
         "why_it_matters": "它让 AI 不只是回答问题，而是能围绕目标推进多步骤任务。",
-        "auto_relevance": "可用于组织需求分析、测试执行、缺陷定位和工程数据处理等流程。",
-        "example_scenario": "例如一个研发 Agent 先读取需求，再调用测试工具，最后汇总失败原因。",
+        "auto_relevance": "在电源研发中心，可用于串联需求分解、方案设计、器件选型、仿真、测试验证和问题闭环等跨专业流程。",
+        "example_scenario": "例如一个 OBC 问题分析工作流先读取需求和原理图，再关联台架波形、故障日志和测试报告，最后输出可能原因与验证建议。",
     },
     "Tool Calling": {
-        "concept_explanation": "Tool Calling 是让模型在需要时调用外部函数、API 或系统工具的机制。",
-        "why_it_matters": "它让 Agent 能查询数据、执行动作并处理真实系统任务。",
-        "auto_relevance": "可用于连接需求库、测试平台、缺陷系统、仿真工具和内部知识库。",
-        "example_scenario": "例如 Agent 查询缺陷单后调用测试脚本，再整理定位结果。",
+        "concept_explanation": "Tool Calling 是让模型在需要时调用外部函数、API、数据库或工程工具的机制。",
+        "why_it_matters": "它让 Agent 能连接真实工程系统，而不是只停留在文本分析。",
+        "auto_relevance": "在电源研发中心，可连接需求库、器件库、测试平台、仿真工具、缺陷系统、知识库和实验数据。",
+        "example_scenario": "例如 Agent 查询某颗 SiC MOSFET 的器件参数，再调用损耗计算脚本和热模型，辅助评估 OBC 工况裕量。",
     },
     "Guardrails": {
         "concept_explanation": "Guardrails 是限制 Agent 行为边界的规则、检查或审批机制。",
-        "why_it_matters": "它能降低错误操作、越权访问、不可靠输出和安全风险。",
-        "auto_relevance": "适合用于安全关键软件、配置变更、测试发布和敏感数据访问场景。",
-        "example_scenario": "例如 Agent 想修改配置文件前，需要通过规则检查或人工确认。",
+        "why_it_matters": "它能降低错误操作、越权访问、不可靠结论和工程安全风险。",
+        "auto_relevance": "在电源研发中心，适合约束安规、EMC、热设计、器件降额、参数修改和测试结论生成等高风险场景。",
+        "example_scenario": "例如 Agent 给出 DCDC 控制参数调整建议前，必须通过电压电流限值、热裕量和安全约束检查。",
     },
     "Human-in-the-loop": {
-        "concept_explanation": "Human-in-the-loop 是在人类确认后再执行关键动作的机制。",
-        "why_it_matters": "它在自动化效率和工程安全之间建立缓冲区。",
-        "auto_relevance": "适合代码合入、测试发布、需求变更和安全相关决策。",
-        "example_scenario": "例如 Agent 生成修复方案后，由工程师确认再执行修改。",
+        "concept_explanation": "Human-in-the-loop 是在人类确认后再执行关键动作或采纳关键结论的机制。",
+        "why_it_matters": "它在自动化效率和工程责任之间建立安全缓冲。",
+        "auto_relevance": "在电源研发中心，适合设计冻结、器件替代、测试结论、质量问题关闭和量产变更等需要工程师确认的环节。",
+        "example_scenario": "例如 Agent 汇总 OBC 失效原因后，只给出候选假设和验证计划，最终由硬件、软件和测试负责人共同确认。",
     },
     "Agent Evaluation": {
-        "concept_explanation": "Agent Evaluation 是评估 Agent 在多步骤任务中的成功率、稳定性和安全性的过程。",
-        "why_it_matters": "不能只看单次回答质量，还要看任务是否可靠完成。",
-        "auto_relevance": "可用于评估研发 Agent 在日志分析、测试生成、缺陷定位中的效果。",
-        "example_scenario": "例如用一组历史缺陷案例测试 Agent 是否能稳定定位问题。",
+        "concept_explanation": "Agent Evaluation 是评估 Agent 在多步骤任务中的准确性、稳定性和安全性的过程。",
+        "why_it_matters": "工程场景不能只看回答是否流畅，还要看结论是否可验证、可复现、可追溯。",
+        "auto_relevance": "在电源研发中心，可用于评估 Agent 在故障定位、测试报告分析、器件选型建议和需求追踪中的可靠性。",
+        "example_scenario": "例如用历史 OBC/DCDC 问题单测试 Agent 是否能正确关联现象、波形、原理图、软件版本和根因。",
     },
     "Observability": {
-        "concept_explanation": "Observability 是记录和观察 Agent 的决策、工具调用、失败点和中间状态。",
-        "why_it_matters": "它让复杂 Agent 工作流可调试、可审计、可持续改进。",
-        "auto_relevance": "适合用于追踪自动化测试、需求分析和故障诊断 Agent 的行为。",
-        "example_scenario": "例如查看 Agent 哪一步调用了错误工具，导致测试结论不一致。",
+        "concept_explanation": "Observability 是记录和观察 Agent 的决策过程、工具调用、中间状态和失败点。",
+        "why_it_matters": "它让复杂 Agent 工作流可调试、可审计、可复盘。",
+        "auto_relevance": "在电源研发中心，适合追踪 Agent 如何从需求、测试数据、波形、日志和问题单中形成工程判断。",
+        "example_scenario": "例如查看 Agent 在分析 DCDC 过温问题时，引用了哪些测试记录、哪些热模型，以及在哪一步产生了错误假设。",
     },
     "MCP": {
         "concept_explanation": "MCP 是一种让模型或 Agent 连接外部工具和上下文的协议思路。",
-        "why_it_matters": "它统一工具接入方式，降低不同系统之间的集成复杂度。",
-        "auto_relevance": "可用于连接代码仓库、测试系统、需求平台、仿真环境和文档库。",
-        "example_scenario": "例如通过 MCP 让 Agent 同时访问代码、测试结果和缺陷系统。",
+        "why_it_matters": "它有助于统一工具接入方式，降低不同工程系统之间的集成复杂度。",
+        "auto_relevance": "在电源研发中心，可用于连接 PLM、需求管理、缺陷系统、测试数据库、仿真工具、器件库和文档库。",
+        "example_scenario": "例如通过 MCP 让 Agent 同时访问 OBC 需求、BOM、台架测试结果和历史问题单，辅助生成设计评审材料。",
     },
     "Agent Instructions": {
         "concept_explanation": "Agent Instructions 是给 Agent 的项目级背景、约束和工作规则。",
-        "why_it_matters": "它帮助 Agent 在具体项目中保持一致的工程上下文。",
-        "auto_relevance": "适合表达代码规范、测试要求、安全边界和工具链限制。",
-        "example_scenario": "例如在项目说明中定义哪些目录可改、哪些配置不能触碰。",
+        "why_it_matters": "它帮助 Agent 在具体产品和团队环境中保持一致的工程上下文。",
+        "auto_relevance": "在电源研发中心，可用于描述 OBC/DCDC 项目边界、测试规范、命名规则、文档结构、设计约束和安全要求。",
+        "example_scenario": "例如为某个 OBC 项目定义 Agent 需优先参考哪些需求文档、测试规范、器件库和问题单，而不是泛泛回答。",
     },
     "Coding Agent": {
-        "concept_explanation": "Coding Agent 是面向软件工程任务的 Agent，能理解代码仓库、修改文件、运行测试并反馈结果。",
-        "why_it_matters": "它把 AI 从代码补全推进到任务级研发协作。",
-        "auto_relevance": "可用于辅助脚本维护、测试补全、日志分析和工具链自动化。",
-        "example_scenario": "例如 Agent 阅读测试失败日志，定位相关代码路径并提出修改建议。",
+        "concept_explanation": "Coding Agent 是面向软件工程任务的 Agent，能理解代码、修改文件、运行测试并反馈结果。",
+        "why_it_matters": "它把 AI 从代码补全推进到任务级研发协作，但仍需要工程审查和验证。",
+        "auto_relevance": "在电源研发中心，Coding Agent 可辅助嵌入式控制代码、测试脚本、标定工具、日志解析工具和自动化报表维护。",
+        "example_scenario": "例如 Agent 根据 DCDC 台架日志格式变化，更新解析脚本并生成验证用例，但控制策略本身仍需工程师评审。",
     },
     "Orchestration": {
         "concept_explanation": "Orchestration 是协调多个步骤、工具或 Agent 的机制。",
-        "why_it_matters": "复杂任务需要拆解、路由、执行和结果合并，不能只靠单次模型回答。",
-        "auto_relevance": "可用于把需求分析、代码检查、测试执行和报告生成串成工作流。",
-        "example_scenario": "例如一个主 Agent 把任务分给测试 Agent、文档 Agent 和代码审查 Agent。",
+        "why_it_matters": "复杂工程任务通常需要跨专业、跨工具、跨数据源协同完成。",
+        "auto_relevance": "在电源研发中心，可用于协调系统、硬件、软件、测试、质量和制造等角色共同完成问题分析或设计评审。",
+        "example_scenario": "例如一个主 Agent 分派子任务：硬件 Agent 查原理图，测试 Agent 查波形，质量 Agent 查问题单，最后合并成 8D 初稿。",
     },
     "Agent State": {
         "concept_explanation": "Agent State 是 Agent 在任务过程中保留的上下文、进度和中间结果。",
         "why_it_matters": "它让多轮任务具备连续性，避免每一步都重新开始。",
-        "auto_relevance": "适合长流程研发任务，例如跨多个模块的缺陷排查和测试跟踪。",
-        "example_scenario": "例如 Agent 记住已检查过的日志、配置和测试结果，再继续下一步分析。",
+        "auto_relevance": "在电源研发中心，适合跨多轮跟踪需求变更、测试进展、问题定位、设计评审意见和验证结论。",
+        "example_scenario": "例如 Agent 记住某个 OBC 故障已排查过硬件采样、电源纹波和软件保护阈值，下一轮继续检查热设计和工况边界。",
     },
     "Agent Skills": {
         "concept_explanation": "Agent Skills 是可复用的能力单元，让 Agent 在类似任务中复用经验和流程。",
-        "why_it_matters": "它能把常见任务沉淀成稳定能力，减少重复配置。",
-        "auto_relevance": "可用于沉淀日志分析、测试生成、代码审查和发布检查等研发能力。",
-        "example_scenario": "例如把分析失败测试并生成复现步骤沉淀成一个可复用技能。",
+        "why_it_matters": "它能把常见工程任务沉淀成稳定能力，减少重复配置和重复解释。",
+        "auto_relevance": "在电源研发中心，可沉淀为波形分析、器件参数对比、测试报告检查、失效模式归类、设计评审检查等技能。",
+        "example_scenario": "例如把“分析 OBC 启动失败波形并生成排查清单”沉淀成一个可复用技能，后续类似问题可快速调用。",
     },
     "AI Agent": {
         "concept_explanation": "AI Agent 是能围绕目标进行规划、调用工具、处理反馈并推进任务的 AI 系统。",
-        "why_it_matters": "它把 AI 从单轮问答扩展到多步骤任务执行。",
-        "auto_relevance": "可用于研发流程自动化、测试分析、文档处理和工程工具链协同。",
-        "example_scenario": "例如 Agent 根据问题描述查找代码、读取日志并生成排查建议。",
+        "why_it_matters": "它把 AI 从单轮问答扩展到多步骤工程任务协同。",
+        "auto_relevance": "在电源研发中心，可用于需求分析、设计辅助、测试数据解读、故障定位、知识检索和质量问题闭环。",
+        "example_scenario": "例如 Agent 根据问题描述检索历史案例、读取测试数据、关联设计文档，并输出下一步验证建议。",
     },
 }
 
@@ -857,9 +857,9 @@ def normalize_codex_learning(
         "source_url": source_url,
         "concept": truncate_text(concept, 40),
         "concept_explanation": truncate_text(concept_explanation, 80),
-        "why_it_matters": truncate_text(why_it_matters, 100),
-        "auto_relevance": truncate_text(auto_relevance, 100),
-        "example_scenario": truncate_text(example_scenario, 100),
+        "why_it_matters": truncate_text(why_it_matters, 140),
+        "auto_relevance": truncate_text(auto_relevance, 140),
+        "example_scenario": truncate_text(example_scenario, 140),
         "confidence_note": truncate_text(confidence_note, 140),
     }
 
@@ -1459,9 +1459,9 @@ def apply_learning_field_limits(
     learning["source_name"] = truncate_text(learning.get("source_name", "来源"), 60)
     learning["concept"] = truncate_text(learning.get("concept", "AI Agent"), 40)
     learning["concept_explanation"] = truncate_text(learning.get("concept_explanation", ""), 80)
-    learning["why_it_matters"] = truncate_text(learning.get("why_it_matters", ""), 100)
-    learning["auto_relevance"] = truncate_text(learning.get("auto_relevance", ""), 100)
-    learning["example_scenario"] = truncate_text(learning.get("example_scenario", ""), 100)
+    learning["why_it_matters"] = truncate_text(learning.get("why_it_matters", ""), 140)
+    learning["auto_relevance"] = truncate_text(learning.get("auto_relevance", ""), 140)
+    learning["example_scenario"] = truncate_text(learning.get("example_scenario", ""), 140)
     learning["confidence_note"] = truncate_text(
         ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", "")))),
         note_max,
@@ -1621,8 +1621,8 @@ def create_report_json_with_litellm(
     "concept": "Agent 相关概念名称",
     "concept_explanation": "这个概念是什么",
     "why_it_matters": "为什么重要",
-    "auto_relevance": "和汽车软件 / 系统工程 / 研发提效 / 工具链的关系",
-    "example_scenario": "一个简短应用场景或类比",
+    "auto_relevance": "电源研发中心关联",
+    "example_scenario": "一个贴近电源研发中心真实工作的简短场景",
     "confidence_note": "基于来源标题/摘要/官方文档整理，说明可信度"
   }}
 }}
@@ -1662,11 +1662,17 @@ Agent 概念每日一学约束：
 30) 优先使用 `concept_hint` 作为 `concept`；没有 concept_hint 时根据 tags/title/summary 映射；仍无法识别时使用 "AI Agent"。
 31) 如果资源是 OpenAI Agents SDK，优先解释 Agent Workflow、Tool Calling、Guardrails、Orchestration、Agent Evaluation 或 Observability。
 32) 如果资源是 Codex CLI 或 Codex GitHub，优先解释 Coding Agent；如果资源是 AGENTS.md，解释 Agent Instructions；如果资源是 MCP，解释 MCP。
-33) 文案像每日科普，不是操作手册；`concept_explanation` 不超过 80 字，`why_it_matters`、`auto_relevance`、`example_scenario` 各不超过 100 字。
-34) 如果 summary_quality 是 low，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细概念延展。
-35) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题和摘要整理，建议打开原链接查看完整内容。”
-36) 如果是 official_doc 且 summary_quality=high，`confidence_note` 可写“基于官方文档摘要整理。”
-37) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
+33) Agent 概念每日一学要站在“电源研发中心”的完整研发体系视角，不要只写软件工程，不要默认场景是自动驾驶或智能座舱。
+34) 优先结合 OBC、DCDC、功率电子、硬件设计、控制算法、嵌入式软件、测试验证、质量闭环、供应链和系统工程。
+35) 示例场景要像电源研发中心真实工作，可涉及需求分解、方案设计、器件选型、仿真、台架测试、HIL/SIL/PIL、EMC、热设计、安规、可靠性、失效分析、8D/FRACAS、PLM、需求库、缺陷系统、测试数据库、器件库、BOM、datasheet、应用笔记、测试报告和经验库。
+36) Coding Agent 只能作为嵌入式控制代码、测试脚本、标定工具、日志解析工具和自动化报表维护的辅助场景；不要把软件工程作为唯一主视角。
+37) 不要只写代码生成、代码审查、单元测试、软件自动化、OTA、自动驾驶或智能座舱。
+38) 不要出现“轨道编排”，应使用“工作流编排”“任务编排”或“流程编排”。
+39) 文案像每日科普，不是操作手册；`concept_explanation` 不超过 80 字，`why_it_matters`、`auto_relevance`、`example_scenario` 各不超过 140 字。
+40) 如果 summary_quality 是 low，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细概念延展。
+41) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题和摘要整理，建议打开原链接查看完整内容。”
+42) 如果是 official_doc 且 summary_quality=high，`confidence_note` 可写“基于官方文档摘要整理。”
+43) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
@@ -1897,7 +1903,7 @@ def build_single_interactive_card(
             f"今日概念：{concept}",
             f"一句话解释：{concept_explanation}",
             f"为什么重要：{why_it_matters}",
-            f"汽车研发关联：{auto_relevance}",
+            f"电源研发中心关联：{auto_relevance}",
             f"简单场景：{example_scenario}",
             f"来源：{learning_source_name}",
         ]
@@ -1970,7 +1976,7 @@ def build_single_post_payload(
         rows.append(row_text(f"今日概念：{learning.get('concept', 'AI Agent')}"))
         rows.append(row_text(f"一句话解释：{learning.get('concept_explanation', '')}"))
         rows.append(row_text(f"为什么重要：{learning.get('why_it_matters', '')}"))
-        rows.append(row_text(f"汽车研发关联：{learning.get('auto_relevance', '')}"))
+        rows.append(row_text(f"电源研发中心关联：{learning.get('auto_relevance', '')}"))
         rows.append(row_text(f"简单场景：{learning.get('example_scenario', '')}"))
         rows.append(row_text(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}"))
         if learning_source_url:
@@ -2031,7 +2037,7 @@ def build_single_text_payload(
         lines.append(f"今日概念：{learning.get('concept', 'AI Agent')}")
         lines.append(f"一句话解释：{learning.get('concept_explanation', '')}")
         lines.append(f"为什么重要：{learning.get('why_it_matters', '')}")
-        lines.append(f"汽车研发关联：{learning.get('auto_relevance', '')}")
+        lines.append(f"电源研发中心关联：{learning.get('auto_relevance', '')}")
         lines.append(f"简单场景：{learning.get('example_scenario', '')}")
         lines.append(f"来源：{learning.get('source_name', '来源')} {learning_source_url}")
         lines.append(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}")

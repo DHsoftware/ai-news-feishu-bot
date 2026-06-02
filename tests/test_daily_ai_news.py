@@ -113,9 +113,9 @@ def llm_report() -> dict[str, object]:
             "source_url": sample_learning_item()["link"],
             "concept": "Agent Instructions",
             "concept_explanation": "Agent Instructions 是给 Agent 的项目级背景、约束和工作规则。",
-            "why_it_matters": "它帮助 Agent 在具体项目中保持一致的工程上下文。",
-            "auto_relevance": "适合表达代码规范、测试要求、安全边界和工具链限制。",
-            "example_scenario": "例如在项目说明中定义哪些目录可改、哪些配置不能触碰。",
+            "why_it_matters": "它帮助 Agent 在具体产品和团队环境中保持一致的工程上下文。",
+            "auto_relevance": "在电源研发中心，可用于描述 OBC/DCDC 项目边界、测试规范、文档结构、设计约束和安全要求。",
+            "example_scenario": "例如为某个 OBC 项目定义 Agent 需优先参考哪些需求文档、测试规范、器件库和问题单。",
             "confidence_note": "基于官方文档摘要整理。",
         },
     }
@@ -247,6 +247,8 @@ class DailyAiNewsTest(unittest.TestCase):
         text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
         for visible in ("为什么重要：", "汽车行业关联：", "简要影响：", "今日概念：", "一句话解释："):
             self.assertIn(visible, text)
+        self.assertIn("电源研发中心关联：", text)
+        self.assertNotIn("汽车研发关联：", text)
         self.assertNotIn("可复制 Prompt：", text)
 
     def test_feishu_renders_when_llm_omits_category(self) -> None:
@@ -375,7 +377,36 @@ class DailyAiNewsTest(unittest.TestCase):
         learning = daily.build_rule_based_codex_learning(item)
         self.assertEqual(learning["concept"], "Tool Calling")
         self.assertIn("Tool Calling", learning["concept_explanation"])
+        self.assertIn("电源研发中心", learning["auto_relevance"])
+        self.assertTrue(any(word in learning["auto_relevance"] for word in ("需求库", "测试平台", "器件库", "仿真工具")))
         self.assertNotIn("example_prompt", learning)
+
+    def test_agent_workflow_power_center_relevance(self) -> None:
+        learning = daily.build_rule_based_codex_learning({**sample_learning_item(), "concept_hint": "Agent Workflow", "tags": ["agent_workflow"]})
+        self.assertIn("电源研发中心", learning["auto_relevance"])
+        self.assertTrue(any(word in learning["auto_relevance"] for word in ("需求分解", "方案设计", "测试验证", "问题闭环")))
+        self.assertIn("OBC", learning["example_scenario"])
+
+    def test_guardrails_power_center_safety_scope(self) -> None:
+        learning = daily.build_rule_based_codex_learning({**sample_learning_item(), "concept_hint": "Guardrails", "tags": ["guardrails"]})
+        text = learning["auto_relevance"] + learning["example_scenario"]
+        self.assertTrue(any(word in text for word in ("安规", "EMC", "热设计", "降额", "参数修改")))
+        self.assertNotIn("轨道编排", text)
+
+    def test_coding_agent_is_embedded_software_auxiliary(self) -> None:
+        learning = daily.build_rule_based_codex_learning({**sample_learning_item(), "concept_hint": "Coding Agent", "tags": ["codex", "coding_agent"]})
+        text = learning["auto_relevance"] + learning["example_scenario"]
+        self.assertIn("嵌入式", text)
+        self.assertTrue(any(word in text for word in ("测试脚本", "标定工具", "日志解析", "自动化报表")))
+        self.assertIn("仍需工程师评审", text)
+
+    def test_concept_learning_feishu_field_names_and_forbidden_text(self) -> None:
+        report = llm_report()
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        self.assertIn("电源研发中心关联：", text)
+        self.assertNotIn("汽车研发关联：", text)
+        self.assertNotIn("可复制 Prompt", text)
+        self.assertNotIn("轨道编排", text)
 
     def test_fallback_contains_codex_learning(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
