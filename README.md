@@ -168,9 +168,10 @@ cp .env.example .env
 rule-based fallback 行为：
 - 只使用 `data/news-candidates/YYYY-MM-DD.json` 的 `curated_items`，最多 5 条。
 - 只使用 `data/learning-candidates/YYYY-MM-DD.json` 的 `curated_items` 中选出的高质量 Codex Agent 学习资源，最多 1 条。
-- 直接复用候选中的标题、摘要、分类、来源和链接，不编造候选中不存在的信息。
+- 直接复用候选中的标题、摘要、主题标签、来源和链接，不编造候选中不存在的信息。
 - 对官方研究、技术报告和白皮书保持保守表述，不夸大为量产落地。
 - 如果候选不足，就显示实际条数，不硬凑。
+- `category`、`topic_tags` 等字段仅用于内部排序、去重和模板影响说明，不在飞书日报正文中展示。
 
 如果目标日期的新闻 candidates JSON 不存在，通常表示本地 `git pull` 没有拉到新的日报候选文件；脚本会静默退出，不调用 LiteLLM，也不推送飞书，避免重复发送旧日报。
 
@@ -178,6 +179,8 @@ rule-based fallback 行为：
 1. 今日摘要
 2. 重要新闻 Top 5
 3. Codex Agent 每日一学
+
+新闻标题展示为自然标题，例如 `1. OpenAI frontier models and Codex are now available on AWS`，不再展示 `[AI编程工具]`、`[AI基础设施]`、`[AI组织提效]`、`[OBC/DCDC]` 等分类前缀。日报正文更接近自然新闻摘要，而不是分类清单。
 
 如果学习资源为空：
 - 第三部分显示“今日未发现高质量 Codex Agent 学习资源。”
@@ -198,6 +201,8 @@ rule-based fallback 行为：
 - `selection_config`：本次筛选配置。
 - `history_dedupe`：历史去重统计。
 - `rejected_stats` / `rejected_samples`：被过滤原因与样例。
+
+`curated_items` 中的 `category`、`topic_tags`、`topic_signature`、`source_family` 等字段用于内部评分、选择、同源限制、同主题去重和最终模板影响说明；飞书日报不会把这些字段作为方括号分类标签展示。
 
 历史去重文件：
 

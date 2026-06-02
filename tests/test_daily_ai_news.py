@@ -175,6 +175,32 @@ class DailyAiNewsTest(unittest.TestCase):
         self.assertIn("重要新闻 Top 5", daily.build_single_text_payload(report, "x.json", False)["content"]["text"])
         self.assertIn("重要新闻 Top 5", daily.build_single_text_payload(fallback, "x.json", False)["content"]["text"])
 
+    def test_feishu_does_not_show_category_when_llm_returns_category(self) -> None:
+        report = llm_report()
+        report["news_top_n"] = 5
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        self.assertIn("重要新闻 Top 5", text)
+        self.assertIn("1. OpenAI Codex expands enterprise coding workflow", text)
+        self.assertNotIn("[AI编程工具]", text)
+        self.assertNotIn("1. [", text)
+
+    def test_feishu_renders_when_llm_omits_category(self) -> None:
+        report = llm_report()
+        for item in report["top_news"]:
+            item.pop("category", None)
+        report["news_top_n"] = 5
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        self.assertIn("重要新闻 Top 5", text)
+        self.assertIn("1. OpenAI Codex expands enterprise coding workflow", text)
+        self.assertNotIn("[AI编程工具]", text)
+        self.assertNotIn("1. [", text)
+
+    def test_collect_rss_internal_category_fields_remain(self) -> None:
+        collect_rss = (ROOT / "scripts" / "collect_rss.py").read_text(encoding="utf-8")
+        self.assertIn("category", collect_rss)
+        self.assertIn("topic_tags", collect_rss)
+        self.assertIn("topic_signature", collect_rss)
+
     def test_fallback_contains_codex_learning(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
         learning = report["codex_learning"]

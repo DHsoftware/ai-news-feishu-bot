@@ -803,12 +803,31 @@ def impact_brief_for_item(item: dict[str, Any]) -> str:
 
 
 def why_important_for_item(item: dict[str, Any]) -> str:
-    category = clean_text(item.get("category", "")) or "AI 技术"
     tags = [clean_text(tag) for tag in item.get("topic_tags", []) if clean_text(tag)]
-    tag_hint = "、".join(tags[:3])
-    if tag_hint:
-        return f"该内容属于{category}方向，并涉及{tag_hint}，可用于观察相关技术路线和工具链变化。"
-    return f"该内容属于{category}方向，可用于观察相关技术路线、生态变化和潜在工程影响。"
+    topic_hint = natural_topic_phrase(item)
+    if tags:
+        return f"该内容涉及{topic_hint}等主题，可用于观察相关技术路线和工具链变化。"
+    return f"该内容涉及{topic_hint}，可用于观察相关技术路线、生态变化和潜在工程影响。"
+
+
+def natural_topic_phrase(item: dict[str, Any]) -> str:
+    tags = tag_texts(item)
+    phrases: list[str] = []
+    if has_any_tag(tags, ("agent", "coding", "codex", "mcp", "ai编程工具")):
+        phrases.append("AI Agent 和研发效率")
+    if has_any_tag(tags, ("组织提效", "workflow", "automation", "governance", "productivity", "工作流")):
+        phrases.append("企业工作流自动化")
+    if has_any_tag(tags, ("obc", "dcdc", "车载电源", "power_supply", "电源电子")):
+        phrases.append("车载电源电子")
+    if has_any_tag(tags, ("power", "sic", "gan", "功率电子", "thermal", "module")):
+        phrases.append("功率电子")
+    if has_any_tag(tags, ("official", "report", "whitepaper", "research", "白皮书", "技术报告", "官方研究")):
+        phrases.append("官方研究与技术报告")
+    if has_any_tag(tags, ("infrastructure", "chip", "gpu", "accelerator", "ai芯片", "ai基础设施")):
+        phrases.append("AI 基础设施和芯片")
+    if has_any_tag(tags, ("自动驾驶", "智能座舱", "autonomous", "cockpit", "adas")):
+        phrases.append("汽车智能化")
+    return "、".join(phrases[:3]) if phrases else "AI 技术进展"
 
 
 def auto_relevance_for_item(item: dict[str, Any]) -> str:
@@ -898,16 +917,16 @@ def build_rule_based_report(
 
     summary_lines = [
         f"今日基于 RSS 候选自动生成模板日报，共筛选出 {len(top_news)} 条重要新闻。",
-        "本次 fallback 不调用任何 LLM，只使用候选标题、摘要、分类、来源和链接生成保守摘要。",
+        "本次 fallback 不调用任何 LLM，只使用候选标题、摘要、主题标签、来源和链接生成保守摘要。",
     ]
     if top_news:
-        categories = []
-        for item in top_news:
-            category = clean_text(item.get("category", ""))
-            if category and category not in categories:
-                categories.append(category)
-        if categories:
-            summary_lines.append(f"覆盖方向包括：{'、'.join(categories[:4])}。")
+        topics = []
+        for item in news_items[:DEFAULT_NEWS_TOP_N]:
+            topic = natural_topic_phrase(item)
+            if topic and topic not in topics:
+                topics.append(topic)
+        if topics:
+            summary_lines.append(f"今日重点关注{'、'.join(topics[:3])}相关进展。")
     else:
         summary_lines.append("今日候选不足，未硬凑新闻条目。")
 
@@ -1389,7 +1408,6 @@ def create_report_json_with_litellm(
   "summary": ["摘要句子1", "摘要句子2", "摘要句子3"],
   "top_news": [
     {{
-      "category": "AI Agent / AI编程工具 / AI组织提效 / AI工作流自动化 / 车载电源电子 / OBC/DCDC / 功率电子 / 官方研究 / 技术报告 / 白皮书 / 全球AI / 中国AI / AI芯片 / 研究论文 / 开源模型 / 中国汽车 / 自动驾驶 / 智能座舱 / 其他",
       "title": "新闻标题",
       "what_happened": "发生了什么",
       "why_important": "为什么重要",
@@ -1437,19 +1455,20 @@ def create_report_json_with_litellm(
 23) 如果来源是官方研究/技术博客/白皮书，但 summary_quality 是 low/empty，只能说明“该资源可能值得关注”，不要写成确定结论。
 24) 不要假装看过完整视频、完整论文或完整白皮书（complete video / full paper / full whitepaper）。
 25) 汽车行业相关判断优先结合系统工程、硬件平台、汽车软件、AI 应用、组织提效、OBC/DCDC 与车载电源方向。
-26) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
+26) `top_news` 不要输出 `category` 字段；日报正文不要出现 `[AI编程工具]`、`[AI基础设施]`、`[AI组织提效]`、`[OBC/DCDC]` 这类方括号分类标签。
+27) 总长度适合单条飞书消息，目标约 {news_max_chars} 字符。
 
 Codex Agent 每日一学约束：
-27) `codex_learning` 只基于给定资源元数据（title、summary、summary_source、summary_quality、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
-28) 如果 summary_quality 是 low，最多生成保守建议，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细技巧。
-29) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
-30) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
-31) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
-32) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
-33) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
-34) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
-35) 如果今日没有 high/medium 摘要质量的高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
-36) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
+28) `codex_learning` 只基于给定资源元数据（title、summary、summary_source、summary_quality、source、source_type、source_quality、is_official_source、link）整理，不能假装看过完整视频、字幕或正文。
+29) 如果 summary_quality 是 low，最多生成保守建议，`confidence_note` 必须说明“仅基于标题/简短摘要整理”。如果 summary_quality 是 empty，不要强行生成详细技巧。
+30) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题/简介整理，未验证完整正文，建议打开原链接查看。”
+31) 不要编造视频演示细节，不要编造文章中的具体步骤，不要生成宏大的组织变革结论。
+32) 只生成一个小而实用的 Codex 使用点；`learning_point` 不超过 80 字，`how_to_apply` 不超过 120 字，`example_prompt` 不超过 160 字。
+33) 如果学习资源涉及 AGENTS.md，必须理解为给 Codex / coding agent 的项目说明文件，适合写项目结构、构建命令、测试命令、代码风格、安全约束、不要提交 .env、本地脚本、禁止修改目录、提交/PR 规范。不要解释成“组织角色职责分配文件”，也不要说它能自动完成组织协作。
+34) `example_prompt` 必须保守、通用，适合本地 Codex CLI、Codex Web 或 GitHub/Codex 云任务；优先要求先读 AGENTS.md/README/相关脚本、先列计划、不要修改 .env、不要打印密钥、完成后给出 diff 摘要和测试步骤。
+35) 避免要求自动创建 feature 分支、自动发 PR、自动进入 review 循环、自动完成团队角色分配，除非候选资源明确支持。
+36) 如果今日没有 high/medium 摘要质量的高质量学习资源候选，`codex_learning` 输出“今日未发现高质量 Codex Agent 学习资源。”的保守占位，不得编造具体技巧。
+37) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
@@ -1636,7 +1655,7 @@ def build_single_interactive_card(
             elements,
             "\n".join(
                 [
-                    f"**{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}**",
+                    f"**{idx}. {news.get('title', '未命名新闻')}**",
                     f"发生了什么：{news.get('what_happened', '仍需观察。')}",
                     f"为什么重要：{news.get('why_important', '仍需观察。')}",
                     f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}",
@@ -1722,7 +1741,7 @@ def build_single_post_payload(
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
-        rows.append(row_text(f"{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}"))
+        rows.append(row_text(f"{idx}. {news.get('title', '未命名新闻')}"))
         rows.append(row_text(f"发生了什么：{news.get('what_happened', '仍需观察。')}"))
         rows.append(row_text(f"为什么重要：{news.get('why_important', '仍需观察。')}"))
         rows.append(row_text(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}"))
@@ -1785,7 +1804,7 @@ def build_single_text_payload(
     for idx, news in enumerate(top_news, start=1):
         if not isinstance(news, dict):
             continue
-        lines.append(f"{idx}. [{news.get('category', '其他')}] {news.get('title', '未命名新闻')}")
+        lines.append(f"{idx}. {news.get('title', '未命名新闻')}")
         lines.append(f"发生了什么：{news.get('what_happened', '仍需观察。')}")
         lines.append(f"为什么重要：{news.get('why_important', '仍需观察。')}")
         lines.append(f"汽车行业关联：{news.get('auto_relevance', RELATION_INDIRECT)}")
