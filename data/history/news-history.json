@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T09:35:55.968947+08:00",
+  "updated_at": "2026-06-02T11:41:39.857886+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1841,7 +1841,7 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1875,7 +1875,7 @@
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
+      "last_seen_date": "2026-06-01",
       "canonical_key": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
       "normalized_title": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
       "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlQ1U0tXSTJTRlZHNzlXRnFVcVk3ZEVkMXBCNWpESEZ4anRfWkR0akt0QXpEWDlIeDVCa19NQjEtcEFBMWVhM3p4blJKc3ZKenBYRlhLcEJXd0ZwdG9zazZveTM3RWs1V0tKNWhrSkl2Q05BOENXSzBBT2ptU1ZmSExCd3pDaWc?oc=5",
@@ -1896,7 +1896,7 @@
         "opensource",
         "workflow_automation"
       ],
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1990,7 +1990,7 @@
         "company_research",
         "official_report"
       ],
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-01",
@@ -2014,7 +2014,7 @@
         "technical_blog",
         "workflow_automation"
       ],
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-01",
