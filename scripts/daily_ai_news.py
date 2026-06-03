@@ -45,6 +45,23 @@ DEFAULT_MAX_ITEMS_FOR_LLM = 5
 
 DEFAULT_LEARNING_NOTE = "基于标题和摘要整理，建议打开原链接查看完整内容。"
 DEFAULT_LEARNING_EMPTY_TEXT = "今日未发现高质量 Agent 概念学习资源。"
+LEARNING_FIELD_LABELS = (
+    "电源研发中心关联",
+    "汽车研发关联",
+    "简单场景",
+    "为什么重要",
+    "一句话解释",
+    "今日概念",
+    "备注",
+)
+LEARNING_FIELD_KEYS = (
+    "concept",
+    "concept_explanation",
+    "why_it_matters",
+    "auto_relevance",
+    "example_scenario",
+    "confidence_note",
+)
 
 RELATION_DIRECT = "直接影响"
 RELATION_INDIRECT = "间接影响"
@@ -303,6 +320,19 @@ def clean_text(value: Any) -> str:
     text = text.replace("\r", "\n")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def strip_learning_field_labels(text: Any) -> str:
+    cleaned = clean_text(text)
+    if not cleaned:
+        return ""
+    label_pattern = "|".join(re.escape(label) for label in LEARNING_FIELD_LABELS)
+    return re.sub(rf"^\s*(?:{label_pattern})\s*[:：]\s*", "", cleaned).strip()
+
+
+def cleaned_learning_value(learning: dict[str, Any], key: str, default: str = "") -> str:
+    value = learning.get(key, default)
+    return strip_learning_field_labels(value) if key in LEARNING_FIELD_KEYS else clean_text(value)
 
 
 def truncate_text(text: str, max_len: int) -> str:
@@ -825,15 +855,15 @@ def normalize_codex_learning(
         resource_type = LEARNING_TYPE_NA
 
     concept_payload = concept_payload_for_item(selected_item)
-    concept = clean_text(raw.get("concept", "")) or concept_payload["concept"]
+    concept = strip_learning_field_labels(raw.get("concept", "")) or concept_payload["concept"]
     if concept not in CONCEPT_EXPLANATIONS:
         concept = concept_payload["concept"]
     defaults = CONCEPT_EXPLANATIONS.get(concept, CONCEPT_EXPLANATIONS["AI Agent"])
-    concept_explanation = clean_text(raw.get("concept_explanation", "")) or defaults["concept_explanation"]
-    why_it_matters = clean_text(raw.get("why_it_matters", "")) or defaults["why_it_matters"]
-    auto_relevance = clean_text(raw.get("auto_relevance", "")) or defaults["auto_relevance"]
-    example_scenario = clean_text(raw.get("example_scenario", "")) or defaults["example_scenario"]
-    confidence_note = clean_text(raw.get("confidence_note", ""))
+    concept_explanation = strip_learning_field_labels(raw.get("concept_explanation", "")) or defaults["concept_explanation"]
+    why_it_matters = strip_learning_field_labels(raw.get("why_it_matters", "")) or defaults["why_it_matters"]
+    auto_relevance = strip_learning_field_labels(raw.get("auto_relevance", "")) or defaults["auto_relevance"]
+    example_scenario = strip_learning_field_labels(raw.get("example_scenario", "")) or defaults["example_scenario"]
+    confidence_note = strip_learning_field_labels(raw.get("confidence_note", ""))
 
     source_quality = clean_text(selected_item.get("source_quality", "")) if selected_item else ""
     summary_quality = clean_text(selected_item.get("summary_quality", "")) if selected_item else ""
@@ -848,19 +878,19 @@ def normalize_codex_learning(
             confidence_note = "基于标题和摘要整理，建议打开原链接查看完整内容。"
         else:
             confidence_note = DEFAULT_LEARNING_NOTE
-    confidence_note = ensure_metadata_note(confidence_note, has_resource=True)
+    confidence_note = strip_learning_field_labels(ensure_metadata_note(confidence_note, has_resource=True))
 
     return {
         "resource_title": truncate_text(resource_title, 140),
         "resource_type": truncate_text(resource_type, 30),
         "source_name": truncate_text(source_name or "来源", 60),
         "source_url": source_url,
-        "concept": truncate_text(concept, 40),
-        "concept_explanation": truncate_text(concept_explanation, 80),
-        "why_it_matters": truncate_text(why_it_matters, 140),
-        "auto_relevance": truncate_text(auto_relevance, 140),
-        "example_scenario": truncate_text(example_scenario, 140),
-        "confidence_note": truncate_text(confidence_note, 140),
+        "concept": truncate_text(strip_learning_field_labels(concept), 40),
+        "concept_explanation": truncate_text(strip_learning_field_labels(concept_explanation), 80),
+        "why_it_matters": truncate_text(strip_learning_field_labels(why_it_matters), 140),
+        "auto_relevance": truncate_text(strip_learning_field_labels(auto_relevance), 140),
+        "example_scenario": truncate_text(strip_learning_field_labels(example_scenario), 140),
+        "confidence_note": truncate_text(strip_learning_field_labels(confidence_note), 140),
     }
 
 
@@ -902,10 +932,10 @@ def concept_payload_for_item(item: dict[str, Any] | None) -> dict[str, str]:
     details = CONCEPT_EXPLANATIONS.get(concept, CONCEPT_EXPLANATIONS["AI Agent"])
     return {
         "concept": concept,
-        "concept_explanation": details["concept_explanation"],
-        "why_it_matters": details["why_it_matters"],
-        "auto_relevance": details["auto_relevance"],
-        "example_scenario": details["example_scenario"],
+        "concept_explanation": strip_learning_field_labels(details["concept_explanation"]),
+        "why_it_matters": strip_learning_field_labels(details["why_it_matters"]),
+        "auto_relevance": strip_learning_field_labels(details["auto_relevance"]),
+        "example_scenario": strip_learning_field_labels(details["example_scenario"]),
     }
 
 
@@ -1083,9 +1113,15 @@ def build_rule_based_codex_learning(learning_item: dict[str, Any] | None) -> dic
         "resource_type": normalize_learning_type(learning_item.get("source_type", ""), learning_item),
         "source_name": truncate_text(safe_learning_source_name(learning_item), 60),
         "source_url": link,
-        "confidence_note": truncate_text(confidence_note, 140),
+        "confidence_note": truncate_text(strip_learning_field_labels(confidence_note), 140),
     }
     result.update(concept_payload)
+    result["concept"] = truncate_text(strip_learning_field_labels(result.get("concept", "")), 40)
+    result["concept_explanation"] = truncate_text(strip_learning_field_labels(result.get("concept_explanation", "")), 80)
+    result["why_it_matters"] = truncate_text(strip_learning_field_labels(result.get("why_it_matters", "")), 140)
+    result["auto_relevance"] = truncate_text(strip_learning_field_labels(result.get("auto_relevance", "")), 140)
+    result["example_scenario"] = truncate_text(strip_learning_field_labels(result.get("example_scenario", "")), 140)
+    result["confidence_note"] = truncate_text(strip_learning_field_labels(result.get("confidence_note", "")), 140)
     return result
 
 
@@ -1457,13 +1493,15 @@ def apply_learning_field_limits(
     learning["resource_title"] = truncate_text(learning.get("resource_title", ""), 140)
     learning["resource_type"] = truncate_text(learning.get("resource_type", LEARNING_TYPE_NA), 30)
     learning["source_name"] = truncate_text(learning.get("source_name", "来源"), 60)
-    learning["concept"] = truncate_text(learning.get("concept", "AI Agent"), 40)
-    learning["concept_explanation"] = truncate_text(learning.get("concept_explanation", ""), 80)
-    learning["why_it_matters"] = truncate_text(learning.get("why_it_matters", ""), 140)
-    learning["auto_relevance"] = truncate_text(learning.get("auto_relevance", ""), 140)
-    learning["example_scenario"] = truncate_text(learning.get("example_scenario", ""), 140)
+    learning["concept"] = truncate_text(strip_learning_field_labels(learning.get("concept", "AI Agent")), 40)
+    learning["concept_explanation"] = truncate_text(strip_learning_field_labels(learning.get("concept_explanation", "")), 80)
+    learning["why_it_matters"] = truncate_text(strip_learning_field_labels(learning.get("why_it_matters", "")), 140)
+    learning["auto_relevance"] = truncate_text(strip_learning_field_labels(learning.get("auto_relevance", "")), 140)
+    learning["example_scenario"] = truncate_text(strip_learning_field_labels(learning.get("example_scenario", "")), 140)
     learning["confidence_note"] = truncate_text(
-        ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", "")))),
+        strip_learning_field_labels(
+            ensure_metadata_note(learning.get("confidence_note", ""), has_resource=bool(clean_text(learning.get("source_url", ""))))
+        ),
         note_max,
     )
 
@@ -1673,6 +1711,7 @@ Agent 概念每日一学约束：
 41) 如果资源不是官方来源，或 summary 很短，`confidence_note` 必须写“基于标题和摘要整理，建议打开原链接查看完整内容。”
 42) 如果是 official_doc 且 summary_quality=high，`confidence_note` 可写“基于官方文档摘要整理。”
 43) 如果存在学习资源候选，`codex_learning.source_url` 必须来自候选资源链接；`source_name` 不要写成 Google News，尽量使用原始来源名称。
+44) `codex_learning` 每个字段值只写内容本身，不要包含字段名或前缀；不要写“电源研发中心关联：...”“一句话解释：...”“为什么重要：...”“简单场景：...”“今日概念：...”“备注：...”。
 
 候选池概况：
 - 中国候选条数：{china_candidate_count}
@@ -1889,12 +1928,12 @@ def build_single_interactive_card(
     learning_type = clean_text(learning.get("resource_type", LEARNING_TYPE_NA))
     learning_source_name = clean_text(learning.get("source_name", "来源"))
     learning_source_url = clean_text(learning.get("source_url", ""))
-    concept = clean_text(learning.get("concept", "AI Agent"))
-    concept_explanation = clean_text(learning.get("concept_explanation", ""))
-    why_it_matters = clean_text(learning.get("why_it_matters", ""))
-    auto_relevance = clean_text(learning.get("auto_relevance", ""))
-    example_scenario = clean_text(learning.get("example_scenario", ""))
-    confidence_note = clean_text(learning.get("confidence_note", DEFAULT_LEARNING_NOTE))
+    concept = cleaned_learning_value(learning, "concept", "AI Agent")
+    concept_explanation = cleaned_learning_value(learning, "concept_explanation")
+    why_it_matters = cleaned_learning_value(learning, "why_it_matters")
+    auto_relevance = cleaned_learning_value(learning, "auto_relevance")
+    example_scenario = cleaned_learning_value(learning, "example_scenario")
+    confidence_note = cleaned_learning_value(learning, "confidence_note", DEFAULT_LEARNING_NOTE)
 
     if learning_title == DEFAULT_LEARNING_EMPTY_TEXT and not learning_source_url:
         add_markdown(elements, DEFAULT_LEARNING_EMPTY_TEXT)
@@ -1973,12 +2012,12 @@ def build_single_post_payload(
     else:
         rows.append(row_text(f"今日资源：{learning_title}"))
         rows.append(row_text(f"类型：{learning_type}"))
-        rows.append(row_text(f"今日概念：{learning.get('concept', 'AI Agent')}"))
-        rows.append(row_text(f"一句话解释：{learning.get('concept_explanation', '')}"))
-        rows.append(row_text(f"为什么重要：{learning.get('why_it_matters', '')}"))
-        rows.append(row_text(f"电源研发中心关联：{learning.get('auto_relevance', '')}"))
-        rows.append(row_text(f"简单场景：{learning.get('example_scenario', '')}"))
-        rows.append(row_text(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}"))
+        rows.append(row_text(f"今日概念：{cleaned_learning_value(learning, 'concept', 'AI Agent')}"))
+        rows.append(row_text(f"一句话解释：{cleaned_learning_value(learning, 'concept_explanation')}"))
+        rows.append(row_text(f"为什么重要：{cleaned_learning_value(learning, 'why_it_matters')}"))
+        rows.append(row_text(f"电源研发中心关联：{cleaned_learning_value(learning, 'auto_relevance')}"))
+        rows.append(row_text(f"简单场景：{cleaned_learning_value(learning, 'example_scenario')}"))
+        rows.append(row_text(f"备注：{cleaned_learning_value(learning, 'confidence_note', DEFAULT_LEARNING_NOTE)}"))
         if learning_source_url:
             rows.append(row_link("来源：", learning_source_name or "打开链接", learning_source_url))
 
@@ -2034,13 +2073,13 @@ def build_single_text_payload(
     else:
         lines.append(f"今日资源：{learning_title}")
         lines.append(f"类型：{learning.get('resource_type', LEARNING_TYPE_NA)}")
-        lines.append(f"今日概念：{learning.get('concept', 'AI Agent')}")
-        lines.append(f"一句话解释：{learning.get('concept_explanation', '')}")
-        lines.append(f"为什么重要：{learning.get('why_it_matters', '')}")
-        lines.append(f"电源研发中心关联：{learning.get('auto_relevance', '')}")
-        lines.append(f"简单场景：{learning.get('example_scenario', '')}")
+        lines.append(f"今日概念：{cleaned_learning_value(learning, 'concept', 'AI Agent')}")
+        lines.append(f"一句话解释：{cleaned_learning_value(learning, 'concept_explanation')}")
+        lines.append(f"为什么重要：{cleaned_learning_value(learning, 'why_it_matters')}")
+        lines.append(f"电源研发中心关联：{cleaned_learning_value(learning, 'auto_relevance')}")
+        lines.append(f"简单场景：{cleaned_learning_value(learning, 'example_scenario')}")
         lines.append(f"来源：{learning.get('source_name', '来源')} {learning_source_url}")
-        lines.append(f"备注：{learning.get('confidence_note', DEFAULT_LEARNING_NOTE)}")
+        lines.append(f"备注：{cleaned_learning_value(learning, 'confidence_note', DEFAULT_LEARNING_NOTE)}")
 
     note_text = build_data_source_note(report)
     lines.append(note_text)

@@ -408,6 +408,66 @@ class DailyAiNewsTest(unittest.TestCase):
         self.assertNotIn("可复制 Prompt", text)
         self.assertNotIn("轨道编排", text)
 
+    def test_strip_learning_field_labels_handles_chinese_and_english_colons(self) -> None:
+        self.assertEqual(
+            daily.strip_learning_field_labels("电源研发中心关联：支持 OBC/DCDC 测试数据自动采集。"),
+            "支持 OBC/DCDC 测试数据自动采集。",
+        )
+        self.assertEqual(
+            daily.strip_learning_field_labels("一句话解释: Agent 能围绕目标推进多步骤任务。"),
+            "Agent 能围绕目标推进多步骤任务。",
+        )
+
+    def test_litellm_learning_fields_are_cleaned_before_storage(self) -> None:
+        report = daily.normalize_report_payload(
+            raw={
+                **llm_report(),
+                "codex_learning": {
+                    **llm_report()["codex_learning"],
+                    "concept": "今日概念：AI Agent",
+                    "concept_explanation": "一句话解释：Agent 能围绕目标推进多步骤任务。",
+                    "why_it_matters": "为什么重要：它让 AI 从问答走向工程协作。",
+                    "auto_relevance": "电源研发中心关联：支持 OBC/DCDC 测试数据自动采集。",
+                    "example_scenario": "简单场景：自动汇总台架波形并生成故障诊断报告。",
+                    "confidence_note": "备注：基于官方文档摘要整理。",
+                },
+            },
+            report_date="2026-06-01",
+            news_top_n=5,
+            candidate_items=sample_news_items(),
+            selected_learning_item=sample_learning_item(),
+            learning_candidate_items=[sample_learning_item()],
+        )
+        learning = report["codex_learning"]
+        self.assertEqual(learning["concept"], "AI Agent")
+        self.assertEqual(learning["concept_explanation"], "Agent 能围绕目标推进多步骤任务。")
+        self.assertEqual(learning["auto_relevance"], "支持 OBC/DCDC 测试数据自动采集。")
+        self.assertEqual(learning["confidence_note"], "基于官方文档摘要整理。")
+
+    def test_fallback_learning_fields_are_cleaned(self) -> None:
+        labeled_payload = {
+            "concept": "今日概念：AI Agent",
+            "concept_explanation": "一句话解释：AI Agent 是能推进任务的系统。",
+            "why_it_matters": "为什么重要：它能连接工具和工程数据。",
+            "auto_relevance": "电源研发中心关联：支持器件参数查询和台架控制脚本生成。",
+            "example_scenario": "简单场景：生成测试报告初稿。",
+        }
+        with patch.object(daily, "concept_payload_for_item", return_value=labeled_payload):
+            learning = daily.build_rule_based_codex_learning(sample_learning_item())
+        self.assertEqual(learning["concept"], "AI Agent")
+        self.assertEqual(learning["concept_explanation"], "AI Agent 是能推进任务的系统。")
+        self.assertEqual(learning["auto_relevance"], "支持器件参数查询和台架控制脚本生成。")
+
+    def test_feishu_learning_label_appears_once_when_value_has_label(self) -> None:
+        report = llm_report()
+        report["codex_learning"]["concept_explanation"] = "一句话解释：Agent 能围绕目标推进多步骤任务。"
+        report["codex_learning"]["auto_relevance"] = "电源研发中心关联：支持 OBC/DCDC 测试数据自动采集。"
+        text = daily.build_single_text_payload(report, "x.json", False)["content"]["text"]
+        self.assertEqual(text.count("电源研发中心关联："), 1)
+        self.assertIn("电源研发中心关联：支持 OBC/DCDC 测试数据自动采集。", text)
+        self.assertIn("一句话解释：Agent 能围绕目标推进多步骤任务。", text)
+        self.assertNotIn("一句话解释：一句话解释：", text)
+
     def test_fallback_contains_codex_learning(self) -> None:
         report = daily.build_rule_based_report(sample_news_items(), sample_learning_item(), "2026-06-01")
         learning = report["codex_learning"]
