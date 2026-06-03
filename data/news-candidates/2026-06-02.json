@@ -1,6 +1,6 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-03T07:09:05.695349+08:00",
+  "generated_at": "2026-06-03T08:01:03.553817+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 212,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 140,
-    "history_size_after": 143,
-    "history_duplicate_count": 4
+    "history_size_before": 143,
+    "history_size_after": 144,
+    "history_duplicate_count": 5
   },
-  "raw_item_count": 4729,
-  "deduped_item_count": 3836,
-  "filtered_item_count": 553,
+  "raw_item_count": 4777,
+  "deduped_item_count": 3874,
+  "filtered_item_count": 580,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -148,13 +148,13 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "科研自动化的里程碑：Nature正刊发布TheAIScientist或许将改变AI科研新方式！ - thepaper.cn",
-      "summary": "科研自动化的里程碑：Nature正刊发布TheAIScientist或许将改变AI科研新方式！ thepaper.cn",
+      "title": "【微软build大会 连发七模型：首款旗舰推理叫板Anthropic，打造“思考+编程”智能体闭环】微软称，MAI-Thinking-1在关键的软件工程基准测试中与领先模型水平相当，在盲测对比评估中，人类偏好方面与Anthropic Claude Sonnet 4.6不相上下。除了推理模型... - 搜狐网",
+      "summary": "【微软build大会 连发七模型：首款旗舰推理叫板Anthropic，打造“思考+编程”智能体闭环】微软称，MAI-Thinking-1在关键的软件工程基准测试中与领先模型水平相当，在盲测对比评估中，人类偏好方面与Anthropic Claude Sonnet 4.6不相上下。除了推理模型... 搜狐网",
       "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-06-02T17:54:00+08:00",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9US0c0M0VVcFRSWUh1RkhDallJM0NjQ296QVNVbjNjdUhDOFIxVnd6M2xUOURoZWwtd1BIeEpZUWQ0ZGg0YncwQWpMcGRCdTdZNktncWtVNU52cjVCZ2RIdQ?oc=5",
+      "summary_quality": "medium",
+      "published_at": "2026-06-03T07:20:20+08:00",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTJ4b3hkcFVZTmVUNlZES0VxN0wxRC1LcXhTb0I1R2FqZXV3SDdXR3B0T1F6UkREbDg0OGdsV21hUF93MGZrLXBwQ0ZlNkZkY2dWT191M1BwdW5SOENDdTZiR0pzV1o0bmZ4VmhlYlJORUFXZVBiS0dwT1JnTkdSWEpiY3VXcGQ1?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -170,15 +170,15 @@
         "agent",
         "agentic_ai",
         "ai_agent",
+        "benchmark",
         "coding",
-        "coding_agent",
-        "research"
+        "coding_agent"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "科研自动化的里程碑 nature正刊发布theaiscientist或许将改变ai科研新方式",
-      "canonical_key": "科研自动化的里程碑 nature正刊发布theaiscientist或许将改变ai科研新方式",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9US0c0M0VVcFRSWUh1RkhDallJM0NjQ296QVNVbjNjdUhDOFIxVnd6M2xUOURoZWwtd1BIeEpZUWQ0ZGg0YncwQWpMcGRCdTdZNktncWtVNU52cjVCZ2RIdQ?oc=5",
-      "score": 73,
+      "dedupe_key": "微软build大会 连发七模型 首款旗舰推理叫板anthropic 打造 思考 编程 智能体闭环 微软称 mai thinking 1在关键的软件工程基准测试中与领先模型水平相当 在盲测对比评估中 人类偏好方面与anthropic claude sonnet 4 6不相上下 除了推理模型",
+      "canonical_key": "微软build大会 连发七模型 首款旗舰推理叫板anthropic 打造 思考 编程 智能体闭环 微软称 mai thinking 1在关键的软件工程基准测试中与领先模型水平相当 在盲测对比评估中 人类偏好方面与anthropic claude sonnet 4 6不相上下 除了推理模型",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTJ4b3hkcFVZTmVUNlZES0VxN0wxRC1LcXhTb0I1R2FqZXV3SDdXR3B0T1F6UkREbDg0OGdsV21hUF93MGZrLXBwQ0ZlNkZkY2dWT191M1BwdW5SOENDdTZiR0pzV1o0bmZ4VmhlYlJORUFXZVBiS0dwT1JnTkdSWEpiY3VXcGQ1?oc=5",
+      "score": 74,
       "selection_reason": "china_quota"
     },
     {
@@ -217,13 +217,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 893,
-    "history_duplicate": 4,
-    "weak_relevance": 218,
+    "duplicate": 903,
+    "history_duplicate": 5,
+    "weak_relevance": 214,
     "same_source_limit": 0,
-    "china_limit": 157,
+    "china_limit": 159,
     "auto_china_limit": 0,
-    "old_news": 3065,
+    "old_news": 3080,
     "same_entity_limit": 3,
     "similar_selected": 0,
     "company_research_limit": 23,

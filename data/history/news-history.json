@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T07:09:05.695349+08:00",
+  "updated_at": "2026-06-03T08:01:03.553817+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1841,7 +1841,7 @@
       "region": "global",
       "source_group": "company_research",
       "source_type": "technical_blog",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "first_seen_date": "2026-05-31",
@@ -1856,7 +1856,7 @@
       "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "first_seen_date": "2026-05-31",
@@ -2065,7 +2065,7 @@
         "official_report",
         "workflow_automation"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-02",
@@ -2110,6 +2110,30 @@
         "agentic_ai",
         "ai_agent",
         "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-02",
+      "last_seen_date": "2026-06-02",
+      "canonical_key": "微软build大会 连发七模型 首款旗舰推理叫板anthropic 打造 思考 编程 智能体闭环 微软称 mai thinking 1在关键的软件工程基准测试中与领先模型水平相当 在盲测对比评估中 人类偏好方面与anthropic claude sonnet 4 6不相上下 除了推理模型",
+      "normalized_title": "微软build大会 连发七模型 首款旗舰推理叫板anthropic 打造 思考 编程 智能体闭环 微软称 mai thinking 1在关键的软件工程基准测试中与领先模型水平相当 在盲测对比评估中 人类偏好方面与anthropic claude sonnet 4 6不相上下 除了推理模型",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTJ4b3hkcFVZTmVUNlZES0VxN0wxRC1LcXhTb0I1R2FqZXV3SDdXR3B0T1F6UkREbDg0OGdsV21hUF93MGZrLXBwQ0ZlNkZkY2dWT191M1BwdW5SOENDdTZiR0pzV1o0bmZ4VmhlYlJORUFXZVBiS0dwT1JnTkdSWEpiY3VXcGQ1?oc=5",
+      "title": "【微软build大会 连发七模型：首款旗舰推理叫板Anthropic，打造“思考+编程”智能体闭环】微软称，MAI-Thinking-1在关键的软件工程基准测试中与领先模型水平相当，在盲测对比评估中，人类偏好方面与Anthropic Claude Sonnet 4.6不相上下。除了推理模型... - 搜狐网",
+      "summary": "【微软build大会 连发七模型：首款旗舰推理叫板Anthropic，打造“思考+编程”智能体闭环】微软称，MAI-Thinking-1在关键的软件工程基准测试中与领先模型水平相当，在盲测对比评估中，人类偏好方面与Anthropic Claude Sonnet 4.6不相上下。除了推理模型... 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTJ4b3hkcFVZTmVUNlZES0VxN0wxRC1LcXhTb0I1R2FqZXV3SDdXR3B0T1F6UkREbDg0OGdsV21hUF93MGZrLXBwQ0ZlNkZkY2dWT191M1BwdW5SOENDdTZiR0pzV1o0bmZ4VmhlYlJORUFXZVBiS0dwT1JnTkdSWEpiY3VXcGQ1?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
         "coding",
         "coding_agent"
       ],
