@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T06:46:04.875129+08:00",
+  "updated_at": "2026-06-05T07:35:23.934529+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2308,7 +2308,7 @@
         "company_research",
         "official_report"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-04",
@@ -2330,7 +2330,7 @@
         "org_productivity",
         "workflow_automation"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-04",
@@ -2352,7 +2352,7 @@
         "power_electronics",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-04",
@@ -2397,6 +2397,55 @@
         "ai_agent",
         "coding",
         "coding_agent"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-04",
+      "last_seen_date": "2026-06-04",
+      "canonical_key": "工业软件领导者借助 nvidia nemoclaw 构建安全 自主的 ai 工程师",
+      "normalized_title": "工业软件领导者借助 nvidia nemoclaw 构建安全 自主的 ai 工程师",
+      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTRGRkNPZWc0MzhNMWtCeGRMV29KOWRnc3VOUGdFcTNJN1FBWXEtcFZPQ0JhVEtjc25GOGt1ZDk3N0xTNzlfODFUOTJBRDJWODhqUmpnTmpDMV9jOTByempNQm9RZHBDckRHWnBSaGZmVWFCc0Q5X3FpVmtNc0xhOFZnaGp6STM0YVVTbHNWVVJLZGZtVHNoY0c4cEJLdw?oc=5",
+      "title": "工业软件领导者借助 NVIDIA NemoClaw 构建安全、自主的 AI 工程师 - NVIDIA",
+      "summary": "工业软件领导者借助 NVIDIA NemoClaw 构建安全、自主的 AI 工程师 NVIDIA",
+      "source": "NVIDIA",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTRGRkNPZWc0MzhNMWtCeGRMV29KOWRnc3VOUGdFcTNJN1FBWXEtcFZPQ0JhVEtjc25GOGt1ZDk3N0xTNzlfODFUOTJBRDJWODhqUmpnTmpDMV9jOTByempNQm9RZHBDckRHWnBSaGZmVWFCc0Q5X3FpVmtNc0xhOFZnaGp6STM0YVVTbHNWVVJLZGZtVHNoY0c4cEJLdw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-04",
+      "last_seen_date": "2026-06-04",
+      "canonical_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
+      "normalized_title": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinwRBVV95cUxPbGJkMjNDS2FoZWNwUWNtNlBFdWVNNkpuRnJPSDYzTzloUTNPZDFUQXJlMFZCMDlOel9EQ3hSNm85SmtxdXhBX09wRl9aRzZLT2dPamRaTGdrUWxvRGhkRDNQTE9wT2pmb1JLbU9xdEJTMDZGUkFIeTY2alVpUjBCY1BJRlV0QTNXdGFkWTZ1eEo5ZVZlQ05PNVdEZzA2LUZxTUVwNThtVTVNbmtzUVRwM1RGM1dESFYxcFhHcGtlZU5jZV9hNzViZWdtaTVYRHhtaThaVm9ITVRJaHEzNVV2NGhmRU9wUVEyMHg5cGtXMGhjNFIzcF9pSzZra0w2WGhMaDgxbDhvNDFBbmwyMUdsaGJ2Wm5ma05wYWV4a0RYdEV1X3JIbXFEaXZBWlAzYzZGQXctVmtsSm0zc0hsLXZGeERXOEJRV1doOVEzOUV5SjM1Z1JWWloySi1iNExiVzJnclk3UWxGNWdwOEh5ZkRPSTFmV3I4RWtNZ0NOLXgzQmx2azh0cjVHRjlqVEpPaVhabzZhQXh0NF9HVXlKT1pwMFVxZkVDSmY4OUNhYkJuNTU1RWZxRFhMZTNIeVNubTJmUEVUclY0YWdmWHBrUkgwdG81TXF4cUZzSkNEU09ZUXZHNC1rXzNKTDJtMlJobXdRZHVWYzhsWDZ2bWFmM0NQeGVEcTBZV0ZRd1Q5N2oxTktTYTFlTHZLb1BrdjdNRVE?oc=5",
+      "title": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 - 新浪财经",
+      "summary": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMinwRBVV95cUxPbGJkMjNDS2FoZWNwUWNtNlBFdWVNNkpuRnJPSDYzTzloUTNPZDFUQXJlMFZCMDlOel9EQ3hSNm85SmtxdXhBX09wRl9aRzZLT2dPamRaTGdrUWxvRGhkRDNQTE9wT2pmb1JLbU9xdEJTMDZGUkFIeTY2alVpUjBCY1BJRlV0QTNXdGFkWTZ1eEo5ZVZlQ05PNVdEZzA2LUZxTUVwNThtVTVNbmtzUVRwM1RGM1dESFYxcFhHcGtlZU5jZV9hNzViZWdtaTVYRHhtaThaVm9ITVRJaHEzNVV2NGhmRU9wUVEyMHg5cGtXMGhjNFIzcF9pSzZra0w2WGhMaDgxbDhvNDFBbmwyMUdsaGJ2Wm5ma05wYWV4a0RYdEV1X3JIbXFEaXZBWlAzYzZGQXctVmtsSm0zc0hsLXZGeERXOEJRV1doOVEzOUV5SjM1Z1JWWloySi1iNExiVzJnclk3UWxGNWdwOEh5ZkRPSTFmV3I4RWtNZ0NOLXgzQmx2azh0cjVHRjlqVEpPaVhabzZhQXh0NF9HVXlKT1pwMFVxZkVDSmY4OUNhYkJuNTU1RWZxRFhMZTNIeVNubTJmUEVUclY0YWdmWHBrUkgwdG81TXF4cUZzSkNEU09ZUXZHNC1rXzNKTDJtMlJobXdRZHVWYzhsWDZ2bWFmM0NQeGVEcTBZV0ZRd1Q5N2oxTktTYTFlTHZLb1BrdjdNRVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent",
+        "opensource"
       ],
       "seen_count": 1
     }

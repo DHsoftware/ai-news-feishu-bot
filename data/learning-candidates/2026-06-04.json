@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-05T06:46:04.875129+08:00",
+  "generated_at": "2026-06-05T07:35:23.934529+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 52,
+    "history_size_before": 53,
     "history_size_after": 53,
     "history_duplicate_count": 8
   },
@@ -45,7 +45,7 @@
         "reusable_capabilities",
         "workflow"
       ],
-      "published_at": "2026-06-05T06:46:04.875129+08:00",
+      "published_at": "2026-06-05T07:35:23.934529+08:00",
       "language": "en",
       "region": "global",
       "source_group": "official_agent_concept",
