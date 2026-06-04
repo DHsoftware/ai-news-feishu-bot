@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T07:59:19.995796+08:00",
+  "updated_at": "2026-06-05T06:46:04.875129+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -750,6 +750,25 @@
       "language": "en",
       "region": "global",
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-04",
+      "last_seen_date": "2026-06-04",
+      "canonical_key": "agent skills",
+      "normalized_title": "agent skills",
+      "normalized_link": "https://developers.openai.com/codex/skills",
+      "title": "Agent Skills - Codex",
+      "summary": "OpenAI Codex guide about reusable agent skills and structured capabilities for coding workflows.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/skills",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Agent Workflow",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "seen_count": 1
     }
   ]
 }
