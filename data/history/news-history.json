@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T07:14:19.801106+08:00",
+  "updated_at": "2026-06-04T07:59:19.995796+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2164,7 +2164,7 @@
         "robotics",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-03",
@@ -2186,7 +2186,7 @@
         "org_productivity",
         "workflow_automation"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-03",
@@ -2210,7 +2210,7 @@
         "simulation_optimization",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-03",
@@ -2234,7 +2234,7 @@
         "coding",
         "coding_agent"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-03",
@@ -2257,6 +2257,30 @@
         "coding",
         "coding_agent",
         "opensource"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-03",
+      "last_seen_date": "2026-06-03",
+      "canonical_key": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
+      "normalized_title": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
+      "title": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 - 新浪财经",
+      "summary": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
       ],
       "seen_count": 1
     }

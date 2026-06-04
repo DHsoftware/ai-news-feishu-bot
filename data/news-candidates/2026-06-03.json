@@ -1,15 +1,15 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-04T07:14:19.801106+08:00",
+  "generated_at": "2026-06-04T07:59:19.995796+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 212,
-    "success_count": 209,
-    "failed_count": 3,
+    "success_count": 210,
+    "failed_count": 2,
     "global_source_count": 16,
     "global_success_count": 15,
     "china_source_count": 34,
-    "china_success_count": 194
+    "china_success_count": 195
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 144,
-    "history_size_after": 149,
+    "history_size_before": 149,
+    "history_size_after": 150,
     "history_duplicate_count": 4
   },
-  "raw_item_count": 4755,
-  "deduped_item_count": 3869,
-  "filtered_item_count": 546,
+  "raw_item_count": 4779,
+  "deduped_item_count": 3894,
+  "filtered_item_count": 550,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -179,13 +179,13 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "JetBrains开源Mellum2模型：12B参数，升级AI智能体编程|机器学习|工作流|体式|专家|数据_手机新浪网 - 新浪财经",
-      "summary": "JetBrains开源Mellum2模型：12B参数，升级AI智能体编程|机器学习|工作流|体式|专家|数据_手机新浪网 新浪财经",
+      "title": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 - 新浪财经",
+      "summary": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 新浪财经",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-06-02T18:12:10+08:00",
+      "published_at": "2026-06-03T00:58:14+08:00",
       "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQUVRTa1dsSE9zdmN6ZHE0WXJ1NTZQVUhLb0pXRFBweElmUmRvNnJRMEpzaXZmY3czb08wdFVsTHdvcWd0Ni10Q29JU1pHRDd6XzUzT1RqOHJTMnRpWlhyUWpxTzFUc00yS19CbkJnbXJ5T0luUlpEeVlOV0JkNXpyZFlJMmNrcXI5dFJmLUFlSmg2RExORU9OS3NhY1VsREEtR3JHSHBTWFZEdklyYmY2NDM3UGRtR2NndTQ0WEZOYWNVWUhwT0pCdmY0VThaNmUwZWxBMHFMS3N1VEhiTHhQSlBrZXFhcHpVVm5yYXB2QnV3VTVjV1lLd05uOEdMR196MnllNVEyX2I3Y1RHY25lYTFaSHRFQzU5S0JSMXZMM2t0WHdhS0pia1h5cTluZ1RHYjRnU3BUejZuWFRVd2YxblA1WVl2VGN3ZEZpbWZxdUlsdnRlMV9hVlNCMVN2VUVj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -203,24 +203,24 @@
         "ai_agent",
         "coding",
         "coding_agent",
-        "opensource"
+        "research"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "jetbrains开源mellum2模型 12b参数 升级ai智能体编程 机器学习 工作流 体式 专家 数据_手机新浪网",
-      "canonical_key": "jetbrains开源mellum2模型 12b参数 升级ai智能体编程 机器学习 工作流 体式 专家 数据_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQUVRTa1dsSE9zdmN6ZHE0WXJ1NTZQVUhLb0pXRFBweElmUmRvNnJRMEpzaXZmY3czb08wdFVsTHdvcWd0Ni10Q29JU1pHRDd6XzUzT1RqOHJTMnRpWlhyUWpxTzFUc00yS19CbkJnbXJ5T0luUlpEeVlOV0JkNXpyZFlJMmNrcXI5dFJmLUFlSmg2RExORU9OS3NhY1VsREEtR3JHSHBTWFZEdklyYmY2NDM3UGRtR2NndTQ0WEZOYWNVWUhwT0pCdmY0VThaNmUwZWxBMHFMS3N1VEhiTHhQSlBrZXFhcHpVVm5yYXB2QnV3VTVjV1lLd05uOEdMR196MnllNVEyX2I3Y1RHY25lYTFaSHRFQzU5S0JSMXZMM2t0WHdhS0pia1h5cTluZ1RHYjRnU3BUejZuWFRVd2YxblA1WVl2VGN3ZEZpbWZxdUlsdnRlMV9hVlNCMVN2VUVj?oc=5",
-      "score": 75,
+      "dedupe_key": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
+      "canonical_key": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
+      "score": 73,
       "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 886,
+    "duplicate": 885,
     "history_duplicate": 4,
-    "weak_relevance": 192,
+    "weak_relevance": 186,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3131,
+    "old_news": 3158,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,
