@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T06:35:44.222766+08:00",
+  "updated_at": "2026-06-06T07:36:38.269631+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -787,7 +787,7 @@
       "is_official_source": true,
       "language": "en",
       "region": "global",
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }

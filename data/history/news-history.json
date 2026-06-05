@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T06:35:44.222766+08:00",
+  "updated_at": "2026-06-06T07:36:38.269631+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2472,7 +2472,7 @@
         "security",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-05",
@@ -2496,7 +2496,7 @@
         "coding",
         "coding_agent"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-05",
@@ -2542,7 +2542,7 @@
         "coding",
         "coding_agent"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-05",
@@ -2565,6 +2565,51 @@
         "company_research",
         "security",
         "technical_blog"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "how c3 ai agents will automate predictive maintenance for shell",
+      "normalized_title": "how c3 ai agents will automate predictive maintenance for shell",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaURTWjFOazlyZ2FZMk5BV0xKTm5OT0VyQjZvU1pNSDhlbmlTVTZqdGxFVmV2WUNlazZJZW5HRnl0MFloa2IwT2xYa2hJUVpDSUowdEhmMDdacHR6WmNpQmhLV3dIUnd4Z3FZaW5wR0hieHVXQTF2UXRlQlNCS1d2Nk15eUwzQjVxOGFhMUI5clVNRzYyanBKNmNPdDNBdnJ0QUg1LThwSjZwaVlDd05yT0JFTQ?oc=5",
+      "title": "How C3 AI agents will automate predictive maintenance for Shell - AI News",
+      "summary": "How C3 AI agents will automate predictive maintenance for Shell AI News",
+      "source": "AI News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaURTWjFOazlyZ2FZMk5BV0xKTm5OT0VyQjZvU1pNSDhlbmlTVTZqdGxFVmV2WUNlazZJZW5HRnl0MFloa2IwT2xYa2hJUVpDSUowdEhmMDdacHR6WmNpQmhLV3dIUnd4Z3FZaW5wR0hieHVXQTF2UXRlQlNCS1d2Nk15eUwzQjVxOGFhMUI5clVNRzYyanBKNmNPdDNBdnJ0QUg1LThwSjZwaVlDd05yT0JFTQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "predictive_maintenance",
+        "workflow_automation"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "anthropic正洽谈采用微软自研人工智能芯片 google 亚马逊 谷歌 云服务 copilot_手机新浪网",
+      "normalized_title": "anthropic正洽谈采用微软自研人工智能芯片 google 亚马逊 谷歌 云服务 copilot_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilwVBVV95cUxNU295N1puRzF2XzNjczVUc0o0MnhybVY1UjdHNkJxaEtQQVdQaVQ0ODFaRVBaWTBuRU0yUm1rcXB4dS02YjVzc29MSTFsRHU5eUhJQVlrLVZGdF9OdEhJVjN1cTRUSGFCdE5faUdWanBfX3Fjc2g0bXJocGliLUV6Yzh3RTNiU3JrdWZ1T1JrTFgxRGt0VF93cFFiZk1JbmRSYlNtSDJVYWRIM2FuTVU5VWh3UzdmVkpheUJhUzZ0YUpYVTBsOGQxYjFncUF3WU9Hd0o3cnhsSDZfV1BZWV9KaW0yclFPalpwOWZkNGtBSjdrSXk5NDdHelZUb3RLTVRFRHEwdTNjdHgwcTAxclF2NWlhNmR5a013bmlNa3puQnlzRHFNcXBUS0c0REFQb3JjQkUyZnNzQ2lxNEhhTUxWNEhBUjJuY0xBeWpmYlVvandCNWNGU295aFhlS2F4RTl1UkJ1bnl6WE9Jek5YMFEwS0k5MDVYVnB4Qjh5dmtSMHkzM3F1Um8zbW9IQ0FlbFNSbzNBeVl1ZjRQNWh3TnFSNlhabTZlQm1sTm5CMVRIU0k0RDUzekNFazdWR1JPQzVrV243RGFVX3FraEVMbko1YkxpRFg0OW1neXJGbkI0TG10ZmljcE9OTGs2VXFIT1NMMXhHeFlMTUQ2NjdFWGtSTENQUldUT1RHRGItdFpYbWlibk9Pd0o4Q3VKZmZMcFA2aEl2RW5ZOXZobl9TdXNkNXV1SUE2cV9xaEJEVTRrNjVVQ0FOVW1ZOElkZTd5SnVxajB2N0V2VndlYnlsOEdYRmY0N1NfcWd3MUxmOXB2NjM5SlRlVllPVDM0SkowdlM4eTB3TzRIRk1ESjhnLWVLcnY2N3NRbzg?oc=5",
+      "title": "Anthropic正洽谈采用微软自研人工智能芯片|Google|亚马逊|谷歌|云服务|Copilot_手机新浪网 - 新浪财经",
+      "summary": "Anthropic正洽谈采用微软自研人工智能芯片|Google|亚马逊|谷歌|云服务|Copilot_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMilwVBVV95cUxNU295N1puRzF2XzNjczVUc0o0MnhybVY1UjdHNkJxaEtQQVdQaVQ0ODFaRVBaWTBuRU0yUm1rcXB4dS02YjVzc29MSTFsRHU5eUhJQVlrLVZGdF9OdEhJVjN1cTRUSGFCdE5faUdWanBfX3Fjc2g0bXJocGliLUV6Yzh3RTNiU3JrdWZ1T1JrTFgxRGt0VF93cFFiZk1JbmRSYlNtSDJVYWRIM2FuTVU5VWh3UzdmVkpheUJhUzZ0YUpYVTBsOGQxYjFncUF3WU9Hd0o3cnhsSDZfV1BZWV9KaW0yclFPalpwOWZkNGtBSjdrSXk5NDdHelZUb3RLTVRFRHEwdTNjdHgwcTAxclF2NWlhNmR5a013bmlNa3puQnlzRHFNcXBUS0c0REFQb3JjQkUyZnNzQ2lxNEhhTUxWNEhBUjJuY0xBeWpmYlVvandCNWNGU295aFhlS2F4RTl1UkJ1bnl6WE9Jek5YMFEwS0k5MDVYVnB4Qjh5dmtSMHkzM3F1Um8zbW9IQ0FlbFNSbzNBeVl1ZjRQNWh3TnFSNlhabTZlQm1sTm5CMVRIU0k0RDUzekNFazdWR1JPQzVrV243RGFVX3FraEVMbko1YkxpRFg0OW1neXJGbkI0TG10ZmljcE9OTGs2VXFIT1NMMXhHeFlMTUQ2NjdFWGtSTENQUldUT1RHRGItdFpYbWlibk9Pd0o4Q3VKZmZMcFA2aEl2RW5ZOXZobl9TdXNkNXV1SUE2cV9xaEJEVTRrNjVVQ0FOVW1ZOElkZTd5SnVxajB2N0V2VndlYnlsOEdYRmY0N1NfcWd3MUxmOXB2NjM5SlRlVllPVDM0SkowdlM4eTB3TzRIRk1ESjhnLWVLcnY2N3NRbzg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "cloud",
+        "coding"
       ],
       "seen_count": 1
     }
