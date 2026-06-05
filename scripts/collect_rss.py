@@ -1622,6 +1622,219 @@ def token_similarity(a_tokens: set[str], b_tokens: set[str]) -> float:
     return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
 
 
+CORE_ENTITY_ALIASES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("openai", ("openai",)),
+    ("anthropic", ("anthropic",)),
+    ("google", ("google", "谷歌")),
+    ("deepmind", ("deepmind", "google deepmind")),
+    ("microsoft", ("microsoft", "微软")),
+    ("github", ("github",)),
+    ("nvidia", ("nvidia", "英伟达")),
+    ("meta", ("meta", "meta ai")),
+    ("apple", ("apple", "苹果")),
+    ("amazon", ("amazon", "亚马逊")),
+    ("aws", ("aws", "amazon web services")),
+    ("bosch", ("bosch", "博世")),
+    ("infineon", ("infineon", "英飞凌")),
+    ("ti", ("texas instruments", " ti ", "德州仪器")),
+    ("nxp", ("nxp", "恩智浦")),
+    ("st", (" stmicroelectronics", " st ", "意法半导体")),
+    ("onsemi", ("onsemi", "安森美")),
+    ("wolfspeed", ("wolfspeed",)),
+    ("byd", ("byd", "比亚迪")),
+    ("huawei", ("huawei", "华为")),
+    ("horizon", ("horizon robotics", "地平线")),
+    ("black_sesame", ("black sesame", "黑芝麻")),
+    ("semidrive", ("semidrive", "芯驰", "芯驰科技")),
+)
+PRODUCT_ALIASES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("codex", ("codex",)),
+    ("claude_code", ("claude code",)),
+    ("cursor", ("cursor",)),
+    ("copilot", ("copilot",)),
+    ("devin", ("devin",)),
+    ("mcp", ("mcp", "model context protocol", "模型上下文协议")),
+    ("agents_sdk", ("agents sdk", "agent sdk")),
+    ("agents_md", ("agents.md", "agents md")),
+    ("vera", ("vera",)),
+    ("rubin", ("rubin",)),
+    ("obc", ("obc", "onboard charger", "on-board charger", "车载充电机")),
+    ("dcdc", ("dcdc", "dc-dc", "dc/dc", "dc dc converter", "直流变换器")),
+    ("sic", ("sic", "silicon carbide", "碳化硅")),
+    ("gan", ("gan", "gallium nitride", "氮化镓")),
+)
+ACTION_ALIASES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("release", ("launch", "launches", "launched", "unveil", "unveils", "unveiled", "release", "releases", "released", "announce", "announces", "announced", "introduce", "introduces", "introduced", "发布", "推出", "上线", "宣布", "首发")),
+    ("update", ("update", "updates", "updated", "upgrade", "upgrades", "upgraded", "adds", "add", "新增", "升级", "更新", "接入")),
+    ("availability", ("available", "general availability", "becomes available", "可用", "开放")),
+    ("opensource", ("open source", "open-source", "开源")),
+    ("partnership", ("partner", "partners", "partnership", "collaborate", "合作")),
+    ("expand", ("expand", "expands", "expanded", "扩展")),
+    ("production", ("production", "mass production", "量产")),
+)
+TOPIC_ALIASES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("agent", ("agent", "agentic", "ai agent", "智能体")),
+    ("coding_agent", ("coding agent", "software engineering agent", "编程智能体", "代码智能体")),
+    ("enterprise_workflow", ("enterprise workflow", "enterprise workflows", "enterprise software teams", "企业工作流")),
+    ("software_engineering", ("software engineering", "developer productivity", "engineering productivity", "研发提效", "软件研发提效")),
+    ("aws", ("aws",)),
+    ("bedrock", ("bedrock",)),
+    ("cloud_platform", ("cloud platform", "cloud", "云平台", "上架")),
+    ("ai_factory", ("ai factory", "ai 工厂")),
+    ("inference", ("inference", "推理")),
+    ("power_electronics", ("power electronics", "功率电子")),
+    ("obc", ("obc", "onboard charger", "on-board charger", "车载充电机")),
+    ("dcdc", ("dcdc", "dc-dc", "dc/dc", "直流变换器")),
+    ("fault_diagnosis", ("fault diagnosis", "fault-diagnosis", "故障诊断")),
+    ("digital_twin", ("digital twin", "数字孪生")),
+    ("test_automation", ("test automation", "testing automation", "测试自动化")),
+    ("terminal", ("terminal", "cli", "本地终端")),
+    ("model_capability", ("multimodal", "frontier model", "gpt", "模型能力", "多模态", "大模型")),
+    ("security", ("security", "vulnerability", "安全漏洞", "漏洞")),
+    ("policy_regulation", ("policy", "regulation", "监管", "政策")),
+    ("incident", ("incident", "accident", "outage", "事故", "故障")),
+    ("research", ("research", "paper", "technical report", "研究", "论文", "技术报告")),
+)
+
+
+def _contains_alias(text: str, alias: str) -> bool:
+    alias = alias.lower()
+    if re.search(r"[\u4e00-\u9fff]", alias):
+        return alias in text
+    return bool(re.search(rf"(?<![a-z0-9]){re.escape(alias.strip())}(?![a-z0-9])", text))
+
+
+def _extract_alias_tokens(text: str, aliases: tuple[tuple[str, tuple[str, ...]], ...]) -> set[str]:
+    normalized = f" {clean_text(text).lower()} "
+    found: set[str] = set()
+    for canonical, needles in aliases:
+        if any(_contains_alias(normalized, needle) for needle in needles):
+            found.add(canonical)
+    return found
+
+
+def _item_text(item: dict[str, Any]) -> str:
+    return f"{item.get('title', '')} {item.get('summary', '')}"
+
+
+def extract_core_entities(text: str) -> dict[str, list[str]]:
+    """Extract lightweight canonical entities and products from title/summary text."""
+    return {
+        "entities": sorted(_extract_alias_tokens(text, CORE_ENTITY_ALIASES)),
+        "products": sorted(_extract_alias_tokens(text, PRODUCT_ALIASES)),
+    }
+
+
+def extract_action_tokens(text: str) -> list[str]:
+    return sorted(_extract_alias_tokens(text, ACTION_ALIASES))
+
+
+def extract_topic_tokens(text: str) -> list[str]:
+    return sorted(_extract_alias_tokens(text, TOPIC_ALIASES))
+
+
+def build_event_signature(item: dict[str, Any]) -> dict[str, list[str]]:
+    existing = item.get("event_signature")
+    if isinstance(existing, dict):
+        return {
+            "entities": sorted(str(v) for v in existing.get("entities", []) if str(v).strip()),
+            "products": sorted(str(v) for v in existing.get("products", []) if str(v).strip()),
+            "actions": sorted(str(v) for v in existing.get("actions", []) if str(v).strip()),
+            "topics": sorted(str(v) for v in existing.get("topics", []) if str(v).strip()),
+        }
+    text = _item_text(item)
+    core = extract_core_entities(text)
+    topics = set(extract_topic_tokens(text))
+    topics.update(str(tag).strip().lower() for tag in item.get("topic_tags", item.get("tags", [])) if str(tag).strip())
+    return {
+        "entities": core["entities"],
+        "products": core["products"],
+        "actions": extract_action_tokens(text),
+        "topics": sorted(topics),
+    }
+
+
+def _signature_sets(item: dict[str, Any]) -> tuple[set[str], set[str], set[str], set[str]]:
+    signature = build_event_signature(item)
+    return (
+        set(signature["entities"]),
+        set(signature["products"]),
+        set(signature["actions"]),
+        set(signature["topics"]),
+    )
+
+
+def _protected_event_types(item: dict[str, Any]) -> set[str]:
+    text = _item_text(item).lower()
+    topics = set(build_event_signature(item)["topics"])
+    actions = set(build_event_signature(item)["actions"])
+    types: set[str] = set()
+    if topics & {"security"}:
+        types.add("security")
+    if topics & {"policy_regulation"}:
+        types.add("policy_regulation")
+    if topics & {"incident"}:
+        types.add("incident")
+    if topics & {"model_capability", "multimodal", "llm"} or any(term in text for term in ("gpt", "frontier model", "multimodal", "多模态", "大模型")):
+        types.add("model_capability")
+    if actions & {"partnership"}:
+        types.add("partnership")
+    if actions & {"availability"} or topics & {"cloud_platform", "aws", "bedrock"}:
+        types.add("cloud_availability")
+    if topics & {"research", "ai_research"} or any(term in text for term in ("research", "paper", "technical report", "研究", "论文", "技术报告")):
+        types.add("research")
+    if actions & {"release", "update", "expand", "opensource", "production"}:
+        types.add("product_release")
+    return types
+
+
+def event_signatures_conflict(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    a_entities, a_products, _, a_topics = _signature_sets(a)
+    b_entities, b_products, _, b_topics = _signature_sets(b)
+    a_types = _protected_event_types(a)
+    b_types = _protected_event_types(b)
+    dangerous = {"security", "policy_regulation", "incident"}
+    if (a_types & dangerous) != (b_types & dangerous):
+        return True
+    if ("model_capability" in a_types) != ("model_capability" in b_types) and (
+        ("partnership" in a_types or "cloud_availability" in a_types)
+        or ("partnership" in b_types or "cloud_availability" in b_types)
+    ):
+        return True
+    if ("research" in a_types) != ("research" in b_types) and (a_topics & b_topics & {"research", "ai_research"}):
+        return True
+    if a_entities & b_entities and a_products and b_products and not (a_products & b_products):
+        return True
+    return False
+
+
+def event_signature_match(a: dict[str, Any], b: dict[str, Any], high_confidence: bool = False) -> bool:
+    if event_signatures_conflict(a, b):
+        return False
+    a_entities, a_products, a_actions, a_topics = _signature_sets(a)
+    b_entities, b_products, b_actions, b_topics = _signature_sets(b)
+    entity_overlap = a_entities & b_entities
+    product_overlap = a_products & b_products
+    topic_overlap = a_topics & b_topics
+    action_overlap = a_actions & b_actions
+
+    if not product_overlap and not (entity_overlap and len(topic_overlap) >= 2):
+        return False
+    if a_actions and b_actions and not action_overlap:
+        return False
+
+    strong_topic_count = len(topic_overlap - {"ai", "agent", "power_electronics"})
+    if high_confidence:
+        return bool((entity_overlap or product_overlap) and (action_overlap or strong_topic_count >= 2) and len(topic_overlap) >= 2)
+    if entity_overlap and product_overlap and action_overlap and topic_overlap:
+        return True
+    if product_overlap and action_overlap and strong_topic_count >= 1:
+        return True
+    if product_overlap and len(topic_overlap) >= 2 and not a_actions and not b_actions:
+        return True
+    return False
+
+
 def likely_same_story(a: dict[str, Any], b: dict[str, Any], base_threshold: float | None = None) -> bool:
     threshold = base_threshold if base_threshold is not None else min(HISTORY_SIMILARITY_THRESHOLD, 0.78)
     a_title = normalize_title(str(a.get("title", "")))
@@ -1631,15 +1844,18 @@ def likely_same_story(a: dict[str, Any], b: dict[str, Any], base_threshold: floa
 
     a_link = normalize_link(str(a.get("link", "")))
     b_link = normalize_link(str(b.get("link", "")))
-    if a_link and a_link == b_link and not is_google_news_link(a_link):
+    if a_link and a_link == b_link:
         return True
 
     title_sim = simple_title_similarity(a_title, b_title)
-    if title_sim >= threshold:
+    if title_sim > max(threshold, 0.82):
         return True
 
     same_source = source_identity_key(a) == source_identity_key(b)
-    if same_source and title_sim >= 0.62:
+    if same_source and title_sim > 0.72:
+        return True
+
+    if event_signature_match(a, b):
         return True
 
     a_topic = topic_signature(a)
@@ -2005,16 +2221,29 @@ def better_duplicate_choice(old_item: dict[str, Any], new_item: dict[str, Any]) 
     new_score = score_item(classify_item(new_item))
     old_rank = source_preference_rank(classify_item(old_item))
     new_rank = source_preference_rank(classify_item(new_item))
+    quality_rank = {"": 0, "empty": 0, "low": 1, "medium": 2, "high": 3}
     if new_rank != old_rank:
         return new_item if new_rank > old_rank else old_item
     old_primary = is_official_or_primary_source(old_item) and not is_google_news_link(str(old_item.get("link", "")))
     new_primary = is_official_or_primary_source(new_item) and not is_google_news_link(str(new_item.get("link", "")))
     if new_primary != old_primary:
         return new_item if new_primary else old_item
-    if new_score != old_score:
-        return new_item if new_score > old_score else old_item
+    old_source_quality = quality_rank.get(clean_text(old_item.get("source_quality", "")).lower(), 0)
+    new_source_quality = quality_rank.get(clean_text(new_item.get("source_quality", "")).lower(), 0)
+    if new_source_quality != old_source_quality:
+        return new_item if new_source_quality > old_source_quality else old_item
+    old_summary_quality = quality_rank.get(clean_text(old_item.get("summary_quality", "")).lower(), 0)
+    new_summary_quality = quality_rank.get(clean_text(new_item.get("summary_quality", "")).lower(), 0)
+    if new_summary_quality != old_summary_quality:
+        return new_item if new_summary_quality > old_summary_quality else old_item
     if len(clean_text(new_item.get("summary", ""))) != len(clean_text(old_item.get("summary", ""))):
         return new_item if len(clean_text(new_item.get("summary", ""))) > len(clean_text(old_item.get("summary", ""))) else old_item
+    if new_score != old_score:
+        return new_item if new_score > old_score else old_item
+    old_google = is_google_news_link(str(old_item.get("link", "")))
+    new_google = is_google_news_link(str(new_item.get("link", "")))
+    if new_google != old_google:
+        return old_item if new_google else new_item
     old_dt = old_item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
     new_dt = new_item.get("_published_dt") or datetime.min.replace(tzinfo=timezone.utc)
     return new_item if new_dt > old_dt else old_item
@@ -2145,30 +2374,32 @@ def is_seen_in_history(
     canonical_key = make_canonical_key(item)
     normalized_title = normalize_title(str(item.get("title", "")))
     normalized_link = normalize_link(str(item.get("link", "")))
+    item_for_match = dict(item)
+    item_for_match["event_signature"] = build_event_signature(item)
     for history_item in history.get("items", []):
         if not isinstance(history_item, dict) or not history_item_recent(history_item, target_date, HISTORY_DEDUPE_DAYS):
             continue
         if canonical_key and canonical_key == history_item.get("canonical_key"):
             return True, "same_canonical_key", history_item
         old_title = str(history_item.get("normalized_title", ""))
-        if old_title and likely_same_story(
-            item,
-            {
-                "title": history_item.get("title") or old_title,
-                "summary": history_item.get("summary", ""),
-                "source": history_item.get("source", ""),
-                "link": history_item.get("link", history_item.get("normalized_link", "")),
-                "category": history_item.get("category", ""),
-                "source_group": history_item.get("source_group", ""),
-                "source_type": history_item.get("source_type", ""),
-                "topic_tags": history_item.get("topic_tags", []),
-            },
-            base_threshold=min(HISTORY_SIMILARITY_THRESHOLD, 0.78),
-        ):
+        history_match_item = {
+            "title": history_item.get("title") or old_title,
+            "summary": history_item.get("summary", ""),
+            "source": history_item.get("source", ""),
+            "link": history_item.get("link", history_item.get("normalized_link", "")),
+            "category": history_item.get("category", ""),
+            "source_group": history_item.get("source_group", ""),
+            "source_type": history_item.get("source_type", ""),
+            "topic_tags": history_item.get("topic_tags", []),
+            "event_signature": history_item.get("event_signature", {}),
+        }
+        if old_title and normalized_title and simple_title_similarity(normalized_title, old_title) > HISTORY_SIMILARITY_THRESHOLD:
             return True, "similar_title", history_item
         old_link = str(history_item.get("normalized_link", ""))
-        if normalized_link and normalized_link == old_link and not is_google_news_link(normalized_link):
+        if normalized_link and normalized_link == old_link:
             return True, "same_link", history_item
+        if event_signature_match(item_for_match, history_match_item, high_confidence=True):
+            return True, "same_event_signature", history_item
     return False, "", None
 
 
@@ -2184,6 +2415,7 @@ def update_history_with_items(history: dict[str, Any], selected_items: list[dict
         if existing:
             existing["last_seen_date"] = target_date
             existing["seen_count"] = int(existing.get("seen_count", 1)) + 1
+            existing["event_signature"] = build_event_signature(item)
             continue
         record = {
             "first_seen_date": target_date,
@@ -2200,6 +2432,7 @@ def update_history_with_items(history: dict[str, Any], selected_items: list[dict
             "source_group": clean_text(item.get("source_group", "")),
             "source_type": clean_text(item.get("source_type", "")),
             "topic_tags": list(item.get("topic_tags", []))[:12],
+            "event_signature": build_event_signature(item),
             "seen_count": 1,
         }
         history.setdefault("items", []).append(record)
