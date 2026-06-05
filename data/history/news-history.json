@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T07:35:23.934529+08:00",
+  "updated_at": "2026-06-06T06:35:44.222766+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2446,6 +2446,125 @@
         "coding",
         "coding_agent",
         "opensource"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "deploy agentic ready ai at the edge with memory efficiency in nvidia jetpack 7 2",
+      "normalized_title": "deploy agentic ready ai at the edge with memory efficiency in nvidia jetpack 7 2",
+      "normalized_link": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
+      "title": "Deploy Agentic-Ready AI at the Edge with Memory Efficiency in NVIDIA JetPack 7.2",
+      "summary": "As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment with optimized... As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "securing ci cd in an agentic world claude code github action case",
+      "normalized_title": "securing ci cd in an agentic world claude code github action case",
+      "normalized_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNREJ4Wm45a0lId2d5MUxEOHdRWldESTBfVUZWNFdzMWozbGpLVFVNaEVIV0JlZUFBU0ZjMmFCeWNMazVuM1BsNUx2Z3VlajhHQURuR3cyNDd0LTY5YVJsVGpOU0E1RmtsZmVyb1JyOEgyQmNCeFJZT3U5bTBPSlZuNmdtdm10bzNwSmhyMmNLNkRrUU5EYVRxVG1McjVJSmNqZTBTb0dmRk15UlJtOWFubl9TTFRMUnJmQm5MTg?oc=5",
+      "title": "Securing CI/CD in an agentic world: Claude Code Github action case - Microsoft",
+      "summary": "Securing CI/CD in an agentic world: Claude Code Github action case Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNREJ4Wm45a0lId2d5MUxEOHdRWldESTBfVUZWNFdzMWozbGpLVFVNaEVIV0JlZUFBU0ZjMmFCeWNMazVuM1BsNUx2Z3VlajhHQURuR3cyNDd0LTY5YVJsVGpOU0E1RmtsZmVyb1JyOEgyQmNCeFJZT3U5bTBPSlZuNmdtdm10bzNwSmhyMmNLNkRrUU5EYVRxVG1McjVJSmNqZTBTb0dmRk15UlJtOWFubl9TTFRMUnJmQm5MTg?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ci_cd",
+        "coding",
+        "coding_agent"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "重构工程创新 新思科技开启智能体ai设计范式革命",
+      "normalized_title": "重构工程创新 新思科技开启智能体ai设计范式革命",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbnJPRHZOX0NTRmNmc3hLemtYV3BONDhaVmVhekpnOTB6U2ZFZ3YxZjJhS3ZDdkphNm5sbklwZFA0ZUpKX1M2V3V3WWE2TVNmUHowUC1xSy1xVXB0?oc=5",
+      "title": "重构工程创新：新思科技开启智能体AI设计范式革命 - 电子工程专辑",
+      "summary": "重构工程创新：新思科技开启智能体AI设计范式革命 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxbnJPRHZOX0NTRmNmc3hLemtYV3BONDhaVmVhekpnOTB6U2ZFZ3YxZjJhS3ZDdkphNm5sbklwZFA0ZUpKX1M2V3V3WWE2TVNmUHowUC1xSy1xVXB0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "anthropic通过marlin项目用1000名软件工程师训练claude code提升代码质量",
+      "normalized_title": "anthropic通过marlin项目用1000名软件工程师训练claude code提升代码质量",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93OXoyb25aLVhzQkVodl9RZ3RZTVJJQ0x5Q2hocEVGdXZvWjZSUno4V1NydW1HX3ZQRVZzUmhWdjJzRzM4blFqd2RZMmZ5UDltcFAtQQ?oc=5",
+      "title": "Anthropic通过Marlin项目用1000名软件工程师训练Claude Code提升代码质量 - 虎嗅",
+      "summary": "Anthropic通过Marlin项目用1000名软件工程师训练Claude Code提升代码质量 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93OXoyb25aLVhzQkVodl9RZ3RZTVJJQ0x5Q2hocEVGdXZvWjZSUno4V1NydW1HX3ZQRVZzUmhWdjJzRzM4blFqd2RZMmZ5UDltcFAtQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-05",
+      "canonical_key": "build personal ai agents on windows pcs with new tools from microsoft and nvidia",
+      "normalized_title": "build personal ai agents on windows pcs with new tools from microsoft and nvidia",
+      "normalized_link": "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia",
+      "title": "Build Personal AI Agents on Windows PCs with New Tools from Microsoft and NVIDIA",
+      "summary": "AI agents are changing how you interact with your PC. Creators, developers, and AI enthusiasts are already using these agents extensively to assist with... AI agents are changing how you interact with your PC. Creators, developers, and AI enthusiasts are already using these agents extensively to as…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "security",
+        "technical_blog"
       ],
       "seen_count": 1
     }
