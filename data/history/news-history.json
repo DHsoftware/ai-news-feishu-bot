@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T06:17:14.485430+08:00",
+  "updated_at": "2026-06-07T07:15:39.710760+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2633,7 +2633,7 @@
         "coding_agent",
         "company_research"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-06",
@@ -2656,7 +2656,7 @@
         "org_productivity",
         "workflow_automation"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-06",
@@ -2676,7 +2676,7 @@
         "chip",
         "sic"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-06",
@@ -2699,7 +2699,7 @@
         "coding",
         "coding_agent"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-06",
@@ -2721,7 +2721,7 @@
         "robotics",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
