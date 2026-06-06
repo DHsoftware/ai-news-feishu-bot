@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T07:36:38.269631+08:00",
+  "updated_at": "2026-06-07T06:17:14.485430+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -788,6 +788,25 @@
       "language": "en",
       "region": "global",
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-06",
+      "last_seen_date": "2026-06-06",
+      "canonical_key": "custom instructions with agents md",
+      "normalized_title": "custom instructions with agents md",
+      "normalized_link": "https://developers.openai.com/codex/guides/agents-md",
+      "title": "Custom instructions with AGENTS.md",
+      "summary": "OpenAI Codex guide explaining how AGENTS.md provides project-level context and instructions for coding agents.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/guides/agents-md",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Agent Instructions",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "seen_count": 1
     }
   ]
 }
