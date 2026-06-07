@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T07:15:39.710760+08:00",
+  "updated_at": "2026-06-08T06:18:15.513799+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2722,6 +2722,119 @@
         "technical_blog"
       ],
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-07",
+      "last_seen_date": "2026-06-07",
+      "canonical_key": "nvidia krafton nc and reigning league of legends champions t1 celebrate rtx spark at korea s pc bangs",
+      "normalized_title": "nvidia krafton nc and reigning league of legends champions t1 celebrate rtx spark at korea s pc bangs",
+      "normalized_link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+      "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-07",
+      "last_seen_date": "2026-06-07",
+      "canonical_key": "jacob lauritzen ai tools are revolutionizing engineering productivity shifting the bottleneck to code review and emphasizing systems design over code creation 20vc",
+      "normalized_title": "jacob lauritzen ai tools are revolutionizing engineering productivity shifting the bottleneck to code review and emphasizing systems design over code creation 20vc",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWXJPWUxRQW9JTUM2c1BZTnd6UURxcUp2c3BQWUxYNkZ0MTVrRlNXWEFLVHVRazJRMjU5N0NCUTBZaTcydjVWdXJZLThJckRJTlpDUmxjQWFwcVFDeWRYeW1IU011d0JIOTFtemRkcW5UbUgwZW00dnNmMmF3OGQ1aGU1WGgyYmd4ZldvRW1aSkZYY040bnlMRE9CanBydm1vcmt2ZEhnYkRFV2wxRW8zT1R0R1VXUHVqU2oxN2Z1QkNSN25ZQkJUbE1ZZzRFVm9UbDl1dFUtcjRJeHBGRDJZV2lQRVRrcEpDOFZuMGNMaC15WTR5NndKeWF4OVJuMDBuTXFnS1k2Mjd2azRSbjVJa1Y3dFRyX2Zzd3VJ?oc=5",
+      "title": "Jacob Lauritzen: AI tools are revolutionizing engineering productivity, shifting the bottleneck to code review, and emphasizing systems design over code creation | 20VC - Crypto Briefing",
+      "summary": "Jacob Lauritzen: AI tools are revolutionizing engineering productivity, shifting the bottleneck to code review, and emphasizing systems design over code creation | 20VC Crypto Briefing",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWXJPWUxRQW9JTUM2c1BZTnd6UURxcUp2c3BQWUxYNkZ0MTVrRlNXWEFLVHVRazJRMjU5N0NCUTBZaTcydjVWdXJZLThJckRJTlpDUmxjQWFwcVFDeWRYeW1IU011d0JIOTFtemRkcW5UbUgwZW00dnNmMmF3OGQ1aGU1WGgyYmd4ZldvRW1aSkZYY040bnlMRE9CanBydm1vcmt2ZEhnYkRFV2wxRW8zT1R0R1VXUHVqU2oxN2Z1QkNSN25ZQkJUbE1ZZzRFVm9UbDl1dFUtcjRJeHBGRDJZV2lQRVRrcEpDOFZuMGNMaC15WTR5NndKeWF4OVJuMDBuTXFnS1k2Mjd2azRSbjVJa1Y3dFRyX2Zzd3VJ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent",
+        "engineering_productivity"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-07",
+      "last_seen_date": "2026-06-07",
+      "canonical_key": "台达于nvidia gtc 2026 亮相专为下一代ai工厂打造的800 vdc解决方案",
+      "normalized_title": "台达于nvidia gtc 2026 亮相专为下一代ai工厂打造的800 vdc解决方案",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRRnM0OEIxdmNoeV92UUpHa1FGZEV5eVJXWlJqWjdULUFiWEh3dlk0N3U0cVBSaDhlTDZGdkNtOUhQNTVsZmZqZnNOcWdOU2dPaDdHQ3FqWU5sUmd5ZFhrdjI1ektxeUtz?oc=5",
+      "title": "台达于NVIDIA GTC 2026 亮相专为下一代AI工厂打造的800 VDC解决方案 - Welcome to Delta",
+      "summary": "台达于NVIDIA GTC 2026 亮相专为下一代AI工厂打造的800 VDC解决方案 Welcome to Delta",
+      "source": "Welcome to Delta",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRRnM0OEIxdmNoeV92UUpHa1FGZEV5eVJXWlJqWjdULUFiWEh3dlk0N3U0cVBSaDhlTDZGdkNtOUhQNTVsZmZqZnNOcWdOU2dPaDdHQ3FqWU5sUmd5ZFhrdjI1ektxeUtz?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-07",
+      "last_seen_date": "2026-06-07",
+      "canonical_key": "腾讯健康发布ai全栈解决方案 以全场景ai agent打通医疗健康创新全链条",
+      "normalized_title": "腾讯健康发布ai全栈解决方案 以全场景ai agent打通医疗健康创新全链条",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGRk5rdEsxeEl3UEFpTG5TcjluRXZMV1RIdHowY2FYSWhZLS03amJoRGRQWVdBWlQyQlROZ1pvM3cwYmRaUkd1Nw?oc=5",
+      "title": "腾讯健康发布AI全栈解决方案，以全场景AI Agent打通医疗健康创新全链条 - 品玩",
+      "summary": "腾讯健康发布AI全栈解决方案，以全场景AI Agent打通医疗健康创新全链条 品玩",
+      "source": "品玩",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGRk5rdEsxeEl3UEFpTG5TcjluRXZMV1RIdHowY2FYSWhZLS03amJoRGRQWVdBWlQyQlROZ1pvM3cwYmRaUkd1Nw?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-07",
+      "last_seen_date": "2026-06-07",
+      "canonical_key": "amazing digital dentures a failed project",
+      "normalized_title": "amazing digital dentures a failed project",
+      "normalized_link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "summary": "A Blog post by Build Small Hackathon on Hugging Face",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "seen_count": 1
     }
   ]
 }
