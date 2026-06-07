@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T06:18:15.513799+08:00",
+  "updated_at": "2026-06-08T07:18:39.051859+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2744,7 +2744,7 @@
         "company_research",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-07",
@@ -2769,7 +2769,7 @@
         "coding_agent",
         "engineering_productivity"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-07",
@@ -2790,7 +2790,7 @@
         "obc",
         "power_electronics"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-07",
@@ -2813,7 +2813,7 @@
         "org_productivity",
         "workflow_automation"
       ],
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-07",
@@ -2834,7 +2834,7 @@
         "company_research",
         "technical_blog"
       ],
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
