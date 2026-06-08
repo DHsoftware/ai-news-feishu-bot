@@ -241,6 +241,19 @@ AI_POWER_ELECTRONICS_QUERIES = [
     "AI simulation power electronics",
     "AI design optimization power electronics",
     "AI control algorithm power converter",
+    "AI V2G",
+    "AI V2H",
+    "AI V2L",
+    "vehicle-to-grid AI",
+    "vehicle-to-home AI",
+    "bidirectional charger AI",
+    "AI PFC power factor correction",
+    "AI inverter power electronics",
+    "AI LLC resonant converter",
+    "AI phase-shift converter",
+    "AI soft switching",
+    "AI MPPT charging",
+    "AI CC CV charging",
     "AI 功率电子",
     "AI 车载充电机",
     "AI OBC",
@@ -264,6 +277,46 @@ AI_POWER_ELECTRONICS_QUERIES = [
     "DCDC 故障诊断",
     "OBC 数字孪生",
     "DCDC 数字孪生",
+    "V2G 人工智能",
+    "V2H 人工智能",
+    "双向充电 人工智能",
+    "PFC 人工智能",
+    "LLC 谐振 人工智能",
+]
+
+# EV noise terms - generic automotive news without power electronics focus
+EV_NOISE_TERMS = [
+    "自动驾驶",
+    "智能驾驶",
+    "智能座舱",
+    "销量",
+    "车型",
+    "发布会",
+    "上市",
+    "续航",
+    "电池包",
+    "底盘",
+    "内饰",
+    "外观",
+    "配置",
+    "试驾",
+    "交付",
+    "订单",
+    "价格",
+    "购车",
+    "新能源整车",
+    "智能网联",
+    "辅助驾驶",
+    "NOA",
+    "激光雷达",
+    "摄像头",
+    "毫米波雷达",
+    "智能悬挂",
+    "空气悬挂",
+    "座椅",
+    "大屏",
+    "车机系统",
+    "语音助手",
 ]
 
 COMPANY_RESEARCH_SITE_QUERIES = [
@@ -2098,6 +2151,9 @@ def score_item(item: dict[str, Any]) -> int:
         score += 14
     if POWER_ELECTRONICS_BOOST and tags & {"obc", "dcdc", "power_electronics", "sic", "gan", "power_control"}:
         score += 8
+    # Penalize articles that mention OBC/DCDC but only have generic EV noise terms
+    if tags & {"obc", "dcdc", "power_electronics", "sic", "gan"} and any(term in text for term in EV_NOISE_TERMS):
+        score -= 25
     if "chip" in tags:
         score += 12
     if tags & {"chip"} and any(term in text for term in ("inference", "edge ai", "边缘 ai", "车载算力", "ai 芯片", "推理")):
@@ -2493,6 +2549,8 @@ def is_seen_in_learning_history(
     canonical_key = make_canonical_key(item)
     normalized_title = normalize_title(str(item.get("title", "")))
     normalized_link = normalize_link(str(item.get("link", "")))
+    item_for_match = dict(item)
+    item_for_match["event_signature"] = build_event_signature(item)
     for history_item in history.get("items", []):
         if not isinstance(history_item, dict):
             continue
@@ -2504,19 +2562,23 @@ def is_seen_in_learning_history(
         if normalized_link and normalized_link == old_link:
             return True, "same_link", history_item
         old_title = str(history_item.get("normalized_title", ""))
-        if old_title and likely_same_story(
-            item,
-            {
-                "title": history_item.get("title") or old_title,
-                "summary": history_item.get("summary", ""),
-                "source": history_item.get("source", ""),
-                "link": history_item.get("link", history_item.get("normalized_link", "")),
-                "source_type": history_item.get("source_type", ""),
-                "source_quality": history_item.get("source_quality", ""),
-            },
-            base_threshold=min(LEARNING_HISTORY_SIMILARITY_THRESHOLD, 0.78),
-        ):
+        history_match_item = {
+            "title": history_item.get("title") or old_title,
+            "summary": history_item.get("summary", ""),
+            "source": history_item.get("source", ""),
+            "link": history_item.get("link", history_item.get("normalized_link", "")),
+            "source_type": history_item.get("source_type", ""),
+            "source_quality": history_item.get("source_quality", ""),
+            "summary_quality": history_item.get("summary_quality", ""),
+            "tags": history_item.get("tags", []),
+            "topic_tags": history_item.get("topic_tags", []),
+            "concept_hint": history_item.get("concept_hint", ""),
+            "event_signature": history_item.get("event_signature", {}),
+        }
+        if old_title and normalized_title and simple_title_similarity(normalized_title, old_title) > LEARNING_HISTORY_SIMILARITY_THRESHOLD:
             return True, "similar_title", history_item
+        if event_signature_match(item_for_match, history_match_item, high_confidence=True):
+            return True, "same_event_signature", history_item
     return False, "", None
 
 
@@ -2537,6 +2599,7 @@ def update_learning_history_with_items(
         if existing:
             existing["last_seen_date"] = target_date
             existing["seen_count"] = int(existing.get("seen_count", 1)) + 1
+            existing["event_signature"] = build_event_signature(item)
             continue
         record = {
             "first_seen_date": target_date,
@@ -2555,6 +2618,8 @@ def update_learning_history_with_items(
             "is_official_source": bool(item.get("is_official_source", False)),
             "language": clean_text(item.get("language", "")),
             "region": clean_text(item.get("region", "")),
+            "tags": list(item.get("tags", []))[:12],
+            "event_signature": build_event_signature(item),
             "seen_count": 1,
         }
         history.setdefault("items", []).append(record)
@@ -2658,7 +2723,14 @@ def is_company_research_candidate(item: dict[str, Any]) -> bool:
 
 def is_power_candidate(item: dict[str, Any]) -> bool:
     tags = set(item.get("topic_tags", []))
-    return item.get("category") in {"车载电源电子", "OBC/DCDC", "功率电子"} or bool(tags & {"power_electronics", "obc", "dcdc", "sic", "gan", "power_control", "fault_diagnosis", "predictive_maintenance", "digital_twin", "simulation_optimization"})
+    # Require actual power electronics tags
+    power_tags = {"power_electronics", "obc", "dcdc", "sic", "gan", "power_control", "fault_diagnosis", "predictive_maintenance", "digital_twin", "simulation_optimization"}
+    if not (tags & power_tags):
+        return False
+    # Reject if only has generic automotive tag without power electronics specifics
+    if "automotive" in tags and not (tags & {"power_electronics", "obc", "dcdc", "sic", "gan", "power_control"}):
+        return False
+    return True
 
 
 def is_auto_driving_candidate(item: dict[str, Any]) -> bool:

@@ -1,5 +1,6 @@
 import sys
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -157,6 +158,82 @@ class CollectRssDedupeTest(unittest.TestCase):
         b = news("Codex enterprise workflow release", "OpenAI releases Codex capabilities for enterprise workflows.", link="https://example.com/codex-release")
 
         self.assertFalse(collect.likely_same_story(a, b))
+
+    def test_learning_history_dedupes_rewritten_event_signature(self) -> None:
+        old_item = news(
+            "OpenAI Agents SDK guide for tool calling workflows",
+            "Official guide for building agent workflows with the Agents SDK and tool calling.",
+            link="https://openai.github.io/openai-agents-python/tools/",
+            source="OpenAI Agents SDK Docs",
+            source_type="official_doc",
+            source_quality="high",
+            summary_quality="high",
+            is_official_source=True,
+            tags=["agents_sdk", "tool_calling", "agent_workflow"],
+            concept_hint="Tool Calling",
+        )
+        history = {
+            "items": [
+                {
+                    "first_seen_date": "2026-06-01",
+                    "last_seen_date": "2026-06-01",
+                    "canonical_key": "agents sdk tool calling guide",
+                    "normalized_title": collect.normalize_title(str(old_item["title"])),
+                    "normalized_link": "https://openai.github.io/openai-agents-python/tools",
+                    "title": old_item["title"],
+                    "summary": old_item["summary"],
+                    "source": old_item["source"],
+                    "link": old_item["link"],
+                    "source_type": old_item["source_type"],
+                    "source_quality": old_item["source_quality"],
+                    "summary_quality": old_item["summary_quality"],
+                    "tags": old_item["tags"],
+                    "concept_hint": old_item["concept_hint"],
+                    "event_signature": collect.build_event_signature(old_item),
+                }
+            ]
+        }
+        new_item = news(
+            "OpenAI explains tool use in Agents SDK agent workflows",
+            "Official OpenAI documentation covers Agents SDK tool calling in agent workflow design.",
+            link="https://docs.example.com/rewritten-agents-sdk-tools",
+            source="Docs Mirror",
+            source_type="technical_blog",
+            source_quality="medium",
+            summary_quality="medium",
+            tags=["agents_sdk", "tool_calling", "agent_workflow"],
+            concept_hint="Tool Calling",
+        )
+
+        seen, reason, matched = collect.is_seen_in_learning_history(new_item, history, "2026-06-02")
+
+        self.assertTrue(seen)
+        self.assertEqual(reason, "same_event_signature")
+        self.assertIsNotNone(matched)
+
+    def test_update_learning_history_writes_event_signature(self) -> None:
+        item = news(
+            "OpenAI Codex guide for coding agents",
+            "Official Codex documentation for coding agent workflows.",
+            link="https://github.com/openai/codex",
+            source="OpenAI Codex GitHub",
+            source_type="github_repo",
+            source_quality="high",
+            summary_quality="high",
+            is_official_source=True,
+            tags=["codex", "coding_agent"],
+            concept_hint="Coding Agent",
+        )
+
+        history = collect.update_learning_history_with_items(
+            {"items": []},
+            [item],
+            "2026-06-02",
+            datetime(2026, 6, 2, tzinfo=timezone.utc),
+        )
+
+        self.assertIn("event_signature", history["items"][0])
+        self.assertIn("codex", history["items"][0]["event_signature"]["products"])
 
 
 if __name__ == "__main__":
