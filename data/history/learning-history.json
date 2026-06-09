@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T07:35:13.321674+08:00",
+  "updated_at": "2026-06-10T06:50:26.400527+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -872,6 +872,50 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "guardrails and human review",
+      "normalized_title": "guardrails and human review",
+      "normalized_link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
+      "title": "Guardrails and human review | OpenAI API",
+      "summary": "OpenAI official guide explaining how guardrails and human review help constrain agent behavior and control sensitive actions.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Guardrails",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "agent_governance",
+        "approvals",
+        "guardrails",
+        "human_in_the_loop",
+        "official",
+        "safety"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agent_governance",
+          "approvals",
+          "guardrails",
+          "human_in_the_loop",
+          "official",
+          "safety"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

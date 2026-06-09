@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T07:35:13.321674+08:00",
+  "updated_at": "2026-06-10T06:50:26.400527+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3047,6 +3047,202 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "how engineers at nextdoor use codex to build without limits",
+      "normalized_title": "how engineers at nextdoor use codex to build without limits",
+      "normalized_link": "https://openai.com/index/nextdoor",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/nextdoor",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "openai s lee spacagna on operationalizing ai workflows",
+      "normalized_title": "openai s lee spacagna on operationalizing ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUVxUmhSYWFfZnF1T0c5WVc1Nkl0MFB1a3NvTHREN3c3bmd6Z19Hb1dLX2dBaW9oRDR2Y25BODk5dXVuc1dRekVONWFFdmtfc1RKVU9yTHN4Q254WHZrYlpkbE0yVUFfVWhXSDdzLVc1aHpzWVpzaEZrYlNPNVdWeUZ3OU9malVBaHZvTlo4X0NZVjVLV3NIdFZhZ1Q1ajhib2VuY1g1YXNIVFZCTmtzU3AxeUtpbTNz?oc=5",
+      "title": "OpenAI's Lee Spacagna on Operationalizing AI Workflows - StartupHub.ai",
+      "summary": "OpenAI's Lee Spacagna on Operationalizing AI Workflows StartupHub.ai",
+      "source": "StartupHub.ai",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUVxUmhSYWFfZnF1T0c5WVc1Nkl0MFB1a3NvTHREN3c3bmd6Z19Hb1dLX2dBaW9oRDR2Y25BODk5dXVuc1dRekVONWFFdmtfc1RKVU9yTHN4Q254WHZrYlpkbE0yVUFfVWhXSDdzLVc1aHpzWVpzaEZrYlNPNVdWeUZ3OU9malVBaHZvTlo4X0NZVjVLV3NIdFZhZ1Q1ajhib2VuY1g1YXNIVFZCTmtzU3AxeUtpbTNz?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "onsemi introduces industry first elite pairing studio to simplify power design",
+      "normalized_title": "onsemi introduces industry first elite pairing studio to simplify power design",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM0JoX3R2QnZwQTFsWEQxTlFuZkZOTktoVG9QaUFSYWhsbFBrYy1kbnBYaTB1Znl5Rm9vMDYtZW9sMURJalg2T29RcFdVVWtpVnR0bmc0aDBhSGIzb3drbkJLTVp2RmQzakdkbXVQR0hVOWRXSTlvRUl6dkw4WGhPMkRGTmlmdHBsRWZ4WklJaktWTkhOMkZMNEIzOExzWW1MOVRzWG5uZWFtZUNXS19FVHFCUnNlREtWN195enJ4ZzhrWE1nMU1jZ3BjcGliUzcxWkJmQnh4ZzZjdzQ?oc=5",
+      "title": "onsemi Introduces Industry-First Elite Pairing Studio to Simplify Power Design - onsemi",
+      "summary": "onsemi Introduces Industry-First Elite Pairing Studio to Simplify Power Design onsemi",
+      "source": "onsemi",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM0JoX3R2QnZwQTFsWEQxTlFuZkZOTktoVG9QaUFSYWhsbFBrYy1kbnBYaTB1Znl5Rm9vMDYtZW9sMURJalg2T29RcFdVVWtpVnR0bmc0aDBhSGIzb3drbkJLTVp2RmQzakdkbXVQR0hVOWRXSTlvRUl6dkw4WGhPMkRGTmlmdHBsRWZ4WklJaktWTkhOMkZMNEIzOExzWW1MOVRzWG5uZWFtZUNXS19FVHFCUnNlREtWN195enJ4ZzhrWE1nMU1jZ3BjcGliUzcxWkJmQnh4ZzZjdzQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "onsemi"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "claude opus 4 8正式发布 支持算力调节 动态工作流与更强诚实性",
+      "normalized_title": "claude opus 4 8正式发布 支持算力调节 动态工作流与更强诚实性",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bXREcGhWV3RFYTVYbmFfT1lPMGRsQ0RDNzh2d2Z4Y0JnU1hiNDQ0WE5YeUJfWE5xXzVZeE81OTRGOGFwVURjWmE5UXI1VG4ybzUwM0hlclFBdWtDenc?oc=5",
+      "title": "Claude Opus 4.8正式发布：支持算力调节、动态工作流与更强诚实性 - thepaper.cn",
+      "summary": "Claude Opus 4.8正式发布：支持算力调节、动态工作流与更强诚实性 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bXREcGhWV3RFYTVYbmFfT1lPMGRsQ0RDNzh2d2Z4Y0JnU1hiNDQ0WE5YeUJfWE5xXzVZeE81OTRGOGFwVURjWmE5UXI1VG4ybzUwM0hlclFBdWtDenc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "chip",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "chip",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "anthropic 被曝雇1000名人类工程师 培训 claude code 时薪280美元 ai 编程越进化越离不开真人兜底",
+      "normalized_title": "anthropic 被曝雇1000名人类工程师 培训 claude code 时薪280美元 ai 编程越进化越离不开真人兜底",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4RmNyeWt0Ri1pZjFURXQyTGs2ZjBCN2QydS1vV1pRd1dHVGJZS2s2VFVyNnAybE9xbUgxTjhabWs1dnpTT0ZRQWc2TjVHcDZ3R2ZrWXhSOWFqUQ?oc=5",
+      "title": "Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底 - Infoq.cn",
+      "summary": "Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底 Infoq.cn",
+      "source": "Infoq.cn",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4RmNyeWt0Ri1pZjFURXQyTGs2ZjBCN2QydS1vV1pRd1dHVGJZS2s2VFVyNnAybE9xbUgxTjhabWs1dnpTT0ZRQWc2TjVHcDZ3R2ZrWXhSOWFqUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
