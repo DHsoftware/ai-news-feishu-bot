@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T07:41:55.546355+08:00",
+  "updated_at": "2026-06-11T06:57:17.935905+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3281,6 +3281,182 @@
           "benchmark",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "designing production ready battery energy storage systems for ai factories",
+      "normalized_title": "designing production ready battery energy storage systems for ai factories",
+      "normalized_link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories",
+      "title": "Designing Production-Ready Battery Energy Storage Systems for AI Factories",
+      "summary": "AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale.... AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufactu…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "uipath introduces native coding agent integration for enterprise automation",
+      "normalized_title": "uipath introduces native coding agent integration for enterprise automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQODd2X2d0Tk02VG85azY4aTZXTzBweC1ZUnFLOEM2QS1DZnN5YmRhd2Z2Q3lDai1PaUF3ME1aYlF1aHA1dHE2OUQxX3R6VmVvN1NoYjFsYXNuVXdxRFh3U0REMGFwYkNzZnF1aDFhUWxYRE80aGQyTHdUWUY3SzkxdW8zNUpNN01RdXJUWERUZGZ6RkZuTWtFUlhUaHRtMVMwY3hmaHFaLWZhRk5KaW5DUjZaV2hKTGJSRGc?oc=5",
+      "title": "UiPath Introduces native coding agent integration for enterprise automation - Telecompaper",
+      "summary": "UiPath Introduces native coding agent integration for enterprise automation Telecompaper",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQODd2X2d0Tk02VG85azY4aTZXTzBweC1ZUnFLOEM2QS1DZnN5YmRhd2Z2Q3lDai1PaUF3ME1aYlF1aHA1dHE2OUQxX3R6VmVvN1NoYjFsYXNuVXdxRFh3U0REMGFwYkNzZnF1aDFhUWxYRE80aGQyTHdUWUY3SzkxdW8zNUpNN01RdXJUWERUZGZ6RkZuTWtFUlhUaHRtMVMwY3hmaHFaLWZhRk5KaW5DUjZaV2hKTGJSRGc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding_agent",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding_agent",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "gm thinks evs can help offset ai s energy suck with vehicle to grid tech",
+      "normalized_title": "gm thinks evs can help offset ai s energy suck with vehicle to grid tech",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRHU5SFJ6R2hZVGQ5b0JWZVpRaXh4dWxVSmJlQnBGUDlLU052TGVIdlpaNnNJVmMwNWNGTDl5eTRBTzBYaDRXR3otSFFfVTV5WnRJVmdJei0ySWdUMHFYcGpqemdJQWp4M1JBZUc5WUxzUGVTTG5TYmNESUhENTZaSkxmUXdFVVE3aGc?oc=5",
+      "title": "GM thinks EVs can help offset AI’s energy suck with vehicle-to-grid tech - The Verge",
+      "summary": "GM thinks EVs can help offset AI’s energy suck with vehicle-to-grid tech The Verge",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRHU5SFJ6R2hZVGQ5b0JWZVpRaXh4dWxVSmJlQnBGUDlLU052TGVIdlpaNnNJVmMwNWNGTDl5eTRBTzBYaDRXR3otSFFfVTV5WnRJVmdJei0ySWdUMHFYcGpqemdJQWp4M1JBZUc5WUxzUGVTTG5TYmNESUhENTZaSkxmUXdFVVE3aGc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "automotive",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "automotive",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "最前线 ai跨境电商工具混战 storeclaw想用 一个大脑 接管卖家的店",
+      "normalized_title": "最前线 ai跨境电商工具混战 storeclaw想用 一个大脑 接管卖家的店",
+      "normalized_link": "https://36kr.com/p/3846793046133257?f=rss",
+      "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
+      "summary": "文｜张子怡 编辑｜袁斯来 在竞争常年格外激烈的跨境电商行业，精细化运营已成为决定商家利润的关键，多渠道布局则是规避风险的普遍运营选择。当前，“Shopify独立站+亚马逊+TikTok Shop”的多渠道三位一体布局，已成为中大型出海卖家的标配。 不过，多渠道运作伴随着极高的人力成本与管理成本。有数据显示，一个典型的跨境商家在日常运营中，平均需要配置超过3.5个功能各异的点状工具；对于独立站卖家而言，这一数字往往会上升到5个甚至更多。 因此，跨境电商圈对于AI工具的降本增效功能格外渴望。在过去两年的大模型热潮中，跨境卖家们用ChatGPT写描述、Midjourney生图、翻译客服等工具塞满工…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3846793046133257?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "llm",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "inference",
+          "llm",
+          "model_capability",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "在反外挂前线 游戏厂商开启了 军备竞赛",
+      "normalized_title": "在反外挂前线 游戏厂商开启了 军备竞赛",
+      "normalized_link": "https://36kr.com/p/3846046471277059?f=rss",
+      "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
+      "summary": "“破坏公平，就该受到惩罚”，这几乎是所有人心中的共识。 但在聚集了数千万乃至上亿参与者的游戏竞技场里，作弊行为的边界却显得模糊。 在网络游戏领域，作弊有一个更广为人知的称呼：“开外挂”。它包含一切通过非官方允许的外部程序或硬件，获取超过正常玩家所拥有的信息与操作能力的行为。而在涉及游戏的场景中，外挂往往不包含在单机游戏里使用数据修改器，而是特指多人竞技游戏中的透视、自瞄等工具。 当下互联网除了外挂开发者，还有一部分内容创作者也把“外挂”作为有噱头的传播素材，获取流量，甚至是给外挂打广告，做宣传。 比如在一些深夜的直播间里，摸金玩法游戏的“寻宝鼠”类主播会持续向观众展示“自己如何利用物资透视外…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3846046471277059?f=rss",
+      "category": "白皮书",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security",
+        "whitepaper"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security",
+          "whitepaper"
         ]
       },
       "seen_count": 1

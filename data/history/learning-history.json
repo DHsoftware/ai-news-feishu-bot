@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T07:41:55.546355+08:00",
+  "updated_at": "2026-06-11T06:57:17.935905+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -916,6 +916,46 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "cursor docs agent rules mcp skills cli",
+      "normalized_title": "cursor docs agent rules mcp skills cli",
+      "normalized_link": "https://docs.cursor.com",
+      "title": "Cursor Docs — Agent, Rules, MCP, Skills & CLI",
+      "summary": "Official Cursor documentation. Covers Agent mode, Rules, Skills, MCP servers, CLI, models, and Teams & Enterprise setup. Start building in minutes.",
+      "source": "Cursor Docs",
+      "link": "https://docs.cursor.com/",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "coding_agent",
+        "mcp",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "cursor",
+          "mcp"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "mcp",
+          "terminal",
+          "workflow"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

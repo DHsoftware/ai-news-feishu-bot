@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-11T06:57:17.935905+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 58,
+    "history_size_after": 59,
+    "history_duplicate_count": 6
+  },
+  "raw_item_count": 80,
+  "deduped_item_count": 27,
+  "filtered_item_count": 8,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Cursor Docs — Agent, Rules, MCP, Skills & CLI",
+      "summary": "Official Cursor documentation. Covers Agent mode, Rules, Skills, MCP servers, CLI, models, and Teams & Enterprise setup. Start building in minutes.",
+      "summary_source": "page_meta_description",
+      "summary_quality": "high",
+      "published_at": "2026-06-11T06:57:17.935905+08:00",
+      "source": "Cursor Docs",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "link": "https://docs.cursor.com/",
+      "tags": [
+        "agent",
+        "coding_agent",
+        "mcp",
+        "workflow"
+      ],
+      "concept_hint": "MCP",
+      "score": 94,
+      "canonical_key": "cursor docs agent rules mcp skills cli",
+      "dedupe_key": "cursor docs agent rules mcp skills cli",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 53,
+    "history_duplicate": 6,
+    "same_source_limit": 0,
+    "old_resource": 13,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}
