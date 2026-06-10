@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T06:50:26.400527+08:00",
+  "updated_at": "2026-06-10T07:41:55.546355+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3088,7 +3088,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-09",
@@ -3127,7 +3127,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-09",
@@ -3162,7 +3162,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-09",
@@ -3203,7 +3203,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-09",
@@ -3238,6 +3238,47 @@
           "agent",
           "agentic_ai",
           "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-09",
+      "last_seen_date": "2026-06-09",
+      "canonical_key": "anthropic深夜发布claude fable 5 mythos 5 屠榜所有基准测试",
+      "normalized_title": "anthropic深夜发布claude fable 5 mythos 5 屠榜所有基准测试",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQmxMalBrdGVDVGxXcWEyMkRLTC1qMVRIWV9FdHVmcEE3VU0xMWl0R0dadTNsUEZzT1BJVER1TjZ5S3Yxa3ExX29nelNRM3VscFRfRVM4bkpGRl96SEpsNlBGVHZnLWpSS0Fmdg?oc=5",
+      "title": "Anthropic深夜发布Claude Fable 5/Mythos 5，屠榜所有基准测试 - QQ News",
+      "summary": "Anthropic深夜发布Claude Fable 5/Mythos 5，屠榜所有基准测试 QQ News",
+      "source": "QQ News",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQmxMalBrdGVDVGxXcWEyMkRLTC1qMVRIWV9FdHVmcEE3VU0xMWl0R0dadTNsUEZzT1BJVER1TjZ5S3Yxa3ExX29nelNRM3VscFRfRVM4bkpGRl96SEpsNlBGVHZnLWpSS0Fmdg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
           "coding",
           "coding_agent"
         ]

@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-10T06:50:26.400527+08:00",
+  "generated_at": "2026-06-10T07:41:55.546355+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,13 +17,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 57,
+    "history_size_before": 58,
     "history_size_after": 58,
-    "history_duplicate_count": 5
+    "history_duplicate_count": 6
   },
   "raw_item_count": 79,
   "deduped_item_count": 27,
-  "filtered_item_count": 9,
+  "filtered_item_count": 8,
   "curated_item_count": 1,
   "curated_items": [
     {
@@ -45,7 +45,7 @@
         "official",
         "safety"
       ],
-      "published_at": "2026-06-10T06:50:26.400527+08:00",
+      "published_at": "2026-06-10T07:41:55.546355+08:00",
       "language": "en",
       "region": "global",
       "source_group": "official_agent_concept",
@@ -58,7 +58,7 @@
   ],
   "rejected_stats": {
     "duplicate": 52,
-    "history_duplicate": 5,
+    "history_duplicate": 6,
     "same_source_limit": 0,
     "old_resource": 13,
     "similar_selected": 0,
