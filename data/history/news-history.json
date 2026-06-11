@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T06:57:17.935905+08:00",
+  "updated_at": "2026-06-11T07:48:35.761601+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3321,7 +3321,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3360,7 +3360,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3393,7 +3393,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3430,7 +3430,7 @@
           "org_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3457,6 +3457,39 @@
         "topics": [
           "security",
           "whitepaper"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-10",
+      "canonical_key": "china:https://36kr.com/p/3846956646124036?f=rss",
+      "normalized_title": "",
+      "normalized_link": "https://36kr.com/p/3846956646124036?f=rss",
+      "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
+      "summary": "文｜周鑫雨 编辑｜张雨忻 《智能涌现》独家获悉， 字节跳动 AI 制药业务线已启动拆分与独立融资进程。 据悉，拆分后字节仍将控股新公司，AI 制药核心团队、核心算法、技术平台和已有管线资产将整体进入新主体。同时，该业务也将继续从火山引擎获得算力支持。 新公司将由字节跳动 AI 制药团队主导负责。字节 AI 制药团队成立于 2021 年，由刘凯负责，据悉核心成员约50人，由 AI4S 算法人才和资深制药领域专家构成。该团队自成立起便承担着从基础模型研究到产业化的核心职能。 此前字节内部负责蛋白结构预测模型的相关团队，也已并入由刘凯负责的 AI 制药团队 ，相关算法模型团队已完成整合，将继续推进…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3846956646124036?f=rss",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "chip",
+          "opensource",
+          "research"
         ]
       },
       "seen_count": 1

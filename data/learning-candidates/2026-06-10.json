@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-11T06:57:17.935905+08:00",
+  "generated_at": "2026-06-11T07:48:35.761601+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,11 +17,11 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 58,
+    "history_size_before": 59,
     "history_size_after": 59,
     "history_duplicate_count": 6
   },
-  "raw_item_count": 80,
+  "raw_item_count": 81,
   "deduped_item_count": 27,
   "filtered_item_count": 8,
   "curated_item_count": 1,
@@ -31,7 +31,7 @@
       "summary": "Official Cursor documentation. Covers Agent mode, Rules, Skills, MCP servers, CLI, models, and Teams & Enterprise setup. Start building in minutes.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-06-11T06:57:17.935905+08:00",
+      "published_at": "2026-06-11T07:48:35.761601+08:00",
       "source": "Cursor Docs",
       "source_type": "official_doc",
       "source_quality": "high",
@@ -53,7 +53,7 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 53,
+    "duplicate": 54,
     "history_duplicate": 6,
     "same_source_limit": 0,
     "old_resource": 13,

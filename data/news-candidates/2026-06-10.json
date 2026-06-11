@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-11T06:57:17.935905+08:00",
+  "generated_at": "2026-06-11T07:48:35.761601+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 185,
-    "history_size_after": 190,
-    "history_duplicate_count": 22
+    "history_size_before": 190,
+    "history_size_after": 191,
+    "history_duplicate_count": 25
   },
-  "raw_item_count": 5193,
-  "deduped_item_count": 3813,
-  "filtered_item_count": 442,
+  "raw_item_count": 5201,
+  "deduped_item_count": 3811,
+  "filtered_item_count": 446,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -169,13 +169,13 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
-      "summary": "“破坏公平，就该受到惩罚”，这几乎是所有人心中的共识。 但在聚集了数千万乃至上亿参与者的游戏竞技场里，作弊行为的边界却显得模糊。 在网络游戏领域，作弊有一个更广为人知的称呼：“开外挂”。它包含一切通过非官方允许的外部程序或硬件，获取超过正常玩家所拥有的信息与操作能力的行为。而在涉及游戏的场景中，外挂往往不包含在单机游戏里使用数据修改器，而是特指多人竞技游戏中的透视、自瞄等工具。 当下互联网除了外挂开发者，还有一部分内容创作者也把“外挂”作为有噱头的传播素材，获取流量，甚至是给外挂打广告，做宣传。 比如在一些深夜的直播间里，摸金玩法游戏的“寻宝鼠”类主播会持续向观众展示“自己如何利用物资透视外挂，在地图中精准搜集各个高价值物品”。这种展示将开挂包装成了娱乐化的猎奇景观，弱化了反外挂一事的严肃性，也让游戏厂商打之不尽。 物资透视可以直接显示地图上的物品信息 毕竟，外挂开发者持续获客的手段之一，就是主动降低潜在用户的心理门槛。 除了制造噱头获取流量，他们往往还会在社交平台、电商渠道、私域社群中包装产品，称其为“辅助工具”“稳定插件”，从而模糊其非法属性。 目前，外挂使用群体的基数，也正随着国内玩家总量变大而增多。每当市场出现一款现象级游戏，外挂开发者就会在极短时间内完成响应，从而迅速牟取暴利。数年前的PUBG，当下的《三角洲行动》，基本都经历过“游戏爆火而外挂激增”的情况。 也有不少UP主分享自己碰上外挂的经历 据《2025游戏安全白皮书》统计，如今手游外挂功能的打击量在过去8年间增长了148倍���同时，PC端的外挂样本在一年内首次突破10万例，同比增幅达124%。也就是说，外挂的供给和需求量，都在不断扩大。 《2025游戏安全白皮书》统计数据 这里面有不少使用者，更多是对外挂的法律性质和黑产关联缺乏客观认知。他们未必清楚，每一次使用行为都会为下游的黑产链条提供现金流，从而客…",
+      "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
+      "summary": "文｜周鑫雨 编辑｜张雨忻 《智能涌现》独家获悉， 字节跳动 AI 制药业务线已启动拆分与独立融资进程。 据悉，拆分后字节仍将控股新公司，AI 制药核心团队、核心算法、技术平台和已有管线资产将整体进入新主体。同时，该业务也将继续从火山引擎获得算力支持。 新公司将由字节跳动 AI 制药团队主导负责。字节 AI 制药团队成立于 2021 年，由刘凯负责，据悉核心成员约50人，由 AI4S 算法人才和资深制药领域专家构成。该团队自成立起便承担着从基础模型研究到产业化的核心职能。 此前字节内部负责蛋白结构预测模型的相关团队，也已并入由刘凯负责的 AI 制药团队 ，相关算法模型团队已完成整合，将继续推进该领域的基础模型研究，少数人员离职。 字节 AI 制药的业务进展，是这次拆分融资的重要基础。 字节跳动在 AI 制药方向有多个技术成果，2025 年，字节 AI4S 团队发布了分子结构预测模型 Protenix 和 Seedfold，并在 2026 年迭代 Protenix-v1/v2，构建面向蛋白、配体等生物复合体系的高精度开源结构预测能力。 在蛋白质设计和预测方面，团队则推出了 PXDesign 等蛋白 binder（结合蛋白）设计工具。 同时，字节还推出了面向真实药物研发的 AI 制药平台 Anew Labs。 Anew Labs 官网显示，团队已发布 AnewSampling、AnewOmni、AnewFEP、AnewSynth、scNext 等研究，覆盖蛋白-配体动态结构预测、全原子分子生成、自由能计算、合成可行性预测和虚拟细胞等方向，并推出 IL17AA/AF/FF、IL4R 等早期药物管线。 2026 年 4 月，Anew Labs 在美国免疫学会年会上首次披露 IL-17 小分子项目，在全球范围内首次实现用小分子对 IL-17 家族 AA/AF/FF 3个二聚体的阻断。…",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-06-09T22:48:11+08:00",
+      "published_at": "2026-06-10T14:11:37+08:00",
       "source": "36氪",
-      "link": "https://36kr.com/p/3846046471277059?f=rss",
+      "link": "https://36kr.com/p/3846956646124036?f=rss",
       "language": "zh",
       "region": "china",
       "source_group": "china",
@@ -184,26 +184,26 @@
       "is_official_source": false,
       "tags": [],
       "topic_tags": [
-        "security",
-        "whitepaper"
+        "chip",
+        "opensource"
       ],
-      "category": "白皮书",
-      "dedupe_key": "在反外挂前线 游戏厂商开启了 军备竞赛",
-      "canonical_key": "在反外挂前线 游戏厂商开启了 军备竞赛",
-      "normalized_link": "https://36kr.com/p/3846046471277059?f=rss",
-      "score": 24,
+      "category": "AI芯片",
+      "dedupe_key": "",
+      "canonical_key": "china:https://36kr.com/p/3846956646124036?f=rss",
+      "normalized_link": "https://36kr.com/p/3846956646124036?f=rss",
+      "score": 16,
       "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1380,
-    "history_duplicate": 22,
-    "weak_relevance": 182,
+    "duplicate": 1390,
+    "history_duplicate": 25,
+    "weak_relevance": 179,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3189,
-    "same_entity_limit": 87,
+    "old_news": 3186,
+    "same_entity_limit": 91,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
