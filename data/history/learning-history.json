@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T07:48:35.761601+08:00",
+  "updated_at": "2026-06-12T06:59:20.746060+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -956,6 +956,47 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-11",
+      "canonical_key": "overview",
+      "normalized_title": "overview",
+      "normalized_link": "https://docs.anthropic.com/en/docs/claude-code",
+      "title": "Overview - Claude Code Docs",
+      "summary": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.",
+      "source": "Anthropic Docs",
+      "link": "https://docs.anthropic.com/en/docs/claude-code",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Tool Calling",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "coding_agent",
+        "tools",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "terminal",
+          "tools",
+          "workflow"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

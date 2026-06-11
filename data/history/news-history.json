@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T07:48:35.761601+08:00",
+  "updated_at": "2026-06-12T06:59:20.746060+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2426,7 +2426,7 @@
     },
     {
       "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
+      "last_seen_date": "2026-06-11",
       "canonical_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
       "normalized_title": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
       "normalized_link": "https://news.google.com/rss/articles/CBMinwRBVV95cUxPbGJkMjNDS2FoZWNwUWNtNlBFdWVNNkpuRnJPSDYzTzloUTNPZDFUQXJlMFZCMDlOel9EQ3hSNm85SmtxdXhBX09wRl9aRzZLT2dPamRaTGdrUWxvRGhkRDNQTE9wT2pmb1JLbU9xdEJTMDZGUkFIeTY2alVpUjBCY1BJRlV0QTNXdGFkWTZ1eEo5ZVZlQ05PNVdEZzA2LUZxTUVwNThtVTVNbmtzUVRwM1RGM1dESFYxcFhHcGtlZU5jZV9hNzViZWdtaTVYRHhtaThaVm9ITVRJaHEzNVV2NGhmRU9wUVEyMHg5cGtXMGhjNFIzcF9pSzZra0w2WGhMaDgxbDhvNDFBbmwyMUdsaGJ2Wm5ma05wYWV4a0RYdEV1X3JIbXFEaXZBWlAzYzZGQXctVmtsSm0zc0hsLXZGeERXOEJRV1doOVEzOUV5SjM1Z1JWWloySi1iNExiVzJnclk3UWxGNWdwOEh5ZkRPSTFmV3I4RWtNZ0NOLXgzQmx2azh0cjVHRjlqVEpPaVhabzZhQXh0NF9HVXlKT1pwMFVxZkVDSmY4OUNhYkJuNTU1RWZxRFhMZTNIeVNubTJmUEVUclY0YWdmWHBrUkgwdG81TXF4cUZzSkNEU09ZUXZHNC1rXzNKTDJtMlJobXdRZHVWYzhsWDZ2bWFmM0NQeGVEcTBZV0ZRd1Q5N2oxTktTYTFlTHZLb1BrdjdNRVE?oc=5",
@@ -2447,7 +2447,24 @@
         "coding_agent",
         "opensource"
       ],
-      "seen_count": 1
+      "seen_count": 2,
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "opensource"
+        ]
+      }
     },
     {
       "first_seen_date": "2026-06-05",
@@ -3287,7 +3304,7 @@
     },
     {
       "first_seen_date": "2026-06-10",
-      "last_seen_date": "2026-06-10",
+      "last_seen_date": "2026-06-11",
       "canonical_key": "designing production ready battery energy storage systems for ai factories",
       "normalized_title": "designing production ready battery energy storage systems for ai factories",
       "normalized_link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories",
@@ -3321,7 +3338,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3490,6 +3507,127 @@
           "chip",
           "opensource",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-11",
+      "canonical_key": "how an astrophysicist uses codex to help simulate black holes",
+      "normalized_title": "how an astrophysicist uses codex to help simulate black holes",
+      "normalized_link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report",
+        "simulation_optimization"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "simulation_optimization"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-11",
+      "canonical_key": "simple booking accelerates ai transformation of hotel distribution with release of mcp connectors",
+      "normalized_title": "simple booking accelerates ai transformation of hotel distribution with release of mcp connectors",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNXzlGT0Vfc2huaVZGNDVZWkc2ZlhwUzZkTWhweHhwYmh2M3VzcUhoODJDMXYxd2dxLVNITGdrOER2d3AzZ2J4dzMzalFJNGVUbEV6R1FUUldtUUkzSHVJSDhtMnlVNGZHaGdZRF8xMmlSdVRkeTBsa0pGUmxnU3ZpQmxvMGpEZGd2RlltOWMwaHdKOC02TWZiZzFuWkV0bmVlM2M5OEZZc3BtaXRhTUdUV0tfU0d1cHNUak9TOHJjeDRNRjNma080cm91cl9PZUk5ZnR5QVpKTjA?oc=5",
+      "title": "Simple Booking Accelerates AI Transformation of Hotel Distribution with Release of MCP Connectors - Hospitality Net",
+      "summary": "Simple Booking Accelerates AI Transformation of Hotel Distribution with Release of MCP Connectors Hospitality Net",
+      "source": "Hospitality Net",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNXzlGT0Vfc2huaVZGNDVZWkc2ZlhwUzZkTWhweHhwYmh2M3VzcUhoODJDMXYxd2dxLVNITGdrOER2d3AzZ2J4dzMzalFJNGVUbEV6R1FUUldtUUkzSHVJSDhtMnlVNGZHaGdZRF8xMmlSdVRkeTBsa0pGUmxnU3ZpQmxvMGpEZGd2RlltOWMwaHdKOC02TWZiZzFuWkV0bmVlM2M5OEZZc3BtaXRhTUdUV0tfU0d1cHNUak9TOHJjeDRNRjNma080cm91cl9PZUk5ZnR5QVpKTjA?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "coding_agent",
+        "mcp",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "coding_agent",
+          "mcp",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-11",
+      "canonical_key": "万亿ai巨头的罕见运营模式 anthropic ceo仅 管一人 妹妹成大管家 ai 人工智能",
+      "normalized_title": "万亿ai巨头的罕见运营模式 anthropic ceo仅 管一人 妹妹成大管家 ai 人工智能",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fRzRObGpnM1BWV0lpMFFEYno5bGZCS3BtTzFwYk5vQ3FUXzRyV09QekJxVi13OWQzVGdhWHFYTzZ3UjdLay1uYk1CTU1ScXJBcjBZb05jb3pJOVg0cjAyaw?oc=5",
+      "title": "万亿AI巨头的罕见运营模式：Anthropic CEO仅“管一人” 妹妹成大管家- AI 人工智能 - cnBeta.COM",
+      "summary": "万亿AI巨头的罕见运营模式：Anthropic CEO仅“管一人” 妹妹成大管家- AI 人工智能 cnBeta.COM",
+      "source": "cnBeta.COM",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fRzRObGpnM1BWV0lpMFFEYno5bGZCS3BtTzFwYk5vQ3FUXzRyV09QekJxVi13OWQzVGdhWHFYTzZ3UjdLay1uYk1CTU1ScXJBcjBZb05jb3pJOVg0cjAyaw?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
