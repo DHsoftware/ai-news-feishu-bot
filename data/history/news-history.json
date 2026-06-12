@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T06:59:20.746060+08:00",
+  "updated_at": "2026-06-12T07:52:08.067510+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3338,7 +3338,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-10",
@@ -3552,7 +3552,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-11",
@@ -3597,7 +3597,7 @@
           "org_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-11",
@@ -3628,6 +3628,43 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-11",
+      "canonical_key": "chatgpt重大改版在即 智能体将取代对话框成为核心",
+      "normalized_title": "chatgpt重大改版在即 智能体将取代对话框成为核心",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
+      "title": "ChatGPT重大改版在即：智能体将取代对话框成为核心 - thepaper.cn",
+      "summary": "ChatGPT重大改版在即：智能体将取代对话框成为核心 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1

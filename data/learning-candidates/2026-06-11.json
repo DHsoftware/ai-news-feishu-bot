@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-12T06:59:20.746060+08:00",
+  "generated_at": "2026-06-12T07:52:08.067510+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 59,
+    "history_size_before": 60,
     "history_size_after": 60,
     "history_duplicate_count": 7
   },
@@ -31,7 +31,7 @@
       "summary": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-06-12T06:59:20.746060+08:00",
+      "published_at": "2026-06-12T07:52:08.067510+08:00",
       "source": "Anthropic Docs",
       "source_type": "official_doc",
       "source_quality": "high",

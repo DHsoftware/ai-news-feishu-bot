@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-12T06:59:20.746060+08:00",
+  "generated_at": "2026-06-12T07:52:08.067510+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 191,
-    "history_size_after": 194,
-    "history_duplicate_count": 36
+    "history_size_before": 194,
+    "history_size_after": 195,
+    "history_duplicate_count": 39
   },
-  "raw_item_count": 5194,
-  "deduped_item_count": 3836,
-  "filtered_item_count": 448,
+  "raw_item_count": 5191,
+  "deduped_item_count": 3844,
+  "filtered_item_count": 452,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -114,13 +114,13 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 - 新浪财经",
-      "summary": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 新浪财经",
+      "title": "ChatGPT重大改版在即：智能体将取代对话框成为核心 - thepaper.cn",
+      "summary": "ChatGPT重大改版在即：智能体将取代对话框成为核心 thepaper.cn",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-06-10T21:35:31+08:00",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMijAVBVV95cUxORmd2eTUtS3pjTnBSMm1ERkMybURyX2VGaF9QQVl6Y0VqSEdyczFfemlZaFFBU1k0MUtpazEzOU9Zb2U4NExYRlJaODZpN2pKTmloRVowTFM3RGF2Q2V4aU5HckxLZ0VvV1dIT2JsNW1FN3lmWTZYaDN2ZmtpTXpDemZrVVN1WjRzdklpVUViWXdhRlduVUVISkpRSTFuSElRZXhxbW1nbUZGdFVuRVVMbGhLVG1RM3V5RHNiZm9QYnZCc1JSTWx3V2tFbk9XdWZEWndjWUdHMDhseDNOek9HSUxLdE50TGY0eUZpQzhXM0FQZDFfTnJTdHRuMDF2TkRvRFBCZ3BoOWgwbjFvaEs3d2xITVZXcjBWdFduVVR4SVJLbkhXd1NCQ2k1ZzZkQ1lRVWlzNXd4cDNHT3Q2Y28xQmlPUnpSZVlITlZBcFlSblNyempydDNmNUZZQ0tMbkY3dWpxZ08tYVplQzk1ZWh2bTA1V2JhQnlHTWlnMGhYUWNYZ1llOXFGbW5mX2tQWWwwOGJUeUhqRUg0V2hQM1pYSFlFd1h3T0UxQ2E0ajMyNF9EcWhrdUVCVmNudF9aZVZMYU10ZVFodXVaWUNieDF4cFhyNUZZQVppbW9odGh6SDZ0cmdEN005YlE2aFFhRnlpa3hxSHVPRlJreFAtTWFCa3NrTjY4a1c5UkhKWFJ2bjRJV0tsQ3g0aS1URmpOQVpLWkhHNXdoVk1aeE02RkJYY1hyUU5lckY4YzgxRGRqbld0YU02TFdPRlZ5aU45MVpMaVVtSnpidWt1VTEzZEt0OWM1QkRrenVTM1o2SWZvbWZrTU1sTWNmai1ZVWN6alFoUEZ3Z280NXZEbi1t?oc=5",
+      "published_at": "2026-06-10T12:29:00+08:00",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -136,16 +136,15 @@
         "agent",
         "agentic_ai",
         "ai_agent",
-        "benchmark",
         "coding",
         "coding_agent",
-        "opensource"
+        "research"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
-      "canonical_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAVBVV95cUxORmd2eTUtS3pjTnBSMm1ERkMybURyX2VGaF9QQVl6Y0VqSEdyczFfemlZaFFBU1k0MUtpazEzOU9Zb2U4NExYRlJaODZpN2pKTmloRVowTFM3RGF2Q2V4aU5HckxLZ0VvV1dIT2JsNW1FN3lmWTZYaDN2ZmtpTXpDemZrVVN1WjRzdklpVUViWXdhRlduVUVISkpRSTFuSElRZXhxbW1nbUZGdFVuRVVMbGhLVG1RM3V5RHNiZm9QYnZCc1JSTWx3V2tFbk9XdWZEWndjWUdHMDhseDNOek9HSUxLdE50TGY0eUZpQzhXM0FQZDFfTnJTdHRuMDF2TkRvRFBCZ3BoOWgwbjFvaEs3d2xITVZXcjBWdFduVVR4SVJLbkhXd1NCQ2k1ZzZkQ1lRVWlzNXd4cDNHT3Q2Y28xQmlPUnpSZVlITlZBcFlSblNyempydDNmNUZZQ0tMbkY3dWpxZ08tYVplQzk1ZWh2bTA1V2JhQnlHTWlnMGhYUWNYZ1llOXFGbW5mX2tQWWwwOGJUeUhqRUg0V2hQM1pYSFlFd1h3T0UxQ2E0ajMyNF9EcWhrdUVCVmNudF9aZVZMYU10ZVFodXVaWUNieDF4cFhyNUZZQVppbW9odGh6SDZ0cmdEN005YlE2aFFhRnlpa3hxSHVPRlJreFAtTWFCa3NrTjY4a1c5UkhKWFJ2bjRJV0tsQ3g0aS1URmpOQVpLWkhHNXdoVk1aeE02RkJYY1hyUU5lckY4YzgxRGRqbld0YU02TFdPRlZ5aU45MVpMaVVtSnpidWt1VTEzZEt0OWM1QkRrenVTM1o2SWZvbWZrTU1sTWNmai1ZVWN6alFoUEZ3Z280NXZEbi1t?oc=5",
-      "score": 81,
+      "dedupe_key": "chatgpt重大改版在即 智能体将取代对话框成为核心",
+      "canonical_key": "chatgpt重大改版在即 智能体将取代对话框成为核心",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
+      "score": 73,
       "selection_reason": "china_quota"
     },
     {
@@ -214,14 +213,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1358,
-    "history_duplicate": 36,
+    "duplicate": 1347,
+    "history_duplicate": 39,
     "weak_relevance": 203,
     "same_source_limit": 0,
-    "china_limit": 8,
+    "china_limit": 11,
     "auto_china_limit": 0,
-    "old_news": 3185,
-    "same_entity_limit": 127,
+    "old_news": 3189,
+    "same_entity_limit": 115,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
