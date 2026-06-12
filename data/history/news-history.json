@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T07:52:08.067510+08:00",
+  "updated_at": "2026-06-13T06:47:57.158935+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3513,7 +3513,7 @@
     },
     {
       "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-12",
       "canonical_key": "how an astrophysicist uses codex to help simulate black holes",
       "normalized_title": "how an astrophysicist uses codex to help simulate black holes",
       "normalized_link": "https://openai.com/index/using-codex-to-simulate-black-holes",
@@ -3552,7 +3552,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-11",
@@ -3665,6 +3665,167 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-12",
+      "canonical_key": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
+      "normalized_title": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark",
+      "title": "NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark",
+      "summary": "AI agents have fundamentally changed the complexity of inference workloads. Until now, the industry has struggled to define a standard for measuring how... AI agents have fundamentally changed the complexity of inference workloads. Until now, the industry has struggled to define a standard for meas…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-12",
+      "canonical_key": "ai productivity fads from prompt engineering to tokenmaxxing",
+      "normalized_title": "ai productivity fads from prompt engineering to tokenmaxxing",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
+      "title": "AI productivity fads, from prompt engineering to tokenmaxxing - qz.com",
+      "summary": "AI productivity fads, from prompt engineering to tokenmaxxing qz.com",
+      "source": "qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-12",
+      "canonical_key": "模型能力突破助推 智能体团队 落地 释放a2a价值",
+      "normalized_title": "模型能力突破助推 智能体团队 落地 释放a2a价值",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45OWU0RHBkNlhyS1J1TzhUal9RTHFxclpPT3pWbm9jWUNYWWxGV3UtQmNqREg5NHNhQzV4Q1VraUJGeUt2T3dPdXJocjZObDM5d0hjdHpKQ1hKdm04WWJBbw?oc=5",
+      "title": "模型能力突破助推“智能体团队”落地，释放A2A价值 - thepaper.cn",
+      "summary": "模型能力突破助推“智能体团队”落地，释放A2A价值 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45OWU0RHBkNlhyS1J1TzhUal9RTHFxclpPT3pWbm9jWUNYWWxGV3UtQmNqREg5NHNhQzV4Q1VraUJGeUt2T3dPdXJocjZObDM5d0hjdHpKQ1hKdm04WWJBbw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-12",
+      "canonical_key": "氪星晚报 spacex确定发行价 募资750亿美元创史上最大ipo openai ceo奥特曼推迟访韩计划 中央网信办举报中心开设 涉ai应用乱象举报专区",
+      "normalized_title": "氪星晚报 spacex确定发行价 募资750亿美元创史上最大ipo openai ceo奥特曼推迟访韩计划 中央网信办举报中心开设 涉ai应用乱象举报专区",
+      "normalized_link": "https://36kr.com/p/3849942472512769?f=rss",
+      "title": "氪星晚报｜SpaceX确定发行价，募资750亿美元创史上最大IPO；OpenAI CEO奥特曼推迟访韩计划；中央网信办举报中心开设“涉AI应用乱象举报专区”",
+      "summary": "大公司： OpenAI CEO奥特曼推迟访韩计划 据报道，OpenAI首席执行官山姆·奥特曼因个人原因推迟访韩计划。奥特曼原定于14日至15日访韩，会见三星电子、Kakao、NAVER等企业负责人。 Alphabet旗下自动驾驶公司Waymo将推出30美元月费会员计划 当地时间6月11日，Alphabet旗下自动驾驶公司Waymo宣布，将推出仅限受邀用户参与的Waymo Premier30美元月费会员计划，会员可享受优先接送、每次行程10%的乘车返现（以乘车积分形式返还）、在新城市优先体验Waymo服务以及每月最多五次免费取消行程等权益。Waymo表示，最初将通过应用程序和电子邮件向美国旧金…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3849942472512769?f=rss",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "autonomous_driving",
+        "chip",
+        "coding",
+        "llm",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft",
+          "openai"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "autonomous_driving",
+          "chip",
+          "coding",
+          "llm",
+          "security"
         ]
       },
       "seen_count": 1

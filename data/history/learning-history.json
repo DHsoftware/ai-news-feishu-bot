@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T07:52:08.067510+08:00",
+  "updated_at": "2026-06-13T06:47:57.158935+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -997,6 +997,44 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-12",
+      "canonical_key": "openai developers",
+      "normalized_title": "openai developers",
+      "normalized_link": "https://developers.openai.com",
+      "title": "OpenAI Developers",
+      "summary": "Docs and resources to help you build with, for, and on OpenAI.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "codex",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "official",
+          "workflow"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
