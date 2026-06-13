@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-13T06:47:57.158935+08:00",
+  "generated_at": "2026-06-13T07:46:56.530097+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 195,
+    "history_size_before": 199,
     "history_size_after": 199,
-    "history_duplicate_count": 36
+    "history_duplicate_count": 37
   },
-  "raw_item_count": 5176,
-  "deduped_item_count": 3834,
-  "filtered_item_count": 388,
+  "raw_item_count": 5184,
+  "deduped_item_count": 3854,
+  "filtered_item_count": 386,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -82,7 +82,7 @@
       "summary": "AI productivity fads, from prompt engineering to tokenmaxxing qz.com",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-06-12T23:46:26+08:00",
+      "published_at": "2026-06-13T00:16:27+08:00",
       "source": "qz.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
       "language": "en",
@@ -212,14 +212,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1342,
-    "history_duplicate": 36,
-    "weak_relevance": 194,
+    "duplicate": 1330,
+    "history_duplicate": 37,
+    "weak_relevance": 193,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3252,
-    "same_entity_limit": 53,
+    "old_news": 3275,
+    "same_entity_limit": 51,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
