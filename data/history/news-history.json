@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T06:19:12.909908+08:00",
+  "updated_at": "2026-06-14T07:20:18.440874+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3711,7 +3711,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-12",
@@ -3861,7 +3861,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-13",
@@ -3892,7 +3892,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-13",
@@ -3922,7 +3922,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-13",
@@ -3959,6 +3959,36 @@
           "coding",
           "coding_agent",
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-13",
+      "last_seen_date": "2026-06-13",
+      "canonical_key": "amazon ceo reportedly raised anthropic model concerns before government crackdown",
+      "normalized_title": "amazon ceo reportedly raised anthropic model concerns before government crackdown",
+      "normalized_link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1
