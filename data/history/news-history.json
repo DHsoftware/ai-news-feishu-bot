@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T07:46:56.530097+08:00",
+  "updated_at": "2026-06-14T06:19:12.909908+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3671,7 +3671,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-12",
+      "last_seen_date": "2026-06-13",
       "canonical_key": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_title": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark",
@@ -3711,7 +3711,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-12",
@@ -3829,6 +3829,139 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-13",
+      "last_seen_date": "2026-06-13",
+      "canonical_key": "ai落地进入 效率时刻 agent如何进工厂 进门店 腾讯新闻",
+      "normalized_title": "ai落地进入 效率时刻 agent如何进工厂 进门店 腾讯新闻",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vam5nUEdHamN3b2kwRnVvalo0VVlKNWJIVVlBNTVTdlFYNmFfV1BieC1Xekt2ZDdqT1hxNENpYkR6TThGN3VhdGlRLWtGd2lob3JIWkhZMA?oc=5",
+      "title": "AI落地进入“效率时刻”：Agent如何进工厂、进门店-腾讯新闻 - qq.com",
+      "summary": "AI落地进入“效率时刻”：Agent如何进工厂、进门店-腾讯新闻 qq.com",
+      "source": "qq.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vam5nUEdHamN3b2kwRnVvalo0VVlKNWJIVVlBNTVTdlFYNmFfV1BieC1Xekt2ZDdqT1hxNENpYkR6TThGN3VhdGlRLWtGd2lob3JIWkhZMA?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-13",
+      "last_seen_date": "2026-06-13",
+      "canonical_key": "2025 sustainability report",
+      "normalized_title": "2025 sustainability report",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzRYSEJYR201Qk1zck5vMjZhT1pQdUdFSmd5UkRSNkdiTFZJVTJrdUdfWkZFRmR1UGhLMWZmY0lwNTJXblpYNVB6eERvaDFYdXBQQXM1Ykl4dDBwYlJmT3YzekFkMlpDZU9mZmNSV0w5bnpPUTUzU3lPSUFuU1ExVWpTRHNDTEtfVVdQQnplRnNFbWMzeTJFWVFqcw?oc=5",
+      "title": "2025 Sustainability Report - Power Integrations",
+      "summary": "2025 Sustainability Report Power Integrations",
+      "source": "Power Integrations",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzRYSEJYR201Qk1zck5vMjZhT1pQdUdFSmd5UkRSNkdiTFZJVTJrdUdfWkZFRmR1UGhLMWZmY0lwNTJXblpYNVB6eERvaDFYdXBQQXM1Ykl4dDBwYlJmT3YzekFkMlpDZU9mZmNSV0w5bnpPUTUzU3lPSUFuU1ExVWpTRHNDTEtfVVdQQnplRnNFbWMzeTJFWVFqcw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-13",
+      "last_seen_date": "2026-06-13",
+      "canonical_key": "突发 anthropic ai大模型被美国政府出口管制 禁止外国主体使用 公司紧急道歉",
+      "normalized_title": "突发 anthropic ai大模型被美国政府出口管制 禁止外国主体使用 公司紧急道歉",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yWGk3R0thRVJnRFY3X2M0Yy02Z2ViU3hJbFhBXzJPdWVseEFFcVByVjNHYWF2ZlJlc2R3SHhzdXVwNE9WMnZNMS04SFhNQWNuWjZqaVh3Nk5TYWtraS1Nd0k4T2pBYzVrUmhIaW5wc3lsdw?oc=5",
+      "title": "突发！Anthropic最新AI大模型被美国政府出口管制，禁止外国主体使用！公司紧急道歉 - 新浪财经",
+      "summary": "突发！Anthropic最新AI大模型被美国政府出口管制，禁止外国主体使用！公司紧急道歉 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yWGk3R0thRVJnRFY3X2M0Yy02Z2ViU3hJbFhBXzJPdWVseEFFcVByVjNHYWF2ZlJlc2R3SHhzdXVwNE9WMnZNMS04SFhNQWNuWjZqaVh3Nk5TYWtraS1Nd0k4T2pBYzVrUmhIaW5wc3lsdw?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "llm",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-13",
+      "last_seen_date": "2026-06-13",
+      "canonical_key": "codex for open source",
+      "normalized_title": "codex for open source",
+      "normalized_link": "https://openai.com/form/codex-for-oss",
+      "title": "Codex for open source",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://openai.com/form/codex-for-oss/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
