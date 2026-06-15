@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T07:36:34.504993+08:00",
+  "updated_at": "2026-06-16T07:09:21.385087+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3691,7 +3691,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-14",
+      "last_seen_date": "2026-06-15",
       "canonical_key": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_title": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark",
@@ -3731,7 +3731,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "first_seen_date": "2026-06-12",
@@ -4258,6 +4258,153 @@
           "research",
           "research_report",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "如何甄别靠谱的 ai中转站",
+      "normalized_title": "如何甄别靠谱的 ai中转站",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzSjlPOER3U0JReFE5UW9sX3l4QjAwMFhwSmZ2VWcxX01VUWNoeWtDeExNXzJqZ1dDT0FpTk4zcmtjRV9JLUVfcDd0V29VQmRXVVFrQ3RRMjhRZWVFTWZBRA?oc=5",
+      "title": "如何甄别靠谱的“AI中转站” - thepaper.cn",
+      "summary": "如何甄别靠谱的“AI中转站” thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzSjlPOER3U0JReFE5UW9sX3l4QjAwMFhwSmZ2VWcxX01VUWNoeWtDeExNXzJqZ1dDT0FpTk4zcmtjRV9JLUVfcDd0V29VQmRXVVFrQ3RRMjhRZWVFTWZBRA?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "南芯科技 在ai数据中心领域 公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器 drmos 大电流dc dc 大电流pmic等产品",
+      "normalized_title": "南芯科技 在ai数据中心领域 公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器 drmos 大电流dc dc 大电流pmic等产品",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi5wZBVV95cUxOdXhHTTZpTkFzTDFfb3hJT3NxTkxMVWFZMUFNZ2NaX1JGMVJScEdEWVdTZXljVDc3bnNCcnRvd0hKdGEyNF9wcDBjRlpSbllxaGZyVE5xN2tfTnJ2aFBETURJSE1Bc3hLUGFpZTNoRUVla28yWWxfMU1SSDdNWUFJVl8taTRUVDY2U085QktnYm96ZTY4d0lhNFloMEZROFRxVHJNMllVTGdEMUFzWVBmZUhyZkVVLVpIczMxbjdRaDMtRllCWVl5bkJYOEJGYWNRRDRIekVJMmNkVVRYQ2RyOXJwODNBZGVONXFRcFpWVzRQMlV0UTZCM3d5alRyVFcxLV85Q3hJdmF2RC1TQmJ4dWhCZDJWaExLWXhSMXBTd1kwcGRSeUtyZWxQMDVHRXcwWURYQ0xNdnA4dGhPUHpjTzc3TjEwS0pTelJtZnBzYWJ0MUhHMG5QMjBqa2Y3R2piOXdNa2xFTmwxNE1raTJXbDlScTFSR2VITWRTYUotYWc0YmFmaDBySkVpbTU1RjEwVmp2T3dWMVkxOTVOdjdNLXFoR3V2NHRQWjdSUmppTlNrVGJGS1h3MjRMT1ZGeXBHeEZROVlFT0o2TERQYWxfQW9SMmhLUTJ4MWloWUYwN1VUZk1PbFNyWWZGZlhGUVg1N0lJMjRRdDhlWjktOThlNXpudWxJT0Rwa19IRTVxa3IzQlJyMW5wNzBlNlBXVG9KLVZHaG5ReUU4SDVWM3lsRHZ4bWI0TDd2eHp6WEtlVl9jWFJDNkc3TTlDQU82NGxKT1RrMlBSR25zdjZ3TFIwUlVubG1qZm9pSG95d0tkVnVJSG00THRyS2dNYkxINjdUMGsxNkViQzkwY3cwVjNpQTBQU1V6TmtHVktpZnloSDkzN1hoa3BQWDBpOHdMaC16NVVUVk1kUHpuZlU5VXZZTExuRXBBVUZmdFZzOTJkV2hieHdzNnU1d2xYZjdIdVZZWGZkd2pXRzJtQWRJc2U0T0t1c3dfWjNCUHNIR3FHQlR5UU15YUkyd185M1g4b0tMcTRtb1NFOTRILUNXdHZZYk1Ja196NWFxay1UWWxWVWFEU0hyUXJ0cDJBNXppUUFZalFyQTdwb3BLeERFVVhZbUVER1Jnb0FoZnpKWVVuZ05Mck1LblhN?oc=5",
+      "title": "南芯科技：在AI数据中心领域，公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器、DrMOS、大电流DC-DC、大电流PMIC等产品 - MSN",
+      "summary": "南芯科技：在AI数据中心领域，公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器、DrMOS、大电流DC-DC、大电流PMIC等产品 MSN",
+      "source": "MSN",
+      "link": "https://news.google.com/rss/articles/CBMi5wZBVV95cUxOdXhHTTZpTkFzTDFfb3hJT3NxTkxMVWFZMUFNZ2NaX1JGMVJScEdEWVdTZXljVDc3bnNCcnRvd0hKdGEyNF9wcDBjRlpSbllxaGZyVE5xN2tfTnJ2aFBETURJSE1Bc3hLUGFpZTNoRUVla28yWWxfMU1SSDdNWUFJVl8taTRUVDY2U085QktnYm96ZTY4d0lhNFloMEZROFRxVHJNMllVTGdEMUFzWVBmZUhyZkVVLVpIczMxbjdRaDMtRllCWVl5bkJYOEJGYWNRRDRIekVJMmNkVVRYQ2RyOXJwODNBZGVONXFRcFpWVzRQMlV0UTZCM3d5alRyVFcxLV85Q3hJdmF2RC1TQmJ4dWhCZDJWaExLWXhSMXBTd1kwcGRSeUtyZWxQMDVHRXcwWURYQ0xNdnA4dGhPUHpjTzc3TjEwS0pTelJtZnBzYWJ0MUhHMG5QMjBqa2Y3R2piOXdNa2xFTmwxNE1raTJXbDlScTFSR2VITWRTYUotYWc0YmFmaDBySkVpbTU1RjEwVmp2T3dWMVkxOTVOdjdNLXFoR3V2NHRQWjdSUmppTlNrVGJGS1h3MjRMT1ZGeXBHeEZROVlFT0o2TERQYWxfQW9SMmhLUTJ4MWloWUYwN1VUZk1PbFNyWWZGZlhGUVg1N0lJMjRRdDhlWjktOThlNXpudWxJT0Rwa19IRTVxa3IzQlJyMW5wNzBlNlBXVG9KLVZHaG5ReUU4SDVWM3lsRHZ4bWI0TDd2eHp6WEtlVl9jWFJDNkc3TTlDQU82NGxKT1RrMlBSR25zdjZ3TFIwUlVubG1qZm9pSG95d0tkVnVJSG00THRyS2dNYkxINjdUMGsxNkViQzkwY3cwVjNpQTBQU1V6TmtHVktpZnloSDkzN1hoa3BQWDBpOHdMaC16NVVUVk1kUHpuZlU5VXZZTExuRXBBVUZmdFZzOTJkV2hieHdzNnU1d2xYZjdIdVZZWGZkd2pXRzJtQWRJc2U0T0t1c3dfWjNCUHNIR3FHQlR5UU15YUkyd185M1g4b0tMcTRtb1NFOTRILUNXdHZZYk1Ja196NWFxay1UWWxWVWFEU0hyUXJ0cDJBNXppUUFZalFyQTdwb3BLeERFVVhZbUVER1Jnb0FoZnpKWVVuZ05Mck1LblhN?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "dcdc"
+        ],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "github copilot cli for beginners overview of common slash commands",
+      "normalized_title": "github copilot cli for beginners overview of common slash commands",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "summary": "Welcome back to GitHub Copilot CLI for Beginners! In this series (available in video and blog format), we’ll give you everything you need to get started using GitHub Copilot CLI . So far in this series, we’ve covered how to get started and when to use interactive and non-interactive modes . In this…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog",
+          "terminal"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "anthropic releases and temporarily suspends claude fable 5",
+      "normalized_title": "anthropic releases and temporarily suspends claude fable 5",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
+      "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5 - infoq.com",
+      "summary": "Anthropic Releases and Temporarily Suspends Claude Fable 5 infoq.com",
+      "source": "infoq.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
