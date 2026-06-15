@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T06:35:14.294901+08:00",
+  "updated_at": "2026-06-15T07:36:34.504993+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3731,7 +3731,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "first_seen_date": "2026-06-12",
@@ -4111,6 +4111,152 @@
         "products": [],
         "actions": [],
         "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-14",
+      "last_seen_date": "2026-06-14",
+      "canonical_key": "技术 场景 数据 青能e安 燃气安全大模型全面覆盖知识管理等全业务场景",
+      "normalized_title": "技术 场景 数据 青能e安 燃气安全大模型全面覆盖知识管理等全业务场景",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yZUh6WE0zRlQwV21TWW9BQi15el84S3otbThXcy1IUUc1R2xDTlZsOFk2LV9GS1dfZnR2b3dnd1VUMVJmT1N0WUFaLXkyYng3dW44WUNaanE?oc=5",
+      "title": "技术+场景+数据！“青能e安”燃气安全大模型全面覆盖知识管理等全业务场景 - 青岛日报",
+      "summary": "技术+场景+数据！“青能e安”燃气安全大模型全面覆盖知识管理等全业务场景 青岛日报",
+      "source": "青岛日报",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yZUh6WE0zRlQwV21TWW9BQi15el84S3otbThXcy1IUUc1R2xDTlZsOFk2LV9GS1dfZnR2b3dnd1VUMVJmT1N0WUFaLXkyYng3dW44WUNaanE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "knowledge_management",
+        "llm",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "knowledge_management",
+          "llm",
+          "model_capability",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-14",
+      "last_seen_date": "2026-06-14",
+      "canonical_key": "anthropic dispatches staff to d c racing to resolve ai export restrictions",
+      "normalized_title": "anthropic dispatches staff to d c racing to resolve ai export restrictions",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB5M2RIbUFud1NSbFE4UFAxM3kzTkJoem84TTJRakdieUJsQ21naVpYZGxaLUY0S0ZOZFdVTk9saU5WVWFsQzMySldadlg1a2pxYk9tWl84Q2pxQWc2QU51b2YwQktkM0FyR3l0eDVPUURiNEpSeUwzZUhzeElnREcwZkItUldaSTI1N3R2U2tqY2ZPeHVDMll2Y2ZrQ0UzZ1ZzamNzNVhJa3dlaVlDdQ?oc=5",
+      "title": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions - WSJ",
+      "summary": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB5M2RIbUFud1NSbFE4UFAxM3kzTkJoem84TTJRakdieUJsQ21naVpYZGxaLUY0S0ZOZFdVTk9saU5WVWFsQzMySldadlg1a2pxYk9tWl84Q2pxQWc2QU51b2YwQktkM0FyR3l0eDVPUURiNEpSeUwzZUhzeElnREcwZkItUldaSTI1N3R2U2tqY2ZPeHVDMll2Y2ZrQ0UzZ1ZzamNzNVhJa3dlaVlDdQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-14",
+      "last_seen_date": "2026-06-14",
+      "canonical_key": "agent想花我的钱 要先过信任这一关",
+      "normalized_title": "agent想花我的钱 要先过信任这一关",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqQ1IzVkhLQUVOb2pFS2ZwSkJMeml2WllqdzJNeE1Vem9GY0pwQS1vZkxBS1hBNFJZQVNLMGhlLVh1NzNpaTE3NkUydEtjUXZCeWF4MlM3Mzhvb1BxMmc?oc=5",
+      "title": "Agent想花我的钱，要先过信任这一关 - thepaper.cn",
+      "summary": "Agent想花我的钱，要先过信任这一关 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqQ1IzVkhLQUVOb2pFS2ZwSkJMeml2WllqdzJNeE1Vem9GY0pwQS1vZkxBS1hBNFJZQVNLMGhlLVh1NzNpaTE3NkUydEtjUXZCeWF4MlM3Mzhvb1BxMmc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-14",
+      "last_seen_date": "2026-06-14",
+      "canonical_key": "amazon security research reportedly led to the white house s anthropic fable ban",
+      "normalized_title": "amazon security research reportedly led to the white house s anthropic fable ban",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "summary": "According to the Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amaz…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research",
+        "research_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "research",
+          "research_report",
           "security"
         ]
       },
