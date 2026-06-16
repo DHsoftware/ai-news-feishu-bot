@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T08:01:08.087040+08:00",
+  "updated_at": "2026-06-17T06:57:20.252913+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4505,6 +4505,197 @@
           "chip",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-16",
+      "last_seen_date": "2026-06-16",
+      "canonical_key": "hands free ais forward nvidia xr ai brings agents to ar glasses",
+      "normalized_title": "hands free ais forward nvidia xr ai brings agents to ar glasses",
+      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-xr-ai",
+      "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+      "summary": "NVIDIA XR AI is now available in public beta, giving developers a framework for building multimodal AI agents for AR glasses and XR devices.",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "multimodal",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "multimodal",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-16",
+      "last_seen_date": "2026-06-16",
+      "canonical_key": "star 6 3k 支持 ai 工作流引擎 flowlong 1 2 5 发布 oschina 开源 ai 开发者生态社区",
+      "normalized_title": "star 6 3k 支持 ai 工作流引擎 flowlong 1 2 5 发布 oschina 开源 ai 开发者生态社区",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByQkV3UVN2UjJxRHlseGhiYnhEOWt4X0dZaFRZNHVXS0pzZmJ1RzlkelBrRE5wRE1PNlJvRU83YXdBdHhRTkVZV2dpTQ?oc=5",
+      "title": "🔥Star 6.3k 支持 AI 工作流引擎 FlowLong 1.2.5 发布 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "summary": "🔥Star 6.3k 支持 AI 工作流引擎 FlowLong 1.2.5 发布 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "source": "OSCHINA",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByQkV3UVN2UjJxRHlseGhiYnhEOWt4X0dZaFRZNHVXS0pzZmJ1RzlkelBrRE5wRE1PNlJvRU83YXdBdHhRTkVZV2dpTQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "opensource",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-16",
+      "last_seen_date": "2026-06-16",
+      "canonical_key": "predicting model behavior before release by simulating deployment",
+      "normalized_title": "predicting model behavior before release by simulating deployment",
+      "normalized_link": "https://openai.com/index/deployment-simulation",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/deployment-simulation",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report",
+        "security",
+        "simulation_optimization"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "official_report",
+          "security",
+          "simulation_optimization"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-16",
+      "last_seen_date": "2026-06-16",
+      "canonical_key": "智谱ai 编程工具zcode 3 0 正式发布 全面切换自研zcode agent 内核 oschina 开源 ai 开发者生态社区",
+      "normalized_title": "智谱ai 编程工具zcode 3 0 正式发布 全面切换自研zcode agent 内核 oschina 开源 ai 开发者生态社区",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43WGhMbGpkTEsxNnVjcUVIT3NLekhKRks3Zmd4cHBuUnFiOWlzNmdQSFpseGhNVHZSSV93QXFKazhBR3lPQVJ5WURQSQ?oc=5",
+      "title": "智谱AI 编程工具ZCode 3.0 正式发布，全面切换自研ZCode Agent 内核 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "summary": "智谱AI 编程工具ZCode 3.0 正式发布，全面切换自研ZCode Agent 内核 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "source": "OSCHINA",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43WGhMbGpkTEsxNnVjcUVIT3NLekhKRks3Zmd4cHBuUnFiOWlzNmdQSFpseGhNVHZSSV93QXFKazhBR3lPQVJ5WURQSQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-16",
+      "last_seen_date": "2026-06-16",
+      "canonical_key": "anthropic pauses token based billing for its claude agent sdk",
+      "normalized_title": "anthropic pauses token based billing for its claude agent sdk",
+      "normalized_link": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk",
+      "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+      "summary": "Last month, Anthropic announced a billing change that would have substantially increased costs for heavy users of its automation-focused Claude Agent SDK , including many third-party apps. On Monday, though, Anthropic abruptly announced it had paused those pricing changes just as they were set to t…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "agents_sdk"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "terminal"
         ]
       },
       "seen_count": 1
