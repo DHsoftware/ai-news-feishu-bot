@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T07:09:21.385087+08:00",
+  "updated_at": "2026-06-16T08:01:08.087040+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1124,6 +1124,46 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "build and test ios apps without leaving codex",
+      "normalized_title": "build and test ios apps without leaving codex",
+      "normalized_link": "https://www.youtube.com/watch?v=u9zLlcsCDiQ",
+      "title": "Build and test iOS apps without leaving Codex",
+      "summary": "More of the iOS app loop, now inside Codex. The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex. Shoutout to the open source projects behind this: • Serve-sim powers the streaming simulator by @Baco…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=u9zLlcsCDiQ",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

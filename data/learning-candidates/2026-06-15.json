@@ -1,6 +1,6 @@
 {
   "date": "2026-06-15",
-  "generated_at": "2026-06-16T07:09:21.385087+08:00",
+  "generated_at": "2026-06-16T08:01:08.087040+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -18,16 +18,42 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 63,
-    "history_size_after": 63,
+    "history_size_after": 64,
     "history_duplicate_count": 10
   },
   "raw_item_count": 79,
-  "deduped_item_count": 23,
-  "filtered_item_count": 0,
-  "curated_item_count": 0,
-  "curated_items": [],
+  "deduped_item_count": 24,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Build and test iOS apps without leaving Codex",
+      "summary": "More of the iOS app loop, now inside Codex. The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex. Shoutout to the open source projects behind this: • Serve-sim powers the streaming simulator by @Baconbrix https://github.com/EvanBacon/serve-sim • SnapshotPreviews extracts SwiftUI previews by Sentry https://github.com/getsentry/SnapshotPreviews",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-06-16T07:20:32+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=u9zLlcsCDiQ",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "concept_hint": "Coding Agent",
+      "score": 24,
+      "canonical_key": "build and test ios apps without leaving codex",
+      "dedupe_key": "build and test ios apps without leaving codex",
+      "selection_reason": "learning_high_score"
+    }
+  ],
   "rejected_stats": {
-    "duplicate": 56,
+    "duplicate": 55,
     "history_duplicate": 10,
     "same_source_limit": 0,
     "old_resource": 13,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T07:09:21.385087+08:00",
+  "updated_at": "2026-06-16T08:01:08.087040+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4293,7 +4293,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-15",
@@ -4368,7 +4368,7 @@
           "terminal"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-15",
@@ -4405,6 +4405,106 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "pcim 2026 how customized ai agents are demystifying emc design",
+      "normalized_title": "pcim 2026 how customized ai agents are demystifying emc design",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlVUdTRCRVJEeEVPcTQxZnpTdVplMTFjZzhqam9Gd0llSjRYU293cTlheFpHTFh3NUN2dklfRHNXZGZTdFU2QVU1cm1lNFI4Sk9McHN6M0xPYWlpc0dIa1ozcFhYdzl6N05jUEszb3ZQNkVYYlZkMWlJc1hkLTRRRV9iVHhBOGpieWJFNA?oc=5",
+      "title": "PCIM 2026: How customized AI agents are demystifying EMC design - digitimes",
+      "summary": "PCIM 2026: How customized AI agents are demystifying EMC design digitimes",
+      "source": "digitimes",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlVUdTRCRVJEeEVPcTQxZnpTdVplMTFjZzhqam9Gd0llSjRYU293cTlheFpHTFh3NUN2dklfRHNXZGZTdFU2QVU1cm1lNFI4Sk9McHN6M0xPYWlpc0dIa1ozcFhYdzl6N05jUEszb3ZQNkVYYlZkMWlJc1hkLTRRRV9iVHhBOGpieWJFNA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "anthropic全球警告 openai已跨 可靠性阈值 ai自我加速启动 chatgpt 智能体 模型 训练 门槛_手机新浪网",
+      "normalized_title": "anthropic全球警告 openai已跨 可靠性阈值 ai自我加速启动 chatgpt 智能体 模型 训练 门槛_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxORXlkbzVROU9TSXBrTUNBUHA2YTBmTWE1T0FpN3FVcGNqUWNMNlNDUVZKVjJjcWs0cjBod1pNSzNyZk05NkMyQ0JVemFjYnV0TmpyQl9iNjNWcFhTcFFUbHVCMDBTbktTU3lmSFpzclg0SUVVc0lMTjd1aWJBTk94SUJqNk1qRjJNQVpfVE5COTd1dGd3Z2JNd1h4dngwMkZUWEYwdkZ3YWN2dEtiWndkTVpYSmFBQVZkLUFUYTJvUlRaWkpNUmlyOXN2TXpNWEV1bUppc2d2b0dvQ2d1WWszdHJiOE9wZUhLVks4dHVITENqLUxVZWxUdHc3TFFhMDBEYWhVUldhakluNGpXQ3J2d2pyQkVQVzBMeFBkQUIwS2dWbm5NbzJCTEM4TE9qNGNOSE1LUEhCZ2ZYdll0VkpJaGN1SkFDeDA2V3prODBNZGM?oc=5",
+      "title": "Anthropic全球警告！OpenAI已跨「可靠性阈值」：AI自我加速启动|ChatGPT|智能体|模型|训练|门槛_手机新浪网 - 新浪财经",
+      "summary": "Anthropic全球警告！OpenAI已跨「可靠性阈值」：AI自我加速启动|ChatGPT|智能体|模型|训练|门槛_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxORXlkbzVROU9TSXBrTUNBUHA2YTBmTWE1T0FpN3FVcGNqUWNMNlNDUVZKVjJjcWs0cjBod1pNSzNyZk05NkMyQ0JVemFjYnV0TmpyQl9iNjNWcFhTcFFUbHVCMDBTbktTU3lmSFpzclg0SUVVc0lMTjd1aWJBTk94SUJqNk1qRjJNQVpfVE5COTd1dGd3Z2JNd1h4dngwMkZUWEYwdkZ3YWN2dEtiWndkTVpYSmFBQVZkLUFUYTJvUlRaWkpNUmlyOXN2TXpNWEV1bUppc2d2b0dvQ2d1WWszdHJiOE9wZUhLVks4dHVITENqLUxVZWxUdHc3TFFhMDBEYWhVUldhakluNGpXQ3J2d2pyQkVQVzBMeFBkQUIwS2dWbm5NbzJCTEM4TE9qNGNOSE1LUEhCZ2ZYdll0VkpJaGN1SkFDeDA2V3prODBNZGM?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-15",
+      "canonical_key": "boosting moe training throughput with advanced fusion kernels",
+      "normalized_title": "boosting moe training throughput with advanced fusion kernels",
+      "normalized_link": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels",
+      "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
+      "summary": "Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted because they enable... Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted beca…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
