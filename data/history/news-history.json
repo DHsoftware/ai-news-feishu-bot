@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T06:57:20.252913+08:00",
+  "updated_at": "2026-06-17T07:46:15.020714+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4549,7 +4549,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-16",
@@ -4591,7 +4591,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-16",
@@ -4630,7 +4630,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-16",
@@ -4664,7 +4664,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-16",
@@ -4698,7 +4698,7 @@
           "terminal"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
