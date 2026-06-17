@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T07:46:15.020714+08:00",
+  "updated_at": "2026-06-18T06:53:07.867220+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4699,6 +4699,197 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-17",
+      "canonical_key": "what are git worktrees and why should i use them",
+      "normalized_title": "what are git worktrees and why should i use them",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them",
+      "title": "What are git worktrees, and why should I use them?",
+      "summary": "It seems like the latest hotness in git these days is the concept of worktrees. Which… is kind of funny because they’ve been around since 2015. But, nevertheless, they are cool, and you might be wondering why you’d use them, how they differ from branches, and why they are suddenly so popular. Let’s…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-17",
+      "canonical_key": "copilot cowork is now generally available",
+      "normalized_title": "copilot cowork is now generally available",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
+      "title": "Copilot Cowork is now generally available - Microsoft",
+      "summary": "Copilot Cowork is now generally available Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-17",
+      "canonical_key": "碳化硅简报 4 5月ai数据中心与sst应用加速落地 车规量产稳步攀升",
+      "normalized_title": "碳化硅简报 4 5月ai数据中心与sst应用加速落地 车规量产稳步攀升",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vaTJqdW8xOHJfNlFWQkFNZ3Y0WnZHWFhtNldsY2J2R1ZqNkV5ckt2UG13RFBBdFdoY2VrRUp4Ty13VmV6QmhRN1d1WXVFY292THA4?oc=5",
+      "title": "【碳化硅简报】4-5月AI数据中心与SST应用加速落地，车规量产稳步攀升 - 电子工程专辑",
+      "summary": "【碳化硅简报】4-5月AI数据中心与SST应用加速落地，车规量产稳步攀升 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vaTJqdW8xOHJfNlFWQkFNZ3Y0WnZHWFhtNldsY2J2R1ZqNkV5ckt2UG13RFBBdFdoY2VrRUp4Ty13VmV6QmhRN1d1WXVFY292THA4?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "sic"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "sic"
+        ],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "sic"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-17",
+      "canonical_key": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
+      "normalized_title": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzZneEZjcThuWUNrWTF3X0E3MHFQR21pdkJRVnVGd3ktb1U2czZMclBoTE1EaGFQaERacWpRNVpmb0k5SEdiTFRRVmxCRnV1TmNTYVV6b1pvV2JRbmU4OWQ0QWFvbVROaElpYjFxcThVN0UzNG90RXZTdmhKeno2ZFlaVGdrQmEzdHo0Qw?oc=5",
+      "title": "AI编码智能体实现机器人自主训练：NVIDIA发布ENPIRE框架，机器人学会安装GPU和剪断扎带 - Sohu",
+      "summary": "AI编码智能体实现机器人自主训练：NVIDIA发布ENPIRE框架，机器人学会安装GPU和剪断扎带 Sohu",
+      "source": "Sohu",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzZneEZjcThuWUNrWTF3X0E3MHFQR21pdkJRVnVGd3ktb1U2czZMclBoTE1EaGFQaERacWpRNVpmb0k5SEdiTFRRVmxCRnV1TmNTYVV6b1pvV2JRbmU4OWQ0QWFvbVROaElpYjFxcThVN0UzNG90RXZTdmhKeno2ZFlaVGdrQmEzdHo0Qw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "chip",
+        "coding",
+        "coding_agent",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "chip",
+          "coding",
+          "coding_agent",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-17",
+      "canonical_key": "nvidia blackwell tops mlperf training 6 0 with industry",
+      "normalized_title": "nvidia blackwell tops mlperf training 6 0 with industry",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance",
+      "title": "NVIDIA Blackwell Tops MLPerf Training 6.0 with Industry-Leading Scale and Performance",
+      "summary": "NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the MLCommons consortium.... NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the ML…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
