@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T07:49:44.632474+08:00",
+  "updated_at": "2026-06-19T07:05:39.167973+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4813,7 +4813,7 @@
     },
     {
       "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-17",
+      "last_seen_date": "2026-06-18",
       "canonical_key": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
       "normalized_title": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
       "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzZneEZjcThuWUNrWTF3X0E3MHFQR21pdkJRVnVGd3ktb1U2czZMclBoTE1EaGFQaERacWpRNVpmb0k5SEdiTFRRVmxCRnV1TmNTYVV6b1pvV2JRbmU4OWQ0QWFvbVROaElpYjFxcThVN0UzNG90RXZTdmhKeno2ZFlaVGdrQmEzdHo0Qw?oc=5",
@@ -4852,7 +4852,7 @@
           "robotics"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-17",
@@ -4890,6 +4890,154 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-18",
+      "canonical_key": "how pull request limits are cutting down the noise",
+      "normalized_title": "how pull request limits are cutting down the noise",
+      "normalized_link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise",
+      "title": "How pull request limits are cutting down the noise",
+      "summary": "More people are contributing to open source than ever, most of them trying to help. The challenge is keeping up with the volume. Creating a pull request has never been easier. Reviewing one still takes a human about as long as it ever did. When great contributions and low-quality noise land in the…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-18",
+      "canonical_key": "from copilots to agents why enterprise ai needs a secure ai factory",
+      "normalized_title": "from copilots to agents why enterprise ai needs a secure ai factory",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0VsOUJyYzNwRFFZcVNUSEVLa0JuSFI2ZHZGdklRbVZUb29uVFkwdnRGZVVfUFRnU3o5aWNqbHYzckd6OGJ4MkltVENPaGdYeUNNUkZNclA3ZnBDQUxGQXhPbkNvcXcwVlBvanRoS09MNnhwY0ZpV1B0UU12bTdKbWo5UUxWeU1ENHdfeV8tUURvZnU0UHBvWTk3d1owVjlOdHc?oc=5",
+      "title": "From Copilots to Agents: Why Enterprise AI Needs a Secure AI Factory - eWeek",
+      "summary": "From Copilots to Agents: Why Enterprise AI Needs a Secure AI Factory eWeek",
+      "source": "eWeek",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0VsOUJyYzNwRFFZcVNUSEVLa0JuSFI2ZHZGdklRbVZUb29uVFkwdnRGZVVfUFRnU3o5aWNqbHYzckd6OGJ4MkltVENPaGdYeUNNUkZNclA3ZnBDQUxGQXhPbkNvcXcwVlBvanRoS09MNnhwY0ZpV1B0UU12bTdKbWo5UUxWeU1ENHdfeV8tUURvZnU0UHBvWTk3d1owVjlOdHc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_factory",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-18",
+      "canonical_key": "renesas acquires pictorus to simplify and accelerate embedded application software development",
+      "normalized_title": "renesas acquires pictorus to simplify and accelerate embedded application software development",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWpoX21fSWVzYmlqWXZXWUkxZXYyaVJlZDA3c2NjMkJBU0NHWjRwbmN5LThOUHlQa21vWDdXMEJ3S1c3WkZNTmNEbnVaRVJtWkxQMmc0RjBmU196THZPR2ZYZDNvbV91dXpFZk5oRlZZbnFUOUl0WVdCdThPcjBUdHEwYm1nS2NFS1U5OFVZeUFWbEZKc3NxMVRtZk0wdmN3QWVnd1NZM01mRFJma1FWMEI4eDB2RzVDMnBkR1E5MDBjRmkwMlBqNWtwOUJBQQ?oc=5",
+      "title": "Renesas Acquires Pictorus to Simplify and Accelerate Embedded Application Software Development - Renesas Electronics",
+      "summary": "Renesas Acquires Pictorus to Simplify and Accelerate Embedded Application Software Development Renesas Electronics",
+      "source": "Renesas Electronics",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWpoX21fSWVzYmlqWXZXWUkxZXYyaVJlZDA3c2NjMkJBU0NHWjRwbmN5LThOUHlQa21vWDdXMEJ3S1c3WkZNTmNEbnVaRVJtWkxQMmc0RjBmU196THZPR2ZYZDNvbV91dXpFZk5oRlZZbnFUOUl0WVdCdThPcjBUdHEwYm1nS2NFS1U5OFVZeUFWbEZKc3NxMVRtZk0wdmN3QWVnd1NZM01mRFJma1FWMEI4eDB2RzVDMnBkR1E5MDBjRmkwMlBqNWtwOUJBQQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-18",
+      "canonical_key": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
+      "normalized_title": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
+      "normalized_link": "https://36kr.com/p/3858329994875908?f=rss",
+      "title": "蔚来补上“智驾课”，任少卿总结：智驾技术创新将重构竞争",
+      "summary": "文｜肖漫 编辑｜李勤 6月18日，蔚来同时向两代平台车型（包含8款NT2.0平台车型、4款NT2.5平台车型，以及6款NT3.0车型）推送了最新版的世界模型，这意味着，蔚来现在能让同一套复杂的智驾代码，现在能跑在不同代际的芯片上。 软件迭代节奏被硬件绑架曾是一个困扰行业的难题。很多车企无法在不同版本、配置的车型上迭代同一款软件，这带来的结果是，很长时间内只有使用最新版本硬件的车才能用上最好的软件，老车主被背刺。 蔚来部署推理跨平台兼容 任少卿的团队在 2020 年就在思考如何解决这个问题。蔚来的做法是搭建一套AI Infra——自研工具链铺平不同芯片间的鸿沟，用AI编译器提升车辆的处理速度，…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3858329994875908?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "automotive",
+        "chip",
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "automotive",
+          "chip",
+          "inference",
+          "llm",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
