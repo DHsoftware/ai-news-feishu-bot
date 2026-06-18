@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T06:53:07.867220+08:00",
+  "updated_at": "2026-06-18T07:49:44.632474+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4733,7 +4733,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-17",
@@ -4772,7 +4772,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-17",
@@ -4809,7 +4809,7 @@
           "sic"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-17",
@@ -4852,7 +4852,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-17",
@@ -4889,7 +4889,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
