@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T07:59:27.906198+08:00",
+  "updated_at": "2026-06-20T06:13:55.529648+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4893,7 +4893,7 @@
     },
     {
       "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-19",
       "canonical_key": "how pull request limits are cutting down the noise",
       "normalized_title": "how pull request limits are cutting down the noise",
       "normalized_link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise",
@@ -4931,7 +4931,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-18",
@@ -5002,7 +5002,7 @@
     },
     {
       "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-18",
+      "last_seen_date": "2026-06-19",
       "canonical_key": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
       "normalized_title": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
       "normalized_link": "https://36kr.com/p/3858329994875908?f=rss",
@@ -5037,7 +5037,105 @@
           "model_capability"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "peter choi",
+      "normalized_title": "peter choi",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kMWhKazJGQVNMc2NSWjJOMmNzNWs4S0NRZUtNYkJfcHdWY1BWOWp5ZzlrOFd2eWJuLXlKLUNjTnFOZXZ3eGhpdXNPMjJFRmlGLUxYYWMtbms0ZmdOekF4VHpNU3BiQ0Mzdmc?oc=5",
+      "title": "Peter Choi - Microsoft",
+      "summary": "Peter Choi Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kMWhKazJGQVNMc2NSWjJOMmNzNWs4S0NRZUtNYkJfcHdWY1BWOWp5ZzlrOFd2eWJuLXlKLUNjTnFOZXZ3eGhpdXNPMjJFRmlGLUxYYWMtbms0ZmdOekF4VHpNU3BiQ0Mzdmc?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "从新能源汽车到ai数据中心 pcim asia深圳邀您共赴 功率电子俱乐部 年度盛会",
+      "normalized_title": "从新能源汽车到ai数据中心 pcim asia深圳邀您共赴 功率电子俱乐部 年度盛会",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WMDk4RVgzUkxZYl93b3p6RUt4Zy15aUZtYnhsUGpWY3had1laQ2RsR3hJbEp3NjZEblZndXB5RWpNY252NjBBSzdrUF9uYmlvZ0w0?oc=5",
+      "title": "从新能源汽车到AI数据中心｜PCIM Asia深圳邀您共赴“功率电子俱乐部”年度盛会 - 电子工程专辑",
+      "summary": "从新能源汽车到AI数据中心｜PCIM Asia深圳邀您共赴“功率电子俱乐部”年度盛会 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WMDk4RVgzUkxZYl93b3p6RUt4Zy15aUZtYnhsUGpWY3had1laQ2RsR3hJbEp3NjZEblZndXB5RWpNY252NjBBSzdrUF9uYmlvZ0w0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "automotive",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "automotive",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "amazon hopes to challenge nvidia more directly by selling its ai chips",
+      "normalized_title": "amazon hopes to challenge nvidia more directly by selling its ai chips",
+      "normalized_link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips",
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "aws",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "aws",
+          "chip"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
