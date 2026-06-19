@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T06:13:55.529648+08:00",
+  "updated_at": "2026-06-20T07:13:06.628708+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5037,7 +5037,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-19",
@@ -5133,6 +5133,116 @@
         "topics": [
           "aws",
           "chip"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "is it agentic enough benchmarking open models on your own tooling",
+      "normalized_title": "is it agentic enough benchmarking open models on your own tooling",
+      "normalized_link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "summary": "",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "benchmark",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "benchmark",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "france advances europe s ai future with nvidia technologies",
+      "normalized_title": "france advances europe s ai future with nvidia technologies",
+      "normalized_link": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future",
+      "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
+      "summary": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying app…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-19",
+      "last_seen_date": "2026-06-19",
+      "canonical_key": "北大科学家下场做脑机接口 种子轮融了近亿元",
+      "normalized_title": "北大科学家下场做脑机接口 种子轮融了近亿元",
+      "normalized_link": "https://36kr.com/p/3855480467543042?f=rss",
+      "title": "北大科学家下场做脑机接口，种子轮融了近亿元",
+      "summary": "文 | 孙小雯 访谈 / 编辑 | 海若镜 「暗涌Waves」独家获悉，侵入式脑机接口公司「芯生视界」近日完成近亿元人民币种子轮融资。本轮融资由经纬创投领投，星连资本、燕缘创投、水木创投跟投。 当下，侵入式脑机接口已经在治疗瘫痪、脑控外设等医疗场景落地，验证长期植入的安全、有效。与此同时，AI Agent和具身智能技术加速进化，也放大了市场对脑机接口的期待：改写未来“人机交互”的方式，实现人机融合、增强人类。马斯克和他的Neuralink，正是这一叙事的风向标。 芯生视界团队集合了多位国家“脑计划”脑机接口方向“青年首席”：创始人王茜来自北京大学心理与认知科学学院、IDG麦戈文脑科学研究所。…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3855480467543042?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "chip",
+        "robotics",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "chip",
+          "research",
+          "robotics",
+          "security"
         ]
       },
       "seen_count": 1
