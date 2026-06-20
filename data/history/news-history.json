@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T07:13:06.628708+08:00",
+  "updated_at": "2026-06-21T06:35:12.476966+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5242,6 +5242,194 @@
           "chip",
           "research",
           "robotics",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-20",
+      "last_seen_date": "2026-06-20",
+      "canonical_key": "paperswithcode review trending ai papers with working code",
+      "normalized_title": "paperswithcode review trending ai papers with working code",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUzlNNEo0T01rbDN1NHNWdVh4X2RDcW8zTHhOOHRLNzNVTlV0eU96LTItTEtmeTJPMnQ3T3NFZDk1cDFIRGlZbE5UR19Ya3lvUXVzdXY3d1hHNmlhaE1VOEptUFo3aTRyeHRZNC05YldiczFheDhmQXBGYkcwY2NEVXJmb0FfaGd3?oc=5",
+      "title": "PapersWithCode Review: Trending AI Papers with Working Code. - quasa.io",
+      "summary": "PapersWithCode Review: Trending AI Papers with Working Code. quasa.io",
+      "source": "quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUzlNNEo0T01rbDN1NHNWdVh4X2RDcW8zTHhOOHRLNzNVTlV0eU96LTItTEtmeTJPMnQ3T3NFZDk1cDFIRGlZbE5UR19Ya3lvUXVzdXY3d1hHNmlhaE1VOEptUFo3aTRyeHRZNC05YldiczFheDhmQXBGYkcwY2NEVXJmb0FfaGd3?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-20",
+      "last_seen_date": "2026-06-20",
+      "canonical_key": "ctera integrates with n8n to extend enterprise file data to ai workflows",
+      "normalized_title": "ctera integrates with n8n to extend enterprise file data to ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmUyWjRsckFCUXd0TllrZVNNalY5YVZENGZ5VkU5OWc0c3lNdUpNNnpFNGNicTlSQWRmaW5zN20xdDFEbjAza1J4MzF3LWg2MzBoQnN3bU9xWTNIWGlzYzczNlpQMmdpQVJ0VW5iZU56M281Yks5WTlUTGJQbmNhS1BHQ1ZGVzVoWkxWUjhuXzBuZnJfRGdfUzdzekdkejVpb3RqaXN3VHA5dFnSAbABQVVfeXFMT2tYXy12OUVYN3oyR2RDWHVGajJaTlpQUDNpNmJWRFBTMjJxaVVQWG5oZ2dwNlZPeHV0WFNYQi12RmIteUd2dlVtcEY1VTFESmItNE1zT29CXzZiYmJid1RLQnAxclBqSUxQMjEwcXZ4Q0NNM0ZmWW5pN0hDUTRsWmZDQ3dPLXBYd2wxZmFjeFJNbGgxNV9Gak9SNWhjbUhzZHk2NmpoQjZrTHUteHZ0T3A?oc=5",
+      "title": "CTERA Integrates with n8n to Extend Enterprise File Data to AI Workflows - StorageReview.com",
+      "summary": "CTERA Integrates with n8n to Extend Enterprise File Data to AI Workflows StorageReview.com",
+      "source": "StorageReview.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmUyWjRsckFCUXd0TllrZVNNalY5YVZENGZ5VkU5OWc0c3lNdUpNNnpFNGNicTlSQWRmaW5zN20xdDFEbjAza1J4MzF3LWg2MzBoQnN3bU9xWTNIWGlzYzczNlpQMmdpQVJ0VW5iZU56M281Yks5WTlUTGJQbmNhS1BHQ1ZGVzVoWkxWUjhuXzBuZnJfRGdfUzdzekdkejVpb3RqaXN3VHA5dFnSAbABQVVfeXFMT2tYXy12OUVYN3oyR2RDWHVGajJaTlpQUDNpNmJWRFBTMjJxaVVQWG5oZ2dwNlZPeHV0WFNYQi12RmIteUd2dlVtcEY1VTFESmItNE1zT29CXzZiYmJid1RLQnAxclBqSUxQMjEwcXZ4Q0NNM0ZmWW5pN0hDUTRsWmZDQ3dPLXBYd2wxZmFjeFJNbGgxNV9Gak9SNWhjbUhzZHk2NmpoQjZrTHUteHZ0T3A?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-20",
+      "last_seen_date": "2026-06-20",
+      "canonical_key": "gpt周报 上交所发布大模型企业适用科创板第五套上市指引 anthropic应美国政府要求关停大模型服务 微信支付打通ai智能体",
+      "normalized_title": "gpt周报 上交所发布大模型企业适用科创板第五套上市指引 anthropic应美国政府要求关停大模型服务 微信支付打通ai智能体",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZlFuYjd1eUlRdHRWN09kd2RZRWwyREJpQ20tQTVNRGlDdDVzTU16SEkzLTRmWjBOZUtsb1FGTXllajNuc2htQnhHNlhJeFY2TGc4NHJ0bDhhR2RvRjduWDBnTkI?oc=5",
+      "title": "GPT周报｜上交所发布大模型企业适用科创板第五套上市指引；Anthropic应美国政府要求关停大模型服务；微信支付打通AI智能体 - 财新",
+      "summary": "GPT周报｜上交所发布大模型企业适用科创板第五套上市指引；Anthropic应美国政府要求关停大模型服务；微信支付打通AI智能体 财新",
+      "source": "财新",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZlFuYjd1eUlRdHRWN09kd2RZRWwyREJpQ20tQTVNRGlDdDVzTU16SEkzLTRmWjBOZUtsb1FGTXllajNuc2htQnhHNlhJeFY2TGc4NHJ0bDhhR2RvRjduWDBnTkI?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "llm",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-20",
+      "last_seen_date": "2026-06-20",
+      "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "title": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 - 财联社",
+      "summary": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 财联社",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-20",
+      "last_seen_date": "2026-06-20",
+      "canonical_key": "is the us government s anthropic ban accidentally helping the brand",
+      "normalized_title": "is the us government s anthropic ban accidentally helping the brand",
+      "normalized_link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand",
+      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+      "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling t…",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
           "security"
         ]
       },
