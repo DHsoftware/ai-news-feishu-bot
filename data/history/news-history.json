@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T07:35:45.663845+08:00",
+  "updated_at": "2026-06-22T06:36:22.336948+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5434,6 +5434,169 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "2026黄金珠宝风口 b2b ai智能体 全流程自动化解决方案",
+      "normalized_title": "2026黄金珠宝风口 b2b ai智能体 全流程自动化解决方案",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IXzhnczJJUnpSeXFqWkpsN0l4S3VrX2Z1bUpQOHJoaVB1UzNKdHpvYzVIaURDQ1ZQNUJMM3ptbmVsTnRpZHptQTdPLVlCTkpxZ2VwX2ZfRko4ZDJXdVd0U1ZMSGIyZjZteS00?oc=5",
+      "title": "2026黄金珠宝风口：B2B+AI智能体，全流程自动化解决方案 - 财富号",
+      "summary": "2026黄金珠宝风口：B2B+AI智能体，全流程自动化解决方案 财富号",
+      "source": "财富号",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IXzhnczJJUnpSeXFqWkpsN0l4S3VrX2Z1bUpQOHJoaVB1UzNKdHpvYzVIaURDQ1ZQNUJMM3ptbmVsTnRpZHptQTdPLVlCTkpxZ2VwX2ZfRko4ZDJXdVd0U1ZMSGIyZjZteS00?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "ai电源 汽车逆变器都在盯上的芯片嵌入pcb封装 面板级功率模块为什么开始升温",
+      "normalized_title": "ai电源 汽车逆变器都在盯上的芯片嵌入pcb封装 面板级功率模块为什么开始升温",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13ZWtKMTFQeDNFUnNKLWFpS3RGbW1lSjlWUW5QUTVCNFN4QVc0ZGV1MExZNkQ4b2tvQ1BITUdtQ01jdEVPMElSaUlWT1NHanlNRW5j?oc=5",
+      "title": "AI电源、汽车逆变器都在盯上的芯片嵌入PCB封装：面板级功率模块为什么开始升温？ - 电子工程专辑",
+      "summary": "AI电源、汽车逆变器都在盯上的芯片嵌入PCB封装：面板级功率模块为什么开始升温？ 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13ZWtKMTFQeDNFUnNKLWFpS3RGbW1lSjlWUW5QUTVCNFN4QVc0ZGV1MExZNkQ4b2tvQ1BITUdtQ01jdEVPMElSaUlWT1NHanlNRW5j?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "automotive",
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "automotive",
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "how to optimize transformer based models for low",
+      "normalized_title": "how to optimize transformer based models for low",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-optimize-transformer-based-models-for-low-precision-training",
+      "title": "How to Optimize Transformer-Based Models for Low-Precision Training",
+      "summary": "Transformer architectures are the backbone of many modern large language and generative AI models. As these models grow in size, training runs consume more GPU... Transformer architectures are the backbone of many modern large language and generative AI models. As these models grow in size, trainin…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-optimize-transformer-based-models-for-low-precision-training/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "llm",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "from pgp to mythos a brief history of export controls that didn t stop anyone",
+      "normalized_title": "from pgp to mythos a brief history of export controls that didn t stop anyone",
+      "normalized_link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
+      "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+      "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "techcrunch mobility a new robotaxi scorecard shows china s dominance",
+      "normalized_title": "techcrunch mobility a new robotaxi scorecard shows china s dominance",
+      "normalized_link": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance",
+      "title": "TechCrunch Mobility: A new robotaxi scorecard shows China’s dominance",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "robotics"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
