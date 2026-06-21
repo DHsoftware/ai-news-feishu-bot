@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T06:35:12.476966+08:00",
+  "updated_at": "2026-06-21T07:35:45.663845+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5284,7 +5284,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-20",
@@ -5321,7 +5321,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-20",
@@ -5363,7 +5363,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-20",
@@ -5403,7 +5403,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-20",
@@ -5433,7 +5433,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
