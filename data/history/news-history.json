@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T06:36:22.336948+08:00",
+  "updated_at": "2026-06-22T07:43:08.922097+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5470,7 +5470,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-21",
@@ -5505,7 +5505,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-21",
@@ -5540,7 +5540,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-21",
@@ -5594,6 +5594,49 @@
         "actions": [],
         "topics": [
           "robotics"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-21",
+      "last_seen_date": "2026-06-21",
+      "canonical_key": "samsung electronics brings chatgpt and codex to employees",
+      "normalized_title": "samsung electronics brings chatgpt and codex to employees",
+      "normalized_link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
         ]
       },
       "seen_count": 1

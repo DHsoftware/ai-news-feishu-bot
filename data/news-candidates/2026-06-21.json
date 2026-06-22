@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "generated_at": "2026-06-22T06:36:22.336948+08:00",
+  "generated_at": "2026-06-22T07:43:08.922097+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,15 +32,50 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 243,
-    "history_size_after": 248,
-    "history_duplicate_count": 9
+    "history_size_before": 248,
+    "history_size_after": 249,
+    "history_duplicate_count": 10
   },
   "raw_item_count": 5138,
-  "deduped_item_count": 3852,
-  "filtered_item_count": 122,
+  "deduped_item_count": 3821,
+  "filtered_item_count": 126,
   "curated_item_count": 5,
   "curated_items": [
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-06-22T07:00:00+08:00",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "language": "en",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [
+        "company_research",
+        "official_report",
+        "ai_research"
+      ],
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "samsung electronics brings chatgpt and codex to employees",
+      "canonical_key": "samsung electronics brings chatgpt and codex to employees",
+      "normalized_link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "score": 137,
+      "selection_reason": "required_agent_or_coding"
+    },
     {
       "title": "2026黄金珠宝风口：B2B+AI智能体，全流程自动化解决方案 - 财富号",
       "summary": "2026黄金珠宝风口：B2B+AI智能体，全流程自动化解决方案 财富号",
@@ -73,7 +108,7 @@
       "canonical_key": "2026黄金珠宝风口 b2b ai智能体 全流程自动化解决方案",
       "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IXzhnczJJUnpSeXFqWkpsN0l4S3VrX2Z1bUpQOHJoaVB1UzNKdHpvYzVIaURDQ1ZQNUJMM3ptbmVsTnRpZHptQTdPLVlCTkpxZ2VwX2ZfRko4ZDJXdVd0U1ZMSGIyZjZteS00?oc=5",
       "score": 61,
-      "selection_reason": "required_agent_or_coding"
+      "selection_reason": "required_productivity"
     },
     {
       "title": "AI电源、汽车逆变器都在盯上的芯片嵌入PCB封装：面板级功率模块为什么开始升温？ - 电子工程专辑",
@@ -139,31 +174,6 @@
       "canonical_key": "how to optimize transformer based models for low",
       "normalized_link": "https://developer.nvidia.com/blog/how-to-optimize-transformer-based-models-for-low-precision-training",
       "score": 85,
-      "selection_reason": "required_company_research"
-    },
-    {
-      "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
-      "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-06-20T06:40:14+08:00",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "security"
-      ],
-      "category": "全球AI",
-      "dedupe_key": "from pgp to mythos a brief history of export controls that didn t stop anyone",
-      "canonical_key": "from pgp to mythos a brief history of export controls that didn t stop anyone",
-      "normalized_link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work",
-      "score": 30,
       "selection_reason": "fill_remaining_high_score"
     },
     {
@@ -193,14 +203,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1286,
-    "history_duplicate": 9,
-    "weak_relevance": 116,
+    "duplicate": 1317,
+    "history_duplicate": 10,
+    "weak_relevance": 115,
     "same_source_limit": 0,
-    "china_limit": 5,
+    "china_limit": 8,
     "auto_china_limit": 0,
-    "old_news": 3614,
-    "same_entity_limit": 127,
+    "old_news": 3580,
+    "same_entity_limit": 130,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
