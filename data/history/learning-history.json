@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T07:41:57.685096+08:00",
+  "updated_at": "2026-06-24T07:20:51.830318+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -772,7 +772,7 @@
     },
     {
       "first_seen_date": "2026-06-05",
-      "last_seen_date": "2026-06-05",
+      "last_seen_date": "2026-06-23",
       "canonical_key": "integrations and observability",
       "normalized_title": "integrations and observability",
       "normalized_link": "https://developers.openai.com/api/docs/guides/agents/integrations-observability",
@@ -787,7 +787,24 @@
       "is_official_source": true,
       "language": "en",
       "region": "global",
-      "seen_count": 2
+      "seen_count": 3,
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agent_workflow",
+          "debugging",
+          "integrations",
+          "mcp",
+          "observability",
+          "official",
+          "tracing"
+        ]
+      }
     },
     {
       "first_seen_date": "2026-06-06",

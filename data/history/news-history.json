@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T07:41:57.685096+08:00",
+  "updated_at": "2026-06-24T07:20:51.830318+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5832,6 +5832,202 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-23",
+      "canonical_key": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
+      "normalized_title": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
+      "normalized_link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "summary": "GitHub has joined an open source coalition of Black Forest Labs, Hugging Face, and Mozilla Corporation calling for targeted amendments to California’s AI Transparency Act ( SB 942 , as proposed to be amended in SB 1000 ). Read the full letter here . At issue is a narrow but important problem for de…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-23",
+      "canonical_key": "腾讯qq邮箱推出agently mail 打通ai自动办公 可自主完成收发邮件 商务对接",
+      "normalized_title": "腾讯qq邮箱推出agently mail 打通ai自动办公 可自主完成收发邮件 商务对接",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tVmFGanpUaXpoeDE3STN3YVFOOWhHdUx4ZkZ2Q1RhMDBwNUNZaVNVeXRDRDU3YXROU093bGNQWUYwYkNVREVfQTBXcnZ2VWQyR1NsYW1YcjE?oc=5",
+      "title": "腾讯QQ邮箱推出Agently Mail！打通AI自动办公：可自主完成收发邮件、商务对接 - 驱动之家",
+      "summary": "腾讯QQ邮箱推出Agently Mail！打通AI自动办公：可自主完成收发邮件、商务对接 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tVmFGanpUaXpoeDE3STN3YVFOOWhHdUx4ZkZ2Q1RhMDBwNUNZaVNVeXRDRDU3YXROU093bGNQWUYwYkNVREVfQTBXcnZ2VWQyR1NsYW1YcjE?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-23",
+      "canonical_key": "stmicroelectronics unveils new compact direct time of flight 3d lidar module bringing high resolution spatial awareness to compact edge ai systems with industry leading resolution and performance",
+      "normalized_title": "stmicroelectronics unveils new compact direct time of flight 3d lidar module bringing high resolution spatial awareness to compact edge ai systems with industry leading resolution and performance",
+      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96aENzbk1jNXZSazJoM0NkZWprWmx1MXVCUFZXR1U2UktxM2d2bzB1WFJCMUNwY0xrc0NIRGs5ckhvV0lMU0FoZkdWTU5HUUxBWjhaTEU0djNXbXh5RkU0Z3BodW5YeEFTUlp5MGJ6OEQ?oc=5",
+      "title": "STMicroelectronics unveils new compact direct Time-of-Flight 3D LiDAR module bringing high-resolution spatial awareness to compact edge AI systems with industry-leading resolution and performance - STMicroelectronics",
+      "summary": "STMicroelectronics unveils new compact direct Time-of-Flight 3D LiDAR module bringing high-resolution spatial awareness to compact edge AI systems with industry-leading resolution and performance STMicroelectronics",
+      "source": "STMicroelectronics",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96aENzbk1jNXZSazJoM0NkZWprWmx1MXVCUFZXR1U2UktxM2d2bzB1WFJCMUNwY0xrc0NIRGs5ckhvV0lMU0FoZkdWTU5HUUxBWjhaTEU0djNXbXh5RkU0Z3BodW5YeEFTUlp5MGJ6OEQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "st"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-23",
+      "canonical_key": "openai推出 修补地球 计划 用ai助力开源社区提升网络安全",
+      "normalized_title": "openai推出 修补地球 计划 用ai助力开源社区提升网络安全",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVlQNk52cll3ZzQzTHpGcVRVZjJIVkNEQVBvdGYwdXQxUFdEXzZ2UjF1c243c2tUcEU0ZVp1Nk5vaEVnUm1nRnJXb2FuYk1xbWdaNVI1YzBFMkRUVllLOUdDX0VmOVVxNXZZdUxWQUZ5QTNyRGhIYVlwU05uZWRDMUp4RVUwSDFvVl9WYUlSV0gyMUZHTFJ6TUtFSlRxZE82TFNncG1laGcxSmlRellYNVFR?oc=5",
+      "title": "OpenAI推出“修补地球”计划，用AI助力开源社区提升网络安全 - 新浪财经",
+      "summary": "OpenAI推出“修补地球”计划，用AI助力开源社区提升网络安全 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVlQNk52cll3ZzQzTHpGcVRVZjJIVkNEQVBvdGYwdXQxUFdEXzZ2UjF1c243c2tUcEU0ZVp1Nk5vaEVnUm1nRnJXb2FuYk1xbWdaNVI1YzBFMkRUVllLOUdDX0VmOVVxNXZZdUxWQUZ5QTNyRGhIYVlwU05uZWRDMUp4RVUwSDFvVl9WYUlSV0gyMUZHTFJ6TUtFSlRxZE82TFNncG1laGcxSmlRellYNVFR?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "opensource",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-23",
+      "canonical_key": "openai says new gpt 5 5 cyber outperforms anthropic s mythos on cybersecurity benchmark",
+      "normalized_title": "openai says new gpt 5 5 cyber outperforms anthropic s mythos on cybersecurity benchmark",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXF2a1NjeU5JcEdNYXBrZTVXOWdTVVJGdjNVTFFtVW1scnVNSjhOd3lGVEtFUVljWjlNam5wLXJNTGh1NnNIaFNNVUQyekR0UWNsRU5NN2NFVWVtQV9wRWJoeUxxU3BfeXRHYWJwOXg0TWFyNmROcThVUVRxaGdKNS15MVFvaEF2OGtuR3FmLWRyMXJFeXJUUVZqQTJpVURoQWFhZVQ1ZU4xS3ZjcFZhSw?oc=5",
+      "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark - The Decoder",
+      "summary": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark The Decoder",
+      "source": "The Decoder",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXF2a1NjeU5JcEdNYXBrZTVXOWdTVVJGdjNVTFFtVW1scnVNSjhOd3lGVEtFUVljWjlNam5wLXJNTGh1NnNIaFNNVUQyekR0UWNsRU5NN2NFVWVtQV9wRWJoeUxxU3BfeXRHYWJwOXg0TWFyNmROcThVUVRxaGdKNS15MVFvaEF2OGtuR3FmLWRyMXJFeXJUUVZqQTJpVURoQWFhZVQ1ZU4xS3ZjcFZhSw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
