@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T07:20:51.830318+08:00",
+  "updated_at": "2026-06-25T06:40:21.579790+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5835,7 +5835,7 @@
     },
     {
       "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-23",
+      "last_seen_date": "2026-06-24",
       "canonical_key": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
       "normalized_title": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
       "normalized_link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
@@ -5870,7 +5870,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-23",
@@ -6025,6 +6025,154 @@
           "coding_agent",
           "model_capability",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "迈克生物 全流程自动化及机器人技术可替代70 80 的人工操作",
+      "normalized_title": "迈克生物 全流程自动化及机器人技术可替代70 80 的人工操作",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVjaHVnWWNYOGF2M21meS1VR1hqMHB6SXY4Mmo2ZnRmRGJLUjcwcFRPVVl4d0ZldkFzZFAzbkpMWlRscUFwdkNwLXQ4dngxd1JLNldmT3RsMmh5UTFFR2dWX2VUZ2ZVcE8wM3hXZEZERWthZkVnZFFtcFFsZGpQNlFidGhIYUV4NHRtdQ?oc=5",
+      "title": "迈克生物：全流程自动化及机器人技术可替代70%~80%的人工操作 - 搜狐网",
+      "summary": "迈克生物：全流程自动化及机器人技术可替代70%~80%的人工操作 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVjaHVnWWNYOGF2M21meS1VR1hqMHB6SXY4Mmo2ZnRmRGJLUjcwcFRPVVl4d0ZldkFzZFAzbkpMWlRscUFwdkNwLXQ4dngxd1JLNldmT3RsMmh5UTFFR2dWX2VUZ2ZVcE8wM3hXZEZERWthZkVnZFFtcFFsZGpQNlFidGhIYUV4NHRtdQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "robotics",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "robotics",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "决胜下半场 优旦科技以ai 方案引领储能产业价值新风向",
+      "normalized_title": "决胜下半场 优旦科技以ai 方案引领储能产业价值新风向",
+      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81WjQ4dE5DMnhGblh5SHJzb0JTQjJBOXdURm9TQzNMVlpTM18yclJCY2JIaGN2dlNhUFRrZV9PQWdBOEVhUkZBalZFXzZtSE1SZ0JSaE9MMFpxV1U3SmNUQnN2czdKOVIwZnhyUF9qNmtXaWVTY3o0RFZXS0h1RVk?oc=5",
+      "title": "决胜下半场 | 优旦科技以AI+方案引领储能产业价值新风向 - 新浪网",
+      "summary": "决胜下半场 | 优旦科技以AI+方案引领储能产业价值新风向 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81WjQ4dE5DMnhGblh5SHJzb0JTQjJBOXdURm9TQzNMVlpTM18yclJCY2JIaGN2dlNhUFRrZV9PQWdBOEVhUkZBalZFXzZtSE1SZ0JSaE9MMFpxV1U3SmNUQnN2czdKOVIwZnhyUF9qNmtXaWVTY3o0RFZXS0h1RVk?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "nvidia and aws collaborate to bring ai to production at scale",
+      "normalized_title": "nvidia and aws collaborate to bring ai to production at scale",
+      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale",
+      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across A…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "cloud",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "aws",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "partnership",
+          "production"
+        ],
+        "topics": [
+          "ai_research",
+          "aws",
+          "chip",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "a new paper argues microsoft exaggerated its quantum claims a year ago",
+      "normalized_title": "a new paper argues microsoft exaggerated its quantum claims a year ago",
+      "normalized_link": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+      "title": "A new paper argues Microsoft exaggerated its quantum claims a year ago",
+      "summary": "Microsoft’s Majorana 1 processor. | Image: Microsoft A critique published in Nature Wednesday calls the basic technology behind Microsoft's \"breakthrough\" quantum computing chip the Majorana 1 into question. Microsoft unveiled the chip in February 2025 and said it featured a brand-new technology kn…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft",
+          "st"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "research"
         ]
       },
       "seen_count": 1
