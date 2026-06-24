@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T06:40:21.579790+08:00",
+  "updated_at": "2026-06-25T07:20:53.762813+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5870,7 +5870,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-23",
@@ -6097,7 +6097,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-24",
@@ -6143,7 +6143,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-24",
@@ -6173,6 +6173,81 @@
         ],
         "topics": [
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "your enterprise ai agents should automatically remember which model is right for which task mindstone built the capability with rebel",
+      "normalized_title": "your enterprise ai agents should automatically remember which model is right for which task mindstone built the capability with rebel",
+      "normalized_link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSzk4ckVnNHRPQ1gybjRXRVY1U3h6YXJmOHlTUmpxWm93cXNMSEowREdIU0JfcDg3WWpPWHBqdGhCNXdMNFQ0MlRadE8zNEl1VFRPMTlNRFA1Rm9tS2Q3RVFINTNhT0tFZlcyallMVWNxVE9JOUplS1BfUnNEbnVRM04zVGFRUnNkRTdNaWt5bGNjUHgtb3kxdUZIcThuT1dwZGMzNWxrVFBaREFZRHJOYmlQMWZNN1hYX3Y2endReFZ3WFFaQmdUTFVxaVM2d0FheVNhR1dKUDNROWhwUmV3ZXp2T01mUXdGNEl0NVhjak1HTHVvbldwbkQzcWFqMGtR?oc=5",
+      "title": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel. - VentureBeat",
+      "summary": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel. VentureBeat",
+      "source": "VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSzk4ckVnNHRPQ1gybjRXRVY1U3h6YXJmOHlTUmpxWm93cXNMSEowREdIU0JfcDg3WWpPWHBqdGhCNXdMNFQ0MlRadE8zNEl1VFRPMTlNRFA1Rm9tS2Q3RVFINTNhT0tFZlcyallMVWNxVE9JOUplS1BfUnNEbnVRM04zVGFRUnNkRTdNaWt5bGNjUHgtb3kxdUZIcThuT1dwZGMzNWxrVFBaREFZRHJOYmlQMWZNN1hYX3Y2endReFZ3WFFaQmdUTFVxaVM2d0FheVNhR1dKUDNROWhwUmV3ZXp2T01mUXdGNEl0NVhjak1HTHVvbldwbkQzcWFqMGtR?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-24",
+      "last_seen_date": "2026-06-24",
+      "canonical_key": "每日瞰ai 火山引擎发布豆包2 1pro anthropic推出claude tag meta发布新代ai眼镜",
+      "normalized_title": "每日瞰ai 火山引擎发布豆包2 1pro anthropic推出claude tag meta发布新代ai眼镜",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43TzRCalRURVBTTzlSY0xLZUZQRmdfNThJOWl4bzAxUFRGel94WU5UeWo2Q2x0OUVROWZkeG42V1BpZjNyWHBGTG1mQm1XSFJJNjJB?oc=5",
+      "title": "【每日瞰AI】火山引擎发布豆包2.1Pro；Anthropic推出Claude Tag；Meta发布新代AI眼镜 - 电子工程专辑",
+      "summary": "【每日瞰AI】火山引擎发布豆包2.1Pro；Anthropic推出Claude Tag；Meta发布新代AI眼镜 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43TzRCalRURVBTTzlSY0xLZUZQRmdfNThJOWl4bzAxUFRGel94WU5UeWo2Q2x0OUVROWZkeG42V1BpZjNyWHBGTG1mQm1XSFJJNjJB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1

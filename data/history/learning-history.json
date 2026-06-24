@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T06:40:21.579790+08:00",
+  "updated_at": "2026-06-25T07:20:53.762813+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -932,7 +932,7 @@
           "safety"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-10",
