@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T07:20:53.762813+08:00",
+  "updated_at": "2026-06-26T06:46:34.718801+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3691,7 +3691,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-15",
+      "last_seen_date": "2026-06-25",
       "canonical_key": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_title": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark",
@@ -3731,7 +3731,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-06-12",
@@ -6248,6 +6248,152 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-25",
+      "canonical_key": "daloopa expands financial data access with new mcp connector for microsoft 365 copilot integration bringing trusted financial data directly into ai workflows",
+      "normalized_title": "daloopa expands financial data access with new mcp connector for microsoft 365 copilot integration bringing trusted financial data directly into ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxONVZ0WW9McW5NNTMzWVFPVnpIRm83UC1qOVZkbTlPZUVSR3dqYnVocEhJVUZkVUoydm1sVW9xY1oyM2NaOVowT0FHRHExQ1RnMThFN0loaVltenR5ZzFoZDJ1M21ybUV1T3otMTJJMXYzQ0hLc3d4V2d3bWpvOEdoRVRNc1Nhck1SbzdUSjB2VjR3VkNyTDdZRzFaanhtaDZBS0RXQm9pVXladVhhVk5zY3VDU19XSWxCLTZQcGloNjdHOEI3eE13Ul96VWZGNTNUSV9oNlJXbTJGdUFSNVk3d095MkE3Q2wwdm15OUxpV3N6ZUk4Z3hfSnJLMUR3T1BzRXpHUXJzbEpBenhfdU1LQ0pfSUw5Wm0zMllsOG8xM2t3cWFqRENoaEE5MGlSQzZsTFNFUklLOEY?oc=5",
+      "title": "Daloopa expands financial data access with new MCP connector for Microsoft 365 Copilot integration, bringing trusted financial data directly into AI workflows - PR Newswire",
+      "summary": "Daloopa expands financial data access with new MCP connector for Microsoft 365 Copilot integration, bringing trusted financial data directly into AI workflows PR Newswire",
+      "source": "PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxONVZ0WW9McW5NNTMzWVFPVnpIRm83UC1qOVZkbTlPZUVSR3dqYnVocEhJVUZkVUoydm1sVW9xY1oyM2NaOVowT0FHRHExQ1RnMThFN0loaVltenR5ZzFoZDJ1M21ybUV1T3otMTJJMXYzQ0hLc3d4V2d3bWpvOEdoRVRNc1Nhck1SbzdUSjB2VjR3VkNyTDdZRzFaanhtaDZBS0RXQm9pVXladVhhVk5zY3VDU19XSWxCLTZQcGloNjdHOEI3eE13Ul96VWZGNTNUSV9oNlJXbTJGdUFSNVk3d095MkE3Q2wwdm15OUxpV3N6ZUk4Z3hfSnJLMUR3T1BzRXpHUXJzbEpBenhfdU1LQ0pfSUw5Wm0zMllsOG8xM2t3cWFqRENoaEE5MGlSQzZsTFNFUklLOEY?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot",
+          "mcp"
+        ],
+        "actions": [
+          "expand"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-25",
+      "canonical_key": "onsemi to acquire synaptics to enable the next generation of intelligent systems for physical ai",
+      "normalized_title": "onsemi to acquire synaptics to enable the next generation of intelligent systems for physical ai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSC1HWlIyR0VLR0VvdXhrZWZWdk5wUmhnUnZHZmtDSnFRTXo1THdvRnBaRlNTWU1vTTcxYXJVdWxxYWRyRGU0Z083RHk4ODN1dFBDbmNLLVJUWm5iVlg2UTl4NjBtdkF3cnhSbWpVVVB0WVdBdnY5YTR2SlplZmxGMFBkTkxoYU9RTllRU0JLQl9XdXN3WnhXS282VnJfZXZmVEJLWUZtZWRiS1hJSVRDVVlaQ2hMN0xTLUJuaTlBQU11LUxmcS1uLTcyYXJacXNkNE01YXF0ZS1XaUpKbGx2OTMtVmpPOXRDRlE?oc=5",
+      "title": "onsemi to Acquire Synaptics to Enable the Next Generation of Intelligent Systems for Physical AI - onsemi",
+      "summary": "onsemi to Acquire Synaptics to Enable the Next Generation of Intelligent Systems for Physical AI onsemi",
+      "source": "onsemi",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSC1HWlIyR0VLR0VvdXhrZWZWdk5wUmhnUnZHZmtDSnFRTXo1THdvRnBaRlNTWU1vTTcxYXJVdWxxYWRyRGU0Z083RHk4ODN1dFBDbmNLLVJUWm5iVlg2UTl4NjBtdkF3cnhSbWpVVVB0WVdBdnY5YTR2SlplZmxGMFBkTkxoYU9RTllRU0JLQl9XdXN3WnhXS282VnJfZXZmVEJLWUZtZWRiS1hJSVRDVVlaQ2hMN0xTLUJuaTlBQU11LUxmcS1uLTcyYXJacXNkNE01YXF0ZS1XaUpKbGx2OTMtVmpPOXRDRlE?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "onsemi"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-25",
+      "canonical_key": "200块薅出1 4万算力 openai被薅秃了",
+      "normalized_title": "200块薅出1 4万算力 openai被薅秃了",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9scHIyZTRLSzhHNFUwZnVaNlNSVmtLMzJMa1RWbi14QzBKbDBJb0J6WXNtemdfWlJPdjdVdHlKeXhIOEhSZnlMQm9Ta18tNmRhSjF3a1pnWG9ockxtdVNkbUhWUHdYYkM1Wmg4UHFydHF2Zw?oc=5",
+      "title": "200块薅出1.4万算力！OpenAI被薅秃了？ - thepaper.cn",
+      "summary": "200块薅出1.4万算力！OpenAI被薅秃了？ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9scHIyZTRLSzhHNFUwZnVaNlNSVmtLMzJMa1RWbi14QzBKbDBJb0J6WXNtemdfWlJPdjdVdHlKeXhIOEhSZnlMQm9Ta18tNmRhSjF3a1pnWG9ockxtdVNkbUhWUHdYYkM1Wmg4UHFydHF2Zw?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-25",
+      "canonical_key": "美团longcat开源 vitabench2 0",
+      "normalized_title": "美团longcat开源 vitabench2 0",
+      "normalized_link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
+      "title": "美团LongCat开源 VitaBench2.0",
+      "summary": "36氪获悉，自去年10月发布了VitaBench 1.0，美团LongCat团队再次推出VitaBench 2.0。VitaBench 2.0是首个真实生活场景下面向长期动态用户建模的智能体评测基准，它系统性地评测大语言模型在长期、真实、动态的用户互动中个性化与主动性的能力。",
+      "source": "36氪",
+      "link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "benchmark",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "benchmark",
+          "opensource"
         ]
       },
       "seen_count": 1
