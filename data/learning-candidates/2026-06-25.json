@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated_at": "2026-06-26T06:46:34.718801+08:00",
+  "generated_at": "2026-06-26T07:43:20.074956+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -21,8 +21,8 @@
     "history_size_after": 65,
     "history_duplicate_count": 12
   },
-  "raw_item_count": 77,
-  "deduped_item_count": 26,
+  "raw_item_count": 75,
+  "deduped_item_count": 24,
   "filtered_item_count": 0,
   "curated_item_count": 0,
   "curated_items": [],
@@ -30,7 +30,7 @@
     "duplicate": 51,
     "history_duplicate": 12,
     "same_source_limit": 0,
-    "old_resource": 14,
+    "old_resource": 12,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0

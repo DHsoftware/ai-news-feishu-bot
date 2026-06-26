@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T06:46:34.718801+08:00",
+  "updated_at": "2026-06-26T07:43:20.074956+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3731,7 +3731,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "first_seen_date": "2026-06-12",
@@ -6296,7 +6296,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-25",
@@ -6329,7 +6329,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-25",
@@ -6360,7 +6360,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-25",
@@ -6394,6 +6394,38 @@
           "ai_agent",
           "benchmark",
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-25",
+      "canonical_key": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
+      "normalized_title": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
+      "title": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 - 电子工程专辑",
+      "summary": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "chip",
+          "inference"
         ]
       },
       "seen_count": 1

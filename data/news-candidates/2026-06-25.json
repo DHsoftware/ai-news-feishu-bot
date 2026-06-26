@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated_at": "2026-06-26T06:46:34.718801+08:00",
+  "generated_at": "2026-06-26T07:43:20.074956+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 265,
-    "history_size_after": 269,
-    "history_duplicate_count": 41
+    "history_size_before": 269,
+    "history_size_after": 270,
+    "history_duplicate_count": 43
   },
-  "raw_item_count": 5218,
-  "deduped_item_count": 3855,
-  "filtered_item_count": 411,
+  "raw_item_count": 5180,
+  "deduped_item_count": 3837,
+  "filtered_item_count": 418,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -170,43 +170,40 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "美团LongCat开源 VitaBench2.0",
-      "summary": "36氪获悉，自去年10月发布了VitaBench 1.0，美团LongCat团队再次推出VitaBench 2.0。VitaBench 2.0是首个真实生活场景下面向长期动态用户建模的智能体评测基准，它系统性地评测大语言模型在长期、真实、动态的用户互动中个性化与主动性的能力。",
+      "title": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 - 电子工程专辑",
+      "summary": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 电子工程专辑",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-06-25T20:11:41+08:00",
-      "source": "36氪",
-      "link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
+      "summary_quality": "low",
+      "published_at": "2026-06-25T15:25:27+08:00",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china",
+      "source_group": "auto_china",
       "source_type": "",
       "source_quality": "",
       "is_official_source": false,
       "tags": [],
       "topic_tags": [
-        "agent",
-        "ai_agent",
-        "benchmark",
-        "opensource"
+        "chip"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "美团longcat开源 vitabench2 0",
-      "canonical_key": "美团longcat开源 vitabench2 0",
-      "normalized_link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
-      "score": 52,
-      "selection_reason": "china_quota"
+      "category": "AI芯片",
+      "dedupe_key": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
+      "canonical_key": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
+      "score": 47,
+      "selection_reason": "auto_china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1363,
-    "history_duplicate": 41,
-    "weak_relevance": 215,
+    "duplicate": 1343,
+    "history_duplicate": 43,
+    "weak_relevance": 213,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3229,
-    "same_entity_limit": 13,
+    "old_news": 3206,
+    "same_entity_limit": 16,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
