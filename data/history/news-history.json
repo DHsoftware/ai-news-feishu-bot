@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T07:43:20.074956+08:00",
+  "updated_at": "2026-06-27T06:36:54.568336+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3691,7 +3691,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-25",
+      "last_seen_date": "2026-06-26",
       "canonical_key": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_title": "nvidia achieves leading agentic coding performance on first agentic ai benchmark",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark",
@@ -3731,7 +3731,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "first_seen_date": "2026-06-12",
@@ -6426,6 +6426,152 @@
         "topics": [
           "chip",
           "inference"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-26",
+      "last_seen_date": "2026-06-26",
+      "canonical_key": "从 copilot 到 autopilot 微软发布常驻型企业智能体 scout",
+      "normalized_title": "从 copilot 到 autopilot 微软发布常驻型企业智能体 scout",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
+      "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout - Infoq.cn",
+      "summary": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout Infoq.cn",
+      "source": "Infoq.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-26",
+      "last_seen_date": "2026-06-26",
+      "canonical_key": "yincae将在iicie 2026展示面向ai数据中心 硅光子与量子计算的先进材料解决方案",
+      "normalized_title": "yincae将在iicie 2026展示面向ai数据中心 硅光子与量子计算的先进材料解决方案",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NWWZseUxieEo4ZHNYSVQtSEtfdUtaeWVnS054N2d2aTl1Q0U1TjVZTmNKbHAzMTFKQTFDZnpsTDNFTHN5UllWc1dqTU1Ybzc1Q0tJ?oc=5",
+      "title": "YINCAE将在IICIE 2026展示面向AI数据中心、硅光子与量子计算的先进材料解决方案 - 电子工程专辑",
+      "summary": "YINCAE将在IICIE 2026展示面向AI数据中心、硅光子与量子计算的先进材料解决方案 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NWWZseUxieEo4ZHNYSVQtSEtfdUtaeWVnS054N2d2aTl1Q0U1TjVZTmNKbHAzMTFKQTFDZnpsTDNFTHN5UllWc1dqTU1Ybzc1Q0tJ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-26",
+      "last_seen_date": "2026-06-26",
+      "canonical_key": "how agents are transforming work",
+      "normalized_title": "how agents are transforming work",
+      "normalized_link": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "How agents are transforming work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "official_report",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "official_report",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-26",
+      "last_seen_date": "2026-06-26",
+      "canonical_key": "patronus ai lands 50m to build digital worlds that stress",
+      "normalized_title": "patronus ai lands 50m to build digital worlds that stress",
+      "normalized_link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents",
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research"
         ]
       },
       "seen_count": 1

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T07:43:20.074956+08:00",
+  "updated_at": "2026-06-27T06:36:54.568336+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -976,7 +976,7 @@
     },
     {
       "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-11",
+      "last_seen_date": "2026-06-26",
       "canonical_key": "overview",
       "normalized_title": "overview",
       "normalized_link": "https://docs.anthropic.com/en/docs/claude-code",
@@ -1013,7 +1013,7 @@
           "workflow"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-12",
