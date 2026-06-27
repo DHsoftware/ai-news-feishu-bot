@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:22:13.802616+08:00",
+  "updated_at": "2026-06-28T06:16:24.517489+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -6432,7 +6432,7 @@
     },
     {
       "first_seen_date": "2026-06-26",
-      "last_seen_date": "2026-06-26",
+      "last_seen_date": "2026-06-27",
       "canonical_key": "从 copilot 到 autopilot 微软发布常驻型企业智能体 scout",
       "normalized_title": "从 copilot 到 autopilot 微软发布常驻型企业智能体 scout",
       "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
@@ -6471,7 +6471,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-26",
@@ -6575,6 +6575,159 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-27",
+      "last_seen_date": "2026-06-27",
+      "canonical_key": "deploy a production ready nvidia ai q blueprint on oracle cloud infrastructure",
+      "normalized_title": "deploy a production ready nvidia ai q blueprint on oracle cloud infrastructure",
+      "normalized_link": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure",
+      "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+      "summary": "AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep... AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where t…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "cloud",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-27",
+      "last_seen_date": "2026-06-27",
+      "canonical_key": "盘点各大车厂电驱方案 前沿技术 ai汽车制造业",
+      "normalized_title": "盘点各大车厂电驱方案 前沿技术 ai汽车制造业",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FbjJDRjZEMGN0S3hKTVpHZzVuYzNZd2RiWk01eUVYRW80dGFOUnRrU0Jud18ybFE1Y3dMQlNqcVluc3RpYUtURWZNLVRuWXdQMDhwckZOVjEtQnVrcXRyZkJMeEZzUUlGalNIUm0tSFBHdw?oc=5",
+      "title": "盘点各大车厂电驱方案- 前沿技术 - AI汽车制造业 - 新浪网",
+      "summary": "盘点各大车厂电驱方案- 前沿技术 - AI汽车制造业 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FbjJDRjZEMGN0S3hKTVpHZzVuYzNZd2RiWk01eUVYRW80dGFOUnRrU0Jud18ybFE1Y3dMQlNqcVluc3RpYUtURWZNLVRuWXdQMDhwckZOVjEtQnVrcXRyZkJMeEZzUUlGalNIUm0tSFBHdw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "automotive",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "automotive",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-27",
+      "last_seen_date": "2026-06-27",
+      "canonical_key": "github and undp team up to advance development priorities in ghana with open source",
+      "normalized_title": "github and undp team up to advance development priorities in ghana with open source",
+      "normalized_link": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source",
+      "title": "GitHub and UNDP team up to advance development priorities in Ghana with open source",
+      "summary": "Open source software is commonplace. Many people use it without even knowing, whether for everyday web browsing or building tools to improve efficiency. At its core, open-source software is built on code that is publicly available for anyone to use, adapt, and improve. It’s more complex, however, w…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-27",
+      "last_seen_date": "2026-06-27",
+      "canonical_key": "openai declares it s clearly in the advertising business now as ai reshapes marketing",
+      "normalized_title": "openai declares it s clearly in the advertising business now as ai reshapes marketing",
+      "normalized_link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TcFdrc1A2SDZ3MmFLWHFpU2JucjUydE5DRk5Za2dwWUMzczZlc2RLbmpBNFROUWVYRnZEUWpUdkw2Zm9iM3R2N2piVWtJeUZKSzl0SkpqaURydGVpbjhDU3hNU1VyMXZCS0tqekxESHQzdG1NUUN3?oc=5",
+      "title": "OpenAI declares it’s ‘clearly in the advertising business now’ as AI reshapes marketing - Crypto Briefing",
+      "summary": "OpenAI declares it’s ‘clearly in the advertising business now’ as AI reshapes marketing Crypto Briefing",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TcFdrc1A2SDZ3MmFLWHFpU2JucjUydE5DRk5Za2dwWUMzczZlc2RLbmpBNFROUWVYRnZEUWpUdkw2Zm9iM3R2N2piVWtJeUZKSzl0SkpqaURydGVpbjhDU3hNU1VyMXZCS0tqekxESHQzdG1NUUN3?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
