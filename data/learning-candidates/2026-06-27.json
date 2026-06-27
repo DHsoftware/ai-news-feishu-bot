@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated_at": "2026-06-28T06:16:24.517489+08:00",
+  "generated_at": "2026-06-28T07:15:37.177705+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -31,7 +31,7 @@
       "summary": "Docs and resources to help you build with, for, and on OpenAI.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-06-28T06:16:24.517489+08:00",
+      "published_at": "2026-06-28T07:15:37.177705+08:00",
       "source": "OpenAI Developers",
       "source_type": "official_doc",
       "source_quality": "high",
