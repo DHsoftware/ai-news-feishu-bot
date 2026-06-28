@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T06:15:31.147043+08:00",
+  "updated_at": "2026-06-29T07:17:10.394786+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -6202,7 +6202,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-28",
@@ -6310,7 +6310,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-28",
@@ -6337,6 +6337,67 @@
         "actions": [],
         "topics": [
           "llm"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-06-28",
+      "last_seen_date": "2026-06-28",
+      "canonical_key": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
+      "normalized_title": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
+      "title": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 - 디지털투데이",
+      "summary": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 디지털투데이",
+      "source": "디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-28",
+      "last_seen_date": "2026-06-28",
+      "canonical_key": "why did this journal retract two 1940s papers by max planck",
+      "normalized_title": "why did this journal retract two 1940s papers by max planck",
+      "normalized_link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck",
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "summary": "German physicist Max Planck was one of the pioneers of quantum mechanics in the early 20th century, earning the 1918 Nobel Prize in Physics for his discovery of quanta . There has never been a whisper of scandal about the man's integrity or his scientific work. So a pair of science historians were…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "availability",
+          "update"
+        ],
+        "topics": [
+          "research"
         ]
       },
       "seen_count": 1

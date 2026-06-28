@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-29T06:15:31.147043+08:00",
+  "generated_at": "2026-06-29T07:17:10.394786+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 278,
-    "history_size_after": 243,
-    "history_duplicate_count": 16
+    "history_size_before": 243,
+    "history_size_after": 245,
+    "history_duplicate_count": 12
   },
-  "raw_item_count": 5160,
-  "deduped_item_count": 3792,
-  "filtered_item_count": 131,
+  "raw_item_count": 5213,
+  "deduped_item_count": 3849,
+  "filtered_item_count": 129,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -75,15 +75,15 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "TDK Showcases its Latest Industrial, Automotive, and AI Data Center Solutions At PCIM - NewswireToday",
-      "summary": "TDK Showcases its Latest Industrial, Automotive, and AI Data Center Solutions At PCIM NewswireToday",
+      "title": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 - 디지털투데이",
+      "summary": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 디지털투데이",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-06-27T06:34:10+08:00",
-      "source": "NewswireToday",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlVvMUozWUltYUcxZ1hUWXExbFQ5X2pKYVhUdmpYN0dMb0YzbTJ6S21udVJlX2dzUmpCR1hWN0FXaWNOb1A5Rng0NHcxWk1KalRValQ4TkxKZFNRb0c2V2UyWEpwdnIybUVwNjNPUjRQZVA0WW9TNDhXamtEMFlPTVNLRi1kbTJIN2JMamEwWUt3M3FvcFFFZEVKZXFwdGxNa0dHa1U1NW5Ua25iU1BaYUdTWGtiaHl2a1kyMmRCaUp4Z2Nx?oc=5",
-      "language": "en",
-      "region": "global",
+      "summary_quality": "low",
+      "published_at": "2026-06-29T06:30:00+08:00",
+      "source": "디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
+      "language": "zh",
+      "region": "china",
       "source_group": "power_electronics",
       "source_type": "news_search",
       "source_quality": "",
@@ -94,46 +94,16 @@
         "dcdc"
       ],
       "topic_tags": [
-        "automotive",
         "dcdc",
         "obc",
         "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "tdk showcases its latest industrial automotive and ai data center solutions at pcim",
-      "canonical_key": "tdk showcases its latest industrial automotive and ai data center solutions at pcim",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlVvMUozWUltYUcxZ1hUWXExbFQ5X2pKYVhUdmpYN0dMb0YzbTJ6S21udVJlX2dzUmpCR1hWN0FXaWNOb1A5Rng0NHcxWk1KalRValQ4TkxKZFNRb0c2V2UyWEpwdnIybUVwNjNPUjRQZVA0WW9TNDhXamtEMFlPTVNLRi1kbTJIN2JMamEwWUt3M3FvcFFFZEVKZXFwdGxNa0dHa1U1NW5Ua25iU1BaYUdTWGtiaHl2a1kyMmRCaUp4Z2Nx?oc=5",
-      "score": 41,
+      "dedupe_key": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
+      "canonical_key": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
+      "score": 43,
       "selection_reason": "power_electronics_boost"
-    },
-    {
-      "title": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
-      "summary": "今日热点导览 OpenAI官宣推出GPT-5.6 亚洲“果链”股价几乎全线大幅下跌 SpaceX计划为美国消费者推出新的星链移动服务 美团股价低迷，王兴回应 小鹏机器人调整：新设九部门，何小鹏兼任产品部负责人 微信回应朋友圈互动规则：单删原封不动，互删清空对方全部痕迹 TOP3大新闻 苹果涨价引山姆代购潮，部分门店已卖断货 近日，社交媒体上多名网友反馈，多地山姆会员超市的iPad及Mac系列产品出现抢购、代购的情况。原因在于，苹果宣布上调iPad及Mac系列产品价格后，山姆超市并未进行价格调整。6月26日，有多名代购称可加价45元至300元不等前往山姆代购，并表示代购需求超级多，店内已基本无货。多家山姆超市门店也确认，苹果系列产品尚未调价，且因大量抢购，部分门店已卖断货。（新浪财经） DeepSeek大规模招聘，所有部门至少扩大一倍 6月25日晚，杭州深度求索人工智能基础技术研究有限公司（下称DeepSeek）发布招聘信息，表示正努力将所有部门的规模扩大至少一倍。DeepSeek此次招聘涵盖7个大类的33个（类）岗位，工作地点为北京和杭州。 DeepSeek成立于2023年7月17日，总部位于浙江省杭州市拱墅区，是从事大语言模型及多模态AI技术研发的有限责任公司，其推出的DeepSeek系列开源模型，是国内领先的开源大模型系列。近日，DeepSeek获得A轮融资，融资金额约510亿元，企业估值约为4000亿元。（红星新闻） 黄金再度跌破4000美元 6月26日，现货黄金再度跌破4000美元，日内下跌0.8%。此前，包括高盛等多家投行下调黄金目标价。国内多家品牌金店足金饰品挂牌价同步下调，部分品牌足金饰品价格降至1220元/克附近，较年内高点回落480元至500元。（财联社、央视财经） AI最前沿 OpenAI官宣推出GPT-5.6 北京时间6月27日凌晨，OpenAI官宣…",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-06-27T09:02:37+08:00",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3870720040588295?f=rss",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "automotive",
-        "llm",
-        "multimodal",
-        "opensource",
-        "robotics"
-      ],
-      "category": "全球AI",
-      "dedupe_key": "9点1氪 苹果涨价引山姆代购潮 deepseek大规模招聘 黄金再度跌破4000美元",
-      "canonical_key": "9点1氪 苹果涨价引山姆代购潮 deepseek大规模招聘 黄金再度跌破4000美元",
-      "normalized_link": "https://36kr.com/p/3870720040588295?f=rss",
-      "score": 19,
-      "selection_reason": "china_quota"
     },
     {
       "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
@@ -158,7 +128,7 @@
       "canonical_key": "china s z ai claims it can match mythos on cybersecurity",
       "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
       "score": 30,
-      "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
+      "selection_reason": "required_global_quota"
     },
     {
       "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
@@ -184,17 +154,42 @@
       "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
       "score": 30,
       "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
+    },
+    {
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "summary": "German physicist Max Planck was one of the pioneers of quantum mechanics in the early 20th century, earning the 1918 Nobel Prize in Physics for his discovery of quanta . There has never been a whisper of scandal about the man's integrity or his scientific work. So a pair of science historians were puzzled when they discovered that a scientific journal had inexplicably retracted two of Planck's papers from the 1940s. The journal in question is Naturwissenschaften, now known as The Science of Nature. The journal typically adds a large RETRACTED notice across digital papers that have been retracted, leaving them available for download. But it has removed the two Planck papers entirely, leaving just a blank page (and empty PDFs) with a brief note saying the articles had been \"withdrawn due to…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-06-29T02:49:21+08:00",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "research"
+      ],
+      "category": "研究论文",
+      "dedupe_key": "why did this journal retract two 1940s papers by max planck",
+      "canonical_key": "why did this journal retract two 1940s papers by max planck",
+      "normalized_link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck",
+      "score": 30,
+      "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1368,
-    "history_duplicate": 16,
-    "weak_relevance": 131,
+    "duplicate": 1364,
+    "history_duplicate": 12,
+    "weak_relevance": 137,
     "same_source_limit": 0,
-    "china_limit": 4,
+    "china_limit": 6,
     "auto_china_limit": 0,
-    "old_news": 3530,
-    "same_entity_limit": 117,
+    "old_news": 3583,
+    "same_entity_limit": 182,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

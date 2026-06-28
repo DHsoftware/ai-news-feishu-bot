@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-29T06:15:31.147043+08:00",
+  "generated_at": "2026-06-29T07:17:10.394786+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 65,
+    "history_size_before": 56,
     "history_size_after": 56,
     "history_duplicate_count": 11
   },
@@ -31,7 +31,7 @@
       "summary": "Redirecting to: /learn",
       "summary_source": "page_title",
       "summary_quality": "low",
-      "published_at": "2026-06-29T06:15:31.147043+08:00",
+      "published_at": "2026-06-29T07:17:10.394786+08:00",
       "source": "OpenAI Developers",
       "source_type": "official_doc",
       "source_quality": "high",
