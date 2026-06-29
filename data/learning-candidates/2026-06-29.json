@@ -1,0 +1,70 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-30T06:31:34.368304+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 56,
+    "history_size_after": 51,
+    "history_duplicate_count": 10
+  },
+  "raw_item_count": 76,
+  "deduped_item_count": 24,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Codex app",
+      "summary": "# Codex app ### New features - Added rate-limit reset banking for Plus and Pro users, including one free reset at launch and [referral invitations](/codex/pricing#invite-friends-and-coworkers) for earning more during the current promotion. Eligible Business members can invite coworkers to earn shared workspace credits through a separate referral program. - Added [Developer mode](/codex/app/browser#developer-mode) for Browser use in Chrome and the Codex in-app browser. It gives Codex controlled Chrome DevTools Protocol (CDP) access for performance profiling and deeper debugging of network traffic, console output, runtime errors, and page state. - Added the `/init` command to the app composer for creating project instructions with the same initialization workflow as the Codex CLI. - Added c…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-06-11T08:00:00+08:00",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#codex-2026-06-11-app",
+      "language": "en",
+      "region": "global",
+      "source_group": "official",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent_workflow",
+        "cli",
+        "code_review",
+        "codex",
+        "debugging",
+        "official",
+        "state",
+        "tools",
+        "workflow"
+      ],
+      "concept_hint": "Agent Workflow",
+      "score": 112,
+      "canonical_key": "codex app",
+      "dedupe_key": "codex app",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 52,
+    "history_duplicate": 10,
+    "same_source_limit": 0,
+    "old_resource": 13,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}
