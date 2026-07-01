@@ -1,52 +1,8 @@
 {
-  "updated_at": "2026-07-01T07:36:41.630338+08:00",
+  "updated_at": "2026-07-02T06:40:02.087799+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "实操指南 codex cli 0 132升级 移动端远程控制 triggers 自动修复流水线配置",
-      "normalized_title": "实操指南 codex cli 0 132升级 移动端远程控制 triggers 自动修复流水线配置",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFByXzl0ckN4M0w1bXFCbHozdUpuaXhTd2lHWndGUWJwUGhUS0xzX3REc0ZtbVI0WE9ZMXFWby1wN0xYVnVuQTJ2ZWNoRzZQdw?oc=5",
-      "title": "实操指南：Codex CLI 0.132升级+移动端远程控制+Triggers 自动修复流水线配置 - 51CTO",
-      "source": "\"Codex Agent 教程\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFByXzl0ckN4M0w1bXFCbHozdUpuaXhTd2lHWndGUWJwUGhUS0xzX3REc0ZtbVI0WE9ZMXFWby1wN0xYVnVuQTJ2ZWNoRzZQdw?oc=5",
-      "source_type": "tutorial",
-      "language": "zh",
-      "region": "china",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "how to build an agentic organization with openai codex by endava",
-      "normalized_title": "how to build an agentic organization with openai codex by endava",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
-      "title": "How to Build an Agentic Organization with OpenAI Codex, By Endava - Memeburn",
-      "source": "\"OpenAI Codex AGENTS.md\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdWRXOUR5U3ZRckZlVHUyRVhaOE5lRVVwTlVEYjFiZnZLendlRDRTLTJiVi1qVDlsRk1UdkxfVGZmN296d2NNb0lxbW03RmtvYWJjWl9qNno5S0NNdEhMVXREWVJjemUwVjhva3plby1tOFQ1RnlNdG1aaDdnaVJnMjB1dWVja1Z3cHk3R1JSWQ?oc=5",
-      "source_type": "tutorial",
-      "language": "en",
-      "region": "global",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "build hour agents sdk",
-      "normalized_title": "build hour agents sdk",
-      "normalized_link": "https://www.youtube.com/watch?v=tK32trvj_b4",
-      "title": "Build Hour: Agents SDK",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=tK32trvj_b4",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "seen_count": 8
-    },
     {
       "first_seen_date": "2026-06-01",
       "last_seen_date": "2026-06-01",

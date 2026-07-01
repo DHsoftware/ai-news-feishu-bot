@@ -1,153 +1,8 @@
 {
-  "updated_at": "2026-07-01T07:36:41.630338+08:00",
+  "updated_at": "2026-07-02T06:40:02.087799+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "deepseek陈德里ai论文第二弹 从6分到8分 deliautoresearch skill又进化了",
-      "normalized_title": "deepseek陈德里ai论文第二弹 从6分到8分 deliautoresearch skill又进化了",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Lc0RZNU8xdWlFYlFRNkdWcUY4aTZCVy1vS0JSd1JvLWxFa25yWklBLV9oaTBYeUZoV3g0NEZFVE1mMVViMVYxZ3dKazBxQQ?oc=5",
-      "title": "DeepSeek陈德里AI论文第二弹：从6分到8分，DeliAutoResearch SKILL又进化了 - 36kr.com",
-      "source": "\"人工智能 大模型\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Lc0RZNU8xdWlFYlFRNkdWcUY4aTZCVy1vS0JSd1JvLWxFa25yWklBLV9oaTBYeUZoV3g0NEZFVE1mMVViMVYxZ3dKazBxQQ?oc=5",
-      "category": "研究论文",
-      "region": "china",
-      "source_group": "auto_china",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "anthropic releases claude opus 4 8 for coding agents etih edtech news",
-      "normalized_title": "anthropic releases claude opus 4 8 for coding agents etih edtech news",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlBRc3JUSjFUZGF2Y1lLX2s3bkNmZDFWaG41Vk9wbTJfZm8zX2dJc1VWZm5MbkhYWG5LT280R3VwTnpZSVZwWkhaNHZCb2p2LVI4Wm16LTVsaERaUXpfTV9tbzhZa2lkR0hBdTJQXzM1RGMxY3NIV05mdndzMnFPSUZXV0Y3aTBKQnNOdlNjQWVpRlhnWWN1VlBvMDI3Y1F4V19rOGlvQ2NYSU9wbC1MVlhJeDl1dGFPQWc?oc=5",
-      "title": "Anthropic releases Claude Opus 4.8 for coding agents | ETIH EdTech News - EdTech Innovation Hub",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdlBRc3JUSjFUZGF2Y1lLX2s3bkNmZDFWaG41Vk9wbTJfZm8zX2dJc1VWZm5MbkhYWG5LT280R3VwTnpZSVZwWkhaNHZCb2p2LVI4Wm16LTVsaERaUXpfTV9tbzhZa2lkR0hBdTJQXzM1RGMxY3NIV05mdndzMnFPSUZXV0Y3aTBKQnNOdlNjQWVpRlhnWWN1VlBvMDI3Y1F4V19rOGlvQ2NYSU9wbC1MVlhJeDl1dGFPQWc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "英伟达发布arm架构ai pc芯片n1x 开启pc新时代",
-      "normalized_title": "英伟达发布arm架构ai pc芯片n1x 开启pc新时代",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mTDNob19kai1NQVdRSlZJZi1oQmh5V0lKWWd5WXBRUWhHUEcwcTNiYjgzN3RPZEoyV0lDM0FFYXZoVTJ2SHJHdjFNR2RfRFZZNzJWSQ?oc=5",
-      "title": "英伟达发布Arm架构AI PC芯片N1X，开启PC新时代 - 虎嗅",
-      "source": "\"虎嗅 AI\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mTDNob19kai1NQVdRSlZJZi1oQmh5V0lKWWd5WXBRUWhHUEcwcTNiYjgzN3RPZEoyV0lDM0FFYXZoVTJ2SHJHdjFNR2RfRFZZNzJWSQ?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "china",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "anthropic study finds men use ai coding agents more than twice as often as women in social science research",
-      "normalized_title": "anthropic study finds men use ai coding agents more than twice as often as women in social science research",
-      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhXNHh0azVRYm04SU5aOGJFZXY0VnZMWlRHTXpwTm5Od1RLT0NGTGxpb3VOUF9uUjIwS01BN3VZZkdzVDJpZXRWbk9tMGM0VjB1dmw1Q2JWZFJPTzY2endiX09tTFVGeHBlaUd0OUpVM0d3dzBJYmRuVkh5MlBKbDdOUS1wNlNEMTBQZU90RTJ0a0l2eXV4LU9la0RwZ2NNTTF0UTRLekwwOVA2ZTJqeTR2Y041M3hNMkhGQWVMX2VaaFhRNjlsdlQxRnc?oc=5",
-      "title": "Anthropic study finds men use AI coding agents more than twice as often as women in social science research - The Decoder",
-      "source": "\"AI coding assistant OR code generation OR AI agent\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGhXNHh0azVRYm04SU5aOGJFZXY0VnZMWlRHTXpwTm5Od1RLT0NGTGxpb3VOUF9uUjIwS01BN3VZZkdzVDJpZXRWbk9tMGM0VjB1dmw1Q2JWZFJPTzY2endiX09tTFVGeHBlaUd0OUpVM0d3dzBJYmRuVkh5MlBKbDdOUS1wNlNEMTBQZU90RTJ0a0l2eXV4LU9la0RwZ2NNTTF0UTRLekwwOVA2ZTJqeTR2Y041M3hNMkhGQWVMX2VaaFhRNjlsdlQxRnc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "us takes step to halt nvidia ai chip shipments to chinese firms outside china",
-      "normalized_title": "us takes step to halt nvidia ai chip shipments to chinese firms outside china",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
-      "title": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China - Reuters",
-      "source": "\"AI OR \"artificial intelligence\" OR \"large language model\" OR LLM\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbURTRGdXd0FJdXdDeHdxbHFpdWdiSUZ4eG0tZ1E1UmVOSHpZbnpiNEhweC1HclNuZkt1bmd2RVowVnRvZnliTjktcGNkb3JENmRXTVJqN3lXTWNnWE5zWjV4R0dqU050Z2p2ZnJxb1N1ZTlhci0tUndRbFNPdVctOVFNM2pWcUtNZExrSFV6cjhhV2VLSGtQWTRLbTNxZjdtNFJjVTQzS0YtOXNFQWllVUJrS2dGSkxpTG4w?oc=5",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "nvidia levels up local ai agents across rtx pcs and dgx spark",
-      "normalized_title": "nvidia levels up local ai agents across rtx pcs and dgx spark",
-      "normalized_link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-      "title": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "synera advances ai agents for design and engineering simulation with nvidia",
-      "normalized_title": "synera advances ai agents for design and engineering simulation with nvidia",
-      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
-      "title": "Synera Advances AI Agents for Design and Engineering Simulation with NVIDIA - Business Wire",
-      "source": "\"AI product development\" - Google News",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNll6SERHWXBkcmRkNzV4eDNkR1BKaDRzdlU5R0NydjNfSWs2ajJwbHVQelhyTW5IaUdFdFhsSTh0dGFXV0xsc043aFh1VEFKTUM0Tzh6Ty1GVzlteERub0hheWxLLXZBWXRic204SUFIMWJiQ0ZweUU0Rlc1Y3liaHN2ZXJibnpGQnV3MXhyOXRmUXhLaXJWYUttaEdFNmI4c18tZk5Gb2pFcWlMcUQzTkp6eUo4c3Fkd2RKV1FDTWluSjc5MFd6eVRUTE0?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
-      "normalized_title": "anthropic 在 code with claude 上发布托管式智能体 主动式工作流与能力曲线",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
-      "title": "Anthropic 在 Code With Claude 上发布托管式智能体、主动式工作流与能力曲线 - Infoq.cn",
-      "source": "\"AI 工作流\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BNy12SzlzQXdjcEJFeFFRUmk3WVFNTERZVmQwV0J0WEJNZnN5emJuTmNZbjB3UXU5bU93WDBZRmFzNF9MdWF0Y09GSjJKQ0FEOUdzVGgwSmpRVVVjRWc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
-      "normalized_title": "power integrations推出节省空间的超薄型辅助电源参考设计 适用于nvidia的kyber 800vdc ai数据中心应用",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
-      "title": "Power Integrations推出节省空间的超薄型辅助电源参考设计，适用于NVIDIA的Kyber 800VDC AI数据中心应用 - Business Wire",
-      "source": "\"AI 功率变换器\" - Google 新闻",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHaHFlam9LV0lZWDJJX2pXaVZvT2FVUmZCQUNfUU10SXJ5d1NwaFlQNVdVTE9vVjlmRGRaeWxnSVNDaV93TDVIeTBXQkduQkZFZWxhRXFQalJLRS00ZkVDdmtxR2xJVmxKeTRj?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "nvidia vera cpu sets a new standard for agentic workloads in ai factories",
-      "normalized_title": "nvidia vera cpu sets a new standard for agentic workloads in ai factories",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
-      "title": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "seen_count": 8
-    },
     {
       "first_seen_date": "2026-05-31",
       "last_seen_date": "2026-06-02",
@@ -180,21 +35,6 @@
     },
     {
       "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "nvidia 正式发布 vera 专为智能体打造的 cpu",
-      "normalized_title": "nvidia 正式发布 vera 专为智能体打造的 cpu",
-      "normalized_link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXTjlCMG1leURWd29kaHY0UURhMGU1dzhESTAybVM5ZGtYVV9OOU9iRVlMeVFJeXpRbEhIMkpFQnRSa3VUVENQNXFaRWVURXBDQnN3clpKTllnVW9CMzFwNndTYWpPTjNsdXREUll0a29iOHdENWsw?oc=5",
-      "title": "NVIDIA 正式发布 Vera：专为智能体打造的 CPU - NVIDIA",
-      "source": "NVIDIA",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXTjlCMG1leURWd29kaHY0UURhMGU1dzhESTAybVM5ZGtYVV9OOU9iRVlMeVFJeXpRbEhIMkpFQnRSa3VUVENQNXFaRWVURXBDQnN3clpKTllnVW9CMzFwNndTYWpPTjNsdXREUll0a29iOHdENWsw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-05-31",
       "last_seen_date": "2026-06-01",
       "canonical_key": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
       "normalized_title": "sqlite 才是 ai 工作流持久化的答案 oschina 开源 ai 开发者生态社区",
@@ -217,75 +57,6 @@
         "workflow_automation"
       ],
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "welcome nvidia cosmos 3 the first open omni model for physical ai reasoning and action",
-      "normalized_title": "welcome nvidia cosmos 3 the first open omni model for physical ai reasoning and action",
-      "normalized_link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "summary": "A Blog post by NVIDIA on Hugging Face",
-      "source": "Hugging Face - Blog",
-      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "minimax m3 正式发布 前沿 coding 能力 1m 上下文 原生多模态 oschina 开源 ai 开发者生态社区",
-      "normalized_title": "minimax m3 正式发布 前沿 coding 能力 1m 上下文 原生多模态 oschina 开源 ai 开发者生态社区",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSbTA0NWMxZVV6Ukp6OFBmWWoyZXg3RDROMWdZTG5ZcUhVTk80dFRwMzlNV1dYdkpxd1BVa2pMZFBoZGlDc1VOOHNMVQ?oc=5",
-      "title": "MiniMax M3 正式发布：前沿 Coding 能力、1M 上下文、原生多模态- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "summary": "MiniMax M3 正式发布：前沿 Coding 能力、1M 上下文、原生多模态- OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "source": "OSCHINA",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBSbTA0NWMxZVV6Ukp6OFBmWWoyZXg3RDROMWdZTG5ZcUhVTk80dFRwMzlNV1dYdkpxd1BVa2pMZFBoZGlDc1VOOHNMVQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "multimodal",
-        "opensource"
-      ],
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-05-31",
-      "last_seen_date": "2026-05-31",
-      "canonical_key": "from an unpaid first internship to openai s first intern cohort what i learned about becoming an ai native engineer",
-      "normalized_title": "from an unpaid first internship to openai s first intern cohort what i learned about becoming an ai native engineer",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjVGNlJmUENLTDRMYkRDSmNvay13cFZvOF8wZFFZbzUzbk1mYnZscGhZQWdBSVh0SnJ3YmN0emlYWGIweVFlQ3ZsaWZXLVIxaDh5S3hqYTJ5NkdVel95RmpqUk1RRThOSmJ5UUVsdVRLUHpSM1VmMmJLMnZXdnZuNTI1eXA2VTBRS3JFcWt2dE55ZFNaUHdEakdMWndGUy11SUxZZVVoMng2QnJnd1dkSDloeDBZUGhGQzFlTVpUOFlObjlJUDNBcUdybkxZWmdk?oc=5",
-      "title": "From an unpaid first internship to OpenAI’s first intern cohort: what I learned about becoming an AI-native engineer - The AI Journal",
-      "summary": "From an unpaid first internship to OpenAI’s first intern cohort: what I learned about becoming an AI-native engineer The AI Journal",
-      "source": "The AI Journal",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQjVGNlJmUENLTDRMYkRDSmNvay13cFZvOF8wZFFZbzUzbk1mYnZscGhZQWdBSVh0SnJ3YmN0emlYWGIweVFlQ3ZsaWZXLVIxaDh5S3hqYTJ5NkdVel95RmpqUk1RRThOSmJ5UUVsdVRLUHpSM1VmMmJLMnZXdnZuNTI1eXA2VTBRS3JFcWt2dE55ZFNaUHdEakdMWndGUy11SUxZZVVoMng2QnJnd1dkSDloeDBZUGhGQzFlTVpUOFlObjlJUDNBcUdybkxZWmdk?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-01",
@@ -5472,7 +5243,7 @@
     },
     {
       "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
+      "last_seen_date": "2026-07-01",
       "canonical_key": "skillopt agent skills as trainable parameters",
       "normalized_title": "skillopt agent skills as trainable parameters",
       "normalized_link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters",
@@ -5511,7 +5282,7 @@
           "official_report"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5673,7 +5444,7 @@
     },
     {
       "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
+      "last_seen_date": "2026-07-01",
       "canonical_key": "how nvidia s inference software stack powers the lowest token cost",
       "normalized_title": "how nvidia s inference software stack powers the lowest token cost",
       "normalized_link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost",
@@ -5708,6 +5479,125 @@
           "inference",
           "opensource",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-01",
+      "canonical_key": "danske bank expands aws partnership to accelerate ai innovation and developer productivity",
+      "normalized_title": "danske bank expands aws partnership to accelerate ai innovation and developer productivity",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG5UdDg1VmVKTmFwVU5OTm14cF9GZjAtZWtzRVRqRnJzX28wZTl2RkdNajRSdnFBR2xyVno0REpDb0I2YnM5R01ITk5wV2wtUl9LQ1QwWjREelpWb0ozdVpkQnpmc2FDREU1b0I1Wi0xOXVucEllWkJCX0w1ZnRnd3RWaTZsS19MV2ltRDExN0h6TTBCT2JJc0xtM3lEV0hJaEdJSW9xTVJVY2pib1VVZS1nNnM?oc=5",
+      "title": "Danske Bank Expands AWS Partnership to Accelerate AI Innovation and Developer Productivity - FF News",
+      "summary": "Danske Bank Expands AWS Partnership to Accelerate AI Innovation and Developer Productivity FF News",
+      "source": "FF News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG5UdDg1VmVKTmFwVU5OTm14cF9GZjAtZWtzRVRqRnJzX28wZTl2RkdNajRSdnFBR2xyVno0REpDb0I2YnM5R01ITk5wV2wtUl9LQ1QwWjREelpWb0ozdVpkQnpmc2FDREU1b0I1Wi0xOXVucEllWkJCX0w1ZnRnd3RWaTZsS19MV2ltRDExN0h6TTBCT2JJc0xtM3lEV0hJaEdJSW9xTVJVY2pib1VVZS1nNnM?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "developer_productivity",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "aws"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "aws",
+          "coding",
+          "coding_agent",
+          "developer_productivity",
+          "engineering_productivity",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-01",
+      "canonical_key": "ai算力迈向兆瓦时代 新一代数据中心供电架构正在重塑测试验证体系 含直播回放",
+      "normalized_title": "ai算力迈向兆瓦时代 新一代数据中心供电架构正在重塑测试验证体系 含直播回放",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HMmFOcDBiLTRsT1l5MURUalZjVFpabUR4alE3Z2ZwLXlTZXdzS0R0WUQzLVBXWW5JVTJtTzRpU0EtbXRfb0JsVW5Gc1V3STVRTVQ0?oc=5",
+      "title": "AI算力迈向兆瓦时代：新一代数据中心供电架构正在重塑测试验证体系（含直播回放） - 电子工程专辑",
+      "summary": "AI算力迈向兆瓦时代：新一代数据中心供电架构正在重塑测试验证体系（含直播回放） 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HMmFOcDBiLTRsT1l5MURUalZjVFpabUR4alE3Z2ZwLXlTZXdzS0R0WUQzLVBXWW5JVTJtTzRpU0EtbXRfb0JsVW5Gc1V3STVRTVQ0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-01",
+      "canonical_key": "claude science发布 anthropic押注工作流布局科学研究领域",
+      "normalized_title": "claude science发布 anthropic押注工作流布局科学研究领域",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkZwWFJESGtFWFVRa1RjNEdwM0szYmFfTzdaRndyYXdpVndYWG0zX21ST1lxdk9UY3UwaThtVGFrRFRfd1ViaFM2d3ZlXy1zY2lhc3Q4M0pvRi1CN25DUjVJVi1NeWhyYWM4dEc0aTlVV0UwUmp5cnRndEpvb3NOeUhMNWpjX2RP?oc=5",
+      "title": "Claude Science发布：Anthropic押注工作流布局科学研究领域 - 搜狐网",
+      "summary": "Claude Science发布：Anthropic押注工作流布局科学研究领域 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkZwWFJESGtFWFVRa1RjNEdwM0szYmFfTzdaRndyYXdpVndYWG0zX21ST1lxdk9UY3UwaThtVGFrRFRfd1ViaFM2d3ZlXy1zY2lhc3Q4M0pvRi1CN25DUjVJVi1NeWhyYWM4dEc0aTlVV0UwUmp5cnRndEpvb3NOeUhMNWpjX2RP?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1
