@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-07-01T06:40:22.564403+08:00",
+  "generated_at": "2026-07-01T07:36:41.630338+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 210,
-    "history_size_after": 175,
-    "history_duplicate_count": 40
+    "history_size_before": 175,
+    "history_size_after": 176,
+    "history_duplicate_count": 42
   },
-  "raw_item_count": 5214,
-  "deduped_item_count": 3863,
-  "filtered_item_count": 461,
+  "raw_item_count": 5204,
+  "deduped_item_count": 3861,
+  "filtered_item_count": 455,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -111,15 +111,15 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "AI driving up cost of electronics, power bills - WISH-TV",
-      "summary": "AI driving up cost of electronics, power bills WISH-TV",
+      "title": "重构电机控制研发！首款打通物理硬件 AI Agent 即将重磅发布 - 电子工程专辑",
+      "summary": "重构电机控制研发！首款打通物理硬件 AI Agent 即将重磅发布 电子工程专辑",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-06-29T21:13:00+08:00",
-      "source": "WISH-TV",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XV0pjS2g4T0oxZEp0RFZNdGhiem4zczFzUmdsT0dnZUVOZFpPZ3hrMEJKUFhvUFBjMkRQdjZrLXl4T1BtMjA5LTV6NUtLSXYyMjVnX3FUTmdsblNrNXpzV1MxdjBzdDNnSy1YUTB3Tkhjd3ZyVU9MTUIyUy1XaEU?oc=5",
-      "language": "en",
-      "region": "global",
+      "published_at": "2026-06-29T18:45:00+08:00",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LSnd6TUxLUDNTOE1BRFItTWk1azRzMXJqbUVteG80RE1la2xPQ25fbXJyRllxRkxpQVd3ZE1EenNrVnFRUWxNb0R1VzFVU2M1dGJF?oc=5",
+      "language": "zh",
+      "region": "china",
       "source_group": "power_electronics",
       "source_type": "news_search",
       "source_quality": "",
@@ -130,15 +130,17 @@
         "dcdc"
       ],
       "topic_tags": [
+        "agent",
+        "ai_agent",
         "dcdc",
         "obc",
         "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "ai driving up cost of electronics power bills wish",
-      "canonical_key": "ai driving up cost of electronics power bills wish",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XV0pjS2g4T0oxZEp0RFZNdGhiem4zczFzUmdsT0dnZUVOZFpPZ3hrMEJKUFhvUFBjMkRQdjZrLXl4T1BtMjA5LTV6NUtLSXYyMjVnX3FUTmdsblNrNXpzV1MxdjBzdDNnSy1YUTB3Tkhjd3ZyVU9MTUIyUy1XaEU?oc=5",
-      "score": 61,
+      "dedupe_key": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
+      "canonical_key": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LSnd6TUxLUDNTOE1BRFItTWk1azRzMXJqbUVteG80RE1la2xPQ25fbXJyRllxRkxpQVd3ZE1EenNrVnFRUWxNb0R1VzFVU2M1dGJF?oc=5",
+      "score": 65,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -176,43 +178,48 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "氪星晚报｜百度OCR模型Unlimited OCR在HuggingFace、GitHub四榜登顶；国务院印发《教育发展“十五五”规划》；美国养老金即将被动调仓，300亿美元卖盘“已在路上”",
-      "summary": "大公司： 蜜雪冰城吉尔吉斯斯坦三店同开，已进入海外16个国家 36氪获悉，近日，蜜雪冰城三家门店在吉尔吉斯斯坦首都比什凯克营业，正式进入吉尔吉斯斯坦市场。吉尔吉斯斯坦是蜜雪冰城在中亚的第二站。2025年4月，蜜雪冰城哈萨克斯坦首店落地阿拉木图。在这之后，又相继进入美国、巴西、墨西哥等新市场，持续推进全球化布局。截至目前，蜜雪冰城已进入海外16个国家。 中国移动确认设立Token办公室 6月28日晚间，有消息称，中国移动继设立数智事业部、算力办之后，又设立了Token办公室，旨在打通“创造Token、输送Token、应用Token”的全流程，打破多个二级部门“各管一摊”的局面。6月29日下午，从中国移动方面获悉，中国移动确实成立了Token办公室，但其余网传内容，如“Token 办公室级别更高，由集团核心领导直接挂帅”等则未获确认。（每日经济新闻） 英伟达支持的Firmus与DayOne将在印尼建造AI数据中心园区 由英伟达支持的数据中心运营商Firmus将在印尼建设一座AI数据中心园区。该公司表示，该项目将在前六年内带来价值高达300亿美元的协议。澳大利亚企业Firmus在一份声明中宣布，已与英伟达达成一项为期八年的合作协议，在印尼巴淡岛建设一座装机容量达360兆瓦的专属英伟达DSX AI工厂园区；该岛屿与新加坡隔海相望。Firmus表示，这一大型数据中心项目将与总部位于新加坡的DayOne联手开发。（新浪财经） 百度OCR模型Unlimited OCR在HuggingFace、GitHub四榜登顶 36氪获悉，近日，百度正式发布并开源端到端OCR模型Unlimited OCR。模型发布次日即登顶GitHub Daily Trending榜、Python榜，在HuggingFace全球模型总趋势榜和多模态模型趋势榜也均排名第一。Unlimited OCR面向长文档解析场景…",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-06-29T19:00:26+08:00",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3873626425332743?f=rss",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking and systems, and strengthened by a broad open source ecosystem, NVIDIA’s full-stack inference software continuously improves hardware performance. On the NVIDIA Blackwell platform, the software stack has already reduced token costs by up to 5x on the DeepSeek V4 model in just one month. SemiAnalysis InferenceX results comparing token cost and interactivity for NVIDIA GB300 NVL72 systems with SGLang and the NVIDIA Dynamo inference framework. Leading companies and inference providers are already see…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-06-30T23:00:57+08:00",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "language": "en",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
       "source_quality": "",
       "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "autonomous_driving",
-        "chip",
-        "multimodal",
-        "opensource"
+      "tags": [
+        "company_research",
+        "technical_blog",
+        "ai_research"
       ],
-      "category": "AI芯片",
-      "dedupe_key": "氪星晚报 百度ocr模型unlimited ocr在huggingface github四榜登顶 国务院印发 教育发展 十五五 规划 美国养老金即将被动调仓 300亿美元卖盘 已在路上",
-      "canonical_key": "氪星晚报 百度ocr模型unlimited ocr在huggingface github四榜登顶 国务院印发 教育发展 十五五 规划 美国养老金即将被动调仓 300亿美元卖盘 已在路上",
-      "normalized_link": "https://36kr.com/p/3873626425332743?f=rss",
-      "score": 40,
-      "selection_reason": "china_quota"
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "category": "官方研究",
+      "dedupe_key": "how nvidia s inference software stack powers the lowest token cost",
+      "canonical_key": "how nvidia s inference software stack powers the lowest token cost",
+      "normalized_link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost",
+      "score": 143,
+      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1351,
-    "history_duplicate": 40,
-    "weak_relevance": 204,
+    "duplicate": 1343,
+    "history_duplicate": 42,
+    "weak_relevance": 211,
     "same_source_limit": 0,
-    "china_limit": 0,
+    "china_limit": 6,
     "auto_china_limit": 0,
-    "old_news": 3198,
-    "same_entity_limit": 53,
+    "old_news": 3195,
+    "same_entity_limit": 143,
     "similar_selected": 1,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

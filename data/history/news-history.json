@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T06:40:22.564403+08:00",
+  "updated_at": "2026-07-01T07:36:41.630338+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5363,7 +5363,7 @@
     },
     {
       "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-29",
+      "last_seen_date": "2026-06-30",
       "canonical_key": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
       "normalized_title": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
       "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LSnd6TUxLUDNTOE1BRFItTWk1azRzMXJqbUVteG80RE1la2xPQ25fbXJyRllxRkxpQVd3ZE1EenNrVnFRUWxNb0R1VzFVU2M1dGJF?oc=5",
@@ -5396,7 +5396,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-29",
@@ -5511,7 +5511,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5554,7 +5554,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5628,7 +5628,7 @@
           "mcp"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5667,6 +5667,47 @@
           "model_capability",
           "multimodal",
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-06-30",
+      "last_seen_date": "2026-06-30",
+      "canonical_key": "how nvidia s inference software stack powers the lowest token cost",
+      "normalized_title": "how nvidia s inference software stack powers the lowest token cost",
+      "normalized_link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking an…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "production"
+        ],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "opensource",
+          "technical_blog"
         ]
       },
       "seen_count": 1
