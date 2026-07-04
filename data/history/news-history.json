@@ -1,153 +1,8 @@
 {
-  "updated_at": "2026-07-04T07:17:23.999813+08:00",
+  "updated_at": "2026-07-05T06:11:11.630790+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "nvidia research unlocks advanced grasping smarter autonomous driving and agent training at scale",
-      "normalized_title": "nvidia research unlocks advanced grasping smarter autonomous driving and agent training at scale",
-      "normalized_link": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that it can do so quickly…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "automotive",
-        "autonomous_driving",
-        "chip",
-        "company_research",
-        "research",
-        "robotics",
-        "technical_blog"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "infosys tcs and wipro scale microsoft 365 copilot to over 300 000 employees",
-      "normalized_title": "infosys tcs and wipro scale microsoft 365 copilot to over 300 000 employees",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOG4zc2VVWGtUTllEdVFnd1BLVm9aRFlkM3EtU2dWQ2hMcTdqYUtIREFvdnZ1b2tTdEQxbkI0NmVfNmptNmEtanZqUmRkYTd3bGxRMkYyVHZmMjdkMzBRRGRqX2RGVUwxbmw2cGd1Q0NFMks3cWFqM0hiZXNiWTVlQXN5bW9YcXcwN2pBeUlLeG5uTFNiR19KUjVjWGVPanNDZlpvNnNSNWVwdGJMeHgyTWJVSGlucUlsUHZvdXQyRXQtRVE?oc=5",
-      "title": "Infosys, TCS and Wipro scale Microsoft 365 Copilot to over 300,000 employees - Microsoft Source",
-      "summary": "Infosys, TCS and Wipro scale Microsoft 365 Copilot to over 300,000 employees Microsoft Source",
-      "source": "Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOG4zc2VVWGtUTllEdVFnd1BLVm9aRFlkM3EtU2dWQ2hMcTdqYUtIREFvdnZ1b2tTdEQxbkI0NmVfNmptNmEtanZqUmRkYTd3bGxRMkYyVHZmMjdkMzBRRGRqX2RGVUwxbmw2cGd1Q0NFMks3cWFqM0hiZXNiWTVlQXN5bW9YcXcwN2pBeUlLeG5uTFNiR19KUjVjWGVPanNDZlpvNnNSNWVwdGJMeHgyTWJVSGlucUlsUHZvdXQyRXQtRVE?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "industrial software leaders build secure autonomous ai engineers with nvidia nemoclaw",
-      "normalized_title": "industrial software leaders build secure autonomous ai engineers with nvidia nemoclaw",
-      "normalized_link": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw",
-      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-      "summary": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "适用于各种角色 工具和工作流的 codex",
-      "normalized_title": "适用于各种角色 工具和工作流的 codex",
-      "normalized_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSSF9tUHdtVnlOeGZjLW11bGdDeU5ZUDZacC1rdnVyYmx0a1RwU3h2UHl1aDhaTTFuRnRjWks2bklxT0NBX1BoNUVxTll6bFBaM0pxazkwemFTSVdGVTlUUXFSSmF4a1ZTb201UVFERVhTUHpZd0tLQjlHOA?oc=5",
-      "title": "适用于各种角色、工具和工作流的 Codex - OpenAI",
-      "summary": "适用于各种角色、工具和工作流的 Codex OpenAI",
-      "source": "OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSSF9tUHdtVnlOeGZjLW11bGdDeU5ZUDZacC1rdnVyYmx0a1RwU3h2UHl1aDhaTTFuRnRjWks2bklxT0NBX1BoNUVxTll6bFBaM0pxazkwemFTSVdGVTlUUXFSSmF4a1ZTb201UVFERVhTUHpZd0tLQjlHOA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "jetbrains开源mellum2模型 12b参数 升级ai智能体编程 机器学习 工作流 体式 专家 数据_手机新浪网",
-      "normalized_title": "jetbrains开源mellum2模型 12b参数 升级ai智能体编程 机器学习 工作流 体式 专家 数据_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQUVRTa1dsSE9zdmN6ZHE0WXJ1NTZQVUhLb0pXRFBweElmUmRvNnJRMEpzaXZmY3czb08wdFVsTHdvcWd0Ni10Q29JU1pHRDd6XzUzT1RqOHJTMnRpWlhyUWpxTzFUc00yS19CbkJnbXJ5T0luUlpEeVlOV0JkNXpyZFlJMmNrcXI5dFJmLUFlSmg2RExORU9OS3NhY1VsREEtR3JHSHBTWFZEdklyYmY2NDM3UGRtR2NndTQ0WEZOYWNVWUhwT0pCdmY0VThaNmUwZWxBMHFMS3N1VEhiTHhQSlBrZXFhcHpVVm5yYXB2QnV3VTVjV1lLd05uOEdMR196MnllNVEyX2I3Y1RHY25lYTFaSHRFQzU5S0JSMXZMM2t0WHdhS0pia1h5cTluZ1RHYjRnU3BUejZuWFRVd2YxblA1WVl2VGN3ZEZpbWZxdUlsdnRlMV9hVlNCMVN2VUVj?oc=5",
-      "title": "JetBrains开源Mellum2模型：12B参数，升级AI智能体编程|机器学习|工作流|体式|专家|数据_手机新浪网 - 新浪财经",
-      "summary": "JetBrains开源Mellum2模型：12B参数，升级AI智能体编程|机器学习|工作流|体式|专家|数据_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQUVRTa1dsSE9zdmN6ZHE0WXJ1NTZQVUhLb0pXRFBweElmUmRvNnJRMEpzaXZmY3czb08wdFVsTHdvcWd0Ni10Q29JU1pHRDd6XzUzT1RqOHJTMnRpWlhyUWpxTzFUc00yS19CbkJnbXJ5T0luUlpEeVlOV0JkNXpyZFlJMmNrcXI5dFJmLUFlSmg2RExORU9OS3NhY1VsREEtR3JHSHBTWFZEdklyYmY2NDM3UGRtR2NndTQ0WEZOYWNVWUhwT0pCdmY0VThaNmUwZWxBMHFMS3N1VEhiTHhQSlBrZXFhcHpVVm5yYXB2QnV3VTVjV1lLd05uOEdMR196MnllNVEyX2I3Y1RHY25lYTFaSHRFQzU5S0JSMXZMM2t0WHdhS0pia1h5cTluZ1RHYjRnU3BUejZuWFRVd2YxblA1WVl2VGN3ZEZpbWZxdUlsdnRlMV9hVlNCMVN2VUVj?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-03",
-      "last_seen_date": "2026-06-03",
-      "canonical_key": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
-      "normalized_title": "meta华人实习生搞出超级智能体 自己写代码实现自我进化 论文 达尔文 算法 性能 哥德尔_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
-      "title": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 - 新浪财经",
-      "summary": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化|论文|达尔文|算法|性能|哥德尔_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWThlT0dPai1xME54UWFRdEZoVHBOWk1Obkx6N2EzNTdEanRGaUw5STZJTE9JdzZTYUlEczRpN0UwR2pRNVNfdm10NENmNGQtd3RRdzhmaDRKU2htSEgwalRZQnVVVG9Gd05SNUtTcmJ3Y3I3b0NDb0Z5ZXdBeGR5VE94S2pabFRabUpzSWRZQnE3T051bGMxYVFWMEJCRlBQX3pSWGZUZTN5enNGanlCLW9ZVXFQLWxNUk9qTDVtQWdPNi1xSWpLY3dLNTFyc1FoTVR3Qnh5d2ZWaUY0TmxPeXlRRFJkVnB0MzlpcDBsVmxHcmdsSm01R1NsZGttWl82MUpmUUwxQUlpbUZ6STRLbnFlMXRFNDJUVk5odklCTlIxRFlaNTRJc2VseVhfZw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-06-04",
       "last_seen_date": "2026-06-04",
@@ -5736,6 +5591,178 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-04",
+      "canonical_key": "豆包 千问将于7月15日下线智能体功能 建议用户提前备份数据",
+      "normalized_title": "豆包 千问将于7月15日下线智能体功能 建议用户提前备份数据",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50dnBSU0piamx0c3RYNUhQQWZRZ2JlN0JsTlgxTm54c25fOFMtcTVNQ0dmZ0dzOFl5dmZKQWM4Q3ZCSXoyM1hfOHRXVUFCYlB1ZUNaWWVwWlA1TlFEUG9iaw?oc=5",
+      "title": "豆包、千问将于7月15日下线智能体功能：建议用户提前备份数据 - thepaper.cn",
+      "summary": "豆包、千问将于7月15日下线智能体功能：建议用户提前备份数据 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50dnBSU0piamx0c3RYNUhQQWZRZ2JlN0JsTlgxTm54c25fOFMtcTVNQ0dmZ0dzOFl5dmZKQWM4Q3ZCSXoyM1hfOHRXVUFCYlB1ZUNaWWVwWlA1TlFEUG9iaw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-04",
+      "canonical_key": "ai driven packaging design takes centre stage at metsä board s new milan studio",
+      "normalized_title": "ai driven packaging design takes centre stage at metsä board s new milan studio",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEhsYktKM2JIT3JwV2Q0V2FEdUs5QUtOcXl6aXRGZ2QtTDg2VThBRG5lcE9NUlkxdUZFV0dEdHJuazViUG1zeldzVHpodUFkcjBiODJXdkJ2NFlfa2pER0pjV1pmcEVBSlBGTGdneUgzU0VoRE5ETkVBX1BWQmVfNS1VQ3JIYUJpeTJPTTVyc3ljWFhxdE1YYnlUZm1wSTBMS2ExOVVfTHdWTmxGd1llZ3hFYmpuV1Z0Vndv?oc=5",
+      "title": "AI-driven packaging design takes centre stage at Metsä Board's new Milan studio - PULPAPERnews.com",
+      "summary": "AI-driven packaging design takes centre stage at Metsä Board's new Milan studio PULPAPERnews.com",
+      "source": "PULPAPERnews.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEhsYktKM2JIT3JwV2Q0V2FEdUs5QUtOcXl6aXRGZ2QtTDg2VThBRG5lcE9NUlkxdUZFV0dEdHJuazViUG1zeldzVHpodUFkcjBiODJXdkJ2NFlfa2pER0pjV1pmcEVBSlBGTGdneUgzU0VoRE5ETkVBX1BWQmVfNS1VQ3JIYUJpeTJPTTVyc3ljWFhxdE1YYnlUZm1wSTBMS2ExOVVfTHdWTmxGd1llZ3hFYmpuV1Z0Vndv?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-04",
+      "canonical_key": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
+      "normalized_title": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
+      "normalized_link": "https://36kr.com/p/3880629882679301?f=rss",
+      "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
+      "summary": "今日热点导览 三部门：调整节能汽车、新能源汽车车船税优惠政策 三星传获Meta超10万亿韩元AI芯片代工订单 茉莉奶白小程序更换彩色Logo Meta打算出售富余算力引发科技股回落 英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗 TOP3大新闻 因存在植入后门风险，阿里内部全面禁用Claude Code 36氪从阿里内部人士处获悉，因近期Claude Code被曝存在植入后门的安全风险，阿里经综合评估后已将其列入高风险软件名单。自7月10日起，阿里将全面禁止内部员工在办公环境下使用Claude Code，并推荐使用Qoder作为替代方案。 FF洛杉矶总部人去楼空？公司回应：…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3880629882679301?f=rss",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "automotive",
+        "chip",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "microsoft",
+          "nvidia"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "automotive",
+          "chip",
+          "coding_agent",
+          "policy_regulation",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-04",
+      "canonical_key": "what is mistral ai everything to know about the openai competitor",
+      "normalized_title": "what is mistral ai everything to know about the openai competitor",
+      "normalized_link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "category": "开源模型",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-04",
+      "canonical_key": "alibaba reportedly bans employees from using claude code",
+      "normalized_title": "alibaba reportedly bans employees from using claude code",
+      "normalized_link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
