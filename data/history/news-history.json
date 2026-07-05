@@ -1,148 +1,8 @@
 {
-  "updated_at": "2026-07-05T07:11:20.124394+08:00",
+  "updated_at": "2026-07-06T06:13:25.668296+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "how endava is redesigning software delivery around ai agents",
-      "normalized_title": "how endava is redesigning software delivery around ai agents",
-      "normalized_link": "https://openai.com/index/endava-frontiers",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/endava-frontiers",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "megacable boosts productivity for 11 000 employees with microsoft 365 copilot",
-      "normalized_title": "megacable boosts productivity for 11 000 employees with microsoft 365 copilot",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3BHbWx1U0g3NmZERVhqOXU5U1d3RHU2WV9VSVlVYWR3ZzI1aThLTDVJT2Jrbk1halBjRU1EZFJiSDhKWFN3WHVsSk5BV0YtVEFlam5uSE5KZ29NOUxZVnRHaFVGLW9CUGJSQlB4eV9ZTVY1X1ItVEdqN3BteWIzQk1iQmw4Skk1OHc?oc=5",
-      "title": "Megacable boosts productivity for 11,000 employees with Microsoft 365 Copilot - Microsoft",
-      "summary": "Megacable boosts productivity for 11,000 employees with Microsoft 365 Copilot Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3BHbWx1U0g3NmZERVhqOXU5U1d3RHU2WV9VSVlVYWR3ZzI1aThLTDVJT2Jrbk1halBjRU1EZFJiSDhKWFN3WHVsSk5BV0YtVEFlam5uSE5KZ29NOUxZVnRHaFVGLW9CUGJSQlB4eV9ZTVY1X1ItVEdqN3BteWIzQk1iQmw4Skk1OHc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "navitas collaborates with nvidia mgx ecosystem to accelerate 800 vdc ai infrastructure",
-      "normalized_title": "navitas collaborates with nvidia mgx ecosystem to accelerate 800 vdc ai infrastructure",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZGR1UE5KbEZraDlmVUhGallTeFhDdTYyVTNtWDgxN2VyMWxnWG5memR0RUFDVFdfYkg5cVYzQ1hyT3JuNmRSMFpMNTZWVGhKaGNJQUNnNUdVck9GQnM4bHowUzZZMTd1dlJiQkVGcW1PU2puYjA4NWdjYWFWcXZOTWJJV21CRjFuajgwVkxzNFBnYzNVcWJKNkUwb19KQUs3VGljbkx2dDJFZmdveS1YMA?oc=5",
-      "title": "Navitas Collaborates with NVIDIA MGX™ Ecosystem to Accelerate 800 VDC AI Infrastructure - Navitas Semiconductor",
-      "summary": "Navitas Collaborates with NVIDIA MGX™ Ecosystem to Accelerate 800 VDC AI Infrastructure Navitas Semiconductor",
-      "source": "Navitas Semiconductor",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZGR1UE5KbEZraDlmVUhGallTeFhDdTYyVTNtWDgxN2VyMWxnWG5memR0RUFDVFdfYkg5cVYzQ1hyT3JuNmRSMFpMNTZWVGhKaGNJQUNnNUdVck9GQnM4bHowUzZZMTd1dlJiQkVGcW1PU2puYjA4NWdjYWFWcXZOTWJJV21CRjFuajgwVkxzNFBnYzNVcWJKNkUwb19KQUs3VGljbkx2dDJFZmdveS1YMA?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "microsoft build 2026 在工作中做自己",
-      "normalized_title": "microsoft build 2026 在工作中做自己",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZlVLS3ZDeUtBZGdQdGt5R0djREc1MThxb3ZtNU5NOTIzbGItOHo0QTl0ajhiWmUyQm80UUJObFZVUHRaUkpoMnRFUm92RDg1YlVYMS1NUlhuZ3UwZ0hRaG5Tdks3c0dydndEZnk0ZGNKX0l1Mk1ZWlBQTkJOTjlSaHFqdFdrSUNjMmVMdUVZVVV5a2djcXVfRlZkVDhFTVNwMU5fUUcyVVNPRm9hd0g1aUt2R0c3b0F6eGRmUXA4M3dESkFYWUdRNXFCWnA3TjJXQlNPOE1jdmdqdFJlYlZneG5PS3BrU3MtcU40S0VfMA?oc=5",
-      "title": "Microsoft Build 2026：在工作中做自己 - Microsoft Source",
-      "summary": "Microsoft Build 2026：在工作中做自己 Microsoft Source",
-      "source": "Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZlVLS3ZDeUtBZGdQdGt5R0djREc1MThxb3ZtNU5NOTIzbGItOHo0QTl0ajhiWmUyQm80UUJObFZVUHRaUkpoMnRFUm92RDg1YlVYMS1NUlhuZ3UwZ0hRaG5Tdks3c0dydndEZnk0ZGNKX0l1Mk1ZWlBQTkJOTjlSaHFqdFdrSUNjMmVMdUVZVVV5a2djcXVfRlZkVDhFTVNwMU5fUUcyVVNPRm9hd0g1aUt2R0c3b0F6eGRmUXA4M3dESkFYWUdRNXFCWnA3TjJXQlNPOE1jdmdqdFJlYlZneG5PS3BrU3MtcU40S0VfMA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "anthropic ipo前夕 openai紧急追赶编程赛道",
-      "normalized_title": "anthropic ipo前夕 openai紧急追赶编程赛道",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01bENrU2VVZGYxMERHcTM3cVhaN1otcFJKT0t5NFl0RDhlVnFuTlpNc25rR1M0a01yOFNHWFJkejVHNFlLYnczaDRIUVgtRUkyVEdZ?oc=5",
-      "title": "Anthropic IPO前夕，OpenAI紧急追赶编程赛道 - 第一财经",
-      "summary": "Anthropic IPO前夕，OpenAI紧急追赶编程赛道 第一财经",
-      "source": "第一财经",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01bENrU2VVZGYxMERHcTM3cVhaN1otcFJKT0t5NFl0RDhlVnFuTlpNc25rR1M0a01yOFNHWFJkejVHNFlLYnczaDRIUVgtRUkyVEdZ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-04",
-      "canonical_key": "工业软件领导者借助 nvidia nemoclaw 构建安全 自主的 ai 工程师",
-      "normalized_title": "工业软件领导者借助 nvidia nemoclaw 构建安全 自主的 ai 工程师",
-      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTRGRkNPZWc0MzhNMWtCeGRMV29KOWRnc3VOUGdFcTNJN1FBWXEtcFZPQ0JhVEtjc25GOGt1ZDk3N0xTNzlfODFUOTJBRDJWODhqUmpnTmpDMV9jOTByempNQm9RZHBDckRHWnBSaGZmVWFCc0Q5X3FpVmtNc0xhOFZnaGp6STM0YVVTbHNWVVJLZGZtVHNoY0c4cEJLdw?oc=5",
-      "title": "工业软件领导者借助 NVIDIA NemoClaw 构建安全、自主的 AI 工程师 - NVIDIA",
-      "summary": "工业软件领导者借助 NVIDIA NemoClaw 构建安全、自主的 AI 工程师 NVIDIA",
-      "source": "NVIDIA",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTRGRkNPZWc0MzhNMWtCeGRMV29KOWRnc3VOUGdFcTNJN1FBWXEtcFZPQ0JhVEtjc25GOGt1ZDk3N0xTNzlfODFUOTJBRDJWODhqUmpnTmpDMV9jOTByempNQm9RZHBDckRHWnBSaGZmVWFCc0Q5X3FpVmtNc0xhOFZnaGp6STM0YVVTbHNWVVJLZGZtVHNoY0c4cEJLdw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-06-04",
       "last_seen_date": "2026-06-11",
@@ -1454,7 +1314,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-12",
+      "last_seen_date": "2026-07-05",
       "canonical_key": "ai productivity fads from prompt engineering to tokenmaxxing",
       "normalized_title": "ai productivity fads from prompt engineering to tokenmaxxing",
       "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
@@ -1487,7 +1347,7 @@
           "org_productivity"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-12",
@@ -5664,7 +5524,7 @@
     },
     {
       "first_seen_date": "2026-07-04",
-      "last_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-05",
       "canonical_key": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
       "normalized_title": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
       "normalized_link": "https://36kr.com/p/3880629882679301?f=rss",
@@ -5702,11 +5562,11 @@
           "security"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-04",
-      "last_seen_date": "2026-07-04",
+      "last_seen_date": "2026-07-05",
       "canonical_key": "what is mistral ai everything to know about the openai competitor",
       "normalized_title": "what is mistral ai everything to know about the openai competitor",
       "normalized_link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
@@ -5733,7 +5593,7 @@
           "opensource"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-04",
@@ -5763,6 +5623,78 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-05",
+      "last_seen_date": "2026-07-05",
+      "canonical_key": "早报 华为发布v2版 韬定律 论文 豆包 千问 智能体功能将下线",
+      "normalized_title": "早报 华为发布v2版 韬定律 论文 豆包 千问 智能体功能将下线",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
+      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
+      "summary": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 财联社",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-05",
+      "last_seen_date": "2026-07-05",
+      "canonical_key": "reparaible and open source paper printer",
+      "normalized_title": "reparaible and open source paper printer",
+      "normalized_link": "https://www.opentools.studio",
+      "title": "Reparaible and open source paper printer",
+      "summary": "This is the homepage of the website",
+      "source": "Hacker News",
+      "link": "https://www.opentools.studio/",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "opensource",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource",
+          "research"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
