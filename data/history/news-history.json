@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T06:38:44.671325+08:00",
+  "updated_at": "2026-07-07T07:21:53.287971+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5594,7 +5594,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-06",
@@ -5666,7 +5666,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-06",
@@ -5705,7 +5705,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-06",
@@ -5738,6 +5738,43 @@
           "company_research",
           "llm",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-06",
+      "last_seen_date": "2026-07-06",
+      "canonical_key": "factset integrates tifin s ai platform for agentic ai workflows",
+      "normalized_title": "factset integrates tifin s ai platform for agentic ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
+      "title": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows - connectmoney.com",
+      "summary": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows connectmoney.com",
+      "source": "connectmoney.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
         ]
       },
       "seen_count": 1

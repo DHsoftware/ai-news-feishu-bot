@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "generated_at": "2026-07-07T06:38:44.671325+08:00",
+  "generated_at": "2026-07-07T07:21:53.287971+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 159,
+    "history_size_before": 159,
+    "history_size_after": 160,
     "history_duplicate_count": 22
   },
-  "raw_item_count": 5231,
-  "deduped_item_count": 3870,
-  "filtered_item_count": 312,
+  "raw_item_count": 5227,
+  "deduped_item_count": 3859,
+  "filtered_item_count": 313,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,13 +77,13 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Blocksdiy Targets Cost-Heavy Revenue Growth With AI-Driven Workflow Automation - TipRanks",
-      "summary": "Blocksdiy Targets Cost-Heavy Revenue Growth With AI-Driven Workflow Automation TipRanks",
+      "title": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows - connectmoney.com",
+      "summary": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows connectmoney.com",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-07-06T20:13:31+08:00",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmRydEVUVzNGdjhscGJaRU9pYUVua2NZenNPSC1iSjRQSC14RGlET1owYWV3akRqVTA5bEdzNUlZS1U1ZFRBZmhOd2twcXFKZk9acXZwLV9PREpCY0JsSkU3eWpiMjBzVkdpU05BRG12eTdCamRnS3FJZThYOWJ0WEhxVm9sVFpjVWF1VUpVSXJGa29GMDdZMlgzaEFhSVZBRllhblRBa3NVVnFHbC1EdkVQb0lWS3U1cDNXbmxDSmM4VjM5?oc=5",
+      "published_at": "2026-07-06T20:38:05+08:00",
+      "source": "connectmoney.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "ai_agent",
@@ -104,9 +104,9 @@
         "workflow_automation"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "blocksdiy targets cost heavy revenue growth with ai driven workflow automation",
-      "canonical_key": "blocksdiy targets cost heavy revenue growth with ai driven workflow automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmRydEVUVzNGdjhscGJaRU9pYUVua2NZenNPSC1iSjRQSC14RGlET1owYWV3akRqVTA5bEdzNUlZS1U1ZFRBZmhOd2twcXFKZk9acXZwLV9PREpCY0JsSkU3eWpiMjBzVkdpU05BRG12eTdCamRnS3FJZThYOWJ0WEhxVm9sVFpjVWF1VUpVSXJGa29GMDdZMlgzaEFhSVZBRllhblRBa3NVVnFHbC1EdkVQb0lWS3U1cDNXbmxDSmM4VjM5?oc=5",
+      "dedupe_key": "factset integrates tifin s ai platform for agentic ai workflows",
+      "canonical_key": "factset integrates tifin s ai platform for agentic ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
       "score": 59,
       "selection_reason": "required_productivity"
     },
@@ -210,14 +210,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1361,
+    "duplicate": 1368,
     "history_duplicate": 22,
-    "weak_relevance": 205,
+    "weak_relevance": 212,
     "same_source_limit": 0,
-    "china_limit": 8,
+    "china_limit": 7,
     "auto_china_limit": 0,
-    "old_news": 3353,
-    "same_entity_limit": 113,
+    "old_news": 3334,
+    "same_entity_limit": 112,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
