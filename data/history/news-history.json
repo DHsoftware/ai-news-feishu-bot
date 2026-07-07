@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T07:21:53.287971+08:00",
+  "updated_at": "2026-07-08T06:31:16.065740+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -89,116 +89,6 @@
           "technical_blog"
         ]
       }
-    },
-    {
-      "first_seen_date": "2026-06-06",
-      "last_seen_date": "2026-06-06",
-      "canonical_key": "unlocking dependable responses with gemini enterprise agent platform s agentic rag",
-      "normalized_title": "unlocking dependable responses with gemini enterprise agent platform s agentic rag",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMXZZM0F2dUhHckZubTU4aVA5RWViY25Lb1R2RUp5QWRsN3d3NkpJbnJLZW1va0dzalJjZDFUOWJuMU9saWRNTFhBRlZIOU1EbHR2QUMxcDRPYjNpbTJ3S0xGZXZoR280SkZJTnpoRk9nMXY0SGo0d0VWWm5HLXpac3p3aC1oTGcwZFNESnJBVDhLR2JuZWNNaXNKa2hEajh2dW5DbEVwS0JVMC1nZGlDbw?oc=5",
-      "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG - Research at Google",
-      "summary": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG Research at Google",
-      "source": "Research at Google",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMXZZM0F2dUhHckZubTU4aVA5RWViY25Lb1R2RUp5QWRsN3d3NkpJbnJLZW1va0dzalJjZDFUOWJuMU9saWRNTFhBRlZIOU1EbHR2QUMxcDRPYjNpbTJ3S0xGZXZoR280SkZJTnpoRk9nMXY0SGo0d0VWWm5HLXpac3p3aC1oTGcwZFNESnJBVDhLR2JuZWNNaXNKa2hEajh2dW5DbEVwS0JVMC1nZGlDbw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "coding_agent",
-        "company_research"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-06",
-      "last_seen_date": "2026-06-06",
-      "canonical_key": "cognition launches ai productivity guarantee and devin desktop to deepen enterprise adoption",
-      "normalized_title": "cognition launches ai productivity guarantee and devin desktop to deepen enterprise adoption",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNmVpSktzLU9QZlNQem9UVEFaaUxUYXNkcFZyTEVpbDJ6VHd1MmtYSUo3X0trdFY4aGpTRnQ0TlljLWZCSHVYLWdCVFhGUFJndFNDWTg4bUFfazdFbTBzUHJkREhiWjZ4WlJVQ1Y0a1AxdGg2NUttZF9iMVZmYXNiVnQtb3B1RHlZUzZWYmxNU2hSRVNjcXg0TFJGOGRMemZVblpmQ3luTDBhOEFIQzRuTVdPSWt4ZHppSlJMajNKWmx2Q2NoU3B6Y0lXMFZ6QnFXS0J4ZDR1dw?oc=5",
-      "title": "Cognition Launches AI Productivity Guarantee and Devin Desktop to Deepen Enterprise Adoption - TipRanks",
-      "summary": "Cognition Launches AI Productivity Guarantee and Devin Desktop to Deepen Enterprise Adoption TipRanks",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNmVpSktzLU9QZlNQem9UVEFaaUxUYXNkcFZyTEVpbDJ6VHd1MmtYSUo3X0trdFY4aGpTRnQ0TlljLWZCSHVYLWdCVFhGUFJndFNDWTg4bUFfazdFbTBzUHJkREhiWjZ4WlJVQ1Y0a1AxdGg2NUttZF9iMVZmYXNiVnQtb3B1RHlZUzZWYmxNU2hSRVNjcXg0TFJGOGRMemZVblpmQ3luTDBhOEFIQzRuTVdPSWt4ZHppSlJMajNKWmx2Q2NoU3B6Y0lXMFZ6QnFXS0J4ZDR1dw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "coding_agent",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-06",
-      "last_seen_date": "2026-06-06",
-      "canonical_key": "特锐德 推出算力中心供电站 算电岛 token成本可降低30",
-      "normalized_title": "特锐德 推出算力中心供电站 算电岛 token成本可降低30",
-      "normalized_link": "https://36kr.com/newsflashes/3841455348746496?f=rss",
-      "title": "特锐德：推出算力中心供电站“算电岛” Token成本可降低30%",
-      "summary": "特锐德推出算力中心高压交直流预制舱供电站“算电岛”，重构智算中心供电底层架构，设备工厂模块化预制，可直入110/220kV高压，800V直流直供机房。建设周期缩至150天；依托碳化硅SST技术，供电效率98.5%；依托算电协同AI平台优化调度，Token用电成本下降约30%；800V母线直挂储能，实现绿电就地100%消纳；集成化方案使项目综合造价下降20%、运维成本降低40%。（财联社）",
-      "source": "36氪",
-      "link": "https://36kr.com/newsflashes/3841455348746496?f=rss",
-      "category": "功率电子",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "sic"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-06",
-      "last_seen_date": "2026-06-06",
-      "canonical_key": "下一个anthropic不写代码 它在搬箱子",
-      "normalized_title": "下一个anthropic不写代码 它在搬箱子",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aNFVNX2pPbF9RTHRjZ05qelJzQ3ZWaHJxd3ZRb0RTZDJkMHFRSGUwT1N0bEdwWFJCWXpyMjliamVaeHhVMUNzRg?oc=5",
-      "title": "下一个Anthropic不写代码，它在搬箱子！ - 智源社区",
-      "summary": "下一个Anthropic不写代码，它在搬箱子！ 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aNFVNX2pPbF9RTHRjZ05qelJzQ3ZWaHJxd3ZRb0RTZDJkMHFRSGUwT1N0bEdwWFJCWXpyMjliamVaeHhVMUNzRg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-06",
-      "last_seen_date": "2026-06-06",
-      "canonical_key": "seoul purpose how nvidia and south korea are building the future of ai",
-      "normalized_title": "seoul purpose how nvidia and south korea are building the future of ai",
-      "normalized_link": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
-      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
-      "summary": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work.…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "robotics",
-        "technical_blog"
-      ],
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-07",
@@ -5775,6 +5665,200 @@
           "coding",
           "coding_agent",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "australian payments plus moves faster with chatgpt and codex",
+      "normalized_title": "australian payments plus moves faster with chatgpt and codex",
+      "normalized_link": "https://openai.com/index/australian-payments-plus",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/australian-payments-plus",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "agentfactory enables governed digital intelligence workflows",
+      "normalized_title": "agentfactory enables governed digital intelligence workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
+      "title": "AgentFactory Enables Governed Digital Intelligence Workflows - Let's Data Science",
+      "summary": "AgentFactory Enables Governed Digital Intelligence Workflows Let's Data Science",
+      "source": "Let's Data Science",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
+      "normalized_title": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
+      "normalized_link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
+      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, c…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "opensource",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "opensource",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "全球首款ai智能体手机将在2026世界人工智能大会首发首秀",
+      "normalized_title": "全球首款ai智能体手机将在2026世界人工智能大会首发首秀",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wYjZ3dmJWM2Rmb3I2aUZyLXV1ckJJNHVfMFdaVnQ1Q1JSaW4zc1pIcjZJMEtFT3ZUM0ItSlVBZWVQSkY0ZnYtUjl3M0tJWTAzWGY0Zk9yTHBmSVdfR1hNSw?oc=5",
+      "title": "全球首款AI智能体手机将在2026世界人工智能大会首发首秀 - thepaper.cn",
+      "summary": "全球首款AI智能体手机将在2026世界人工智能大会首发首秀 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wYjZ3dmJWM2Rmb3I2aUZyLXV1ckJJNHVfMFdaVnQ1Q1JSaW4zc1pIcjZJMEtFT3ZUM0ItSlVBZWVQSkY0ZnYtUjl3M0tJWTAzWGY0Zk9yTHBmSVdfR1hNSw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
+      "normalized_title": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
+      "title": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 - Moomoo",
+      "summary": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 Moomoo",
+      "source": "Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
