@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-08T06:31:16.065740+08:00",
+  "generated_at": "2026-07-08T07:13:32.119990+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 160,
-    "history_size_after": 160,
-    "history_duplicate_count": 33
+    "history_size_after": 161,
+    "history_duplicate_count": 35
   },
   "raw_item_count": 5221,
-  "deduped_item_count": 3856,
-  "filtered_item_count": 390,
+  "deduped_item_count": 3863,
+  "filtered_item_count": 385,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,35 +77,37 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "AgentFactory Enables Governed Digital Intelligence Workflows - Let's Data Science",
-      "summary": "AgentFactory Enables Governed Digital Intelligence Workflows Let's Data Science",
+      "title": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows - cio.com",
+      "summary": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows cio.com",
       "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-07-08T05:45:00+08:00",
-      "source": "Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
+      "summary_quality": "medium",
+      "published_at": "2026-07-08T05:38:40+08:00",
+      "source": "cio.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "ai_productivity",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
         "agent",
-        "ai_transformation",
-        "org_productivity",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
         "workflow_automation"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "agentfactory enables governed digital intelligence workflows",
-      "canonical_key": "agentfactory enables governed digital intelligence workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
-      "score": 75,
+      "category": "AI编程工具",
+      "dedupe_key": "introducing nitro automate intelligent document automation for enterprise ai workflows",
+      "canonical_key": "introducing nitro automate intelligent document automation for enterprise ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
+      "score": 59,
       "selection_reason": "required_productivity"
     },
     {
@@ -177,13 +179,13 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 - Moomoo",
-      "summary": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 Moomoo",
+      "title": "“我一行代码都没读就发布了”，被 OpenAI 收购后，uv 工具创始人开始反思 AI 编程 - Infoq.cn",
+      "summary": "“我一行代码都没读就发布了”，被 OpenAI 收购后，uv 工具创始人开始反思 AI 编程 Infoq.cn",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-07-07T20:02:00+08:00",
-      "source": "Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
+      "published_at": "2026-07-06T15:47:50+08:00",
+      "source": "Infoq.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ai14cFVxUHJVQXlyejF1NnR4TWRBeWI5cC1TbV9RRHhwQ2VNSGlsYlB3cndHSDBrblJHU0tYZ2lJUVdEMkpnWjZrdzhmaVJUdmN3dDlLWEl3c2JRX0E?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -203,22 +205,22 @@
         "coding_agent"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
-      "canonical_key": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
-      "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
+      "dedupe_key": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
+      "canonical_key": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ai14cFVxUHJVQXlyejF1NnR4TWRBeWI5cC1TbV9RRHhwQ2VNSGlsYlB3cndHSDBrblJHU0tYZ2lJUVdEMkpnWjZrdzhmaVJUdmN3dDlLWEl3c2JRX0E?oc=5",
       "score": 58,
       "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1365,
-    "history_duplicate": 33,
-    "weak_relevance": 205,
+    "duplicate": 1358,
+    "history_duplicate": 35,
+    "weak_relevance": 192,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3261,
-    "same_entity_limit": 2,
+    "old_news": 3286,
+    "same_entity_limit": 1,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

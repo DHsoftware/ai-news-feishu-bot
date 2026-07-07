@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T06:31:16.065740+08:00",
+  "updated_at": "2026-07-08T07:13:32.119990+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5560,7 +5560,7 @@
     },
     {
       "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
+      "last_seen_date": "2026-07-07",
       "canonical_key": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
       "normalized_title": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
       "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ai14cFVxUHJVQXlyejF1NnR4TWRBeWI5cC1TbV9RRHhwQ2VNSGlsYlB3cndHSDBrblJHU0tYZ2lJUVdEMkpnWjZrdzhmaVJUdmN3dDlLWEl3c2JRX0E?oc=5",
@@ -5595,7 +5595,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-06",
@@ -5708,7 +5708,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-07",
@@ -5783,7 +5783,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-07",
@@ -5822,7 +5822,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-07",
@@ -5859,6 +5859,43 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-07",
+      "canonical_key": "introducing nitro automate intelligent document automation for enterprise ai workflows",
+      "normalized_title": "introducing nitro automate intelligent document automation for enterprise ai workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
+      "title": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows - cio.com",
+      "summary": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows cio.com",
+      "source": "cio.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
