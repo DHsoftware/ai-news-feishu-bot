@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T07:13:32.119990+08:00",
+  "updated_at": "2026-07-09T06:17:09.040950+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -89,119 +89,6 @@
           "technical_blog"
         ]
       }
-    },
-    {
-      "first_seen_date": "2026-06-07",
-      "last_seen_date": "2026-06-07",
-      "canonical_key": "nvidia krafton nc and reigning league of legends champions t1 celebrate rtx spark at korea s pc bangs",
-      "normalized_title": "nvidia krafton nc and reigning league of legends champions t1 celebrate rtx spark at korea s pc bangs",
-      "normalized_link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
-      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
-      "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark , the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea , where he introduced RTX Spark to the nation’s passionate gaming…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-07",
-      "last_seen_date": "2026-06-07",
-      "canonical_key": "jacob lauritzen ai tools are revolutionizing engineering productivity shifting the bottleneck to code review and emphasizing systems design over code creation 20vc",
-      "normalized_title": "jacob lauritzen ai tools are revolutionizing engineering productivity shifting the bottleneck to code review and emphasizing systems design over code creation 20vc",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWXJPWUxRQW9JTUM2c1BZTnd6UURxcUp2c3BQWUxYNkZ0MTVrRlNXWEFLVHVRazJRMjU5N0NCUTBZaTcydjVWdXJZLThJckRJTlpDUmxjQWFwcVFDeWRYeW1IU011d0JIOTFtemRkcW5UbUgwZW00dnNmMmF3OGQ1aGU1WGgyYmd4ZldvRW1aSkZYY040bnlMRE9CanBydm1vcmt2ZEhnYkRFV2wxRW8zT1R0R1VXUHVqU2oxN2Z1QkNSN25ZQkJUbE1ZZzRFVm9UbDl1dFUtcjRJeHBGRDJZV2lQRVRrcEpDOFZuMGNMaC15WTR5NndKeWF4OVJuMDBuTXFnS1k2Mjd2azRSbjVJa1Y3dFRyX2Zzd3VJ?oc=5",
-      "title": "Jacob Lauritzen: AI tools are revolutionizing engineering productivity, shifting the bottleneck to code review, and emphasizing systems design over code creation | 20VC - Crypto Briefing",
-      "summary": "Jacob Lauritzen: AI tools are revolutionizing engineering productivity, shifting the bottleneck to code review, and emphasizing systems design over code creation | 20VC Crypto Briefing",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWXJPWUxRQW9JTUM2c1BZTnd6UURxcUp2c3BQWUxYNkZ0MTVrRlNXWEFLVHVRazJRMjU5N0NCUTBZaTcydjVWdXJZLThJckRJTlpDUmxjQWFwcVFDeWRYeW1IU011d0JIOTFtemRkcW5UbUgwZW00dnNmMmF3OGQ1aGU1WGgyYmd4ZldvRW1aSkZYY040bnlMRE9CanBydm1vcmt2ZEhnYkRFV2wxRW8zT1R0R1VXUHVqU2oxN2Z1QkNSN25ZQkJUbE1ZZzRFVm9UbDl1dFUtcjRJeHBGRDJZV2lQRVRrcEpDOFZuMGNMaC15WTR5NndKeWF4OVJuMDBuTXFnS1k2Mjd2azRSbjVJa1Y3dFRyX2Zzd3VJ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_code_review",
-        "coding",
-        "coding_agent",
-        "engineering_productivity"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-07",
-      "last_seen_date": "2026-06-07",
-      "canonical_key": "台达于nvidia gtc 2026 亮相专为下一代ai工厂打造的800 vdc解决方案",
-      "normalized_title": "台达于nvidia gtc 2026 亮相专为下一代ai工厂打造的800 vdc解决方案",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRRnM0OEIxdmNoeV92UUpHa1FGZEV5eVJXWlJqWjdULUFiWEh3dlk0N3U0cVBSaDhlTDZGdkNtOUhQNTVsZmZqZnNOcWdOU2dPaDdHQ3FqWU5sUmd5ZFhrdjI1ektxeUtz?oc=5",
-      "title": "台达于NVIDIA GTC 2026 亮相专为下一代AI工厂打造的800 VDC解决方案 - Welcome to Delta",
-      "summary": "台达于NVIDIA GTC 2026 亮相专为下一代AI工厂打造的800 VDC解决方案 Welcome to Delta",
-      "source": "Welcome to Delta",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRRnM0OEIxdmNoeV92UUpHa1FGZEV5eVJXWlJqWjdULUFiWEh3dlk0N3U0cVBSaDhlTDZGdkNtOUhQNTVsZmZqZnNOcWdOU2dPaDdHQ3FqWU5sUmd5ZFhrdjI1ektxeUtz?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-07",
-      "last_seen_date": "2026-06-07",
-      "canonical_key": "腾讯健康发布ai全栈解决方案 以全场景ai agent打通医疗健康创新全链条",
-      "normalized_title": "腾讯健康发布ai全栈解决方案 以全场景ai agent打通医疗健康创新全链条",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGRk5rdEsxeEl3UEFpTG5TcjluRXZMV1RIdHowY2FYSWhZLS03amJoRGRQWVdBWlQyQlROZ1pvM3cwYmRaUkd1Nw?oc=5",
-      "title": "腾讯健康发布AI全栈解决方案，以全场景AI Agent打通医疗健康创新全链条 - 品玩",
-      "summary": "腾讯健康发布AI全栈解决方案，以全场景AI Agent打通医疗健康创新全链条 品玩",
-      "source": "品玩",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGRk5rdEsxeEl3UEFpTG5TcjluRXZMV1RIdHowY2FYSWhZLS03amJoRGRQWVdBWlQyQlROZ1pvM3cwYmRaUkd1Nw?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-07",
-      "last_seen_date": "2026-06-07",
-      "canonical_key": "amazing digital dentures a failed project",
-      "normalized_title": "amazing digital dentures a failed project",
-      "normalized_link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
-      "title": "Amazing Digital Dentures (a failed project)",
-      "summary": "A Blog post by Build Small Hackathon on Hugging Face",
-      "source": "Hugging Face - Blog",
-      "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-08",
@@ -5745,7 +5632,7 @@
     },
     {
       "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
+      "last_seen_date": "2026-07-08",
       "canonical_key": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
       "normalized_title": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
       "normalized_link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
@@ -5783,7 +5670,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-07",
@@ -5896,6 +5783,159 @@
           "coding",
           "coding_agent",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-08",
+      "last_seen_date": "2026-07-08",
+      "canonical_key": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
+      "normalized_title": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
+      "normalized_link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while complet…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-08",
+      "last_seen_date": "2026-07-08",
+      "canonical_key": "a3 s 2026 automation whitepaper wave signals a shift from fixed hardware to software defined factory floors",
+      "normalized_title": "a3 s 2026 automation whitepaper wave signals a shift from fixed hardware to software defined factory floors",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNWV2M1FGNzk1QzI2U0p1Z1BFUW5xcllQSVRYTnJZSjNlcS02dS11YWdvRnF1VGVHQ0FiWFVCb0pTNmpUOUVQNmpCcVVDWS1uNTdpMld4SWZYc1A2SWROa3QwakVrWVBfQzJOcU5NR0Fab0l2LVprR1lSLWktNzVCSWEzVUFHNDVOQXVOY0x3Nm85SXVNUGp5QUoxODV0TXhOZmNtMWdrQlRSNjNvTUtfNks3dTRVazV0S0VVTmd0TUZ0MUMwVTliS01tcHNlX1J2VkQ1OXNFX2FUVDQtWUNLeGlCZWNCck1hd3ZUMFNseDEydw?oc=5",
+      "title": "A3's 2026 automation whitepaper wave signals a shift from fixed hardware to software-defined factory floors - MarketScale",
+      "summary": "A3's 2026 automation whitepaper wave signals a shift from fixed hardware to software-defined factory floors MarketScale",
+      "source": "MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNWV2M1FGNzk1QzI2U0p1Z1BFUW5xcllQSVRYTnJZSjNlcS02dS11YWdvRnF1VGVHQ0FiWFVCb0pTNmpUOUVQNmpCcVVDWS1uNTdpMld4SWZYc1A2SWROa3QwakVrWVBfQzJOcU5NR0Fab0l2LVprR1lSLWktNzVCSWEzVUFHNDVOQXVOY0x3Nm85SXVNUGp5QUoxODV0TXhOZmNtMWdrQlRSNjNvTUtfNks3dTRVazV0S0VVTmd0TUZ0MUMwVTliS01tcHNlX1J2VkQ1OXNFX2FUVDQtWUNLeGlCZWNCck1hd3ZUMFNseDEydw?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "whitepaper",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "whitepaper",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-08",
+      "last_seen_date": "2026-07-08",
+      "canonical_key": "国内首个ai自驱动实验室在上海落地 跑通全流程自动化科研",
+      "normalized_title": "国内首个ai自驱动实验室在上海落地 跑通全流程自动化科研",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PMC1iSUllMUY2OUVBLXVhTlB2NFJEVExrRHp2Q1NGdkJDdlJKVnlUdE54SGhvSUwtSGdwQXlHYlIzVUJja01PMG9qOHJYQUpOWlVSSQ?oc=5",
+      "title": "国内首个AI自驱动实验室在上海落地 跑通全流程自动化科研 - 第一财经",
+      "summary": "国内首个AI自驱动实验室在上海落地 跑通全流程自动化科研 第一财经",
+      "source": "第一财经",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PMC1iSUllMUY2OUVBLXVhTlB2NFJEVExrRHp2Q1NGdkJDdlJKVnlUdE54SGhvSUwtSGdwQXlHYlIzVUJja01PMG9qOHJYQUpOWlVSSQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-08",
+      "last_seen_date": "2026-07-08",
+      "canonical_key": "8点1氪丨前华为天才少年吐槽deepseek面试 称面试官质疑他抄袭 苹果折叠屏已在量产 特朗普呼吁购买戴尔电脑 引发戴尔暴涨百亿美元",
+      "normalized_title": "8点1氪丨前华为天才少年吐槽deepseek面试 称面试官质疑他抄袭 苹果折叠屏已在量产 特朗普呼吁购买戴尔电脑 引发戴尔暴涨百亿美元",
+      "normalized_link": "https://36kr.com/p/3886238403129353?f=rss",
+      "title": "8点1氪丨前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭；苹果折叠屏已在量产；特朗普呼吁购买戴尔电脑，引发戴尔暴涨百亿美元",
+      "summary": "今日热点导览 网传“7月1日新规：新车智驾芯片自主化率不低于70%”系谣言 商业银行不良处置仍在加速，上半年全行业转让核销合计至少5000亿 国家外汇管理局：截至2026年6月末，中国外汇储备规模为34163亿美元 汇丰暂停向风险较高的私募信贷客户提供贷款 SpaceX公布AI数据中心计划，同步推进星链卫星脱轨 TOP3大新闻 前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭 7月6日，前华为“天才少年”李博杰在社交平台公开吐槽DeepSeek的面试流程，提及流程较慢且繁琐，面试官存在态度问题，质疑他抄袭，他感到“被严重冒犯”。面试过程并不愉快，他还被面试官质疑抄袭。“因为在代码面…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3886238403129353?f=rss",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "llm",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple",
+          "huawei",
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "production",
+          "release"
+        ],
+        "topics": [
+          "chip",
+          "llm",
+          "model_capability",
+          "research"
         ]
       },
       "seen_count": 1
