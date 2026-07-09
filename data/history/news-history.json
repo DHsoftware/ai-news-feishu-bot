@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T07:21:49.423814+08:00",
+  "updated_at": "2026-07-10T06:43:31.080526+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -89,218 +89,6 @@
           "technical_blog"
         ]
       }
-    },
-    {
-      "first_seen_date": "2026-06-08",
-      "last_seen_date": "2026-06-08",
-      "canonical_key": "how the uk is turning sovereign ai ambition into action with nvidia technologies",
-      "normalized_title": "how the uk is turning sovereign ai ambition into action with nvidia technologies",
-      "normalized_link": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
-      "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
-      "summary": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration : the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "robotics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "robotics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-08",
-      "last_seen_date": "2026-06-08",
-      "canonical_key": "想赚钱 豆包需先codex化",
-      "normalized_title": "想赚钱 豆包需先codex化",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HeWJWR0Y4TW4wWHVjQXlOVkNMWW1jTnFVV1U5VjNwbEhaSEE4SS1oeURaRFZrUzZnMjBlUzQ1SVN0ZUpYSWpScFhjVjQ0Y3ZwZnh3?oc=5",
-      "title": "想赚钱？豆包需先Codex化！ - 36 Kr",
-      "summary": "想赚钱？豆包需先Codex化！ 36 Kr",
-      "source": "36 Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HeWJWR0Y4TW4wWHVjQXlOVkNMWW1jTnFVV1U5VjNwbEhaSEE4SS1oeURaRFZrUzZnMjBlUzQ1SVN0ZUpYSWpScFhjVjQ0Y3ZwZnh3?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "codex",
-        "coding",
-        "coding_agent",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "codex",
-          "coding",
-          "coding_agent",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-08",
-      "last_seen_date": "2026-06-08",
-      "canonical_key": "nvidia and lg group build an ai factory to advance physical ai mobility and ai infrastructure",
-      "normalized_title": "nvidia and lg group build an ai factory to advance physical ai mobility and ai infrastructure",
-      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
-      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
-      "summary": "NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, valid…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "autonomous_driving",
-        "chip",
-        "cloud",
-        "company_research",
-        "digital_twin",
-        "robotics",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_factory",
-          "ai_research",
-          "autonomous_driving",
-          "chip",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "digital_twin",
-          "robotics",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-08",
-      "last_seen_date": "2026-06-08",
-      "canonical_key": "强敌环伺 腾讯亮出ai底牌",
-      "normalized_title": "强敌环伺 腾讯亮出ai底牌",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mWi16Z0I2c1dBZC1aUklOcndQTjczTGtBVDNWd2RtQnFlSzFLcWtaQTVObEpvS01CVE5ERXlHYUF4bFZWanNlVVR6X0FDSVkwUmFuV0tFUU40YnZIWmc?oc=5",
-      "title": "强敌环伺，腾讯亮出AI底牌 - thepaper.cn",
-      "summary": "强敌环伺，腾讯亮出AI底牌 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mWi16Z0I2c1dBZC1aUklOcndQTjczTGtBVDNWd2RtQnFlSzFLcWtaQTVObEpvS01CVE5ERXlHYUF4bFZWanNlVVR6X0FDSVkwUmFuV0tFUU40YnZIWmc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-08",
-      "last_seen_date": "2026-06-08",
-      "canonical_key": "for the 2nd time in weeks microsoft packages laced with credential stealer",
-      "normalized_title": "for the 2nd time in weeks microsoft packages laced with credential stealer",
-      "normalized_link": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer",
-      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
-      "summary": "Dozens of cryptographically verified open source packages from Microsoft were compromised late last week to add advanced credential-stealing code that was triggered when developers opened them in AI coding agents. In all, multiple researchers said , 73 packages were flagged as malicious when automa…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "github",
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-09",
@@ -5789,7 +5577,7 @@
     },
     {
       "first_seen_date": "2026-07-08",
-      "last_seen_date": "2026-07-08",
+      "last_seen_date": "2026-07-09",
       "canonical_key": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
       "normalized_title": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
       "normalized_link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
@@ -5827,7 +5615,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-08",
@@ -5939,6 +5727,149 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-09",
+      "last_seen_date": "2026-07-09",
+      "canonical_key": "ai can generate charts flint helps generate better ones",
+      "normalized_title": "ai can generate charts flint helps generate better ones",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSl9RSk1aYWNQbFdGSFJ0SGEzWjVwaFFmTE1vYjZEQm5nQ1ZraHZzaWpiN0hBMjNRX1dlU2JmV0lQTEZMMUNFd0prb1lVdW1NSkJ4VzJIR21JVXgxUS1SaFkxRUZTQ2NUTC1KMEtlSTZPRU90aEdQYUVYcGg0dUpGOXlCUXNoaEMtRkJVcWRod3U1OTh6dGpr?oc=5",
+      "title": "AI can generate Charts. Flint helps generate better ones. - Microsoft",
+      "summary": "AI can generate Charts. Flint helps generate better ones. Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSl9RSk1aYWNQbFdGSFJ0SGEzWjVwaFFmTE1vYjZEQm5nQ1ZraHZzaWpiN0hBMjNRX1dlU2JmV0lQTEZMMUNFd0prb1lVdW1NSkJ4VzJIR21JVXgxUS1SaFkxRUZTQ2NUTC1KMEtlSTZPRU90aEdQYUVYcGg0dUpGOXlCUXNoaEMtRkJVcWRod3U1OTh6dGpr?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-09",
+      "last_seen_date": "2026-07-09",
+      "canonical_key": "a practical guide to gpu initiated communication for molecular dynamics at scale",
+      "normalized_title": "a practical guide to gpu initiated communication for molecular dynamics at scale",
+      "normalized_link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale",
+      "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
+      "summary": "Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in... Source",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-09",
+      "last_seen_date": "2026-07-09",
+      "canonical_key": "道旅集团 推出 dida mcp 让 ai 推荐即刻变现为酒店预订",
+      "normalized_title": "道旅集团 推出 dida mcp 让 ai 推荐即刻变现为酒店预订",
+      "normalized_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oZVYzNU93TFV6RVJRVGR3TXcwM3YzMEtaM3pqakZoZ0s5dmZQQnRRTVBleUdqbVZsR1pHbnA3ZWh4NFNwc3REMGtEdUhKVkhIWFJnOXMwV1d1eU5COUVqb0lJaXR4RkpYRVRRX29PMDFCakE?oc=5",
+      "title": "道旅集团重磅推出 Dida MCP：让 AI 推荐即刻变现为酒店预订 - 潮新闻",
+      "summary": "道旅集团重磅推出 Dida MCP：让 AI 推荐即刻变现为酒店预订 潮新闻",
+      "source": "潮新闻",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oZVYzNU93TFV6RVJRVGR3TXcwM3YzMEtaM3pqakZoZ0s5dmZQQnRRTVBleUdqbVZsR1pHbnA3ZWh4NFNwc3REMGtEdUhKVkhIWFJnOXMwV1d1eU5COUVqb0lJaXR4RkpYRVRRX29PMDFCakE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-09",
+      "last_seen_date": "2026-07-09",
+      "canonical_key": "中美ai监管双向闸口初现 工信部发claude code风险提示 阿里全面禁用anthropic",
+      "normalized_title": "中美ai监管双向闸口初现 工信部发claude code风险提示 阿里全面禁用anthropic",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40d3dBZDNjb2xRZFBmVE5rTDZfeVpxMkgxWkFEQjFqS1JhN0lrc3pVWEZfU0l3ZjdQZi1UNFJtaFlnRVYtWjQzcWNDaVRsVVQtZjFWX3Z6S0oyenZoSmhPbUh3?oc=5",
+      "title": "中美AI监管双向闸口初现：工信部发Claude Code风险提示，阿里全面禁用Anthropic - 虎嗅网",
+      "summary": "中美AI监管双向闸口初现：工信部发Claude Code风险提示，阿里全面禁用Anthropic 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40d3dBZDNjb2xRZFBmVE5rTDZfeVpxMkgxWkFEQjFqS1JhN0lrc3pVWEZfU0l3ZjdQZi1UNFJtaFlnRVYtWjQzcWNDaVRsVVQtZjFWX3Z6S0oyenZoSmhPbUh3?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "coding_agent",
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "coding_agent",
+          "policy_regulation",
+          "regulation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
