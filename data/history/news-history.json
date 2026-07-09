@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T06:43:31.080526+08:00",
+  "updated_at": "2026-07-10T07:34:59.545982+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5615,7 +5615,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-08",
@@ -5759,7 +5759,7 @@
           "engineering_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-09",
@@ -5794,7 +5794,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-09",
@@ -5835,7 +5835,7 @@
           "mcp"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-09",
@@ -5867,6 +5867,50 @@
           "coding_agent",
           "policy_regulation",
           "regulation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-09",
+      "last_seen_date": "2026-07-09",
+      "canonical_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
+      "normalized_title": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
+      "title": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 - 驱动之家",
+      "summary": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "model_capability"
         ]
       },
       "seen_count": 1
