@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T06:16:16.319855+08:00",
+  "updated_at": "2026-07-11T07:12:08.118420+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5720,7 +5720,7 @@
           "terminal"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5759,7 +5759,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5792,7 +5792,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5836,7 +5836,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5864,6 +5864,46 @@
         "actions": [],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "openai上线chatgpt work 企业级人工智能体竞争升级",
+      "normalized_title": "openai上线chatgpt work 企业级人工智能体竞争升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
+      "title": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 - 财联社",
+      "summary": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 财联社",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1

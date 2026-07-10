@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-11T06:16:16.319855+08:00",
+  "generated_at": "2026-07-11T07:12:08.118420+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 159,
-    "history_duplicate_count": 48
+    "history_size_before": 159,
+    "history_size_after": 160,
+    "history_duplicate_count": 45
   },
-  "raw_item_count": 5222,
-  "deduped_item_count": 3901,
-  "filtered_item_count": 430,
+  "raw_item_count": 5234,
+  "deduped_item_count": 3904,
+  "filtered_item_count": 419,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -177,40 +177,48 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 - doit.com.cn",
-      "summary": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 doit.com.cn",
+      "title": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 - 财联社",
+      "summary": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 财联社",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-07-10T18:11:46+08:00",
-      "source": "doit.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
+      "published_at": "2026-07-10T16:22:28+08:00",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "chip"
+      "tags": [
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
-      "category": "AI芯片",
-      "dedupe_key": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
-      "canonical_key": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
-      "score": 41,
-      "selection_reason": "auto_china_quota"
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "openai上线chatgpt work 企业级人工智能体竞争升级",
+      "canonical_key": "openai上线chatgpt work 企业级人工智能体竞争升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
+      "score": 58,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1321,
-    "history_duplicate": 48,
-    "weak_relevance": 203,
+    "duplicate": 1330,
+    "history_duplicate": 45,
+    "weak_relevance": 209,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3268,
-    "same_entity_limit": 57,
+    "old_news": 3276,
+    "same_entity_limit": 3,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
