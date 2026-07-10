@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T07:34:59.545982+08:00",
+  "updated_at": "2026-07-11T06:16:16.319855+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -89,243 +89,6 @@
           "technical_blog"
         ]
       }
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "how engineers at nextdoor use codex to build without limits",
-      "normalized_title": "how engineers at nextdoor use codex to build without limits",
-      "normalized_link": "https://openai.com/index/nextdoor",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/nextdoor",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "openai s lee spacagna on operationalizing ai workflows",
-      "normalized_title": "openai s lee spacagna on operationalizing ai workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUVxUmhSYWFfZnF1T0c5WVc1Nkl0MFB1a3NvTHREN3c3bmd6Z19Hb1dLX2dBaW9oRDR2Y25BODk5dXVuc1dRekVONWFFdmtfc1RKVU9yTHN4Q254WHZrYlpkbE0yVUFfVWhXSDdzLVc1aHpzWVpzaEZrYlNPNVdWeUZ3OU9malVBaHZvTlo4X0NZVjVLV3NIdFZhZ1Q1ajhib2VuY1g1YXNIVFZCTmtzU3AxeUtpbTNz?oc=5",
-      "title": "OpenAI's Lee Spacagna on Operationalizing AI Workflows - StartupHub.ai",
-      "summary": "OpenAI's Lee Spacagna on Operationalizing AI Workflows StartupHub.ai",
-      "source": "StartupHub.ai",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUVxUmhSYWFfZnF1T0c5WVc1Nkl0MFB1a3NvTHREN3c3bmd6Z19Hb1dLX2dBaW9oRDR2Y25BODk5dXVuc1dRekVONWFFdmtfc1RKVU9yTHN4Q254WHZrYlpkbE0yVUFfVWhXSDdzLVc1aHpzWVpzaEZrYlNPNVdWeUZ3OU9malVBaHZvTlo4X0NZVjVLV3NIdFZhZ1Q1ajhib2VuY1g1YXNIVFZCTmtzU3AxeUtpbTNz?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "onsemi introduces industry first elite pairing studio to simplify power design",
-      "normalized_title": "onsemi introduces industry first elite pairing studio to simplify power design",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM0JoX3R2QnZwQTFsWEQxTlFuZkZOTktoVG9QaUFSYWhsbFBrYy1kbnBYaTB1Znl5Rm9vMDYtZW9sMURJalg2T29RcFdVVWtpVnR0bmc0aDBhSGIzb3drbkJLTVp2RmQzakdkbXVQR0hVOWRXSTlvRUl6dkw4WGhPMkRGTmlmdHBsRWZ4WklJaktWTkhOMkZMNEIzOExzWW1MOVRzWG5uZWFtZUNXS19FVHFCUnNlREtWN195enJ4ZzhrWE1nMU1jZ3BjcGliUzcxWkJmQnh4ZzZjdzQ?oc=5",
-      "title": "onsemi Introduces Industry-First Elite Pairing Studio to Simplify Power Design - onsemi",
-      "summary": "onsemi Introduces Industry-First Elite Pairing Studio to Simplify Power Design onsemi",
-      "source": "onsemi",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM0JoX3R2QnZwQTFsWEQxTlFuZkZOTktoVG9QaUFSYWhsbFBrYy1kbnBYaTB1Znl5Rm9vMDYtZW9sMURJalg2T29RcFdVVWtpVnR0bmc0aDBhSGIzb3drbkJLTVp2RmQzakdkbXVQR0hVOWRXSTlvRUl6dkw4WGhPMkRGTmlmdHBsRWZ4WklJaktWTkhOMkZMNEIzOExzWW1MOVRzWG5uZWFtZUNXS19FVHFCUnNlREtWN195enJ4ZzhrWE1nMU1jZ3BjcGliUzcxWkJmQnh4ZzZjdzQ?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "onsemi"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "claude opus 4 8正式发布 支持算力调节 动态工作流与更强诚实性",
-      "normalized_title": "claude opus 4 8正式发布 支持算力调节 动态工作流与更强诚实性",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bXREcGhWV3RFYTVYbmFfT1lPMGRsQ0RDNzh2d2Z4Y0JnU1hiNDQ0WE5YeUJfWE5xXzVZeE81OTRGOGFwVURjWmE5UXI1VG4ybzUwM0hlclFBdWtDenc?oc=5",
-      "title": "Claude Opus 4.8正式发布：支持算力调节、动态工作流与更强诚实性 - thepaper.cn",
-      "summary": "Claude Opus 4.8正式发布：支持算力调节、动态工作流与更强诚实性 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82bXREcGhWV3RFYTVYbmFfT1lPMGRsQ0RDNzh2d2Z4Y0JnU1hiNDQ0WE5YeUJfWE5xXzVZeE81OTRGOGFwVURjWmE5UXI1VG4ybzUwM0hlclFBdWtDenc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "chip",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "chip",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "anthropic 被曝雇1000名人类工程师 培训 claude code 时薪280美元 ai 编程越进化越离不开真人兜底",
-      "normalized_title": "anthropic 被曝雇1000名人类工程师 培训 claude code 时薪280美元 ai 编程越进化越离不开真人兜底",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4RmNyeWt0Ri1pZjFURXQyTGs2ZjBCN2QydS1vV1pRd1dHVGJZS2s2VFVyNnAybE9xbUgxTjhabWs1dnpTT0ZRQWc2TjVHcDZ3R2ZrWXhSOWFqUQ?oc=5",
-      "title": "Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底 - Infoq.cn",
-      "summary": "Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底 Infoq.cn",
-      "source": "Infoq.cn",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4RmNyeWt0Ri1pZjFURXQyTGs2ZjBCN2QydS1vV1pRd1dHVGJZS2s2VFVyNnAybE9xbUgxTjhabWs1dnpTT0ZRQWc2TjVHcDZ3R2ZrWXhSOWFqUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-06-09",
-      "canonical_key": "anthropic深夜发布claude fable 5 mythos 5 屠榜所有基准测试",
-      "normalized_title": "anthropic深夜发布claude fable 5 mythos 5 屠榜所有基准测试",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQmxMalBrdGVDVGxXcWEyMkRLTC1qMVRIWV9FdHVmcEE3VU0xMWl0R0dadTNsUEZzT1BJVER1TjZ5S3Yxa3ExX29nelNRM3VscFRfRVM4bkpGRl96SEpsNlBGVHZnLWpSS0Fmdg?oc=5",
-      "title": "Anthropic深夜发布Claude Fable 5/Mythos 5，屠榜所有基准测试 - QQ News",
-      "summary": "Anthropic深夜发布Claude Fable 5/Mythos 5，屠榜所有基准测试 QQ News",
-      "source": "QQ News",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQmxMalBrdGVDVGxXcWEyMkRLTC1qMVRIWV9FdHVmcEE3VU0xMWl0R0dadTNsUEZzT1BJVER1TjZ5S3Yxa3ExX29nelNRM3VscFRfRVM4bkpGRl96SEpsNlBGVHZnLWpSS0Fmdg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "benchmark",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "benchmark",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-10",
@@ -5911,6 +5674,196 @@
           "coding",
           "coding_agent",
           "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "better tools made copilot code review worse here s how we actually improved it",
+      "normalized_title": "better tools made copilot code review worse here s how we actually improved it",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "summary": "Give an agent better tools and it should do better work. That’s the instinct, anyway. When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_code_review",
+        "benchmark",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "ai_code_review",
+          "benchmark",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog",
+          "terminal"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "umbraco launches automate with ai workflow controls",
+      "normalized_title": "umbraco launches automate with ai workflow controls",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTM2bS1uNG1VTE50a0oxbE45LUxocEMxeGpsbXg4Y2NEc0FQOHhwWHlQTURHdHNUVEJWMFVJOERqTkI4YkNxZk16WXB5TUh1MWllUFZDd0tfNGxFbzlockhxQnNsdFhqRmxiNTdQeThiZkMtUWtxcnFCUWdmWnkyVVRCVlB4QQ?oc=5",
+      "title": "Umbraco launches Automate with AI workflow controls - IT Brief UK",
+      "summary": "Umbraco launches Automate with AI workflow controls IT Brief UK",
+      "source": "IT Brief UK",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTM2bS1uNG1VTE50a0oxbE45LUxocEMxeGpsbXg4Y2NEc0FQOHhwWHlQTURHdHNUVEJWMFVJOERqTkI4YkNxZk16WXB5TUh1MWllUFZDd0tfNGxFbzlockhxQnNsdFhqRmxiNTdQeThiZkMtUWtxcnFCUWdmWnkyVVRCVlB4QQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "iiit hyderabad bags top honours at cvpr ai conference",
+      "normalized_title": "iiit hyderabad bags top honours at cvpr ai conference",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNemhINl9JYWZxY2NPT2ZIUlZMZHRvdmR6U1ZvaWU0TWs0YUlsYU1ZY3YtdV9mOU1PQUJWMUJaNkNaelZhSldkYWI3RlBvek1MZnlaU1pNdXVicFI3RFo4WUhaUTNTMVpsMFV1aWVCQlpqRTc3RmhxZWFfQ3RjSnFJSE9NSXZ2V2dsalFVMTdWSUJ1d0ZGTVZCNjhfM2hiMW8zWERPRDlBSTh3RTM2U3E5WVBfRkl6UEtpRGZF0gHAAUFVX3lxTE5vOFhHd1hqd3VkNEJYZUZiX25vLWlYZ1d3U0JsdUdvVWFMU2N5RWJQSFMtbkczRGY4T0tRVXQ2dVdHMVV1TF9rUEJDMU1fNGdRaHo0VU03TktZR25IUm5YX0JVd0dkZkpDZVlXd3ZDNzhNSFdfT2xWMF91S3Ryby1kbHRPSk82Y0tjWHhJVTVOREtpaHl5OW1na2YtNm5ldUt0a0QtTHhHMFZpbVp6U0VIVU9mS2pMbl81VFpDTHBQVA?oc=5",
+      "title": "IIIT, Hyderabad Bags Top Honours at CVPR AI Conference - Deccan Chronicle",
+      "summary": "IIIT, Hyderabad Bags Top Honours at CVPR AI Conference Deccan Chronicle",
+      "source": "Deccan Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNemhINl9JYWZxY2NPT2ZIUlZMZHRvdmR6U1ZvaWU0TWs0YUlsYU1ZY3YtdV9mOU1PQUJWMUJaNkNaelZhSldkYWI3RlBvek1MZnlaU1pNdXVicFI3RFo4WUhaUTNTMVpsMFV1aWVCQlpqRTc3RmhxZWFfQ3RjSnFJSE9NSXZ2V2dsalFVMTdWSUJ1d0ZGTVZCNjhfM2hiMW8zWERPRDlBSTh3RTM2U3E5WVBfRkl6UEtpRGZF0gHAAUFVX3lxTE5vOFhHd1hqd3VkNEJYZUZiX25vLWlYZ1d3U0JsdUdvVWFMU2N5RWJQSFMtbkczRGY4T0tRVXQ2dVdHMVV1TF9rUEJDMU1fNGdRaHo0VU03TktZR25IUm5YX0JVd0dkZkpDZVlXd3ZDNzhNSFdfT2xWMF91S3Ryby1kbHRPSk82Y0tjWHhJVTVOREtpaHl5OW1na2YtNm5ldUt0a0QtTHhHMFZpbVp6U0VIVU9mS2pMbl81VFpDTHBQVA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一 网页 客户端 工具 桌面 免费版_手机新浪网",
+      "normalized_title": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一 网页 客户端 工具 桌面 免费版_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipARBVV95cUxOODBxcmQzNmJYM0h0WFVzMzdjUUlpV052Z2txM0xHRlZWNmlPdHZCRVlXTzRMM2czS1ZCcEMzVGxRcGxzOC1SV0NQdUk5QThBVGZqNGd3bWpVMFNWZjFvUUpDLUp0YWFaRGtzUm5mY3hLX0twQUszRjJWOUtEeEhnQnVkSFhoZHRfNElYTXhzVTVLSXZxbzM2RUZnd1FpZ0ZsN0xVWDhsLXc3Z2huZno5OXBKcU5CSzhVejlhek9uYTFYc0NIdFhCX0JCVEdsMEFEa2kwdlF1VGhqYy02c0hWWTlkS0Q2NS1qbEtCcGUxTlJvVVVoNlNWUWlYbWpCeGFwak5FcjIybnJjU2djVElwblN1ODVkU3ZfajF1WU1JV0NuTjhkb2RGNWVwalNUNjM4TGthTGt0QjdPVk1RdC1TLURJeUxsV0tYX0xvRk1aRnlENl96QklDOXN2ZjhuRENpRDhpTkZRM2VpZEYzN0JrRS1ydE0taV9BRkl0NHNleEhidWxncG9SVWJVdEdJQzROaVBzS3NSQ2FZalVrdFh3SWlHaWRraVhobzFkQmM0SXZJVGpnTkt5c0VpM05Bak1xSDdxUndETG1yZndGeTB1d0hfa1ZyQ09ObVkyYjFHeE9waFpmVnRjZUZidTBpM0pxNUl4Sk9PX0h2NFIxQXZDZHFuc3g1VV93ODJid2p0NWl5b1pkN09TWXhmWm5zMlVkc3NrQQ?oc=5",
+      "title": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一|网页|客户端|工具|桌面|免费版_手机新浪网 - 新浪财经",
+      "summary": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一|网页|客户端|工具|桌面|免费版_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMipARBVV95cUxOODBxcmQzNmJYM0h0WFVzMzdjUUlpV052Z2txM0xHRlZWNmlPdHZCRVlXTzRMM2czS1ZCcEMzVGxRcGxzOC1SV0NQdUk5QThBVGZqNGd3bWpVMFNWZjFvUUpDLUp0YWFaRGtzUm5mY3hLX0twQUszRjJWOUtEeEhnQnVkSFhoZHRfNElYTXhzVTVLSXZxbzM2RUZnd1FpZ0ZsN0xVWDhsLXc3Z2huZno5OXBKcU5CSzhVejlhek9uYTFYc0NIdFhCX0JCVEdsMEFEa2kwdlF1VGhqYy02c0hWWTlkS0Q2NS1qbEtCcGUxTlJvVVVoNlNWUWlYbWpCeGFwak5FcjIybnJjU2djVElwblN1ODVkU3ZfajF1WU1JV0NuTjhkb2RGNWVwalNUNjM4TGthTGt0QjdPVk1RdC1TLURJeUxsV0tYX0xvRk1aRnlENl96QklDOXN2ZjhuRENpRDhpTkZRM2VpZEYzN0JrRS1ydE0taV9BRkl0NHNleEhidWxncG9SVWJVdEdJQzROaVBzS3NSQ2FZalVrdFh3SWlHaWRraVhobzFkQmM0SXZJVGpnTkt5c0VpM05Bak1xSDdxUndETG1yZndGeTB1d0hfa1ZyQ09ObVkyYjFHeE9waFpmVnRjZUZidTBpM0pxNUl4Sk9PX0h2NFIxQXZDZHFuc3g1VV93ODJid2p0NWl5b1pkN09TWXhmWm5zMlVkc3NrQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-10",
+      "canonical_key": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
+      "normalized_title": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
+      "title": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 - doit.com.cn",
+      "summary": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 doit.com.cn",
+      "source": "doit.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1
