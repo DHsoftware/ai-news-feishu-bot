@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T06:08:17.352662+08:00",
+  "updated_at": "2026-07-12T07:08:25.370793+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5549,7 +5549,7 @@
           "terminal"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5588,7 +5588,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5770,7 +5770,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-11",
@@ -5800,6 +5800,46 @@
         "topics": [
           "inference",
           "research"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-11",
+      "last_seen_date": "2026-07-11",
+      "canonical_key": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
+      "normalized_title": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
+      "normalized_link": "https://36kr.com/p/3891132709206784?f=rss",
+      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
+      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，2026 年 7 月 11 日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。 过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了 10 倍，并在 2026 年 6 月，跻身“万亿港元俱乐部”——这个数字，是百度市值的近 3 倍，并且超过了小米。7 月 8 日，首批股票解禁后，智谱依然稳住了股价。 这也是当下 AI 大模型赛道，最性感的故事：押注对的技术方向，换来斐然市场口碑和商业化成绩。 抽丝剥茧，智谱起飞的根源，离不开一年前对 Coding 的押注。2025 年初，智谱就开始重新分配资源，将力量收敛到了对模…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3891132709206784?f=rss",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "llm",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "llm",
+          "model_capability",
+          "opensource"
         ]
       },
       "seen_count": 1

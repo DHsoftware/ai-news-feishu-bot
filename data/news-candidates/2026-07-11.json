@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "generated_at": "2026-07-12T06:08:17.352662+08:00",
+  "generated_at": "2026-07-12T07:08:25.370793+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 157,
-    "history_duplicate_count": 21
+    "history_size_before": 157,
+    "history_size_after": 158,
+    "history_duplicate_count": 19
   },
-  "raw_item_count": 5237,
-  "deduped_item_count": 3898,
-  "filtered_item_count": 280,
+  "raw_item_count": 5192,
+  "deduped_item_count": 3857,
+  "filtered_item_count": 251,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -142,40 +142,6 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 - 驱动之家",
-      "summary": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 驱动之家",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-07-10T07:08:00+08:00",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
-      ],
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "category": "AI编程工具",
-      "dedupe_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
-      "canonical_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
-      "score": 58,
-      "selection_reason": "china_quota"
-    },
-    {
       "title": "Anthropic发布J-Space论文：发现Claude内部推理子空间，但称非意识 - 虎嗅网",
       "summary": "Anthropic发布J-Space论文：发现Claude内部推理子空间，但称非意识 虎嗅网",
       "summary_source": "rss_description",
@@ -199,17 +165,45 @@
       "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnUDZRUHJxNEtSWXNhY29yd01ZZ0QzbXF1Z1FVbzlBcVhhWVJiLTJTcGFGczVWWWJhR21nZ2hXSy0ycXRiNGtrMUhrTU9sZGEtMFF3SA?oc=5",
       "score": 44,
       "selection_reason": "china_quota"
+    },
+    {
+      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
+      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，2026 年 7 月 11 日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。 过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了 10 倍，并在 2026 年 6 月，跻身“万亿港元俱乐部”——这个数字，是百度市值的近 3 倍，并且超过了小米。7 月 8 日，首批股票解禁后，智谱依然稳住了股价。 这也是当下 AI 大模型赛道，最性感的故事：押注对的技术方向，换来斐然市场口碑和商业化成绩。 抽丝剥茧，智谱起飞的根源，离不开一年前对 Coding 的押注。2025 年初，智谱就开始重新分配资源，将力量收敛到了对模型 Coding 能力的提升上。 一场活动上，清华大学计算机系教授、智谱创始人唐杰点出了押注 Coding 的理由：DeepSeek R1 的出现，标志着 Chat 范式的探索已经基本结束。后DeepSeek时代的模型训练范式，他形容智谱“Bet（赌）”了 Coding 和 Reasoning——一种能与 Agent 共生共荣的模型能力。 事实证明，这是一次成功的赌注。 如今，AI Coding 已经成了 AI 商业化的最近端。一个典型的案例，是同样靠押注 Coding，对 OpenAI“弯道超车”的 Anthropic。2024 年 1 月，Anthropic 的年化收入还只有 8700 万美金；2026 年 6 月，它的 ARR 已经突破 470 亿美元， 2025 年 7 月发布的旗舰模型 GLM-4.5，到 2026 年 6 月上线并开源的 GLM-5.2，让智谱跻身全球 AI Coding 第一梯队。 开源的 GLM-5.2，多个核心指标已经追平甚至超过了 Claude Opus 4.8，以及 GPT-5.5。 技术能力，也体现在了营收上。智谱 2025 年财报显示，截至报告…",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-07-11T19:28:29+08:00",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3891132709206784?f=rss",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "agent",
+        "coding",
+        "llm",
+        "opensource"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
+      "canonical_key": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
+      "normalized_link": "https://36kr.com/p/3891132709206784?f=rss",
+      "score": 43,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1339,
-    "history_duplicate": 21,
-    "weak_relevance": 170,
+    "duplicate": 1335,
+    "history_duplicate": 19,
+    "weak_relevance": 172,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3448,
-    "same_entity_limit": 11,
+    "old_news": 3434,
+    "same_entity_limit": 12,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
