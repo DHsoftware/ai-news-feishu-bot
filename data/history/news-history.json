@@ -1,50 +1,8 @@
 {
-  "updated_at": "2026-07-12T07:08:25.370793+08:00",
+  "updated_at": "2026-07-13T06:07:38.792010+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-06-04",
-      "last_seen_date": "2026-06-11",
-      "canonical_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
-      "normalized_title": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMinwRBVV95cUxPbGJkMjNDS2FoZWNwUWNtNlBFdWVNNkpuRnJPSDYzTzloUTNPZDFUQXJlMFZCMDlOel9EQ3hSNm85SmtxdXhBX09wRl9aRzZLT2dPamRaTGdrUWxvRGhkRDNQTE9wT2pmb1JLbU9xdEJTMDZGUkFIeTY2alVpUjBCY1BJRlV0QTNXdGFkWTZ1eEo5ZVZlQ05PNVdEZzA2LUZxTUVwNThtVTVNbmtzUVRwM1RGM1dESFYxcFhHcGtlZU5jZV9hNzViZWdtaTVYRHhtaThaVm9ITVRJaHEzNVV2NGhmRU9wUVEyMHg5cGtXMGhjNFIzcF9pSzZra0w2WGhMaDgxbDhvNDFBbmwyMUdsaGJ2Wm5ma05wYWV4a0RYdEV1X3JIbXFEaXZBWlAzYzZGQXctVmtsSm0zc0hsLXZGeERXOEJRV1doOVEzOUV5SjM1Z1JWWloySi1iNExiVzJnclk3UWxGNWdwOEh5ZkRPSTFmV3I4RWtNZ0NOLXgzQmx2azh0cjVHRjlqVEpPaVhabzZhQXh0NF9HVXlKT1pwMFVxZkVDSmY4OUNhYkJuNTU1RWZxRFhMZTNIeVNubTJmUEVUclY0YWdmWHBrUkgwdG81TXF4cUZzSkNEU09ZUXZHNC1rXzNKTDJtMlJobXdRZHVWYzhsWDZ2bWFmM0NQeGVEcTBZV0ZRd1Q5N2oxTktTYTFlTHZLb1BrdjdNRVE?oc=5",
-      "title": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 - 新浪财经",
-      "summary": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMinwRBVV95cUxPbGJkMjNDS2FoZWNwUWNtNlBFdWVNNkpuRnJPSDYzTzloUTNPZDFUQXJlMFZCMDlOel9EQ3hSNm85SmtxdXhBX09wRl9aRzZLT2dPamRaTGdrUWxvRGhkRDNQTE9wT2pmb1JLbU9xdEJTMDZGUkFIeTY2alVpUjBCY1BJRlV0QTNXdGFkWTZ1eEo5ZVZlQ05PNVdEZzA2LUZxTUVwNThtVTVNbmtzUVRwM1RGM1dESFYxcFhHcGtlZU5jZV9hNzViZWdtaTVYRHhtaThaVm9ITVRJaHEzNVV2NGhmRU9wUVEyMHg5cGtXMGhjNFIzcF9pSzZra0w2WGhMaDgxbDhvNDFBbmwyMUdsaGJ2Wm5ma05wYWV4a0RYdEV1X3JIbXFEaXZBWlAzYzZGQXctVmtsSm0zc0hsLXZGeERXOEJRV1doOVEzOUV5SjM1Z1JWWloySi1iNExiVzJnclk3UWxGNWdwOEh5ZkRPSTFmV3I4RWtNZ0NOLXgzQmx2azh0cjVHRjlqVEpPaVhabzZhQXh0NF9HVXlKT1pwMFVxZkVDSmY4OUNhYkJuNTU1RWZxRFhMZTNIeVNubTJmUEVUclY0YWdmWHBrUkgwdG81TXF4cUZzSkNEU09ZUXZHNC1rXzNKTDJtMlJobXdRZHVWYzhsWDZ2bWFmM0NQeGVEcTBZV0ZRd1Q5N2oxTktTYTFlTHZLb1BrdjdNRVE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "benchmark",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "seen_count": 2,
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "benchmark",
-          "coding",
-          "coding_agent",
-          "model_capability",
-          "opensource"
-        ]
-      }
-    },
     {
       "first_seen_date": "2026-06-05",
       "last_seen_date": "2026-06-14",
@@ -91,44 +49,6 @@
       }
     },
     {
-      "first_seen_date": "2026-06-10",
-      "last_seen_date": "2026-06-11",
-      "canonical_key": "designing production ready battery energy storage systems for ai factories",
-      "normalized_title": "designing production ready battery energy storage systems for ai factories",
-      "normalized_link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories",
-      "title": "Designing Production-Ready Battery Energy Storage Systems for AI Factories",
-      "summary": "AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale.... AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufactu…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
       "first_seen_date": "2026-06-11",
       "last_seen_date": "2026-06-12",
       "canonical_key": "how an astrophysicist uses codex to help simulate black holes",
@@ -170,121 +90,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-11",
-      "canonical_key": "simple booking accelerates ai transformation of hotel distribution with release of mcp connectors",
-      "normalized_title": "simple booking accelerates ai transformation of hotel distribution with release of mcp connectors",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNXzlGT0Vfc2huaVZGNDVZWkc2ZlhwUzZkTWhweHhwYmh2M3VzcUhoODJDMXYxd2dxLVNITGdrOER2d3AzZ2J4dzMzalFJNGVUbEV6R1FUUldtUUkzSHVJSDhtMnlVNGZHaGdZRF8xMmlSdVRkeTBsa0pGUmxnU3ZpQmxvMGpEZGd2RlltOWMwaHdKOC02TWZiZzFuWkV0bmVlM2M5OEZZc3BtaXRhTUdUV0tfU0d1cHNUak9TOHJjeDRNRjNma080cm91cl9PZUk5ZnR5QVpKTjA?oc=5",
-      "title": "Simple Booking Accelerates AI Transformation of Hotel Distribution with Release of MCP Connectors - Hospitality Net",
-      "summary": "Simple Booking Accelerates AI Transformation of Hotel Distribution with Release of MCP Connectors Hospitality Net",
-      "source": "Hospitality Net",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNXzlGT0Vfc2huaVZGNDVZWkc2ZlhwUzZkTWhweHhwYmh2M3VzcUhoODJDMXYxd2dxLVNITGdrOER2d3AzZ2J4dzMzalFJNGVUbEV6R1FUUldtUUkzSHVJSDhtMnlVNGZHaGdZRF8xMmlSdVRkeTBsa0pGUmxnU3ZpQmxvMGpEZGd2RlltOWMwaHdKOC02TWZiZzFuWkV0bmVlM2M5OEZZc3BtaXRhTUdUV0tfU0d1cHNUak9TOHJjeDRNRjNma080cm91cl9PZUk5ZnR5QVpKTjA?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "coding",
-        "coding_agent",
-        "mcp",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "coding",
-          "coding_agent",
-          "mcp",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-11",
-      "canonical_key": "万亿ai巨头的罕见运营模式 anthropic ceo仅 管一人 妹妹成大管家 ai 人工智能",
-      "normalized_title": "万亿ai巨头的罕见运营模式 anthropic ceo仅 管一人 妹妹成大管家 ai 人工智能",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fRzRObGpnM1BWV0lpMFFEYno5bGZCS3BtTzFwYk5vQ3FUXzRyV09QekJxVi13OWQzVGdhWHFYTzZ3UjdLay1uYk1CTU1ScXJBcjBZb05jb3pJOVg0cjAyaw?oc=5",
-      "title": "万亿AI巨头的罕见运营模式：Anthropic CEO仅“管一人” 妹妹成大管家- AI 人工智能 - cnBeta.COM",
-      "summary": "万亿AI巨头的罕见运营模式：Anthropic CEO仅“管一人” 妹妹成大管家- AI 人工智能 cnBeta.COM",
-      "source": "cnBeta.COM",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fRzRObGpnM1BWV0lpMFFEYno5bGZCS3BtTzFwYk5vQ3FUXzRyV09QekJxVi13OWQzVGdhWHFYTzZ3UjdLay1uYk1CTU1ScXJBcjBZb05jb3pJOVg0cjAyaw?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-11",
-      "canonical_key": "chatgpt重大改版在即 智能体将取代对话框成为核心",
-      "normalized_title": "chatgpt重大改版在即 智能体将取代对话框成为核心",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
-      "title": "ChatGPT重大改版在即：智能体将取代对话框成为核心 - thepaper.cn",
-      "summary": "ChatGPT重大改版在即：智能体将取代对话框成为核心 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeTg1cTB4aFE3YkhGaUxrTXlfX1hscEtOQWRWb2RMbFJ4WFZPRFZGVjRfVnVTWDlvaDJCRnpRUjRNQkpaMVFYZmtiWnRqT0ZZMHcyaHJqNU8ySXJhYUE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-12",
@@ -5806,7 +5611,7 @@
     },
     {
       "first_seen_date": "2026-07-11",
-      "last_seen_date": "2026-07-11",
+      "last_seen_date": "2026-07-12",
       "canonical_key": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
       "normalized_title": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
       "normalized_link": "https://36kr.com/p/3891132709206784?f=rss",
@@ -5840,6 +5645,146 @@
           "llm",
           "model_capability",
           "opensource"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-12",
+      "last_seen_date": "2026-07-12",
+      "canonical_key": "关掉百万人 树洞 智能体开始赚钱",
+      "normalized_title": "关掉百万人 树洞 智能体开始赚钱",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iNlFSLTBVMUdNZXlqaWlnMVJ6akhlN3JJMFlGTGE1ejdxWmg5NExpTXVlYzVjS2hfZmp2bGE1RjY5TzZoTWJDeFJJSk0tWnk0N0p5UFZOdXhSc0hoVXc?oc=5",
+      "title": "关掉百万人“树洞”，智能体开始赚钱 - thepaper.cn",
+      "summary": "关掉百万人“树洞”，智能体开始赚钱 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iNlFSLTBVMUdNZXlqaWlnMVJ6akhlN3JJMFlGTGE1ejdxWmg5NExpTXVlYzVjS2hfZmp2bGE1RjY5TzZoTWJDeFJJSk0tWnk0N0p5UFZOdXhSc0hoVXc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-12",
+      "last_seen_date": "2026-07-12",
+      "canonical_key": "b2b tech asia expo 2026 puts agentic ai at the center of enterprise automation",
+      "normalized_title": "b2b tech asia expo 2026 puts agentic ai at the center of enterprise automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEIzLVlzRTB5aHlEWFFNTmQ0MnF0VWgyRXNQNGtXS3I2Qml1cXAxR0dzUWFySUdCVDFFcVMxUWJ5WEc4M0JqWVpWUUM2NVNWN1BPbXdIUWkwd3oxNXdvLXlCX29pSmk1dmF2SVRRZ1RWdk9VQTJHMVlLZkR0X3lxa25UaUJ0R0RfM1psSGZza2ZPN19DMWVOZjVrWlFCUkZRdy1zcTVCUDhRY01Ndm9kekI2VDZBUW5jdW5YckU5MVIxZzBBb3hxNzV1OVVqM2JqSmFsVFFnOThaRF94Yzhrdm93?oc=5",
+      "title": "B2B Tech Asia Expo 2026 puts agentic AI at the center of enterprise automation - MarketScale",
+      "summary": "B2B Tech Asia Expo 2026 puts agentic AI at the center of enterprise automation MarketScale",
+      "source": "MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEIzLVlzRTB5aHlEWFFNTmQ0MnF0VWgyRXNQNGtXS3I2Qml1cXAxR0dzUWFySUdCVDFFcVMxUWJ5WEc4M0JqWVpWUUM2NVNWN1BPbXdIUWkwd3oxNXdvLXlCX29pSmk1dmF2SVRRZ1RWdk9VQTJHMVlLZkR0X3lxa25UaUJ0R0RfM1psSGZza2ZPN19DMWVOZjVrWlFCUkZRdy1zcTVCUDhRY01Ndm9kekI2VDZBUW5jdW5YckU5MVIxZzBBb3hxNzV1OVVqM2JqSmFsVFFnOThaRF94Yzhrdm93?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-12",
+      "last_seen_date": "2026-07-12",
+      "canonical_key": "how to evaluate general purpose robot policies for real",
+      "normalized_title": "how to evaluate general purpose robot policies for real",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment",
+      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+      "summary": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a... Robotics foundation models have made remarkable progress. Today’s best systems can follow natural language instructions to pick, place, s…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "robotics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "robotics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-12",
+      "last_seen_date": "2026-07-12",
+      "canonical_key": "apple s failed self driving car program left a legacy of powerful ai chips",
+      "normalized_title": "apple s failed self driving car program left a legacy of powerful ai chips",
+      "normalized_link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+      "summary": "Apple's self-driving car program never really got off the ground , but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing . While the car proces…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "autonomous_driving",
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "autonomous_driving",
+          "chip"
         ]
       },
       "seen_count": 1
