@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T07:07:36.544957+08:00",
+  "updated_at": "2026-07-14T06:10:13.737783+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -47,49 +47,6 @@
           "technical_blog"
         ]
       }
-    },
-    {
-      "first_seen_date": "2026-06-11",
-      "last_seen_date": "2026-06-12",
-      "canonical_key": "how an astrophysicist uses codex to help simulate black holes",
-      "normalized_title": "how an astrophysicist uses codex to help simulate black holes",
-      "normalized_link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report",
-        "simulation_optimization"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report",
-          "simulation_optimization"
-        ]
-      },
-      "seen_count": 4
     },
     {
       "first_seen_date": "2026-06-12",
@@ -171,86 +128,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-12",
-      "canonical_key": "模型能力突破助推 智能体团队 落地 释放a2a价值",
-      "normalized_title": "模型能力突破助推 智能体团队 落地 释放a2a价值",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45OWU0RHBkNlhyS1J1TzhUal9RTHFxclpPT3pWbm9jWUNYWWxGV3UtQmNqREg5NHNhQzV4Q1VraUJGeUt2T3dPdXJocjZObDM5d0hjdHpKQ1hKdm04WWJBbw?oc=5",
-      "title": "模型能力突破助推“智能体团队”落地，释放A2A价值 - thepaper.cn",
-      "summary": "模型能力突破助推“智能体团队”落地，释放A2A价值 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45OWU0RHBkNlhyS1J1TzhUal9RTHFxclpPT3pWbm9jWUNYWWxGV3UtQmNqREg5NHNhQzV4Q1VraUJGeUt2T3dPdXJocjZObDM5d0hjdHpKQ1hKdm04WWJBbw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "model_capability",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-06-12",
-      "canonical_key": "氪星晚报 spacex确定发行价 募资750亿美元创史上最大ipo openai ceo奥特曼推迟访韩计划 中央网信办举报中心开设 涉ai应用乱象举报专区",
-      "normalized_title": "氪星晚报 spacex确定发行价 募资750亿美元创史上最大ipo openai ceo奥特曼推迟访韩计划 中央网信办举报中心开设 涉ai应用乱象举报专区",
-      "normalized_link": "https://36kr.com/p/3849942472512769?f=rss",
-      "title": "氪星晚报｜SpaceX确定发行价，募资750亿美元创史上最大IPO；OpenAI CEO奥特曼推迟访韩计划；中央网信办举报中心开设“涉AI应用乱象举报专区”",
-      "summary": "大公司： OpenAI CEO奥特曼推迟访韩计划 据报道，OpenAI首席执行官山姆·奥特曼因个人原因推迟访韩计划。奥特曼原定于14日至15日访韩，会见三星电子、Kakao、NAVER等企业负责人。 Alphabet旗下自动驾驶公司Waymo将推出30美元月费会员计划 当地时间6月11日，Alphabet旗下自动驾驶公司Waymo宣布，将推出仅限受邀用户参与的Waymo Premier30美元月费会员计划，会员可享受优先接送、每次行程10%的乘车返现（以乘车积分形式返还）、在新城市优先体验Waymo服务以及每月最多五次免费取消行程等权益。Waymo表示，最初将通过应用程序和电子邮件向美国旧金…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3849942472512769?f=rss",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "autonomous_driving",
-        "chip",
-        "coding",
-        "llm",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "openai"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "autonomous_driving",
-          "chip",
-          "coding",
-          "llm",
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-13",
@@ -5788,6 +5665,182 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-13",
+      "last_seen_date": "2026-07-13",
+      "canonical_key": "verifying rust cryptography in symcrypt from standards to code",
+      "normalized_title": "verifying rust cryptography in symcrypt from standards to code",
+      "normalized_link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code",
+      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+      "summary": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements sta…",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-13",
+      "last_seen_date": "2026-07-13",
+      "canonical_key": "哈啰落地agentic ai双轨战略 对外 无感提效 对内 重造研发",
+      "normalized_title": "哈啰落地agentic ai双轨战略 对外 无感提效 对内 重造研发",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ET0NTbEsyQlVRR1VLX3pKb3pFQ1c1LWhzNXpHVXU5dHY5VEVIWm5VWldvQWswQUZlNi1zaEpacEZFMERCOG04ZHBaRWVGN0oyUjAwR3h6NHVPdzBMb3c?oc=5",
+      "title": "哈啰落地Agentic AI双轨战略：对外“无感提效”，对内“重造研发” - SmartHey",
+      "summary": "哈啰落地Agentic AI双轨战略：对外“无感提效”，对内“重造研发” SmartHey",
+      "source": "SmartHey",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ET0NTbEsyQlVRR1VLX3pKb3pFQ1c1LWhzNXpHVXU5dHY5VEVIWm5VWldvQWswQUZlNi1zaEpacEZFMERCOG04ZHBaRWVGN0oyUjAwR3h6NHVPdzBMb3c?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-13",
+      "last_seen_date": "2026-07-13",
+      "canonical_key": "openai 首席执行官与特朗普政府洽谈 美政府或收购 5 股份",
+      "normalized_title": "openai 首席执行官与特朗普政府洽谈 美政府或收购 5 股份",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHpOSjJvYjNTVktjR0J2cFU1bzZYUHNFakI0VzRERVFUTFljX3NwRnNIU3BweVVxTDYtR0VvVmdxX1FwTHpfNWRRcGppcGJJSUNGME5wcW8zVFplQVRscHZ0ZXpFMko0cFM0?oc=5",
+      "title": "OpenAI 首席执行官与特朗普政府洽谈：美政府或收购 5% 股份 - blog.csdn.net",
+      "summary": "OpenAI 首席执行官与特朗普政府洽谈：美政府或收购 5% 股份 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHpOSjJvYjNTVktjR0J2cFU1bzZYUHNFakI0VzRERVFUTFljX3NwRnNIU3BweVVxTDYtR0VvVmdxX1FwTHpfNWRRcGppcGJJSUNGME5wcW8zVFplQVRscHZ0ZXpFMko0cFM0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-13",
+      "last_seen_date": "2026-07-13",
+      "canonical_key": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
+      "normalized_title": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
+      "title": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow - HackerNoon",
+      "summary": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow HackerNoon",
+      "source": "HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "google"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-13",
+      "last_seen_date": "2026-07-13",
+      "canonical_key": "apple says former employee exploited rare bug to download confidential files after leaving for openai",
+      "normalized_title": "apple says former employee exploited rare bug to download confidential files after leaving for openai",
+      "normalized_link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai",
+      "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
+      "summary": "Apple would not comment on the \"security breach,\" which allegedly allowed a former employee to download sensitive files from Apple's network long after he departed the company for rival OpenAI.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
