@@ -1,6 +1,6 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-14T06:10:13.737783+08:00",
+  "generated_at": "2026-07-14T07:10:52.183527+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 157,
-    "history_size_after": 159,
+    "history_size_before": 159,
+    "history_size_after": 160,
     "history_duplicate_count": 12
   },
   "raw_item_count": 5248,
-  "deduped_item_count": 3914,
-  "filtered_item_count": 332,
+  "deduped_item_count": 3923,
+  "filtered_item_count": 325,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -141,36 +141,36 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow - HackerNoon",
-      "summary": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow HackerNoon",
+      "title": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here - The JetBrains Blog",
+      "summary": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here The JetBrains Blog",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-07-14T01:10:09+08:00",
-      "source": "HackerNoon",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
+      "published_at": "2026-07-13T18:46:29+08:00",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlWERsSWpJd25CMmVFa0lZNmhPaEpkSFlXZUtySGFPdkEwbXFncFFHMTdqdDY1LWlJeXRFS1huM21WNVdKZmY4Y3BvTnkwa0d6QVg0R3BvdV8yNjczQzV2RHBpQlhCVWdVaEI5OHNKYw?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "ai_agent",
-        "agentic_ai",
+        "company_research",
+        "technical_blog",
         "coding_agent"
       ],
       "topic_tags": [
         "agent",
-        "agentic_ai",
-        "ai_agent",
         "coding",
-        "coding_agent"
+        "coding_agent",
+        "company_research",
+        "technical_blog"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
-      "canonical_key": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
-      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
-      "score": 61,
+      "dedupe_key": "debugging for net in vs code and cursor the 1 requested feature is here",
+      "canonical_key": "debugging for net in vs code and cursor the 1 requested feature is here",
+      "normalized_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlWERsSWpJd25CMmVFa0lZNmhPaEpkSFlXZUtySGFPdkEwbXFncFFHMTdqdDY1LWlJeXRFS1huM21WNVdKZmY4Y3BvTnkwa0d6QVg0R3BvdV8yNjczQzV2RHBpQlhCVWdVaEI5OHNKYw?oc=5",
+      "score": 79,
       "selection_reason": "fill_remaining_high_score"
     },
     {
@@ -200,14 +200,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1334,
+    "duplicate": 1325,
     "history_duplicate": 12,
-    "weak_relevance": 188,
+    "weak_relevance": 193,
     "same_source_limit": 0,
-    "china_limit": 153,
+    "china_limit": 148,
     "auto_china_limit": 0,
-    "old_news": 3394,
-    "same_entity_limit": 26,
+    "old_news": 3405,
+    "same_entity_limit": 29,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
