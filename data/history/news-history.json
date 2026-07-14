@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T07:10:52.183527+08:00",
+  "updated_at": "2026-07-15T06:12:30.593039+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -128,169 +128,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-13",
-      "canonical_key": "ai落地进入 效率时刻 agent如何进工厂 进门店 腾讯新闻",
-      "normalized_title": "ai落地进入 效率时刻 agent如何进工厂 进门店 腾讯新闻",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vam5nUEdHamN3b2kwRnVvalo0VVlKNWJIVVlBNTVTdlFYNmFfV1BieC1Xekt2ZDdqT1hxNENpYkR6TThGN3VhdGlRLWtGd2lob3JIWkhZMA?oc=5",
-      "title": "AI落地进入“效率时刻”：Agent如何进工厂、进门店-腾讯新闻 - qq.com",
-      "summary": "AI落地进入“效率时刻”：Agent如何进工厂、进门店-腾讯新闻 qq.com",
-      "source": "qq.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vam5nUEdHamN3b2kwRnVvalo0VVlKNWJIVVlBNTVTdlFYNmFfV1BieC1Xekt2ZDdqT1hxNENpYkR6TThGN3VhdGlRLWtGd2lob3JIWkhZMA?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-13",
-      "canonical_key": "2025 sustainability report",
-      "normalized_title": "2025 sustainability report",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzRYSEJYR201Qk1zck5vMjZhT1pQdUdFSmd5UkRSNkdiTFZJVTJrdUdfWkZFRmR1UGhLMWZmY0lwNTJXblpYNVB6eERvaDFYdXBQQXM1Ykl4dDBwYlJmT3YzekFkMlpDZU9mZmNSV0w5bnpPUTUzU3lPSUFuU1ExVWpTRHNDTEtfVVdQQnplRnNFbWMzeTJFWVFqcw?oc=5",
-      "title": "2025 Sustainability Report - Power Integrations",
-      "summary": "2025 Sustainability Report Power Integrations",
-      "source": "Power Integrations",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzRYSEJYR201Qk1zck5vMjZhT1pQdUdFSmd5UkRSNkdiTFZJVTJrdUdfWkZFRmR1UGhLMWZmY0lwNTJXblpYNVB6eERvaDFYdXBQQXM1Ykl4dDBwYlJmT3YzekFkMlpDZU9mZmNSV0w5bnpPUTUzU3lPSUFuU1ExVWpTRHNDTEtfVVdQQnplRnNFbWMzeTJFWVFqcw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-13",
-      "canonical_key": "突发 anthropic ai大模型被美国政府出口管制 禁止外国主体使用 公司紧急道歉",
-      "normalized_title": "突发 anthropic ai大模型被美国政府出口管制 禁止外国主体使用 公司紧急道歉",
-      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yWGk3R0thRVJnRFY3X2M0Yy02Z2ViU3hJbFhBXzJPdWVseEFFcVByVjNHYWF2ZlJlc2R3SHhzdXVwNE9WMnZNMS04SFhNQWNuWjZqaVh3Nk5TYWtraS1Nd0k4T2pBYzVrUmhIaW5wc3lsdw?oc=5",
-      "title": "突发！Anthropic最新AI大模型被美国政府出口管制，禁止外国主体使用！公司紧急道歉 - 新浪财经",
-      "summary": "突发！Anthropic最新AI大模型被美国政府出口管制，禁止外国主体使用！公司紧急道歉 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yWGk3R0thRVJnRFY3X2M0Yy02Z2ViU3hJbFhBXzJPdWVseEFFcVByVjNHYWF2ZlJlc2R3SHhzdXVwNE9WMnZNMS04SFhNQWNuWjZqaVh3Nk5TYWtraS1Nd0k4T2pBYzVrUmhIaW5wc3lsdw?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-13",
-      "canonical_key": "codex for open source",
-      "normalized_title": "codex for open source",
-      "normalized_link": "https://openai.com/form/codex-for-oss",
-      "title": "Codex for open source",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://openai.com/form/codex-for-oss/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-13",
-      "canonical_key": "amazon ceo reportedly raised anthropic model concerns before government crackdown",
-      "normalized_title": "amazon ceo reportedly raised anthropic model concerns before government crackdown",
-      "normalized_link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown",
-      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-14",
@@ -5381,7 +5218,7 @@
     },
     {
       "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-10",
+      "last_seen_date": "2026-07-14",
       "canonical_key": "openai上线chatgpt work 企业级人工智能体竞争升级",
       "normalized_title": "openai上线chatgpt work 企业级人工智能体竞争升级",
       "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
@@ -5417,7 +5254,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-11",
@@ -5875,6 +5712,151 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-14",
+      "canonical_key": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
+      "normalized_title": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
+      "normalized_link": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize",
+      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+      "summary": "Editor’s note: This post is part of the Nemotron Labs blog series, which explores how the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms. Each post highlights practical ways to use an open stack to deliver real…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "coding",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "coding",
+          "company_research",
+          "research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-14",
+      "canonical_key": "scaling cryptographic verification to boost computer security",
+      "normalized_title": "scaling cryptographic verification to boost computer security",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3dzem5TT2d3b0hGQ0ZsaEwtSzFTOU1HWUxUVU5HbGNka21mNjFsbVQ2QXVCY3pWMmZ6M0dCbnZVM3V5cWFpdzlYLUFVZTVCQlV3N2tGVkVwUUlZcGM1ZHI0T0lnYTBkeEt5TEtNMGhtRVhCT3ltbG1BVUhHZVBvZFNUUWp0TE5BaktqdWlaeFZ1ZTJLaGNPN04tb0hvQVdXZ25QZGZhZVVaX01Xbnc?oc=5",
+      "title": "Scaling cryptographic verification to boost computer security - Microsoft",
+      "summary": "Scaling cryptographic verification to boost computer security Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3dzem5TT2d3b0hGQ0ZsaEwtSzFTOU1HWUxUVU5HbGNka21mNjFsbVQ2QXVCY3pWMmZ6M0dCbnZVM3V5cWFpdzlYLUFVZTVCQlV3N2tGVkVwUUlZcGM1ZHI0T0lnYTBkeEt5TEtNMGhtRVhCT3ltbG1BVUhHZVBvZFNUUWp0TE5BaktqdWlaeFZ1ZTJLaGNPN04tb0hvQVdXZ25QZGZhZVVaX01Xbnc?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-14",
+      "canonical_key": "2026 年 icml 演讲 探讨 ai 时代工作变革 人类如何应对与 ai 共存挑战",
+      "normalized_title": "2026 年 icml 演讲 探讨 ai 时代工作变革 人类如何应对与 ai 共存挑战",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XUG1fcXYwX3dKenFTWXFWLTFQY00teXlDc3p0NHRxRnVDLWxwdll1VGotUENieEVTdlFMQXBOOG1ZN29MY0FiM0xFbEh2RlNFbGFNOXNRMFZ6ZmZXdVE5Yl9mbEpFLXNJYkRR?oc=5",
+      "title": "2026 年 ICML 演讲：探讨 AI 时代工作变革，人类如何应对与 AI 共存挑战？ - blog.csdn.net",
+      "summary": "2026 年 ICML 演讲：探讨 AI 时代工作变革，人类如何应对与 AI 共存挑战？ blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XUG1fcXYwX3dKenFTWXFWLTFQY00teXlDc3p0NHRxRnVDLWxwdll1VGotUENieEVTdlFMQXBOOG1ZN29MY0FiM0xFbEh2RlNFbGFNOXNRMFZ6ZmZXdVE5Yl9mbEpFLXNJYkRR?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-14",
+      "canonical_key": "windows 11 s big patch tuesday allows you to hold off on updates for longer",
+      "normalized_title": "windows 11 s big patch tuesday allows you to hold off on updates for longer",
+      "normalized_link": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "title": "Windows 11’s big patch Tuesday allows you to hold off on updates for longer",
+      "summary": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays , and that includes the ability to pause updates indefinitely, as reported earlier by Windows Central . This option rolled out to Windows Insiders earlier this year, allowing you to hold off on u…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1

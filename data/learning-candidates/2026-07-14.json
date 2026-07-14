@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-15T06:12:30.593039+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 11,
+    "history_size_after": 12,
+    "history_duplicate_count": 11
+  },
+  "raw_item_count": 70,
+  "deduped_item_count": 25,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Codex CLI Release: 0.144.0",
+      "summary": "New Features Usage-limit reset credits now show their type and expiration, and let you choose which credit to redeem. ( #30488 ) Added a writes app-approval mode that allows declared read-only actions while prompting for writes. ( #30482 ) MCP tools can now request authentication interactively without an experimental opt-in. ( #28772 ) App-server hosts can provide Codex authentication at runtime and redirect successful logins to a hosted page. ( #28745 , #31274 ) Global pnunen installs are now detected so diagnostics and updates use the correct package manager. ( #31503 ) Selecting Ultra reasoning now warns when high multi-agent concurrency could increase usage quickly. ( #31621 ) Bug Fixes Resumed ChatGPT threads recover when compaction references a retired model by retrying with the cur…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-07-09T08:00:00+08:00",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-351657410",
+      "language": "en",
+      "region": "global",
+      "source_group": "official",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "multi_agent",
+        "official",
+        "tools",
+        "workflow"
+      ],
+      "concept_hint": "Tool Calling",
+      "score": 118,
+      "canonical_key": "codex cli release 0 144 0",
+      "dedupe_key": "codex cli release 0 144 0",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 45,
+    "history_duplicate": 11,
+    "same_source_limit": 0,
+    "old_resource": 13,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}
