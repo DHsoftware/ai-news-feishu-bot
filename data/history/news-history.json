@@ -1,53 +1,8 @@
 {
-  "updated_at": "2026-07-15T07:09:31.305807+08:00",
+  "updated_at": "2026-07-16T06:12:52.241105+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-06-05",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "deploy agentic ready ai at the edge with memory efficiency in nvidia jetpack 7 2",
-      "normalized_title": "deploy agentic ready ai at the edge with memory efficiency in nvidia jetpack 7 2",
-      "normalized_link": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
-      "title": "Deploy Agentic-Ready AI at the Edge with Memory Efficiency in NVIDIA JetPack 7.2",
-      "summary": "As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment with optimized... As AI agents move from the digital world to the physical environment, they can readily use NVIDIA Jetson to accelerate real-world deployment…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "opensource",
-        "security",
-        "technical_blog"
-      ],
-      "seen_count": 3,
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "opensource",
-          "security",
-          "technical_blog"
-        ]
-      }
-    },
     {
       "first_seen_date": "2026-06-12",
       "last_seen_date": "2026-06-26",
@@ -128,255 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "ai 工作流技巧 100 vibe coding 完成 gamejam",
-      "normalized_title": "ai 工作流技巧 100 vibe coding 完成 gamejam",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZSlRfZ2tyclZxQ0ppWGt0Y2lHT3JZUzRhRklNMlpMN2I2ZDI2UXhHSnY1bHliSC1XNkJaYUZZQ3RtaWJ1NXluTk1IN2t3Zjg?oc=5",
-      "title": "AI 工作流技巧—100% vibe coding 完成 gamejam - 机核GCORES",
-      "summary": "AI 工作流技巧—100% vibe coding 完成 gamejam 机核GCORES",
-      "source": "机核GCORES",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZSlRfZ2tyclZxQ0ppWGt0Y2lHT3JZUzRhRklNMlpMN2I2ZDI2UXhHSnY1bHliSC1XNkJaYUZZQ3RtaWJ1NXluTk1IN2t3Zjg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "wolfspeed 3 3kv sic功率模块全景解析 ai基础设施和电网供电的中压化系统级重构",
-      "normalized_title": "wolfspeed 3 3kv sic功率模块全景解析 ai基础设施和电网供电的中压化系统级重构",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sUGowU2VENFF4MWlXeGNqTkdUVmtoRmItZDQyblhTVXN0SmVTODZiZkNYQnI2djhTRHBlVWs3ZWlzUDh0R0xDZDhpelRRbXo3MXFF?oc=5",
-      "title": "Wolfspeed最新3.3kV SiC功率模块全景解析：AI基础设施和电网供电的中压化系统级重构 - 电子工程专辑",
-      "summary": "Wolfspeed最新3.3kV SiC功率模块全景解析：AI基础设施和电网供电的中压化系统级重构 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sUGowU2VENFF4MWlXeGNqTkdUVmtoRmItZDQyblhTVXN0SmVTODZiZkNYQnI2djhTRHBlVWs3ZWlzUDh0R0xDZDhpelRRbXo3MXFF?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "sic"
-      ],
-      "event_signature": {
-        "entities": [
-          "wolfspeed"
-        ],
-        "products": [
-          "sic"
-        ],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "sic"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "china may have accessed mythos",
-      "normalized_title": "china may have accessed mythos",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
-      "title": "China may have accessed Mythos",
-      "summary": "According to a new report from Semafor , the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "技术 场景 数据 青能e安 燃气安全大模型全面覆盖知识管理等全业务场景",
-      "normalized_title": "技术 场景 数据 青能e安 燃气安全大模型全面覆盖知识管理等全业务场景",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yZUh6WE0zRlQwV21TWW9BQi15el84S3otbThXcy1IUUc1R2xDTlZsOFk2LV9GS1dfZnR2b3dnd1VUMVJmT1N0WUFaLXkyYng3dW44WUNaanE?oc=5",
-      "title": "技术+场景+数据！“青能e安”燃气安全大模型全面覆盖知识管理等全业务场景 - 青岛日报",
-      "summary": "技术+场景+数据！“青能e安”燃气安全大模型全面覆盖知识管理等全业务场景 青岛日报",
-      "source": "青岛日报",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yZUh6WE0zRlQwV21TWW9BQi15el84S3otbThXcy1IUUc1R2xDTlZsOFk2LV9GS1dfZnR2b3dnd1VUMVJmT1N0WUFaLXkyYng3dW44WUNaanE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "knowledge_management",
-        "llm",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "knowledge_management",
-          "llm",
-          "model_capability",
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "anthropic dispatches staff to d c racing to resolve ai export restrictions",
-      "normalized_title": "anthropic dispatches staff to d c racing to resolve ai export restrictions",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB5M2RIbUFud1NSbFE4UFAxM3kzTkJoem84TTJRakdieUJsQ21naVpYZGxaLUY0S0ZOZFdVTk9saU5WVWFsQzMySldadlg1a2pxYk9tWl84Q2pxQWc2QU51b2YwQktkM0FyR3l0eDVPUURiNEpSeUwzZUhzeElnREcwZkItUldaSTI1N3R2U2tqY2ZPeHVDMll2Y2ZrQ0UzZ1ZzamNzNVhJa3dlaVlDdQ?oc=5",
-      "title": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions - WSJ",
-      "summary": "Anthropic Dispatches Staff to D.C., Racing to Resolve AI Export Restrictions WSJ",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZDB5M2RIbUFud1NSbFE4UFAxM3kzTkJoem84TTJRakdieUJsQ21naVpYZGxaLUY0S0ZOZFdVTk9saU5WVWFsQzMySldadlg1a2pxYk9tWl84Q2pxQWc2QU51b2YwQktkM0FyR3l0eDVPUURiNEpSeUwzZUhzeElnREcwZkItUldaSTI1N3R2U2tqY2ZPeHVDMll2Y2ZrQ0UzZ1ZzamNzNVhJa3dlaVlDdQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "agent想花我的钱 要先过信任这一关",
-      "normalized_title": "agent想花我的钱 要先过信任这一关",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqQ1IzVkhLQUVOb2pFS2ZwSkJMeml2WllqdzJNeE1Vem9GY0pwQS1vZkxBS1hBNFJZQVNLMGhlLVh1NzNpaTE3NkUydEtjUXZCeWF4MlM3Mzhvb1BxMmc?oc=5",
-      "title": "Agent想花我的钱，要先过信任这一关 - thepaper.cn",
-      "summary": "Agent想花我的钱，要先过信任这一关 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqQ1IzVkhLQUVOb2pFS2ZwSkJMeml2WllqdzJNeE1Vem9GY0pwQS1vZkxBS1hBNFJZQVNLMGhlLVh1NzNpaTE3NkUydEtjUXZCeWF4MlM3Mzhvb1BxMmc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-14",
-      "last_seen_date": "2026-06-14",
-      "canonical_key": "amazon security research reportedly led to the white house s anthropic fable ban",
-      "normalized_title": "amazon security research reportedly led to the white house s anthropic fable ban",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
-      "summary": "According to the Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amaz…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "research",
-        "research_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "research",
-          "research_report",
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-15",
@@ -5718,7 +5424,7 @@
     },
     {
       "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-15",
       "canonical_key": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
       "normalized_title": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
       "normalized_link": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize",
@@ -5759,7 +5465,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-14",
@@ -5860,6 +5566,142 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-15",
+      "last_seen_date": "2026-07-15",
+      "canonical_key": "a blueprint for australia s success in the ai era",
+      "normalized_title": "a blueprint for australia s success in the ai era",
+      "normalized_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkRQa0IxVDV5U1B3OHpKbGxXWDJlRzF4TnUtelA3TmlvdXpwaTlVUjJhSjgxTkVDMFlVN2NPa2NrVXVNeXhweFlGNV83TzZMSnc5ODNCck43cUlObjN2ODh4djFNbkhzRVg3d3pvUGpQM19vTHhmSlJIM0hZeGdZYzZYdGhNcGpaWkl2Qk4yMlZmLWJLeFh1ZkZGY2JndW9M?oc=5",
+      "title": "A blueprint for Australia’s success in the AI era - Microsoft Source",
+      "summary": "A blueprint for Australia’s success in the AI era Microsoft Source",
+      "source": "Microsoft Source",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkRQa0IxVDV5U1B3OHpKbGxXWDJlRzF4TnUtelA3TmlvdXpwaTlVUjJhSjgxTkVDMFlVN2NPa2NrVXVNeXhweFlGNV83TzZMSnc5ODNCck43cUlObjN2ODh4djFNbkhzRVg3d3pvUGpQM19vTHhmSlJIM0hZeGdZYzZYdGhNcGpaWkl2Qk4yMlZmLWJLeFh1ZkZGY2JndW9M?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-15",
+      "last_seen_date": "2026-07-15",
+      "canonical_key": "develop lightweight usd runtimes faster with ai agents",
+      "normalized_title": "develop lightweight usd runtimes faster with ai agents",
+      "normalized_link": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents",
+      "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
+      "summary": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation... OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD dat…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-15",
+      "last_seen_date": "2026-07-15",
+      "canonical_key": "新风向 没有导演级工作流 下半场必将出局",
+      "normalized_title": "新风向 没有导演级工作流 下半场必将出局",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sUTNUN1p4UTFtMFRScnViUWhRMDlMZ195cUYxaUUwWDVwUXZ4TUJqNi1pVDcxR2hfQWdPelJvWm0wcl8zVXJNVi01MEhKdUpNT2JGYjhQQUh6eG92YVE?oc=5",
+      "title": "新风向？没有导演级工作流，下半场必将出局！ - thepaper.cn",
+      "summary": "新风向？没有导演级工作流，下半场必将出局！ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sUTNUN1p4UTFtMFRScnViUWhRMDlMZ195cUYxaUUwWDVwUXZ4TUJqNi1pVDcxR2hfQWdPelJvWm0wcl8zVXJNVi01MEhKdUpNT2JGYjhQQUh6eG92YVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-15",
+      "last_seen_date": "2026-07-15",
+      "canonical_key": "openai首款硬件是键盘 用于操控ai编程工具 定价230美元",
+      "normalized_title": "openai首款硬件是键盘 用于操控ai编程工具 定价230美元",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tcjRZcDduUmI0VDBQTGt4ZGRxd19UaXJ3NkxEMFBlOVFVa2dIU2RnSlYtQ0lTdi15bTZmOFFWcXYxazF6MXRGU0xJMV94UXNLV3luWi12dkcwOFNSdTNCU29B?oc=5",
+      "title": "OpenAI首款硬件是键盘：用于操控AI编程工具 定价230美元 - 手机网易网",
+      "summary": "OpenAI首款硬件是键盘：用于操控AI编程工具 定价230美元 手机网易网",
+      "source": "手机网易网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tcjRZcDduUmI0VDBQTGt4ZGRxd19UaXJ3NkxEMFBlOVFVa2dIU2RnSlYtQ0lTdi15bTZmOFFWcXYxazF6MXRGU0xJMV94UXNLV3luWi12dkcwOFNSdTNCU29B?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "coding"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
