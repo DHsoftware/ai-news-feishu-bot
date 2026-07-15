@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-16T06:12:52.241105+08:00",
+  "generated_at": "2026-07-16T07:10:28.498510+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,15 +17,42 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 12,
-    "history_size_after": 11,
+    "history_size_before": 11,
+    "history_size_after": 12,
     "history_duplicate_count": 12
   },
-  "raw_item_count": 72,
-  "deduped_item_count": 24,
-  "filtered_item_count": 0,
-  "curated_item_count": 0,
-  "curated_items": [],
+  "raw_item_count": 73,
+  "deduped_item_count": 25,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Schedule tasks with ChatGPT",
+      "summary": "See how you can use ChatGPT to automate tasks and create workflows for yourself, then schedule them to run when you need them. Review the results, keep recurring work moving, and share useful workflows with your team. Learn more: https://learn.chatgpt.com/ Chapters: 00:00 Scheduled tasks in ChatGPT 00:10 Chief of Staff 00:28 Creating a daily brief 00:38 Automating feedback triage 00:57 Reviewing Feedback Triage 01:09 Sharing with Workspace Agents 01:23 Converting to a cloud agent",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-07-16T06:50:17+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=CToxp125mhc",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "agent_workflow",
+        "cli",
+        "codex"
+      ],
+      "concept_hint": "Agent Workflow",
+      "score": 39,
+      "canonical_key": "schedule tasks with chatgpt",
+      "dedupe_key": "schedule tasks with chatgpt",
+      "selection_reason": "learning_high_score"
+    }
+  ],
   "rejected_stats": {
     "duplicate": 48,
     "history_duplicate": 12,
