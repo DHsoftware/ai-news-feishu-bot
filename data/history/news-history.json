@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T07:10:28.498510+08:00",
+  "updated_at": "2026-07-17T06:15:02.323780+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,253 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "如何甄别靠谱的 ai中转站",
-      "normalized_title": "如何甄别靠谱的 ai中转站",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzSjlPOER3U0JReFE5UW9sX3l4QjAwMFhwSmZ2VWcxX01VUWNoeWtDeExNXzJqZ1dDT0FpTk4zcmtjRV9JLUVfcDd0V29VQmRXVVFrQ3RRMjhRZWVFTWZBRA?oc=5",
-      "title": "如何甄别靠谱的“AI中转站” - thepaper.cn",
-      "summary": "如何甄别靠谱的“AI中转站” thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzSjlPOER3U0JReFE5UW9sX3l4QjAwMFhwSmZ2VWcxX01VUWNoeWtDeExNXzJqZ1dDT0FpTk4zcmtjRV9JLUVfcDd0V29VQmRXVVFrQ3RRMjhRZWVFTWZBRA?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "南芯科技 在ai数据中心领域 公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器 drmos 大电流dc dc 大电流pmic等产品",
-      "normalized_title": "南芯科技 在ai数据中心领域 公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器 drmos 大电流dc dc 大电流pmic等产品",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi5wZBVV95cUxOdXhHTTZpTkFzTDFfb3hJT3NxTkxMVWFZMUFNZ2NaX1JGMVJScEdEWVdTZXljVDc3bnNCcnRvd0hKdGEyNF9wcDBjRlpSbllxaGZyVE5xN2tfTnJ2aFBETURJSE1Bc3hLUGFpZTNoRUVla28yWWxfMU1SSDdNWUFJVl8taTRUVDY2U085QktnYm96ZTY4d0lhNFloMEZROFRxVHJNMllVTGdEMUFzWVBmZUhyZkVVLVpIczMxbjdRaDMtRllCWVl5bkJYOEJGYWNRRDRIekVJMmNkVVRYQ2RyOXJwODNBZGVONXFRcFpWVzRQMlV0UTZCM3d5alRyVFcxLV85Q3hJdmF2RC1TQmJ4dWhCZDJWaExLWXhSMXBTd1kwcGRSeUtyZWxQMDVHRXcwWURYQ0xNdnA4dGhPUHpjTzc3TjEwS0pTelJtZnBzYWJ0MUhHMG5QMjBqa2Y3R2piOXdNa2xFTmwxNE1raTJXbDlScTFSR2VITWRTYUotYWc0YmFmaDBySkVpbTU1RjEwVmp2T3dWMVkxOTVOdjdNLXFoR3V2NHRQWjdSUmppTlNrVGJGS1h3MjRMT1ZGeXBHeEZROVlFT0o2TERQYWxfQW9SMmhLUTJ4MWloWUYwN1VUZk1PbFNyWWZGZlhGUVg1N0lJMjRRdDhlWjktOThlNXpudWxJT0Rwa19IRTVxa3IzQlJyMW5wNzBlNlBXVG9KLVZHaG5ReUU4SDVWM3lsRHZ4bWI0TDd2eHp6WEtlVl9jWFJDNkc3TTlDQU82NGxKT1RrMlBSR25zdjZ3TFIwUlVubG1qZm9pSG95d0tkVnVJSG00THRyS2dNYkxINjdUMGsxNkViQzkwY3cwVjNpQTBQU1V6TmtHVktpZnloSDkzN1hoa3BQWDBpOHdMaC16NVVUVk1kUHpuZlU5VXZZTExuRXBBVUZmdFZzOTJkV2hieHdzNnU1d2xYZjdIdVZZWGZkd2pXRzJtQWRJc2U0T0t1c3dfWjNCUHNIR3FHQlR5UU15YUkyd185M1g4b0tMcTRtb1NFOTRILUNXdHZZYk1Ja196NWFxay1UWWxWVWFEU0hyUXJ0cDJBNXppUUFZalFyQTdwb3BLeERFVVhZbUVER1Jnb0FoZnpKWVVuZ05Mck1LblhN?oc=5",
-      "title": "南芯科技：在AI数据中心领域，公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器、DrMOS、大电流DC-DC、大电流PMIC等产品 - MSN",
-      "summary": "南芯科技：在AI数据中心领域，公司正在积极开发应用在高性能计算电源领域中的高性能多相控制器、DrMOS、大电流DC-DC、大电流PMIC等产品 MSN",
-      "source": "MSN",
-      "link": "https://news.google.com/rss/articles/CBMi5wZBVV95cUxOdXhHTTZpTkFzTDFfb3hJT3NxTkxMVWFZMUFNZ2NaX1JGMVJScEdEWVdTZXljVDc3bnNCcnRvd0hKdGEyNF9wcDBjRlpSbllxaGZyVE5xN2tfTnJ2aFBETURJSE1Bc3hLUGFpZTNoRUVla28yWWxfMU1SSDdNWUFJVl8taTRUVDY2U085QktnYm96ZTY4d0lhNFloMEZROFRxVHJNMllVTGdEMUFzWVBmZUhyZkVVLVpIczMxbjdRaDMtRllCWVl5bkJYOEJGYWNRRDRIekVJMmNkVVRYQ2RyOXJwODNBZGVONXFRcFpWVzRQMlV0UTZCM3d5alRyVFcxLV85Q3hJdmF2RC1TQmJ4dWhCZDJWaExLWXhSMXBTd1kwcGRSeUtyZWxQMDVHRXcwWURYQ0xNdnA4dGhPUHpjTzc3TjEwS0pTelJtZnBzYWJ0MUhHMG5QMjBqa2Y3R2piOXdNa2xFTmwxNE1raTJXbDlScTFSR2VITWRTYUotYWc0YmFmaDBySkVpbTU1RjEwVmp2T3dWMVkxOTVOdjdNLXFoR3V2NHRQWjdSUmppTlNrVGJGS1h3MjRMT1ZGeXBHeEZROVlFT0o2TERQYWxfQW9SMmhLUTJ4MWloWUYwN1VUZk1PbFNyWWZGZlhGUVg1N0lJMjRRdDhlWjktOThlNXpudWxJT0Rwa19IRTVxa3IzQlJyMW5wNzBlNlBXVG9KLVZHaG5ReUU4SDVWM3lsRHZ4bWI0TDd2eHp6WEtlVl9jWFJDNkc3TTlDQU82NGxKT1RrMlBSR25zdjZ3TFIwUlVubG1qZm9pSG95d0tkVnVJSG00THRyS2dNYkxINjdUMGsxNkViQzkwY3cwVjNpQTBQU1V6TmtHVktpZnloSDkzN1hoa3BQWDBpOHdMaC16NVVUVk1kUHpuZlU5VXZZTExuRXBBVUZmdFZzOTJkV2hieHdzNnU1d2xYZjdIdVZZWGZkd2pXRzJtQWRJc2U0T0t1c3dfWjNCUHNIR3FHQlR5UU15YUkyd185M1g4b0tMcTRtb1NFOTRILUNXdHZZYk1Ja196NWFxay1UWWxWVWFEU0hyUXJ0cDJBNXppUUFZalFyQTdwb3BLeERFVVhZbUVER1Jnb0FoZnpKWVVuZ05Mck1LblhN?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "dcdc"
-        ],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "github copilot cli for beginners overview of common slash commands",
-      "normalized_title": "github copilot cli for beginners overview of common slash commands",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
-      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
-      "summary": "Welcome back to GitHub Copilot CLI for Beginners! In this series (available in video and blog format), we’ll give you everything you need to get started using GitHub Copilot CLI . So far in this series, we’ve covered how to get started and when to use interactive and non-interactive modes . In this…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog",
-          "terminal"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "anthropic releases and temporarily suspends claude fable 5",
-      "normalized_title": "anthropic releases and temporarily suspends claude fable 5",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
-      "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5 - infoq.com",
-      "summary": "Anthropic Releases and Temporarily Suspends Claude Fable 5 infoq.com",
-      "source": "infoq.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "pcim 2026 how customized ai agents are demystifying emc design",
-      "normalized_title": "pcim 2026 how customized ai agents are demystifying emc design",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlVUdTRCRVJEeEVPcTQxZnpTdVplMTFjZzhqam9Gd0llSjRYU293cTlheFpHTFh3NUN2dklfRHNXZGZTdFU2QVU1cm1lNFI4Sk9McHN6M0xPYWlpc0dIa1ozcFhYdzl6N05jUEszb3ZQNkVYYlZkMWlJc1hkLTRRRV9iVHhBOGpieWJFNA?oc=5",
-      "title": "PCIM 2026: How customized AI agents are demystifying EMC design - digitimes",
-      "summary": "PCIM 2026: How customized AI agents are demystifying EMC design digitimes",
-      "source": "digitimes",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlVUdTRCRVJEeEVPcTQxZnpTdVplMTFjZzhqam9Gd0llSjRYU293cTlheFpHTFh3NUN2dklfRHNXZGZTdFU2QVU1cm1lNFI4Sk9McHN6M0xPYWlpc0dIa1ozcFhYdzl6N05jUEszb3ZQNkVYYlZkMWlJc1hkLTRRRV9iVHhBOGpieWJFNA?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "anthropic全球警告 openai已跨 可靠性阈值 ai自我加速启动 chatgpt 智能体 模型 训练 门槛_手机新浪网",
-      "normalized_title": "anthropic全球警告 openai已跨 可靠性阈值 ai自我加速启动 chatgpt 智能体 模型 训练 门槛_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxORXlkbzVROU9TSXBrTUNBUHA2YTBmTWE1T0FpN3FVcGNqUWNMNlNDUVZKVjJjcWs0cjBod1pNSzNyZk05NkMyQ0JVemFjYnV0TmpyQl9iNjNWcFhTcFFUbHVCMDBTbktTU3lmSFpzclg0SUVVc0lMTjd1aWJBTk94SUJqNk1qRjJNQVpfVE5COTd1dGd3Z2JNd1h4dngwMkZUWEYwdkZ3YWN2dEtiWndkTVpYSmFBQVZkLUFUYTJvUlRaWkpNUmlyOXN2TXpNWEV1bUppc2d2b0dvQ2d1WWszdHJiOE9wZUhLVks4dHVITENqLUxVZWxUdHc3TFFhMDBEYWhVUldhakluNGpXQ3J2d2pyQkVQVzBMeFBkQUIwS2dWbm5NbzJCTEM4TE9qNGNOSE1LUEhCZ2ZYdll0VkpJaGN1SkFDeDA2V3prODBNZGM?oc=5",
-      "title": "Anthropic全球警告！OpenAI已跨「可靠性阈值」：AI自我加速启动|ChatGPT|智能体|模型|训练|门槛_手机新浪网 - 新浪财经",
-      "summary": "Anthropic全球警告！OpenAI已跨「可靠性阈值」：AI自我加速启动|ChatGPT|智能体|模型|训练|门槛_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxORXlkbzVROU9TSXBrTUNBUHA2YTBmTWE1T0FpN3FVcGNqUWNMNlNDUVZKVjJjcWs0cjBod1pNSzNyZk05NkMyQ0JVemFjYnV0TmpyQl9iNjNWcFhTcFFUbHVCMDBTbktTU3lmSFpzclg0SUVVc0lMTjd1aWJBTk94SUJqNk1qRjJNQVpfVE5COTd1dGd3Z2JNd1h4dngwMkZUWEYwdkZ3YWN2dEtiWndkTVpYSmFBQVZkLUFUYTJvUlRaWkpNUmlyOXN2TXpNWEV1bUppc2d2b0dvQ2d1WWszdHJiOE9wZUhLVks4dHVITENqLUxVZWxUdHc3TFFhMDBEYWhVUldhakluNGpXQ3J2d2pyQkVQVzBMeFBkQUIwS2dWbm5NbzJCTEM4TE9qNGNOSE1LUEhCZ2ZYdll0VkpJaGN1SkFDeDA2V3prODBNZGM?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-15",
-      "last_seen_date": "2026-06-15",
-      "canonical_key": "boosting moe training throughput with advanced fusion kernels",
-      "normalized_title": "boosting moe training throughput with advanced fusion kernels",
-      "normalized_link": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels",
-      "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
-      "summary": "Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted because they enable... Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted beca…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-16",
@@ -5702,6 +5455,181 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-16",
+      "last_seen_date": "2026-07-16",
+      "canonical_key": "how cars24 scales conversations and builds faster with openai",
+      "normalized_title": "how cars24 scales conversations and builds faster with openai",
+      "normalized_link": "https://openai.com/index/cars24",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/cars24",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-16",
+      "last_seen_date": "2026-07-16",
+      "canonical_key": "why pwc and openai are betting big on agentic customer service",
+      "normalized_title": "why pwc and openai are betting big on agentic customer service",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2ROSnlGRHBRcWE5Z0ZZQ0JoWW9wYS1xTGI0aEs2SjJRVDE4TDJkWG0tMFAxdlJsY3VRTTV5WE5GeEhqTnRLenNEYndtQ1lpRjJaX2J0eF9DM2Z4a0VkVlRxRmxxMDU4V2xGX3ladW5nSkxQY3BjeEh6aHg1WnVsS01fd0FEb2c?oc=5",
+      "title": "Why PwC and OpenAI Are Betting Big on Agentic Customer Service - CX Today",
+      "summary": "Why PwC and OpenAI Are Betting Big on Agentic Customer Service CX Today",
+      "source": "CX Today",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2ROSnlGRHBRcWE5Z0ZZQ0JoWW9wYS1xTGI0aEs2SjJRVDE4TDJkWG0tMFAxdlJsY3VRTTV5WE5GeEhqTnRLenNEYndtQ1lpRjJaX2J0eF9DM2Z4a0VkVlRxRmxxMDU4V2xGX3ladW5nSkxQY3BjeEh6aHg1WnVsS01fd0FEb2c?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-16",
+      "last_seen_date": "2026-07-16",
+      "canonical_key": "pi expert magnetics designer ep 1 planar transformers interface",
+      "normalized_title": "pi expert magnetics designer ep 1 planar transformers interface",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGVUclM3bVZ3cFBSb1dPSXlFVmdoRThvVm9XNGRuMDcxYzMwTDZXTGt2SmFsblN5c010bDc4dTNxckFCTV9nWTVjdmktYldZRkNMaEJDNkJ4LVZKZUt0amkwTnFGbzRBeko0XzJGNUtUaWljR2tDbmFsX096MFQwQ3lDZC10TldjYVEzSTN0dkdwREVLTXBBSmRFU0ZVbTFrOEJscA?oc=5",
+      "title": "PI Expert Magnetics Designer Ep. 1: Planar Transformers Interface - power.com",
+      "summary": "PI Expert Magnetics Designer Ep. 1: Planar Transformers Interface power.com",
+      "source": "power.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGVUclM3bVZ3cFBSb1dPSXlFVmdoRThvVm9XNGRuMDcxYzMwTDZXTGt2SmFsblN5c010bDc4dTNxckFCTV9nWTVjdmktYldZRkNMaEJDNkJ4LVZKZUt0amkwTnFGbzRBeko0XzJGNUtUaWljR2tDbmFsX096MFQwQ3lDZC10TldjYVEzSTN0dkdwREVLTXBBSmRFU0ZVbTFrOEJscA?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-16",
+      "last_seen_date": "2026-07-16",
+      "canonical_key": "王晓松部署新城控股未来战略 深耕商管与建管业务 以ai提效坚守企业价值",
+      "normalized_title": "王晓松部署新城控股未来战略 深耕商管与建管业务 以ai提效坚守企业价值",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNmR3MUg4MVI4VkhZS3NyMTIzeFh5N0l0ZXAwMEs0S0hlTVhRRFplUTl5TW14ZTBxd0VMekJSYk4tN3J3Y1BCNjdWTmNyVVd5dkVBaldtNl9rUzRTcmc?oc=5",
+      "title": "王晓松部署新城控股未来战略：深耕商管与建管业务，以AI提效坚守企业价值 - thepaper.cn",
+      "summary": "王晓松部署新城控股未来战略：深耕商管与建管业务，以AI提效坚守企业价值 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNmR3MUg4MVI4VkhZS3NyMTIzeFh5N0l0ZXAwMEs0S0hlTVhRRFplUTl5TW14ZTBxd0VMekJSYk4tN3J3Y1BCNjdWTmNyVVd5dkVBaldtNl9rUzRTcmc?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-16",
+      "last_seen_date": "2026-07-16",
+      "canonical_key": "氪星晚报 idc 百度智能云蝉联中国金融大模型市场份额第一 腾讯云与roboscience机器科学达成战略合作 商务部回应推动解决安世半导体问题进展",
+      "normalized_title": "氪星晚报 idc 百度智能云蝉联中国金融大模型市场份额第一 腾讯云与roboscience机器科学达成战略合作 商务部回应推动解决安世半导体问题进展",
+      "normalized_link": "https://36kr.com/p/3896564308379525?f=rss",
+      "title": "氪星晚报｜IDC：百度智能云蝉联中国金融大模型市场份额第一；腾讯云与RoboScience机器科学达成战略合作；商务部回应推动解决安世半导体问题进展",
+      "summary": "大公司： OPPO：realme新品将聚焦海外市场，中国市场暂停产品更新 36氪从OPPO方面获悉，为了进一步整合集团资源，实现全球产品战略的协同，未来 realme 新品将聚焦海外市场，在中国市场暂停产品更新；一加在中国市场的产品更新保持不变。realme和一加将持续在游戏和性能领域为用户提供优质的体验。 IDC：百度智能云蝉联中国金融大模型市场份额第一 36氪获悉，根据国际数据公司（IDC）最新发布的《中国金融行业生成式AI平台及应用解决方案市场份额，2025》报告，2025年中国金融行业生成式AI市场迎来爆发式增长，整体规模达到17.40亿元人民币，同比增速高达90.4%。在高速增长的…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3896564308379525?f=rss",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "cloud",
+        "llm",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple",
+          "huawei"
+        ],
+        "products": [],
+        "actions": [
+          "partnership",
+          "release",
+          "update"
+        ],
+        "topics": [
+          "chip",
+          "cloud",
+          "llm",
+          "model_capability",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
