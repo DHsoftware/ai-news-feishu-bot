@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T07:09:12.121822+08:00",
+  "updated_at": "2026-07-18T06:06:35.628772+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -197,45 +197,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-16",
-      "last_seen_date": "2026-06-16",
-      "canonical_key": "why tejal patwardhan stopped underestimating the models",
-      "normalized_title": "why tejal patwardhan stopped underestimating the models",
-      "normalized_link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
-      "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
-      "summary": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models…",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "summary_quality": "medium",
-      "concept_hint": "Agent Evaluation",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "codex",
-        "evals"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "cli",
-          "codex",
-          "evals",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-29",
