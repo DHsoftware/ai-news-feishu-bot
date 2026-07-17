@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-18T06:06:35.628772+08:00",
+  "generated_at": "2026-07-18T07:05:47.500474+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,9 +17,9 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 11,
+    "history_size_before": 10,
     "history_size_after": 10,
-    "history_duplicate_count": 13
+    "history_duplicate_count": 14
   },
   "raw_item_count": 76,
   "deduped_item_count": 26,
@@ -28,9 +28,9 @@
   "curated_items": [],
   "rejected_stats": {
     "duplicate": 50,
-    "history_duplicate": 13,
+    "history_duplicate": 14,
     "same_source_limit": 0,
-    "old_resource": 13,
+    "old_resource": 12,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0
