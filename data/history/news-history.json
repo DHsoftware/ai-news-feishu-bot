@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T07:05:47.500474+08:00",
+  "updated_at": "2026-07-19T06:07:41.570706+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -86,117 +86,6 @@
     },
     {
       "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-17",
-      "canonical_key": "what are git worktrees and why should i use them",
-      "normalized_title": "what are git worktrees and why should i use them",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them",
-      "title": "What are git worktrees, and why should I use them?",
-      "summary": "It seems like the latest hotness in git these days is the concept of worktrees. Which… is kind of funny because they’ve been around since 2015. But, nevertheless, they are cool, and you might be wondering why you’d use them, how they differ from branches, and why they are suddenly so popular. Let’s…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-17",
-      "canonical_key": "copilot cowork is now generally available",
-      "normalized_title": "copilot cowork is now generally available",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
-      "title": "Copilot Cowork is now generally available - Microsoft",
-      "summary": "Copilot Cowork is now generally available Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-17",
-      "canonical_key": "碳化硅简报 4 5月ai数据中心与sst应用加速落地 车规量产稳步攀升",
-      "normalized_title": "碳化硅简报 4 5月ai数据中心与sst应用加速落地 车规量产稳步攀升",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vaTJqdW8xOHJfNlFWQkFNZ3Y0WnZHWFhtNldsY2J2R1ZqNkV5ckt2UG13RFBBdFdoY2VrRUp4Ty13VmV6QmhRN1d1WXVFY292THA4?oc=5",
-      "title": "【碳化硅简报】4-5月AI数据中心与SST应用加速落地，车规量产稳步攀升 - 电子工程专辑",
-      "summary": "【碳化硅简报】4-5月AI数据中心与SST应用加速落地，车规量产稳步攀升 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vaTJqdW8xOHJfNlFWQkFNZ3Y0WnZHWFhtNldsY2J2R1ZqNkV5ckt2UG13RFBBdFdoY2VrRUp4Ty13VmV6QmhRN1d1WXVFY292THA4?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "sic"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "sic"
-        ],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "sic"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-17",
       "last_seen_date": "2026-06-18",
       "canonical_key": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
       "normalized_title": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
@@ -237,43 +126,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-17",
-      "canonical_key": "nvidia blackwell tops mlperf training 6 0 with industry",
-      "normalized_title": "nvidia blackwell tops mlperf training 6 0 with industry",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance",
-      "title": "NVIDIA Blackwell Tops MLPerf Training 6.0 with Industry-Leading Scale and Performance",
-      "summary": "NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the MLCommons consortium.... NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the ML…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-18",
@@ -5442,7 +5294,7 @@
     },
     {
       "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-17",
+      "last_seen_date": "2026-07-18",
       "canonical_key": "the cost of saying yes has changed",
       "normalized_title": "the cost of saying yes has changed",
       "normalized_link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed",
@@ -5473,7 +5325,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-17",
@@ -5624,6 +5476,148 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-18",
+      "last_seen_date": "2026-07-18",
+      "canonical_key": "张瑜 ai的生产率悖论 20 篇论文中找答案",
+      "normalized_title": "张瑜 ai的生产率悖论 20 篇论文中找答案",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPck1SWm5xc2JwUDJvdTdkQnZzY21pU2EzQ20xNUpnTXhQeTZKZGxhdzZXUklLRXRpa0RMUlo0ZWxKSUNac3FwUVNsSGVmbTE1dTlSV1Y4cl9wZnpJMkp4WDZYYXozS1J3T043bVZpc3NMSzdyT2FhTkhhTU4tMVQwQVBSWGgxNWhSVU5TYjBYWnVkY0lpU2JWMmtiMGhjWFh0SmZaZ2w2Rnh4aWxqSXl4WU1IaU1PV2IyR2kzMTJKenc0d29vcV9LZXU3OVZFeF9WTjVVcktsLWVqdUIxUE51NVJJV2M3dlotOWhJUHdERVU1T1VrSndmaG9RTzBDQWFRM0hmWDg1ZHhhUQ?oc=5",
+      "title": "张瑜：AI的生产率悖论？——20+篇论文中找答案 - 新浪财经",
+      "summary": "张瑜：AI的生产率悖论？——20+篇论文中找答案 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPck1SWm5xc2JwUDJvdTdkQnZzY21pU2EzQ20xNUpnTXhQeTZKZGxhdzZXUklLRXRpa0RMUlo0ZWxKSUNac3FwUVNsSGVmbTE1dTlSV1Y4cl9wZnpJMkp4WDZYYXozS1J3T043bVZpc3NMSzdyT2FhTkhhTU4tMVQwQVBSWGgxNWhSVU5TYjBYWnVkY0lpU2JWMmtiMGhjWFh0SmZaZ2w2Rnh4aWxqSXl4WU1IaU1PV2IyR2kzMTJKenc0d29vcV9LZXU3OVZFeF9WTjVVcktsLWVqdUIxUE51NVJJV2M3dlotOWhJUHdERVU1T1VrSndmaG9RTzBDQWFRM0hmWDg1ZHhhUQ?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-18",
+      "last_seen_date": "2026-07-18",
+      "canonical_key": "阿里ai编程市场份额近半 阿里云增速与利润率同升 估值锚向ai移动",
+      "normalized_title": "阿里ai编程市场份额近半 阿里云增速与利润率同升 估值锚向ai移动",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN1FBR0J4WHhhSDc0OE1ZSmZnTVlPLUdpbFBlZUZOU2dNSk1tZWZUaXVqbzRLLXc0TjAwZ25HSlMtLXRXWERHN0VNdDFtQUZQRWp4ZWFUcGtid3F5SHJ4eDlsV1NadUx6UjZB?oc=5",
+      "title": "阿里AI编程市场份额近半，阿里云增速与利润率同升，估值锚向AI移动 - blog.csdn.net",
+      "summary": "阿里AI编程市场份额近半，阿里云增速与利润率同升，估值锚向AI移动 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN1FBR0J4WHhhSDc0OE1ZSmZnTVlPLUdpbFBlZUZOU2dNSk1tZWZUaXVqbzRLLXc0TjAwZ25HSlMtLXRXWERHN0VNdDFtQUZQRWp4ZWFUcGtid3F5SHJ4eDlsV1NadUx6UjZB?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "cloud",
+        "coding",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "cloud",
+          "coding",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-18",
+      "last_seen_date": "2026-07-18",
+      "canonical_key": "q a how capcom brought path tracing to re engine across pragmata and resident evil requiem",
+      "normalized_title": "q a how capcom brought path tracing to re engine across pragmata and resident evil requiem",
+      "normalized_link": "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem",
+      "title": "Q&A: How Capcom Brought Path Tracing to RE ENGINE Across PRAGMATA and Resident Evil Requiem",
+      "summary": "Capcom's RE ENGINE team set out to bring path tracing into two shipping titles at once, Resident Evil Requiem and PRAGMATA, each with a different visual... Source",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-18",
+      "last_seen_date": "2026-07-18",
+      "canonical_key": "the mother of all ai supply chains critical systemic vulnerability at the core of anthropic s mcp",
+      "normalized_title": "the mother of all ai supply chains critical systemic vulnerability at the core of anthropic s mcp",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeE1mR2gtazRHcUNWejdXbkp3NzN5NU5wSWhkZjVJem5ONVFKb2FOYnR4LUNtMjFxeHZfX0F2WFFXME50ZGlTc0dDQmc5QVV0cS1YY2RYVWVZRWxKLUgzckJuNDI0a3VRc2xMUDVwR0plSXpoaVlLTloteW9lalNVSjYzWmh4YktHRG1PSzU1UmtkLVJRd0l4OVRlam4yQ1dKZmRlcVVXN283cEFuQTh0SVFnVGZ2Y3ZwNGF5RWVPLXkyQmd5WUZr?oc=5",
+      "title": "The Mother of All AI Supply Chains: Critical, Systemic Vulnerability at the Core of Anthropic’s MCP - OX Security",
+      "summary": "The Mother of All AI Supply Chains: Critical, Systemic Vulnerability at the Core of Anthropic’s MCP OX Security",
+      "source": "OX Security",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeE1mR2gtazRHcUNWejdXbkp3NzN5NU5wSWhkZjVJem5ONVFKb2FOYnR4LUNtMjFxeHZfX0F2WFFXME50ZGlTc0dDQmc5QVV0cS1YY2RYVWVZRWxKLUgzckJuNDI0a3VRc2xMUDVwR0plSXpoaVlLTloteW9lalNVSjYzWmh4YktHRG1PSzU1UmtkLVJRd0l4OVRlam4yQ1dKZmRlcVVXN283cEFuQTh0SVFnVGZ2Y3ZwNGF5RWVPLXkyQmd5WUZr?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "mcp"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
