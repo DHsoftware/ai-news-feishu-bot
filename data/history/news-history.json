@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T06:09:10.016147+08:00",
+  "updated_at": "2026-07-20T07:08:18.938557+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5544,7 +5544,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-19",
@@ -5583,7 +5583,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-19",
@@ -5616,7 +5616,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-19",
@@ -5686,6 +5686,63 @@
           "ai_agent",
           "security",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "科学家开发出更坚韧耐磨的银涂层",
+      "normalized_title": "科学家开发出更坚韧耐磨的银涂层",
+      "normalized_link": "https://36kr.com/newsflashes/3903162669778568?f=rss",
+      "title": "科学家开发出更坚韧耐磨的银涂层",
+      "summary": "韩国材料科学研究所科学家开发出一种银—聚四氟乙烯复合涂层技术。他们将聚四氟乙烯纳米粒子稳定分散在无氰化物的酸性镀银浴中，制备出比传统银涂层更坚韧、更耐磨的涂层。这种涂层有望提升多种接触摩擦类部件的耐用性与可靠性。相关论文发表于最新一期《表面与涂层技术》杂志。（科技日报）",
+      "source": "36氪",
+      "link": "https://36kr.com/newsflashes/3903162669778568?f=rss",
+      "category": "研究论文",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "the fbi reportedly won t investigate ice anymore",
+      "normalized_title": "the fbi reportedly won t investigate ice anymore",
+      "normalized_link": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
+      "title": "The FBI reportedly won’t investigate ICE anymore",
+      "summary": "ICE agents hide behind masks while skulking through the halls of immigration court | Image: Michael Nigro/Pacific Press/LightRocket via Getty Images According to the New York Times , federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "policy_regulation",
+          "regulation"
         ]
       },
       "seen_count": 1
