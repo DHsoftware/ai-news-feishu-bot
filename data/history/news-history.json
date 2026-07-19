@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T07:07:51.541722+08:00",
+  "updated_at": "2026-07-20T06:09:10.016147+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -85,49 +85,6 @@
       "seen_count": 4
     },
     {
-      "first_seen_date": "2026-06-17",
-      "last_seen_date": "2026-06-18",
-      "canonical_key": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
-      "normalized_title": "ai编码智能体实现机器人自主训练 nvidia发布enpire框架 机器人学会安装gpu和剪断扎带",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzZneEZjcThuWUNrWTF3X0E3MHFQR21pdkJRVnVGd3ktb1U2czZMclBoTE1EaGFQaERacWpRNVpmb0k5SEdiTFRRVmxCRnV1TmNTYVV6b1pvV2JRbmU4OWQ0QWFvbVROaElpYjFxcThVN0UzNG90RXZTdmhKeno2ZFlaVGdrQmEzdHo0Qw?oc=5",
-      "title": "AI编码智能体实现机器人自主训练：NVIDIA发布ENPIRE框架，机器人学会安装GPU和剪断扎带 - Sohu",
-      "summary": "AI编码智能体实现机器人自主训练：NVIDIA发布ENPIRE框架，机器人学会安装GPU和剪断扎带 Sohu",
-      "source": "Sohu",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzZneEZjcThuWUNrWTF3X0E3MHFQR21pdkJRVnVGd3ktb1U2czZMclBoTE1EaGFQaERacWpRNVpmb0k5SEdiTFRRVmxCRnV1TmNTYVV6b1pvV2JRbmU4OWQ0QWFvbVROaElpYjFxcThVN0UzNG90RXZTdmhKeno2ZFlaVGdrQmEzdHo0Qw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "chip",
-        "coding",
-        "coding_agent",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "chip",
-          "coding",
-          "coding_agent",
-          "robotics"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
       "first_seen_date": "2026-06-18",
       "last_seen_date": "2026-06-19",
       "canonical_key": "how pull request limits are cutting down the noise",
@@ -168,73 +125,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-18",
-      "canonical_key": "from copilots to agents why enterprise ai needs a secure ai factory",
-      "normalized_title": "from copilots to agents why enterprise ai needs a secure ai factory",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0VsOUJyYzNwRFFZcVNUSEVLa0JuSFI2ZHZGdklRbVZUb29uVFkwdnRGZVVfUFRnU3o5aWNqbHYzckd6OGJ4MkltVENPaGdYeUNNUkZNclA3ZnBDQUxGQXhPbkNvcXcwVlBvanRoS09MNnhwY0ZpV1B0UU12bTdKbWo5UUxWeU1ENHdfeV8tUURvZnU0UHBvWTk3d1owVjlOdHc?oc=5",
-      "title": "From Copilots to Agents: Why Enterprise AI Needs a Secure AI Factory - eWeek",
-      "summary": "From Copilots to Agents: Why Enterprise AI Needs a Secure AI Factory eWeek",
-      "source": "eWeek",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0VsOUJyYzNwRFFZcVNUSEVLa0JuSFI2ZHZGdklRbVZUb29uVFkwdnRGZVVfUFRnU3o5aWNqbHYzckd6OGJ4MkltVENPaGdYeUNNUkZNclA3ZnBDQUxGQXhPbkNvcXcwVlBvanRoS09MNnhwY0ZpV1B0UU12bTdKbWo5UUxWeU1ENHdfeV8tUURvZnU0UHBvWTk3d1owVjlOdHc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_factory",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-18",
-      "canonical_key": "renesas acquires pictorus to simplify and accelerate embedded application software development",
-      "normalized_title": "renesas acquires pictorus to simplify and accelerate embedded application software development",
-      "normalized_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWpoX21fSWVzYmlqWXZXWUkxZXYyaVJlZDA3c2NjMkJBU0NHWjRwbmN5LThOUHlQa21vWDdXMEJ3S1c3WkZNTmNEbnVaRVJtWkxQMmc0RjBmU196THZPR2ZYZDNvbV91dXpFZk5oRlZZbnFUOUl0WVdCdThPcjBUdHEwYm1nS2NFS1U5OFVZeUFWbEZKc3NxMVRtZk0wdmN3QWVnd1NZM01mRFJma1FWMEI4eDB2RzVDMnBkR1E5MDBjRmkwMlBqNWtwOUJBQQ?oc=5",
-      "title": "Renesas Acquires Pictorus to Simplify and Accelerate Embedded Application Software Development - Renesas Electronics",
-      "summary": "Renesas Acquires Pictorus to Simplify and Accelerate Embedded Application Software Development Renesas Electronics",
-      "source": "Renesas Electronics",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWpoX21fSWVzYmlqWXZXWUkxZXYyaVJlZDA3c2NjMkJBU0NHWjRwbmN5LThOUHlQa21vWDdXMEJ3S1c3WkZNTmNEbnVaRVJtWkxQMmc0RjBmU196THZPR2ZYZDNvbV91dXpFZk5oRlZZbnFUOUl0WVdCdThPcjBUdHEwYm1nS2NFS1U5OFVZeUFWbEZKc3NxMVRtZk0wdmN3QWVnd1NZM01mRFJma1FWMEI4eDB2RzVDMnBkR1E5MDBjRmkwMlBqNWtwOUJBQQ?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-18",
@@ -5618,6 +5508,187 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "澎湃科技聊天室 ai for science 科学发现进入自动化时代",
+      "normalized_title": "澎湃科技聊天室 ai for science 科学发现进入自动化时代",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LYWFyOFVtWVBSQ0h3ZnZLQzRyMk40QzBfaWRJZHBpTGpfVk1tSjd0d29nZTFyeEhYWlhyUXZsUHdjdlVqamVZM3E2VW0wMkFRU3FNdl8zZXZSQ1JhLVE?oc=5",
+      "title": "澎湃科技聊天室｜AI for science：科学发现进入自动化时代？ - thepaper.cn",
+      "summary": "澎湃科技聊天室｜AI for science：科学发现进入自动化时代？ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LYWFyOFVtWVBSQ0h3ZnZLQzRyMk40QzBfaWRJZHBpTGpfVk1tSjd0d29nZTFyeEhYWlhyUXZsUHdjdlVqamVZM3E2VW0wMkFRU3FNdl8zZXZSQ1JhLVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "pinokio v8 updates for local ai app installation and workflow automation",
+      "normalized_title": "pinokio v8 updates for local ai app installation and workflow automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOemItMW8yRUw4cHFDTkFWcE5QT3dvOFE2MWVMUEJaaFUyOWE0Qks4RzVWdWRMR2szQWZ5eHJjRVMtUlh4VUtTNTc2akhSa1I5bGJBYXdZODdpOHB1ZWVDTldZOUpkbk1HcHQtX0hCSzBneEUzZHF3bWNvdGVqWVVLSTZTMjIzek0wNzcwZm84T0pSSFFtMENuTUpfdw?oc=5",
+      "title": "Pinokio v8: Updates for Local AI App Installation and Workflow Automation - quasa.io",
+      "summary": "Pinokio v8: Updates for Local AI App Installation and Workflow Automation quasa.io",
+      "source": "quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOemItMW8yRUw4cHFDTkFWcE5QT3dvOFE2MWVMUEJaaFUyOWE0Qks4RzVWdWRMR2szQWZ5eHJjRVMtUlh4VUtTNTc2akhSa1I5bGJBYXdZODdpOHB1ZWVDTldZOUpkbk1HcHQtX0hCSzBneEUzZHF3bWNvdGVqWVVLSTZTMjIzek0wNzcwZm84T0pSSFFtMENuTUpfdw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "ai model co design hardware",
+      "normalized_title": "ai model co design hardware",
+      "normalized_link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design",
+      "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+      "summary": "AI performance comes down to three dimensions: Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a... AI performance comes down to three dimensions: Deployments must balance all three: High accuracy is wasted if responses are slow, and raw throughput m…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "llm",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "印奇在 waic 2026 开幕式主论坛发表主题演讲 当智能体走进物理世界",
+      "normalized_title": "印奇在 waic 2026 开幕式主论坛发表主题演讲 当智能体走进物理世界",
+      "normalized_link": "https://36kr.com/p/3900439867147909?f=rss",
+      "title": "印奇在 WAIC 2026 开幕式主论坛发表主题演讲：当智能体走进物理世界",
+      "summary": "2026 世界人工智能大会（WAIC 2026）于 7 月 17 日正式开幕。作为全球人工智能领域的顶级盛会，本届大会以“智能伙伴 共创未来”为主题。阶跃星辰董事长、千里科技董事长印奇作为特邀嘉宾出席大会开幕式并在大会主论坛（上午场）发表主题演讲《当智能体进入物理世界》。回顾 15 年 AI 创业历程，他表示，AI 创业已从小众赛道成为全球重要共识。今天的 AI 研究者和创业者既站在几代科学家持续探索的肩膀上，也受益于信息技术、移动互联网、云计算、半导体、新能源等产业积累，能够参与这场时代变革无比幸运。 印奇判断，2026 年模型能力正在跨越关键临界点，AI 已从只能连续执行数秒任务，进阶到…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3900439867147909?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "automotive",
+        "cloud",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "automotive",
+          "cloud",
+          "model_capability",
+          "research",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-19",
+      "last_seen_date": "2026-07-19",
+      "canonical_key": "vertu wants executives to pay 6 880 for an ai agent here s how it actually performs",
+      "normalized_title": "vertu wants executives to pay 6 880 for an ai agent here s how it actually performs",
+      "normalized_link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
+      "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+      "summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "security",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "security",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
