@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T07:08:18.938557+08:00",
+  "updated_at": "2026-07-21T06:13:27.707133+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,295 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "how pull request limits are cutting down the noise",
-      "normalized_title": "how pull request limits are cutting down the noise",
-      "normalized_link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise",
-      "title": "How pull request limits are cutting down the noise",
-      "summary": "More people are contributing to open source than ever, most of them trying to help. The challenge is keeping up with the volume. Creating a pull request has never been easier. Reviewing one still takes a human about as long as it ever did. When great contributions and low-quality noise land in the…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-06-18",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
-      "normalized_title": "蔚来补上 智驾课 任少卿总结 智驾技术创新将重构竞争",
-      "normalized_link": "https://36kr.com/p/3858329994875908?f=rss",
-      "title": "蔚来补上“智驾课”，任少卿总结：智驾技术创新将重构竞争",
-      "summary": "文｜肖漫 编辑｜李勤 6月18日，蔚来同时向两代平台车型（包含8款NT2.0平台车型、4款NT2.5平台车型，以及6款NT3.0车型）推送了最新版的世界模型，这意味着，蔚来现在能让同一套复杂的智驾代码，现在能跑在不同代际的芯片上。 软件迭代节奏被硬件绑架曾是一个困扰行业的难题。很多车企无法在不同版本、配置的车型上迭代同一款软件，这带来的结果是，很长时间内只有使用最新版本硬件的车才能用上最好的软件，老车主被背刺。 蔚来部署推理跨平台兼容 任少卿的团队在 2020 年就在思考如何解决这个问题。蔚来的做法是搭建一套AI Infra——自研工具链铺平不同芯片间的鸿沟，用AI编译器提升车辆的处理速度，…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3858329994875908?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "automotive",
-        "chip",
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "automotive",
-          "chip",
-          "inference",
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "peter choi",
-      "normalized_title": "peter choi",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kMWhKazJGQVNMc2NSWjJOMmNzNWs4S0NRZUtNYkJfcHdWY1BWOWp5ZzlrOFd2eWJuLXlKLUNjTnFOZXZ3eGhpdXNPMjJFRmlGLUxYYWMtbms0ZmdOekF4VHpNU3BiQ0Mzdmc?oc=5",
-      "title": "Peter Choi - Microsoft",
-      "summary": "Peter Choi Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kMWhKazJGQVNMc2NSWjJOMmNzNWs4S0NRZUtNYkJfcHdWY1BWOWp5ZzlrOFd2eWJuLXlKLUNjTnFOZXZ3eGhpdXNPMjJFRmlGLUxYYWMtbms0ZmdOekF4VHpNU3BiQ0Mzdmc?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "engineering_productivity"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "从新能源汽车到ai数据中心 pcim asia深圳邀您共赴 功率电子俱乐部 年度盛会",
-      "normalized_title": "从新能源汽车到ai数据中心 pcim asia深圳邀您共赴 功率电子俱乐部 年度盛会",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WMDk4RVgzUkxZYl93b3p6RUt4Zy15aUZtYnhsUGpWY3had1laQ2RsR3hJbEp3NjZEblZndXB5RWpNY252NjBBSzdrUF9uYmlvZ0w0?oc=5",
-      "title": "从新能源汽车到AI数据中心｜PCIM Asia深圳邀您共赴“功率电子俱乐部”年度盛会 - 电子工程专辑",
-      "summary": "从新能源汽车到AI数据中心｜PCIM Asia深圳邀您共赴“功率电子俱乐部”年度盛会 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WMDk4RVgzUkxZYl93b3p6RUt4Zy15aUZtYnhsUGpWY3had1laQ2RsR3hJbEp3NjZEblZndXB5RWpNY252NjBBSzdrUF9uYmlvZ0w0?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "automotive",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "automotive",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "amazon hopes to challenge nvidia more directly by selling its ai chips",
-      "normalized_title": "amazon hopes to challenge nvidia more directly by selling its ai chips",
-      "normalized_link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips",
-      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
-      "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "aws",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "aws",
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "is it agentic enough benchmarking open models on your own tooling",
-      "normalized_title": "is it agentic enough benchmarking open models on your own tooling",
-      "normalized_link": "https://huggingface.co/blog/is-it-agentic-enough",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "summary": "",
-      "source": "Hugging Face - Blog",
-      "link": "https://huggingface.co/blog/is-it-agentic-enough",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "benchmark",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "benchmark",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "france advances europe s ai future with nvidia technologies",
-      "normalized_title": "france advances europe s ai future with nvidia technologies",
-      "normalized_link": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future",
-      "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
-      "summary": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying app…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-19",
-      "last_seen_date": "2026-06-19",
-      "canonical_key": "北大科学家下场做脑机接口 种子轮融了近亿元",
-      "normalized_title": "北大科学家下场做脑机接口 种子轮融了近亿元",
-      "normalized_link": "https://36kr.com/p/3855480467543042?f=rss",
-      "title": "北大科学家下场做脑机接口，种子轮融了近亿元",
-      "summary": "文 | 孙小雯 访谈 / 编辑 | 海若镜 「暗涌Waves」独家获悉，侵入式脑机接口公司「芯生视界」近日完成近亿元人民币种子轮融资。本轮融资由经纬创投领投，星连资本、燕缘创投、水木创投跟投。 当下，侵入式脑机接口已经在治疗瘫痪、脑控外设等医疗场景落地，验证长期植入的安全、有效。与此同时，AI Agent和具身智能技术加速进化，也放大了市场对脑机接口的期待：改写未来“人机交互”的方式，实现人机融合、增强人类。马斯克和他的Neuralink，正是这一叙事的风向标。 芯生视界团队集合了多位国家“脑计划”脑机接口方向“青年首席”：创始人王茜来自北京大学心理与认知科学学院、IDG麦戈文脑科学研究所。…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3855480467543042?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "chip",
-        "robotics",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "chip",
-          "research",
-          "robotics",
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-20",
@@ -5743,6 +5454,196 @@
           "agent",
           "policy_regulation",
           "regulation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-20",
+      "last_seen_date": "2026-07-20",
+      "canonical_key": "post train nvidia cosmos 3 in one day using agent skills",
+      "normalized_title": "post train nvidia cosmos 3 in one day using agent skills",
+      "normalized_link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
+      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
+      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning... What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting v…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-20",
+      "last_seen_date": "2026-07-20",
+      "canonical_key": "94 of developers report ai productivity gains but governance maturity lags behind adoption finds new study from info tech research group",
+      "normalized_title": "94 of developers report ai productivity gains but governance maturity lags behind adoption finds new study from info tech research group",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHJLOGc3QjYzSnU3WVZnUXFxS28xcnNoVjI0RXVxRTNZSmxSVk5JZjN3OGYycEROZmRiSkZ2cTRwUUNXU2NQZ1ZBcjVkLWx2YnpFOTViVmgxc2JKMnktNm8wUFJhLVZSbXg0WENJNUxNRlIxdVdPa016cmN6Q2xzMXBVWThDTi1vT09Id245Ny1iNDloUjJLUXdHbjBCUmNEQkE?oc=5",
+      "title": "94% of Developers Report AI Productivity Gains, but Governance Maturity Lags Behind Adoption, Finds New Study From Info-Tech Research Group - Yahoo Finance",
+      "summary": "94% of Developers Report AI Productivity Gains, but Governance Maturity Lags Behind Adoption, Finds New Study From Info-Tech Research Group Yahoo Finance",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHJLOGc3QjYzSnU3WVZnUXFxS28xcnNoVjI0RXVxRTNZSmxSVk5JZjN3OGYycEROZmRiSkZ2cTRwUUNXU2NQZ1ZBcjVkLWx2YnpFOTViVmgxc2JKMnktNm8wUFJhLVZSbXg0WENJNUxNRlIxdVdPa016cmN6Q2xzMXBVWThDTi1vT09Id245Ny1iNDloUjJLUXdHbjBCUmNEQkE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-20",
+      "last_seen_date": "2026-07-20",
+      "canonical_key": "技术论文 人工智能在车网协同及其风险防范中的运用",
+      "normalized_title": "技术论文 人工智能在车网协同及其风险防范中的运用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOC1naDBRQjBUbDJBTHNkM0JlUXFrd3VqYTVFWG01TmZsalZTc1J0bEtFcV9CbUNYbDNycHpETU9KaUFreWdJZFJBR1dLN2R6ZmQzdzNPdVB0blFpVWlDUlNuZ2RVTTVZQ2U2MWl1Q1oxRTNLcS1abnJYWmFSX1hLZmVTQ2dLaXJ1X2xvRg?oc=5",
+      "title": "技术论文|人工智能在车网协同及其风险防范中的运用 - 搜狐网",
+      "summary": "技术论文|人工智能在车网协同及其风险防范中的运用 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOC1naDBRQjBUbDJBTHNkM0JlUXFrd3VqYTVFWG01TmZsalZTc1J0bEtFcV9CbUNYbDNycHpETU9KaUFreWdJZFJBR1dLN2R6ZmQzdzNPdVB0blFpVWlDUlNuZ2RVTTVZQ2U2MWl1Q1oxRTNLcS1abnJYWmFSX1hLZmVTQ2dLaXJ1X2xvRg?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-20",
+      "last_seen_date": "2026-07-20",
+      "canonical_key": "china:https://36kr.com/p/3903761449617027?f=rss",
+      "normalized_title": "硬氪首发",
+      "normalized_link": "https://36kr.com/p/3903761449617027?f=rss",
+      "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
+      "summary": "一台80cm高的毛绒人形机器人，可以承载多少想象力？ “它虽然没有完全像人，但拥有全套的传感器，可以跟你交互、分析你的表情，去看你是高兴还是低落。只要算力可以满足，它可以提供各种各样的东西，软件能增量开发的东西是有无限想象力的。” 青心意创CTO曾俊告诉硬氪。他所谈论的是Amoo——青心意创推出的首款智能机器人产品Amoo，身高80cm，拟人双足，无棱角毛绒全包覆。 曾俊曾担任全球自动驾驶巨头Cruise的核心模型科学家，带领团队取得多项行业领先成果。他是加州大学伯克利分校博士，本科是由上海交大和法国巴黎综合理工联合培养的应用数学与力学系精英。曾在在双足机器人强化学习控制与安全关键系统领域发…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3903761449617027?f=rss",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "autonomous_driving",
+        "chip",
+        "research",
+        "robotics",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "autonomous_driving",
+          "chip",
+          "research",
+          "robotics",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-20",
+      "last_seen_date": "2026-07-20",
+      "canonical_key": "100 million for open source a milestone built by the community",
+      "normalized_title": "100 million for open source a milestone built by the community",
+      "normalized_link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community",
+      "title": "$100 million for open source: A milestone built by the community",
+      "summary": "We launched GitHub Sponsors in 2019 with a simple belief: the people who build and maintain open source software deserve to be supported for their work. Since then, tens of thousands of sponsors—individuals and organizations alike—have turned that belief into action. We’re proud to announce that mo…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "technical_blog"
         ]
       },
       "seen_count": 1
