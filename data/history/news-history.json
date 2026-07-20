@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T06:13:27.707133+08:00",
+  "updated_at": "2026-07-21T07:12:56.460971+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5497,7 +5497,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5535,7 +5535,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5568,7 +5568,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5606,7 +5606,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5646,7 +5646,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
