@@ -1,15 +1,15 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-22T06:12:15.830791+08:00",
+  "generated_at": "2026-07-22T07:09:40.049631+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 227,
-    "failed_count": 3,
+    "success_count": 228,
+    "failed_count": 2,
     "global_source_count": 16,
     "global_success_count": 15,
     "china_source_count": 34,
-    "china_success_count": 212
+    "china_success_count": 213
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 154,
+    "history_size_before": 152,
     "history_size_after": 152,
-    "history_duplicate_count": 29
+    "history_duplicate_count": 30
   },
-  "raw_item_count": 5253,
-  "deduped_item_count": 3890,
-  "filtered_item_count": 453,
+  "raw_item_count": 5252,
+  "deduped_item_count": 3873,
+  "filtered_item_count": 451,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -208,13 +208,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1363,
-    "history_duplicate": 29,
-    "weak_relevance": 230,
+    "duplicate": 1379,
+    "history_duplicate": 30,
+    "weak_relevance": 233,
     "same_source_limit": 0,
-    "china_limit": 7,
+    "china_limit": 6,
     "auto_china_limit": 0,
-    "old_news": 3207,
+    "old_news": 3189,
     "same_entity_limit": 187,
     "similar_selected": 0,
     "company_research_limit": 0,
