@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-23T06:16:02.689550+08:00",
+  "generated_at": "2026-07-23T07:14:22.964640+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 152,
-    "history_size_after": 151,
+    "history_size_before": 151,
+    "history_size_after": 152,
     "history_duplicate_count": 46
   },
-  "raw_item_count": 5245,
-  "deduped_item_count": 3891,
-  "filtered_item_count": 446,
+  "raw_item_count": 5219,
+  "deduped_item_count": 3870,
+  "filtered_item_count": 445,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -146,35 +146,38 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "2026年AI算力电源科普解读：数据中心供电的核心指标与选型 - 新浪网",
-      "summary": "2026年AI算力电源科普解读：数据中心供电的核心指标与选型 新浪网",
+      "title": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 - thepaper.cn",
+      "summary": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 thepaper.cn",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-07-22T11:22:11+08:00",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRzJYMVhScEF3N3hOUEtwZk1COWVXUjkzcERjdEtTYkZZaElPOWFVMHhhazQ5dnlOS2d3emFGWmZPamc3ellhTXhjTTgxOEZ0NXpJc0VzYWhHc01SR2w0NWJJaXpsQ3lkYmtpNzlxaW50VjR4UUxocjlXV2VJeDQ?oc=5",
+      "published_at": "2026-07-21T21:31:00+08:00",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "power_electronics",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "power_electronics",
-        "obc",
-        "dcdc"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
         "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
+        "coding",
+        "coding_agent",
+        "research"
       ],
-      "category": "OBC/DCDC",
-      "dedupe_key": "2026年ai算力电源科普解读 数据中心供电的核心指标与选型",
-      "canonical_key": "2026年ai算力电源科普解读 数据中心供电的核心指标与选型",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRzJYMVhScEF3N3hOUEtwZk1COWVXUjkzcERjdEtTYkZZaElPOWFVMHhhazQ5dnlOS2d3emFGWmZPamc3ellhTXhjTTgxOEZ0NXpJc0VzYWhHc01SR2w0NWJJaXpsQ3lkYmtpNzlxaW50VjR4UUxocjlXV2VJeDQ?oc=5",
-      "score": 75,
+      "category": "AI编程工具",
+      "dedupe_key": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
+      "canonical_key": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
+      "score": 85,
       "selection_reason": "china_quota"
     },
     {
@@ -208,14 +211,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1354,
+    "duplicate": 1349,
     "history_duplicate": 46,
-    "weak_relevance": 218,
+    "weak_relevance": 217,
     "same_source_limit": 0,
     "china_limit": 11,
     "auto_china_limit": 0,
-    "old_news": 3227,
-    "same_entity_limit": 188,
+    "old_news": 3208,
+    "same_entity_limit": 190,
     "similar_selected": 0,
     "company_research_limit": 7,
     "auto_driving_limit": 0,

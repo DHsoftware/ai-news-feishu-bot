@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T06:16:02.689550+08:00",
+  "updated_at": "2026-07-23T07:14:22.964640+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5411,7 +5411,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5448,7 +5448,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5492,7 +5492,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5561,6 +5561,45 @@
           "benchmark",
           "incident",
           "llm"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-22",
+      "last_seen_date": "2026-07-22",
+      "canonical_key": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
+      "normalized_title": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
+      "title": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 - thepaper.cn",
+      "summary": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "chip",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "chip",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1
