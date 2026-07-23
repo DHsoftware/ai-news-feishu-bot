@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T07:14:22.964640+08:00",
+  "updated_at": "2026-07-24T06:14:41.340613+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,198 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-22",
-      "last_seen_date": "2026-06-22",
-      "canonical_key": "codex maxxing for long",
-      "normalized_title": "codex maxxing for long",
-      "normalized_link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "title": "Codex-maxxing for long-running work",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-22",
-      "last_seen_date": "2026-06-22",
-      "canonical_key": "why ai paper tablets are becoming serious productivity tools",
-      "normalized_title": "why ai paper tablets are becoming serious productivity tools",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlgzdWFRRjJqNUxOejd0YTgza0Q0dEZJLUNJU1dtcWNLT2wzbjg5bzdpU3l3eFZqNUowdG9iUVpzYjNJWUt3ellIY0JXV3FRTksyemZPV0NkU3lfWnVHZXV6NEdwcms2Vm5JVU9YcENhTW1zSTgtU2YzVm45SGYwSWluWEJWSFZOT18tOUpIdURORVd1Vmdud1VB?oc=5",
-      "title": "Why AI paper tablets are becoming serious productivity tools - TechRadar",
-      "summary": "Why AI paper tablets are becoming serious productivity tools TechRadar",
-      "source": "TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlgzdWFRRjJqNUxOejd0YTgza0Q0dEZJLUNJU1dtcWNLT2wzbjg5bzdpU3l3eFZqNUowdG9iUVpzYjNJWUt3ellIY0JXV3FRTksyemZPV0NkU3lfWnVHZXV6NEdwcms2Vm5JVU9YcENhTW1zSTgtU2YzVm45SGYwSWluWEJWSFZOT18tOUpIdURORVd1Vmdud1VB?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-22",
-      "last_seen_date": "2026-06-22",
-      "canonical_key": "立即报名 赋能ai 数据中心 英飞凌ai电源参考设计系列研讨会",
-      "normalized_title": "立即报名 赋能ai 数据中心 英飞凌ai电源参考设计系列研讨会",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWG1YckhOZEFYOWtKc1dGb2lnZ2hvTGp1UTBqd0k1ZEIzeVJNMkkyaDFpVlB2RXg1T1VVUU9OcGJKQ1VsQnVyWGtOdlY3eDBsSVBJ?oc=5",
-      "title": "立即报名！赋能AI 数据中心 | 英飞凌AI电源参考设计系列研讨会 - 电子工程专辑",
-      "summary": "立即报名！赋能AI 数据中心 | 英飞凌AI电源参考设计系列研讨会 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWG1YckhOZEFYOWtKc1dGb2lnZ2hvTGp1UTBqd0k1ZEIzeVJNMkkyaDFpVlB2RXg1T1VVUU9OcGJKQ1VsQnVyWGtOdlY3eDBsSVBJ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "design_guide",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "design_guide",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-22",
-      "last_seen_date": "2026-06-22",
-      "canonical_key": "氪星晚报 赢创计划全球裁员3200人 台积电28nm较年初减产25 三星电子向韩国所有员工开放chatgpt和codex",
-      "normalized_title": "氪星晚报 赢创计划全球裁员3200人 台积电28nm较年初减产25 三星电子向韩国所有员工开放chatgpt和codex",
-      "normalized_link": "https://36kr.com/p/3864065855706120?f=rss",
-      "title": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex",
-      "summary": "大公司： 赢创计划全球裁员3200人 赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁员数量尚未明确。“赢创定制”计划于2023年10月推出，原定目标为2026年底前累计削减约2800个岗位。今年5月，赢创曾表示该计划进展顺利并将实现既定降本目标。 韩国考虑对三星和SK海力士杠杆ETF采取单独措施 韩国金融监督院院长Lee Chan-jin表示，由于散户投资者对高风险产品的需求没有降温迹…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3864065855706120?f=rss",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "regulation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "availability",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "policy_regulation",
-          "regulation",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-22",
-      "last_seen_date": "2026-06-22",
-      "canonical_key": "from pledge to practice building a more inclusive open source ecosystem",
-      "normalized_title": "from pledge to practice building a more inclusive open source ecosystem",
-      "normalized_link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem",
-      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-      "summary": "Last year, GitHub took a pledge to help improve the accessibility of open source , centered on three goals: Empower people with disabilities to contribute to open source. Increase the availability and adoption of open source assistive technologies. Improve the accessibility of mainstream open sourc…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-23",
@@ -5452,7 +5260,7 @@
     },
     {
       "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
+      "last_seen_date": "2026-07-23",
       "canonical_key": "nvidia open sources first gpu accelerated medical physics simulation framework",
       "normalized_title": "nvidia open sources first gpu accelerated medical physics simulation framework",
       "normalized_link": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source",
@@ -5492,7 +5300,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5529,7 +5337,7 @@
     },
     {
       "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
+      "last_seen_date": "2026-07-23",
       "canonical_key": "openai says its ai agent broke out of testing sandbox to hack hugging face",
       "normalized_title": "openai says its ai agent broke out of testing sandbox to hack hugging face",
       "normalized_link": "https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack",
@@ -5563,7 +5371,7 @@
           "llm"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5597,6 +5405,118 @@
           "agentic_ai",
           "ai_agent",
           "chip",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-23",
+      "last_seen_date": "2026-07-23",
+      "canonical_key": "ntt data group cuts incident analysis to 30 minutes with codex",
+      "normalized_title": "ntt data group cuts incident analysis to 30 minutes with codex",
+      "normalized_link": "https://openai.com/index/ntt-data",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/ntt-data",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "incident",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-23",
+      "last_seen_date": "2026-07-23",
+      "canonical_key": "腾讯qclaw并入workbuddy agent大战进入整合时代 谁能成为下一个办公入口",
+      "normalized_title": "腾讯qclaw并入workbuddy agent大战进入整合时代 谁能成为下一个办公入口",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yNUlXR0M1SE9LS240YUlIQ0twNE9hSmpYWDg5MGJMQ2NVLTg4OFdFaDFYS2ltaTBrLTFyZks4ZFB4NWY5dl9EaUtzR3V6c1h5R25ReC1fZw?oc=5",
+      "title": "腾讯QClaw并入WorkBuddy：Agent大战进入整合时代，谁能成为下一个办公入口？ - 光通信Pro",
+      "summary": "腾讯QClaw并入WorkBuddy：Agent大战进入整合时代，谁能成为下一个办公入口？ 光通信Pro",
+      "source": "光通信Pro",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yNUlXR0M1SE9LS240YUlIQ0twNE9hSmpYWDg5MGJMQ2NVLTg4OFdFaDFYS2ltaTBrLTFyZks4ZFB4NWY5dl9EaUtzR3V6c1h5R25ReC1fZw?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-23",
+      "last_seen_date": "2026-07-23",
+      "canonical_key": "西门子eigen工程智能体的工业ai命题",
+      "normalized_title": "西门子eigen工程智能体的工业ai命题",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rT3dUVXlqa1lLSzIydTZ3cjlHRVBPdDRmMzR6Rk1YaUVsa0h4Zm91MS0zNi16eG9zLXplWkw2N1ZJeHJ1ZjR3U0plc0hXd2dTZWtBbkk5VHN5Qlh4aFE?oc=5",
+      "title": "西门子Eigen工程智能体的工业AI命题 - thepaper.cn",
+      "summary": "西门子Eigen工程智能体的工业AI命题 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rT3dUVXlqa1lLSzIydTZ3cjlHRVBPdDRmMzR6Rk1YaUVsa0h4Zm91MS0zNi16eG9zLXplWkw2N1ZJeHJ1ZjR3U0plc0hXd2dTZWtBbkk5VHN5Qlh4aFE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
           "coding",
           "coding_agent",
           "research"
