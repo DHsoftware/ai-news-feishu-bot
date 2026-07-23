@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T06:14:41.340613+08:00",
+  "updated_at": "2026-07-24T07:09:38.208767+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5300,7 +5300,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-22",
@@ -5452,7 +5452,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-23",
@@ -5520,6 +5520,77 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-23",
+      "last_seen_date": "2026-07-23",
+      "canonical_key": "ai is redesigning work adecco group whitepaper reveals the need for hybrid workforce orchestration",
+      "normalized_title": "ai is redesigning work adecco group whitepaper reveals the need for hybrid workforce orchestration",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc3ZsY1VqdXhFUDlsdENoTmt2ZmJhN1dBc25UMmIwaExWQVN4aS15VHE3enZGd2JKUW5mOEsyY3U2bmZIaWVkZmdkcEtJSUkyNy0wSHhGLVZPTzFRSzJqODl3RTFIYWR6cjA0RDktTktjanBmZXllZzkzM3M5RHFGUHNmdkV6STRuZEVFQk4wQmkxbi03RXFWZ3FxZllacy1mSVZWb2dZNEtGeUhxSmoyWUFCTGRFaDZmM0lHN01DWnVFbHNPMHpYWjF0blVWWUFGeXZRbWZLbnhCVzliNzdLa2xoWEowaEt3emRQWEZ6SEs?oc=5",
+      "title": "AI is redesigning work: Adecco Group whitepaper reveals the need for hybrid workforce orchestration - Morningstar",
+      "summary": "AI is redesigning work: Adecco Group whitepaper reveals the need for hybrid workforce orchestration Morningstar",
+      "source": "Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc3ZsY1VqdXhFUDlsdENoTmt2ZmJhN1dBc25UMmIwaExWQVN4aS15VHE3enZGd2JKUW5mOEsyY3U2bmZIaWVkZmdkcEtJSUkyNy0wSHhGLVZPTzFRSzJqODl3RTFIYWR6cjA0RDktTktjanBmZXllZzkzM3M5RHFGUHNmdkV6STRuZEVFQk4wQmkxbi03RXFWZ3FxZllacy1mSVZWb2dZNEtGeUhxSmoyWUFCTGRFaDZmM0lHN01DWnVFbHNPMHpYWjF0blVWWUFGeXZRbWZLbnhCVzliNzdLa2xoWEowaEt3emRQWEZ6SEs?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "whitepaper",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "whitepaper",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-23",
+      "last_seen_date": "2026-07-23",
+      "canonical_key": "借助6 kw 12 kw和20 kw电源传输板 st为ai数据中心提供800v hvdc nvidia 英伟达 gpu cpu 机架_手机新浪网",
+      "normalized_title": "借助6 kw 12 kw和20 kw电源传输板 st为ai数据中心提供800v hvdc nvidia 英伟达 gpu cpu 机架_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNRmZxQ3ZDZmZTbkhCalFDVklsakJWYmZ3eHlCZkJlRmJXVjc4UTA3a1B2NkRvNFNnWGo5MGx1dEg3NlY2WjAwVzJEdkc3ZmY5amNIaHhDNUVVTlo0N1U0MHdMdUI2ZE9vWGZnSnFfNnBkLVZ0YjhmR0M4ZlprVGh4QzU5SzBSbExjUE83ZmRpd0JoeW5lRklwWW5YSnFEOFQ4SUJQZmNUZ3RKOGtBLTd5clNPLW45OURUZEdENTFCemgzUm5NS0dlaW9vZ2lLdmMwTUdBYTRmdkdaRzI2bjROVkdlQ3JYa1FnUG5WZGFnSmVGc2NreFlmNnFzMGxqZWpNdGZ0MFAtb2dYcURNVjNN?oc=5",
+      "title": "借助6 kW、12 kW和20 kW电源传输板，ST为AI数据中心提供800V HVDC|NVIDIA|英伟达|GPU|CPU|机架_手机新浪网 - 新浪财经",
+      "summary": "借助6 kW、12 kW和20 kW电源传输板，ST为AI数据中心提供800V HVDC|NVIDIA|英伟达|GPU|CPU|机架_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNRmZxQ3ZDZmZTbkhCalFDVklsakJWYmZ3eHlCZkJlRmJXVjc4UTA3a1B2NkRvNFNnWGo5MGx1dEg3NlY2WjAwVzJEdkc3ZmY5amNIaHhDNUVVTlo0N1U0MHdMdUI2ZE9vWGZnSnFfNnBkLVZ0YjhmR0M4ZlprVGh4QzU5SzBSbExjUE83ZmRpd0JoeW5lRklwWW5YSnFEOFQ4SUJQZmNUZ3RKOGtBLTd5clNPLW45OURUZEdENTFCemgzUm5NS0dlaW9vZ2lLdmMwTUdBYTRmdkdaRzI2bjROVkdlQ3JYa1FnUG5WZGFnSmVGc2NreFlmNnFzMGxqZWpNdGZ0MFAtb2dYcURNVjNN?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia",
+          "st"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
         ]
       },
       "seen_count": 1
