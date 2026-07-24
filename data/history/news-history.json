@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T06:18:28.620947+08:00",
+  "updated_at": "2026-07-25T07:14:35.161822+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4754,7 +4754,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5471,7 +5471,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-24",
@@ -5506,7 +5506,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-24",
@@ -5591,6 +5591,77 @@
           "ai_research",
           "company_research",
           "research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "慧智微电子沃斯堡工厂开幕 黄仁勋出席见证nvidia ai系统量产 ai基础设施",
+      "normalized_title": "慧智微电子沃斯堡工厂开幕 黄仁勋出席见证nvidia ai系统量产 ai基础设施",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mNjF6bjhveEdrMm5GZVNIMlJjblBSeEQ4TTNzbm0xS2w2eUdVRGRMbHlNbUhGT2tocHlxN0pWUk9adFI2dHB5Qzk5M2xMVnNCbmRwc21SaktyR3lScERIYm01NFdoekdaeUMybmpwMmNXUQ?oc=5",
+      "title": "慧智微电子沃斯堡工厂开幕，黄仁勋出席见证NVIDIA AI系统量产-AI基础设施 - 至顶网",
+      "summary": "慧智微电子沃斯堡工厂开幕，黄仁勋出席见证NVIDIA AI系统量产-AI基础设施 至顶网",
+      "source": "至顶网",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mNjF6bjhveEdrMm5GZVNIMlJjblBSeEQ4TTNzbm0xS2w2eUdVRGRMbHlNbUhGT2tocHlxN0pWUk9adFI2dHB5Qzk5M2xMVnNCbmRwc21SaktyR3lScERIYm01NFdoekdaeUMybmpwMmNXUQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "the case for a cooldown why dependabot now waits before issuing version updates",
+      "normalized_title": "the case for a cooldown why dependabot now waits before issuing version updates",
+      "normalized_link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates",
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "summary": "In September 2025, an attacker phished the credentials of a single npm maintainer and published booby-trapped versions of chalk , debug , and around a dozen other packages that are together downloaded more than 2 billion times a week. The code rewrote cryptocurrency wallet addresses inside any brow…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
           "technical_blog"
         ]
       },
