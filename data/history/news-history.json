@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T07:09:38.208767+08:00",
+  "updated_at": "2026-07-25T06:18:28.620947+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -122,163 +122,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-23",
-      "canonical_key": "腾讯qq邮箱推出agently mail 打通ai自动办公 可自主完成收发邮件 商务对接",
-      "normalized_title": "腾讯qq邮箱推出agently mail 打通ai自动办公 可自主完成收发邮件 商务对接",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tVmFGanpUaXpoeDE3STN3YVFOOWhHdUx4ZkZ2Q1RhMDBwNUNZaVNVeXRDRDU3YXROU093bGNQWUYwYkNVREVfQTBXcnZ2VWQyR1NsYW1YcjE?oc=5",
-      "title": "腾讯QQ邮箱推出Agently Mail！打通AI自动办公：可自主完成收发邮件、商务对接 - 驱动之家",
-      "summary": "腾讯QQ邮箱推出Agently Mail！打通AI自动办公：可自主完成收发邮件、商务对接 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tVmFGanpUaXpoeDE3STN3YVFOOWhHdUx4ZkZ2Q1RhMDBwNUNZaVNVeXRDRDU3YXROU093bGNQWUYwYkNVREVfQTBXcnZ2VWQyR1NsYW1YcjE?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-23",
-      "canonical_key": "stmicroelectronics unveils new compact direct time of flight 3d lidar module bringing high resolution spatial awareness to compact edge ai systems with industry leading resolution and performance",
-      "normalized_title": "stmicroelectronics unveils new compact direct time of flight 3d lidar module bringing high resolution spatial awareness to compact edge ai systems with industry leading resolution and performance",
-      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96aENzbk1jNXZSazJoM0NkZWprWmx1MXVCUFZXR1U2UktxM2d2bzB1WFJCMUNwY0xrc0NIRGs5ckhvV0lMU0FoZkdWTU5HUUxBWjhaTEU0djNXbXh5RkU0Z3BodW5YeEFTUlp5MGJ6OEQ?oc=5",
-      "title": "STMicroelectronics unveils new compact direct Time-of-Flight 3D LiDAR module bringing high-resolution spatial awareness to compact edge AI systems with industry-leading resolution and performance - STMicroelectronics",
-      "summary": "STMicroelectronics unveils new compact direct Time-of-Flight 3D LiDAR module bringing high-resolution spatial awareness to compact edge AI systems with industry-leading resolution and performance STMicroelectronics",
-      "source": "STMicroelectronics",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96aENzbk1jNXZSazJoM0NkZWprWmx1MXVCUFZXR1U2UktxM2d2bzB1WFJCMUNwY0xrc0NIRGs5ckhvV0lMU0FoZkdWTU5HUUxBWjhaTEU0djNXbXh5RkU0Z3BodW5YeEFTUlp5MGJ6OEQ?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "st"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-23",
-      "canonical_key": "openai推出 修补地球 计划 用ai助力开源社区提升网络安全",
-      "normalized_title": "openai推出 修补地球 计划 用ai助力开源社区提升网络安全",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVlQNk52cll3ZzQzTHpGcVRVZjJIVkNEQVBvdGYwdXQxUFdEXzZ2UjF1c243c2tUcEU0ZVp1Nk5vaEVnUm1nRnJXb2FuYk1xbWdaNVI1YzBFMkRUVllLOUdDX0VmOVVxNXZZdUxWQUZ5QTNyRGhIYVlwU05uZWRDMUp4RVUwSDFvVl9WYUlSV0gyMUZHTFJ6TUtFSlRxZE82TFNncG1laGcxSmlRellYNVFR?oc=5",
-      "title": "OpenAI推出“修补地球”计划，用AI助力开源社区提升网络安全 - 新浪财经",
-      "summary": "OpenAI推出“修补地球”计划，用AI助力开源社区提升网络安全 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVlQNk52cll3ZzQzTHpGcVRVZjJIVkNEQVBvdGYwdXQxUFdEXzZ2UjF1c243c2tUcEU0ZVp1Nk5vaEVnUm1nRnJXb2FuYk1xbWdaNVI1YzBFMkRUVllLOUdDX0VmOVVxNXZZdUxWQUZ5QTNyRGhIYVlwU05uZWRDMUp4RVUwSDFvVl9WYUlSV0gyMUZHTFJ6TUtFSlRxZE82TFNncG1laGcxSmlRellYNVFR?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "opensource",
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-23",
-      "canonical_key": "openai says new gpt 5 5 cyber outperforms anthropic s mythos on cybersecurity benchmark",
-      "normalized_title": "openai says new gpt 5 5 cyber outperforms anthropic s mythos on cybersecurity benchmark",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXF2a1NjeU5JcEdNYXBrZTVXOWdTVVJGdjNVTFFtVW1scnVNSjhOd3lGVEtFUVljWjlNam5wLXJNTGh1NnNIaFNNVUQyekR0UWNsRU5NN2NFVWVtQV9wRWJoeUxxU3BfeXRHYWJwOXg0TWFyNmROcThVUVRxaGdKNS15MVFvaEF2OGtuR3FmLWRyMXJFeXJUUVZqQTJpVURoQWFhZVQ1ZU4xS3ZjcFZhSw?oc=5",
-      "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark - The Decoder",
-      "summary": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark The Decoder",
-      "source": "The Decoder",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbXF2a1NjeU5JcEdNYXBrZTVXOWdTVVJGdjNVTFFtVW1scnVNSjhOd3lGVEtFUVljWjlNam5wLXJNTGh1NnNIaFNNVUQyekR0UWNsRU5NN2NFVWVtQV9wRWJoeUxxU3BfeXRHYWJwOXg0TWFyNmROcThVUVRxaGdKNS15MVFvaEF2OGtuR3FmLWRyMXJFeXJUUVZqQTJpVURoQWFhZVQ1ZU4xS3ZjcFZhSw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "benchmark",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "benchmark",
-          "coding",
-          "coding_agent",
-          "model_capability",
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-24",
@@ -4874,7 +4717,7 @@
     },
     {
       "first_seen_date": "2026-07-20",
-      "last_seen_date": "2026-07-21",
+      "last_seen_date": "2026-07-24",
       "canonical_key": "post train nvidia cosmos 3 in one day using agent skills",
       "normalized_title": "post train nvidia cosmos 3 in one day using agent skills",
       "normalized_link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
@@ -4911,7 +4754,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-07-20",
@@ -5591,6 +5434,164 @@
           "dcdc",
           "obc",
           "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "paper raises 34 million series a to build design platform for the agentic era",
+      "normalized_title": "paper raises 34 million series a to build design platform for the agentic era",
+      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzh5dkFmNTcxTFhabll5X0h4b1JQVU1vbHVoSXhhU2ZuaVV6VVpSM3ZpVWwzY1BNX19fYms2OWlTLUxwUlM0MWNIdUlhTEVaYmI2Z0tkaTl5aUVDaVdyRUN5Q3R0RzdxUjVRSXpicE11RnZ6TmxSMl9rTzRDUnlvaTJWNTVjRV9WXzRraS0yZFVJaVE1SndPUG1IaXRSUdIBowFBVV95cUxOVHIzenJOM0QxUkVOcXZwb2RoNElxd2lPTjBzZG1YYkxmb3Axdmt0V09TQXpXNFE0RHg5VU9NbHNMS00zMS0zTHZrVU5lZDhuYXdvY0lvRkVKT1NrTDFyeFNTelg1bFVOQzE1aHp6aVBkYy1sVm1ZSU9XT1lveWhLUjRoWVJQbGVjNTk0TW9pTFp4eTRuSHI3bnFlQU90MGhQMmFV?oc=5",
+      "title": "Paper Raises $34 Million Series A To Build Design Platform For The Agentic Era - Pulse 2.0",
+      "summary": "Paper Raises $34 Million Series A To Build Design Platform For The Agentic Era Pulse 2.0",
+      "source": "Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzh5dkFmNTcxTFhabll5X0h4b1JQVU1vbHVoSXhhU2ZuaVV6VVpSM3ZpVWwzY1BNX19fYms2OWlTLUxwUlM0MWNIdUlhTEVaYmI2Z0tkaTl5aUVDaVdyRUN5Q3R0RzdxUjVRSXpicE11RnZ6TmxSMl9rTzRDUnlvaTJWNTVjRV9WXzRraS0yZFVJaVE1SndPUG1IaXRSUdIBowFBVV95cUxOVHIzenJOM0QxUkVOcXZwb2RoNElxd2lPTjBzZG1YYkxmb3Axdmt0V09TQXpXNFE0RHg5VU9NbHNMS00zMS0zTHZrVU5lZDhuYXdvY0lvRkVKT1NrTDFyeFNTelg1bFVOQzE1aHp6aVBkYy1sVm1ZSU9XT1lveWhLUjRoWVJQbGVjNTk0TW9pTFp4eTRuSHI3bnFlQU90MGhQMmFV?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "如何评估绿色算力 ai与能源双向赋能既看能效 也要看碳效",
+      "normalized_title": "如何评估绿色算力 ai与能源双向赋能既看能效 也要看碳效",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNR0h5Wmprd3VnSVNmWUNYdXNRbURVbHI0UjNzX0RXcTV1WUVuTkxvMFNVTnZsNVN0SGoxdUM1NlFCcHE2RFZxU0hZeDlheGJfRzh6RjZlZXliYkRMcGc?oc=5",
+      "title": "如何评估绿色算力？AI与能源双向赋能既看能效，也要看碳效 - thepaper.cn",
+      "summary": "如何评估绿色算力？AI与能源双向赋能既看能效，也要看碳效 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNR0h5Wmprd3VnSVNmWUNYdXNRbURVbHI0UjNzX0RXcTV1WUVuTkxvMFNVTnZsNVN0SGoxdUM1NlFCcHE2RFZxU0hZeDlheGJfRzh6RjZlZXliYkRMcGc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "openai大模型失控 入侵全球最大ai开源社区 多亏中国大模型来救场",
+      "normalized_title": "openai大模型失控 入侵全球最大ai开源社区 多亏中国大模型来救场",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4ZnBZd3BINjc4WFlDb0t2STEzSFhiMXVuRXhITlowa1ZCV3ZyaE9pR2l6TEhiSU90MS1sNmhWVHp0U19LbTU1akl3UkZQeXJqZFZxWFg5UEdQaUFfSUo0ZmRR?oc=5",
+      "title": "OpenAI大模型失控，入侵全球最大AI开源社区！多亏中国大模型来救场 - 手机网易网",
+      "summary": "OpenAI大模型失控，入侵全球最大AI开源社区！多亏中国大模型来救场 手机网易网",
+      "source": "手机网易网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4ZnBZd3BINjc4WFlDb0t2STEzSFhiMXVuRXhITlowa1ZCV3ZyaE9pR2l6TEhiSU90MS1sNmhWVHp0U19LbTU1akl3UkZQeXJqZFZxWFg5UEdQaUFfSUo0ZmRR?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "llm",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "llm",
+          "model_capability",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-24",
+      "canonical_key": "at ai summit south korea outlines its ai future with nvidia and partners",
+      "normalized_title": "at ai summit south korea outlines its ai future with nvidia and partners",
+      "normalized_link": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia",
+      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+      "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month , t…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "partnership",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
