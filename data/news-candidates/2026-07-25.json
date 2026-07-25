@@ -1,6 +1,6 @@
 {
   "date": "2026-07-25",
-  "generated_at": "2026-07-26T06:10:37.760298+08:00",
+  "generated_at": "2026-07-26T07:09:41.951421+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 154,
+    "history_size_before": 151,
     "history_size_after": 151,
     "history_duplicate_count": 21
   },
   "raw_item_count": 5262,
-  "deduped_item_count": 3941,
-  "filtered_item_count": 269,
+  "deduped_item_count": 3940,
+  "filtered_item_count": 264,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -80,9 +80,9 @@
       "summary": "AI Workflow Resource Platforms Trend Hunter",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-07-26T06:05:59+08:00",
+      "published_at": "2026-07-26T06:07:28+08:00",
       "source": "Trend Hunter",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VTEdsdFg4V1A2bEZ0WVl4OVlxM1ZLYmtvUHdMTFNEazM3Z3VRWWhDQ1Z2bnJPbDlnb1lfOW9PSU9pWGktUi1vX0gyZTV3UFFLZS15WU4xWGdRV1Bq0gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LQTNqYWxHeWN3V3MydWhaYThTMUZPdExydV9aQVR1Vl9tY1kxakozeXN3MGdtYnB4cUt2c2tvNWNWTDV4NXlBLVZqQk5YY0dkRUZYZ3hJZlNOUXhUMWlwRmR30gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "ai_agent",
@@ -105,7 +105,7 @@
       "category": "AI编程工具",
       "dedupe_key": "ai workflow resource platforms",
       "canonical_key": "ai workflow resource platforms",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VTEdsdFg4V1A2bEZ0WVl4OVlxM1ZLYmtvUHdMTFNEazM3Z3VRWWhDQ1Z2bnJPbDlnb1lfOW9PSU9pWGktUi1vX0gyZTV3UFFLZS15WU4xWGdRV1Bq0gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LQTNqYWxHeWN3V3MydWhaYThTMUZPdExydV9aQVR1Vl9tY1kxakozeXN3MGdtYnB4cUt2c2tvNWNWTDV4NXlBLVZqQk5YY0dkRUZYZ3hJZlNOUXhUMWlwRmR30gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
       "score": 59,
       "selection_reason": "required_productivity"
     },
@@ -202,14 +202,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1321,
+    "duplicate": 1322,
     "history_duplicate": 21,
-    "weak_relevance": 170,
+    "weak_relevance": 168,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3502,
-    "same_entity_limit": 35,
+    "old_news": 3508,
+    "same_entity_limit": 34,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
