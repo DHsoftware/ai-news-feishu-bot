@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T07:14:35.161822+08:00",
+  "updated_at": "2026-07-26T06:10:37.760298+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,268 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-23",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
-      "normalized_title": "github joins coalition advocating for fixes to california ai transparency act to protect open source",
-      "normalized_link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
-      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
-      "summary": "GitHub has joined an open source coalition of Black Forest Labs, Hugging Face, and Mozilla Corporation calling for targeted amendments to California’s AI Transparency Act ( SB 942 , as proposed to be amended in SB 1000 ). Read the full letter here . At issue is a narrow but important problem for de…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "迈克生物 全流程自动化及机器人技术可替代70 80 的人工操作",
-      "normalized_title": "迈克生物 全流程自动化及机器人技术可替代70 80 的人工操作",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVjaHVnWWNYOGF2M21meS1VR1hqMHB6SXY4Mmo2ZnRmRGJLUjcwcFRPVVl4d0ZldkFzZFAzbkpMWlRscUFwdkNwLXQ4dngxd1JLNldmT3RsMmh5UTFFR2dWX2VUZ2ZVcE8wM3hXZEZERWthZkVnZFFtcFFsZGpQNlFidGhIYUV4NHRtdQ?oc=5",
-      "title": "迈克生物：全流程自动化及机器人技术可替代70%~80%的人工操作 - 搜狐网",
-      "summary": "迈克生物：全流程自动化及机器人技术可替代70%~80%的人工操作 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVjaHVnWWNYOGF2M21meS1VR1hqMHB6SXY4Mmo2ZnRmRGJLUjcwcFRPVVl4d0ZldkFzZFAzbkpMWlRscUFwdkNwLXQ4dngxd1JLNldmT3RsMmh5UTFFR2dWX2VUZ2ZVcE8wM3hXZEZERWthZkVnZFFtcFFsZGpQNlFidGhIYUV4NHRtdQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "robotics",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "robotics",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "决胜下半场 优旦科技以ai 方案引领储能产业价值新风向",
-      "normalized_title": "决胜下半场 优旦科技以ai 方案引领储能产业价值新风向",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81WjQ4dE5DMnhGblh5SHJzb0JTQjJBOXdURm9TQzNMVlpTM18yclJCY2JIaGN2dlNhUFRrZV9PQWdBOEVhUkZBalZFXzZtSE1SZ0JSaE9MMFpxV1U3SmNUQnN2czdKOVIwZnhyUF9qNmtXaWVTY3o0RFZXS0h1RVk?oc=5",
-      "title": "决胜下半场 | 优旦科技以AI+方案引领储能产业价值新风向 - 新浪网",
-      "summary": "决胜下半场 | 优旦科技以AI+方案引领储能产业价值新风向 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81WjQ4dE5DMnhGblh5SHJzb0JTQjJBOXdURm9TQzNMVlpTM18yclJCY2JIaGN2dlNhUFRrZV9PQWdBOEVhUkZBalZFXzZtSE1SZ0JSaE9MMFpxV1U3SmNUQnN2czdKOVIwZnhyUF9qNmtXaWVTY3o0RFZXS0h1RVk?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "nvidia and aws collaborate to bring ai to production at scale",
-      "normalized_title": "nvidia and aws collaborate to bring ai to production at scale",
-      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale",
-      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
-      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across A…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "cloud",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "aws",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "expand",
-          "partnership",
-          "production"
-        ],
-        "topics": [
-          "ai_research",
-          "aws",
-          "chip",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "a new paper argues microsoft exaggerated its quantum claims a year ago",
-      "normalized_title": "a new paper argues microsoft exaggerated its quantum claims a year ago",
-      "normalized_link": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
-      "title": "A new paper argues Microsoft exaggerated its quantum claims a year ago",
-      "summary": "Microsoft’s Majorana 1 processor. | Image: Microsoft A critique published in Nature Wednesday calls the basic technology behind Microsoft's \"breakthrough\" quantum computing chip the Majorana 1 into question. Microsoft unveiled the chip in February 2025 and said it featured a brand-new technology kn…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "st"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "your enterprise ai agents should automatically remember which model is right for which task mindstone built the capability with rebel",
-      "normalized_title": "your enterprise ai agents should automatically remember which model is right for which task mindstone built the capability with rebel",
-      "normalized_link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSzk4ckVnNHRPQ1gybjRXRVY1U3h6YXJmOHlTUmpxWm93cXNMSEowREdIU0JfcDg3WWpPWHBqdGhCNXdMNFQ0MlRadE8zNEl1VFRPMTlNRFA1Rm9tS2Q3RVFINTNhT0tFZlcyallMVWNxVE9JOUplS1BfUnNEbnVRM04zVGFRUnNkRTdNaWt5bGNjUHgtb3kxdUZIcThuT1dwZGMzNWxrVFBaREFZRHJOYmlQMWZNN1hYX3Y2endReFZ3WFFaQmdUTFVxaVM2d0FheVNhR1dKUDNROWhwUmV3ZXp2T01mUXdGNEl0NVhjak1HTHVvbldwbkQzcWFqMGtR?oc=5",
-      "title": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel. - VentureBeat",
-      "summary": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel. VentureBeat",
-      "source": "VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSzk4ckVnNHRPQ1gybjRXRVY1U3h6YXJmOHlTUmpxWm93cXNMSEowREdIU0JfcDg3WWpPWHBqdGhCNXdMNFQ0MlRadE8zNEl1VFRPMTlNRFA1Rm9tS2Q3RVFINTNhT0tFZlcyallMVWNxVE9JOUplS1BfUnNEbnVRM04zVGFRUnNkRTdNaWt5bGNjUHgtb3kxdUZIcThuT1dwZGMzNWxrVFBaREFZRHJOYmlQMWZNN1hYX3Y2endReFZ3WFFaQmdUTFVxaVM2d0FheVNhR1dKUDNROWhwUmV3ZXp2T01mUXdGNEl0NVhjak1HTHVvbldwbkQzcWFqMGtR?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-24",
-      "last_seen_date": "2026-06-24",
-      "canonical_key": "每日瞰ai 火山引擎发布豆包2 1pro anthropic推出claude tag meta发布新代ai眼镜",
-      "normalized_title": "每日瞰ai 火山引擎发布豆包2 1pro anthropic推出claude tag meta发布新代ai眼镜",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43TzRCalRURVBTTzlSY0xLZUZQRmdfNThJOWl4bzAxUFRGel94WU5UeWo2Q2x0OUVROWZkeG42V1BpZjNyWHBGTG1mQm1XSFJJNjJB?oc=5",
-      "title": "【每日瞰AI】火山引擎发布豆包2.1Pro；Anthropic推出Claude Tag；Meta发布新代AI眼镜 - 电子工程专辑",
-      "summary": "【每日瞰AI】火山引擎发布豆包2.1Pro；Anthropic推出Claude Tag；Meta发布新代AI眼镜 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43TzRCalRURVBTTzlSY0xLZUZQRmdfNThJOWl4bzAxUFRGel94WU5UeWo2Q2x0OUVROWZkeG42V1BpZjNyWHBGTG1mQm1XSFJJNjJB?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-25",
@@ -5554,7 +5292,7 @@
     },
     {
       "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
+      "last_seen_date": "2026-07-25",
       "canonical_key": "at ai summit south korea outlines its ai future with nvidia and partners",
       "normalized_title": "at ai summit south korea outlines its ai future with nvidia and partners",
       "normalized_link": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia",
@@ -5594,7 +5332,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-24",
@@ -5663,6 +5401,148 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-25",
+      "last_seen_date": "2026-07-25",
+      "canonical_key": "ai workflow resource platforms",
+      "normalized_title": "ai workflow resource platforms",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VTEdsdFg4V1A2bEZ0WVl4OVlxM1ZLYmtvUHdMTFNEazM3Z3VRWWhDQ1Z2bnJPbDlnb1lfOW9PSU9pWGktUi1vX0gyZTV3UFFLZS15WU4xWGdRV1Bq0gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
+      "title": "AI Workflow Resource Platforms - Trend Hunter",
+      "summary": "AI Workflow Resource Platforms Trend Hunter",
+      "source": "Trend Hunter",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VTEdsdFg4V1A2bEZ0WVl4OVlxM1ZLYmtvUHdMTFNEazM3Z3VRWWhDQ1Z2bnJPbDlnb1lfOW9PSU9pWGktUi1vX0gyZTV3UFFLZS15WU4xWGdRV1Bq0gFiQVVfeXFMTUtBM2phbEd5Y3dXczJ1aFphOFMxRk90THJ1X1pBVHVWX21jWTFqSjN5c3cwZ21icHhxS3Zza281Y1ZMNXg1eUEtVmpCTlhjR2RFRlhneElmU05ReFQxaXBGZHc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-25",
+      "last_seen_date": "2026-07-25",
+      "canonical_key": "why ai s next growth phase is redefining data center infrastructure",
+      "normalized_title": "why ai s next growth phase is redefining data center infrastructure",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVHFMd1hjWjVwM2NyN0V5cUdsS3UwbmVPaUxLcHd2dGRhdk5kalpua2pLRHlhN1VEWDY1NXFHdjZDV0szY0UzMDFTUmRXQXpyRzhpdndPWjNYQjhFT1JEUk9MSmp3V3ljYlVQdUtVYVI0X2hBWkNnNDRwcDZvRV9tZ1hhaHdTOHA0TFAzb1dhZ19FSDFvOFFJcl81RGw?oc=5",
+      "title": "Why AI's Next Growth Phase Is Redefining Data Center Infrastructure - Renesas Electronics",
+      "summary": "Why AI's Next Growth Phase Is Redefining Data Center Infrastructure Renesas Electronics",
+      "source": "Renesas Electronics",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVHFMd1hjWjVwM2NyN0V5cUdsS3UwbmVPaUxLcHd2dGRhdk5kalpua2pLRHlhN1VEWDY1NXFHdjZDV0szY0UzMDFTUmRXQXpyRzhpdndPWjNYQjhFT1JEUk9MSmp3V3ljYlVQdUtVYVI0X2hBWkNnNDRwcDZvRV9tZ1hhaHdTOHA0TFAzb1dhZ19FSDFvOFFJcl81RGw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-25",
+      "last_seen_date": "2026-07-25",
+      "canonical_key": "anthropic 推出claude cowork 专门处理办公室杂事的ai代理",
+      "normalized_title": "anthropic 推出claude cowork 专门处理办公室杂事的ai代理",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE51N3RMX1VyNzM3QnB6UEVvZlRTakFBSmpJX00xdnYyeFBTQlJoSnpLWnRBNXBwbUJSTVZnSS1CUl84V0FYbDFOQXpR?oc=5",
+      "title": "Anthropic重磅推出Claude Cowork：专门处理办公室杂事的AI代理 - 区块周刊BlockWeeks",
+      "summary": "Anthropic重磅推出Claude Cowork：专门处理办公室杂事的AI代理 区块周刊BlockWeeks",
+      "source": "区块周刊BlockWeeks",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE51N3RMX1VyNzM3QnB6UEVvZlRTakFBSmpJX00xdnYyeFBTQlJoSnpLWnRBNXBwbUJSTVZnSS1CUl84V0FYbDFOQXpR?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-25",
+      "last_seen_date": "2026-07-25",
+      "canonical_key": "deepseek不是理想主义公司 它只是把现实服务于理想",
+      "normalized_title": "deepseek不是理想主义公司 它只是把现实服务于理想",
+      "normalized_link": "https://36kr.com/p/3909084356433025?f=rss",
+      "title": "DeepSeek不是理想主义公司，它只是把现实服务于理想",
+      "summary": "DeepSeek的答案，不是只仰望星空，也不是只脚踏实地，而是用现实问题去支撑一个足够远的目标。 撰文 | 李嘉星 刘辰艺 编辑 | 张薇 头图来源 | DeepSeek 封面来源 | DeepSeek DeepSeek又一次被推到聚光灯下。 这家公司一度几乎是AI圈最神秘的存在：工程师文化、低调，创始人很少公开露面，团队也不像典型互联网公司那样频繁讲故事、做传播。但过去一年，它几乎每隔一段时间就会成为中文科技圈的中心。模型发布时，它因为低成本和开源刷屏；融资消息传出时，它因为估值和投资方引发讨论；这一次，梁文锋一场近4小时的投资人交流会录音流出，又让外界重新审视这家公司。 这一次，外界看到…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3909084356433025?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "automotive",
+        "chip",
+        "opensource",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "automotive",
+          "chip",
+          "opensource",
+          "research",
+          "robotics"
         ]
       },
       "seen_count": 1
