@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T07:09:41.951421+08:00",
+  "updated_at": "2026-07-27T06:13:07.764778+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,184 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-25",
-      "last_seen_date": "2026-06-25",
-      "canonical_key": "daloopa expands financial data access with new mcp connector for microsoft 365 copilot integration bringing trusted financial data directly into ai workflows",
-      "normalized_title": "daloopa expands financial data access with new mcp connector for microsoft 365 copilot integration bringing trusted financial data directly into ai workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxONVZ0WW9McW5NNTMzWVFPVnpIRm83UC1qOVZkbTlPZUVSR3dqYnVocEhJVUZkVUoydm1sVW9xY1oyM2NaOVowT0FHRHExQ1RnMThFN0loaVltenR5ZzFoZDJ1M21ybUV1T3otMTJJMXYzQ0hLc3d4V2d3bWpvOEdoRVRNc1Nhck1SbzdUSjB2VjR3VkNyTDdZRzFaanhtaDZBS0RXQm9pVXladVhhVk5zY3VDU19XSWxCLTZQcGloNjdHOEI3eE13Ul96VWZGNTNUSV9oNlJXbTJGdUFSNVk3d095MkE3Q2wwdm15OUxpV3N6ZUk4Z3hfSnJLMUR3T1BzRXpHUXJzbEpBenhfdU1LQ0pfSUw5Wm0zMllsOG8xM2t3cWFqRENoaEE5MGlSQzZsTFNFUklLOEY?oc=5",
-      "title": "Daloopa expands financial data access with new MCP connector for Microsoft 365 Copilot integration, bringing trusted financial data directly into AI workflows - PR Newswire",
-      "summary": "Daloopa expands financial data access with new MCP connector for Microsoft 365 Copilot integration, bringing trusted financial data directly into AI workflows PR Newswire",
-      "source": "PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxONVZ0WW9McW5NNTMzWVFPVnpIRm83UC1qOVZkbTlPZUVSR3dqYnVocEhJVUZkVUoydm1sVW9xY1oyM2NaOVowT0FHRHExQ1RnMThFN0loaVltenR5ZzFoZDJ1M21ybUV1T3otMTJJMXYzQ0hLc3d4V2d3bWpvOEdoRVRNc1Nhck1SbzdUSjB2VjR3VkNyTDdZRzFaanhtaDZBS0RXQm9pVXladVhhVk5zY3VDU19XSWxCLTZQcGloNjdHOEI3eE13Ul96VWZGNTNUSV9oNlJXbTJGdUFSNVk3d095MkE3Q2wwdm15OUxpV3N6ZUk4Z3hfSnJLMUR3T1BzRXpHUXJzbEpBenhfdU1LQ0pfSUw5Wm0zMllsOG8xM2t3cWFqRENoaEE5MGlSQzZsTFNFUklLOEY?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot",
-          "mcp"
-        ],
-        "actions": [
-          "expand"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-25",
-      "last_seen_date": "2026-06-25",
-      "canonical_key": "onsemi to acquire synaptics to enable the next generation of intelligent systems for physical ai",
-      "normalized_title": "onsemi to acquire synaptics to enable the next generation of intelligent systems for physical ai",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSC1HWlIyR0VLR0VvdXhrZWZWdk5wUmhnUnZHZmtDSnFRTXo1THdvRnBaRlNTWU1vTTcxYXJVdWxxYWRyRGU0Z083RHk4ODN1dFBDbmNLLVJUWm5iVlg2UTl4NjBtdkF3cnhSbWpVVVB0WVdBdnY5YTR2SlplZmxGMFBkTkxoYU9RTllRU0JLQl9XdXN3WnhXS282VnJfZXZmVEJLWUZtZWRiS1hJSVRDVVlaQ2hMN0xTLUJuaTlBQU11LUxmcS1uLTcyYXJacXNkNE01YXF0ZS1XaUpKbGx2OTMtVmpPOXRDRlE?oc=5",
-      "title": "onsemi to Acquire Synaptics to Enable the Next Generation of Intelligent Systems for Physical AI - onsemi",
-      "summary": "onsemi to Acquire Synaptics to Enable the Next Generation of Intelligent Systems for Physical AI onsemi",
-      "source": "onsemi",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSC1HWlIyR0VLR0VvdXhrZWZWdk5wUmhnUnZHZmtDSnFRTXo1THdvRnBaRlNTWU1vTTcxYXJVdWxxYWRyRGU0Z083RHk4ODN1dFBDbmNLLVJUWm5iVlg2UTl4NjBtdkF3cnhSbWpVVVB0WVdBdnY5YTR2SlplZmxGMFBkTkxoYU9RTllRU0JLQl9XdXN3WnhXS282VnJfZXZmVEJLWUZtZWRiS1hJSVRDVVlaQ2hMN0xTLUJuaTlBQU11LUxmcS1uLTcyYXJacXNkNE01YXF0ZS1XaUpKbGx2OTMtVmpPOXRDRlE?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "onsemi"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-25",
-      "last_seen_date": "2026-06-25",
-      "canonical_key": "200块薅出1 4万算力 openai被薅秃了",
-      "normalized_title": "200块薅出1 4万算力 openai被薅秃了",
-      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9scHIyZTRLSzhHNFUwZnVaNlNSVmtLMzJMa1RWbi14QzBKbDBJb0J6WXNtemdfWlJPdjdVdHlKeXhIOEhSZnlMQm9Ta18tNmRhSjF3a1pnWG9ockxtdVNkbUhWUHdYYkM1Wmg4UHFydHF2Zw?oc=5",
-      "title": "200块薅出1.4万算力！OpenAI被薅秃了？ - thepaper.cn",
-      "summary": "200块薅出1.4万算力！OpenAI被薅秃了？ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9scHIyZTRLSzhHNFUwZnVaNlNSVmtLMzJMa1RWbi14QzBKbDBJb0J6WXNtemdfWlJPdjdVdHlKeXhIOEhSZnlMQm9Ta18tNmRhSjF3a1pnWG9ockxtdVNkbUhWUHdYYkM1Wmg4UHFydHF2Zw?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-25",
-      "last_seen_date": "2026-06-25",
-      "canonical_key": "美团longcat开源 vitabench2 0",
-      "normalized_title": "美团longcat开源 vitabench2 0",
-      "normalized_link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
-      "title": "美团LongCat开源 VitaBench2.0",
-      "summary": "36氪获悉，自去年10月发布了VitaBench 1.0，美团LongCat团队再次推出VitaBench 2.0。VitaBench 2.0是首个真实生活场景下面向长期动态用户建模的智能体评测基准，它系统性地评测大语言模型在长期、真实、动态的用户互动中个性化与主动性的能力。",
-      "source": "36氪",
-      "link": "https://36kr.com/newsflashes/3868549148349700?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "benchmark",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "benchmark",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-25",
-      "last_seen_date": "2026-06-25",
-      "canonical_key": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
-      "normalized_title": "openai与博通联合发布首款定制ai推理芯片jalapeño 9个月完成流片",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
-      "title": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 - 电子工程专辑",
-      "summary": "OpenAI与博通联合发布首款定制AI推理芯片Jalapeño，9个月完成流片 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVTRtalFDa3dqZ0FjUlM5THZZR3ZnM0dxb2Z4UE5wZ1N5VDBuYTVGSktGNDdsTDVVVzFvNENPOUdOcnQ1S2xTVl9tZmdhTzYyXzNKRVRsQUJIdUIy?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "chip",
-          "inference"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-26",
@@ -5546,6 +5368,194 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-26",
+      "last_seen_date": "2026-07-26",
+      "canonical_key": "naver nvidia and brookfield to expand korea s national ai factory infrastructure buildout",
+      "normalized_title": "naver nvidia and brookfield to expand korea s national ai factory infrastructure buildout",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUgwcXB5cWpkN0hwSFBabzVzQ3ZRYzJiVFRCblk2REpiM1J4X2xzTHJuSnR3UU5XRkluWkw4VEhFTWRJWjlrVkdwMTdZdzR0SG9JbURhZzBjV2dnNnZyTUZibXdvbHZXdmc4SFZPakgzcVZtOERNdmNzYUhyd3FEenFkc2N2VGJUaWRFSDNQSmNjTTh1M3k5a1J1MDJNZm9uQVdYWVA5MWlVUHJkOW4zazdhNE5OSzFVVGdfajFoMWM?oc=5",
+      "title": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout - NVIDIA Newsroom",
+      "summary": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout NVIDIA Newsroom",
+      "source": "NVIDIA Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUgwcXB5cWpkN0hwSFBabzVzQ3ZRYzJiVFRCblk2REpiM1J4X2xzTHJuSnR3UU5XRkluWkw4VEhFTWRJWjlrVkdwMTdZdzR0SG9JbURhZzBjV2dnNnZyTUZibXdvbHZXdmc4SFZPakgzcVZtOERNdmNzYUhyd3FEenFkc2N2VGJUaWRFSDNQSmNjTTh1M3k5a1J1MDJNZm9uQVdYWVA5MWlVUHJkOW4zazdhNE5OSzFVVGdfajFoMWM?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_factory",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-26",
+      "last_seen_date": "2026-07-26",
+      "canonical_key": "agentic ai moves from pilot to production in enterprise ops",
+      "normalized_title": "agentic ai moves from pilot to production in enterprise ops",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRnNfVEtmN0VkcTZ5RDUxQlZaWDFTN1dyQ1pnRUlNYUtUT0x0amh4RHkxcmwtMVNfUkxsS3JVc29vLXNBSzd0XzBMYlpSX2ZGQnZIQ3JMNnNPamJ6UjJHZWRrM19kbDhrM2VNVmFjUEdJdlAwRzJLeW5NbEZDd1pIbXppcGdmUGd6NXpHZmtNa0JKUlVjVTZJRGR2YkVkanh0alBNcWFWekNJVE5CRURJRTZLdG4xM2JVNFhpUWRpTzFob2U0Y21BWmZadEtieTNncF80NHE3c0o2S1R2Y2NMamVjcEpMTE1WMXNhc095Mjhtb2hENUxtMXoxb3hFVjB4bmRUWTNDRWlLdw?oc=5",
+      "title": "Agentic AI moves from pilot to production in enterprise ops - MarketScale",
+      "summary": "Agentic AI moves from pilot to production in enterprise ops MarketScale",
+      "source": "MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRnNfVEtmN0VkcTZ5RDUxQlZaWDFTN1dyQ1pnRUlNYUtUT0x0amh4RHkxcmwtMVNfUkxsS3JVc29vLXNBSzd0XzBMYlpSX2ZGQnZIQ3JMNnNPamJ6UjJHZWRrM19kbDhrM2VNVmFjUEdJdlAwRzJLeW5NbEZDd1pIbXppcGdmUGd6NXpHZmtNa0JKUlVjVTZJRGR2YkVkanh0alBNcWFWekNJVE5CRURJRTZLdG4xM2JVNFhpUWRpTzFob2U0Y21BWmZadEtieTNncF80NHE3c0o2S1R2Y2NMamVjcEpMTE1WMXNhc095Mjhtb2hENUxtMXoxb3hFVjB4bmRUWTNDRWlLdw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-26",
+      "last_seen_date": "2026-07-26",
+      "canonical_key": "pcim研讨会 800v hvdc sst 垂直供电与封装 英飞凌 施耐德 台达 浙大共探ai数据中心供电架构grid to chip链路重构",
+      "normalized_title": "pcim研讨会 800v hvdc sst 垂直供电与封装 英飞凌 施耐德 台达 浙大共探ai数据中心供电架构grid to chip链路重构",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83UnBadThIWHI5Y00wckxGMm0zN1p5dHBLZkpvRXl0b0tvNjB0U3NxNmNDbHVlU1E0V0hxNmtqR0xOOXdOdW9CRnNGMW9GbWRneG9F?oc=5",
+      "title": "PCIM研讨会| 800V HVDC、SST、垂直供电与封装，英飞凌、施耐德、台达、浙大共探AI数据中心供电架构Grid-to-Chip链路重构 - 电子工程专辑",
+      "summary": "PCIM研讨会| 800V HVDC、SST、垂直供电与封装，英飞凌、施耐德、台达、浙大共探AI数据中心供电架构Grid-to-Chip链路重构 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83UnBadThIWHI5Y00wckxGMm0zN1p5dHBLZkpvRXl0b0tvNjB0U3NxNmNDbHVlU1E0V0hxNmtqR0xOOXdOdW9CRnNGMW9GbWRneG9F?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-26",
+      "last_seen_date": "2026-07-26",
+      "canonical_key": "三星李在镕与openai据悉磋商人工智能与半导体领域合作方案",
+      "normalized_title": "三星李在镕与openai据悉磋商人工智能与半导体领域合作方案",
+      "normalized_link": "https://36kr.com/newsflashes/3912076178789766?f=rss",
+      "title": "三星李在镕与OpenAI据悉磋商人工智能与半导体领域合作方案",
+      "summary": "三星电子会长李在镕与OpenAI首席执行官山姆・奥特曼于旧金山OpenAI总部会面，磋商人工智能与半导体领域合作方案。OpenAI 26日对外公布，当地时间25日上午，李在镕与奥特曼在其旧金山总部举行会谈。OpenAI并未披露具体洽谈内容与议题，但业内观察人士判断，双方大概率围绕高带宽内存（HBM）、动态随机存取存储器（DRAM）、先进晶圆代工等AI基础设施深化合作展开沟通。双方或还探讨了三星全业务线落地生成式人工智能的数字化转型方案。三星电子是OpenAI全球顶级企业客户之一，已决定为全体员工开放ChatGPT及AI代码工具Codex的使用权限。（新浪财经）",
+      "source": "36氪",
+      "link": "https://36kr.com/newsflashes/3912076178789766?f=rss",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "availability",
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-26",
+      "last_seen_date": "2026-07-26",
+      "canonical_key": "sk group and nvidia expand strategic partnership across ai factories and next generation memory",
+      "normalized_title": "sk group and nvidia expand strategic partnership across ai factories and next generation memory",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWWdmVzNHOG9UWDV2VnM0ek1kOTlMSDMydklMbjQzSDBSUWVYaGFJeFQwZk9tR09qNDVtMWlHS2pIUmVHVGxoOVFPSm1LYS1UUXdzNnNwa2U2MUVGaXFJLWVPb1NvNlN1OWhCX21OR3ROa1FjVFVsVVpuekRLMGVDYWw0SzBnMXRGMGY2ZlVXalpHVktOM2xhVlprcXpDLVV6WUVLdUFCOW43TkM2dW9lTnpBbS1TZ1hYd2pOMUMyc1lrVU1YaERxaWRR?oc=5",
+      "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory - NVIDIA Newsroom",
+      "summary": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory NVIDIA Newsroom",
+      "source": "NVIDIA Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWWdmVzNHOG9UWDV2VnM0ek1kOTlMSDMydklMbjQzSDBSUWVYaGFJeFQwZk9tR09qNDVtMWlHS2pIUmVHVGxoOVFPSm1LYS1UUXdzNnNwa2U2MUVGaXFJLWVPb1NvNlN1OWhCX21OR3ROa1FjVFVsVVpuekRLMGVDYWw0SzBnMXRGMGY2ZlVXalpHVktOM2xhVlprcXpDLVV6WUVLdUFCOW43TkM2dW9lTnpBbS1TZ1hYd2pOMUMyc1lrVU1YaERxaWRR?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
