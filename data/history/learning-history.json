@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T07:18:31.367654+08:00",
+  "updated_at": "2026-07-29T06:16:52.841368+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -445,6 +445,47 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-28",
+      "last_seen_date": "2026-07-28",
+      "canonical_key": "build hour valuemaxxing with gpt",
+      "normalized_title": "build hour valuemaxxing with gpt",
+      "normalized_link": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "summary": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance. Charlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) w…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Agent Evaluation",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "evals"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "evals",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

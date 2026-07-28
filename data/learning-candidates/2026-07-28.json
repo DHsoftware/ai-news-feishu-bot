@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-29T06:16:52.841368+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 11,
+    "history_size_after": 12,
+    "history_duplicate_count": 12
+  },
+  "raw_item_count": 69,
+  "deduped_item_count": 26,
+  "filtered_item_count": 2,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "summary": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance. Charlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) will cover how to: • Choose between GPT‑5.6 Sol, Terra, and Luna based on intelligence, latency, and cost • Measure and optimize cost-performance across real workloads • Adapt evals, agent harnesses, tool schemas, and prompt caching when migrating models • Move production agents to GPT‑5.6, featuring a customer spotlight on how Ploy achieved 2.2× faster builds at 27% lower cost • Apply these lessons through live demos and Q&A 👉 GPT-5.6 blog: https://openai.com/index//gpt-5-6 👉 Programmatic tool-c…",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-07-25T03:47:16+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "evals"
+      ],
+      "concept_hint": "Agent Evaluation",
+      "score": 43,
+      "canonical_key": "build hour valuemaxxing with gpt",
+      "dedupe_key": "build hour valuemaxxing with gpt",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 43,
+    "history_duplicate": 12,
+    "same_source_limit": 0,
+    "old_resource": 12,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}
