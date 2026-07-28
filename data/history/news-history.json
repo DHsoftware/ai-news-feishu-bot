@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T06:16:52.841368+08:00",
+  "updated_at": "2026-07-29T07:13:38.196893+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5492,7 +5492,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5531,7 +5531,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5570,7 +5570,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5613,7 +5613,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5654,7 +5654,7 @@
           "terminal"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
