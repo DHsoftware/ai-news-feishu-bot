@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T07:13:38.196893+08:00",
+  "updated_at": "2026-07-30T06:13:12.220933+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -163,42 +163,6 @@
       "seen_count": 8
     },
     {
-      "first_seen_date": "2026-06-13",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "redirecting to learn",
-      "normalized_title": "redirecting to learn",
-      "normalized_link": "https://developers.openai.com/resources",
-      "title": "Redirecting to: /learn",
-      "summary": "Redirecting to: /learn",
-      "source": "OpenAI Developers",
-      "link": "https://developers.openai.com/resources",
-      "source_type": "official_doc",
-      "source_quality": "high",
-      "summary_quality": "low",
-      "concept_hint": "Coding Agent",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "codex",
-        "official",
-        "tutorial",
-        "video"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "codex",
-          "official",
-          "tutorial",
-          "video"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
       "first_seen_date": "2026-06-29",
       "last_seen_date": "2026-06-29",
       "canonical_key": "codex app",
@@ -324,7 +288,7 @@
     },
     {
       "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-14",
+      "last_seen_date": "2026-07-29",
       "canonical_key": "codex cli release 0 144 0",
       "normalized_title": "codex cli release 0 144 0",
       "normalized_link": "https://developers.openai.com/codex/changelog",
@@ -373,7 +337,7 @@
           "workflow"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-15",

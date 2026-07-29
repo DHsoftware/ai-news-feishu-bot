@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T07:13:38.196893+08:00",
+  "updated_at": "2026-07-30T06:13:12.220933+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,239 +39,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "中层的ai困惑 agent来了 组织却没提效",
-      "normalized_title": "中层的ai困惑 agent来了 组织却没提效",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ei1OaUR4cW1vejhFOU53c2V3X0FqemxOZGt1cm5xUVl6RUZDZ2lORzU0OXpwczhJRGlQeDZPUWpxQjIzM0g2SnhWMWFEV3BJUVdtWmwwT2ozQ1Uzdnc?oc=5",
-      "title": "中层的AI困惑：Agent来了，组织却没提效？ - thepaper.cn",
-      "summary": "中层的AI困惑：Agent来了，组织却没提效？ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4ei1OaUR4cW1vejhFOU53c2V3X0FqemxOZGt1cm5xUVl6RUZDZ2lORzU0OXpwczhJRGlQeDZPUWpxQjIzM0g2SnhWMWFEV3BJUVdtWmwwT2ozQ1Uzdnc?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "tdk showcases its latest industrial automotive and ai data center solutions at pcim",
-      "normalized_title": "tdk showcases its latest industrial automotive and ai data center solutions at pcim",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlVvMUozWUltYUcxZ1hUWXExbFQ5X2pKYVhUdmpYN0dMb0YzbTJ6S21udVJlX2dzUmpCR1hWN0FXaWNOb1A5Rng0NHcxWk1KalRValQ4TkxKZFNRb0c2V2UyWEpwdnIybUVwNjNPUjRQZVA0WW9TNDhXamtEMFlPTVNLRi1kbTJIN2JMamEwWUt3M3FvcFFFZEVKZXFwdGxNa0dHa1U1NW5Ua25iU1BaYUdTWGtiaHl2a1kyMmRCaUp4Z2Nx?oc=5",
-      "title": "TDK Showcases its Latest Industrial, Automotive, and AI Data Center Solutions At PCIM - NewswireToday",
-      "summary": "TDK Showcases its Latest Industrial, Automotive, and AI Data Center Solutions At PCIM NewswireToday",
-      "source": "NewswireToday",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlVvMUozWUltYUcxZ1hUWXExbFQ5X2pKYVhUdmpYN0dMb0YzbTJ6S21udVJlX2dzUmpCR1hWN0FXaWNOb1A5Rng0NHcxWk1KalRValQ4TkxKZFNRb0c2V2UyWEpwdnIybUVwNjNPUjRQZVA0WW9TNDhXamtEMFlPTVNLRi1kbTJIN2JMamEwWUt3M3FvcFFFZEVKZXFwdGxNa0dHa1U1NW5Ua25iU1BaYUdTWGtiaHl2a1kyMmRCaUp4Z2Nx?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "automotive",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "automotive",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "9点1氪 苹果涨价引山姆代购潮 deepseek大规模招聘 黄金再度跌破4000美元",
-      "normalized_title": "9点1氪 苹果涨价引山姆代购潮 deepseek大规模招聘 黄金再度跌破4000美元",
-      "normalized_link": "https://36kr.com/p/3870720040588295?f=rss",
-      "title": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
-      "summary": "今日热点导览 OpenAI官宣推出GPT-5.6 亚洲“果链”股价几乎全线大幅下跌 SpaceX计划为美国消费者推出新的星链移动服务 美团股价低迷，王兴回应 小鹏机器人调整：新设九部门，何小鹏兼任产品部负责人 微信回应朋友圈互动规则：单删原封不动，互删清空对方全部痕迹 TOP3大新闻 苹果涨价引山姆代购潮，部分门店已卖断货 近日，社交媒体上多名网友反馈，多地山姆会员超市的iPad及Mac系列产品出现抢购、代购的情况。原因在于，苹果宣布上调iPad及Mac系列产品价格后，山姆超市并未进行价格调整。6月26日，有多名代购称可加价45元至300元不等前往山姆代购，并表示代购需求超级多，店内已基本无…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3870720040588295?f=rss",
-      "category": "全球AI",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "automotive",
-        "llm",
-        "multimodal",
-        "opensource",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "automotive",
-          "llm",
-          "model_capability",
-          "multimodal",
-          "opensource",
-          "research",
-          "robotics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "china s z ai claims it can match mythos on cybersecurity",
-      "normalized_title": "china s z ai claims it can match mythos on cybersecurity",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
-      "summary": "China's Zhipu AI ( Z.ai ) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "margaret atwood says the problem with ai is garbage in garbage out",
-      "normalized_title": "margaret atwood says the problem with ai is garbage in garbage out",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-      "title": "Margaret Atwood says the problem with AI is ‘garbage in, garbage out’",
-      "summary": "Margaret Atwood onstage at Detroit Opera House on January 26, 2026 | Photo: Monica Morgan/Getty Images Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin , was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at th…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
-      "normalized_title": "electronica shanghai 2026开幕在即 韩国零部件厂商直面高端化考验",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
-      "title": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 - 디지털투데이",
-      "summary": "Electronica Shanghai 2026开幕在即，韩国零部件厂商直面高端化考验 디지털투데이",
-      "source": "디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHRRSHlUZjNmbVlDSERzTkxGbVFLTU9FUkZLeG1KWko3NFU2TmhCakI5VnZtWW81S25yOHRzeC1LZ3cyMWdlVWpSSEM4TFlnOHg1MTBnT29ybTNEamxydDJxanQ4YlhaNlkteXBJSjcxTUlKejQxVTBkR21OQzZfX21WZlNWalgxLUEyejRsNk5BSnQ1VkZIOEtxZi0zbC1OV044SzJvQ0NZVXo4Q2gwSnp6ZmEtR1RMektCQ3Z5bmN0OEg3NjNpeTJsVQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-28",
-      "last_seen_date": "2026-06-28",
-      "canonical_key": "why did this journal retract two 1940s papers by max planck",
-      "normalized_title": "why did this journal retract two 1940s papers by max planck",
-      "normalized_link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck",
-      "title": "Why did this journal retract two 1940s papers by Max Planck?",
-      "summary": "German physicist Max Planck was one of the pioneers of quantum mechanics in the early 20th century, earning the 1918 Nobel Prize in Physics for his discovery of quanta . There has never been a whisper of scandal about the man's integrity or his scientific work. So a pair of science historians were…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "availability",
-          "update"
-        ],
-        "topics": [
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-29",
@@ -5453,7 +5220,7 @@
     },
     {
       "first_seen_date": "2026-07-28",
-      "last_seen_date": "2026-07-28",
+      "last_seen_date": "2026-07-29",
       "canonical_key": "disrupting supply chain attacks on npm and github actions",
       "normalized_title": "disrupting supply chain attacks on npm and github actions",
       "normalized_link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions",
@@ -5492,7 +5259,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5655,6 +5422,159 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-29",
+      "last_seen_date": "2026-07-29",
+      "canonical_key": "how gpt 5 6 fuses frontier intelligence with frontier efficiency",
+      "normalized_title": "how gpt 5 6 fuses frontier intelligence with frontier efficiency",
+      "normalized_link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-29",
+      "last_seen_date": "2026-07-29",
+      "canonical_key": "人工智能与能源双向赋能提速 能源智能体重构产业新生态",
+      "normalized_title": "人工智能与能源双向赋能提速 能源智能体重构产业新生态",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHZzazdpQzZsb3V2TGlHa3RCckI2Um1rUXNSc2ZDVjRYZHRETWNHaVl2aGNGNlpkTC1zVXdVTTFMazNlVHVwa0dQYjg4bHpjZ1pMNzRwQTJ2TnllRGEyMmIyVFRwQzdDaTBOQ291emZraUJfMVZBcDdLOTZpMm4xeGl3?oc=5",
+      "title": "人工智能与能源双向赋能提速 能源智能体重构产业新生态 - 新浪网",
+      "summary": "人工智能与能源双向赋能提速 能源智能体重构产业新生态 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHZzazdpQzZsb3V2TGlHa3RCckI2Um1rUXNSc2ZDVjRYZHRETWNHaVl2aGNGNlpkTC1zVXdVTTFMazNlVHVwa0dQYjg4bHpjZ1pMNzRwQTJ2TnllRGEyMmIyVFRwQzdDaTBOQ291emZraUJfMVZBcDdLOTZpMm4xeGl3?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-29",
+      "last_seen_date": "2026-07-29",
+      "canonical_key": "anthropic发布mcp 2026 07 28更新 月下载量破4亿 开启无状态ai新纪元",
+      "normalized_title": "anthropic发布mcp 2026 07 28更新 月下载量破4亿 开启无状态ai新纪元",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dVdsUmJtaUZIN1BKSTh2d1JUaVJfOC15a1RidEtMZnpqdWFXT0xLYnZSSTZmYnlDb1RZcnJjNk0yRmFsWlhBZDU0YkJGZWliLXg0Z3ItbUYwZ2JVVTBQV1BHY3hwRUJJYnRn?oc=5",
+      "title": "Anthropic发布MCP 2026-07-28更新：月下载量破4亿，开启无状态AI新纪元！ - blog.csdn.net",
+      "summary": "Anthropic发布MCP 2026-07-28更新：月下载量破4亿，开启无状态AI新纪元！ blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dVdsUmJtaUZIN1BKSTh2d1JUaVJfOC15a1RidEtMZnpqdWFXT0xLYnZSSTZmYnlDb1RZcnJjNk0yRmFsWlhBZDU0YkJGZWliLXg0Z3ItbUYwZ2JVVTBQV1BHY3hwRUJJYnRn?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-29",
+      "last_seen_date": "2026-07-29",
+      "canonical_key": "snowflake launches cortex ai gateway to control ai agents and prevent runaway enterprise costs",
+      "normalized_title": "snowflake launches cortex ai gateway to control ai agents and prevent runaway enterprise costs",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYXZ3R3RZdlNEaUx6SDFoeUFjalZtLWEzVDdEdjdnMjl5WFNOU1NfaXBUdFZ5WmZBOFh0ckN6U0R1aV9qbm5CNXpyeDc0U2FNekc2TmFOaThIYkZodnRXR1hCazRaWE5tQkJweEU3dF83MGQ3dk1XWkt3a3dfODlLUnV1cGp6dGxvTkRaMWVUSHZXVW5jb202X0FWaENuT3dONDQ0TFpESDY5eTM2aVpUR2FZQ0M2dEU0T2JtbzhlS2ZKUzB5MFE?oc=5",
+      "title": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs - VentureBeat",
+      "summary": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs VentureBeat",
+      "source": "VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYXZ3R3RZdlNEaUx6SDFoeUFjalZtLWEzVDdEdjdnMjl5WFNOU1NfaXBUdFZ5WmZBOFh0ckN6U0R1aV9qbm5CNXpyeDc0U2FNekc2TmFOaThIYkZodnRXR1hCazRaWE5tQkJweEU3dF83MGQ3dk1XWkt3a3dfODlLUnV1cGp6dGxvTkRaMWVUSHZXVW5jb202X0FWaENuT3dONDQ0TFpESDY5eTM2aVpUR2FZQ0M2dEU0T2JtbzhlS2ZKUzB5MFE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
