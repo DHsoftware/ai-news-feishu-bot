@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T06:19:06.726374+08:00",
+  "updated_at": "2026-07-31T07:16:54.879684+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5465,7 +5465,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-30",
@@ -5540,7 +5540,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-30",
@@ -5575,7 +5575,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-30",
@@ -5619,6 +5619,72 @@
           "benchmark",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "from saas to agents as a service microsoft s aims to redefine the cx tech stack",
+      "normalized_title": "from saas to agents as a service microsoft s aims to redefine the cx tech stack",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUpITHFoNTF2YXAxN0NuY2FmM2Npbk9nZEFLMTZtMEpDM1BaNnNoOU5EaURUdV9GbnloMEIwVUpWZUlWaHV6cGxQZ1NjaG1yRUJnQmtsQjBGcWxMTG5IYlV1Ujkzc0FDUENaenRCYkJISmFzblNKTmo3VkgwcjlGSk1xNUJNV283Rk5sbUY0U0lYZFZQUFFyWldJUlpZaWh4Y1VXdFRtQ3BZZTNlNEpLUDVhYzdYal9BSlZjLWxILV9sMlFnV0E?oc=5",
+      "title": "From SaaS to Agents-as-a-Service: Microsoft’s Aims to Redefine the CX Tech Stack - CX Today",
+      "summary": "From SaaS to Agents-as-a-Service: Microsoft’s Aims to Redefine the CX Tech Stack CX Today",
+      "source": "CX Today",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcUpITHFoNTF2YXAxN0NuY2FmM2Npbk9nZEFLMTZtMEpDM1BaNnNoOU5EaURUdV9GbnloMEIwVUpWZUlWaHV6cGxQZ1NjaG1yRUJnQmtsQjBGcWxMTG5IYlV1Ujkzc0FDUENaenRCYkJISmFzblNKTmo3VkgwcjlGSk1xNUJNV283Rk5sbUY0U0lYZFZQUFFyWldJUlpZaWh4Y1VXdFRtQ3BZZTNlNEpLUDVhYzdYal9BSlZjLWxILV9sMlFnV0E?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "黄仁勋首推引爆开源论战 anthropic 员工催cuda windows 开源 吴恩达反击 你可以不开源 但别阻止别人",
+      "normalized_title": "黄仁勋首推引爆开源论战 anthropic 员工催cuda windows 开源 吴恩达反击 你可以不开源 但别阻止别人",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XOTRRMXBEbEQyRkJqOXdKbFFSYmRQTm5kakZBVTlvaEhqYlcwclREMGVuZVJCUEVqZE9sVmR0cUxIajg1Y0gwZ2JCMDdGLTRfWnlxNmFQd0wtbHJyN3c?oc=5",
+      "title": "黄仁勋首推引爆开源论战：Anthropic 员工催CUDA、Windows 开源，吴恩达反击：你可以不开源，但别阻止别人 - Infoq.cn",
+      "summary": "黄仁勋首推引爆开源论战：Anthropic 员工催CUDA、Windows 开源，吴恩达反击：你可以不开源，但别阻止别人 Infoq.cn",
+      "source": "Infoq.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XOTRRMXBEbEQyRkJqOXdKbFFSYmRQTm5kakZBVTlvaEhqYlcwclREMGVuZVJCUEVqZE9sVmR0cUxIajg1Y0gwZ2JCMDdGLTRfWnlxNmFQd0wtbHJyN3c?oc=5",
+      "category": "开源模型",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
         ]
       },
       "seen_count": 1

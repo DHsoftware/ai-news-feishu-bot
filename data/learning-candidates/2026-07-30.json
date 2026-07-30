@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated_at": "2026-07-31T06:19:06.726374+08:00",
+  "generated_at": "2026-07-31T07:16:54.879684+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 11,
+    "history_size_before": 10,
     "history_size_after": 10,
     "history_duplicate_count": 14
   },
