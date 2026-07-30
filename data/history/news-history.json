@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T07:12:04.304498+08:00",
+  "updated_at": "2026-07-31T06:19:06.726374+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,85 +42,6 @@
     },
     {
       "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-29",
-      "canonical_key": "memora a harmonic memory representation balancing abstraction and specificity",
-      "normalized_title": "memora a harmonic memory representation balancing abstraction and specificity",
-      "normalized_link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity",
-      "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
-      "summary": "At a glance Today’s AI agents don’t remember past interactions. They must repeatedly be fed relevant information or retrieve it from external sources, which becomes less efficient as they handle longer and more complex tasks. To scale agent capabilities, we need a more efficient way to retain and a…",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "official_report",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "official_report",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-29",
-      "canonical_key": "tm forum and huawei jointly release the ai4contact center ai transformation whitepaper v2 0 0",
-      "normalized_title": "tm forum and huawei jointly release the ai4contact center ai transformation whitepaper v2 0 0",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WZUs2UEVFS3UydjVMVjZUazJ5ckFDNFJrZG04YmxQT2xBQ2FRcmNUM3ZjazhPZ21QQXVCaC1SYlVpSHFCbzhacWUza1FhSHA2Q25hcFFiUDZhQWUzeVFGSw?oc=5",
-      "title": "TM Forum and Huawei Jointly Release the AI4Contact-Center: AI Transformation Whitepaper v2.0.0 - WebWire",
-      "summary": "TM Forum and Huawei Jointly Release the AI4Contact-Center: AI Transformation Whitepaper v2.0.0 WebWire",
-      "source": "WebWire",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WZUs2UEVFS3UydjVMVjZUazJ5ckFDNFJrZG04YmxQT2xBQ2FRcmNUM3ZjazhPZ21QQXVCaC1SYlVpSHFCbzhacWUza1FhSHA2Q25hcFFiUDZhQWUzeVFGSw?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "whitepaper",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "whitepaper",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-29",
       "last_seen_date": "2026-06-30",
       "canonical_key": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
       "normalized_title": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
@@ -155,78 +76,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-29",
-      "canonical_key": "多收170万 ai账单黑箱曝光 anthropic退钱不认账",
-      "normalized_title": "多收170万 ai账单黑箱曝光 anthropic退钱不认账",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpdThfMk1Cc0lmb1RqVVo5YjktT3ZIdmpScXNBWnQ2cnRUUE1OVS02TW5mV2FPV2hiT3IyRjFXWllkYV9MdVhaTXBfQnBRRlRo?oc=5",
-      "title": "多收170万，AI账单黑箱曝光，Anthropic退钱不认账 - 36Kr",
-      "summary": "多收170万，AI账单黑箱曝光，Anthropic退钱不认账 36Kr",
-      "source": "36Kr",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpdThfMk1Cc0lmb1RqVVo5YjktT3ZIdmpScXNBWnQ2cnRUUE1OVS02TW5mV2FPV2hiT3IyRjFXWllkYV9MdVhaTXBfQnBRRlRo?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-29",
-      "canonical_key": "hp partners with openai for an agentic ai makeover",
-      "normalized_title": "hp partners with openai for an agentic ai makeover",
-      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdXNobnVGdjVnT2ZsQXpyR1lfUzllSlpxZWpRU2N3NTZCTFBFeHluNXNkM3ZuZWV3eUtEQmQxUUNiR2xuM043TUxQZGphZmNNdTJPSDVBaGRpdU1OM3pQVnZzdkFZbUdnVGw2UUdManA1dGgyYmlwRjV2RzgzQnJHWVZGeVFxWWNWVW9EWFNlaHpyZDM0NVgxNm9DdmxmUQ?oc=5",
-      "title": "HP Partners with OpenAI for an Agentic AI Makeover - Thurrott.com",
-      "summary": "HP Partners with OpenAI for an Agentic AI Makeover Thurrott.com",
-      "source": "Thurrott.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdXNobnVGdjVnT2ZsQXpyR1lfUzllSlpxZWpRU2N3NTZCTFBFeHluNXNkM3ZuZWV3eUtEQmQxUUNiR2xuM043TUxQZGphZmNNdTJPSDVBaGRpdU1OM3pQVnZzdkFZbUdnVGw2UUdManA1dGgyYmlwRjV2RzgzQnJHWVZGeVFxWWNWVW9EWFNlaHpyZDM0NVgxNm9DdmxmUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5575,6 +5424,204 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "tame dependabot group your updates slow the cadence keep security fast",
+      "normalized_title": "tame dependabot group your updates slow the cadence keep security fast",
+      "normalized_link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast",
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively,…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "microsoft年内将推copilot超级应用",
+      "normalized_title": "microsoft年内将推copilot超级应用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZDNzT3RUSDNxbUN3b3dPOWJHaUZxTXYtMmtEMjdpUy1NZVJlSjZ6Q3UySm1nV0drd01jUVpBVVJLSUl2Y2ZUWGdoMExjTm9BUWpIaURXRjBKSThkQ0xkWmViYzh0cXA2QWZwbmVOVEtTWXdQakRRVFhiZ1IxWFBXS3JycmRKTEFVeFBUcVdTTGJWUWZUQUVjRklUU0NudE0?oc=5",
+      "title": "Microsoft年内将推Copilot超级应用 - 디지털투데이",
+      "summary": "Microsoft年内将推Copilot超级应用 디지털투데이",
+      "source": "디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZDNzT3RUSDNxbUN3b3dPOWJHaUZxTXYtMmtEMjdpUy1NZVJlSjZ6Q3UySm1nV0drd01jUVpBVVJLSUl2Y2ZUWGdoMExjTm9BUWpIaURXRjBKSThkQ0xkWmViYzh0cXA2QWZwbmVOVEtTWXdQakRRVFhiZ1IxWFBXS3JycmRKTEFVeFBUcVdTTGJWUWZUQUVjRklUU0NudE0?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "echoverse deep evolving environments for computer",
+      "normalized_title": "echoverse deep evolving environments for computer",
+      "normalized_link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents",
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "summary": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (…",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "official_report",
+        "simulation_optimization"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "model_capability",
+          "official_report",
+          "simulation_optimization"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "活动报名 火花会 千问办公 ai决策者专场 看agent如何重构企业生产力与竞争力",
+      "normalized_title": "活动报名 火花会 千问办公 ai决策者专场 看agent如何重构企业生产力与竞争力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10Z2RzdWh1a284Q1BheVBicGhJbmtUbnI5UkRQMXRHMlBEeDcyN2RZRmh6NjJPdXI2LXNEb1BDd2djLXpJd29falJveFg1aGw0dmRIWS1ydw?oc=5",
+      "title": "活动报名｜火花会【千问办公｜AI决策者专场】—— 看Agent如何重构企业生产力与竞争力 - 阿里云创新中心",
+      "summary": "活动报名｜火花会【千问办公｜AI决策者专场】—— 看Agent如何重构企业生产力与竞争力 阿里云创新中心",
+      "source": "阿里云创新中心",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10Z2RzdWh1a284Q1BheVBicGhJbmtUbnI5UkRQMXRHMlBEeDcyN2RZRmh6NjJPdXI2LXNEb1BDd2djLXpJd29falJveFg1aGw0dmRIWS1ydw?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "cloud",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "cloud",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-30",
+      "last_seen_date": "2026-07-30",
+      "canonical_key": "cursor launches benchmark partners program with aws bcg databricks mckinsey nvidia and snowflake to deliver first referenceable enterprise ai adoption stack",
+      "normalized_title": "cursor launches benchmark partners program with aws bcg databricks mckinsey nvidia and snowflake to deliver first referenceable enterprise ai adoption stack",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQOU9IVENMYUJSMFd5SkpIamNiR1RoQ0pQeVNXOXo1SnptYnFjS01mODdJa1lLY3otbTVLcnBkb2VzVXdFTWZud3NjZ3d6ZWlwZ3g1UlktQVhTLTRJS201QmZPNVVEazJUbU9iY2xCbHBqSmhyV21jUGdLSWZNMkhoWGNJaVUyeExyU25mS0tra2Jxd0xBTE5vWEx4Zk56Q2dKS3hzVkJwdGFLODdLOHZBMzJ5NEQtdmJ0YVRpbk5rNklUWmljbmNWV0Q1aTJiWGpycmt4bllXY0tRUXZvVWx0ZVhuU3pZUDB2aEZxTFZ0X0pSMXhHa0toUl8wT2M1QWQ0ZlkzVHhxY1NGa0RhMUhTc1kyaDd4WEw2UWw0Z1RrWFRQZmdHOFd5SFpjTG8xRDhUYUFzaUs5a3Q?oc=5",
+      "title": "Cursor Launches Benchmark Partners Program with AWS, BCG, Databricks, McKinsey, NVIDIA, and Snowflake to Deliver First Referenceable Enterprise AI Adoption Stack - Business Wire",
+      "summary": "Cursor Launches Benchmark Partners Program with AWS, BCG, Databricks, McKinsey, NVIDIA, and Snowflake to Deliver First Referenceable Enterprise AI Adoption Stack Business Wire",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQOU9IVENMYUJSMFd5SkpIamNiR1RoQ0pQeVNXOXo1SnptYnFjS01mODdJa1lLY3otbTVLcnBkb2VzVXdFTWZud3NjZ3d6ZWlwZ3g1UlktQVhTLTRJS201QmZPNVVEazJUbU9iY2xCbHBqSmhyV21jUGdLSWZNMkhoWGNJaVUyeExyU25mS0tra2Jxd0xBTE5vWEx4Zk56Q2dKS3hzVkJwdGFLODdLOHZBMzJ5NEQtdmJ0YVRpbk5rNklUWmljbmNWV0Q1aTJiWGpycmt4bllXY0tRUXZvVWx0ZVhuU3pZUDB2aEZxTFZ0X0pSMXhHa0toUl8wT2M1QWQ0ZlkzVHhxY1NGa0RhMUhTc1kyaDd4WEw2UWw0Z1RrWFRQZmdHOFd5SFpjTG8xRDhUYUFzaUs5a3Q?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "aws",
+          "nvidia"
+        ],
+        "products": [
+          "cursor"
+        ],
+        "actions": [
+          "partnership",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "aws",
+          "benchmark",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
