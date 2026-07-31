@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T07:16:54.879684+08:00",
+  "updated_at": "2026-08-01T06:15:40.399423+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,43 +39,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-29",
-      "last_seen_date": "2026-06-30",
-      "canonical_key": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
-      "normalized_title": "重构电机控制研发 首款打通物理硬件 ai agent 即将 发布",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LSnd6TUxLUDNTOE1BRFItTWk1azRzMXJqbUVteG80RE1la2xPQ25fbXJyRllxRkxpQVd3ZE1EenNrVnFRUWxNb0R1VzFVU2M1dGJF?oc=5",
-      "title": "重构电机控制研发！首款打通物理硬件 AI Agent 即将重磅发布 - 电子工程专辑",
-      "summary": "重构电机控制研发！首款打通物理硬件 AI Agent 即将重磅发布 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LSnd6TUxLUDNTOE1BRFItTWk1azRzMXJqbUVteG80RE1la2xPQ25fbXJyRllxRkxpQVd3ZE1EenNrVnFRUWxNb0R1VzFVU2M1dGJF?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 3
     },
     {
       "first_seen_date": "2026-06-30",
@@ -119,164 +82,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
-      "canonical_key": "trust3 ai extends microsoft copilot studio with centralized governance for enterprise ai agents",
-      "normalized_title": "trust3 ai extends microsoft copilot studio with centralized governance for enterprise ai agents",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUxRNXVrQnBBTDFVZWUxVzNRa2Z6bVJlbEJfNXB0OUZEZzhzY3FkcHJvajV0amtXZ1N3Vzk0dmdjUDd4ejN6NEp5TU1mWEZKYkpGdnNUcTIzLWt6d09aWlA4ZjZxTTJqWFhhVWZLaGJqUm5Ra3Rod2RCQ2JjNHZLVmpNZGZkbV9DVHI5RzhIQ3JxZ3ZFUzRuQUx3ZjN6bDNRNUhZ?oc=5",
-      "title": "Trust3 AI Extends Microsoft Copilot Studio With Centralized Governance for Enterprise AI Agents - Redmond Channel Partner",
-      "summary": "Trust3 AI Extends Microsoft Copilot Studio With Centralized Governance for Enterprise AI Agents Redmond Channel Partner",
-      "source": "Redmond Channel Partner",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeUxRNXVrQnBBTDFVZWUxVzNRa2Z6bVJlbEJfNXB0OUZEZzhzY3FkcHJvajV0amtXZ1N3Vzk0dmdjUDd4ejN6NEp5TU1mWEZKYkpGdnNUcTIzLWt6d09aWlA4ZjZxTTJqWFhhVWZLaGJqUm5Ra3Rod2RCQ2JjNHZLVmpNZGZkbV9DVHI5RzhIQ3JxZ3ZFUzRuQUx3ZjN6bDNRNUhZ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
-      "canonical_key": "ai driving up cost of electronics power bills wish",
-      "normalized_title": "ai driving up cost of electronics power bills wish",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XV0pjS2g4T0oxZEp0RFZNdGhiem4zczFzUmdsT0dnZUVOZFpPZ3hrMEJKUFhvUFBjMkRQdjZrLXl4T1BtMjA5LTV6NUtLSXYyMjVnX3FUTmdsblNrNXpzV1MxdjBzdDNnSy1YUTB3Tkhjd3ZyVU9MTUIyUy1XaEU?oc=5",
-      "title": "AI driving up cost of electronics, power bills - WISH-TV",
-      "summary": "AI driving up cost of electronics, power bills WISH-TV",
-      "source": "WISH-TV",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XV0pjS2g4T0oxZEp0RFZNdGhiem4zczFzUmdsT0dnZUVOZFpPZ3hrMEJKUFhvUFBjMkRQdjZrLXl4T1BtMjA5LTV6NUtLSXYyMjVnX3FUTmdsblNrNXpzV1MxdjBzdDNnSy1YUTB3Tkhjd3ZyVU9MTUIyUy1XaEU?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
-      "canonical_key": "siteimprove ai mcp服务器现已接入lovable anthropic claude vs code与figma的客户人工智能工作流 将无障碍功能融入所有数字体验创作场景",
-      "normalized_title": "siteimprove ai mcp服务器现已接入lovable anthropic claude vs code与figma的客户人工智能工作流 将无障碍功能融入所有数字体验创作场景",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZzZoQnE5aklLMng2N1pKVHNiM2V0Zzl4UFZfY2tPNzYzSWtqS0NpcmNFcTV3XzlEY2t6dG9TNXFJQ0VPZEVONG5yMlM1UC10OVRWVGxYYm1leWlNbkFmcjVEaHdNcm9uWDQ2QW5YMHhkT0kxOUtsNWk3bzAyaVBpTjBn?oc=5",
-      "title": "Siteimprove.ai MCP服务器现已接入Lovable、Anthropic Claude、VS Code与Figma的客户人工智能工作流 将无障碍功能融入所有数字体验创作场景 - video.sina.com.cn",
-      "summary": "Siteimprove.ai MCP服务器现已接入Lovable、Anthropic Claude、VS Code与Figma的客户人工智能工作流 将无障碍功能融入所有数字体验创作场景 video.sina.com.cn",
-      "source": "video.sina.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZzZoQnE5aklLMng2N1pKVHNiM2V0Zzl4UFZfY2tPNzYzSWtqS0NpcmNFcTV3XzlEY2t6dG9TNXFJQ0VPZEVONG5yMlM1UC10OVRWVGxYYm1leWlNbkFmcjVEaHdNcm9uWDQ2QW5YMHhkT0kxOUtsNWk3bzAyaVBpTjBn?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-06-30",
-      "canonical_key": "氪星晚报 百度ocr模型unlimited ocr在huggingface github四榜登顶 国务院印发 教育发展 十五五 规划 美国养老金即将被动调仓 300亿美元卖盘 已在路上",
-      "normalized_title": "氪星晚报 百度ocr模型unlimited ocr在huggingface github四榜登顶 国务院印发 教育发展 十五五 规划 美国养老金即将被动调仓 300亿美元卖盘 已在路上",
-      "normalized_link": "https://36kr.com/p/3873626425332743?f=rss",
-      "title": "氪星晚报｜百度OCR模型Unlimited OCR在HuggingFace、GitHub四榜登顶；国务院印发《教育发展“十五五”规划》；美国养老金即将被动调仓，300亿美元卖盘“已在路上”",
-      "summary": "大公司： 蜜雪冰城吉尔吉斯斯坦三店同开，已进入海外16个国家 36氪获悉，近日，蜜雪冰城三家门店在吉尔吉斯斯坦首都比什凯克营业，正式进入吉尔吉斯斯坦市场。吉尔吉斯斯坦是蜜雪冰城在中亚的第二站。2025年4月，蜜雪冰城哈萨克斯坦首店落地阿拉木图。在这之后，又相继进入美国、巴西、墨西哥等新市场，持续推进全球化布局。截至目前，蜜雪冰城已进入海外16个国家。 中国移动确认设立Token办公室 6月28日晚间，有消息称，中国移动继设立数智事业部、算力办之后，又设立了Token办公室，旨在打通“创造Token、输送Token、应用Token”的全流程，打破多个二级部门“各管一摊”的局面。6月29日下午，…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3873626425332743?f=rss",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "autonomous_driving",
-        "chip",
-        "multimodal",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "github",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "partnership",
-          "release"
-        ],
-        "topics": [
-          "autonomous_driving",
-          "chip",
-          "model_capability",
-          "multimodal",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-06-30",
@@ -5685,6 +5490,191 @@
         ],
         "topics": [
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "stacked sessions and pull requests in the github copilot app",
+      "normalized_title": "stacked sessions and pull requests in the github copilot app",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "summary": "I want you to look at this screenshot for a moment from the GitHub Copilot app . It’s a small one, it’s got a lot of icons, and it tells the most glorious story that I’m really excited about. This image is a set of stacked sessions. They’re a series of tasks in the same repository, where each sessi…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "evolib teaching llms to learn from experience",
+      "normalized_title": "evolib teaching llms to learn from experience",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYWJ0aUd6QVZHNlZnYTJRZHBsdy0xVVVySFotWF9OeUhoN1JTTnllZzBSVmZNWkd0cmRCWS1GR1V0bzNmUTJobzRja2tJNjkyMW5WOU9zZnVZZDlfdHpyZ01ZU1FzaVdkUFNzX3RWR3Y4eVV1OUZ6cWtnakdoZzZHdkNUcFFNRmRFRTY2QXh0Y3A3VWxibWtsVkRLWVI?oc=5",
+      "title": "EvoLib: Teaching LLMs to learn from experience - Microsoft",
+      "summary": "EvoLib: Teaching LLMs to learn from experience Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYWJ0aUd6QVZHNlZnYTJRZHBsdy0xVVVySFotWF9OeUhoN1JTTnllZzBSVmZNWkd0cmRCWS1GR1V0bzNmUTJobzRja2tJNjkyMW5WOU9zZnVZZDlfdHpyZ01ZU1FzaVdkUFNzX3RWR3Y4eVV1OUZ6cWtnakdoZzZHdkNUcFFNRmRFRTY2QXh0Y3A3VWxibWtsVkRLWVI?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "高密度算力供电设备 ai智算时代数据中心供配电架构的深度变革",
+      "normalized_title": "高密度算力供电设备 ai智算时代数据中心供配电架构的深度变革",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2QjlxWWp3X2dRZHU1ekdTRzhTTW0yUDFFaUI4bFVEVDNPSzJBd01HT2ZTazRWYi0wTDNtVHB4N0VFSmlSNzhrdC03ZEw3Sjdla0F3bEE5SE5UZk4yMi1SbDNOMDh2UXFRNS1fQUpoeHMwazY5MnhXTFpNMjM2UQ?oc=5",
+      "title": "高密度算力供电设备：AI智算时代数据中心供配电架构的深度变革 - 手机新浪网",
+      "summary": "高密度算力供电设备：AI智算时代数据中心供配电架构的深度变革 手机新浪网",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2QjlxWWp3X2dRZHU1ekdTRzhTTW0yUDFFaUI4bFVEVDNPSzJBd01HT2ZTazRWYi0wTDNtVHB4N0VFSmlSNzhrdC03ZEw3Sjdla0F3bEE5SE5UZk4yMi1SbDNOMDh2UXFRNS1fQUpoeHMwazY5MnhXTFpNMjM2UQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "china:https://36kr.com/p/3910776673064073?f=rss",
+      "normalized_title": "36氪",
+      "normalized_link": "https://36kr.com/p/3910776673064073?f=rss",
+      "title": "36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
+      "summary": "文｜王毓婵 兰杰 编辑｜乔芊 36氪独家获悉，曾爱玲入职哔哩哔哩（下称“B站”），担任AI视频生成业务负责人，向CEO陈睿汇报。 36氪就此事向B站方面求证，对方暂无回应。 曾爱玲 B站此前已公开表示，AI投入主要聚焦视频理解、视频推荐和辅助视频创作等方向。曾爱玲入职后，或将参与相关业务。 曾爱玲的个人主页显示，她曾在腾讯混元&AI Lab团队和国际数字经济研究院（IDEA）工作三年，领导以人为中心的感知与生成研究团队。其后，她加入米哈游创始人蔡浩宇旗下AI公司Anuttacon，负责开发以人为中心的交互式多模态视频生成系统。这些模型使AI智能体能够感知、交互并生成实时、长时程的视频。 曾爱…",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3910776673064073?f=rss",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "llm",
+        "multimodal",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "llm",
+          "model_capability",
+          "multimodal",
+          "research",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "openai expands probe after finding additional autonomous agent incidents",
+      "normalized_title": "openai expands probe after finding additional autonomous agent incidents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nYUVzekE1Wkw4LTlKX1V4d1JPWnAwdHdjWXRuRHI0cGlZY3hscmlLMnVDZ3B2MWx6MGtCZ04xX2hxby1OaU5YQTBNUV9KVk9IeVpvM0Y5WDJMOU5GOWdEV0g3ajA0SmJhSEE?oc=5",
+      "title": "OpenAI expands probe after finding additional autonomous agent incidents - Межа. Новини України.",
+      "summary": "OpenAI expands probe after finding additional autonomous agent incidents Межа. Новини України.",
+      "source": "Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nYUVzekE1Wkw4LTlKX1V4d1JPWnAwdHdjWXRuRHI0cGlZY3hscmlLMnVDZ3B2MWx6MGtCZ04xX2hxby1OaU5YQTBNUV9KVk9IeVpvM0Y5WDJMOU5GOWdEV0g3ajA0SmJhSEE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "expand"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
