@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T06:15:40.399423+08:00",
+  "updated_at": "2026-08-01T07:14:09.612543+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5566,7 +5566,7 @@
           "engineering_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-31",
@@ -5599,7 +5599,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-31",
@@ -5638,7 +5638,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-31",
@@ -5675,6 +5675,76 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "co designing ai model attention for fast interactive long",
+      "normalized_title": "co designing ai model attention for fast interactive long",
+      "normalized_link": "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference",
+      "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
+      "summary": "As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because... As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-07-31",
+      "last_seen_date": "2026-07-31",
+      "canonical_key": "it s time to panic about ai safety",
+      "normalized_title": "it s time to panic about ai safety",
+      "normalized_link": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "title": "It’s time to panic about AI safety",
+      "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem . This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "benchmark",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "benchmark",
+          "security"
         ]
       },
       "seen_count": 1
