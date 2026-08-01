@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T07:14:09.612543+08:00",
+  "updated_at": "2026-08-02T06:11:30.138921+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,209 +39,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-07-01",
-      "canonical_key": "skillopt agent skills as trainable parameters",
-      "normalized_title": "skillopt agent skills as trainable parameters",
-      "normalized_link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters",
-      "title": "SkillOpt: Agent skills as trainable parameters",
-      "summary": "At a glance AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. SkillOpt treats an agent skill file as a trainabl…",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-06-30",
-      "last_seen_date": "2026-07-01",
-      "canonical_key": "how nvidia s inference software stack powers the lowest token cost",
-      "normalized_title": "how nvidia s inference software stack powers the lowest token cost",
-      "normalized_link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost",
-      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
-      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token : how many useful tokens they can deliver per dollar, per watt and within required latency targets. Codesigned with NVIDIA GPUs, CPUs, networking an…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "production"
-        ],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-01",
-      "last_seen_date": "2026-07-01",
-      "canonical_key": "danske bank expands aws partnership to accelerate ai innovation and developer productivity",
-      "normalized_title": "danske bank expands aws partnership to accelerate ai innovation and developer productivity",
-      "normalized_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG5UdDg1VmVKTmFwVU5OTm14cF9GZjAtZWtzRVRqRnJzX28wZTl2RkdNajRSdnFBR2xyVno0REpDb0I2YnM5R01ITk5wV2wtUl9LQ1QwWjREelpWb0ozdVpkQnpmc2FDREU1b0I1Wi0xOXVucEllWkJCX0w1ZnRnd3RWaTZsS19MV2ltRDExN0h6TTBCT2JJc0xtM3lEV0hJaEdJSW9xTVJVY2pib1VVZS1nNnM?oc=5",
-      "title": "Danske Bank Expands AWS Partnership to Accelerate AI Innovation and Developer Productivity - FF News",
-      "summary": "Danske Bank Expands AWS Partnership to Accelerate AI Innovation and Developer Productivity FF News",
-      "source": "FF News",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG5UdDg1VmVKTmFwVU5OTm14cF9GZjAtZWtzRVRqRnJzX28wZTl2RkdNajRSdnFBR2xyVno0REpDb0I2YnM5R01ITk5wV2wtUl9LQ1QwWjREelpWb0ozdVpkQnpmc2FDREU1b0I1Wi0xOXVucEllWkJCX0w1ZnRnd3RWaTZsS19MV2ltRDExN0h6TTBCT2JJc0xtM3lEV0hJaEdJSW9xTVJVY2pib1VVZS1nNnM?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "developer_productivity",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [
-          "aws"
-        ],
-        "products": [],
-        "actions": [
-          "expand",
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "aws",
-          "coding",
-          "coding_agent",
-          "developer_productivity",
-          "engineering_productivity",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-01",
-      "last_seen_date": "2026-07-01",
-      "canonical_key": "ai算力迈向兆瓦时代 新一代数据中心供电架构正在重塑测试验证体系 含直播回放",
-      "normalized_title": "ai算力迈向兆瓦时代 新一代数据中心供电架构正在重塑测试验证体系 含直播回放",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HMmFOcDBiLTRsT1l5MURUalZjVFpabUR4alE3Z2ZwLXlTZXdzS0R0WUQzLVBXWW5JVTJtTzRpU0EtbXRfb0JsVW5Gc1V3STVRTVQ0?oc=5",
-      "title": "AI算力迈向兆瓦时代：新一代数据中心供电架构正在重塑测试验证体系（含直播回放） - 电子工程专辑",
-      "summary": "AI算力迈向兆瓦时代：新一代数据中心供电架构正在重塑测试验证体系（含直播回放） 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HMmFOcDBiLTRsT1l5MURUalZjVFpabUR4alE3Z2ZwLXlTZXdzS0R0WUQzLVBXWW5JVTJtTzRpU0EtbXRfb0JsVW5Gc1V3STVRTVQ0?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-01",
-      "last_seen_date": "2026-07-01",
-      "canonical_key": "claude science发布 anthropic押注工作流布局科学研究领域",
-      "normalized_title": "claude science发布 anthropic押注工作流布局科学研究领域",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkZwWFJESGtFWFVRa1RjNEdwM0szYmFfTzdaRndyYXdpVndYWG0zX21ST1lxdk9UY3UwaThtVGFrRFRfd1ViaFM2d3ZlXy1zY2lhc3Q4M0pvRi1CN25DUjVJVi1NeWhyYWM4dEc0aTlVV0UwUmp5cnRndEpvb3NOeUhMNWpjX2RP?oc=5",
-      "title": "Claude Science发布：Anthropic押注工作流布局科学研究领域 - 搜狐网",
-      "summary": "Claude Science发布：Anthropic押注工作流布局科学研究领域 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkZwWFJESGtFWFVRa1RjNEdwM0szYmFfTzdaRndyYXdpVndYWG0zX21ST1lxdk9UY3UwaThtVGFrRFRfd1ViaFM2d3ZlXy1zY2lhc3Q4M0pvRi1CN25DUjVJVi1NeWhyYWM4dEc0aTlVV0UwUmp5cnRndEpvb3NOeUhMNWpjX2RP?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-02",
@@ -5745,6 +5542,172 @@
           "agent",
           "benchmark",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "openai reportedly finds evidence that more of its agents ran amok",
+      "normalized_title": "openai reportedly finds evidence that more of its agents ran amok",
+      "normalized_link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "incident"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
+      "normalized_title": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
+      "title": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform - barchart.com",
+      "summary": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform barchart.com",
+      "source": "barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "exclusive openai previews astra ai model in dc",
+      "normalized_title": "exclusive openai previews astra ai model in dc",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjNBZGhQZFk0YXdGc0FQRUsxd0Jrd2RuTkRBXzFMMTdpUXZqZWpOYjR5dEhrMkg4X0hYcjFEemFBWEdGQU9Tc1hjMXZWN0lxQVlNU2FBcHpMQ0ctSHplVklWOEFhQmljYTQ0NERkZ3V5di0tZUR3Rm1zX0R3X1k1MDRDNzRydEFtenplMg?oc=5",
+      "title": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC - The Information",
+      "summary": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC The Information",
+      "source": "The Information",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjNBZGhQZFk0YXdGc0FQRUsxd0Jrd2RuTkRBXzFMMTdpUXZqZWpOYjR5dEhrMkg4X0hYcjFEemFBWEdGQU9Tc1hjMXZWN0lxQVlNU2FBcHpMQ0ctSHplVklWOEFhQmljYTQ0NERkZ3V5di0tZUR3Rm1zX0R3X1k1MDRDNzRydEFtenplMg?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "home nxp community",
+      "normalized_title": "home nxp community",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9lMHE3azVpS1p0ZXNaNndqb3FnVVpuS1FZV0w1dm1kaGlGNURES3ZCeFlRMEhzZnVZdVdqMFBfZw?oc=5",
+      "title": "Home - NXP Community - community.nxp.com",
+      "summary": "Home - NXP Community community.nxp.com",
+      "source": "community.nxp.com",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9lMHE3azVpS1p0ZXNaNndqb3FnVVpuS1FZV0w1dm1kaGlGNURES3ZCeFlRMEhzZnVZdVdqMFBfZw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nxp"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
+      "normalized_title": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
+      "title": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 - 新浪财经",
+      "summary": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "google",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "inference"
         ]
       },
       "seen_count": 1
