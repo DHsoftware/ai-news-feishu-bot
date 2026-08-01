@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "generated_at": "2026-08-02T06:11:30.138921+08:00",
+  "generated_at": "2026-08-02T07:08:49.837869+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 155,
-    "history_size_after": 155,
-    "history_duplicate_count": 27
+    "history_size_after": 156,
+    "history_duplicate_count": 26
   },
   "raw_item_count": 5222,
   "deduped_item_count": 3864,
-  "filtered_item_count": 238,
+  "filtered_item_count": 231,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -67,15 +67,15 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform - barchart.com",
-      "summary": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform barchart.com",
+      "title": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 - ArchDaily",
+      "summary": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 ArchDaily",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-08-01T09:36:03+08:00",
-      "source": "barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
-      "language": "en",
-      "region": "global",
+      "summary_quality": "low",
+      "published_at": "2026-08-01T19:29:46+08:00",
+      "source": "ArchDaily",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
+      "language": "zh",
+      "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
@@ -94,10 +94,10 @@
         "workflow_automation"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
-      "canonical_key": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
-      "score": 59,
+      "dedupe_key": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
+      "canonical_key": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
+      "score": 61,
       "selection_reason": "required_productivity"
     },
     {
@@ -105,7 +105,7 @@
       "summary": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC The Information",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-08-01T06:09:00+08:00",
+      "published_at": "2026-08-01T06:14:31+08:00",
       "source": "The Information",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjNBZGhQZFk0YXdGc0FQRUsxd0Jrd2RuTkRBXzFMMTdpUXZqZWpOYjR5dEhrMkg4X0hYcjFEemFBWEdGQU9Tc1hjMXZWN0lxQVlNU2FBcHpMQ0ctSHplVklWOEFhQmljYTQ0NERkZ3V5di0tZUR3Rm1zX0R3X1k1MDRDNzRydEFtenplMg?oc=5",
       "language": "en",
@@ -163,40 +163,44 @@
       "selection_reason": "required_company_research"
     },
     {
-      "title": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 - 新浪财经",
-      "summary": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 新浪财经",
+      "title": "36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
+      "summary": "文｜王毓婵 兰杰 编辑｜乔芊 36氪独家获悉，曾爱玲入职哔哩哔哩（下称“B站”），担任AI视频生成业务负责人，向CEO陈睿汇报。 36氪就此事向B站方面求证，对方暂无回应。 曾爱玲 B站此前已公开表示，AI投入主要聚焦视频理解、视频推荐和辅助视频创作等方向。曾爱玲入职后，或将参与相关业务。 曾爱玲的个人主页显示，她曾在腾讯混元&AI Lab团队和国际数字经济研究院（IDEA）工作三年，领导以人为中心的感知与生成研究团队。其后，她加入米哈游创始人蔡浩宇旗下AI公司Anuttacon，负责开发以人为中心的交互式多模态视频生成系统。这些模型使AI智能体能够感知、交互并生成实时、长时程的视频。 曾爱玲于香港中文大学计算机科学与工程系获得博士学位，并且曾是卡内基梅隆大学机器人研究所的访问学者。 B站一直在寻找一个能稳定下来的AI业务带头人。去年9月，前快手副总裁、可灵AI事业部技术部原负责人张迪，曾跳槽B站，并出任技术条线负责人。但仅仅两个月左右，张迪就再次出走，回归阿里，担任淘天集团未来生活实验室负责人。五个月后，张迪带领团队打造出HappyHorse-1.0。 2024年，B站上线了基础大模型Index，该模型能力主要被应用在视频内容创作、理解和分发等场景中。基于Index，B站搭建了角色扮演模型、语音生成模型、动漫视频生成模型等。 另外，在创作工具方面，2026年3月，B站推出了AI视频创作平台updream ， 该工具具备“长期记忆”、“个性化技能库”与自由画布功能，主打专业级 AI 内容管线。 updream界面截图 在创作激励方面，B站密集推出与AI相关的创作赛事和活动。今年1月，B站启动了首届AI创作大赛，并在推出updream创作工具的当天，为获得一等奖的UP主颁发了高达100万元人民币的奖金。 6月，B站启动“build in bilibili · AI创造公开赛…",
       "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-08-02T03:46:21+08:00",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
+      "summary_quality": "medium",
+      "published_at": "2026-07-31T18:27:38+08:00",
+      "source": "36氪",
+      "link": "https://36kr.com/p/3910776673064073?f=rss",
       "language": "zh",
       "region": "china",
-      "source_group": "auto_china",
+      "source_group": "china",
       "source_type": "",
       "source_quality": "",
       "is_official_source": false,
       "tags": [],
       "topic_tags": [
-        "chip"
+        "agent",
+        "ai_agent",
+        "llm",
+        "multimodal",
+        "robotics"
       ],
-      "category": "AI芯片",
-      "dedupe_key": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
-      "canonical_key": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
-      "score": 47,
-      "selection_reason": "auto_china_quota"
+      "category": "AI Agent",
+      "dedupe_key": "36氪",
+      "canonical_key": "china:https://36kr.com/p/3910776673064073?f=rss",
+      "normalized_link": "https://36kr.com/p/3910776673064073?f=rss",
+      "score": 34,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
     "duplicate": 1358,
-    "history_duplicate": 27,
+    "history_duplicate": 26,
     "weak_relevance": 162,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3464,
-    "same_entity_limit": 11,
+    "old_news": 3471,
+    "same_entity_limit": 33,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

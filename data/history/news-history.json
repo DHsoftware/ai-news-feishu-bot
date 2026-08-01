@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T06:11:30.138921+08:00",
+  "updated_at": "2026-08-02T07:08:49.837869+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5400,7 +5400,7 @@
     },
     {
       "first_seen_date": "2026-07-31",
-      "last_seen_date": "2026-07-31",
+      "last_seen_date": "2026-08-01",
       "canonical_key": "china:https://36kr.com/p/3910776673064073?f=rss",
       "normalized_title": "36氪",
       "normalized_link": "https://36kr.com/p/3910776673064073?f=rss",
@@ -5435,7 +5435,7 @@
           "robotics"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-31",
@@ -5574,7 +5574,7 @@
           "incident"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-01",
@@ -5646,7 +5646,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-01",
@@ -5679,7 +5679,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-01",
@@ -5708,6 +5708,43 @@
         "topics": [
           "chip",
           "inference"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-01",
+      "last_seen_date": "2026-08-01",
+      "canonical_key": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
+      "normalized_title": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
+      "title": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 - ArchDaily",
+      "summary": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 ArchDaily",
+      "source": "ArchDaily",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
