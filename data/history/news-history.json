@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T07:08:49.837869+08:00",
+  "updated_at": "2026-08-03T06:10:23.707817+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,186 +39,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-02",
-      "last_seen_date": "2026-07-02",
-      "canonical_key": "hardware rooted ai security that won t slow you down",
-      "normalized_title": "hardware rooted ai security that won t slow you down",
-      "normalized_link": "https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down",
-      "title": "Hardware-Rooted AI Security That Won’t Slow You Down",
-      "summary": "AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be impeded by concerns... AI has transformed how organizations operate, driving unprecedented levels of productivity and innovation. However, AI adoption can be impede…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/hardware-rooted-ai-security-that-wont-slow-you-down/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-02",
-      "last_seen_date": "2026-07-02",
-      "canonical_key": "servicenow s 2 85 billion moveworks acquisition set to revolutionize ai powered workflow automations",
-      "normalized_title": "servicenow s 2 85 billion moveworks acquisition set to revolutionize ai powered workflow automations",
-      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODFlbFplSnZYVjJ5aURud2I3RHlsTnlyV0szUnRWdnM1M3NJQ0UweXNOSFlSTHlXajBvU2t4RmVVR05tMlR2YS1odWIyQlpMemFjS3NoMUk5Vlc4dm4tRXlTWnRYTmtuWVkwYWdrTGxMeWhXRjc4ZW1ST2FmdkxVRlNuMjlDZGtNTHAtMGRxUFpWZmVZaTVISmRLSC1UdGs?oc=5",
-      "title": "ServiceNow's $2.85 Billion Moveworks Acquisition Set to Revolutionize AI-Powered Workflow Automations - Yahoo Finance",
-      "summary": "ServiceNow's $2.85 Billion Moveworks Acquisition Set to Revolutionize AI-Powered Workflow Automations Yahoo Finance",
-      "source": "Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODFlbFplSnZYVjJ5aURud2I3RHlsTnlyV0szUnRWdnM1M3NJQ0UweXNOSFlSTHlXajBvU2t4RmVVR05tMlR2YS1odWIyQlpMemFjS3NoMUk5Vlc4dm4tRXlTWnRYTmtuWVkwYWdrTGxMeWhXRjc4ZW1ST2FmdkxVRlNuMjlDZGtNTHAtMGRxUFpWZmVZaTVISmRLSC1UdGs?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-02",
-      "last_seen_date": "2026-07-02",
-      "canonical_key": "octo 平台 打破 agent 协作困境 重塑企业 ai 协作新范式",
-      "normalized_title": "octo 平台 打破 agent 协作困境 重塑企业 ai 协作新范式",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkc08xQjl0cE1RSV9hSnVmMXBtaUpWYUVPN3dYVFdaSW9BY3V4eC1wb29OVDJJOGdlZk9UcDlOSEM0eThGU3NHbXllN0NDcWEteFNmQXNuZjJTamk4MGpmczhUVUxkeVlwN0FZ?oc=5",
-      "title": "Octo 平台：打破 Agent 协作困境，重塑企业 AI 协作新范式 - blog.csdn.net",
-      "summary": "Octo 平台：打破 Agent 协作困境，重塑企业 AI 协作新范式 blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkc08xQjl0cE1RSV9hSnVmMXBtaUpWYUVPN3dYVFdaSW9BY3V4eC1wb29OVDJJOGdlZk9UcDlOSEM0eThGU3NHbXllN0NDcWEteFNmQXNuZjJTamk4MGpmczhUVUxkeVlwN0FZ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-02",
-      "last_seen_date": "2026-07-02",
-      "canonical_key": "7月ai人才抢夺战升级 伯克利系主任加盟anthropic 大学 输血 ai公司成趋势",
-      "normalized_title": "7月ai人才抢夺战升级 伯克利系主任加盟anthropic 大学 输血 ai公司成趋势",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81RVJkZndETFNxNDRkZlR3cUk1dFFIa0lzQ0ItYlFNRmhvVVd2Q3gwbmxic0RKcWRGSm85dmoxNnVRQUo1WDBOdE05WGVRb3VOaHpIVXZ1M0V6UUgzOVhjcUhBUVZYN0JtUkRF?oc=5",
-      "title": "7月AI人才抢夺战升级！伯克利系主任加盟Anthropic，大学“输血”AI公司成趋势 - blog.csdn.net",
-      "summary": "7月AI人才抢夺战升级！伯克利系主任加盟Anthropic，大学“输血”AI公司成趋势 blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81RVJkZndETFNxNDRkZlR3cUk1dFFIa0lzQ0ItYlFNRmhvVVd2Q3gwbmxic0RKcWRGSm85dmoxNnVRQUo1WDBOdE05WGVRb3VOaHpIVXZ1M0V6UUgzOVhjcUhBUVZYN0JtUkRF?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-02",
-      "last_seen_date": "2026-07-02",
-      "canonical_key": "mastering agentic techniques ai agent reinforcement learning",
-      "normalized_title": "mastering agentic techniques ai agent reinforcement learning",
-      "normalized_link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning",
-      "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-      "summary": "Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer... Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-03",
@@ -5745,6 +5565,184 @@
           "coding",
           "coding_agent",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-02",
+      "canonical_key": "ai 化学博士论文 mit 2026 通过自动化量子化学和人工智能加速自主分子发现 552页",
+      "normalized_title": "ai 化学博士论文 mit 2026 通过自动化量子化学和人工智能加速自主分子发现 552页",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11NEpkdEQ3WlJmakhhSlBlMURsUU0yUFhlaGd6LWhQd1l0QXBpdG5GRGw3c1VjSjBUTkhYOFA3OVpDX2lYN0VyaQ?oc=5",
+      "title": "AI+化学博士论文 | MIT 2026 | 通过自动化量子化学和人工智能加速自主分子发现 552页 - 智源社区",
+      "summary": "AI+化学博士论文 | MIT 2026 | 通过自动化量子化学和人工智能加速自主分子发现 552页 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11NEpkdEQ3WlJmakhhSlBlMURsUU0yUFhlaGd6LWhQd1l0QXBpdG5GRGw3c1VjSjBUTkhYOFA3OVpDX2lYN0VyaQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-02",
+      "canonical_key": "how ai coding speed shifts product strategy",
+      "normalized_title": "how ai coding speed shifts product strategy",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmQ0Vi1MeFFmeHJrLWlqYmVnelRtaTh6a0lWRVBuWjV2Q1RtbkJSMjFZUmQ5UEVoSG9odHVRaGd5dTdCeVpERGxXaEFkbzE0R05QTU9Rd0d2bTQtby1waVZfWTJJdnVQTVVhU2FPbkZ6WlNTWGl4aEVEV2hYVmcxbGdtYnVaVXdVeHdqWkxFV21pWTNnbS1SOQ?oc=5",
+      "title": "📢 How AI coding speed shifts product strategy - Buttondown",
+      "summary": "📢 How AI coding speed shifts product strategy Buttondown",
+      "source": "Buttondown",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmQ0Vi1MeFFmeHJrLWlqYmVnelRtaTh6a0lWRVBuWjV2Q1RtbkJSMjFZUmQ5UEVoSG9odHVRaGd5dTdCeVpERGxXaEFkbzE0R05QTU9Rd0d2bTQtby1waVZfWTJJdnVQTVVhU2FPbkZ6WlNTWGl4aEVEV2hYVmcxbGdtYnVaVXdVeHdqWkxFV21pWTNnbS1SOQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-02",
+      "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "title": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 - 财联社",
+      "summary": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 财联社",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-02",
+      "canonical_key": "nvidia ai releases molt a pytorch native agentic reinforcement learning framework",
+      "normalized_title": "nvidia ai releases molt a pytorch native agentic reinforcement learning framework",
+      "normalized_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3lKYU5PTDlJTGJ6UTFNYnlqU3hOODg5WG9PQlExOEk0d1I0R3VPdnVjTmNSQm1zV2I2M01aYlVDeUNWQ1RrMUlaMnNKM25FMWlvV3ZjZnlqekZMVVE1bXJDUTVzMHhoVTYyRERxN2RSdkFtY1pTTnZTN0ZtR1IzOUVIbUFlcEd4YVZjOUxOUmU4aXVKckVjQUtRVG05cTVVdUYxSzZCQjA5M0FsUmpjZ05ra25jNU81RWdYYmRJSdIBxAFBVV95cUxNbUpzZHZPZkc5TEhoSmI1bFZ1T1RRWi1pYTdwV2tKaHpmU0xINFNFN1hrTTVXLVdKdmhfNlNlUmZKOTlld2tGUU1KaFNuZFZaRDFnVVZtY2FaNm9IcUNKSWNFamU0ckpKRVJBOWUwNERDSGdUMzd6ZER1QkZkNDVmbTZxZXFrZ09NQmJfODNPZnc0NFpXSkRNYXY4aEM2bWVDSVpUZXFOeFlPNFUwZjhQd0p5Y0pfakZJRWM1M2NYS0R2UnhW?oc=5",
+      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework - MarkTechPost",
+      "summary": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework MarkTechPost",
+      "source": "MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3lKYU5PTDlJTGJ6UTFNYnlqU3hOODg5WG9PQlExOEk0d1I0R3VPdnVjTmNSQm1zV2I2M01aYlVDeUNWQ1RrMUlaMnNKM25FMWlvV3ZjZnlqekZMVVE1bXJDUTVzMHhoVTYyRERxN2RSdkFtY1pTTnZTN0ZtR1IzOUVIbUFlcEd4YVZjOUxOUmU4aXVKckVjQUtRVG05cTVVdUYxSzZCQjA5M0FsUmpjZ05ra25jNU81RWdYYmRJSdIBxAFBVV95cUxNbUpzZHZPZkc5TEhoSmI1bFZ1T1RRWi1pYTdwV2tKaHpmU0xINFNFN1hrTTVXLVdKdmhfNlNlUmZKOTlld2tGUU1KaFNuZFZaRDFnVVZtY2FaNm9IcUNKSWNFamU0ckpKRVJBOWUwNERDSGdUMzd6ZER1QkZkNDVmbTZxZXFrZ09NQmJfODNPZnc0NFpXSkRNYXY4aEM2bWVDSVpUZXFOeFlPNFUwZjhQd0p5Y0pfakZJRWM1M2NYS0R2UnhW?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-02",
+      "canonical_key": "these app store hidden gems prove there s still room for great software in the ai era",
+      "normalized_title": "these app store hidden gems prove there s still room for great software in the ai era",
+      "normalized_link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era",
+      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+      "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
         ]
       },
       "seen_count": 1
