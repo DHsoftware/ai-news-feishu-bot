@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T07:08:44.801889+08:00",
+  "updated_at": "2026-08-04T06:17:39.087107+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,188 +39,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-03",
-      "last_seen_date": "2026-07-03",
-      "canonical_key": "how github used secret scanning to reach inbox zero",
-      "normalized_title": "how github used secret scanning to reach inbox zero",
-      "normalized_link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero",
-      "title": "How GitHub used secret scanning to reach inbox zero",
-      "summary": "Several years ago, GitHub Security launched an initiative to assess and improve our overall secrets hygiene. As part of that effort, we piloted the Secret Scanning capability that was under development at the time. That’s when we found more than 20,000 secrets spread across our 15,000+ repositories…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-03",
-      "last_seen_date": "2026-07-03",
-      "canonical_key": "阿里整合qoderwork 悟空 mulerun三款智能体 能否打开ai办公局面",
-      "normalized_title": "阿里整合qoderwork 悟空 mulerun三款智能体 能否打开ai办公局面",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvUThmUlgybndnWFNzYjlUbWQ3dTZtdFhwX0p4WkRtOWlVYm9GZ0syYUpKQVBQNG81MFJqcU9rSXEyanZpVzFfY3VsSi1XYWM0dmdLUTU0dFBmX2tURGRlWTE4aUI?oc=5",
-      "title": "阿里整合QoderWork、悟空、MuleRun三款智能体 能否打开AI办公局面 - 财新",
-      "summary": "阿里整合QoderWork、悟空、MuleRun三款智能体 能否打开AI办公局面 财新",
-      "source": "财新",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvUThmUlgybndnWFNzYjlUbWQ3dTZtdFhwX0p4WkRtOWlVYm9GZ0syYUpKQVBQNG81MFJqcU9rSXEyanZpVzFfY3VsSi1XYWM0dmdLUTU0dFBmX2tURGRlWTE4aUI?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-03",
-      "last_seen_date": "2026-07-03",
-      "canonical_key": "前瞻洞察 ai数据中心从电网到芯片级供电架构的关键 供电 备电 psu vrm 垂直封装 芯片嵌入和热增强的协同提升",
-      "normalized_title": "前瞻洞察 ai数据中心从电网到芯片级供电架构的关键 供电 备电 psu vrm 垂直封装 芯片嵌入和热增强的协同提升",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hY25BRjVZR0ZxbktZY25hOXdMQkx0Q1pzdjZZbkZTRFlWZS14bmZLcURGd2VuM1JHSXZGNFUzQllycVhFd1lERlhOT1VBb25INVBr?oc=5",
-      "title": "[前瞻洞察] AI数据中心从电网到芯片级供电架构的关键：供电、备电、PSU、VRM、垂直封装、芯片嵌入和热增强的协同提升 - 电子工程专辑",
-      "summary": "[前瞻洞察] AI数据中心从电网到芯片级供电架构的关键：供电、备电、PSU、VRM、垂直封装、芯片嵌入和热增强的协同提升 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hY25BRjVZR0ZxbktZY25hOXdMQkx0Q1pzdjZZbkZTRFlWZS14bmZLcURGd2VuM1JHSXZGNFUzQllycVhFd1lERlhOT1VBb25INVBr?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-03",
-      "last_seen_date": "2026-07-03",
-      "canonical_key": "nvidia unlocks ai compute at scale inviting partners to power the ai infrastructure buildout",
-      "normalized_title": "nvidia unlocks ai compute at scale inviting partners to power the ai infrastructure buildout",
-      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout",
-      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-      "summary": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accelerated computing that can come online quickly, stay highly u…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "cloud",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "partnership",
-          "production"
-        ],
-        "topics": [
-          "ai_research",
-          "chip",
-          "cloud",
-          "company_research",
-          "inference",
-          "research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-03",
-      "last_seen_date": "2026-07-03",
-      "canonical_key": "anthropic is discussing a new custom chip with samsung",
-      "normalized_title": "anthropic is discussing a new custom chip with samsung",
-      "normalized_link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
-      "title": "Anthropic is discussing a new custom chip with Samsung",
-      "summary": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "partnership",
-          "release"
-        ],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-04",
@@ -5859,6 +5677,199 @@
           "research",
           "robotics",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-03",
+      "last_seen_date": "2026-08-03",
+      "canonical_key": "orchard an open framework for scalable agentic ai",
+      "normalized_title": "orchard an open framework for scalable agentic ai",
+      "normalized_link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "summary": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and pe…",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-03",
+      "last_seen_date": "2026-08-03",
+      "canonical_key": "鸿蒙7 0什么推送 华为开发者问答",
+      "normalized_title": "鸿蒙7 0什么推送 华为开发者问答",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vWnVnOFZKTmZWLTVoWjZfU1JoaTVEV25VcFQtX2o3X1ZBUTBnYkhpUXhsOFpWWWpQcWthRFBYc294YWZMaXllTEFaQW9GUmdzamtDRkkzMzlvajY0akFYZm5Nc2FsYU5Gc2syMVZ0NkpEaTRkMS1xTWc3QXQ?oc=5",
+      "title": "鸿蒙7.0什么推送| 华为开发者问答 - Huawei Developer",
+      "summary": "鸿蒙7.0什么推送| 华为开发者问答 Huawei Developer",
+      "source": "Huawei Developer",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vWnVnOFZKTmZWLTVoWjZfU1JoaTVEV25VcFQtX2o3X1ZBUTBnYkhpUXhsOFpWWWpQcWthRFBYc294YWZMaXllTEFaQW9GUmdzamtDRkkzMzlvajY0akFYZm5Nc2FsYU5Gc2syMVZ0NkpEaTRkMS1xTWc3QXQ?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "company_research",
+        "org_productivity",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "org_productivity",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-03",
+      "last_seen_date": "2026-08-03",
+      "canonical_key": "engineering the ai data center why simulation is becoming core infrastructure",
+      "normalized_title": "engineering the ai data center why simulation is becoming core infrastructure",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zM21qYk1rcnNuQlBVdkdYNlB1b0NyWG5TN0FhVTZza3ZaN0VfYy10eXpmdGhHTE1Lakl5aDFGdjJjckNfLVVYdDNMS044T196Y1U3aGZGY09WampzbFVyUzdwdl8wNkhRQXBzbA?oc=5",
+      "title": "Engineering the AI Data Center: Why Simulation Is Becoming Core Infrastructure - Electronics Media",
+      "summary": "Engineering the AI Data Center: Why Simulation Is Becoming Core Infrastructure Electronics Media",
+      "source": "Electronics Media",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zM21qYk1rcnNuQlBVdkdYNlB1b0NyWG5TN0FhVTZza3ZaN0VfYy10eXpmdGhHTE1Lakl5aDFGdjJjckNfLVVYdDNMS044T196Y1U3aGZGY09WampzbFVyUzdwdl8wNkhRQXBzbA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "simulation_optimization"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "simulation_optimization"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-03",
+      "last_seen_date": "2026-08-03",
+      "canonical_key": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
+      "normalized_title": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51dVpGZ3hUaWhKeWNVTTk5eXBWRGcyc3IybXBYZzY5d3ZyZmxjbmdlODl1Y3o1d0RzSDJ2aWtiQWxJT2VqYk9hQTljQ0RGUDJPRHg4?oc=5",
+      "title": "性能与Anthropic Fable 5相当！阿里巴巴发布千问3.8-MAX，2.4万亿个参数，长程自动编程表现出色 - 华尔街见闻",
+      "summary": "性能与Anthropic Fable 5相当！阿里巴巴发布千问3.8-MAX，2.4万亿个参数，长程自动编程表现出色 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51dVpGZ3hUaWhKeWNVTTk5eXBWRGcyc3IybXBYZzY5d3ZyZmxjbmdlODl1Y3o1d0RzSDJ2aWtiQWxJT2VqYk9hQTljQ0RGUDJPRHg4?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-03",
+      "last_seen_date": "2026-08-03",
+      "canonical_key": "claude outage hits 5h 44m as anthropic tops 47b 2026 tech",
+      "normalized_title": "claude outage hits 5h 44m as anthropic tops 47b 2026 tech",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45MW5sSEdPNm5HQlZSOTROYlBFNDgzaU1TR05JQk53bEtBbFNtdDUwS0tvQUYwcFhaNEV5NzBINkU1bG1WYUZ4cEJRdkVtYTh6bXdWU2RYLUJUalFzdmc?oc=5",
+      "title": "Claude Outage Hits 5h 44m as Anthropic Tops $47B [2026] - tech-insider.org",
+      "summary": "Claude Outage Hits 5h 44m as Anthropic Tops $47B [2026] tech-insider.org",
+      "source": "tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45MW5sSEdPNm5HQlZSOTROYlBFNDgzaU1TR05JQk53bEtBbFNtdDUwS0tvQUYwcFhaNEV5NzBINkU1bG1WYUZ4cEJRdkVtYTh6bXdWU2RYLUJUalFzdmc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "incident"
         ]
       },
       "seen_count": 1
