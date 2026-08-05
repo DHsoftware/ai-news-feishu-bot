@@ -1,190 +1,8 @@
 {
-  "updated_at": "2026-08-05T07:17:00.965719+08:00",
+  "updated_at": "2026-08-06T06:21:24.241781+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-07-05",
-      "canonical_key": "ai productivity fads from prompt engineering to tokenmaxxing",
-      "normalized_title": "ai productivity fads from prompt engineering to tokenmaxxing",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
-      "title": "AI productivity fads, from prompt engineering to tokenmaxxing - qz.com",
-      "summary": "AI productivity fads, from prompt engineering to tokenmaxxing qz.com",
-      "source": "qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeXBVMVlYYk55Qm9ES2M2RHhUNkJLTjlkajBtallmd2JXRXlVV1pyNGE1REMtNVVGSU5IbGxYRURhTk9CXzVrdVpzTEdHeG9vSldfakRfWWhZRnVKWWp1MzRaclQ3NllYUkVORVBzVUsxUEZqa25EYVFvc0swcEN2RkJJUkstckpGUGc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-04",
-      "last_seen_date": "2026-07-05",
-      "canonical_key": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
-      "normalized_title": "9点1氪 阿里内部全面禁用claude code ff洛杉矶总部人去楼空 公司回应 不实 微软砸25亿美元组建6000人ai新公司",
-      "normalized_link": "https://36kr.com/p/3880629882679301?f=rss",
-      "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
-      "summary": "今日热点导览 三部门：调整节能汽车、新能源汽车车船税优惠政策 三星传获Meta超10万亿韩元AI芯片代工订单 茉莉奶白小程序更换彩色Logo Meta打算出售富余算力引发科技股回落 英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗 TOP3大新闻 因存在植入后门风险，阿里内部全面禁用Claude Code 36氪从阿里内部人士处获悉，因近期Claude Code被曝存在植入后门的安全风险，阿里经综合评估后已将其列入高风险软件名单。自7月10日起，阿里将全面禁止内部员工在办公环境下使用Claude Code，并推荐使用Qoder作为替代方案。 FF洛杉矶总部人去楼空？公司回应：…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3880629882679301?f=rss",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "automotive",
-        "chip",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "microsoft",
-          "nvidia"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "automotive",
-          "chip",
-          "coding_agent",
-          "policy_regulation",
-          "security"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-04",
-      "last_seen_date": "2026-07-05",
-      "canonical_key": "what is mistral ai everything to know about the openai competitor",
-      "normalized_title": "what is mistral ai everything to know about the openai competitor",
-      "normalized_link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "category": "开源模型",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "opensource"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-05",
-      "last_seen_date": "2026-07-05",
-      "canonical_key": "早报 华为发布v2版 韬定律 论文 豆包 千问 智能体功能将下线",
-      "normalized_title": "早报 华为发布v2版 韬定律 论文 豆包 千问 智能体功能将下线",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
-      "summary": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 财联社",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-05",
-      "last_seen_date": "2026-07-05",
-      "canonical_key": "reparaible and open source paper printer",
-      "normalized_title": "reparaible and open source paper printer",
-      "normalized_link": "https://www.opentools.studio",
-      "title": "Reparaible and open source paper printer",
-      "summary": "This is the homepage of the website",
-      "source": "Hacker News",
-      "link": "https://www.opentools.studio/",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "opensource",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "opensource",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-07-06",
       "last_seen_date": "2026-07-06",
@@ -5887,6 +5705,196 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-05",
+      "canonical_key": "how the github legal team used copilot cli to streamline their workflows",
+      "normalized_title": "how the github legal team used copilot cli to streamline their workflows",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "summary": "Whether you are just starting out or are not in a technical role at all, you likely already have the skills you need to build your own tools. If you have ever thought “I’m not technical enough to build that,” this post is for you. Let me introduce the team. We are lawyers, program managers, and bus…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog",
+          "terminal"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-05",
+      "canonical_key": "openai hugging face aftermath what it means for ai agent security",
+      "normalized_title": "openai hugging face aftermath what it means for ai agent security",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFE1Y3Qtb1Vobkd4M01ZZ0RmLVYzczJhUDRhcXNRNVBpc2tfWVdJUzJJLTNzYmlKNWh0RGJ2a0VEeURobFlSTUVjQmx4SkJmSXNXMEJfMHdBMTNZOHY3eElpZzEzZUg4VE1vc25uRV9IMG82LXRKS1lnRGRteVpXQ0wtRmptSkNqOG1tTXR5OUlOcWx6Y3FyRHhpbw?oc=5",
+      "title": "OpenAI/Hugging Face Aftermath: What It Means for AI Agent Security - UC Today",
+      "summary": "OpenAI/Hugging Face Aftermath: What It Means for AI Agent Security UC Today",
+      "source": "UC Today",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFE1Y3Qtb1Vobkd4M01ZZ0RmLVYzczJhUDRhcXNRNVBpc2tfWVdJUzJJLTNzYmlKNWh0RGJ2a0VEeURobFlSTUVjQmx4SkJmSXNXMEJfMHdBMTNZOHY3eElpZzEzZUg4VE1vc25uRV9IMG82LXRKS1lnRGRteVpXQ0wtRmptSkNqOG1tTXR5OUlOcWx6Y3FyRHhpbw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "security",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "security",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-05",
+      "canonical_key": "249元 小米有品众筹ai彩屏磁吸充电宝 自带3 87英寸彩色墨水屏",
+      "normalized_title": "249元 小米有品众筹ai彩屏磁吸充电宝 自带3 87英寸彩色墨水屏",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oN2F2R290c0JoU0JvRWxNbVhhaDhwcXpIV2hxVW5uLVBMbTFQWl81TFBrMl9VdWoyMDhnYUV2OWFpZkdhMnpzNHYwVEIxWEg5bnlBV2hjVlc?oc=5",
+      "title": "249元！小米有品众筹AI彩屏磁吸充电宝：自带3.87英寸彩色墨水屏 - 驱动之家",
+      "summary": "249元！小米有品众筹AI彩屏磁吸充电宝：自带3.87英寸彩色墨水屏 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oN2F2R290c0JoU0JvRWxNbVhhaDhwcXpIV2hxVW5uLVBMbTFQWl81TFBrMl9VdWoyMDhnYUV2OWFpZkdhMnpzNHYwVEIxWEg5bnlBV2hjVlc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-05",
+      "canonical_key": "黑芝麻智能与正行创新达成战略合作 全力推动具身智能全球布局",
+      "normalized_title": "黑芝麻智能与正行创新达成战略合作 全力推动具身智能全球布局",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yR0NndDdjX2c0ZFNGOHlNeVpvemIwQ1haWVlDQTlWUnFWYnZoeVFCMmNUbWRoNjhuek9GNFYwSVNzaURaUVRoNGxKVXJPU2luRlI2dmZSM0VDQQ?oc=5",
+      "title": "黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局 - 黑芝麻智能",
+      "summary": "黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局 黑芝麻智能",
+      "source": "黑芝麻智能",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yR0NndDdjX2c0ZFNGOHlNeVpvemIwQ1haWVlDQTlWUnFWYnZoeVFCMmNUbWRoNjhuek9GNFYwSVNzaURaUVRoNGxKVXJPU2luRlI2dmZSM0VDQQ?oc=5",
+      "category": "官方研究",
+      "region": "china",
+      "source_group": "technical_report",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "black_sesame"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-05",
+      "canonical_key": "anthropic s ai used fake identities malware in rogue attack on github project",
+      "normalized_title": "anthropic s ai used fake identities malware in rogue attack on github project",
+      "normalized_link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
+      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "summary": "Routine cybersecurity testing of frontier AI models sparked a series of unexpected security incidents—the most serious case arising when Anthropic’s Mythos 5 model attempted to insert malicious code into an open source software application and created fake identities to deceive the human developers…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "opensource",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "opensource",
+          "research",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
