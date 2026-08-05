@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T06:21:24.241781+08:00",
+  "updated_at": "2026-08-06T07:16:52.947926+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5746,7 +5746,7 @@
           "terminal"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5785,7 +5785,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5816,7 +5816,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5855,7 +5855,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5894,7 +5894,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
