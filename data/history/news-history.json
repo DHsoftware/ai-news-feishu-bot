@@ -1,121 +1,8 @@
 {
-  "updated_at": "2026-08-07T09:33:25.952357+08:00",
+  "updated_at": "2026-08-08T05:55:48.173832+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
-      "normalized_title": "我一行代码都没读就发布了 被 openai 收购后 uv 工具创始人开始反思 ai 编程",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ai14cFVxUHJVQXlyejF1NnR4TWRBeWI5cC1TbV9RRHhwQ2VNSGlsYlB3cndHSDBrblJHU0tYZ2lJUVdEMkpnWjZrdzhmaVJUdmN3dDlLWEl3c2JRX0E?oc=5",
-      "title": "“我一行代码都没读就发布了”，被 OpenAI 收购后，uv 工具创始人开始反思 AI 编程 - Infoq.cn",
-      "summary": "“我一行代码都没读就发布了”，被 OpenAI 收购后，uv 工具创始人开始反思 AI 编程 Infoq.cn",
-      "source": "Infoq.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ai14cFVxUHJVQXlyejF1NnR4TWRBeWI5cC1TbV9RRHhwQ2VNSGlsYlB3cndHSDBrblJHU0tYZ2lJUVdEMkpnWjZrdzhmaVJUdmN3dDlLWEl3c2JRX0E?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "australian payments plus moves faster with chatgpt and codex",
-      "normalized_title": "australian payments plus moves faster with chatgpt and codex",
-      "normalized_link": "https://openai.com/index/australian-payments-plus",
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/australian-payments-plus",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "agentfactory enables governed digital intelligence workflows",
-      "normalized_title": "agentfactory enables governed digital intelligence workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
-      "title": "AgentFactory Enables Governed Digital Intelligence Workflows - Let's Data Science",
-      "summary": "AgentFactory Enables Governed Digital Intelligence Workflows Let's Data Science",
-      "source": "Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQTZnb2liRkk2b2xlR1lPRE51TzJ1OGg0aWVoUjBSYVJ5SHNTR2dFTXBTNXp1Tk9BVVVtN3NpM0lkNUdtVFpYdUNzMjc4WGQxZUJTNEd3M0JaRmdJRkthcENYUjlkeWlEMHlLYmJhbnZKNmNud0JnWmlIUHRObTBxY3FXQlJIWGt1LWFQWEdzOUU5YUxueFduM0FVbWsxMUZwc2E3ZQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-07-07",
       "last_seen_date": "2026-07-08",
@@ -157,121 +44,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "全球首款ai智能体手机将在2026世界人工智能大会首发首秀",
-      "normalized_title": "全球首款ai智能体手机将在2026世界人工智能大会首发首秀",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wYjZ3dmJWM2Rmb3I2aUZyLXV1ckJJNHVfMFdaVnQ1Q1JSaW4zc1pIcjZJMEtFT3ZUM0ItSlVBZWVQSkY0ZnYtUjl3M0tJWTAzWGY0Zk9yTHBmSVdfR1hNSw?oc=5",
-      "title": "全球首款AI智能体手机将在2026世界人工智能大会首发首秀 - thepaper.cn",
-      "summary": "全球首款AI智能体手机将在2026世界人工智能大会首发首秀 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wYjZ3dmJWM2Rmb3I2aUZyLXV1ckJJNHVfMFdaVnQ1Q1JSaW4zc1pIcjZJMEtFT3ZUM0ItSlVBZWVQSkY0ZnYtUjl3M0tJWTAzWGY0Zk9yTHBmSVdfR1hNSw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
-      "normalized_title": "oz digital与anthropic合作 借助claude加速企业采用人工智能",
-      "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
-      "title": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 - Moomoo",
-      "summary": "OZ Digital与Anthropic合作，借助Claude加速企业采用人工智能 Moomoo",
-      "source": "Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVmh4anFLaXBtbndYX3lRbFg2ZmtuSkl0NGJsXzFLY1dOM1FoQUt2aGI0eWRncnkwaW9CclpTRm9jOFNxcGtZNGtjLXlaN3RqNzdWY1JnZjNZTUVxVmVXZS1sd1RDbnozWGdGZzdXSVowSFluaWFLRU5ac012dVRFaGlSVVFVajU1LWJxRE16R213U182b3BzQTVQb2g2TjRZV0JJX2RoU0RTTzNiM2ZIT2xWZWVWU0U?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-07",
-      "canonical_key": "introducing nitro automate intelligent document automation for enterprise ai workflows",
-      "normalized_title": "introducing nitro automate intelligent document automation for enterprise ai workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
-      "title": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows - cio.com",
-      "summary": "Introducing Nitro Automate: Intelligent document automation for enterprise AI workflows cio.com",
-      "source": "cio.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkRoaGJsUTFySDBCSEF6M3l2RjRvVTd0YUo4elpQbmg0U1NETUtlZlpCRzJIQUxTd2pVNER4N3cwTm5XQjMtZFFCQ1E1Y0VmLWhzeXBLNE9INDZEekZfZ2dyNXBzUVdFaUtyWkZsbDFqNmZqSFRaRXZ0ejhObmFOMXp4WlJwM1pxTkp0RDAwMWVDZnhLbHVVYWtET2lJTnZDYXdVOWtScTBGaGlpV1ZBMHVZWTZYZ1Q5YXFWWGgxaUx4Z3RkZHc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-08",
@@ -3652,7 +3424,7 @@
     },
     {
       "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-07",
       "canonical_key": "six agent harness capabilities for higher model performance",
       "normalized_title": "six agent harness capabilities for higher model performance",
       "normalized_link": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
@@ -3685,7 +3457,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-07-27",
@@ -5896,6 +5668,154 @@
           "agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-07",
+      "last_seen_date": "2026-08-07",
+      "canonical_key": "鱼泡直聘加码技术研发 以ai推动招聘行业走向全流程自动化",
+      "normalized_title": "鱼泡直聘加码技术研发 以ai推动招聘行业走向全流程自动化",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qLXRscUVvaV85UExySGQ2clZ2a095RFVsSGNmSlpuSkZMTmhHUGg5WW9wbzZRS21BQXBFbEtjbEFvYjZ1eXZxeFJkVkJhNzdGWVFjSVBlNG9WdDZzU0E?oc=5",
+      "title": "鱼泡直聘加码技术研发，以AI推动招聘行业走向全流程自动化 - 中华网",
+      "summary": "鱼泡直聘加码技术研发，以AI推动招聘行业走向全流程自动化 中华网",
+      "source": "中华网",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qLXRscUVvaV85UExySGQ2clZ2a095RFVsSGNmSlpuSkZMTmhHUGg5WW9wbzZRS21BQXBFbEtjbEFvYjZ1eXZxeFJkVkJhNzdGWVFjSVBlNG9WdDZzU0E?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-07",
+      "last_seen_date": "2026-08-07",
+      "canonical_key": "wolfspeed and liteon partner to support hyperscale ai data center deployments with 800 vdc power solutions",
+      "normalized_title": "wolfspeed and liteon partner to support hyperscale ai data center deployments with 800 vdc power solutions",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2hmU20tSzZoSy16bzRSVF9RLS1EWUwydEhWR3Z1b3JRNk1sY2RwRlBTenBfbl9FT2pfaDFwYTdNTThMSnlFMmpmUUxvV3ZYdFNxU1ZwSWtXT0gza0lZQmxKV0o5MFRIX2hTSXJyNEsxTWE4WnhkaFlweFc5cXNKeUNrdWdhRmx2bVZoMm5EaTUzYmQ5OHZDWkVQa2h4Y0lfWGptZTVOWjZxaTFUTWtqZUVuLXlOYldIQk95LWd3aHd1Z29ScndkQmRkVXlrN2d5a3pnX3lZa2VFTUY2YVFQNTFXRGR2bnlhZFNpWXFUZw?oc=5",
+      "title": "Wolfspeed and LITEON Partner to Support Hyperscale AI Data Center Deployments with 800 VDC Power Solutions - Wolfspeed",
+      "summary": "Wolfspeed and LITEON Partner to Support Hyperscale AI Data Center Deployments with 800 VDC Power Solutions Wolfspeed",
+      "source": "Wolfspeed",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2hmU20tSzZoSy16bzRSVF9RLS1EWUwydEhWR3Z1b3JRNk1sY2RwRlBTenBfbl9FT2pfaDFwYTdNTThMSnlFMmpmUUxvV3ZYdFNxU1ZwSWtXT0gza0lZQmxKV0o5MFRIX2hTSXJyNEsxTWE4WnhkaFlweFc5cXNKeUNrdWdhRmx2bVZoMm5EaTUzYmQ5OHZDWkVQa2h4Y0lfWGptZTVOWjZxaTFUTWtqZUVuLXlOYldIQk95LWd3aHd1Z29ScndkQmRkVXlrN2d5a3pnX3lZa2VFTUY2YVFQNTFXRGR2bnlhZFNpWXFUZw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "sic",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "wolfspeed"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "sic",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-07",
+      "last_seen_date": "2026-08-07",
+      "canonical_key": "meta meta us 正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
+      "normalized_title": "meta meta us 正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOYTJsNFZnQV96TUtuVFFnaVRIQ05GSjFVcTlyTUFkS2tTMDRPc0x6YjQzRW5nWDN4eG10bXprcTdENmRVX2daWk5EeDZSb2M4OV9YNjFpd1l4SmtEbzVMdGdDdFlLZG1Sb2VGSUdTYWhXNGFNYk9KTERBdWdPcW8yUGRNZFU5TldxSmplOXVKVlZvUVpSOTdQRUxFTUZBQnBsWG5EcFdFMkIxRURCQXo1dnM5WmZqVG1ET2gyb2Raa0dqbEk4bERPZ0lTblNycnhualpuYnd0bi1Pei1QUXhhcGYzMXF1QXZXWkhOOC12VUtFaW5mYVZVYnBkbWl3WXYzRWtzNVotaFZQT29EcXNwZkEwXzlrUVIxbTVlbGdDTnVfLWVNa25vLTFpQndiSEwwRUxVeWM0aFZuaXlpU2x2SXhaSUIyRHcyNkI4T3JjOHdmbm53QjhVVUc5cm1XUmMzU2tNdkd6aGhXWXVQSHZ3QkZQbHItR1RwSWdtRjZzNlhlSVUzZnNHQ0h1V2Q2eHNleGd0NXV4S3VSc2llX2NCeHpEQUppTTNDYThsQ0hGelFfb1F4VEpkZHJlcFl0Vllzb1pnaVdaMm1jQzZ5SjZBdDNjY2NPQWZ6X2JxUHhhN0h4RzBVVnpZcndwTzdIZk9XNzUwYWxIUzJtSEpJQkpsSTJlVmEzSXRhdW13Qlh3Z3RJQQ?oc=5",
+      "title": "Meta(META.US)正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 - 新浪财经",
+      "summary": "Meta(META.US)正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOYTJsNFZnQV96TUtuVFFnaVRIQ05GSjFVcTlyTUFkS2tTMDRPc0x6YjQzRW5nWDN4eG10bXprcTdENmRVX2daWk5EeDZSb2M4OV9YNjFpd1l4SmtEbzVMdGdDdFlLZG1Sb2VGSUdTYWhXNGFNYk9KTERBdWdPcW8yUGRNZFU5TldxSmplOXVKVlZvUVpSOTdQRUxFTUZBQnBsWG5EcFdFMkIxRURCQXo1dnM5WmZqVG1ET2gyb2Raa0dqbEk4bERPZ0lTblNycnhualpuYnd0bi1Pei1QUXhhcGYzMXF1QXZXWkhOOC12VUtFaW5mYVZVYnBkbWl3WXYzRWtzNVotaFZQT29EcXNwZkEwXzlrUVIxbTVlbGdDTnVfLWVNa25vLTFpQndiSEwwRUxVeWM0aFZuaXlpU2x2SXhaSUIyRHcyNkI4T3JjOHdmbm53QjhVVUc5cm1XUmMzU2tNdkd6aGhXWXVQSHZ3QkZQbHItR1RwSWdtRjZzNlhlSVUzZnNHQ0h1V2Q2eHNleGd0NXV4S3VSc2llX2NCeHpEQUppTTNDYThsQ0hGelFfb1F4VEpkZHJlcFl0Vllzb1pnaVdaMm1jQzZ5SjZBdDNjY2NPQWZ6X2JxUHhhN0h4RzBVVnpZcndwTzdIZk9XNzUwYWxIUzJtSEpJQkpsSTJlVmEzSXRhdW13Qlh3Z3RJQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-07",
+      "last_seen_date": "2026-08-07",
+      "canonical_key": "openai puts the brakes on a new model because it s supposedly too powerful",
+      "normalized_title": "openai puts the brakes on a new model because it s supposedly too powerful",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face . Anthropic and Meta have…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "security"
         ]
       },
       "seen_count": 1

@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-07T09:33:25.952357+08:00",
+  "updated_at": "2026-08-08T05:55:48.173832+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
     {
       "first_seen_date": "2026-06-05",
-      "last_seen_date": "2026-07-23",
+      "last_seen_date": "2026-08-07",
       "canonical_key": "integrations and observability",
       "normalized_title": "integrations and observability",
       "normalized_link": "https://developers.openai.com/api/docs/guides/agents/integrations-observability",
@@ -20,7 +20,7 @@
       "is_official_source": true,
       "language": "en",
       "region": "global",
-      "seen_count": 7,
+      "seen_count": 8,
       "event_signature": {
         "entities": [
           "openai"
