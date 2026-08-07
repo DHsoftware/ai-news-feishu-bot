@@ -1,119 +1,8 @@
 {
-  "updated_at": "2026-08-06T07:16:52.947926+08:00",
+  "updated_at": "2026-08-07T09:01:53.088773+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
-      "canonical_key": "how nations are deploying ai for strategic priorities",
-      "normalized_title": "how nations are deploying ai for strategic priorities",
-      "normalized_link": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities",
-      "title": "How Nations Are Deploying AI for Strategic Priorities",
-      "summary": "Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, entertainment and healthcare. AI, the most important technology of our time, is tur…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "regulation",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "regulation",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
-      "canonical_key": "blocksdiy targets cost heavy revenue growth with ai driven workflow automation",
-      "normalized_title": "blocksdiy targets cost heavy revenue growth with ai driven workflow automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmRydEVUVzNGdjhscGJaRU9pYUVua2NZenNPSC1iSjRQSC14RGlET1owYWV3akRqVTA5bEdzNUlZS1U1ZFRBZmhOd2twcXFKZk9acXZwLV9PREpCY0JsSkU3eWpiMjBzVkdpU05BRG12eTdCamRnS3FJZThYOWJ0WEhxVm9sVFpjVWF1VUpVSXJGa29GMDdZMlgzaEFhSVZBRllhblRBa3NVVnFHbC1EdkVQb0lWS3U1cDNXbmxDSmM4VjM5?oc=5",
-      "title": "Blocksdiy Targets Cost-Heavy Revenue Growth With AI-Driven Workflow Automation - TipRanks",
-      "summary": "Blocksdiy Targets Cost-Heavy Revenue Growth With AI-Driven Workflow Automation TipRanks",
-      "source": "TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmRydEVUVzNGdjhscGJaRU9pYUVua2NZenNPSC1iSjRQSC14RGlET1owYWV3akRqVTA5bEdzNUlZS1U1ZFRBZmhOd2twcXFKZk9acXZwLV9PREpCY0JsSkU3eWpiMjBzVkdpU05BRG12eTdCamRnS3FJZThYOWJ0WEhxVm9sVFpjVWF1VUpVSXJGa29GMDdZMlgzaEFhSVZBRllhblRBa3NVVnFHbC1EdkVQb0lWS3U1cDNXbmxDSmM4VjM5?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
-      "canonical_key": "直击 ai 算力电源需求 南芯科技推出高效 ac dc 完整平台",
-      "normalized_title": "直击 ai 算力电源需求 南芯科技推出高效 ac dc 完整平台",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ3gxOTBlTHpMTGZXZ2VFYVBoVjdxekhIRUE5b2xGVVdxSm5Pc0VORk9uelBOVVcweVhhamtCNHNvcnFaOXhTV2dRRGlnanRSMF9aTjNMUnBCX0ZhZ203ZzF1bS1NYVVVQ1hZM2ZRc0R4NUtjaDdQSDl1ZjBNbEFRNHF2T29LTVFW?oc=5",
-      "title": "直击 AI 算力电源需求，南芯科技推出高效 AC-DC 完整平台 - 新浪财经",
-      "summary": "直击 AI 算力电源需求，南芯科技推出高效 AC-DC 完整平台 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ3gxOTBlTHpMTGZXZ2VFYVBoVjdxekhIRUE5b2xGVVdxSm5Pc0VORk9uelBOVVcweVhhamtCNHNvcnFaOXhTV2dRRGlnanRSMF9aTjNMUnBCX0ZhZ203ZzF1bS1NYVVVQ1hZM2ZRc0R4NUtjaDdQSDl1ZjBNbEFRNHF2T29LTVFW?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-07-06",
       "last_seen_date": "2026-07-07",
@@ -152,78 +41,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
-      "canonical_key": "enhancing goodput in large scale llm training with nonuniform tensor parallelism",
-      "normalized_title": "enhancing goodput in large scale llm training with nonuniform tensor parallelism",
-      "normalized_link": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism",
-      "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-      "summary": "Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these... Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "llm",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "llm",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-06",
-      "last_seen_date": "2026-07-06",
-      "canonical_key": "factset integrates tifin s ai platform for agentic ai workflows",
-      "normalized_title": "factset integrates tifin s ai platform for agentic ai workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
-      "title": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows - connectmoney.com",
-      "summary": "FactSet Integrates TIFIN’s AI Platform for Agentic AI Workflows connectmoney.com",
-      "source": "connectmoney.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmQxckxjdi1WbHJ6R2NoTmRTa19rYWV4T3dlTlRFeFJ3MGtaNGN6LUh2bDRTb3ZOMVhFQ3lzV3RXWTFhd0NUWnpKOHZ6TEVpQ2xfOG85OThGQUllM0FkLWc4T2tEQ3M5dHlXWlF3enBOSlc0ZmJtRkVRVW5hQWg2REZuTHdvUW56T19RYlFGVTFQQkRnb3d6dTVJMzVIUXR0Q3c?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-07",
@@ -3835,7 +3652,7 @@
     },
     {
       "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-07-27",
+      "last_seen_date": "2026-08-06",
       "canonical_key": "six agent harness capabilities for higher model performance",
       "normalized_title": "six agent harness capabilities for higher model performance",
       "normalized_link": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
@@ -3868,7 +3685,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-07-27",
@@ -5859,7 +5676,7 @@
     },
     {
       "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-05",
+      "last_seen_date": "2026-08-06",
       "canonical_key": "anthropic s ai used fake identities malware in rogue attack on github project",
       "normalized_title": "anthropic s ai used fake identities malware in rogue attack on github project",
       "normalized_link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
@@ -5894,7 +5711,122 @@
           "security"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "nvidia vera storage benchmarks faster encryption compression integrity checking and recovery for ai",
+      "normalized_title": "nvidia vera storage benchmarks faster encryption compression integrity checking and recovery for ai",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage",
+      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
+      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,... Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "company_research",
+        "technical_blog",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "vera"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "company_research",
+          "technical_blog",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "lh1153雷火电竞官网 ai数字孪生驱动精密制造 封装良率突破99 7 能耗降低35 tgbus",
+      "normalized_title": "lh1153雷火电竞官网 ai数字孪生驱动精密制造 封装良率突破99 7 能耗降低35 tgbus",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCNkNBaTdnR0RqZGF1UWhXWjF3alU1eDQ4bERsLVBBRUJkMFJNNTlHYjlnMkg3TEk4VmJHOVZpWWhDV0xES3ppNWc5YkdtNDgyWEYwc2x3?oc=5",
+      "title": "LH1153雷火电竞官网：AI数字孪生驱动精密制造，封装良率突破99.7% 能耗降低35%-TGBUS - 电玩巴士",
+      "summary": "LH1153雷火电竞官网：AI数字孪生驱动精密制造，封装良率突破99.7% 能耗降低35%-TGBUS 电玩巴士",
+      "source": "电玩巴士",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCNkNBaTdnR0RqZGF1UWhXWjF3alU1eDQ4bERsLVBBRUJkMFJNNTlHYjlnMkg3TEk4VmJHOVZpWWhDV0xES3ppNWc5YkdtNDgyWEYwc2x3?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "digital_twin",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "digital_twin",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "当ai开始 自作主张 谁为智能体戴上 项圈",
+      "normalized_title": "当ai开始 自作主张 谁为智能体戴上 项圈",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85QlVqVXdoNEVucUFWME5Xb29wUUtyR09vM1hGeWthcDZYQUhuREZGZWgzNi1vWlllM3ZVUGJNSlM5eUtOSzlLQ3NhRzhEWVE3OFB1cmxpWERHOXA3UUNpRA?oc=5",
+      "title": "当AI开始“自作主张”，谁为智能体戴上“项圈”？ - thepaper.cn",
+      "summary": "当AI开始“自作主张”，谁为智能体戴上“项圈”？ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85QlVqVXdoNEVucUFWME5Xb29wUUtyR09vM1hGeWthcDZYQUhuREZGZWgzNi1vWlllM3ZVUGJNSlM5eUtOSzlLQ3NhRzhEWVE3OFB1cmxpWERHOXA3UUNpRA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

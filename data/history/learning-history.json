@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T07:16:52.947926+08:00",
+  "updated_at": "2026-08-07T09:01:53.088773+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -399,6 +399,53 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "introducing agent plugins",
+      "normalized_title": "introducing agent plugins",
+      "normalized_link": "https://www.youtube.com/watch?v=UaeWJK_vv-Y",
+      "title": "Introducing Agent Plugins",
+      "summary": "Introducing Agent Plugins, an open standard developed in collaboration with partners across the AI ecosystem. Bundle Agent Skills and supported MCP server configurations into plugins you can use across ChatGPT, Codex, Cursor, GitHub Copilot, Kiro, and VS Code. Get started: https://agent-plugins.org…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=UaeWJK_vv-Y",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "agent_skills",
+        "cli",
+        "codex",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "codex",
+          "copilot",
+          "cursor",
+          "mcp"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agent_skills",
+          "cli",
+          "codex",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
