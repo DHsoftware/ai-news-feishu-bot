@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T09:01:53.088773+08:00",
+  "updated_at": "2026-08-07T09:33:25.952357+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3685,7 +3685,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-27",
@@ -5756,7 +5756,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-06",
@@ -5789,7 +5789,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-06",
@@ -5824,6 +5824,78 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "meta正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
+      "normalized_title": "meta正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56STJ6S3ZNdjFSYkJkdWpaQ0pYTEJfMTkyQmpBNk9OajM2bW9YbHlNek1SX3BxR0RNT2dZc1h6TVhVMVQ0bTI2Nk9BQ20?oc=5",
+      "title": "Meta正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 - baijing.cn",
+      "summary": "Meta正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 baijing.cn",
+      "source": "baijing.cn",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56STJ6S3ZNdjFSYkJkdWpaQ0pYTEJfMTkyQmpBNk9OajM2bW9YbHlNek1SX3BxR0RNT2dZc1h6TVhVMVQ0bTI2Nk9BQ20?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-06",
+      "last_seen_date": "2026-08-06",
+      "canonical_key": "meta s muse code is yet another ai coding agent on macos",
+      "normalized_title": "meta s muse code is yet another ai coding agent on macos",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcGJxd1poczRpUHh1VkdScmxmaURLQVZlTllpZEVxSExYT1ZaMnl5NjdBYWJNVkdZYUhYMEtudy1xcG9wTlJ6T1FqMnBTejVfa0JIUHFxcWZOZF91a09tYlh5T3loOWg3d0xGNF83X2h2S20wOEM5aHNaRHNjWWtPQzF2ajZsOFVUdlZid2JyNHl5dDlmTzk2bmhqZnp3Rzg?oc=5",
+      "title": "Meta's Muse Code is yet another AI coding agent on macOS - AppleInsider",
+      "summary": "Meta's Muse Code is yet another AI coding agent on macOS AppleInsider",
+      "source": "AppleInsider",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcGJxd1poczRpUHh1VkdScmxmaURLQVZlTllpZEVxSExYT1ZaMnl5NjdBYWJNVkdZYUhYMEtudy1xcG9wTlJ6T1FqMnBTejVfa0JIUHFxcWZOZF91a09tYlh5T3loOWg3d0xGNF83X2h2S20wOEM5aHNaRHNjWWtPQzF2ajZsOFVUdlZid2JyNHl5dDlmTzk2bmhqZnp3Rzg?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1

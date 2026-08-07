@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T09:01:53.088773+08:00",
+  "updated_at": "2026-08-07T09:33:25.952357+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -445,7 +445,7 @@
           "mcp"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
