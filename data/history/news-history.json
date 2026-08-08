@@ -1,50 +1,8 @@
 {
-  "updated_at": "2026-08-08T06:53:49.103077+08:00",
+  "updated_at": "2026-08-09T05:45:43.493378+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-07",
-      "last_seen_date": "2026-07-08",
-      "canonical_key": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
-      "normalized_title": "nvidia and hugging face bring new models and frameworks to lerobot for the open robotics community",
-      "normalized_link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
-      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, c…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "opensource",
-        "robotics",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "model_capability",
-          "opensource",
-          "robotics",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
     {
       "first_seen_date": "2026-07-08",
       "last_seen_date": "2026-07-09",
@@ -86,117 +44,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-08",
-      "last_seen_date": "2026-07-08",
-      "canonical_key": "a3 s 2026 automation whitepaper wave signals a shift from fixed hardware to software defined factory floors",
-      "normalized_title": "a3 s 2026 automation whitepaper wave signals a shift from fixed hardware to software defined factory floors",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNWV2M1FGNzk1QzI2U0p1Z1BFUW5xcllQSVRYTnJZSjNlcS02dS11YWdvRnF1VGVHQ0FiWFVCb0pTNmpUOUVQNmpCcVVDWS1uNTdpMld4SWZYc1A2SWROa3QwakVrWVBfQzJOcU5NR0Fab0l2LVprR1lSLWktNzVCSWEzVUFHNDVOQXVOY0x3Nm85SXVNUGp5QUoxODV0TXhOZmNtMWdrQlRSNjNvTUtfNks3dTRVazV0S0VVTmd0TUZ0MUMwVTliS01tcHNlX1J2VkQ1OXNFX2FUVDQtWUNLeGlCZWNCck1hd3ZUMFNseDEydw?oc=5",
-      "title": "A3's 2026 automation whitepaper wave signals a shift from fixed hardware to software-defined factory floors - MarketScale",
-      "summary": "A3's 2026 automation whitepaper wave signals a shift from fixed hardware to software-defined factory floors MarketScale",
-      "source": "MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNWV2M1FGNzk1QzI2U0p1Z1BFUW5xcllQSVRYTnJZSjNlcS02dS11YWdvRnF1VGVHQ0FiWFVCb0pTNmpUOUVQNmpCcVVDWS1uNTdpMld4SWZYc1A2SWROa3QwakVrWVBfQzJOcU5NR0Fab0l2LVprR1lSLWktNzVCSWEzVUFHNDVOQXVOY0x3Nm85SXVNUGp5QUoxODV0TXhOZmNtMWdrQlRSNjNvTUtfNks3dTRVazV0S0VVTmd0TUZ0MUMwVTliS01tcHNlX1J2VkQ1OXNFX2FUVDQtWUNLeGlCZWNCck1hd3ZUMFNseDEydw?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "whitepaper",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "whitepaper",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-08",
-      "last_seen_date": "2026-07-08",
-      "canonical_key": "国内首个ai自驱动实验室在上海落地 跑通全流程自动化科研",
-      "normalized_title": "国内首个ai自驱动实验室在上海落地 跑通全流程自动化科研",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PMC1iSUllMUY2OUVBLXVhTlB2NFJEVExrRHp2Q1NGdkJDdlJKVnlUdE54SGhvSUwtSGdwQXlHYlIzVUJja01PMG9qOHJYQUpOWlVSSQ?oc=5",
-      "title": "国内首个AI自驱动实验室在上海落地 跑通全流程自动化科研 - 第一财经",
-      "summary": "国内首个AI自驱动实验室在上海落地 跑通全流程自动化科研 第一财经",
-      "source": "第一财经",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PMC1iSUllMUY2OUVBLXVhTlB2NFJEVExrRHp2Q1NGdkJDdlJKVnlUdE54SGhvSUwtSGdwQXlHYlIzVUJja01PMG9qOHJYQUpOWlVSSQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-08",
-      "last_seen_date": "2026-07-08",
-      "canonical_key": "8点1氪丨前华为天才少年吐槽deepseek面试 称面试官质疑他抄袭 苹果折叠屏已在量产 特朗普呼吁购买戴尔电脑 引发戴尔暴涨百亿美元",
-      "normalized_title": "8点1氪丨前华为天才少年吐槽deepseek面试 称面试官质疑他抄袭 苹果折叠屏已在量产 特朗普呼吁购买戴尔电脑 引发戴尔暴涨百亿美元",
-      "normalized_link": "https://36kr.com/p/3886238403129353?f=rss",
-      "title": "8点1氪丨前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭；苹果折叠屏已在量产；特朗普呼吁购买戴尔电脑，引发戴尔暴涨百亿美元",
-      "summary": "今日热点导览 网传“7月1日新规：新车智驾芯片自主化率不低于70%”系谣言 商业银行不良处置仍在加速，上半年全行业转让核销合计至少5000亿 国家外汇管理局：截至2026年6月末，中国外汇储备规模为34163亿美元 汇丰暂停向风险较高的私募信贷客户提供贷款 SpaceX公布AI数据中心计划，同步推进星链卫星脱轨 TOP3大新闻 前华为天才少年吐槽DeepSeek面试，称面试官质疑他抄袭 7月6日，前华为“天才少年”李博杰在社交平台公开吐槽DeepSeek的面试流程，提及流程较慢且繁琐，面试官存在态度问题，质疑他抄袭，他感到“被严重冒犯”。面试过程并不愉快，他还被面试官质疑抄袭。“因为在代码面…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3886238403129353?f=rss",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "llm",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple",
-          "huawei",
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [
-          "production",
-          "release"
-        ],
-        "topics": [
-          "chip",
-          "llm",
-          "model_capability",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-09",
@@ -5819,6 +5666,180 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-08",
+      "canonical_key": "ai agents on the factory floor moving from copilots to closed loop decision making",
+      "normalized_title": "ai agents on the factory floor moving from copilots to closed loop decision making",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNckJueEpaVjJMXzVUZzk1VTdmVE9hMEp1amJDVGtoOWEwTWI5UTBwYUFtaDhtY1hveGV5UFZOc0J6UWYzZWM4VjJHcnNyR0FFam5WdUNiaHMycXFObWxXWkQzenNFZXBtSG5tRWo4eEZZeU45ckJTR1ZHcHdoalc1bFpEWEJVUHZkYmpSdHkyX2cxVzJFQ1RHQ01HSm1wT3VqRGgtMzZaVjBKcVJjYnlsUQ?oc=5",
+      "title": "AI Agents on the Factory Floor: Moving From Copilots to Closed-Loop Decision-Making - BizTech Magazine",
+      "summary": "AI Agents on the Factory Floor: Moving From Copilots to Closed-Loop Decision-Making BizTech Magazine",
+      "source": "BizTech Magazine",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNckJueEpaVjJMXzVUZzk1VTdmVE9hMEp1amJDVGtoOWEwTWI5UTBwYUFtaDhtY1hveGV5UFZOc0J6UWYzZWM4VjJHcnNyR0FFam5WdUNiaHMycXFObWxXWkQzenNFZXBtSG5tRWo4eEZZeU45ckJTR1ZHcHdoalc1bFpEWEJVUHZkYmpSdHkyX2cxVzJFQ1RHQ01HSm1wT3VqRGgtMzZaVjBKcVJjYnlsUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-08",
+      "canonical_key": "前瞻洞察 48v直达1v给ai芯片供电的核心难点 低损耗路径 高频软开关 薄型磁件 宽控制带宽 封装可制造性",
+      "normalized_title": "前瞻洞察 48v直达1v给ai芯片供电的核心难点 低损耗路径 高频软开关 薄型磁件 宽控制带宽 封装可制造性",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYldrZmpxSHFNSHRpRi0zOFJNaVJ2WFF1d3RxNWszMXprOTVEUDBaREN5VHl6UzZLcG9jbnpxemg3Qi1SOGdKcnM0bWJKNXZiTzVV?oc=5",
+      "title": "[前瞻洞察] 48V直达1V给AI芯片供电的核心难点：低损耗路径、高频软开关、薄型磁件、宽控制带宽、封装可制造性 - 电子工程专辑",
+      "summary": "[前瞻洞察] 48V直达1V给AI芯片供电的核心难点：低损耗路径、高频软开关、薄型磁件、宽控制带宽、封装可制造性 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYldrZmpxSHFNSHRpRi0zOFJNaVJ2WFF1d3RxNWszMXprOTVEUDBaREN5VHl6UzZLcG9jbnpxemg3Qi1SOGdKcnM0bWJKNXZiTzVV?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-08",
+      "canonical_key": "firebird launches cis region s largest ai factory in armenia",
+      "normalized_title": "firebird launches cis region s largest ai factory in armenia",
+      "normalized_link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
+      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+      "summary": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure . Ni…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "cloud",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "release"
+        ],
+        "topics": [
+          "ai_factory",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-08",
+      "canonical_key": "anthropic正式官宣自研 ai 芯片 采用多芯片并行发展策略",
+      "normalized_title": "anthropic正式官宣自研 ai 芯片 采用多芯片并行发展策略",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OGhWTkRnZDM3TXJTakl2QkhPN05wUXZ2akRrRmJRY1h4M0dyZ2cwSlVmbzEtMzBhWm4zSXVFMExNQnJ4ZDNWck9WSHV0NkxtR3Q2TlRWcS1iVHlhenhRdjJGREdoQlFJYlE?oc=5",
+      "title": "Anthropic正式官宣自研 AI 芯片，采用多芯片并行发展策略 - 世界互联网大会",
+      "summary": "Anthropic正式官宣自研 AI 芯片，采用多芯片并行发展策略 世界互联网大会",
+      "source": "世界互联网大会",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OGhWTkRnZDM3TXJTakl2QkhPN05wUXZ2akRrRmJRY1h4M0dyZ2cwSlVmbzEtMzBhWm4zSXVFMExNQnJ4ZDNWck9WSHV0NkxtR3Q2TlRWcS1iVHlhenhRdjJGREdoQlFJYlE?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-08",
+      "canonical_key": "responding to the next frontier of critical cyber capabilities",
+      "normalized_title": "responding to the next frontier of critical cyber capabilities",
+      "normalized_link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
