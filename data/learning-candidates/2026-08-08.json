@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generated_at": "2026-08-09T05:45:43.493378+08:00",
+  "generated_at": "2026-08-09T06:44:33.447944+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -45,7 +45,7 @@
         "official",
         "safety"
       ],
-      "published_at": "2026-08-09T05:45:43.493378+08:00",
+      "published_at": "2026-08-09T06:44:33.447944+08:00",
       "language": "en",
       "region": "global",
       "source_group": "official_agent_concept",

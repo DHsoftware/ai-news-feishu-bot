@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T05:45:43.493378+08:00",
+  "updated_at": "2026-08-09T06:44:33.447944+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5702,7 +5702,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5735,7 +5735,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5775,7 +5775,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5804,7 +5804,7 @@
           "chip"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5839,7 +5839,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
