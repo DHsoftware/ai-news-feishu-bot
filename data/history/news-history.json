@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T05:48:10.236052+08:00",
+  "updated_at": "2026-08-10T06:48:02.164526+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5590,7 +5590,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5691,7 +5691,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-09",
@@ -5728,7 +5728,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-09",
@@ -5759,7 +5759,7 @@
           "coding"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-09",
@@ -5790,7 +5790,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
