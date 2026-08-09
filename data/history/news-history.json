@@ -1,193 +1,8 @@
 {
-  "updated_at": "2026-08-09T06:44:33.447944+08:00",
+  "updated_at": "2026-08-10T05:48:10.236052+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-08",
-      "last_seen_date": "2026-07-09",
-      "canonical_key": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
-      "normalized_title": "nvidia nemotron achieves benchmark leading performance with langchain deep agents harness",
-      "normalized_link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while complet…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-09",
-      "last_seen_date": "2026-07-09",
-      "canonical_key": "ai can generate charts flint helps generate better ones",
-      "normalized_title": "ai can generate charts flint helps generate better ones",
-      "normalized_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSl9RSk1aYWNQbFdGSFJ0SGEzWjVwaFFmTE1vYjZEQm5nQ1ZraHZzaWpiN0hBMjNRX1dlU2JmV0lQTEZMMUNFd0prb1lVdW1NSkJ4VzJIR21JVXgxUS1SaFkxRUZTQ2NUTC1KMEtlSTZPRU90aEdQYUVYcGg0dUpGOXlCUXNoaEMtRkJVcWRod3U1OTh6dGpr?oc=5",
-      "title": "AI can generate Charts. Flint helps generate better ones. - Microsoft",
-      "summary": "AI can generate Charts. Flint helps generate better ones. Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSl9RSk1aYWNQbFdGSFJ0SGEzWjVwaFFmTE1vYjZEQm5nQ1ZraHZzaWpiN0hBMjNRX1dlU2JmV0lQTEZMMUNFd0prb1lVdW1NSkJ4VzJIR21JVXgxUS1SaFkxRUZTQ2NUTC1KMEtlSTZPRU90aEdQYUVYcGg0dUpGOXlCUXNoaEMtRkJVcWRod3U1OTh6dGpr?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "engineering_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-09",
-      "last_seen_date": "2026-07-09",
-      "canonical_key": "a practical guide to gpu initiated communication for molecular dynamics at scale",
-      "normalized_title": "a practical guide to gpu initiated communication for molecular dynamics at scale",
-      "normalized_link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale",
-      "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
-      "summary": "Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in... Source",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-09",
-      "last_seen_date": "2026-07-09",
-      "canonical_key": "道旅集团 推出 dida mcp 让 ai 推荐即刻变现为酒店预订",
-      "normalized_title": "道旅集团 推出 dida mcp 让 ai 推荐即刻变现为酒店预订",
-      "normalized_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oZVYzNU93TFV6RVJRVGR3TXcwM3YzMEtaM3pqakZoZ0s5dmZQQnRRTVBleUdqbVZsR1pHbnA3ZWh4NFNwc3REMGtEdUhKVkhIWFJnOXMwV1d1eU5COUVqb0lJaXR4RkpYRVRRX29PMDFCakE?oc=5",
-      "title": "道旅集团重磅推出 Dida MCP：让 AI 推荐即刻变现为酒店预订 - 潮新闻",
-      "summary": "道旅集团重磅推出 Dida MCP：让 AI 推荐即刻变现为酒店预订 潮新闻",
-      "source": "潮新闻",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oZVYzNU93TFV6RVJRVGR3TXcwM3YzMEtaM3pqakZoZ0s5dmZQQnRRTVBleUdqbVZsR1pHbnA3ZWh4NFNwc3REMGtEdUhKVkhIWFJnOXMwV1d1eU5COUVqb0lJaXR4RkpYRVRRX29PMDFCakE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-09",
-      "last_seen_date": "2026-07-09",
-      "canonical_key": "中美ai监管双向闸口初现 工信部发claude code风险提示 阿里全面禁用anthropic",
-      "normalized_title": "中美ai监管双向闸口初现 工信部发claude code风险提示 阿里全面禁用anthropic",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40d3dBZDNjb2xRZFBmVE5rTDZfeVpxMkgxWkFEQjFqS1JhN0lrc3pVWEZfU0l3ZjdQZi1UNFJtaFlnRVYtWjQzcWNDaVRsVVQtZjFWX3Z6S0oyenZoSmhPbUh3?oc=5",
-      "title": "中美AI监管双向闸口初现：工信部发Claude Code风险提示，阿里全面禁用Anthropic - 虎嗅网",
-      "summary": "中美AI监管双向闸口初现：工信部发Claude Code风险提示，阿里全面禁用Anthropic 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40d3dBZDNjb2xRZFBmVE5rTDZfeVpxMkgxWkFEQjFqS1JhN0lrc3pVWEZfU0l3ZjdQZi1UNFJtaFlnRVYtWjQzcWNDaVRsVVQtZjFWX3Z6S0oyenZoSmhPbUh3?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "coding_agent",
-        "regulation"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "coding_agent",
-          "policy_regulation",
-          "regulation"
-        ]
-      },
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-07-09",
       "last_seen_date": "2026-07-11",
@@ -5739,7 +5554,7 @@
     },
     {
       "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-08",
+      "last_seen_date": "2026-08-09",
       "canonical_key": "firebird launches cis region s largest ai factory in armenia",
       "normalized_title": "firebird launches cis region s largest ai factory in armenia",
       "normalized_link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
@@ -5775,7 +5590,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5840,6 +5655,142 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-09",
+      "last_seen_date": "2026-08-09",
+      "canonical_key": "智能体ai或将推动企业级ai服务器架构重新设计",
+      "normalized_title": "智能体ai或将推动企业级ai服务器架构重新设计",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtazI5UmpYeFlfSDVYVC1KeWlrOUQ2WUpWM3M1Mlk2NjdDNVlDY3VLM2dZVHNQaXRXYnpTMEdFN3NKekVubWgzbnRqRFBEM0RfaTZFcDdEN2ZPV0stZlE?oc=5",
+      "title": "智能体AI或将推动企业级AI服务器架构重新设计 - thepaper.cn",
+      "summary": "智能体AI或将推动企业级AI服务器架构重新设计 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtazI5UmpYeFlfSDVYVC1KeWlrOUQ2WUpWM3M1Mlk2NjdDNVlDY3VLM2dZVHNQaXRXYnpTMEdFN3NKekVubWgzbnRqRFBEM0RfaTZFcDdEN2ZPV0stZlE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-09",
+      "last_seen_date": "2026-08-09",
+      "canonical_key": "why pharmacovigilance is moving from workflow automation to ai assisted decision intelligence",
+      "normalized_title": "why pharmacovigilance is moving from workflow automation to ai assisted decision intelligence",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTGFqOE1MQUw2dndySUtrcFdEMExBaFd2eVhfR3BsbGlGN2ptX0JuTzEtR3JhaTBZSW03aHd6dnYwMFJJZUR4NDdjbzBYRzczQTFxaU1CZEN3UzhpNXFjVXFUem5DVnBScVVYbEtqS1VONWF5bmlleHBpaGYyN0paSW1RbXl5bmppek5jU0FBZmJ1b2o3NTk3S2tVcURQMG5TSDlnTzJHZHVqT0hhVjRSU1JucnpzUlQ2enRfNnZLd2pnaFJYa1BGS3VB?oc=5",
+      "title": "Why pharmacovigilance is moving from workflow automation to AI-assisted decision intelligence - drugdiscoverytrends.com",
+      "summary": "Why pharmacovigilance is moving from workflow automation to AI-assisted decision intelligence drugdiscoverytrends.com",
+      "source": "drugdiscoverytrends.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTGFqOE1MQUw2dndySUtrcFdEMExBaFd2eVhfR3BsbGlGN2ptX0JuTzEtR3JhaTBZSW03aHd6dnYwMFJJZUR4NDdjbzBYRzczQTFxaU1CZEN3UzhpNXFjVXFUem5DVnBScVVYbEtqS1VONWF5bmlleHBpaGYyN0paSW1RbXl5bmppek5jU0FBZmJ1b2o3NTk3S2tVcURQMG5TSDlnTzJHZHVqT0hhVjRSU1JucnpzUlQ2enRfNnZLd2pnaFJYa1BGS3VB?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-09",
+      "last_seen_date": "2026-08-09",
+      "canonical_key": "anthropic升级ai编程工具 免去开发者手动复制上下文",
+      "normalized_title": "anthropic升级ai编程工具 免去开发者手动复制上下文",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xVC0yR0Y1Znp4N04zUTZlYzd1U2Z5VzFDSzZuNEhQR1Q5dVFkTExfMzlNeFR1a2VfaWNkTFhjdnZyZUFQbFJRLXBGdjRwUU01cjJB?oc=5",
+      "title": "Anthropic升级AI编程工具，免去开发者手动复制上下文 - 环球网",
+      "summary": "Anthropic升级AI编程工具，免去开发者手动复制上下文 环球网",
+      "source": "环球网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xVC0yR0Y1Znp4N04zUTZlYzd1U2Z5VzFDSzZuNEhQR1Q5dVFkTExfMzlNeFR1a2VfaWNkTFhjdnZyZUFQbFJRLXBGdjRwUU01cjJB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-09",
+      "last_seen_date": "2026-08-09",
+      "canonical_key": "anthropic is turning claude code s auto mode on by default",
+      "normalized_title": "anthropic is turning claude code s auto mode on by default",
+      "normalized_link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "summary": "Programming with Claude Code will soon require even less human oversight.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
