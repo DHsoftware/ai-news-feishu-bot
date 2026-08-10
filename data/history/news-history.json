@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T06:48:02.164526+08:00",
+  "updated_at": "2026-08-11T05:58:13.455476+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -129,113 +129,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-10",
-      "canonical_key": "iiit hyderabad bags top honours at cvpr ai conference",
-      "normalized_title": "iiit hyderabad bags top honours at cvpr ai conference",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNemhINl9JYWZxY2NPT2ZIUlZMZHRvdmR6U1ZvaWU0TWs0YUlsYU1ZY3YtdV9mOU1PQUJWMUJaNkNaelZhSldkYWI3RlBvek1MZnlaU1pNdXVicFI3RFo4WUhaUTNTMVpsMFV1aWVCQlpqRTc3RmhxZWFfQ3RjSnFJSE9NSXZ2V2dsalFVMTdWSUJ1d0ZGTVZCNjhfM2hiMW8zWERPRDlBSTh3RTM2U3E5WVBfRkl6UEtpRGZF0gHAAUFVX3lxTE5vOFhHd1hqd3VkNEJYZUZiX25vLWlYZ1d3U0JsdUdvVWFMU2N5RWJQSFMtbkczRGY4T0tRVXQ2dVdHMVV1TF9rUEJDMU1fNGdRaHo0VU03TktZR25IUm5YX0JVd0dkZkpDZVlXd3ZDNzhNSFdfT2xWMF91S3Ryby1kbHRPSk82Y0tjWHhJVTVOREtpaHl5OW1na2YtNm5ldUt0a0QtTHhHMFZpbVp6U0VIVU9mS2pMbl81VFpDTHBQVA?oc=5",
-      "title": "IIIT, Hyderabad Bags Top Honours at CVPR AI Conference - Deccan Chronicle",
-      "summary": "IIIT, Hyderabad Bags Top Honours at CVPR AI Conference Deccan Chronicle",
-      "source": "Deccan Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNemhINl9JYWZxY2NPT2ZIUlZMZHRvdmR6U1ZvaWU0TWs0YUlsYU1ZY3YtdV9mOU1PQUJWMUJaNkNaelZhSldkYWI3RlBvek1MZnlaU1pNdXVicFI3RFo4WUhaUTNTMVpsMFV1aWVCQlpqRTc3RmhxZWFfQ3RjSnFJSE9NSXZ2V2dsalFVMTdWSUJ1d0ZGTVZCNjhfM2hiMW8zWERPRDlBSTh3RTM2U3E5WVBfRkl6UEtpRGZF0gHAAUFVX3lxTE5vOFhHd1hqd3VkNEJYZUZiX25vLWlYZ1d3U0JsdUdvVWFMU2N5RWJQSFMtbkczRGY4T0tRVXQ2dVdHMVV1TF9rUEJDMU1fNGdRaHo0VU03TktZR25IUm5YX0JVd0dkZkpDZVlXd3ZDNzhNSFdfT2xWMF91S3Ryby1kbHRPSk82Y0tjWHhJVTVOREtpaHl5OW1na2YtNm5ldUt0a0QtTHhHMFZpbVp6U0VIVU9mS2pMbl81VFpDTHBQVA?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-10",
-      "canonical_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一 网页 客户端 工具 桌面 免费版_手机新浪网",
-      "normalized_title": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一 网页 客户端 工具 桌面 免费版_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipARBVV95cUxOODBxcmQzNmJYM0h0WFVzMzdjUUlpV052Z2txM0xHRlZWNmlPdHZCRVlXTzRMM2czS1ZCcEMzVGxRcGxzOC1SV0NQdUk5QThBVGZqNGd3bWpVMFNWZjFvUUpDLUp0YWFaRGtzUm5mY3hLX0twQUszRjJWOUtEeEhnQnVkSFhoZHRfNElYTXhzVTVLSXZxbzM2RUZnd1FpZ0ZsN0xVWDhsLXc3Z2huZno5OXBKcU5CSzhVejlhek9uYTFYc0NIdFhCX0JCVEdsMEFEa2kwdlF1VGhqYy02c0hWWTlkS0Q2NS1qbEtCcGUxTlJvVVVoNlNWUWlYbWpCeGFwak5FcjIybnJjU2djVElwblN1ODVkU3ZfajF1WU1JV0NuTjhkb2RGNWVwalNUNjM4TGthTGt0QjdPVk1RdC1TLURJeUxsV0tYX0xvRk1aRnlENl96QklDOXN2ZjhuRENpRDhpTkZRM2VpZEYzN0JrRS1ydE0taV9BRkl0NHNleEhidWxncG9SVWJVdEdJQzROaVBzS3NSQ2FZalVrdFh3SWlHaWRraVhobzFkQmM0SXZJVGpnTkt5c0VpM05Bak1xSDdxUndETG1yZndGeTB1d0hfa1ZyQ09ObVkyYjFHeE9waFpmVnRjZUZidTBpM0pxNUl4Sk9PX0h2NFIxQXZDZHFuc3g1VV93ODJid2p0NWl5b1pkN09TWXhmWm5zMlVkc3NrQQ?oc=5",
-      "title": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一|网页|客户端|工具|桌面|免费版_手机新浪网 - 新浪财经",
-      "summary": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一|网页|客户端|工具|桌面|免费版_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMipARBVV95cUxOODBxcmQzNmJYM0h0WFVzMzdjUUlpV052Z2txM0xHRlZWNmlPdHZCRVlXTzRMM2czS1ZCcEMzVGxRcGxzOC1SV0NQdUk5QThBVGZqNGd3bWpVMFNWZjFvUUpDLUp0YWFaRGtzUm5mY3hLX0twQUszRjJWOUtEeEhnQnVkSFhoZHRfNElYTXhzVTVLSXZxbzM2RUZnd1FpZ0ZsN0xVWDhsLXc3Z2huZno5OXBKcU5CSzhVejlhek9uYTFYc0NIdFhCX0JCVEdsMEFEa2kwdlF1VGhqYy02c0hWWTlkS0Q2NS1qbEtCcGUxTlJvVVVoNlNWUWlYbWpCeGFwak5FcjIybnJjU2djVElwblN1ODVkU3ZfajF1WU1JV0NuTjhkb2RGNWVwalNUNjM4TGthTGt0QjdPVk1RdC1TLURJeUxsV0tYX0xvRk1aRnlENl96QklDOXN2ZjhuRENpRDhpTkZRM2VpZEYzN0JrRS1ydE0taV9BRkl0NHNleEhidWxncG9SVWJVdEdJQzROaVBzS3NSQ2FZalVrdFh3SWlHaWRraVhobzFkQmM0SXZJVGpnTkt5c0VpM05Bak1xSDdxUndETG1yZndGeTB1d0hfa1ZyQ09ObVkyYjFHeE9waFpmVnRjZUZidTBpM0pxNUl4Sk9PX0h2NFIxQXZDZHFuc3g1VV93ODJid2p0NWl5b1pkN09TWXhmWm5zMlVkc3NrQQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-10",
-      "canonical_key": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
-      "normalized_title": "算力 芯 动向 ai芯片自研潮 deepseek 智谱 openai meta 当模型公司开始造硅",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
-      "title": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 - doit.com.cn",
-      "summary": "算力「芯」动向 | AI芯片自研潮：DeepSeek、智谱、OpenAI、Meta......当模型公司开始造硅 doit.com.cn",
-      "source": "doit.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdHMxMC1KeGhCQk16OTRuRG5mdjZqZ1Q1X1V3OVMzd2ZOaVlCNDBsZ1gyYVRvSjlrVkk0dWUyb3g5WUFzb3d3ZXEyX3dwSmVqWXVaazRvOGxacG8?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-10",
@@ -5791,6 +5684,190 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-10",
+      "canonical_key": "run local agentic ai workflows with meta s muse glimmer on nvidia",
+      "normalized_title": "run local agentic ai workflows with meta s muse glimmer on nvidia",
+      "normalized_link": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia",
+      "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
+      "summary": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI... Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "opensource",
+          "technical_blog",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-10",
+      "canonical_key": "公告精选 江波龙上半年净利润高增约71529 宇树科技 最终中签率不足万分之二",
+      "normalized_title": "公告精选 江波龙上半年净利润高增约71529 宇树科技 最终中签率不足万分之二",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5NUowV1pDTlp6N1kzdC13bXJZazc0cDlHUW9qVHVQLXRRcUdyR1lFa2p2eWtLMk5XSXM3TEdiLU9jRFE3QjJ3bko1OGhDTVZuaGlEd2NrYXctSTRX?oc=5",
+      "title": "公告精选 | 江波龙上半年净利润高增约71529% 宇树科技：最终中签率不足万分之二！ - caiwennews.com",
+      "summary": "公告精选 | 江波龙上半年净利润高增约71529% 宇树科技：最终中签率不足万分之二！ caiwennews.com",
+      "source": "caiwennews.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5NUowV1pDTlp6N1kzdC13bXJZazc0cDlHUW9qVHVQLXRRcUdyR1lFa2p2eWtLMk5XSXM3TEdiLU9jRFE3QjJ3bko1OGhDTVZuaGlEd2NrYXctSTRX?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-10",
+      "canonical_key": "openai s letter to governor abbott on responsible ai infrastructure in texas",
+      "normalized_title": "openai s letter to governor abbott on responsible ai infrastructure in texas",
+      "normalized_link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-10",
+      "canonical_key": "办公训练提升软件工程 论文 大模型智能体 办公任务 跨领域迁移 行为主义 软件工程_新浪新闻",
+      "normalized_title": "办公训练提升软件工程 论文 大模型智能体 办公任务 跨领域迁移 行为主义 软件工程_新浪新闻",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84OHY4QWhucWlZLVJJSkdSRG9aMm9sMlRGOUhZd0tha1BxOTBXU0dxSW1JWkg5RjJPSmQwZHQ1RHQzNm8zVF8zaTF2VXo1d0cwa3dETFdyMjZiTmk2S1pFUnBWSQ?oc=5",
+      "title": "办公训练提升软件工程|论文|大模型智能体|办公任务|跨领域迁移|行为主义|软件工程_新浪新闻 - 新浪网",
+      "summary": "办公训练提升软件工程|论文|大模型智能体|办公任务|跨领域迁移|行为主义|软件工程_新浪新闻 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84OHY4QWhucWlZLVJJSkdSRG9aMm9sMlRGOUhZd0tha1BxOTBXU0dxSW1JWkg5RjJPSmQwZHQ1RHQzNm8zVF8zaTF2VXo1d0cwa3dETFdyMjZiTmk2S1pFUnBWSQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "llm",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "llm",
+          "model_capability",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-10",
+      "canonical_key": "muse glimmer 30b parameter model optimized for always",
+      "normalized_title": "muse glimmer 30b parameter model optimized for always",
+      "normalized_link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "summary": "Muse Glimmer is a 30-billion-parameter open agentic model from Meta Superintelligence Labs, optimized for always-on local workflows on consumer hardware.",
+      "source": "Hacker News",
+      "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "agentic_ai"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
