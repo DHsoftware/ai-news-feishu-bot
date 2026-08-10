@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T05:58:13.455476+08:00",
+  "updated_at": "2026-08-11T06:54:40.173413+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5732,7 +5732,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5763,7 +5763,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5796,7 +5796,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5836,7 +5836,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5867,7 +5867,7 @@
           "agentic_ai"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
