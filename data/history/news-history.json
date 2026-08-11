@@ -1,135 +1,8 @@
 {
-  "updated_at": "2026-08-11T06:54:40.173413+08:00",
+  "updated_at": "2026-08-12T06:04:47.184895+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-09",
-      "last_seen_date": "2026-07-11",
-      "canonical_key": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
-      "normalized_title": "openai最强模型 gpt 5 6系列发布 codex chatgpt work智能体三合一",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
-      "title": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 - 驱动之家",
-      "summary": "OpenAI最强模型！Gpt-5.6系列发布：Codex、ChatGpt Work智能体三合一 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fMEVkeWdidEdBaHB1cWJNM3UweXE5UE12MDVZX09rVEtJUDgwandqZDItTHZEamVYbk5CeGd1d01mRmpxTEpyNmVTWWgwOGYtc1Y5NUhMQmQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-11",
-      "canonical_key": "better tools made copilot code review worse here s how we actually improved it",
-      "normalized_title": "better tools made copilot code review worse here s how we actually improved it",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it",
-      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-      "summary": "Give an agent better tools and it should do better work. That’s the instinct, anyway. When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_code_review",
-        "benchmark",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_code_review",
-          "benchmark",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog",
-          "terminal"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-11",
-      "canonical_key": "umbraco launches automate with ai workflow controls",
-      "normalized_title": "umbraco launches automate with ai workflow controls",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTM2bS1uNG1VTE50a0oxbE45LUxocEMxeGpsbXg4Y2NEc0FQOHhwWHlQTURHdHNUVEJWMFVJOERqTkI4YkNxZk16WXB5TUh1MWllUFZDd0tfNGxFbzlockhxQnNsdFhqRmxiNTdQeThiZkMtUWtxcnFCUWdmWnkyVVRCVlB4QQ?oc=5",
-      "title": "Umbraco launches Automate with AI workflow controls - IT Brief UK",
-      "summary": "Umbraco launches Automate with AI workflow controls IT Brief UK",
-      "source": "IT Brief UK",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTM2bS1uNG1VTE50a0oxbE45LUxocEMxeGpsbXg4Y2NEc0FQOHhwWHlQTURHdHNUVEJWMFVJOERqTkI4YkNxZk16WXB5TUh1MWllUFZDd0tfNGxFbzlockhxQnNsdFhqRmxiNTdQeThiZkMtUWtxcnFCUWdmWnkyVVRCVlB4QQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 4
-    },
     {
       "first_seen_date": "2026-07-10",
       "last_seen_date": "2026-07-14",
@@ -169,73 +42,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-11",
-      "last_seen_date": "2026-07-11",
-      "canonical_key": "microsoft google and amazon emissions surge amid ai boom as tech giants double down on carbon neutrality pledges",
-      "normalized_title": "microsoft google and amazon emissions surge amid ai boom as tech giants double down on carbon neutrality pledges",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42MVFFcjJuYWtmM2ttX2R0MzBQY2xid0w0b3pfZXBXYkg4MThleGE4TFVaOW5UYWtNbWlZajR1Sm05VzNTbC1OU1h3UnI1dS1hOUVmRHI0Yk5lWnlQU0hHbllzd2Z1djJzVURkZQ?oc=5",
-      "title": "Microsoft, Google, and Amazon emissions surge amid AI boom as tech giants double down on carbon neutrality pledges - Crypto Briefing",
-      "summary": "Microsoft, Google, and Amazon emissions surge amid AI boom as tech giants double down on carbon neutrality pledges Crypto Briefing",
-      "source": "Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42MVFFcjJuYWtmM2ttX2R0MzBQY2xid0w0b3pfZXBXYkg4MThleGE4TFVaOW5UYWtNbWlZajR1Sm05VzNTbC1OU1h3UnI1dS1hOUVmRHI0Yk5lWnlQU0hHbllzd2Z1djJzVURkZQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "google",
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-11",
-      "last_seen_date": "2026-07-11",
-      "canonical_key": "anthropic发布j space论文 发现claude内部推理子空间 但称非意识",
-      "normalized_title": "anthropic发布j space论文 发现claude内部推理子空间 但称非意识",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnUDZRUHJxNEtSWXNhY29yd01ZZ0QzbXF1Z1FVbzlBcVhhWVJiLTJTcGFGczVWWWJhR21nZ2hXSy0ycXRiNGtrMUhrTU9sZGEtMFF3SA?oc=5",
-      "title": "Anthropic发布J-Space论文：发现Claude内部推理子空间，但称非意识 - 虎嗅网",
-      "summary": "Anthropic发布J-Space论文：发现Claude内部推理子空间，但称非意识 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnUDZRUHJxNEtSWXNhY29yd01ZZ0QzbXF1Z1FVbzlBcVhhWVJiLTJTcGFGczVWWWJhR21nZ2hXSy0ycXRiNGtrMUhrTU9sZGEtMFF3SA?oc=5",
-      "category": "研究论文",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "inference",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-11",
@@ -5687,7 +5493,7 @@
     },
     {
       "first_seen_date": "2026-08-10",
-      "last_seen_date": "2026-08-10",
+      "last_seen_date": "2026-08-11",
       "canonical_key": "run local agentic ai workflows with meta s muse glimmer on nvidia",
       "normalized_title": "run local agentic ai workflows with meta s muse glimmer on nvidia",
       "normalized_link": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia",
@@ -5732,7 +5538,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5868,6 +5674,159 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-11",
+      "last_seen_date": "2026-08-11",
+      "canonical_key": "d c uses claude more per capita than california its paperwork economy explains why",
+      "normalized_title": "d c uses claude more per capita than california its paperwork economy explains why",
+      "normalized_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
+      "title": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why - inc.com",
+      "summary": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why inc.com",
+      "source": "inc.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-11",
+      "last_seen_date": "2026-08-11",
+      "canonical_key": "企查查mcp上线字节跳动traework 4亿企业数据 一句话调用",
+      "normalized_title": "企查查mcp上线字节跳动traework 4亿企业数据 一句话调用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPek5GVGJob1g5ZGp1WVMwZ2dCejUzOUpYdkwtYU01NHdCWElCaWJpU1lTblpyaVU1QjZWS0RYczdneWZFM2RJV05XbGlpSFNJRE5BZ29HX2pyXzVSN05FUHZRQjN6UVBnZTFDdXNKWFVxZng2aHU5Tm4xT1p0blBiNmZaeFdfNGdGSkRyRg?oc=5",
+      "title": "企查查MCP上线字节跳动TraeWork：4亿企业数据，一句话调用 - 搜狐网",
+      "summary": "企查查MCP上线字节跳动TraeWork：4亿企业数据，一句话调用 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPek5GVGJob1g5ZGp1WVMwZ2dCejUzOUpYdkwtYU01NHdCWElCaWJpU1lTblpyaVU1QjZWS0RYczdneWZFM2RJV05XbGlpSFNJRE5BZ29HX2pyXzVSN05FUHZRQjN6UVBnZTFDdXNKWFVxZng2aHU5Tm4xT1p0blBiNmZaeFdfNGdGSkRyRg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-11",
+      "last_seen_date": "2026-08-11",
+      "canonical_key": "知情人士 微软计划明年大幅增产下一代ai芯片 云计算 anthropic 云服务 copilot 谷歌_手机新浪网",
+      "normalized_title": "知情人士 微软计划明年大幅增产下一代ai芯片 云计算 anthropic 云服务 copilot 谷歌_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcThJbzdkNllaSnhWdVBhd3hJRGJlc0EwaGJEV20zamRTYklkSUZ5TGVTY245aW5nT2dvMG1DelRfa3FPTjZZN3RqdnE3N0Z1S1BQbjhDVnR3WDhCR0RsY0xlQkNaSVpXZTNlSGVRZE5jY3NRWHBQbmVfWnphZW5vUUl2RzhQVUo1LVE?oc=5",
+      "title": "知情人士：微软计划明年大幅增产下一代AI芯片|云计算|Anthropic|云服务|Copilot|谷歌_手机新浪网 - 新浪财经",
+      "summary": "知情人士：微软计划明年大幅增产下一代AI芯片|云计算|Anthropic|云服务|Copilot|谷歌_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcThJbzdkNllaSnhWdVBhd3hJRGJlc0EwaGJEV20zamRTYklkSUZ5TGVTY245aW5nT2dvMG1DelRfa3FPTjZZN3RqdnE3N0Z1S1BQbjhDVnR3WDhCR0RsY0xlQkNaSVpXZTNlSGVRZE5jY3NRWHBQbmVfWnphZW5vUUl2RzhQVUo1LVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "cloud",
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "google",
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "chip",
+          "cloud",
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-11",
+      "last_seen_date": "2026-08-11",
+      "canonical_key": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
+      "normalized_title": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation",
+      "title": "NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation",
+      "summary": "Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media... Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare,…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "robotics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "robotics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
