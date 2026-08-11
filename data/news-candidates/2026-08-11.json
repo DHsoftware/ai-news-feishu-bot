@@ -1,15 +1,15 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-12T06:04:47.184895+08:00",
+  "generated_at": "2026-08-12T07:00:16.244733+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 228,
-    "failed_count": 2,
+    "success_count": 227,
+    "failed_count": 3,
     "global_source_count": 16,
     "global_success_count": 15,
     "china_source_count": 34,
-    "china_success_count": 213
+    "china_success_count": 212
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 159,
-    "history_size_after": 158,
-    "history_duplicate_count": 47
+    "history_size_before": 158,
+    "history_size_after": 159,
+    "history_duplicate_count": 46
   },
-  "raw_item_count": 5203,
-  "deduped_item_count": 3845,
-  "filtered_item_count": 421,
+  "raw_item_count": 5193,
+  "deduped_item_count": 3833,
+  "filtered_item_count": 409,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -79,13 +79,13 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why - inc.com",
-      "summary": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why inc.com",
+      "title": "Automotive Electronics: Components, AI, Autonomous Driving & Future - TimesTech",
+      "summary": "Automotive Electronics: Components, AI, Autonomous Driving & Future TimesTech",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-08-11T07:31:31+08:00",
-      "source": "inc.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
+      "summary_quality": "low",
+      "published_at": "2026-08-11T12:56:32+08:00",
+      "source": "TimesTech",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXFDV3BwNHlScHFpNUFXSnAwZklQZ1g3TWoxSHUzUms2bVNwQjdfYnZuTkFmaFJSTy1SNE5HQUVwbnZxRjFoZ0liZzRjTmYza1BGenh6QTZrTDItQURkbmVQaE9wSW9JT3hZQlRwTnVHYVYzM0xENE9KZEtJWGVDUmxPdlJSZTlibWlPYg?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "power_electronics",
@@ -98,16 +98,17 @@
         "dcdc"
       ],
       "topic_tags": [
+        "automotive",
+        "autonomous_driving",
         "dcdc",
         "obc",
-        "power_electronics",
-        "research"
+        "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "d c uses claude more per capita than california its paperwork economy explains why",
-      "canonical_key": "d c uses claude more per capita than california its paperwork economy explains why",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
-      "score": 71,
+      "dedupe_key": "automotive electronics components ai autonomous driving future",
+      "canonical_key": "automotive electronics components ai autonomous driving future",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXFDV3BwNHlScHFpNUFXSnAwZklQZ1g3TWoxSHUzUms2bVNwQjdfYnZuTkFmaFJSTy1SNE5HQUVwbnZxRjFoZ0liZzRjTmYza1BGenh6QTZrTDItQURkbmVQaE9wSW9JT3hZQlRwTnVHYVYzM0xENE9KZEtJWGVDUmxPdlJSZTlibWlPYg?oc=5",
+      "score": 45,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -207,14 +208,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1358,
-    "history_duplicate": 47,
-    "weak_relevance": 168,
+    "duplicate": 1360,
+    "history_duplicate": 46,
+    "weak_relevance": 171,
     "same_source_limit": 0,
     "china_limit": 1,
     "auto_china_limit": 0,
-    "old_news": 3256,
-    "same_entity_limit": 113,
+    "old_news": 3253,
+    "same_entity_limit": 110,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
