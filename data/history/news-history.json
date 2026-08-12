@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T07:00:16.244733+08:00",
+  "updated_at": "2026-08-13T06:02:34.257410+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,186 +42,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-11",
-      "last_seen_date": "2026-07-12",
-      "canonical_key": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
-      "normalized_title": "智谱创始人唐杰发内部信 glm 时刻 之后 什么是更重要的事",
-      "normalized_link": "https://36kr.com/p/3891132709206784?f=rss",
-      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
-      "summary": "文 | 周鑫雨 编辑 | 张雨忻 《智能涌现》独家获悉，2026 年 7 月 11 日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。 过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了 10 倍，并在 2026 年 6 月，跻身“万亿港元俱乐部”——这个数字，是百度市值的近 3 倍，并且超过了小米。7 月 8 日，首批股票解禁后，智谱依然稳住了股价。 这也是当下 AI 大模型赛道，最性感的故事：押注对的技术方向，换来斐然市场口碑和商业化成绩。 抽丝剥茧，智谱起飞的根源，离不开一年前对 Coding 的押注。2025 年初，智谱就开始重新分配资源，将力量收敛到了对模…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3891132709206784?f=rss",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "llm",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "llm",
-          "model_capability",
-          "opensource"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-12",
-      "last_seen_date": "2026-07-12",
-      "canonical_key": "关掉百万人 树洞 智能体开始赚钱",
-      "normalized_title": "关掉百万人 树洞 智能体开始赚钱",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iNlFSLTBVMUdNZXlqaWlnMVJ6akhlN3JJMFlGTGE1ejdxWmg5NExpTXVlYzVjS2hfZmp2bGE1RjY5TzZoTWJDeFJJSk0tWnk0N0p5UFZOdXhSc0hoVXc?oc=5",
-      "title": "关掉百万人“树洞”，智能体开始赚钱 - thepaper.cn",
-      "summary": "关掉百万人“树洞”，智能体开始赚钱 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iNlFSLTBVMUdNZXlqaWlnMVJ6akhlN3JJMFlGTGE1ejdxWmg5NExpTXVlYzVjS2hfZmp2bGE1RjY5TzZoTWJDeFJJSk0tWnk0N0p5UFZOdXhSc0hoVXc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-12",
-      "last_seen_date": "2026-07-12",
-      "canonical_key": "b2b tech asia expo 2026 puts agentic ai at the center of enterprise automation",
-      "normalized_title": "b2b tech asia expo 2026 puts agentic ai at the center of enterprise automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEIzLVlzRTB5aHlEWFFNTmQ0MnF0VWgyRXNQNGtXS3I2Qml1cXAxR0dzUWFySUdCVDFFcVMxUWJ5WEc4M0JqWVpWUUM2NVNWN1BPbXdIUWkwd3oxNXdvLXlCX29pSmk1dmF2SVRRZ1RWdk9VQTJHMVlLZkR0X3lxa25UaUJ0R0RfM1psSGZza2ZPN19DMWVOZjVrWlFCUkZRdy1zcTVCUDhRY01Ndm9kekI2VDZBUW5jdW5YckU5MVIxZzBBb3hxNzV1OVVqM2JqSmFsVFFnOThaRF94Yzhrdm93?oc=5",
-      "title": "B2B Tech Asia Expo 2026 puts agentic AI at the center of enterprise automation - MarketScale",
-      "summary": "B2B Tech Asia Expo 2026 puts agentic AI at the center of enterprise automation MarketScale",
-      "source": "MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVEIzLVlzRTB5aHlEWFFNTmQ0MnF0VWgyRXNQNGtXS3I2Qml1cXAxR0dzUWFySUdCVDFFcVMxUWJ5WEc4M0JqWVpWUUM2NVNWN1BPbXdIUWkwd3oxNXdvLXlCX29pSmk1dmF2SVRRZ1RWdk9VQTJHMVlLZkR0X3lxa25UaUJ0R0RfM1psSGZza2ZPN19DMWVOZjVrWlFCUkZRdy1zcTVCUDhRY01Ndm9kekI2VDZBUW5jdW5YckU5MVIxZzBBb3hxNzV1OVVqM2JqSmFsVFFnOThaRF94Yzhrdm93?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-12",
-      "last_seen_date": "2026-07-12",
-      "canonical_key": "how to evaluate general purpose robot policies for real",
-      "normalized_title": "how to evaluate general purpose robot policies for real",
-      "normalized_link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment",
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "summary": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a... Robotics foundation models have made remarkable progress. Today’s best systems can follow natural language instructions to pick, place, s…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "robotics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "robotics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-12",
-      "last_seen_date": "2026-07-12",
-      "canonical_key": "apple s failed self driving car program left a legacy of powerful ai chips",
-      "normalized_title": "apple s failed self driving car program left a legacy of powerful ai chips",
-      "normalized_link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-      "summary": "Apple's self-driving car program never really got off the ground , but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing . While the car proces…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "autonomous_driving",
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "autonomous_driving",
-          "chip"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-13",
@@ -5788,7 +5608,7 @@
     },
     {
       "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-11",
+      "last_seen_date": "2026-08-12",
       "canonical_key": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
       "normalized_title": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation",
@@ -5826,7 +5646,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-11",
@@ -5859,6 +5679,166 @@
           "dcdc",
           "obc",
           "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-12",
+      "last_seen_date": "2026-08-12",
+      "canonical_key": "西门子推进半导体与 pcb 设计的自验证智能体 ai 工作流",
+      "normalized_title": "西门子推进半导体与 pcb 设计的自验证智能体 ai 工作流",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GOEdxZFM5dXptSGQ4aTFSRlpDaGxaU0xuMjRKRFhaSS14THZTSERCQzEzQnRNaHpHS3U0QlR2M011YlpJMUMybTVIaGliYnFSQVhKanZFS3hndw?oc=5",
+      "title": "西门子推进半导体与 PCB 设计的自验证智能体 AI 工作流 - industrysourcing.cn",
+      "summary": "西门子推进半导体与 PCB 设计的自验证智能体 AI 工作流 industrysourcing.cn",
+      "source": "industrysourcing.cn",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GOEdxZFM5dXptSGQ4aTFSRlpDaGxaU0xuMjRKRFhaSS14THZTSERCQzEzQnRNaHpHS3U0QlR2M011YlpJMUMybTVIaGliYnFSQVhKanZFS3hndw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-12",
+      "last_seen_date": "2026-08-12",
+      "canonical_key": "meta and nvidia plant very firm flag in open weight ai race led by chinese labs",
+      "normalized_title": "meta and nvidia plant very firm flag in open weight ai race led by chinese labs",
+      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
+      "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs - CNBC",
+      "summary": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs CNBC",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-12",
+      "last_seen_date": "2026-08-12",
+      "canonical_key": "周三直播 3d物体自动化设计 ai与人类幻觉现象研究 efficient highlight cvpr 2026双奖 已开源",
+      "normalized_title": "周三直播 3d物体自动化设计 ai与人类幻觉现象研究 efficient highlight cvpr 2026双奖 已开源",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPajdERG5BcU0wR1dSZElJMnBNOWN6bkZxcFQ3MTY3LThFamR6cTI2eEhHaE1RTzNGODZNSDFoazYxeDZfUmFnTw?oc=5",
+      "title": "周三直播｜3D物体自动化设计，AI与人类幻觉现象研究，Efficient & Highlight CVPR 2026双奖，已开源 - 智源社区",
+      "summary": "周三直播｜3D物体自动化设计，AI与人类幻觉现象研究，Efficient & Highlight CVPR 2026双奖，已开源 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPajdERG5BcU0wR1dSZElJMnBNOWN6bkZxcFQ3MTY3LThFamR6cTI2eEhHaE1RTzNGODZNSDFoazYxeDZfUmFnTw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "opensource",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-12",
+      "last_seen_date": "2026-08-12",
+      "canonical_key": "from assistance to execution how enterprises put ai to work",
+      "normalized_title": "from assistance to execution how enterprises put ai to work",
+      "normalized_link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "research"
         ]
       },
       "seen_count": 1
