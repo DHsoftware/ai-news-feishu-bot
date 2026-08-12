@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T06:02:34.257410+08:00",
+  "updated_at": "2026-08-13T06:58:37.869654+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -398,7 +398,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-06",
