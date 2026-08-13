@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T06:58:37.869654+08:00",
+  "updated_at": "2026-08-14T06:03:21.017806+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,219 +42,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "verifying rust cryptography in symcrypt from standards to code",
-      "normalized_title": "verifying rust cryptography in symcrypt from standards to code",
-      "normalized_link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code",
-      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-      "summary": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements sta…",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "哈啰落地agentic ai双轨战略 对外 无感提效 对内 重造研发",
-      "normalized_title": "哈啰落地agentic ai双轨战略 对外 无感提效 对内 重造研发",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ET0NTbEsyQlVRR1VLX3pKb3pFQ1c1LWhzNXpHVXU5dHY5VEVIWm5VWldvQWswQUZlNi1zaEpacEZFMERCOG04ZHBaRWVGN0oyUjAwR3h6NHVPdzBMb3c?oc=5",
-      "title": "哈啰落地Agentic AI双轨战略：对外“无感提效”，对内“重造研发” - SmartHey",
-      "summary": "哈啰落地Agentic AI双轨战略：对外“无感提效”，对内“重造研发” SmartHey",
-      "source": "SmartHey",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ET0NTbEsyQlVRR1VLX3pKb3pFQ1c1LWhzNXpHVXU5dHY5VEVIWm5VWldvQWswQUZlNi1zaEpacEZFMERCOG04ZHBaRWVGN0oyUjAwR3h6NHVPdzBMb3c?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "openai 首席执行官与特朗普政府洽谈 美政府或收购 5 股份",
-      "normalized_title": "openai 首席执行官与特朗普政府洽谈 美政府或收购 5 股份",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHpOSjJvYjNTVktjR0J2cFU1bzZYUHNFakI0VzRERVFUTFljX3NwRnNIU3BweVVxTDYtR0VvVmdxX1FwTHpfNWRRcGppcGJJSUNGME5wcW8zVFplQVRscHZ0ZXpFMko0cFM0?oc=5",
-      "title": "OpenAI 首席执行官与特朗普政府洽谈：美政府或收购 5% 股份 - blog.csdn.net",
-      "summary": "OpenAI 首席执行官与特朗普政府洽谈：美政府或收购 5% 股份 blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tUHpOSjJvYjNTVktjR0J2cFU1bzZYUHNFakI0VzRERVFUTFljX3NwRnNIU3BweVVxTDYtR0VvVmdxX1FwTHpfNWRRcGppcGJJSUNGME5wcW8zVFplQVRscHZ0ZXpFMko0cFM0?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
-      "normalized_title": "rogue agent how a single code block could hijack your ai conversations in google s dialogflow",
-      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
-      "title": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow - HackerNoon",
-      "summary": "Rogue Agent: How a Single Code Block Could Hijack Your AI Conversations in Google’s DialogFlow HackerNoon",
-      "source": "HackerNoon",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2tZQUxOZ2x3NXpvOHZSX016S0lkTmJwblppZU8zU084M0NPXzliRllJbnE0OWluRThxakZSV2c4M2NhR2c5cmZyRE1JejRQNHdhNFBmZ3dHbERQQmJfMDJhN3hyQUl4ano2Mld3aERocXdRVFNrd1hiWV83TV9URGdNWnN5bWJfQTh1SllYbkRRSE9WM0tHYjBRYzBfdFY4R01MZzhjemVXcDlsRURNWWhma3VOUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "google"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "apple says former employee exploited rare bug to download confidential files after leaving for openai",
-      "normalized_title": "apple says former employee exploited rare bug to download confidential files after leaving for openai",
-      "normalized_link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai",
-      "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
-      "summary": "Apple would not comment on the \"security breach,\" which allegedly allowed a former employee to download sensitive files from Apple's network long after he departed the company for rival OpenAI.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-13",
-      "last_seen_date": "2026-07-13",
-      "canonical_key": "debugging for net in vs code and cursor the 1 requested feature is here",
-      "normalized_title": "debugging for net in vs code and cursor the 1 requested feature is here",
-      "normalized_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlWERsSWpJd25CMmVFa0lZNmhPaEpkSFlXZUtySGFPdkEwbXFncFFHMTdqdDY1LWlJeXRFS1huM21WNVdKZmY4Y3BvTnkwa0d6QVg0R3BvdV8yNjczQzV2RHBpQlhCVWdVaEI5OHNKYw?oc=5",
-      "title": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here - The JetBrains Blog",
-      "summary": "Debugging for .NET in VS Code and Cursor: The #1 Requested Feature Is Here The JetBrains Blog",
-      "source": "The JetBrains Blog",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlWERsSWpJd25CMmVFa0lZNmhPaEpkSFlXZUtySGFPdkEwbXFncFFHMTdqdDY1LWlJeXRFS1huM21WNVdKZmY4Y3BvTnkwa0d6QVg0R3BvdV8yNjczQzV2RHBpQlhCVWdVaEI5OHNKYw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_blog",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "cursor"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-14",
@@ -3948,7 +3735,7 @@
     },
     {
       "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
+      "last_seen_date": "2026-08-13",
       "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
       "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
       "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
@@ -3984,7 +3771,7 @@
           "research"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-02",
@@ -5608,7 +5395,7 @@
     },
     {
       "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-12",
+      "last_seen_date": "2026-08-13",
       "canonical_key": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
       "normalized_title": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation",
@@ -5646,7 +5433,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-08-11",
@@ -5842,6 +5629,99 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-13",
+      "last_seen_date": "2026-08-13",
+      "canonical_key": "vodafone tata team to drive ai transformation at uk enterprises",
+      "normalized_title": "vodafone tata team to drive ai transformation at uk enterprises",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ2pEXzBfUTVoUVdfUGg3ajh3U3NBNEpLdHVLQktxVXRlTTkwM2h2WGFDNDRGNHhaekZzX2wtMHZ4Q001MHZia09SWkJPR1UtUnFESHhVMlJBMW5QdDFINkd5S2NuWEVSTWtETFlfaUJ1TkRhMjZYSjZjZ3VjOTBLWWx3SHc3U2liWktIM2k0cTZlS2Ytb1NSR1FLSFE3QU5KSzRFcWFCZ0lrZw?oc=5",
+      "title": "Vodafone, Tata team to drive AI transformation at UK enterprises - Telecompaper",
+      "summary": "Vodafone, Tata team to drive AI transformation at UK enterprises Telecompaper",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ2pEXzBfUTVoUVdfUGg3ajh3U3NBNEpLdHVLQktxVXRlTTkwM2h2WGFDNDRGNHhaekZzX2wtMHZ4Q001MHZia09SWkJPR1UtUnFESHhVMlJBMW5QdDFINkd5S2NuWEVSTWtETFlfaUJ1TkRhMjZYSjZjZ3VjOTBLWWx3SHc3U2liWktIM2k0cTZlS2Ytb1NSR1FLSFE3QU5KSzRFcWFCZ0lrZw?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-13",
+      "last_seen_date": "2026-08-13",
+      "canonical_key": "associate test engineer r d and manufacturing job details",
+      "normalized_title": "associate test engineer r d and manufacturing job details",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU1NKSkVLVzhZeUpTY3ZWblJmYWdHWXVCVmRJMjhyWmp1YlktZTIxeWxQOElrWW9MYjJ4Qm1LREtiT1daNEd1YUJXVG1BUno0aWttSzZBdTFxVXJVX0taSXV1WW14N3hVcEVqT0FNRmdydWNSbWhVdHJjVW5Nc2pQb0ZJUjNXT01iUG4wN0lwWklkc19NYkozdVhTMnJnVDZ2d0JidWJmSlQ2YUVNV2RQdw?oc=5",
+      "title": "Associate Test Engineer - R & D and Manufacturing Job Details - Vicor Power",
+      "summary": "Associate Test Engineer - R & D and Manufacturing Job Details Vicor Power",
+      "source": "Vicor Power",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU1NKSkVLVzhZeUpTY3ZWblJmYWdHWXVCVmRJMjhyWmp1YlktZTIxeWxQOElrWW9MYjJ4Qm1LREtiT1daNEd1YUJXVG1BUno0aWttSzZBdTFxVXJVX0taSXV1WW14N3hVcEVqT0FNRmdydWNSbWhVdHJjVW5Nc2pQb0ZJUjNXT01iUG4wN0lwWklkc19NYkozdVhTMnJnVDZ2d0JidWJmSlQ2YUVNV2RQdw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-13",
+      "last_seen_date": "2026-08-13",
+      "canonical_key": "openai一个月跑4名高管 前coo离场 安全线几乎被一锅端",
+      "normalized_title": "openai一个月跑4名高管 前coo离场 安全线几乎被一锅端",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3bFlDYzdZTnk5d292ZlM4SXFpa0p1MjdSVXNoc3BfMGpGWDUtRVBlWHJ2RFl5dE5WMEp1M3lSM2ZDaFpQcmdKYw?oc=5",
+      "title": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端 - 智源社区",
+      "summary": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3bFlDYzdZTnk5d292ZlM4SXFpa0p1MjdSVXNoc3BfMGpGWDUtRVBlWHJ2RFl5dE5WMEp1M3lSM2ZDaFpQcmdKYw?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
