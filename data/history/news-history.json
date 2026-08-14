@@ -1,48 +1,8 @@
 {
-  "updated_at": "2026-08-14T06:59:23.288069+08:00",
+  "updated_at": "2026-08-15T05:41:15.058800+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-07-14",
-      "canonical_key": "openai上线chatgpt work 企业级人工智能体竞争升级",
-      "normalized_title": "openai上线chatgpt work 企业级人工智能体竞争升级",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
-      "title": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 - 财联社",
-      "summary": "OpenAI上线ChatGPT Work，企业级人工智能体竞争升级 财联社",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RSlh3VGpIbWFmNUIyNHBkdU5jT29uUmdQSm9SWlBiZ1hQa1ZEMUMwQjgxcHI2TENHWXBTZGtMblNtRkxOZC00cg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 3
-    },
     {
       "first_seen_date": "2026-07-14",
       "last_seen_date": "2026-07-15",
@@ -87,106 +47,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-14",
-      "canonical_key": "scaling cryptographic verification to boost computer security",
-      "normalized_title": "scaling cryptographic verification to boost computer security",
-      "normalized_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3dzem5TT2d3b0hGQ0ZsaEwtSzFTOU1HWUxUVU5HbGNka21mNjFsbVQ2QXVCY3pWMmZ6M0dCbnZVM3V5cWFpdzlYLUFVZTVCQlV3N2tGVkVwUUlZcGM1ZHI0T0lnYTBkeEt5TEtNMGhtRVhCT3ltbG1BVUhHZVBvZFNUUWp0TE5BaktqdWlaeFZ1ZTJLaGNPN04tb0hvQVdXZ25QZGZhZVVaX01Xbnc?oc=5",
-      "title": "Scaling cryptographic verification to boost computer security - Microsoft",
-      "summary": "Scaling cryptographic verification to boost computer security Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3dzem5TT2d3b0hGQ0ZsaEwtSzFTOU1HWUxUVU5HbGNka21mNjFsbVQ2QXVCY3pWMmZ6M0dCbnZVM3V5cWFpdzlYLUFVZTVCQlV3N2tGVkVwUUlZcGM1ZHI0T0lnYTBkeEt5TEtNMGhtRVhCT3ltbG1BVUhHZVBvZFNUUWp0TE5BaktqdWlaeFZ1ZTJLaGNPN04tb0hvQVdXZ25QZGZhZVVaX01Xbnc?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "engineering_productivity",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "engineering_productivity",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-14",
-      "canonical_key": "2026 年 icml 演讲 探讨 ai 时代工作变革 人类如何应对与 ai 共存挑战",
-      "normalized_title": "2026 年 icml 演讲 探讨 ai 时代工作变革 人类如何应对与 ai 共存挑战",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XUG1fcXYwX3dKenFTWXFWLTFQY00teXlDc3p0NHRxRnVDLWxwdll1VGotUENieEVTdlFMQXBOOG1ZN29MY0FiM0xFbEh2RlNFbGFNOXNRMFZ6ZmZXdVE5Yl9mbEpFLXNJYkRR?oc=5",
-      "title": "2026 年 ICML 演讲：探讨 AI 时代工作变革，人类如何应对与 AI 共存挑战？ - blog.csdn.net",
-      "summary": "2026 年 ICML 演讲：探讨 AI 时代工作变革，人类如何应对与 AI 共存挑战？ blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XUG1fcXYwX3dKenFTWXFWLTFQY00teXlDc3p0NHRxRnVDLWxwdll1VGotUENieEVTdlFMQXBOOG1ZN29MY0FiM0xFbEh2RlNFbGFNOXNRMFZ6ZmZXdVE5Yl9mbEpFLXNJYkRR?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-14",
-      "canonical_key": "windows 11 s big patch tuesday allows you to hold off on updates for longer",
-      "normalized_title": "windows 11 s big patch tuesday allows you to hold off on updates for longer",
-      "normalized_link": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
-      "title": "Windows 11’s big patch Tuesday allows you to hold off on updates for longer",
-      "summary": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays , and that includes the ability to pause updates indefinitely, as reported earlier by Windows Central . This option rolled out to Windows Insiders earlier this year, allowing you to hold off on u…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-15",
@@ -5722,6 +5582,199 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-14",
+      "last_seen_date": "2026-08-14",
+      "canonical_key": "what 50 open source projects taught us about security in the ai era",
+      "normalized_title": "what 50 open source projects taught us about security in the ai era",
+      "normalized_link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "summary": "AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources. Session 4 of the GitHub Secure Open Source Fund test…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-14",
+      "last_seen_date": "2026-08-14",
+      "canonical_key": "what s next for sql performance scale ai and developer productivity at the european sql community conference",
+      "normalized_title": "what s next for sql performance scale ai and developer productivity at the european sql community conference",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPM1RPWk9PVHZ3SkRTLUNSY1RQN0diMnQ0RHdXeHVWcTVkZ3EwLUZ2NHFKOEZacnFzMWY5NENWTUZCZVpZYVIyUDl4d3hTUnlHLWJuY01MTWtMSkdUczVtV0JzSDlyYW4wa2ZFdkh2M01UTVZTaXhIQ1lsZ2I0M2JvMU5aNEpuRGttQk1oeGw0SGFQSG1pNzRRRVRHSzRGWlJGYWg4bktJWkllYmRXNTQ5QWtWRGtRTzRqcDhyX0JjT2NmbjR4MDd6OHZfNnVZU2JHUTdWa2xZQTItYzU5LUU0V01VUms3emhESlhLZ2tXVkJoRkJWNmZobk9BUQ?oc=5",
+      "title": "What’s next for SQL? Performance, scale, AI, and developer productivity at the European SQL Community Conference - Microsoft",
+      "summary": "What’s next for SQL? Performance, scale, AI, and developer productivity at the European SQL Community Conference Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPM1RPWk9PVHZ3SkRTLUNSY1RQN0diMnQ0RHdXeHVWcTVkZ3EwLUZ2NHFKOEZacnFzMWY5NENWTUZCZVpZYVIyUDl4d3hTUnlHLWJuY01MTWtMSkdUczVtV0JzSDlyYW4wa2ZFdkh2M01UTVZTaXhIQ1lsZ2I0M2JvMU5aNEpuRGttQk1oeGw0SGFQSG1pNzRRRVRHSzRGWlJGYWg4bktJWkllYmRXNTQ5QWtWRGtRTzRqcDhyX0JjT2NmbjR4MDd6OHZfNnVZU2JHUTdWa2xZQTItYzU5LUU0V01VUms3emhESlhLZ2tXVkJoRkJWNmZobk9BUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "developer_productivity",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "developer_productivity",
+          "engineering_productivity",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-14",
+      "last_seen_date": "2026-08-14",
+      "canonical_key": "三条增长曲线接力 ai提速 芯联集成首次实现半年度盈利 跨越关键拐点",
+      "normalized_title": "三条增长曲线接力 ai提速 芯联集成首次实现半年度盈利 跨越关键拐点",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lNFV5eHJub242cFpMazdfN3AyUlBlcE1KcGIwZHNrRjlSR3pFOV93ejFMNGJzNXp3OXBRZENERS1uX3hORzQxbzdmOFFwTU02LXc?oc=5",
+      "title": "三条增长曲线接力、AI提速，芯联集成首次实现半年度盈利，跨越关键拐点 - NE时代",
+      "summary": "三条增长曲线接力、AI提速，芯联集成首次实现半年度盈利，跨越关键拐点 NE时代",
+      "source": "NE时代",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lNFV5eHJub242cFpMazdfN3AyUlBlcE1KcGIwZHNrRjlSR3pFOV93ejFMNGJzNXp3OXBRZENERS1uX3hORzQxbzdmOFFwTU02LXc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-14",
+      "last_seen_date": "2026-08-14",
+      "canonical_key": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot",
+      "normalized_title": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
+      "title": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot - 电子工程专辑",
+      "summary": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "chip",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft",
+          "openai"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "chip",
+          "coding",
+          "model_capability",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-14",
+      "last_seen_date": "2026-08-14",
+      "canonical_key": "the builder s guide to gpt 5 6",
+      "normalized_title": "the builder s guide to gpt 5 6",
+      "normalized_link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "title": "The builder’s guide to GPT‑5.6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
