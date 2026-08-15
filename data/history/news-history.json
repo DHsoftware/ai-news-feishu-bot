@@ -1,189 +1,8 @@
 {
-  "updated_at": "2026-08-15T06:37:28.089077+08:00",
+  "updated_at": "2026-08-16T05:34:35.500174+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-15",
-      "canonical_key": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
-      "normalized_title": "nemotron labs how open models give enterprises and nations ai they can trust control and customize",
-      "normalized_link": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize",
-      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
-      "summary": "Editor’s note: This post is part of the Nemotron Labs blog series, which explores how the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms. Each post highlights practical ways to use an open stack to deliver real…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "coding",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "coding",
-          "company_research",
-          "research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-15",
-      "last_seen_date": "2026-07-15",
-      "canonical_key": "a blueprint for australia s success in the ai era",
-      "normalized_title": "a blueprint for australia s success in the ai era",
-      "normalized_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkRQa0IxVDV5U1B3OHpKbGxXWDJlRzF4TnUtelA3TmlvdXpwaTlVUjJhSjgxTkVDMFlVN2NPa2NrVXVNeXhweFlGNV83TzZMSnc5ODNCck43cUlObjN2ODh4djFNbkhzRVg3d3pvUGpQM19vTHhmSlJIM0hZeGdZYzZYdGhNcGpaWkl2Qk4yMlZmLWJLeFh1ZkZGY2JndW9M?oc=5",
-      "title": "A blueprint for Australia’s success in the AI era - Microsoft Source",
-      "summary": "A blueprint for Australia’s success in the AI era Microsoft Source",
-      "source": "Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkRQa0IxVDV5U1B3OHpKbGxXWDJlRzF4TnUtelA3TmlvdXpwaTlVUjJhSjgxTkVDMFlVN2NPa2NrVXVNeXhweFlGNV83TzZMSnc5ODNCck43cUlObjN2ODh4djFNbkhzRVg3d3pvUGpQM19vTHhmSlJIM0hZeGdZYzZYdGhNcGpaWkl2Qk4yMlZmLWJLeFh1ZkZGY2JndW9M?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-15",
-      "last_seen_date": "2026-07-15",
-      "canonical_key": "develop lightweight usd runtimes faster with ai agents",
-      "normalized_title": "develop lightweight usd runtimes faster with ai agents",
-      "normalized_link": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents",
-      "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
-      "summary": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation... OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD dat…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-15",
-      "last_seen_date": "2026-07-15",
-      "canonical_key": "新风向 没有导演级工作流 下半场必将出局",
-      "normalized_title": "新风向 没有导演级工作流 下半场必将出局",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sUTNUN1p4UTFtMFRScnViUWhRMDlMZ195cUYxaUUwWDVwUXZ4TUJqNi1pVDcxR2hfQWdPelJvWm0wcl8zVXJNVi01MEhKdUpNT2JGYjhQQUh6eG92YVE?oc=5",
-      "title": "新风向？没有导演级工作流，下半场必将出局！ - thepaper.cn",
-      "summary": "新风向？没有导演级工作流，下半场必将出局！ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sUTNUN1p4UTFtMFRScnViUWhRMDlMZ195cUYxaUUwWDVwUXZ4TUJqNi1pVDcxR2hfQWdPelJvWm0wcl8zVXJNVi01MEhKdUpNT2JGYjhQQUh6eG92YVE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-15",
-      "last_seen_date": "2026-07-15",
-      "canonical_key": "openai首款硬件是键盘 用于操控ai编程工具 定价230美元",
-      "normalized_title": "openai首款硬件是键盘 用于操控ai编程工具 定价230美元",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tcjRZcDduUmI0VDBQTGt4ZGRxd19UaXJ3NkxEMFBlOVFVa2dIU2RnSlYtQ0lTdi15bTZmOFFWcXYxazF6MXRGU0xJMV94UXNLV3luWi12dkcwOFNSdTNCU29B?oc=5",
-      "title": "OpenAI首款硬件是键盘：用于操控AI编程工具 定价230美元 - 手机网易网",
-      "summary": "OpenAI首款硬件是键盘：用于操控AI编程工具 定价230美元 手机网易网",
-      "source": "手机网易网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tcjRZcDduUmI0VDBQTGt4ZGRxd19UaXJ3NkxEMFBlOVFVa2dIU2RnSlYtQ0lTdi15bTZmOFFWcXYxazF6MXRGU0xJMV94UXNLV3luWi12dkcwOFNSdTNCU29B?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "coding"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-07-16",
       "last_seen_date": "2026-07-16",
@@ -5775,6 +5594,181 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot eet",
+      "normalized_title": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot eet",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
+      "title": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot - eet-china.com",
+      "summary": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot eet-china.com",
+      "source": "eet-china.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "chip",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft",
+          "openai"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "chip",
+          "coding",
+          "model_capability",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "pcim研讨会 速览130 电力电子前沿技术报告 宽禁带半导体 ai 算力供电 新能源电驱 智能电网多专题集结深圳 eet",
+      "normalized_title": "pcim研讨会 速览130 电力电子前沿技术报告 宽禁带半导体 ai 算力供电 新能源电驱 智能电网多专题集结深圳 eet",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEakpBNXZPSG5mbmJvcy0zOFBiaXZibWdoXzJuc1pSaFNfVFE1aWhEWS10MWNOeEt6UEhEcExoWUVFMHlLdE5ibFVfZDczcnQtdlRv?oc=5",
+      "title": "PCIM研讨会 | 速览130+电力电子前沿技术报告，宽禁带半导体、AI 算力供电、新能源电驱、智能电网多专题集结深圳！ - eet-china.com",
+      "summary": "PCIM研讨会 | 速览130+电力电子前沿技术报告，宽禁带半导体、AI 算力供电、新能源电驱、智能电网多专题集结深圳！ eet-china.com",
+      "source": "eet-china.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEakpBNXZPSG5mbmJvcy0zOFBiaXZibWdoXzJuc1pSaFNfVFE1aWhEWS10MWNOeEt6UEhEcExoWUVFMHlLdE5ibFVfZDczcnQtdlRv?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "rashmi athavale",
+      "normalized_title": "rashmi athavale",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
+      "title": "Rashmi Athavale - Microsoft",
+      "summary": "Rashmi Athavale Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "state of open models summer 2026 observations",
+      "normalized_title": "state of open models summer 2026 observations",
+      "normalized_link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "kog is going deeper to squeeze more inference out of gpus",
+      "normalized_title": "kog is going deeper to squeeze more inference out of gpus",
+      "normalized_link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "chip",
+          "inference"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
