@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "generated_at": "2026-08-16T05:34:35.500174+08:00",
+  "generated_at": "2026-08-16T06:35:44.109940+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,11 +33,11 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 156,
-    "history_size_after": 156,
+    "history_size_after": 157,
     "history_duplicate_count": 10
   },
-  "raw_item_count": 5159,
-  "deduped_item_count": 3795,
+  "raw_item_count": 5152,
+  "deduped_item_count": 3784,
   "filtered_item_count": 210,
   "curated_item_count": 5,
   "curated_items": [
@@ -107,34 +107,35 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "Rashmi Athavale - Microsoft",
-      "summary": "Rashmi Athavale Microsoft",
+      "title": "Exploring Compose HTML for Server Side Rendering - The JetBrains Blog",
+      "summary": "Exploring Compose HTML for Server Side Rendering The JetBrains Blog",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-08-14T17:09:40+08:00",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
+      "published_at": "2026-08-14T21:07:31+08:00",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
         "company_research",
-        "ai_research",
-        "engineering_productivity"
+        "technical_blog",
+        "coding_agent"
       ],
       "topic_tags": [
-        "ai_research",
+        "agent",
+        "coding_agent",
         "company_research",
-        "engineering_productivity"
+        "technical_blog"
       ],
-      "category": "AI组织提效",
-      "dedupe_key": "rashmi athavale",
-      "canonical_key": "rashmi athavale",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
-      "score": 88,
+      "category": "AI编程工具",
+      "dedupe_key": "exploring compose html for server side rendering",
+      "canonical_key": "exploring compose html for server side rendering",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
+      "score": 79,
       "selection_reason": "required_company_research"
     },
     {
@@ -197,14 +198,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1364,
+    "duplicate": 1368,
     "history_duplicate": 10,
-    "weak_relevance": 146,
+    "weak_relevance": 144,
     "same_source_limit": 0,
-    "china_limit": 2,
+    "china_limit": 1,
     "auto_china_limit": 0,
-    "old_news": 3439,
-    "same_entity_limit": 114,
+    "old_news": 3430,
+    "same_entity_limit": 118,
     "similar_selected": 1,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
@@ -213,6 +214,6 @@
     "no_productivity_candidate": 0,
     "no_company_research_candidate": 0,
     "no_power_electronics_candidate": 0,
-    "source_limit_applied": 3
+    "source_limit_applied": 1
   }
 }

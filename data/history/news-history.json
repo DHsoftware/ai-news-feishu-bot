@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T05:34:35.500174+08:00",
+  "updated_at": "2026-08-16T06:35:44.109940+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5636,7 +5636,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-15",
@@ -5670,7 +5670,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-15",
@@ -5738,7 +5738,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-15",
@@ -5766,6 +5766,39 @@
           "agent",
           "chip",
           "inference"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-15",
+      "last_seen_date": "2026-08-15",
+      "canonical_key": "exploring compose html for server side rendering",
+      "normalized_title": "exploring compose html for server side rendering",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
+      "title": "Exploring Compose HTML for Server Side Rendering - The JetBrains Blog",
+      "summary": "Exploring Compose HTML for Server Side Rendering The JetBrains Blog",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
