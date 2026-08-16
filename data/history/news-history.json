@@ -1,183 +1,8 @@
 {
-  "updated_at": "2026-08-16T06:35:44.109940+08:00",
+  "updated_at": "2026-08-17T05:33:57.092363+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-16",
-      "last_seen_date": "2026-07-16",
-      "canonical_key": "how cars24 scales conversations and builds faster with openai",
-      "normalized_title": "how cars24 scales conversations and builds faster with openai",
-      "normalized_link": "https://openai.com/index/cars24",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/cars24",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-16",
-      "last_seen_date": "2026-07-16",
-      "canonical_key": "why pwc and openai are betting big on agentic customer service",
-      "normalized_title": "why pwc and openai are betting big on agentic customer service",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2ROSnlGRHBRcWE5Z0ZZQ0JoWW9wYS1xTGI0aEs2SjJRVDE4TDJkWG0tMFAxdlJsY3VRTTV5WE5GeEhqTnRLenNEYndtQ1lpRjJaX2J0eF9DM2Z4a0VkVlRxRmxxMDU4V2xGX3ladW5nSkxQY3BjeEh6aHg1WnVsS01fd0FEb2c?oc=5",
-      "title": "Why PwC and OpenAI Are Betting Big on Agentic Customer Service - CX Today",
-      "summary": "Why PwC and OpenAI Are Betting Big on Agentic Customer Service CX Today",
-      "source": "CX Today",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPY2ROSnlGRHBRcWE5Z0ZZQ0JoWW9wYS1xTGI0aEs2SjJRVDE4TDJkWG0tMFAxdlJsY3VRTTV5WE5GeEhqTnRLenNEYndtQ1lpRjJaX2J0eF9DM2Z4a0VkVlRxRmxxMDU4V2xGX3ladW5nSkxQY3BjeEh6aHg1WnVsS01fd0FEb2c?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-16",
-      "last_seen_date": "2026-07-16",
-      "canonical_key": "pi expert magnetics designer ep 1 planar transformers interface",
-      "normalized_title": "pi expert magnetics designer ep 1 planar transformers interface",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGVUclM3bVZ3cFBSb1dPSXlFVmdoRThvVm9XNGRuMDcxYzMwTDZXTGt2SmFsblN5c010bDc4dTNxckFCTV9nWTVjdmktYldZRkNMaEJDNkJ4LVZKZUt0amkwTnFGbzRBeko0XzJGNUtUaWljR2tDbmFsX096MFQwQ3lDZC10TldjYVEzSTN0dkdwREVLTXBBSmRFU0ZVbTFrOEJscA?oc=5",
-      "title": "PI Expert Magnetics Designer Ep. 1: Planar Transformers Interface - power.com",
-      "summary": "PI Expert Magnetics Designer Ep. 1: Planar Transformers Interface power.com",
-      "source": "power.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbGVUclM3bVZ3cFBSb1dPSXlFVmdoRThvVm9XNGRuMDcxYzMwTDZXTGt2SmFsblN5c010bDc4dTNxckFCTV9nWTVjdmktYldZRkNMaEJDNkJ4LVZKZUt0amkwTnFGbzRBeko0XzJGNUtUaWljR2tDbmFsX096MFQwQ3lDZC10TldjYVEzSTN0dkdwREVLTXBBSmRFU0ZVbTFrOEJscA?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-16",
-      "last_seen_date": "2026-07-16",
-      "canonical_key": "王晓松部署新城控股未来战略 深耕商管与建管业务 以ai提效坚守企业价值",
-      "normalized_title": "王晓松部署新城控股未来战略 深耕商管与建管业务 以ai提效坚守企业价值",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNmR3MUg4MVI4VkhZS3NyMTIzeFh5N0l0ZXAwMEs0S0hlTVhRRFplUTl5TW14ZTBxd0VMekJSYk4tN3J3Y1BCNjdWTmNyVVd5dkVBaldtNl9rUzRTcmc?oc=5",
-      "title": "王晓松部署新城控股未来战略：深耕商管与建管业务，以AI提效坚守企业价值 - thepaper.cn",
-      "summary": "王晓松部署新城控股未来战略：深耕商管与建管业务，以AI提效坚守企业价值 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BNmR3MUg4MVI4VkhZS3NyMTIzeFh5N0l0ZXAwMEs0S0hlTVhRRFplUTl5TW14ZTBxd0VMekJSYk4tN3J3Y1BCNjdWTmNyVVd5dkVBaldtNl9rUzRTcmc?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-16",
-      "last_seen_date": "2026-07-16",
-      "canonical_key": "氪星晚报 idc 百度智能云蝉联中国金融大模型市场份额第一 腾讯云与roboscience机器科学达成战略合作 商务部回应推动解决安世半导体问题进展",
-      "normalized_title": "氪星晚报 idc 百度智能云蝉联中国金融大模型市场份额第一 腾讯云与roboscience机器科学达成战略合作 商务部回应推动解决安世半导体问题进展",
-      "normalized_link": "https://36kr.com/p/3896564308379525?f=rss",
-      "title": "氪星晚报｜IDC：百度智能云蝉联中国金融大模型市场份额第一；腾讯云与RoboScience机器科学达成战略合作；商务部回应推动解决安世半导体问题进展",
-      "summary": "大公司： OPPO：realme新品将聚焦海外市场，中国市场暂停产品更新 36氪从OPPO方面获悉，为了进一步整合集团资源，实现全球产品战略的协同，未来 realme 新品将聚焦海外市场，在中国市场暂停产品更新；一加在中国市场的产品更新保持不变。realme和一加将持续在游戏和性能领域为用户提供优质的体验。 IDC：百度智能云蝉联中国金融大模型市场份额第一 36氪获悉，根据国际数据公司（IDC）最新发布的《中国金融行业生成式AI平台及应用解决方案市场份额，2025》报告，2025年中国金融行业生成式AI市场迎来爆发式增长，整体规模达到17.40亿元人民币，同比增速高达90.4%。在高速增长的…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3896564308379525?f=rss",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "cloud",
-        "llm",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple",
-          "huawei"
-        ],
-        "products": [],
-        "actions": [
-          "partnership",
-          "release",
-          "update"
-        ],
-        "topics": [
-          "chip",
-          "cloud",
-          "llm",
-          "model_capability",
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-07-17",
       "last_seen_date": "2026-07-18",
@@ -5799,6 +5624,180 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-16",
+      "last_seen_date": "2026-08-16",
+      "canonical_key": "sciencediscovery发布 零科研幻觉的一站式ai工作台 biomnibench da验证效果业界sota",
+      "normalized_title": "sciencediscovery发布 零科研幻觉的一站式ai工作台 biomnibench da验证效果业界sota",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
+      "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA - sohu.com",
+      "summary": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA sohu.com",
+      "source": "sohu.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-16",
+      "last_seen_date": "2026-08-16",
+      "canonical_key": "2026年十大ai 工具 哪款最能实现创作全流程自动化",
+      "normalized_title": "2026年十大ai 工具 哪款最能实现创作全流程自动化",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1saE5ZZENWaWxTNU5YWEQ2TVF2OG9GNXJnTGtJSHNrb1BqZERoNVFEY2VPMEVuZTFmMGhVU3JXVWpWajVFb19rakNvdkZxNDZQZ0E?oc=5",
+      "title": "2026年十大AI视频工具：哪款最能实现创作全流程自动化？ - 至顶网",
+      "summary": "2026年十大AI视频工具：哪款最能实现创作全流程自动化？ 至顶网",
+      "source": "至顶网",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1saE5ZZENWaWxTNU5YWEQ2TVF2OG9GNXJnTGtJSHNrb1BqZERoNVFEY2VPMEVuZTFmMGhVU3JXVWpWajVFb19rakNvdkZxNDZQZ0E?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-16",
+      "last_seen_date": "2026-08-16",
+      "canonical_key": "mathcode mathematical coding agent",
+      "normalized_title": "mathcode mathematical coding agent",
+      "normalized_link": "https://math-ai-org.github.io/mathcode",
+      "title": "MathCode, Mathematical Coding Agent",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://math-ai-org.github.io/mathcode/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-16",
+      "last_seen_date": "2026-08-16",
+      "canonical_key": "rogue ai incident openai s autonomous agent breach",
+      "normalized_title": "rogue ai incident openai s autonomous agent breach",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtU21WX2RsUzNIU3BXNmF5WTdYcC1YSlp6Yzh4UUlQakhTcWZwaHRXeXNWb3RWQ2hOOVlNc1cxOWpJV1RNWUliRmtjRzFMY1VuYnhRVy1EZmNMLVFJUk84ZFl0SjRlcmthQ1MxS3ZvWWNrZXQ2OHdqYjJn?oc=5",
+      "title": "Rogue AI Incident: OpenAI's Autonomous Agent Breach - The Cryptonomist",
+      "summary": "Rogue AI Incident: OpenAI's Autonomous Agent Breach The Cryptonomist",
+      "source": "The Cryptonomist",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtU21WX2RsUzNIU3BXNmF5WTdYcC1YSlp6Yzh4UUlQakhTcWZwaHRXeXNWb3RWQ2hOOVlNc1cxOWpJV1RNWUliRmtjRzFMY1VuYnhRVy1EZmNMLVFJUk84ZFl0SjRlcmthQ1MxS3ZvWWNrZXQ2OHdqYjJn?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "incident"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-16",
+      "last_seen_date": "2026-08-16",
+      "canonical_key": "spacex officially closes its cursor acquisition",
+      "normalized_title": "spacex officially closes its cursor acquisition",
+      "normalized_link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "cursor"
+        ],
+        "actions": [],
+        "topics": [
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
