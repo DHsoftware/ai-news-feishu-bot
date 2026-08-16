@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "generated_at": "2026-08-17T05:33:57.092363+08:00",
+  "generated_at": "2026-08-17T06:34:44.083292+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -34,20 +34,20 @@
     "similarity_threshold": 0.82,
     "history_size_before": 157,
     "history_size_after": 157,
-    "history_duplicate_count": 10
+    "history_duplicate_count": 9
   },
   "raw_item_count": 5188,
-  "deduped_item_count": 3799,
-  "filtered_item_count": 143,
+  "deduped_item_count": 3812,
+  "filtered_item_count": 140,
   "curated_item_count": 5,
   "curated_items": [
     {
-      "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA - sohu.com",
-      "summary": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA sohu.com",
+      "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA - 搜狐网",
+      "summary": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA 搜狐网",
       "summary_source": "rss_description",
       "summary_quality": "low",
       "published_at": "2026-08-16T15:48:20+08:00",
-      "source": "sohu.com",
+      "source": "搜狐网",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
       "language": "zh",
       "region": "china",
@@ -196,14 +196,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1389,
-    "history_duplicate": 10,
-    "weak_relevance": 97,
+    "duplicate": 1376,
+    "history_duplicate": 9,
+    "weak_relevance": 102,
     "same_source_limit": 0,
     "china_limit": 10,
     "auto_china_limit": 0,
-    "old_news": 3559,
-    "same_entity_limit": 139,
+    "old_news": 3570,
+    "same_entity_limit": 134,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T05:33:57.092363+08:00",
+  "updated_at": "2026-08-17T06:34:44.083292+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5665,7 +5665,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-16",
@@ -5702,7 +5702,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-16",
@@ -5731,7 +5731,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-16",
@@ -5769,7 +5769,7 @@
           "incident"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-16",
@@ -5800,7 +5800,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
