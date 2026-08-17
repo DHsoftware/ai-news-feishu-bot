@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T06:34:44.083292+08:00",
+  "updated_at": "2026-08-18T05:41:36.599218+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -37,156 +37,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-17",
-      "canonical_key": "ai赋能数字化研发提效 海尔智家推进家电数字化仿真国标完善",
-      "normalized_title": "ai赋能数字化研发提效 海尔智家推进家电数字化仿真国标完善",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5d0d3bXNyei1DVkJhTU0xWnRQZlF6Ml9NMWJpOHNTQlJPT1V4MDhqTjIwZWloa004NjRwRVFxeGwzWHpnV3NtelFvbHdHUG9OOWRmc0swYW9aeDBSOVNPR085Z1ozdw?oc=5",
-      "title": "AI赋能数字化研发提效！海尔智家推进家电数字化仿真国标完善 - beareyes.com.cn",
-      "summary": "AI赋能数字化研发提效！海尔智家推进家电数字化仿真国标完善 beareyes.com.cn",
-      "source": "beareyes.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5d0d3bXNyei1DVkJhTU0xWnRQZlF6Ml9NMWJpOHNTQlJPT1V4MDhqTjIwZWloa004NjRwRVFxeGwzWHpnV3NtelFvbHdHUG9OOWRmc0swYW9aeDBSOVNPR085Z1ozdw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "engineering_productivity",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-17",
-      "canonical_key": "2026世界人工智能大会亮点多 智能体跃迁 token经营元年 国产算力突破",
-      "normalized_title": "2026世界人工智能大会亮点多 智能体跃迁 token经营元年 国产算力突破",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OeVdZdmVlaGYwOWl6MjZiLXZ5UWtFS3NlQ19VV3RuR2dVR183T3B2N3ZIMTlwa2lGdDhKMkRUN3ZrX2NPc3hwM3JmMDh2SkQ1ZHZnLWZIOVQxZkpaZ1g0bl8zWHNzTDRiMGcw?oc=5",
-      "title": "2026世界人工智能大会亮点多：智能体跃迁、Token经营元年、国产算力突破…… - blog.csdn.net",
-      "summary": "2026世界人工智能大会亮点多：智能体跃迁、Token经营元年、国产算力突破…… blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OeVdZdmVlaGYwOWl6MjZiLXZ5UWtFS3NlQ19VV3RuR2dVR183T3B2N3ZIMTlwa2lGdDhKMkRUN3ZrX2NPc3hwM3JmMDh2SkQ1ZHZnLWZIOVQxZkpaZ1g0bl8zWHNzTDRiMGcw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-17",
-      "canonical_key": "integrating context aware video ai agents into enterprise workflows",
-      "normalized_title": "integrating context aware video ai agents into enterprise workflows",
-      "normalized_link": "https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows",
-      "title": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows",
-      "summary": "A video analytics AI agent that can perceive, reason, and act based on massive amounts of video footage must be integrated with existing workflows and... A video analytics AI agent that can perceive, reason, and act based on massive amounts of video footage must be integrated with existing workflow…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "enterprise_workflow",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-17",
-      "canonical_key": "anthropic launches claude for teachers why some critics are concerned",
-      "normalized_title": "anthropic launches claude for teachers why some critics are concerned",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUlZYRGRMaDNOVzdLUG5BWS1MN3NubHg0d1d3MENPNkVTRzFjLWw0eHpuREpVaFUwdnpoTXgta2FCMjV2Sl9obWZoLWNaR3hpWld2NW50bjh5eDE3dGl0ajlIQ1pVNm5HeWFwNTB0M242T0UxbU9RZ0Z0LVZZUTg1bDVqY01ZbVFNRHoxYWVrWDlydXhPc3VYdHZJZmktSGh6TUwzWS1fY1VpTmJPWnlsRQ?oc=5",
-      "title": "Anthropic Launches Claude for Teachers. Why Some Critics Are Concerned - Education Week",
-      "summary": "Anthropic Launches Claude for Teachers. Why Some Critics Are Concerned Education Week",
-      "source": "Education Week",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUlZYRGRMaDNOVzdLUG5BWS1MN3NubHg0d1d3MENPNkVTRzFjLWw0eHpuREpVaFUwdnpoTXgta2FCMjV2Sl9obWZoLWNaR3hpWld2NW50bjh5eDE3dGl0ajlIQ1pVNm5HeWFwNTB0M242T0UxbU9RZ0Z0LVZZUTg1bDVqY01ZbVFNRHoxYWVrWDlydXhPc3VYdHZJZmktSGh6TUwzWS1fY1VpTmJPWnlsRQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-18",
@@ -5801,6 +5651,180 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-17",
+      "last_seen_date": "2026-08-17",
+      "canonical_key": "how canvases make agentic workflows visible steerable and cost",
+      "normalized_title": "how canvases make agentic workflows visible steerable and cost",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "summary": "When I was in college, I joined the beta for one of the first versions of AI inline completions in VS Code. It felt like a game changer. Since then, GenAI has fundamentally changed software development: hybrid teams where agents and humans work in tandem, with the developer at the center as visiona…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-17",
+      "last_seen_date": "2026-08-17",
+      "canonical_key": "ai workflow orchestration market size to hit 95 10 billion by 2035 sns insider",
+      "normalized_title": "ai workflow orchestration market size to hit 95 10 billion by 2035 sns insider",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTTVJZXRoRlZYem1oaEVuVnVlYTBIeURQR1RTVWphOVRQVjU5MWJNUlgxeUdDMEtPS0JtR1F1UWMtZlU2a21mOExSVWNMRmFfMHI3eDZ3dW5qVDRMeXZzNmJEbnF0dWxtVXJGYUNOWDBZNnRsMTNCbzZFV0Vyd0RlODlZcFE3ejVBOF9UZWhVdjdsT3Y2alhJc2tSSU9Nblh2TnFYZEdnTV9OaW5oeUVTdk1LR3ZHb2puY2NsdEE3cU9ZU2p5STZzN0oyekw3Y1lkc29XQUFWS3RfODVRYnF3NUpoN1Y?oc=5",
+      "title": "AI Workflow Orchestration Market Size to Hit $95.10 Billion by 2035 | SNS Insider - GlobeNewswire",
+      "summary": "AI Workflow Orchestration Market Size to Hit $95.10 Billion by 2035 | SNS Insider GlobeNewswire",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTTVJZXRoRlZYem1oaEVuVnVlYTBIeURQR1RTVWphOVRQVjU5MWJNUlgxeUdDMEtPS0JtR1F1UWMtZlU2a21mOExSVWNMRmFfMHI3eDZ3dW5qVDRMeXZzNmJEbnF0dWxtVXJGYUNOWDBZNnRsMTNCbzZFV0Vyd0RlODlZcFE3ejVBOF9UZWhVdjdsT3Y2alhJc2tSSU9Nblh2TnFYZEdnTV9OaW5oeUVTdk1LR3ZHb2puY2NsdEE3cU9ZU2p5STZzN0oyekw3Y1lkc29XQUFWS3RfODVRYnF3NUpoN1Y?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-17",
+      "last_seen_date": "2026-08-17",
+      "canonical_key": "running in the right direction with 48v for ai processor power",
+      "normalized_title": "running in the right direction with 48v for ai processor power",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSmp3bUpyR2gtQzgtSWJ1Uk9OYktDNTh6eU5vVVlCZ0RBVVVDM0V1eUxNSHhzS1BhbUU4VkRTQzhmSnFzSkN6SnBwU0YxUWxtLTAxSE9FTnRIeWJ5Wi05UmtfNlJzcmV6ZldkYVJ5ak43eEN0WF9wVzI4TVQ3XzVZZXVWMUsxUHFqdW9DdE92bDJnamZrZENvOWNuaUhuY0szYUtyUFRZX2xYa2FzX3J0Z3JiVjQtY0tNbFUtWjMwYjBHRXNYY2otTDJ4RHRDZkFCLWg1dVBYbGlJRUY0R3BNWjRR?oc=5",
+      "title": "Running in the right direction with 48V for AI processor power - Vicor Corporation",
+      "summary": "Running in the right direction with 48V for AI processor power Vicor Corporation",
+      "source": "Vicor Corporation",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSmp3bUpyR2gtQzgtSWJ1Uk9OYktDNTh6eU5vVVlCZ0RBVVVDM0V1eUxNSHhzS1BhbUU4VkRTQzhmSnFzSkN6SnBwU0YxUWxtLTAxSE9FTnRIeWJ5Wi05UmtfNlJzcmV6ZldkYVJ5ak43eEN0WF9wVzI4TVQ3XzVZZXVWMUsxUHFqdW9DdE92bDJnamZrZENvOWNuaUhuY0szYUtyUFRZX2xYa2FzX3J0Z3JiVjQtY0tNbFUtWjMwYjBHRXNYY2otTDJ4RHRDZkFCLWg1dVBYbGlJRUY0R3BNWjRR?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-17",
+      "last_seen_date": "2026-08-17",
+      "canonical_key": "openai提速狂飙16倍 gpt 5 6多智能体v2上线 741轮怪物对话1秒打开",
+      "normalized_title": "openai提速狂飙16倍 gpt 5 6多智能体v2上线 741轮怪物对话1秒打开",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wX3kzZ0syNVhYdU5rWUZTOU10SnhBTEFYVVJBZkpBNnpza3NHcEdpeW9CUEp4ODB2enVFRXNFWndIQ291c1YzOEk2X0ZKQQ?oc=5",
+      "title": "OpenAI提速狂飙16倍，GPT-5.6多智能体V2上线，741轮怪物对话1秒打开 - 36kr.com",
+      "summary": "OpenAI提速狂飙16倍，GPT-5.6多智能体V2上线，741轮怪物对话1秒打开 36kr.com",
+      "source": "36kr.com",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wX3kzZ0syNVhYdU5rWUZTOU10SnhBTEFYVVJBZkpBNnpza3NHcEdpeW9CUEp4ODB2enVFRXNFWndIQ291c1YzOEk2X0ZKQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-17",
+      "last_seen_date": "2026-08-17",
+      "canonical_key": "anthropic冲刺2万亿美元ai史上最大ipo 高估值背后暗藏内部撕裂与市场风险",
+      "normalized_title": "anthropic冲刺2万亿美元ai史上最大ipo 高估值背后暗藏内部撕裂与市场风险",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQd2Rvcjg0TjRId2VOcF9BRjh2a1ktZGM1a2xCaGNwWGFvRkF2X1Q1dDZCQmlLdkVXeVZ3MXBqRlZEOTBvTDNmMGU4T0dlakdfOGVscHpEQ2JjZVFzbXN3Q2RuS2VYTVNUY3g0?oc=5",
+      "title": "Anthropic冲刺2万亿美元AI史上最大IPO：高估值背后暗藏内部撕裂与市场风险 - blog.csdn.net",
+      "summary": "Anthropic冲刺2万亿美元AI史上最大IPO：高估值背后暗藏内部撕裂与市场风险 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQd2Rvcjg0TjRId2VOcF9BRjh2a1ktZGM1a2xCaGNwWGFvRkF2X1Q1dDZCQmlLdkVXeVZ3MXBqRlZEOTBvTDNmMGU4T0dlakdfOGVscHpEQ2JjZVFzbXN3Q2RuS2VYTVNUY3g0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
