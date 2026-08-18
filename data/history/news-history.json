@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T05:38:10.256106+08:00",
+  "updated_at": "2026-08-19T06:38:45.591180+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5690,7 +5690,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-18",
@@ -5729,7 +5729,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-18",
@@ -5764,7 +5764,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-18",
@@ -5803,7 +5803,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-18",
@@ -5836,6 +5836,41 @@
           "coding",
           "llm",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "cursor capitalizes on github frustration launches rival hosting platform",
+      "normalized_title": "cursor capitalizes on github frustration launches rival hosting platform",
+      "normalized_link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code hosting platform to rival developers' long preferred favorite, Github.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "cursor"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
