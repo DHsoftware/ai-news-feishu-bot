@@ -1,185 +1,8 @@
 {
-  "updated_at": "2026-08-18T06:38:01.892075+08:00",
+  "updated_at": "2026-08-19T05:38:10.256106+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-17",
-      "last_seen_date": "2026-07-18",
-      "canonical_key": "the cost of saying yes has changed",
-      "normalized_title": "the cost of saying yes has changed",
-      "normalized_link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed",
-      "title": "The cost of saying yes has changed",
-      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code. That’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests,…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-18",
-      "last_seen_date": "2026-07-18",
-      "canonical_key": "张瑜 ai的生产率悖论 20 篇论文中找答案",
-      "normalized_title": "张瑜 ai的生产率悖论 20 篇论文中找答案",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPck1SWm5xc2JwUDJvdTdkQnZzY21pU2EzQ20xNUpnTXhQeTZKZGxhdzZXUklLRXRpa0RMUlo0ZWxKSUNac3FwUVNsSGVmbTE1dTlSV1Y4cl9wZnpJMkp4WDZYYXozS1J3T043bVZpc3NMSzdyT2FhTkhhTU4tMVQwQVBSWGgxNWhSVU5TYjBYWnVkY0lpU2JWMmtiMGhjWFh0SmZaZ2w2Rnh4aWxqSXl4WU1IaU1PV2IyR2kzMTJKenc0d29vcV9LZXU3OVZFeF9WTjVVcktsLWVqdUIxUE51NVJJV2M3dlotOWhJUHdERVU1T1VrSndmaG9RTzBDQWFRM0hmWDg1ZHhhUQ?oc=5",
-      "title": "张瑜：AI的生产率悖论？——20+篇论文中找答案 - 新浪财经",
-      "summary": "张瑜：AI的生产率悖论？——20+篇论文中找答案 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPck1SWm5xc2JwUDJvdTdkQnZzY21pU2EzQ20xNUpnTXhQeTZKZGxhdzZXUklLRXRpa0RMUlo0ZWxKSUNac3FwUVNsSGVmbTE1dTlSV1Y4cl9wZnpJMkp4WDZYYXozS1J3T043bVZpc3NMSzdyT2FhTkhhTU4tMVQwQVBSWGgxNWhSVU5TYjBYWnVkY0lpU2JWMmtiMGhjWFh0SmZaZ2w2Rnh4aWxqSXl4WU1IaU1PV2IyR2kzMTJKenc0d29vcV9LZXU3OVZFeF9WTjVVcktsLWVqdUIxUE51NVJJV2M3dlotOWhJUHdERVU1T1VrSndmaG9RTzBDQWFRM0hmWDg1ZHhhUQ?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-18",
-      "last_seen_date": "2026-07-18",
-      "canonical_key": "阿里ai编程市场份额近半 阿里云增速与利润率同升 估值锚向ai移动",
-      "normalized_title": "阿里ai编程市场份额近半 阿里云增速与利润率同升 估值锚向ai移动",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN1FBR0J4WHhhSDc0OE1ZSmZnTVlPLUdpbFBlZUZOU2dNSk1tZWZUaXVqbzRLLXc0TjAwZ25HSlMtLXRXWERHN0VNdDFtQUZQRWp4ZWFUcGtid3F5SHJ4eDlsV1NadUx6UjZB?oc=5",
-      "title": "阿里AI编程市场份额近半，阿里云增速与利润率同升，估值锚向AI移动 - blog.csdn.net",
-      "summary": "阿里AI编程市场份额近半，阿里云增速与利润率同升，估值锚向AI移动 blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CN1FBR0J4WHhhSDc0OE1ZSmZnTVlPLUdpbFBlZUZOU2dNSk1tZWZUaXVqbzRLLXc0TjAwZ25HSlMtLXRXWERHN0VNdDFtQUZQRWp4ZWFUcGtid3F5SHJ4eDlsV1NadUx6UjZB?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "cloud",
-        "coding",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "cloud",
-          "coding",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-18",
-      "last_seen_date": "2026-07-18",
-      "canonical_key": "q a how capcom brought path tracing to re engine across pragmata and resident evil requiem",
-      "normalized_title": "q a how capcom brought path tracing to re engine across pragmata and resident evil requiem",
-      "normalized_link": "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem",
-      "title": "Q&A: How Capcom Brought Path Tracing to RE ENGINE Across PRAGMATA and Resident Evil Requiem",
-      "summary": "Capcom's RE ENGINE team set out to bring path tracing into two shipping titles at once, Resident Evil Requiem and PRAGMATA, each with a different visual... Source",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-18",
-      "last_seen_date": "2026-07-18",
-      "canonical_key": "the mother of all ai supply chains critical systemic vulnerability at the core of anthropic s mcp",
-      "normalized_title": "the mother of all ai supply chains critical systemic vulnerability at the core of anthropic s mcp",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeE1mR2gtazRHcUNWejdXbkp3NzN5NU5wSWhkZjVJem5ONVFKb2FOYnR4LUNtMjFxeHZfX0F2WFFXME50ZGlTc0dDQmc5QVV0cS1YY2RYVWVZRWxKLUgzckJuNDI0a3VRc2xMUDVwR0plSXpoaVlLTloteW9lalNVSjYzWmh4YktHRG1PSzU1UmtkLVJRd0l4OVRlam4yQ1dKZmRlcVVXN283cEFuQTh0SVFnVGZ2Y3ZwNGF5RWVPLXkyQmd5WUZr?oc=5",
-      "title": "The Mother of All AI Supply Chains: Critical, Systemic Vulnerability at the Core of Anthropic’s MCP - OX Security",
-      "summary": "The Mother of All AI Supply Chains: Critical, Systemic Vulnerability at the Core of Anthropic’s MCP OX Security",
-      "source": "OX Security",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeE1mR2gtazRHcUNWejdXbkp3NzN5NU5wSWhkZjVJem5ONVFKb2FOYnR4LUNtMjFxeHZfX0F2WFFXME50ZGlTc0dDQmc5QVV0cS1YY2RYVWVZRWxKLUgzckJuNDI0a3VRc2xMUDVwR0plSXpoaVlLTloteW9lalNVSjYzWmh4YktHRG1PSzU1UmtkLVJRd0l4OVRlam4yQ1dKZmRlcVVXN283cEFuQTh0SVFnVGZ2Y3ZwNGF5RWVPLXkyQmd5WUZr?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "mcp"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-07-19",
       "last_seen_date": "2026-07-19",
@@ -5825,6 +5648,197 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "asana cleared 5 years of engineering work in 2 weeks with codex",
+      "normalized_title": "asana cleared 5 years of engineering work in 2 weeks with codex",
+      "normalized_link": "https://openai.com/index/asana",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/asana",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "ai workflow startup relay shuts down as founder joins google s chrome team",
+      "normalized_title": "ai workflow startup relay shuts down as founder joins google s chrome team",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaUcwbS1oWWZrRXBqRGl3WmpiejFTQ1JDdncyVDRPZ2E3NDlIaUVnNWF0bEwydmhjTHpwRFFEWXdGZ0R1X1VibFRaRFYxRVF4aFB0b2RIcnYtTmpFNVFGdHVEeFdGdHRySlNJd2R3N092UFJqejNtLXVUNUV1SUNRa3dmZHBzRUxoY183Wjk5SUk4NEgwMGttcnRfMTNVTFpWTjZuaHdHa2Yxd2hTS2FSNQ?oc=5",
+      "title": "AI Workflow Startup Relay Shuts Down as Founder Joins Google’s Chrome Team - AI Insider",
+      "summary": "AI Workflow Startup Relay Shuts Down as Founder Joins Google’s Chrome Team AI Insider",
+      "source": "AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaUcwbS1oWWZrRXBqRGl3WmpiejFTQ1JDdncyVDRPZ2E3NDlIaUVnNWF0bEwydmhjTHpwRFFEWXdGZ0R1X1VibFRaRFYxRVF4aFB0b2RIcnYtTmpFNVFGdHVEeFdGdHRySlNJd2R3N092UFJqejNtLXVUNUV1SUNRa3dmZHBzRUxoY183Wjk5SUk4NEgwMGttcnRfMTNVTFpWTjZuaHdHa2Yxd2hTS2FSNQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "google"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "openai解散安全团队 商业化压力下ai安全何去何从",
+      "normalized_title": "openai解散安全团队 商业化压力下ai安全何去何从",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qU01vWWp0SUlMVmNmWHRJZTViMi1nZXRXZ2ZBUEZjSjd2X0s1aEJZT25KZ2dneHhiTWxSVlRjTGNRdnVXLVo2TVBxYWR0aVhPU19TNGF0d3FpR3BNdFRkTV84ZGxJMldrMW5N?oc=5",
+      "title": "OpenAI解散安全团队，商业化压力下AI安全何去何从？ - blog.csdn.net",
+      "summary": "OpenAI解散安全团队，商业化压力下AI安全何去何从？ blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qU01vWWp0SUlMVmNmWHRJZTViMi1nZXRXZ2ZBUEZjSjd2X0s1aEJZT25KZ2dneHhiTWxSVlRjTGNRdnVXLVo2TVBxYWR0aVhPU19TNGF0d3FpR3BNdFRkTV84ZGxJMldrMW5N?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "黑芝麻智能与美的强强联合 国产算力聚焦机器人落地升级",
+      "normalized_title": "黑芝麻智能与美的强强联合 国产算力聚焦机器人落地升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYVFF1WFV2NzU0bFhySUVVRzhfTGdzLUI4N3BURlNhOUttM1dvLS1tXzc1LS10ZWt4bGxNQ0ZvX1FQY3lsMUt6NXFKLTZZYzR1SDhHYkFsazlyRGM?oc=5",
+      "title": "黑芝麻智能与美的强强联合，国产算力聚焦机器人落地升级 - 黑芝麻智能",
+      "summary": "黑芝麻智能与美的强强联合，国产算力聚焦机器人落地升级 黑芝麻智能",
+      "source": "黑芝麻智能",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYVFF1WFV2NzU0bFhySUVVRzhfTGdzLUI4N3BURlNhOUttM1dvLS1tXzc1LS10ZWt4bGxNQ0ZvX1FQY3lsMUt6NXFKLTZZYzR1SDhHYkFsazlyRGM?oc=5",
+      "category": "官方研究",
+      "region": "china",
+      "source_group": "technical_report",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "black_sesame"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-18",
+      "last_seen_date": "2026-08-18",
+      "canonical_key": "microsoft copilot reveals secret input that allowed it to be hacked",
+      "normalized_title": "microsoft copilot reveals secret input that allowed it to be hacked",
+      "normalized_link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "summary": "It’s not every day that attackers can force a frontier AI model to cough up user passwords and other sensitive data without user confirmation. That’s exactly what researchers recently did to Microsoft 365 Copilot for enterprise. Even more unusual is the source they tapped to discover the critical v…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding",
+        "llm",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "coding",
+          "llm",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
