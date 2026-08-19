@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T06:38:45.591180+08:00",
+  "updated_at": "2026-08-20T05:41:06.823027+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -448,6 +448,63 @@
           "agent",
           "cli",
           "codex"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-19",
+      "last_seen_date": "2026-08-19",
+      "canonical_key": "codex cli release 0 145 0",
+      "normalized_title": "codex cli release 0 145 0",
+      "normalized_link": "https://developers.openai.com/codex/changelog",
+      "title": "Codex CLI Release: 0.145.0",
+      "summary": "New Features Added experimental paginated thread history with efficient resume, search, persisted names, sub-agent support, and memories. ( #33364 , #33907 , #34085 , #34229 , #34386 ) Expanded /import to migrate Cursor and Claude Code settings, MCP servers, plugins, sessions, commands, and project…",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-357545274",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "multi_agent",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon"
+        ],
+        "products": [
+          "claude_code",
+          "codex",
+          "cursor",
+          "mcp"
+        ],
+        "actions": [
+          "expand",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "bedrock",
+          "cli",
+          "code_review",
+          "codex",
+          "mcp",
+          "model_capability",
+          "multi_agent",
+          "official",
+          "terminal",
+          "workflow"
         ]
       },
       "seen_count": 1
