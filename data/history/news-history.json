@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T05:41:06.823027+08:00",
+  "updated_at": "2026-08-20T06:38:03.128944+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5452,7 +5452,7 @@
           "official_report"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-18",
@@ -5672,7 +5672,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-19",
@@ -5711,7 +5711,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-19",
@@ -5744,7 +5744,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-19",
@@ -5772,6 +5772,35 @@
         "topics": [
           "llm",
           "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-19",
+      "last_seen_date": "2026-08-19",
+      "canonical_key": "openai内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考",
+      "normalized_title": "openai内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VWGFzZ0tNWXlnaWcxSkptVFJNcklzZFdfam45el9vekREVFhEZ2sxNkYwckx0ODM3YmZuRFhFNnhlOFhRdG5maF8xdW9FdFR0MWprLQ?oc=5",
+      "title": "OpenAI内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考 - 虎嗅",
+      "summary": "OpenAI内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VWGFzZ0tNWXlnaWcxSkptVFJNcklzZFdfam45el9vekREVFhEZ2sxNkYwckx0ODM3YmZuRFhFNnhlOFhRdG5maF8xdW9FdFR0MWprLQ?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1
