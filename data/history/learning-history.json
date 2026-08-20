@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T06:38:03.128944+08:00",
+  "updated_at": "2026-08-21T05:43:52.715488+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -249,40 +249,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-20",
-      "last_seen_date": "2026-07-20",
-      "canonical_key": "how bny ceo robin vince turns ai optimism into action",
-      "normalized_title": "how bny ceo robin vince turns ai optimism into action",
-      "normalized_link": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
-      "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
-      "summary": "“We choose to be AI optimists at BNY.” For Robin Vince, optimism means action. And that action starts before Monday morning: 📝 Use the weekend to build context 🤖 Review the latest AI agents and use cases 🏋️ Start Monday with an early workout 📰 Catch up on what’s happening in the world ✨ Let AI help…",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "summary_quality": "medium",
-      "concept_hint": "Coding Agent",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "codex"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "cli",
-          "codex"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
