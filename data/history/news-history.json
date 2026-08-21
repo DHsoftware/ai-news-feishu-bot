@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T05:39:10.358917+08:00",
+  "updated_at": "2026-08-22T06:38:44.068603+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3821,7 +3821,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5579,7 +5579,7 @@
           "research"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-20",
@@ -5692,7 +5692,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-21",
@@ -5738,7 +5738,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-21",
@@ -5777,7 +5777,7 @@
           "simulation_optimization"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
