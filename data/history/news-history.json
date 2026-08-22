@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T06:38:44.068603+08:00",
+  "updated_at": "2026-08-23T05:35:26.973649+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -43,88 +43,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
-      "canonical_key": "building ai infrastructure with the effingham county community",
-      "normalized_title": "building ai infrastructure with the effingham county community",
-      "normalized_link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
-      "canonical_key": "ai coding 提效有限 harness 全链路研发智能体打造可验证交付闭环",
-      "normalized_title": "ai coding 提效有限 harness 全链路研发智能体打造可验证交付闭环",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPakE5Z2tTR3c0Ui14ck4xTnFwdkR6ME1GQThLX2Y0dEtyMlY1X0RiZWlUdGFGNkVwcEIwSUdOYW9QSzdac24ybDF3ZjN0TE5uQWdYaW9JTnd3LXpOQXZIN2RXM0ZaelZMaXVJ?oc=5",
-      "title": "AI Coding 提效有限？Harness 全链路研发智能体打造可验证交付闭环！ - blog.csdn.net",
-      "summary": "AI Coding 提效有限？Harness 全链路研发智能体打造可验证交付闭环！ blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPakE5Z2tTR3c0Ui14ck4xTnFwdkR6ME1GQThLX2Y0dEtyMlY1X0RiZWlUdGFGNkVwcEIwSUdOYW9QSzdac24ybDF3ZjN0TE5uQWdYaW9JTnd3LXpOQXZIN2RXM0ZaelZMaXVJ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-22",
@@ -172,39 +90,6 @@
     },
     {
       "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
-      "canonical_key": "2026年ai算力电源科普解读 数据中心供电的核心指标与选型",
-      "normalized_title": "2026年ai算力电源科普解读 数据中心供电的核心指标与选型",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRzJYMVhScEF3N3hOUEtwZk1COWVXUjkzcERjdEtTYkZZaElPOWFVMHhhazQ5dnlOS2d3emFGWmZPamc3ellhTXhjTTgxOEZ0NXpJc0VzYWhHc01SR2w0NWJJaXpsQ3lkYmtpNzlxaW50VjR4UUxocjlXV2VJeDQ?oc=5",
-      "title": "2026年AI算力电源科普解读：数据中心供电的核心指标与选型 - 新浪网",
-      "summary": "2026年AI算力电源科普解读：数据中心供电的核心指标与选型 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRzJYMVhScEF3N3hOUEtwZk1COWVXUjkzcERjdEtTYkZZaElPOWFVMHhhazQ5dnlOS2d3emFGWmZPamc3ellhTXhjTTgxOEZ0NXpJc0VzYWhHc01SR2w0NWJJaXpsQ3lkYmtpNzlxaW50VjR4UUxocjlXV2VJeDQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-22",
       "last_seen_date": "2026-07-23",
       "canonical_key": "openai says its ai agent broke out of testing sandbox to hack hugging face",
       "normalized_title": "openai says its ai agent broke out of testing sandbox to hack hugging face",
@@ -240,45 +125,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-22",
-      "last_seen_date": "2026-07-22",
-      "canonical_key": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
-      "normalized_title": "无问芯穹夏立雪 智能体带来token分层 国产芯片适配效果明显提升",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
-      "title": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 - thepaper.cn",
-      "summary": "无问芯穹夏立雪：智能体带来Token分层，国产芯片适配效果明显提升 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zTGlHYVhvQ25NSTNGM0VFMDNBODNJenY1R184N1BuQ21fbXZiREpNM1ZBMEZyZ3pqVndIcEU5ZGFlcjd5SnJnY3c2Ykw4YVlYWG5wQjhCTVJERGxLR0QySQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "chip",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "chip",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-23",
@@ -5778,6 +5624,192 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-22",
+      "last_seen_date": "2026-08-22",
+      "canonical_key": "where security fits in an ai agent stack",
+      "normalized_title": "where security fits in an ai agent stack",
+      "normalized_link": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
+      "title": "Where Security Fits in an AI Agent Stack",
+      "summary": "As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important.... As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-22",
+      "last_seen_date": "2026-08-22",
+      "canonical_key": "ntt data and palo alto networks sign global strategic alliance to accelerate secure ai transformation",
+      "normalized_title": "ntt data and palo alto networks sign global strategic alliance to accelerate secure ai transformation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVklUWnZzWVdPMTlhYW9XSWN4NjdxNnNxNkNsQmxLNEwtSmI0MGdQaEg5MlE3TnNUclFVanpfZjBzTU54Wm9uQzFrcE5HOUdkMTd2RE1mNFN1ZnZLdTNNOXVwSmN2WVhSME9mcG8wNHRJeEtwSXBOU2t1eDNma3IzeEt6Tjl2Ni00Y05VYk0tMzdlbnZ5ckI1V0E4M3RjczNiMEtnRzVzZDZoQ0J3UXNwSFQ2SjFsZ2ZvTlFYb0NQYmpMSEo3NlhxUnJieXo5a2tfTHM1enRzVUVYakppak9kd01oX0JfazB2?oc=5",
+      "title": "NTT DATA and Palo Alto Networks Sign Global Strategic Alliance to Accelerate Secure AI Transformation - Palo Alto Networks",
+      "summary": "NTT DATA and Palo Alto Networks Sign Global Strategic Alliance to Accelerate Secure AI Transformation Palo Alto Networks",
+      "source": "Palo Alto Networks",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVklUWnZzWVdPMTlhYW9XSWN4NjdxNnNxNkNsQmxLNEwtSmI0MGdQaEg5MlE3TnNUclFVanpfZjBzTU54Wm9uQzFrcE5HOUdkMTd2RE1mNFN1ZnZLdTNNOXVwSmN2WVhSME9mcG8wNHRJeEtwSXBOU2t1eDNma3IzeEt6Tjl2Ni00Y05VYk0tMzdlbnZ5ckI1V0E4M3RjczNiMEtnRzVzZDZoQ0J3UXNwSFQ2SjFsZ2ZvTlFYb0NQYmpMSEo3NlhxUnJieXo5a2tfTHM1enRzVUVYakppak9kd01oX0JfazB2?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-22",
+      "last_seen_date": "2026-08-22",
+      "canonical_key": "开 云官方网站下载发布全场景ai能源管理平台 以智能充电技术重塑智慧家庭生态",
+      "normalized_title": "开 云官方网站下载发布全场景ai能源管理平台 以智能充电技术重塑智慧家庭生态",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tTkp6N04xRzVFRHc1c3hib3RZcGxwNndKeU4wWWFQendoeUhIbVdPSG5nbzRZYXBpVjJHTm1TS3pYdjduUEVCUFRrZk9HT2JzNDItQVdPalk4Mm9mQy1V?oc=5",
+      "title": "开・云官方网站下载发布全场景AI能源管理平台 以智能充电技术重塑智慧家庭生态 - womenofchina.com",
+      "summary": "开・云官方网站下载发布全场景AI能源管理平台 以智能充电技术重塑智慧家庭生态 womenofchina.com",
+      "source": "womenofchina.com",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tTkp6N04xRzVFRHc1c3hib3RZcGxwNndKeU4wWWFQendoeUhIbVdPSG5nbzRZYXBpVjJHTm1TS3pYdjduUEVCUFRrZk9HT2JzNDItQVdPalk4Mm9mQy1V?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "cloud",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "cloud",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-22",
+      "last_seen_date": "2026-08-22",
+      "canonical_key": "ai推理时代自研硅加速崛起 anthropic挖来谷歌tpu元老 算力帝国从 gpu独奏 迈向 异构算力交响",
+      "normalized_title": "ai推理时代自研硅加速崛起 anthropic挖来谷歌tpu元老 算力帝国从 gpu独奏 迈向 异构算力交响",
+      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NbTllSC1IbWUzcUFJRUt1YlRrUm1LZFU4b2JSUDFsWnEyY1RDTGhqNzBpZXhMT1ZBNld2ck1EaTdHRlNZa0MxVWZ2RVNTVmgyV3RNa2oxTUlaNEktLWRCcGlyOVZuR0t6SEhWLWhTZnY?oc=5",
+      "title": "AI推理时代自研硅加速崛起! Anthropic挖来谷歌TPU元老 算力帝国从“GPU独奏”迈向“异构算力交响” - t.cj.sina.cn",
+      "summary": "AI推理时代自研硅加速崛起! Anthropic挖来谷歌TPU元老 算力帝国从“GPU独奏”迈向“异构算力交响” t.cj.sina.cn",
+      "source": "t.cj.sina.cn",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NbTllSC1IbWUzcUFJRUt1YlRrUm1LZFU4b2JSUDFsWnEyY1RDTGhqNzBpZXhMT1ZBNld2ck1EaTdHRlNZa0MxVWZ2RVNTVmgyV3RNa2oxTUlaNEktLWRCcGlyOVZuR0t6SEhWLWhTZnY?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "google"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "inference"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-22",
+      "last_seen_date": "2026-08-22",
+      "canonical_key": "scaling cyber defenders with daybreak",
+      "normalized_title": "scaling cyber defenders with daybreak",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBseVc5c2lVMnExQjhoYTFBd3gwclBZS2JldEpUNE9jVlNzcW9NcmUwNE9rYzBCZzJMUDktSVY2aHM0VDR6WS1qejB3RzhXOHQtMm8xUTdhRlhnVU92TmY3cHY5V0VlcFZNYllubW5SVy1lOU4tQ2dWVFRYUzU?oc=5",
+      "title": "Scaling cyber defenders with Daybreak - OpenAI Developers",
+      "summary": "Scaling cyber defenders with Daybreak OpenAI Developers",
+      "source": "OpenAI Developers",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBseVc5c2lVMnExQjhoYTFBd3gwclBZS2JldEpUNE9jVlNzcW9NcmUwNE9rYzBCZzJMUDktSVY2aHM0VDR6WS1qejB3RzhXOHQtMm8xUTdhRlhnVU92TmY3cHY5V0VlcFZNYllubW5SVy1lOU4tQ2dWVFRYUzU?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
