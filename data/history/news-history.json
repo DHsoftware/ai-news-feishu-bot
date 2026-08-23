@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T05:35:42.514979+08:00",
+  "updated_at": "2026-08-24T06:35:43.580886+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5577,7 +5577,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-23",
@@ -5668,6 +5668,108 @@
         "actions": [],
         "topics": [
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-23",
+      "last_seen_date": "2026-08-23",
+      "canonical_key": "开源编码智能体借mcp接入工作流 测试修复缩短至58秒",
+      "normalized_title": "开源编码智能体借mcp接入工作流 测试修复缩短至58秒",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOZXFxNEQxal9GOGFkeC1jRnd6R3NfSXhMUGR1WGNidjFlTnQ4c2J3OU5pejBGZVRWSWJRdjJfaGkyR0hmS0tvVC0yQ1JrWmd3aWUzc1dOWldPUEhmVlFRZVpn?oc=5",
+      "title": "开源编码智能体借MCP接入工作流，测试修复缩短至58秒 - 手机网易网",
+      "summary": "开源编码智能体借MCP接入工作流，测试修复缩短至58秒 手机网易网",
+      "source": "手机网易网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOZXFxNEQxal9GOGFkeC1jRnd6R3NfSXhMUGR1WGNidjFlTnQ4c2J3OU5pejBGZVRWSWJRdjJfaGkyR0hmS0tvVC0yQ1JrWmd3aWUzc1dOWldPUEhmVlFRZVpn?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "opensource",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-23",
+      "last_seen_date": "2026-08-23",
+      "canonical_key": "michael polansky is training an ai model on skin that s still alive",
+      "normalized_title": "michael polansky is training an ai model on skin that s still alive",
+      "normalized_link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive",
+      "title": "Michael Polansky is training an AI model on skin that’s still alive",
+      "summary": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now going public about…",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-23",
+      "last_seen_date": "2026-08-23",
+      "canonical_key": "my agent md to improve llm",
+      "normalized_title": "my agent md to improve llm",
+      "normalized_link": "https://fabiensanglard.net/agent.md/index.html",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://fabiensanglard.net/agent.md/index.html",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "llm"
         ]
       },
       "seen_count": 1
