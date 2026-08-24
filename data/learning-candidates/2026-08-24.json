@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-25T05:44:08.658776+08:00",
+  "generated_at": "2026-08-25T06:41:47.242818+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -31,7 +31,7 @@
       "summary": "Delegate work to Codex in isolated cloud environments.",
       "summary_source": "page_meta_description",
       "summary_quality": "low",
-      "published_at": "2026-08-25T05:44:08.658776+08:00",
+      "published_at": "2026-08-25T06:41:47.242818+08:00",
       "source": "OpenAI",
       "source_type": "official_doc",
       "source_quality": "high",

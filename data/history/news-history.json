@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T05:44:08.658776+08:00",
+  "updated_at": "2026-08-25T06:41:47.242818+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -1766,7 +1766,7 @@
     },
     {
       "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-13",
+      "last_seen_date": "2026-08-24",
       "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
       "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
       "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
@@ -1802,7 +1802,7 @@
           "research"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-08-02",
@@ -5601,7 +5601,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-24",
@@ -5636,7 +5636,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-24",
@@ -5713,7 +5713,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-24",
@@ -5758,6 +5758,39 @@
           "company_research",
           "inference",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "ultra thin spray cooling shows promise for high power ai chips",
+      "normalized_title": "ultra thin spray cooling shows promise for high power ai chips",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
+      "title": "Ultra-thin spray cooling shows promise for high-power AI chips - EurekAlert!",
+      "summary": "Ultra-thin spray cooling shows promise for high-power AI chips EurekAlert!",
+      "source": "EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
         ]
       },
       "seen_count": 1

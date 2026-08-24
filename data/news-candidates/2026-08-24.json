@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-25T05:44:08.658776+08:00",
+  "generated_at": "2026-08-25T06:41:47.242818+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 157,
-    "history_size_after": 156,
-    "history_duplicate_count": 21
+    "history_size_before": 156,
+    "history_size_after": 157,
+    "history_duplicate_count": 19
   },
-  "raw_item_count": 5178,
-  "deduped_item_count": 3806,
-  "filtered_item_count": 308,
+  "raw_item_count": 5172,
+  "deduped_item_count": 3797,
+  "filtered_item_count": 313,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -79,12 +79,12 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Enterprise AI agents are only as reliable as the messiest documents behind them - VentureBeat",
-      "summary": "Enterprise AI agents are only as reliable as the messiest documents behind them VentureBeat",
+      "title": "Enterprise AI agents are only as reliable as the messiest documents behind them - Venturebeat",
+      "summary": "Enterprise AI agents are only as reliable as the messiest documents behind them Venturebeat",
       "summary_source": "rss_description",
       "summary_quality": "medium",
       "published_at": "2026-08-24T07:00:00+08:00",
-      "source": "VentureBeat",
+      "source": "Venturebeat",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpfMGY0V0NOZEdaRzZXRHJQWUg3U0drSDRESzR3SFBoT2piWHVxbWZLWWZOcUhmYnBjUVhmZU5QUDNDWTUtX2M2Y0xQSXV3RGNxY0FRcEVvYVdtTnRfb3BxdGtkSjBDZVVlRmtsTXVhdVA3U3pqTERMT1lHZXFrWjgxX2t0R291R0UxWFd3NGJsaklrMUpaU1dxWV9pSmI3Wkp3cHAybTFQMXBLb05vNUdUZ1ppVy0x?oc=5",
       "language": "en",
       "region": "global",
@@ -112,15 +112,15 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 - womenofchina.com",
-      "summary": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 womenofchina.com",
+      "title": "Ultra-thin spray cooling shows promise for high-power AI chips - EurekAlert!",
+      "summary": "Ultra-thin spray cooling shows promise for high-power AI chips EurekAlert!",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-08-23T15:43:41+08:00",
-      "source": "womenofchina.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
-      "language": "zh",
-      "region": "china",
+      "published_at": "2026-08-25T04:37:23+08:00",
+      "source": "EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
+      "language": "en",
+      "region": "global",
       "source_group": "power_electronics",
       "source_type": "news_search",
       "source_quality": "",
@@ -131,15 +131,16 @@
         "dcdc"
       ],
       "topic_tags": [
+        "chip",
         "dcdc",
         "obc",
         "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
-      "canonical_key": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
-      "score": 43,
+      "dedupe_key": "ultra thin spray cooling shows promise for high power ai chips",
+      "canonical_key": "ultra thin spray cooling shows promise for high power ai chips",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
+      "score": 53,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -178,50 +179,48 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing... AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing context from one turn to the next. The scale of this shift is now visible in raw consumption: across 100 trillion tokens of real-world usage, OpenRouter’s State of AI report found that average prompt tokens per request grew roughly fourfold… Source",
-      "summary_source": "atom_content",
-      "summary_quality": "high",
-      "published_at": "2026-08-24T23:23:55+08:00",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
-      "language": "en",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
+      "title": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 - 财联社",
+      "summary": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 财联社",
+      "summary_source": "rss_description",
+      "summary_quality": "low",
+      "published_at": "2026-08-24T21:40:25+08:00",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "company_research",
-        "technical_blog",
-        "ai_research"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
         "agent",
         "agentic_ai",
         "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
+        "coding",
+        "coding_agent"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
-      "canonical_key": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
-      "score": 143,
-      "selection_reason": "fill_remaining_high_score"
+      "category": "AI编程工具",
+      "dedupe_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
+      "score": 18,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1372,
-    "history_duplicate": 21,
-    "weak_relevance": 170,
+    "duplicate": 1375,
+    "history_duplicate": 19,
+    "weak_relevance": 171,
     "same_source_limit": 0,
-    "china_limit": 1,
+    "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3328,
-    "same_entity_limit": 117,
+    "old_news": 3313,
+    "same_entity_limit": 68,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
