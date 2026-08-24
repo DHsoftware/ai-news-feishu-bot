@@ -1,163 +1,8 @@
 {
-  "updated_at": "2026-08-24T06:35:43.580886+08:00",
+  "updated_at": "2026-08-25T05:44:08.658776+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-20",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "post train nvidia cosmos 3 in one day using agent skills",
-      "normalized_title": "post train nvidia cosmos 3 in one day using agent skills",
-      "normalized_link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning... What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting v…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "paper raises 34 million series a to build design platform for the agentic era",
-      "normalized_title": "paper raises 34 million series a to build design platform for the agentic era",
-      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzh5dkFmNTcxTFhabll5X0h4b1JQVU1vbHVoSXhhU2ZuaVV6VVpSM3ZpVWwzY1BNX19fYms2OWlTLUxwUlM0MWNIdUlhTEVaYmI2Z0tkaTl5aUVDaVdyRUN5Q3R0RzdxUjVRSXpicE11RnZ6TmxSMl9rTzRDUnlvaTJWNTVjRV9WXzRraS0yZFVJaVE1SndPUG1IaXRSUdIBowFBVV95cUxOVHIzenJOM0QxUkVOcXZwb2RoNElxd2lPTjBzZG1YYkxmb3Axdmt0V09TQXpXNFE0RHg5VU9NbHNMS00zMS0zTHZrVU5lZDhuYXdvY0lvRkVKT1NrTDFyeFNTelg1bFVOQzE1aHp6aVBkYy1sVm1ZSU9XT1lveWhLUjRoWVJQbGVjNTk0TW9pTFp4eTRuSHI3bnFlQU90MGhQMmFV?oc=5",
-      "title": "Paper Raises $34 Million Series A To Build Design Platform For The Agentic Era - Pulse 2.0",
-      "summary": "Paper Raises $34 Million Series A To Build Design Platform For The Agentic Era Pulse 2.0",
-      "source": "Pulse 2.0",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzh5dkFmNTcxTFhabll5X0h4b1JQVU1vbHVoSXhhU2ZuaVV6VVpSM3ZpVWwzY1BNX19fYms2OWlTLUxwUlM0MWNIdUlhTEVaYmI2Z0tkaTl5aUVDaVdyRUN5Q3R0RzdxUjVRSXpicE11RnZ6TmxSMl9rTzRDUnlvaTJWNTVjRV9WXzRraS0yZFVJaVE1SndPUG1IaXRSUdIBowFBVV95cUxOVHIzenJOM0QxUkVOcXZwb2RoNElxd2lPTjBzZG1YYkxmb3Axdmt0V09TQXpXNFE0RHg5VU9NbHNMS00zMS0zTHZrVU5lZDhuYXdvY0lvRkVKT1NrTDFyeFNTelg1bFVOQzE1aHp6aVBkYy1sVm1ZSU9XT1lveWhLUjRoWVJQbGVjNTk0TW9pTFp4eTRuSHI3bnFlQU90MGhQMmFV?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "如何评估绿色算力 ai与能源双向赋能既看能效 也要看碳效",
-      "normalized_title": "如何评估绿色算力 ai与能源双向赋能既看能效 也要看碳效",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNR0h5Wmprd3VnSVNmWUNYdXNRbURVbHI0UjNzX0RXcTV1WUVuTkxvMFNVTnZsNVN0SGoxdUM1NlFCcHE2RFZxU0hZeDlheGJfRzh6RjZlZXliYkRMcGc?oc=5",
-      "title": "如何评估绿色算力？AI与能源双向赋能既看能效，也要看碳效 - thepaper.cn",
-      "summary": "如何评估绿色算力？AI与能源双向赋能既看能效，也要看碳效 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNR0h5Wmprd3VnSVNmWUNYdXNRbURVbHI0UjNzX0RXcTV1WUVuTkxvMFNVTnZsNVN0SGoxdUM1NlFCcHE2RFZxU0hZeDlheGJfRzh6RjZlZXliYkRMcGc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "openai大模型失控 入侵全球最大ai开源社区 多亏中国大模型来救场",
-      "normalized_title": "openai大模型失控 入侵全球最大ai开源社区 多亏中国大模型来救场",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4ZnBZd3BINjc4WFlDb0t2STEzSFhiMXVuRXhITlowa1ZCV3ZyaE9pR2l6TEhiSU90MS1sNmhWVHp0U19LbTU1akl3UkZQeXJqZFZxWFg5UEdQaUFfSUo0ZmRR?oc=5",
-      "title": "OpenAI大模型失控，入侵全球最大AI开源社区！多亏中国大模型来救场 - 手机网易网",
-      "summary": "OpenAI大模型失控，入侵全球最大AI开源社区！多亏中国大模型来救场 手机网易网",
-      "source": "手机网易网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4ZnBZd3BINjc4WFlDb0t2STEzSFhiMXVuRXhITlowa1ZCV3ZyaE9pR2l6TEhiSU90MS1sNmhWVHp0U19LbTU1akl3UkZQeXJqZFZxWFg5UEdQaUFfSUo0ZmRR?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "llm",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "llm",
-          "model_capability",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-07-24",
       "last_seen_date": "2026-07-25",
@@ -201,77 +46,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "慧智微电子沃斯堡工厂开幕 黄仁勋出席见证nvidia ai系统量产 ai基础设施",
-      "normalized_title": "慧智微电子沃斯堡工厂开幕 黄仁勋出席见证nvidia ai系统量产 ai基础设施",
-      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mNjF6bjhveEdrMm5GZVNIMlJjblBSeEQ4TTNzbm0xS2w2eUdVRGRMbHlNbUhGT2tocHlxN0pWUk9adFI2dHB5Qzk5M2xMVnNCbmRwc21SaktyR3lScERIYm01NFdoekdaeUMybmpwMmNXUQ?oc=5",
-      "title": "慧智微电子沃斯堡工厂开幕，黄仁勋出席见证NVIDIA AI系统量产-AI基础设施 - 至顶网",
-      "summary": "慧智微电子沃斯堡工厂开幕，黄仁勋出席见证NVIDIA AI系统量产-AI基础设施 至顶网",
-      "source": "至顶网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mNjF6bjhveEdrMm5GZVNIMlJjblBSeEQ4TTNzbm0xS2w2eUdVRGRMbHlNbUhGT2tocHlxN0pWUk9adFI2dHB5Qzk5M2xMVnNCbmRwc21SaktyR3lScERIYm01NFdoekdaeUMybmpwMmNXUQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-24",
-      "last_seen_date": "2026-07-24",
-      "canonical_key": "the case for a cooldown why dependabot now waits before issuing version updates",
-      "normalized_title": "the case for a cooldown why dependabot now waits before issuing version updates",
-      "normalized_link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates",
-      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-      "summary": "In September 2025, an attacker phished the credentials of a single npm maintainer and published booby-trapped versions of chalk , debug , and around a dozen other packages that are together downloaded more than 2 billion times a week. The code rewrote cryptocurrency wallet addresses inside any brow…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-07-25",
@@ -5770,6 +5544,220 @@
         "topics": [
           "agent",
           "llm"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "with groq 3 lpx in full production nvidia extends vera rubin inference for agents",
+      "normalized_title": "with groq 3 lpx in full production nvidia extends vera rubin inference for agents",
+      "normalized_link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion",
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today , the NVIDIA Vera Rub…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "rubin",
+          "vera"
+        ],
+        "actions": [
+          "opensource",
+          "partnership",
+          "production",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_factory",
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "enterprise ai agents are only as reliable as the messiest documents behind them",
+      "normalized_title": "enterprise ai agents are only as reliable as the messiest documents behind them",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpfMGY0V0NOZEdaRzZXRHJQWUg3U0drSDRESzR3SFBoT2piWHVxbWZLWWZOcUhmYnBjUVhmZU5QUDNDWTUtX2M2Y0xQSXV3RGNxY0FRcEVvYVdtTnRfb3BxdGtkSjBDZVVlRmtsTXVhdVA3U3pqTERMT1lHZXFrWjgxX2t0R291R0UxWFd3NGJsaklrMUpaU1dxWV9pSmI3Wkp3cHAybTFQMXBLb05vNUdUZ1ppVy0x?oc=5",
+      "title": "Enterprise AI agents are only as reliable as the messiest documents behind them - VentureBeat",
+      "summary": "Enterprise AI agents are only as reliable as the messiest documents behind them VentureBeat",
+      "source": "VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpfMGY0V0NOZEdaRzZXRHJQWUg3U0drSDRESzR3SFBoT2piWHVxbWZLWWZOcUhmYnBjUVhmZU5QUDNDWTUtX2M2Y0xQSXV3RGNxY0FRcEVvYVdtTnRfb3BxdGtkSjBDZVVlRmtsTXVhdVA3U3pqTERMT1lHZXFrWjgxX2t0R291R0UxWFd3NGJsaklrMUpaU1dxWV9pSmI3Wkp3cHAybTFQMXBLb05vNUdUZ1ppVy0x?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
+      "normalized_title": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
+      "title": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 - womenofchina.com",
+      "summary": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 womenofchina.com",
+      "source": "womenofchina.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "openai宣布开源codex harness",
+      "normalized_title": "openai宣布开源codex harness",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9laUoyd056cHdzWUpYYXY4WHIyczJFdkhXX2NLclFxRmRqVk9mdmtTVmFseDFPN012b2MzZW9OQWNYVlNqUzc1MGdNRFVUc3QxbzI0UTExMUJ3SmdvZ0Y1SUdMVHVGR2dfckE?oc=5",
+      "title": "OpenAI宣布开源Codex Harness - 世界互联网大会",
+      "summary": "OpenAI宣布开源Codex Harness 世界互联网大会",
+      "source": "世界互联网大会",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9laUoyd056cHdzWUpYYXY4WHIyczJFdkhXX2NLclFxRmRqVk9mdmtTVmFseDFPN012b2MzZW9OQWNYVlNqUzc1MGdNRFVUc3QxbzI0UTExMUJ3SmdvZ0Y1SUdMVHVGR2dfckE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-24",
+      "last_seen_date": "2026-08-24",
+      "canonical_key": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
+      "normalized_title": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
+      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing... AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents,…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "rubin",
+          "vera"
+        ],
+        "actions": [
+          "expand"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
         ]
       },
       "seen_count": 1
