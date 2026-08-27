@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-27T08:48:04.877233+08:00",
+  "generated_at": "2026-08-27T11:16:43.984674+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 155,
-    "history_size_after": 154,
-    "history_duplicate_count": 38
+    "history_size_before": 154,
+    "history_size_after": 155,
+    "history_duplicate_count": 46
   },
-  "raw_item_count": 5177,
-  "deduped_item_count": 3833,
-  "filtered_item_count": 424,
+  "raw_item_count": 5174,
+  "deduped_item_count": 3814,
+  "filtered_item_count": 417,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -146,40 +146,6 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "Anthropic发布论文预警，智能体悄悄聊天就能传播病毒 - 第一财经",
-      "summary": "Anthropic发布论文预警，智能体悄悄聊天就能传播病毒 第一财经",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-08-26T16:23:51+08:00",
-      "source": "第一财经",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUEFoZnlrWVZwLVhSTGNIMFJBUm5paS1vTW1Sekh4N1JtS0w1TVh6ek0zY3ZaSnJJWVVNSF9rUGwxMDRpU2NNbjlTaUE4UFFLbUgw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
-      ],
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "category": "AI编程工具",
-      "dedupe_key": "anthropic发布论文预警 智能体悄悄聊天就能传播病毒",
-      "canonical_key": "anthropic发布论文预警 智能体悄悄聊天就能传播病毒",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUEFoZnlrWVZwLVhSTGNIMFJBUm5paS1vTW1Sekh4N1JtS0w1TVh6ek0zY3ZaSnJJWVVNSF9rUGwxMDRpU2NNbjlTaUE4UFFLbUgw?oc=5",
-      "score": 88,
-      "selection_reason": "china_quota"
-    },
-    {
       "title": "Anthropic 为 Claude 的 MCP 连接器推出企业级管理身份验证 - blog.csdn.net",
       "summary": "Anthropic 为 Claude 的 MCP 连接器推出企业级管理身份验证 blog.csdn.net",
       "summary_source": "rss_description",
@@ -212,16 +178,50 @@
       "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lM0lYd2xKWFR0OWVoazQyUWYyN29kVmNWWFY0NDc3T0FEVGRET0ExRklxUG1aaXRFX3hFOGlNZXRwclFiZnZxNVNnWU9ub3pXb2U2TVZ3MWJEMUY2R2FMWkNKUjZwUQ?oc=5",
       "score": 76,
       "selection_reason": "china_quota"
+    },
+    {
+      "title": "27B AI 科学家论文复现能力超越 GPT-5.5/Claude Opus 4.8，Faraday 探索长程科学创新 - 智源社区",
+      "summary": "27B AI 科学家论文复现能力超越 GPT-5.5/Claude Opus 4.8，Faraday 探索长程科学创新 智源社区",
+      "summary_source": "rss_description",
+      "summary_quality": "low",
+      "published_at": "2026-08-26T18:34:00+08:00",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXWXB5TGVvMU1fb1hjUmN5OHNqem9OTldPczZDem03ZHdRQ0d6R2pNSXh1UEVEc0J4UXI2TldTM2NMSVpTRlJwRA?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
+      ],
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "27b ai 科学家论文复现能力超越 gpt 5 5 claude opus 4 8 faraday 探索长程科学创新",
+      "canonical_key": "27b ai 科学家论文复现能力超越 gpt 5 5 claude opus 4 8 faraday 探索长程科学创新",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXWXB5TGVvMU1fb1hjUmN5OHNqem9OTldPczZDem03ZHdRQ0d6R2pNSXh1UEVEc0J4UXI2TldTM2NMSVpTRlJwRA?oc=5",
+      "score": 73,
+      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1344,
-    "history_duplicate": 38,
-    "weak_relevance": 194,
+    "duplicate": 1360,
+    "history_duplicate": 46,
+    "weak_relevance": 201,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3215,
+    "old_news": 3196,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,

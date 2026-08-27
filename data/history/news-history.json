@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T08:48:04.877233+08:00",
+  "updated_at": "2026-08-27T11:16:43.984674+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5521,7 +5521,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-26",
@@ -5556,7 +5556,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-26",
@@ -5598,7 +5598,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-26",
@@ -5680,6 +5680,44 @@
           "coding",
           "coding_agent",
           "mcp"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "27b ai 科学家论文复现能力超越 gpt 5 5 claude opus 4 8 faraday 探索长程科学创新",
+      "normalized_title": "27b ai 科学家论文复现能力超越 gpt 5 5 claude opus 4 8 faraday 探索长程科学创新",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXWXB5TGVvMU1fb1hjUmN5OHNqem9OTldPczZDem03ZHdRQ0d6R2pNSXh1UEVEc0J4UXI2TldTM2NMSVpTRlJwRA?oc=5",
+      "title": "27B AI 科学家论文复现能力超越 GPT-5.5/Claude Opus 4.8，Faraday 探索长程科学创新 - 智源社区",
+      "summary": "27B AI 科学家论文复现能力超越 GPT-5.5/Claude Opus 4.8，Faraday 探索长程科学创新 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBXWXB5TGVvMU1fb1hjUmN5OHNqem9OTldPczZDem03ZHdRQ0d6R2pNSXh1UEVEc0J4UXI2TldTM2NMSVpTRlJwRA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "research"
         ]
       },
       "seen_count": 1
