@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-23",
-  "generated_at": "2026-08-24T06:35:43.580886+08:00",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-27T08:48:04.877233+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -21,46 +21,42 @@
     "history_size_after": 11,
     "history_duplicate_count": 11
   },
-  "raw_item_count": 68,
+  "raw_item_count": 71,
   "deduped_item_count": 25,
-  "filtered_item_count": 1,
+  "filtered_item_count": 3,
   "curated_item_count": 1,
   "curated_items": [
     {
-      "title": "Guardrails and human review | OpenAI API",
-      "link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
+      "title": "OpenAI Developers",
+      "summary": "Docs and resources to help you build with, for, and on OpenAI.",
+      "summary_source": "page_meta_description",
+      "summary_quality": "high",
+      "published_at": "2026-08-27T08:48:04.877233+08:00",
       "source": "OpenAI Developers",
       "source_type": "official_doc",
       "source_quality": "high",
-      "summary_source": "official_static_summary",
-      "summary_quality": "high",
       "is_official_source": true,
-      "summary": "OpenAI official guide explaining how guardrails and human review help constrain agent behavior and control sensitive actions.",
-      "tags": [
-        "agent",
-        "agent_governance",
-        "approvals",
-        "guardrails",
-        "human_in_the_loop",
-        "official",
-        "safety"
-      ],
-      "published_at": "2026-08-24T06:35:43.580886+08:00",
       "language": "en",
       "region": "global",
-      "source_group": "official_agent_concept",
-      "score": 114,
-      "concept_hint": "Guardrails",
-      "canonical_key": "guardrails and human review",
-      "dedupe_key": "guardrails and human review",
+      "link": "https://developers.openai.com/",
+      "tags": [
+        "agent",
+        "codex",
+        "official",
+        "workflow"
+      ],
+      "concept_hint": "Coding Agent",
+      "score": 72,
+      "canonical_key": "openai developers",
+      "dedupe_key": "openai developers",
       "selection_reason": "learning_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 43,
+    "duplicate": 46,
     "history_duplicate": 11,
     "same_source_limit": 0,
-    "old_resource": 13,
+    "old_resource": 11,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0

@@ -1,240 +1,8 @@
 {
-  "updated_at": "2026-08-26T06:42:42.310016+08:00",
+  "updated_at": "2026-08-27T08:48:04.877233+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "naver nvidia and brookfield to expand korea s national ai factory infrastructure buildout",
-      "normalized_title": "naver nvidia and brookfield to expand korea s national ai factory infrastructure buildout",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUgwcXB5cWpkN0hwSFBabzVzQ3ZRYzJiVFRCblk2REpiM1J4X2xzTHJuSnR3UU5XRkluWkw4VEhFTWRJWjlrVkdwMTdZdzR0SG9JbURhZzBjV2dnNnZyTUZibXdvbHZXdmc4SFZPakgzcVZtOERNdmNzYUhyd3FEenFkc2N2VGJUaWRFSDNQSmNjTTh1M3k5a1J1MDJNZm9uQVdYWVA5MWlVUHJkOW4zazdhNE5OSzFVVGdfajFoMWM?oc=5",
-      "title": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout - NVIDIA Newsroom",
-      "summary": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout NVIDIA Newsroom",
-      "source": "NVIDIA Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNUgwcXB5cWpkN0hwSFBabzVzQ3ZRYzJiVFRCblk2REpiM1J4X2xzTHJuSnR3UU5XRkluWkw4VEhFTWRJWjlrVkdwMTdZdzR0SG9JbURhZzBjV2dnNnZyTUZibXdvbHZXdmc4SFZPakgzcVZtOERNdmNzYUhyd3FEenFkc2N2VGJUaWRFSDNQSmNjTTh1M3k5a1J1MDJNZm9uQVdYWVA5MWlVUHJkOW4zazdhNE5OSzFVVGdfajFoMWM?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "expand"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_factory",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "agentic ai moves from pilot to production in enterprise ops",
-      "normalized_title": "agentic ai moves from pilot to production in enterprise ops",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRnNfVEtmN0VkcTZ5RDUxQlZaWDFTN1dyQ1pnRUlNYUtUT0x0amh4RHkxcmwtMVNfUkxsS3JVc29vLXNBSzd0XzBMYlpSX2ZGQnZIQ3JMNnNPamJ6UjJHZWRrM19kbDhrM2VNVmFjUEdJdlAwRzJLeW5NbEZDd1pIbXppcGdmUGd6NXpHZmtNa0JKUlVjVTZJRGR2YkVkanh0alBNcWFWekNJVE5CRURJRTZLdG4xM2JVNFhpUWRpTzFob2U0Y21BWmZadEtieTNncF80NHE3c0o2S1R2Y2NMamVjcEpMTE1WMXNhc095Mjhtb2hENUxtMXoxb3hFVjB4bmRUWTNDRWlLdw?oc=5",
-      "title": "Agentic AI moves from pilot to production in enterprise ops - MarketScale",
-      "summary": "Agentic AI moves from pilot to production in enterprise ops MarketScale",
-      "source": "MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRnNfVEtmN0VkcTZ5RDUxQlZaWDFTN1dyQ1pnRUlNYUtUT0x0amh4RHkxcmwtMVNfUkxsS3JVc29vLXNBSzd0XzBMYlpSX2ZGQnZIQ3JMNnNPamJ6UjJHZWRrM19kbDhrM2VNVmFjUEdJdlAwRzJLeW5NbEZDd1pIbXppcGdmUGd6NXpHZmtNa0JKUlVjVTZJRGR2YkVkanh0alBNcWFWekNJVE5CRURJRTZLdG4xM2JVNFhpUWRpTzFob2U0Y21BWmZadEtieTNncF80NHE3c0o2S1R2Y2NMamVjcEpMTE1WMXNhc095Mjhtb2hENUxtMXoxb3hFVjB4bmRUWTNDRWlLdw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "pcim研讨会 800v hvdc sst 垂直供电与封装 英飞凌 施耐德 台达 浙大共探ai数据中心供电架构grid to chip链路重构",
-      "normalized_title": "pcim研讨会 800v hvdc sst 垂直供电与封装 英飞凌 施耐德 台达 浙大共探ai数据中心供电架构grid to chip链路重构",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83UnBadThIWHI5Y00wckxGMm0zN1p5dHBLZkpvRXl0b0tvNjB0U3NxNmNDbHVlU1E0V0hxNmtqR0xOOXdOdW9CRnNGMW9GbWRneG9F?oc=5",
-      "title": "PCIM研讨会| 800V HVDC、SST、垂直供电与封装，英飞凌、施耐德、台达、浙大共探AI数据中心供电架构Grid-to-Chip链路重构 - 电子工程专辑",
-      "summary": "PCIM研讨会| 800V HVDC、SST、垂直供电与封装，英飞凌、施耐德、台达、浙大共探AI数据中心供电架构Grid-to-Chip链路重构 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83UnBadThIWHI5Y00wckxGMm0zN1p5dHBLZkpvRXl0b0tvNjB0U3NxNmNDbHVlU1E0V0hxNmtqR0xOOXdOdW9CRnNGMW9GbWRneG9F?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "三星李在镕与openai据悉磋商人工智能与半导体领域合作方案",
-      "normalized_title": "三星李在镕与openai据悉磋商人工智能与半导体领域合作方案",
-      "normalized_link": "https://36kr.com/newsflashes/3912076178789766?f=rss",
-      "title": "三星李在镕与OpenAI据悉磋商人工智能与半导体领域合作方案",
-      "summary": "三星电子会长李在镕与OpenAI首席执行官山姆・奥特曼于旧金山OpenAI总部会面，磋商人工智能与半导体领域合作方案。OpenAI 26日对外公布，当地时间25日上午，李在镕与奥特曼在其旧金山总部举行会谈。OpenAI并未披露具体洽谈内容与议题，但业内观察人士判断，双方大概率围绕高带宽内存（HBM）、动态随机存取存储器（DRAM）、先进晶圆代工等AI基础设施深化合作展开沟通。双方或还探讨了三星全业务线落地生成式人工智能的数字化转型方案。三星电子是OpenAI全球顶级企业客户之一，已决定为全体员工开放ChatGPT及AI代码工具Codex的使用权限。（新浪财经）",
-      "source": "36氪",
-      "link": "https://36kr.com/newsflashes/3912076178789766?f=rss",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "availability",
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "sk group and nvidia expand strategic partnership across ai factories and next generation memory",
-      "normalized_title": "sk group and nvidia expand strategic partnership across ai factories and next generation memory",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWWdmVzNHOG9UWDV2VnM0ek1kOTlMSDMydklMbjQzSDBSUWVYaGFJeFQwZk9tR09qNDVtMWlHS2pIUmVHVGxoOVFPSm1LYS1UUXdzNnNwa2U2MUVGaXFJLWVPb1NvNlN1OWhCX21OR3ROa1FjVFVsVVpuekRLMGVDYWw0SzBnMXRGMGY2ZlVXalpHVktOM2xhVlprcXpDLVV6WUVLdUFCOW43TkM2dW9lTnpBbS1TZ1hYd2pOMUMyc1lrVU1YaERxaWRR?oc=5",
-      "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory - NVIDIA Newsroom",
-      "summary": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory NVIDIA Newsroom",
-      "source": "NVIDIA Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWWdmVzNHOG9UWDV2VnM0ek1kOTlMSDMydklMbjQzSDBSUWVYaGFJeFQwZk9tR09qNDVtMWlHS2pIUmVHVGxoOVFPSm1LYS1UUXdzNnNwa2U2MUVGaXFJLWVPb1NvNlN1OWhCX21OR3ROa1FjVFVsVVpuekRLMGVDYWw0SzBnMXRGMGY2ZlVXalpHVktOM2xhVlprcXpDLVV6WUVLdUFCOW43TkM2dW9lTnpBbS1TZ1hYd2pOMUMyc1lrVU1YaERxaWRR?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "expand",
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-26",
-      "last_seen_date": "2026-07-26",
-      "canonical_key": "9点1氪 宇树科技ceo王兴兴登上 时代 杂志封面 国家反诈中心app可一键检测ai生成痕迹 claude opus 5正式发布",
-      "normalized_title": "9点1氪 宇树科技ceo王兴兴登上 时代 杂志封面 国家反诈中心app可一键检测ai生成痕迹 claude opus 5正式发布",
-      "normalized_link": "https://36kr.com/p/3910351337821318?f=rss",
-      "title": "9点1氪｜宇树科技CEO王兴兴登上《时代》杂志封面；国家反诈中心App可一键检测AI生成痕迹；Claude Opus 5正式发布",
-      "summary": "今日热点导览 小鹏主动召回3.35万辆X9，涉及前空气弹簧安全隐患 微信撤回消息后可删除提示字 怡颗莓莓果线下仍在售，公司称针对近期舆论正准备维权 菲尔兹奖得主雅各布·齐默曼将加入OpenAI 欧盟对谷歌处以8.9亿欧元罚款 TOP3大新闻 宇树科技CEO王兴兴登上《时代》杂志封面 当地时间7月23日，宇树科技创始人兼CEO王兴兴与其载人机甲产品GD01共同登上《时代》杂志封面，标题为《机器人时代来临》。 据悉，距上次中国企业家登上该刊物封面，已过去整整8年。 《时代》杂志评价王兴兴是“AI时代一位非典型的预言者”，“他身材瘦削，戴着眼镜，完全没有许多科技创始人身上那种张扬的傲气。相反，他在…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3910351337821318?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "automotive",
-        "multimodal",
-        "robotics",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "google",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "automotive",
-          "inference",
-          "model_capability",
-          "multimodal",
-          "robotics",
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-07-27",
       "last_seen_date": "2026-08-07",
@@ -5711,6 +5479,210 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "how loveholidays is making everyone a builder with codex",
+      "normalized_title": "how loveholidays is making everyone a builder with codex",
+      "normalized_link": "https://openai.com/index/loveholidays",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/loveholidays",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "orchestration is the new challenge for cx in the age of ai agents",
+      "normalized_title": "orchestration is the new challenge for cx in the age of ai agents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOWxWdXZ1TGFsdTBSX25jVFAxNFhzSHNyXzRqYlhkTllRNEpWajNMZ1FwV09XX1N3MTBqRU96ZnFUcUNvdWxMclhHNm1DUmxhS0NUZmhGbHA1NUpwMUdERWFiOXBsTFo0N0hvbDVwcjJKQjNWLXZibmdGQUVZRWdydzBHSlBQam5QOUxfcm9IYjQ3UHVGWGp4LVJ4Wjd5dkl1OGZobkhR?oc=5",
+      "title": "Orchestration is the new challenge for CX in the age of AI agents - VentureBeat",
+      "summary": "Orchestration is the new challenge for CX in the age of AI agents VentureBeat",
+      "source": "VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOWxWdXZ1TGFsdTBSX25jVFAxNFhzSHNyXzRqYlhkTllRNEpWajNMZ1FwV09XX1N3MTBqRU96ZnFUcUNvdWxMclhHNm1DUmxhS0NUZmhGbHA1NUpwMUdERWFiOXBsTFo0N0hvbDVwcjJKQjNWLXZibmdGQUVZRWdydzBHSlBQam5QOUxfcm9IYjQ3UHVGWGp4LVJ4Wjd5dkl1OGZobkhR?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "how to train a cross embodiment robot navigation policy with ai agents",
+      "normalized_title": "how to train a cross embodiment robot navigation policy with ai agents",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents",
+      "title": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents",
+      "summary": "Navigation enables a robot to turn perception and motion into purposeful autonomy. Unlike locomotion, which produces stable movement, navigation must be used to... Navigation enables a robot to turn perception and motion into purposeful autonomy. Unlike locomotion, which produces stable movement, n…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "regulation",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "policy_regulation",
+          "regulation",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "anthropic发布论文预警 智能体悄悄聊天就能传播病毒",
+      "normalized_title": "anthropic发布论文预警 智能体悄悄聊天就能传播病毒",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUEFoZnlrWVZwLVhSTGNIMFJBUm5paS1vTW1Sekh4N1JtS0w1TVh6ek0zY3ZaSnJJWVVNSF9rUGwxMDRpU2NNbjlTaUE4UFFLbUgw?oc=5",
+      "title": "Anthropic发布论文预警，智能体悄悄聊天就能传播病毒 - 第一财经",
+      "summary": "Anthropic发布论文预警，智能体悄悄聊天就能传播病毒 第一财经",
+      "source": "第一财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUEFoZnlrWVZwLVhSTGNIMFJBUm5paS1vTW1Sekh4N1JtS0w1TVh6ek0zY3ZaSnJJWVVNSF9rUGwxMDRpU2NNbjlTaUE4UFFLbUgw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-26",
+      "last_seen_date": "2026-08-26",
+      "canonical_key": "anthropic 为 claude 的 mcp 连接器推出企业级管理身份验证",
+      "normalized_title": "anthropic 为 claude 的 mcp 连接器推出企业级管理身份验证",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lM0lYd2xKWFR0OWVoazQyUWYyN29kVmNWWFY0NDc3T0FEVGRET0ExRklxUG1aaXRFX3hFOGlNZXRwclFiZnZxNVNnWU9ub3pXb2U2TVZ3MWJEMUY2R2FMWkNKUjZwUQ?oc=5",
+      "title": "Anthropic 为 Claude 的 MCP 连接器推出企业级管理身份验证 - blog.csdn.net",
+      "summary": "Anthropic 为 Claude 的 MCP 连接器推出企业级管理身份验证 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lM0lYd2xKWFR0OWVoazQyUWYyN29kVmNWWFY0NDc3T0FEVGRET0ExRklxUG1aaXRFX3hFOGlNZXRwclFiZnZxNVNnWU9ub3pXb2U2TVZ3MWJEMUY2R2FMWkNKUjZwUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
