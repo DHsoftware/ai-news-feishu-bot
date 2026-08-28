@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T11:16:43.984674+08:00",
+  "updated_at": "2026-08-28T13:24:51.394801+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -39,162 +39,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-07-27",
-      "canonical_key": "dacier introduces ai native enterprise automation with mcp server and intelligent cloud autoscaling",
-      "normalized_title": "dacier introduces ai native enterprise automation with mcp server and intelligent cloud autoscaling",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUGxGUVdlM1E5TXJOemppQnl4Znd0OTVGendNc1lGN2hneU1xTVlpblhobWUyazFWbXdtbzM4QmdjLUt0LXk3UXhlLXowYjJrRVYyZ3l4YXl4dnpmeUVvR0w1LUdCM25xUGFUMVU0LTBaSmUtZWkxNGE1clo5bGh4a2hxLTJlcUw4aW5abktNN3IzamdKVmIzVmFEYXhuQWFKaTVqV0ZCd3hreExYWWZjWVV6NElsNWxtdE9STzE4Q21TWGdMSU9EVHZ1X0otU2ZTX3ZwUTBLZw?oc=5",
-      "title": "Dacier Introduces AI-Native Enterprise Automation with MCP Server and Intelligent Cloud Autoscaling - AiThority",
-      "summary": "Dacier Introduces AI-Native Enterprise Automation with MCP Server and Intelligent Cloud Autoscaling AiThority",
-      "source": "AiThority",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUGxGUVdlM1E5TXJOemppQnl4Znd0OTVGendNc1lGN2hneU1xTVlpblhobWUyazFWbXdtbzM4QmdjLUt0LXk3UXhlLXowYjJrRVYyZ3l4YXl4dnpmeUVvR0w1LUdCM25xUGFUMVU0LTBaSmUtZWkxNGE1clo5bGh4a2hxLTJlcUw4aW5abktNN3IzamdKVmIzVmFEYXhuQWFKaTVqV0ZCd3hreExYWWZjWVV6NElsNWxtdE9STzE4Q21TWGdMSU9EVHZ1X0otU2ZTX3ZwUTBLZw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "cloud",
-        "coding",
-        "coding_agent",
-        "mcp",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "cloud",
-          "cloud_platform",
-          "coding",
-          "coding_agent",
-          "mcp",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-07-27",
-      "canonical_key": "nvidia harnesses vera cpu to speed up design of next",
-      "normalized_title": "nvidia harnesses vera cpu to speed up design of next",
-      "normalized_link": "https://blogs.nvidia.com/blog/vera-cpu-eda",
-      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
-      "summary": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) a…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [
-          "vera"
-        ],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-07-27",
-      "canonical_key": "全栈ai智能体外包开发靠谱吗 2026优质服务商推荐对比",
-      "normalized_title": "全栈ai智能体外包开发靠谱吗 2026优质服务商推荐对比",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53T0M1M3Nzd0tlbFJzTV9DcEFQU0pnbjYydDBFUWh5cElfay04NTNIdUducFhFWkxQSEJYVVVhRnh1V2VBR0loYTBMNXpGNzdWbWY0LUc1UkdfVnRtXzJTdjRqMUdYYVFnLTBr?oc=5",
-      "title": "全栈AI智能体外包开发靠谱吗？2026优质服务商推荐对比 - 财富号",
-      "summary": "全栈AI智能体外包开发靠谱吗？2026优质服务商推荐对比 财富号",
-      "source": "财富号",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53T0M1M3Nzd0tlbFJzTV9DcEFQU0pnbjYydDBFUWh5cElfay04NTNIdUducFhFWkxQSEJYVVVhRnh1V2VBR0loYTBMNXpGNzdWbWY0LUc1UkdfVnRtXzJTdjRqMUdYYVFnLTBr?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-07-27",
-      "canonical_key": "2026年 为什么资本更青睐 会赚钱 的ai应用",
-      "normalized_title": "2026年 为什么资本更青睐 会赚钱 的ai应用",
-      "normalized_link": "https://36kr.com/p/3913706151400583?f=rss",
-      "title": "2026年，为什么资本更青睐“会赚钱”的AI应用？",
-      "summary": "今年 WAIC 前夕，月之暗面发布了 Kimi K3，发布即破圈。但资本市场的注意力，更多地落在了另一件事上。 过去半年，这家明星大模型公司估值翻了 6 倍，目标 300 亿美元，同步推进赴港 IPO。而在 2025 年底的跨年夜全员信中，创始人杨植麟写下了一句话：2026 年聚焦 Agent，不以绝对用户数量为目标。 估值半年翻 6 倍的同时，他们也主动放弃了 DAU 这个过去两年颇被资本市场追着看的指标。 足以证明，用户规模虽仍旧重要，但不再是 AI 应用估值的唯一硬通货，新的叙事主线，重新回到了产品形态长期可持续的商业化。 资本评估 AI 的 benchmark 变了：过去两年盛行的是…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3913706151400583?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "benchmark",
-        "chip",
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "benchmark",
-          "chip",
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-28",
@@ -5718,6 +5562,199 @@
           "coding_agent",
           "model_capability",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-27",
+      "canonical_key": "openclaw went viral meet the maintainers building and securing it",
+      "normalized_title": "openclaw went viral meet the maintainers building and securing it",
+      "normalized_link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it",
+      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+      "summary": "What began as a personal experiment quickly became a global open source project with extraordinary momentum. OpenClaw is a personal AI assistant that runs on users’ devices and connects with the messaging channels they already use. Started by Peter Steinberger as a weekend project in November 2025,…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_code_review",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "ai_code_review",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-27",
+      "canonical_key": "支持4g lte的ai可穿戴设备 plaud one可为专业人士实现工作流程自动化",
+      "normalized_title": "支持4g lte的ai可穿戴设备 plaud one可为专业人士实现工作流程自动化",
+      "normalized_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yclBGR3hpVTdjVXF1dFNqY01scFl6NlRiNzVqU3o1UFlLMmFYRzhjXzhRdXlTVWtVbHZwd2xBNTNqdTBlNExhX3BiQk9ocmQ0NWRzU0V0UFh5VnhDTDBhMHZkbHFRamVqWk42SGI0cllIQXN1Tnc?oc=5",
+      "title": "支持4G LTE的AI可穿戴设备：Plaud One可为专业人士实现工作流程自动化 - Notebookcheck CN",
+      "summary": "支持4G LTE的AI可穿戴设备：Plaud One可为专业人士实现工作流程自动化 Notebookcheck CN",
+      "source": "Notebookcheck CN",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yclBGR3hpVTdjVXF1dFNqY01scFl6NlRiNzVqU3o1UFlLMmFYRzhjXzhRdXlTVWtVbHZwd2xBNTNqdTBlNExhX3BiQk9ocmQ0NWRzU0V0UFh5VnhDTDBhMHZkbHFRamVqWk42SGI0cllIQXN1Tnc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-27",
+      "canonical_key": "nvidia starts pac as ai chip maker builds dc influence force 1",
+      "normalized_title": "nvidia starts pac as ai chip maker builds dc influence force 1",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDlkbV84MXpKeFRldVRjRGF4bG9Rd25OZWhuUERnWXhlWU5qVnZiLXVhT0stLVVMd2xOWm1UdlZ2TkRmek9wUVNiWDhZSmMybEJ1UElId19leElTYUZJS2dKV0l4WWVDRGRocFRsZXpOUERTdnlPWTJycHB2QS12RG00RFZxek14Zzdrbm1Tdm9hUG16eHpILXZLY2lzQXRqVE1BcGlicTlWYmp6d01Wbkln?oc=5",
+      "title": "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1) - Bloomberg Government News",
+      "summary": "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1) Bloomberg Government News",
+      "source": "Bloomberg Government News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDlkbV84MXpKeFRldVRjRGF4bG9Rd25OZWhuUERnWXhlWU5qVnZiLXVhT0stLVVMd2xOWm1UdlZ2TkRmek9wUVNiWDhZSmMybEJ1UElId19leElTYUZJS2dKV0l4WWVDRGRocFRsZXpOUERTdnlPWTJycHB2QS12RG00RFZxek14Zzdrbm1Tdm9hUG16eHpILXZLY2lzQXRqVE1BcGlicTlWYmp6d01Wbkln?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-27",
+      "canonical_key": "观察 巨头扎堆布局ai办公智能体 百度搭子用户增长近9倍 能赢得市场吗",
+      "normalized_title": "观察 巨头扎堆布局ai办公智能体 百度搭子用户增长近9倍 能赢得市场吗",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5",
+      "title": "观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ - thepaper.cn",
+      "summary": "观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-27",
+      "canonical_key": "github copilot app for beginners automate dependabot pull request triage",
+      "normalized_title": "github copilot app for beginners automate dependabot pull request triage",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage",
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "summary": "I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I’m always using secure libraries. But because there’re frequently new vulnerabilities, there’re frequently new pull requests from Dependabot. Sometimes it’s a minor version bump. Sometimes i…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
