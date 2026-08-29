@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:10:48.714896+08:00",
+  "updated_at": "2026-08-29T11:42:06.763230+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5484,7 +5484,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-27",
@@ -5671,7 +5671,7 @@
           "org_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-28",
@@ -5704,7 +5704,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-28",
@@ -5733,7 +5733,7 @@
           "chip"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-28",
@@ -5769,7 +5769,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
