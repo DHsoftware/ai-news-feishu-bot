@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-30T07:20:25.753411+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 11,
+    "history_size_after": 10,
+    "history_duplicate_count": 11
+  },
+  "raw_item_count": 65,
+  "deduped_item_count": 23,
+  "filtered_item_count": 0,
+  "curated_item_count": 0,
+  "curated_items": [],
+  "rejected_stats": {
+    "duplicate": 42,
+    "history_duplicate": 11,
+    "same_source_limit": 0,
+    "old_resource": 12,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}

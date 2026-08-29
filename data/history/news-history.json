@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:42:06.763230+08:00",
+  "updated_at": "2026-08-30T07:20:25.753411+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,49 +42,6 @@
     },
     {
       "first_seen_date": "2026-07-28",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "disrupting supply chain attacks on npm and github actions",
-      "normalized_title": "disrupting supply chain attacks on npm and github actions",
-      "normalized_link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions",
-      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-      "summary": "In the past year, there’s been a pattern of supply chain attacks that target weaknesses in package repositories and CI/CD systems to quickly spread malware to hundreds of open source projects. This malware seeks to exfiltrate credentials both to broadly spread the attack, as well as for later explo…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ci_cd",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "ci_cd",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-28",
       "last_seen_date": "2026-08-20",
       "canonical_key": "developing healthcare robotics with gpu native medical physics simulation",
       "normalized_title": "developing healthcare robotics with gpu native medical physics simulation",
@@ -121,159 +78,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-29",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "how gpt 5 6 fuses frontier intelligence with frontier efficiency",
-      "normalized_title": "how gpt 5 6 fuses frontier intelligence with frontier efficiency",
-      "normalized_link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-29",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "人工智能与能源双向赋能提速 能源智能体重构产业新生态",
-      "normalized_title": "人工智能与能源双向赋能提速 能源智能体重构产业新生态",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHZzazdpQzZsb3V2TGlHa3RCckI2Um1rUXNSc2ZDVjRYZHRETWNHaVl2aGNGNlpkTC1zVXdVTTFMazNlVHVwa0dQYjg4bHpjZ1pMNzRwQTJ2TnllRGEyMmIyVFRwQzdDaTBOQ291emZraUJfMVZBcDdLOTZpMm4xeGl3?oc=5",
-      "title": "人工智能与能源双向赋能提速 能源智能体重构产业新生态 - 新浪网",
-      "summary": "人工智能与能源双向赋能提速 能源智能体重构产业新生态 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHZzazdpQzZsb3V2TGlHa3RCckI2Um1rUXNSc2ZDVjRYZHRETWNHaVl2aGNGNlpkTC1zVXdVTTFMazNlVHVwa0dQYjg4bHpjZ1pMNzRwQTJ2TnllRGEyMmIyVFRwQzdDaTBOQ291emZraUJfMVZBcDdLOTZpMm4xeGl3?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-29",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "anthropic发布mcp 2026 07 28更新 月下载量破4亿 开启无状态ai新纪元",
-      "normalized_title": "anthropic发布mcp 2026 07 28更新 月下载量破4亿 开启无状态ai新纪元",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dVdsUmJtaUZIN1BKSTh2d1JUaVJfOC15a1RidEtMZnpqdWFXT0xLYnZSSTZmYnlDb1RZcnJjNk0yRmFsWlhBZDU0YkJGZWliLXg0Z3ItbUYwZ2JVVTBQV1BHY3hwRUJJYnRn?oc=5",
-      "title": "Anthropic发布MCP 2026-07-28更新：月下载量破4亿，开启无状态AI新纪元！ - blog.csdn.net",
-      "summary": "Anthropic发布MCP 2026-07-28更新：月下载量破4亿，开启无状态AI新纪元！ blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dVdsUmJtaUZIN1BKSTh2d1JUaVJfOC15a1RidEtMZnpqdWFXT0xLYnZSSTZmYnlDb1RZcnJjNk0yRmFsWlhBZDU0YkJGZWliLXg0Z3ItbUYwZ2JVVTBQV1BHY3hwRUJJYnRn?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-29",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "snowflake launches cortex ai gateway to control ai agents and prevent runaway enterprise costs",
-      "normalized_title": "snowflake launches cortex ai gateway to control ai agents and prevent runaway enterprise costs",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYXZ3R3RZdlNEaUx6SDFoeUFjalZtLWEzVDdEdjdnMjl5WFNOU1NfaXBUdFZ5WmZBOFh0ckN6U0R1aV9qbm5CNXpyeDc0U2FNekc2TmFOaThIYkZodnRXR1hCazRaWE5tQkJweEU3dF83MGQ3dk1XWkt3a3dfODlLUnV1cGp6dGxvTkRaMWVUSHZXVW5jb202X0FWaENuT3dONDQ0TFpESDY5eTM2aVpUR2FZQ0M2dEU0T2JtbzhlS2ZKUzB5MFE?oc=5",
-      "title": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs - VentureBeat",
-      "summary": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs VentureBeat",
-      "source": "VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYXZ3R3RZdlNEaUx6SDFoeUFjalZtLWEzVDdEdjdnMjl5WFNOU1NfaXBUdFZ5WmZBOFh0ckN6U0R1aV9qbm5CNXpyeDc0U2FNekc2TmFOaThIYkZodnRXR1hCazRaWE5tQkJweEU3dF83MGQ3dk1XWkt3a3dfODlLUnV1cGp6dGxvTkRaMWVUSHZXVW5jb202X0FWaENuT3dONDQ0TFpESDY5eTM2aVpUR2FZQ0M2dEU0T2JtbzhlS2ZKUzB5MFE?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-30",
@@ -5737,7 +5541,7 @@
     },
     {
       "first_seen_date": "2026-08-28",
-      "last_seen_date": "2026-08-28",
+      "last_seen_date": "2026-08-29",
       "canonical_key": "deploy an open model from checkpoint to inference in two commands with nvidia tensorrt model connect",
       "normalized_title": "deploy an open model from checkpoint to inference in two commands with nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
@@ -5769,7 +5573,144 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "our decision on cursor following its acquisition by spacex",
+      "normalized_title": "our decision on cursor following its acquisition by spacex",
+      "normalized_link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "cursor"
+        ],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "workbuddy成腾讯 新太子 办公agent赛道群雄逐鹿谁能笑到最后",
+      "normalized_title": "workbuddy成腾讯 新太子 办公agent赛道群雄逐鹿谁能笑到最后",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iV3hXY2ZuQTZtQWZoM3JtcEZNRWlneGpic1plRDlKVlFuck5aZVA4ektsaU9wMzZYTzUwaFo0UlBYNXVreUs1Uk5FUWFJbW16M3h0YzhQTXkwOG5mQjNzTUVuTFVjVmhIc1lJ?oc=5",
+      "title": "WorkBuddy成腾讯“新太子”，办公Agent赛道群雄逐鹿谁能笑到最后？ - blog.csdn.net",
+      "summary": "WorkBuddy成腾讯“新太子”，办公Agent赛道群雄逐鹿谁能笑到最后？ blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iV3hXY2ZuQTZtQWZoM3JtcEZNRWlneGpic1plRDlKVlFuck5aZVA4ektsaU9wMzZYTzUwaFo0UlBYNXVreUs1Uk5FUWFJbW16M3h0YzhQTXkwOG5mQjNzTUVuTFVjVmhIc1lJ?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "技嘉推出猎鹰及冰猎鹰白金电源 覆盖750w至1000w oschina 开源 ai 开发者生态社区",
+      "normalized_title": "技嘉推出猎鹰及冰猎鹰白金电源 覆盖750w至1000w oschina 开源 ai 开发者生态社区",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95ampYS3UxRmNQZV9OWm03dFBzNi1QeDdFazZwa3RYR096RkFPd2tGVHk0bWlOLUYzQjl6RnVGbjE3LVFYTkd0RkhpOA?oc=5",
+      "title": "技嘉推出猎鹰及冰猎鹰白金电源，覆盖750W至1000W - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+      "summary": "技嘉推出猎鹰及冰猎鹰白金电源，覆盖750W至1000W - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+      "source": "OSCHINA",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95ampYS3UxRmNQZV9OWm03dFBzNi1QeDdFazZwa3RYR096RkFPd2tGVHk0bWlOLUYzQjl6RnVGbjE3LVFYTkd0RkhpOA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "opensource",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "opensource",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "nvidia s ai advantage is moving beyond the gpu",
+      "normalized_title": "nvidia s ai advantage is moving beyond the gpu",
+      "normalized_link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

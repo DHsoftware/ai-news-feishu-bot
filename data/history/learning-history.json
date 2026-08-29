@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:42:06.763230+08:00",
+  "updated_at": "2026-08-30T07:20:25.753411+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -196,59 +196,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-07-14",
-      "last_seen_date": "2026-07-29",
-      "canonical_key": "codex cli release 0 144 0",
-      "normalized_title": "codex cli release 0 144 0",
-      "normalized_link": "https://developers.openai.com/codex/changelog",
-      "title": "Codex CLI Release: 0.144.0",
-      "summary": "New Features Usage-limit reset credits now show their type and expiration, and let you choose which credit to redeem. ( #30488 ) Added a writes app-approval mode that allows declared read-only actions while prompting for writes. ( #30482 ) MCP tools can now request authentication interactively with…",
-      "source": "OpenAI Developers",
-      "link": "https://developers.openai.com/codex/changelog/#github-release-351657410",
-      "source_type": "official_doc",
-      "source_quality": "high",
-      "summary_quality": "high",
-      "concept_hint": "Tool Calling",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "code_review",
-        "codex",
-        "mcp",
-        "multi_agent",
-        "official",
-        "tools",
-        "workflow"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex",
-          "mcp"
-        ],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "cli",
-          "code_review",
-          "codex",
-          "mcp",
-          "multi_agent",
-          "official",
-          "terminal",
-          "tools",
-          "workflow"
-        ]
-      },
-      "seen_count": 4
     },
     {
       "first_seen_date": "2026-07-28",
