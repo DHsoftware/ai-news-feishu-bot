@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:05:36.114950+08:00",
+  "updated_at": "2026-08-29T11:10:48.714896+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -121,129 +121,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-28",
-      "last_seen_date": "2026-07-28",
-      "canonical_key": "国产eda率先落地ai智能体实战应用 设计优化50 仿真提速80 agent 联想集团 pcb 芯片 ai设计_手机新浪网",
-      "normalized_title": "国产eda率先落地ai智能体实战应用 设计优化50 仿真提速80 agent 联想集团 pcb 芯片 ai设计_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOVFWMTlaV1lhV1FvQzJzanFHVjJiZ1J6SHdHVXE1YWIwQ3VkdXhoM3pnU0FTb2llcmV4V1F3RVQwZkxNbENRZWFvcmVjN0tVMzgyNGhXeERBNEpTSVJZRVRuNldRZm5GQ1pPV1NmN1hhTndNZ29VYUc2ZWNXb1l5Q0NiR2tSVkJid2hEdkUwTmxEM25MOVp0ejVMN0trSHZiVmMtem1qcW1qQl9ON2RZYXV3?oc=5",
-      "title": "国产EDA率先落地AI智能体实战应用，设计优化50%+，仿真提速80%+|Agent|联想集团|PCB|芯片|AI设计_手机新浪网 - 新浪财经",
-      "summary": "国产EDA率先落地AI智能体实战应用，设计优化50%+，仿真提速80%+|Agent|联想集团|PCB|芯片|AI设计_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOVFWMTlaV1lhV1FvQzJzanFHVjJiZ1J6SHdHVXE1YWIwQ3VkdXhoM3pnU0FTb2llcmV4V1F3RVQwZkxNbENRZWFvcmVjN0tVMzgyNGhXeERBNEpTSVJZRVRuNldRZm5GQ1pPV1NmN1hhTndNZ29VYUc2ZWNXb1l5Q0NiR2tSVkJid2hEdkUwTmxEM25MOVp0ejVMN0trSHZiVmMtem1qcW1qQl9ON2RZYXV3?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "simulation_optimization"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "simulation_optimization"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-28",
-      "last_seen_date": "2026-07-28",
-      "canonical_key": "nvidia nemotron 3 ultra在智能体rtl编码中领跑开源模型 芯片",
-      "normalized_title": "nvidia nemotron 3 ultra在智能体rtl编码中领跑开源模型 芯片",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BYk1mNVZUN3pJVkZqS3lvWXVzY0lOeUd6X2dpV0RkaVlMUDV1MHRtSEZlemhkR2tnQzBoaGJObjFrQTlaTThka0NQUHhZRjZuN2FBbU1ZaEZ5NXlPa1BHYzBR?oc=5",
-      "title": "NVIDIA Nemotron 3 Ultra在智能体RTL编码中领跑开源模型-芯片 - 至顶网",
-      "summary": "NVIDIA Nemotron 3 Ultra在智能体RTL编码中领跑开源模型-芯片 至顶网",
-      "source": "至顶网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BYk1mNVZUN3pJVkZqS3lvWXVzY0lOeUd6X2dpV0RkaVlMUDV1MHRtSEZlemhkR2tnQzBoaGJObjFrQTlaTThka0NQUHhZRjZuN2FBbU1ZaEZ5NXlPa1BHYzBR?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "chip",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "chip",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-07-28",
-      "last_seen_date": "2026-07-28",
-      "canonical_key": "openai just open",
-      "normalized_title": "openai just open",
-      "normalized_link": "https://github.com/openai/codex-security",
-      "title": "OpenAI just open-sourced Codex Security",
-      "summary": "SDKs and CLI for Codex Security. Contribute to openai/codex-security development by creating an account on GitHub.",
-      "source": "Hacker News",
-      "link": "https://github.com/openai/codex-security",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "github",
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "security",
-          "terminal"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-07-29",
@@ -5568,7 +5445,7 @@
     },
     {
       "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-27",
+      "last_seen_date": "2026-08-28",
       "canonical_key": "openclaw went viral meet the maintainers building and securing it",
       "normalized_title": "openclaw went viral meet the maintainers building and securing it",
       "normalized_link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it",
@@ -5607,7 +5484,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-27",
@@ -5758,6 +5635,141 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-28",
+      "last_seen_date": "2026-08-28",
+      "canonical_key": "the ai productivity paradox more code not more delivery",
+      "normalized_title": "the ai productivity paradox more code not more delivery",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUh4Tzl0aU92aHY5TERBeEdVQTVsQzBBUFFIcXFzY0pIa1NLUjJOdmhUanQ2cmdrV2ZjblZWRGJXa1FYUmJ0MWdHaklaZUdnVDRQWFMzOEwxZWg2YWJMQTFwQ20zaTRqMk9sUXFtam1KUlE3WTh5Yl8teEVqVnh4TGFsdTFkRE9LcEdmZWl30gGeAUFVX3lxTFB4ZWxmQ3FpaWdmLWxpaENFQVZqXzNiTFpaVEZHOXJCZjJTd3VHLV8tcUE5eFFzcGVxMFhZZDVJMkRnZnp6Z2dqSXh4eVlHbURmM2x5Q1ZRandiSTJxR21zR3cyX2RCQ1NYTUVUSllxb1lBZ1o5cjlYY281cUtwbnlhdU5MWVBxQUZRV3NWYV96bEQzN1pMWTFWUUd2cGhR?oc=5",
+      "title": "The AI Productivity Paradox: More Code, Not More Delivery - Sonatype",
+      "summary": "The AI Productivity Paradox: More Code, Not More Delivery Sonatype",
+      "source": "Sonatype",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUh4Tzl0aU92aHY5TERBeEdVQTVsQzBBUFFIcXFzY0pIa1NLUjJOdmhUanQ2cmdrV2ZjblZWRGJXa1FYUmJ0MWdHaklaZUdnVDRQWFMzOEwxZWg2YWJMQTFwQ20zaTRqMk9sUXFtam1KUlE3WTh5Yl8teEVqVnh4TGFsdTFkRE9LcEdmZWl30gGeAUFVX3lxTFB4ZWxmQ3FpaWdmLWxpaENFQVZqXzNiTFpaVEZHOXJCZjJTd3VHLV8tcUE5eFFzcGVxMFhZZDVJMkRnZnp6Z2dqSXh4eVlHbURmM2x5Q1ZRandiSTJxR21zR3cyX2RCQ1NYTUVUSllxb1lBZ1o5cjlYY281cUtwbnlhdU5MWVBxQUZRV3NWYV96bEQzN1pMWTFWUUd2cGhR?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-28",
+      "last_seen_date": "2026-08-28",
+      "canonical_key": "伊顿数据中心固态变压器 ai算力时代供电架构的范式跃迁",
+      "normalized_title": "伊顿数据中心固态变压器 ai算力时代供电架构的范式跃迁",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMTRueXc3X0syMUZhYTFCRTduVHB0WXp2QWhPanNqSG44a1RRSDlVekNUVE5xQ3ByOFhlVEtXZFJoN1Q2bVJ0ZmJJR1k4Z3JLYXA2Q04wNktjWFh5Q1FHQXRwSE1uVC1sYU5mLXVHd3VkbFp6S1ZuZlh5djZkSlpnVXh1eEV0OUs5ZnFxY3BQZ18?oc=5",
+      "title": "伊顿数据中心固态变压器：AI算力时代供电架构的范式跃迁 - 新浪网",
+      "summary": "伊顿数据中心固态变压器：AI算力时代供电架构的范式跃迁 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMTRueXc3X0syMUZhYTFCRTduVHB0WXp2QWhPanNqSG44a1RRSDlVekNUVE5xQ3ByOFhlVEtXZFJoN1Q2bVJ0ZmJJR1k4Z3JLYXA2Q04wNktjWFh5Q1FHQXRwSE1uVC1sYU5mLXVHd3VkbFp6S1ZuZlh5djZkSlpnVXh1eEV0OUs5ZnFxY3BQZ18?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-28",
+      "last_seen_date": "2026-08-28",
+      "canonical_key": "anthropic加码自研ai芯片 曾考虑70亿美元收购matx 正接洽多家初创公司",
+      "normalized_title": "anthropic加码自研ai芯片 曾考虑70亿美元收购matx 正接洽多家初创公司",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMlJSQlhSNVJvaWw1Mm9BN2F6ZGJZRFJzWlViY3FtSXBDM0ljd2ptOFdFdExSRVloYm9VUEhyRzd3aHNtY0F2UXp0QlBkaXBTeG1B?oc=5",
+      "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司 - 华尔街见闻",
+      "summary": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMlJSQlhSNVJvaWw1Mm9BN2F6ZGJZRFJzWlViY3FtSXBDM0ljd2ptOFdFdExSRVloYm9VUEhyRzd3aHNtY0F2UXp0QlBkaXBTeG1B?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-28",
+      "last_seen_date": "2026-08-28",
+      "canonical_key": "deploy an open model from checkpoint to inference in two commands with nvidia tensorrt model connect",
+      "normalized_title": "deploy an open model from checkpoint to inference in two commands with nvidia tensorrt model connect",
+      "normalized_link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
+      "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
+      "summary": "Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,... Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
