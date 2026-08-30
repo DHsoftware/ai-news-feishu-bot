@@ -1,15 +1,15 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-30T07:20:25.753411+08:00",
+  "generated_at": "2026-08-30T08:17:35.690169+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 228,
-    "failed_count": 2,
+    "success_count": 18,
+    "failed_count": 212,
     "global_source_count": 16,
-    "global_success_count": 15,
+    "global_success_count": 9,
     "china_source_count": 34,
-    "china_success_count": 213
+    "china_success_count": 9
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 157,
-    "history_size_after": 156,
-    "history_duplicate_count": 26
+    "history_size_before": 156,
+    "history_size_after": 158,
+    "history_duplicate_count": 2
   },
-  "raw_item_count": 5187,
-  "deduped_item_count": 3818,
-  "filtered_item_count": 246,
+  "raw_item_count": 291,
+  "deduped_item_count": 223,
+  "filtered_item_count": 14,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -75,70 +75,6 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "WorkBuddy成腾讯“新太子”，办公Agent赛道群雄逐鹿谁能笑到最后？ - blog.csdn.net",
-      "summary": "WorkBuddy成腾讯“新太子”，办公Agent赛道群雄逐鹿谁能笑到最后？ blog.csdn.net",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-08-29T08:45:22+08:00",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iV3hXY2ZuQTZtQWZoM3JtcEZNRWlneGpic1plRDlKVlFuck5aZVA4ektsaU9wMzZYTzUwaFo0UlBYNXVreUs1Uk5FUWFJbW16M3h0YzhQTXkwOG5mQjNzTUVuTFVjVmhIc1lJ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
-      ],
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "category": "AI Agent",
-      "dedupe_key": "workbuddy成腾讯 新太子 办公agent赛道群雄逐鹿谁能笑到最后",
-      "canonical_key": "workbuddy成腾讯 新太子 办公agent赛道群雄逐鹿谁能笑到最后",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iV3hXY2ZuQTZtQWZoM3JtcEZNRWlneGpic1plRDlKVlFuck5aZVA4ektsaU9wMzZYTzUwaFo0UlBYNXVreUs1Uk5FUWFJbW16M3h0YzhQTXkwOG5mQjNzTUVuTFVjVmhIc1lJ?oc=5",
-      "score": 67,
-      "selection_reason": "required_productivity"
-    },
-    {
-      "title": "技嘉推出猎鹰及冰猎鹰白金电源，覆盖750W至1000W - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "summary": "技嘉推出猎鹰及冰猎鹰白金电源，覆盖750W至1000W - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-08-29T19:55:26+08:00",
-      "source": "OSCHINA",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95ampYS3UxRmNQZV9OWm03dFBzNi1QeDdFazZwa3RYR096RkFPd2tGVHk0bWlOLUYzQjl6RnVGbjE3LVFYTkd0RkhpOA?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "power_electronics",
-        "obc",
-        "dcdc"
-      ],
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "opensource",
-        "power_electronics"
-      ],
-      "category": "OBC/DCDC",
-      "dedupe_key": "技嘉推出猎鹰及冰猎鹰白金电源 覆盖750w至1000w oschina 开源 ai 开发者生态社区",
-      "canonical_key": "技嘉推出猎鹰及冰猎鹰白金电源 覆盖750w至1000w oschina 开源 ai 开发者生态社区",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95ampYS3UxRmNQZV9OWm03dFBzNi1QeDdFazZwa3RYR096RkFPd2tGVHk0bWlOLUYzQjl6RnVGbjE3LVFYTkd0RkhpOA?oc=5",
-      "score": 55,
-      "selection_reason": "power_electronics_boost"
-    },
-    {
       "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
       "summary": "Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,... Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing, post-processing, and runtime code. NVIDIA TensorRT Model Connect open collection of reference implementations helps to address this challenge. TensorRT Model Connect shows you how to run supported models with NVIDIA TensorRT in native C++… Source",
       "summary_source": "atom_content",
@@ -168,7 +104,7 @@
       "canonical_key": "deploy an open model from checkpoint to inference in two commands with nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect",
       "score": 121,
-      "selection_reason": "fill_remaining_high_score"
+      "selection_reason": "required_global_quota"
     },
     {
       "title": "Nvidia’s AI advantage is moving beyond the GPU",
@@ -193,25 +129,75 @@
       "canonical_key": "nvidia s ai advantage is moving beyond the gpu",
       "normalized_link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
       "score": 62,
-      "selection_reason": "fill_remaining_high_score"
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
+    },
+    {
+      "title": "Distraction-free writing gadget BYOK is adding custom extensions",
+      "summary": "BYOK is a no-frills, single-purpose gadget that 90 percent of people will find absolutely frivolous. But for those who spend a significant chunk of their lives putting words to virtual paper, there is an obvious allure. Personally, I think it's at its best when you just stick to the bare minimum, focusing on pure text drafting. Certain users, though, need more. They want BYOK to take notes, they want to use it for writing screenplays, or maybe they want to organize a sprawling novel. Balancing the wants and needs of these more demanding users has been a challenge that BYOK founder Nick Sjolinder has been trying to figure out how to tackle. … Read the full story at The Verge.",
+      "summary_source": "atom_content",
+      "summary_quality": "high",
+      "published_at": "2026-08-30T00:01:13+08:00",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "research"
+      ],
+      "category": "研究论文",
+      "dedupe_key": "distraction free writing gadget byok is adding custom extensions",
+      "canonical_key": "distraction free writing gadget byok is adding custom extensions",
+      "normalized_link": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "score": 45,
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
+    },
+    {
+      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "summary": "The Trump administration's blacklisting of Anthropic was illegal, a federal judge ruled in an order vacating government directives against the use of the firm's AI technology. The government illegally retaliated against Anthropic by designating it a supply-chain risk to national security, said yesterday's ruling by Judge Rita Lin in the US District Court for the Northern District of California. The maker of Claude AI technology was barred by the US after it refused to drop restrictions on the use of its products for lethal autonomous warfare and mass surveillance of Americans, the ruling said. \"The undisputed record shows that the challenged actions constituted unlawful retaliation in violation of the First Amendment,\" Lin wrote in an order that granted key portions of Anthropic's motion…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-08-29T02:07:55+08:00",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "security"
+      ],
+      "category": "全球AI",
+      "dedupe_key": "trump blacklisting of woke anthropic deemed illegal by federal judge",
+      "canonical_key": "trump blacklisting of woke anthropic deemed illegal by federal judge",
+      "normalized_link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "score": 35,
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1369,
-    "history_duplicate": 26,
-    "weak_relevance": 119,
+    "duplicate": 68,
+    "history_duplicate": 2,
+    "weak_relevance": 50,
     "same_source_limit": 0,
-    "china_limit": 1,
+    "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3453,
-    "same_entity_limit": 102,
+    "old_news": 159,
+    "same_entity_limit": 1,
     "similar_selected": 0,
-    "company_research_limit": 3,
+    "company_research_limit": 0,
     "auto_driving_limit": 0,
     "smart_cockpit_limit": 0,
     "no_agent_candidate": 0,
-    "no_productivity_candidate": 0,
+    "no_productivity_candidate": 1,
     "no_company_research_candidate": 0,
-    "no_power_electronics_candidate": 0
+    "no_power_electronics_candidate": 1
   }
 }

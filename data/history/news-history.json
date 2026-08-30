@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T07:20:25.753411+08:00",
+  "updated_at": "2026-08-30T08:17:35.690169+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5573,7 +5573,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-08-29",
@@ -5612,7 +5612,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-29",
@@ -5708,6 +5708,62 @@
         "actions": [],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "distraction free writing gadget byok is adding custom extensions",
+      "normalized_title": "distraction free writing gadget byok is adding custom extensions",
+      "normalized_link": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "title": "Distraction-free writing gadget BYOK is adding custom extensions",
+      "summary": "BYOK is a no-frills, single-purpose gadget that 90 percent of people will find absolutely frivolous. But for those who spend a significant chunk of their lives putting words to virtual paper, there is an obvious allure. Personally, I think it's at its best when you just stick to the bare minimum, f…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-08-29",
+      "last_seen_date": "2026-08-29",
+      "canonical_key": "trump blacklisting of woke anthropic deemed illegal by federal judge",
+      "normalized_title": "trump blacklisting of woke anthropic deemed illegal by federal judge",
+      "normalized_link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "summary": "The Trump administration's blacklisting of Anthropic was illegal, a federal judge ruled in an order vacating government directives against the use of the firm's AI technology. The government illegally retaliated against Anthropic by designating it a supply-chain risk to national security, said yest…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1
