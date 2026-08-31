@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-31T07:30:17.358401+08:00",
+  "generated_at": "2026-08-31T08:35:20.391750+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 158,
+    "history_size_before": 156,
     "history_size_after": 156,
-    "history_duplicate_count": 26
+    "history_duplicate_count": 25
   },
-  "raw_item_count": 5211,
-  "deduped_item_count": 3823,
-  "filtered_item_count": 144,
+  "raw_item_count": 5212,
+  "deduped_item_count": 3819,
+  "filtered_item_count": 143,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -132,7 +132,7 @@
       "canonical_key": "why open source rocks a new sm750 silicon motion gpu hdmi driver",
       "normalized_link": "https://github.com/KodeMunkie/sm750hdmifb",
       "score": 39,
-      "selection_reason": "fill_remaining_high_score;no_company_research_candidate;no_power_electronics_candidate"
+      "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
     },
     {
       "title": "TechCrunch Mobility: The hidden human cost of robotaxis",
@@ -157,7 +157,7 @@
       "canonical_key": "techcrunch mobility the hidden human cost of robotaxis",
       "normalized_link": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis",
       "score": 15,
-      "selection_reason": "fill_remaining_high_score;no_company_research_candidate;no_power_electronics_candidate"
+      "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
     },
     {
       "title": "Alt-right troll Milo Yiannopoulos has been deported",
@@ -182,17 +182,17 @@
       "canonical_key": "alt right troll milo yiannopoulos has been deported",
       "normalized_link": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
       "score": 15,
-      "selection_reason": "fill_remaining_high_score;no_company_research_candidate;no_power_electronics_candidate"
+      "selection_reason": "fill_remaining_high_score;no_company_research_candidate"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1388,
-    "history_duplicate": 26,
+    "duplicate": 1393,
+    "history_duplicate": 25,
     "weak_relevance": 100,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3579,
+    "old_news": 3576,
     "same_entity_limit": 149,
     "similar_selected": 0,
     "company_research_limit": 0,
@@ -201,6 +201,6 @@
     "no_agent_candidate": 0,
     "no_productivity_candidate": 0,
     "no_company_research_candidate": 1,
-    "no_power_electronics_candidate": 1
+    "no_power_electronics_candidate": 0
   }
 }
