@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T09:16:40.972417+08:00",
+  "updated_at": "2026-09-02T07:18:41.680934+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -78,248 +78,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-07-31",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "china:https://36kr.com/p/3910776673064073?f=rss",
-      "normalized_title": "36氪",
-      "normalized_link": "https://36kr.com/p/3910776673064073?f=rss",
-      "title": "36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
-      "summary": "文｜王毓婵 兰杰 编辑｜乔芊 36氪独家获悉，曾爱玲入职哔哩哔哩（下称“B站”），担任AI视频生成业务负责人，向CEO陈睿汇报。 36氪就此事向B站方面求证，对方暂无回应。 曾爱玲 B站此前已公开表示，AI投入主要聚焦视频理解、视频推荐和辅助视频创作等方向。曾爱玲入职后，或将参与相关业务。 曾爱玲的个人主页显示，她曾在腾讯混元&AI Lab团队和国际数字经济研究院（IDEA）工作三年，领导以人为中心的感知与生成研究团队。其后，她加入米哈游创始人蔡浩宇旗下AI公司Anuttacon，负责开发以人为中心的交互式多模态视频生成系统。这些模型使AI智能体能够感知、交互并生成实时、长时程的视频。 曾爱…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3910776673064073?f=rss",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "llm",
-        "multimodal",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "llm",
-          "model_capability",
-          "multimodal",
-          "research",
-          "robotics"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "openai reportedly finds evidence that more of its agents ran amok",
-      "normalized_title": "openai reportedly finds evidence that more of its agents ran amok",
-      "normalized_link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
-      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
-      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "incident"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
-      "normalized_title": "wextl announces official public launch an ai agent builder and visual workflow automation platform",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
-      "title": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform - barchart.com",
-      "summary": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform barchart.com",
-      "source": "barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaXNMeDJTOG1OdFdBZjBzeldxUlh2Y1JzRllDUjZXRGlEMFJRbnNDZzRocjcwQjhfblh5TWlOSk9JNFI0aWpSdlNKWFNvU0k2SV9ZWC05S1kzNlFWTV9seXZxb0wtV2hIMEE3Z3JkcUh3aFBMTkVmLWZEeE1yUDhMTy1mVHJuMXhDeVpPVjE5V0RoLXlnWXc5WmN4eDNpRmlNX3dDYWdPQ0ozQkN1NDdISjlLVUNoRUI3RVI1WDlSRk1WWXpKRndLcFJOSlVkb0lhbnZ6WldtLUZ5UQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "exclusive openai previews astra ai model in dc",
-      "normalized_title": "exclusive openai previews astra ai model in dc",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjNBZGhQZFk0YXdGc0FQRUsxd0Jrd2RuTkRBXzFMMTdpUXZqZWpOYjR5dEhrMkg4X0hYcjFEemFBWEdGQU9Tc1hjMXZWN0lxQVlNU2FBcHpMQ0ctSHplVklWOEFhQmljYTQ0NERkZ3V5di0tZUR3Rm1zX0R3X1k1MDRDNzRydEFtenplMg?oc=5",
-      "title": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC - The Information",
-      "summary": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC The Information",
-      "source": "The Information",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjNBZGhQZFk0YXdGc0FQRUsxd0Jrd2RuTkRBXzFMMTdpUXZqZWpOYjR5dEhrMkg4X0hYcjFEemFBWEdGQU9Tc1hjMXZWN0lxQVlNU2FBcHpMQ0ctSHplVklWOEFhQmljYTQ0NERkZ3V5di0tZUR3Rm1zX0R3X1k1MDRDNzRydEFtenplMg?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "home nxp community",
-      "normalized_title": "home nxp community",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9lMHE3azVpS1p0ZXNaNndqb3FnVVpuS1FZV0w1dm1kaGlGNURES3ZCeFlRMEhzZnVZdVdqMFBfZw?oc=5",
-      "title": "Home - NXP Community - community.nxp.com",
-      "summary": "Home - NXP Community community.nxp.com",
-      "source": "community.nxp.com",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9lMHE3azVpS1p0ZXNaNndqb3FnVVpuS1FZV0w1dm1kaGlGNURES3ZCeFlRMEhzZnVZdVdqMFBfZw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nxp"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
-      "normalized_title": "gpu将不再是ai芯片老大谷歌28年tpu数量达1500万 首次压nvidia一头 google 英伟达 显卡 芯片技术 推理_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
-      "title": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 - 新浪财经",
-      "summary": "GPU将不再是AI芯片老大谷歌28年TPU数量达1500万：首次压NVIDIA一头|Google|英伟达|显卡|芯片技术|推理_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMkpFUEo2Z2l0MkJnRmZkU3U2UWg1U2ljZFdJVGM5R3VkUllpRGlNTjZOWVlVVVhFN3oyMC1JRVMzMHZWLWdvM0ZKVVdjVnAtaXFtTGM0dUNPMUh4cHB1SFBfQnpUcDhtRjZwSUJMUmpsbkZEZXlEcm83Rkd1MnBySkNtMC1jVWdDeHZIdDl2Qkg4WXRJWE8xVWY5bTlHci0yWHBqUjc2Tl9SX3ViMGM0enlHNU9OVlRfVTZwVHREd0k3X0xBMm5xR1Q1allFRFlxMkJDTXRZSEQzMGZLMHZOMFNnRERCcTEy?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "google",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "inference"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-01",
-      "last_seen_date": "2026-08-01",
-      "canonical_key": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
-      "normalized_title": "画廊 技术与 ai 工作流 它们正如何重塑建筑实践 2",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
-      "title": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 - ArchDaily",
-      "summary": "画廊 技术与 AI 工作流：它们正如何重塑建筑实践？ - 2 ArchDaily",
-      "source": "ArchDaily",
-      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOTTczYzVUdjRDTXZBdEo1YTFLVFNzUDUwSnZuclhjaC0xeGtLWU5LRjhXbFM0TWR1RGpuYWU1anJUc3NVc1hXYVd5OVdIanRZMlVmRGtsbHlaNUZJVVo1X09ySV9QXy11QVhPZUtoMVVOZ25TMHdDMWVIUGh5dExhUENxdzMwdEpENzUzTW55QnlmV3VvMTJnOW9zQ0RmYVJLOGxYTDd3eGY1UTJXMDRFM3ZNVEJHYTBYRHlKQlBuT1ZESkdMY1NobUx0SFB0dUdjOE1ZVlhFUGFfazBOS1N1UnBfeGhQRTB1MjFDZURIaHI0WHNFTVVqZlpxZWRRM01EMF9PSDdORE5wdnJFc3lScGRIYm1UdVpweWNab3Y2U1EtT3dXRVpKanR4MElYcnB6cUU4cTQ5RzdnUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-02",
@@ -5457,7 +5215,7 @@
     },
     {
       "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-08-31",
+      "last_seen_date": "2026-09-01",
       "canonical_key": "run nvidia bionemo nim microservices for protein structure prediction in claude science",
       "normalized_title": "run nvidia bionemo nim microservices for protein structure prediction in claude science",
       "normalized_link": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
@@ -5499,7 +5257,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-08-31",
@@ -5640,6 +5398,146 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-01",
+      "last_seen_date": "2026-09-01",
+      "canonical_key": "本地 ai 与云端超算协同 联想 thinkstation p4 打造双轨 ai 工作流",
+      "normalized_title": "本地 ai 与云端超算协同 联想 thinkstation p4 打造双轨 ai 工作流",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kTW9rTUdwaktTNDFnWHlCY3gyODlPc05TUW5RVG9MNXhRZDUtUUxTQWRjS0tkcHhXQ1QyaDJabHk5R1NPM3luVVBfeDQ?oc=5",
+      "title": "本地 AI 与云端超算协同，联想 ThinkStation P4 打造双轨 AI 工作流 - 极客公园",
+      "summary": "本地 AI 与云端超算协同，联想 ThinkStation P4 打造双轨 AI 工作流 极客公园",
+      "source": "极客公园",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kTW9rTUdwaktTNDFnWHlCY3gyODlPc05TUW5RVG9MNXhRZDUtUUxTQWRjS0tkcHhXQ1QyaDJabHk5R1NPM3luVVBfeDQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "cloud",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "cloud",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-01",
+      "last_seen_date": "2026-09-01",
+      "canonical_key": "change agents completes phase 2 of ai video platform",
+      "normalized_title": "change agents completes phase 2 of ai video platform",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHpxMEwyUFlOWE5iS2FwejBfQlJMa2dVTkZfcVhsaXFNOFZHNWhNOHM5TnlUVGhmVkExZ3pYMWNNc1lndGpqUHhZSlBRVkYxSUVIT1poUWxHTGJlMjVteEUwdTFaYWVhU1JDc0dFRDl5WkVLb2g0VHFVNGJPd3hjQ29tU1VyOVFleXhMRVY3cm1EdWd1N2J3OFhHOFdPZW4weVp5NXNMVGlzTzNCNXc?oc=5",
+      "title": "Change Agents completes phase 2 of AI video platform - Investing.com",
+      "summary": "Change Agents completes phase 2 of AI video platform Investing.com",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHpxMEwyUFlOWE5iS2FwejBfQlJMa2dVTkZfcVhsaXFNOFZHNWhNOHM5TnlUVGhmVkExZ3pYMWNNc1lndGpqUHhZSlBRVkYxSUVIT1poUWxHTGJlMjVteEUwdTFaYWVhU1JDc0dFRDl5WkVLb2g0VHFVNGJPd3hjQ29tU1VyOVFleXhMRVY3cm1EdWd1N2J3OFhHOFdPZW4weVp5NXNMVGlzTzNCNXc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-01",
+      "last_seen_date": "2026-09-01",
+      "canonical_key": "坚决不用行业标准agents md claude code惹来 封杀令 anthropic终于回应了 但开发者更气了 infoq",
+      "normalized_title": "坚决不用行业标准agents md claude code惹来 封杀令 anthropic终于回应了 但开发者更气了 infoq",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GVVB1MmtYa1gxN2RDaXR3NzEtMnQ2eTNpNEFuS0FBTkstcEZ1YlFPVGM3YnFxUEFpbFZscE5zakIyZGZqU190VUpKLXB2S2VsSFRFeG40UzEwNGJUbVE?oc=5",
+      "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了 - InfoQ-CN",
+      "summary": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了 InfoQ-CN",
+      "source": "InfoQ-CN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GVVB1MmtYa1gxN2RDaXR3NzEtMnQ2eTNpNEFuS0FBTkstcEZ1YlFPVGM3YnFxUEFpbFZscE5zakIyZGZqU190VUpKLXB2S2VsSFRFeG40UzEwNGJUbVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "agents_md",
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-01",
+      "last_seen_date": "2026-09-01",
+      "canonical_key": "how to size gpus for ai inference and tco without overspending",
+      "normalized_title": "how to size gpus for ai inference and tco without overspending",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
+      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+      "summary": "The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can organizations confidently... The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can orga…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
