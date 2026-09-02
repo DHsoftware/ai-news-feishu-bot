@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T08:10:03.411810+08:00",
+  "updated_at": "2026-09-03T07:19:26.281641+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -81,76 +81,6 @@
     },
     {
       "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "ai 化学博士论文 mit 2026 通过自动化量子化学和人工智能加速自主分子发现 552页",
-      "normalized_title": "ai 化学博士论文 mit 2026 通过自动化量子化学和人工智能加速自主分子发现 552页",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11NEpkdEQ3WlJmakhhSlBlMURsUU0yUFhlaGd6LWhQd1l0QXBpdG5GRGw3c1VjSjBUTkhYOFA3OVpDX2lYN0VyaQ?oc=5",
-      "title": "AI+化学博士论文 | MIT 2026 | 通过自动化量子化学和人工智能加速自主分子发现 552页 - 智源社区",
-      "summary": "AI+化学博士论文 | MIT 2026 | 通过自动化量子化学和人工智能加速自主分子发现 552页 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11NEpkdEQ3WlJmakhhSlBlMURsUU0yUFhlaGd6LWhQd1l0QXBpdG5GRGw3c1VjSjBUTkhYOFA3OVpDX2lYN0VyaQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "how ai coding speed shifts product strategy",
-      "normalized_title": "how ai coding speed shifts product strategy",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmQ0Vi1MeFFmeHJrLWlqYmVnelRtaTh6a0lWRVBuWjV2Q1RtbkJSMjFZUmQ5UEVoSG9odHVRaGd5dTdCeVpERGxXaEFkbzE0R05QTU9Rd0d2bTQtby1waVZfWTJJdnVQTVVhU2FPbkZ6WlNTWGl4aEVEV2hYVmcxbGdtYnVaVXdVeHdqWkxFV21pWTNnbS1SOQ?oc=5",
-      "title": "📢 How AI coding speed shifts product strategy - Buttondown",
-      "summary": "📢 How AI coding speed shifts product strategy Buttondown",
-      "source": "Buttondown",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmQ0Vi1MeFFmeHJrLWlqYmVnelRtaTh6a0lWRVBuWjV2Q1RtbkJSMjFZUmQ5UEVoSG9odHVRaGd5dTdCeVpERGxXaEFkbzE0R05QTU9Rd0d2bTQtby1waVZfWTJJdnVQTVVhU2FPbkZ6WlNTWGl4aEVEV2hYVmcxbGdtYnVaVXdVeHdqWkxFV21pWTNnbS1SOQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-02",
       "last_seen_date": "2026-08-24",
       "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
       "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
@@ -188,190 +118,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "nvidia ai releases molt a pytorch native agentic reinforcement learning framework",
-      "normalized_title": "nvidia ai releases molt a pytorch native agentic reinforcement learning framework",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3lKYU5PTDlJTGJ6UTFNYnlqU3hOODg5WG9PQlExOEk0d1I0R3VPdnVjTmNSQm1zV2I2M01aYlVDeUNWQ1RrMUlaMnNKM25FMWlvV3ZjZnlqekZMVVE1bXJDUTVzMHhoVTYyRERxN2RSdkFtY1pTTnZTN0ZtR1IzOUVIbUFlcEd4YVZjOUxOUmU4aXVKckVjQUtRVG05cTVVdUYxSzZCQjA5M0FsUmpjZ05ra25jNU81RWdYYmRJSdIBxAFBVV95cUxNbUpzZHZPZkc5TEhoSmI1bFZ1T1RRWi1pYTdwV2tKaHpmU0xINFNFN1hrTTVXLVdKdmhfNlNlUmZKOTlld2tGUU1KaFNuZFZaRDFnVVZtY2FaNm9IcUNKSWNFamU0ckpKRVJBOWUwNERDSGdUMzd6ZER1QkZkNDVmbTZxZXFrZ09NQmJfODNPZnc0NFpXSkRNYXY4aEM2bWVDSVpUZXFOeFlPNFUwZjhQd0p5Y0pfakZJRWM1M2NYS0R2UnhW?oc=5",
-      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework - MarkTechPost",
-      "summary": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework MarkTechPost",
-      "source": "MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3lKYU5PTDlJTGJ6UTFNYnlqU3hOODg5WG9PQlExOEk0d1I0R3VPdnVjTmNSQm1zV2I2M01aYlVDeUNWQ1RrMUlaMnNKM25FMWlvV3ZjZnlqekZMVVE1bXJDUTVzMHhoVTYyRERxN2RSdkFtY1pTTnZTN0ZtR1IzOUVIbUFlcEd4YVZjOUxOUmU4aXVKckVjQUtRVG05cTVVdUYxSzZCQjA5M0FsUmpjZ05ra25jNU81RWdYYmRJSdIBxAFBVV95cUxNbUpzZHZPZkc5TEhoSmI1bFZ1T1RRWi1pYTdwV2tKaHpmU0xINFNFN1hrTTVXLVdKdmhfNlNlUmZKOTlld2tGUU1KaFNuZFZaRDFnVVZtY2FaNm9IcUNKSWNFamU0ckpKRVJBOWUwNERDSGdUMzd6ZER1QkZkNDVmbTZxZXFrZ09NQmJfODNPZnc0NFpXSkRNYXY4aEM2bWVDSVpUZXFOeFlPNFUwZjhQd0p5Y0pfakZJRWM1M2NYS0R2UnhW?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "these app store hidden gems prove there s still room for great software in the ai era",
-      "normalized_title": "these app store hidden gems prove there s still room for great software in the ai era",
-      "normalized_link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era",
-      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
-      "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "supabase releases evals an open source benchmark that scores claude code codex and opencode on real supabase tasks",
-      "normalized_title": "supabase releases evals an open source benchmark that scores claude code codex and opencode on real supabase tasks",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOU43a3ZKT01Nd0ZmMjVZNFJVdGw0OUJENWZna0piUTIxTmxvUVJxTHNzazdzVGxNbVhMa0pkYVVvUGN6VW51a0lhS3VUeEhIMnpZM2diT25tcm96MUhfeVB2Z1NQbnBzaHVkN00tSDIyNDVRamwwdWVIT0dJem16dVZXSVo5WlExUkowN24zTEt5M3ROVVRzNzZwdkZpNmFSY1YwVWFlQXdsaC1XeEUwMHNiZXhMN3FFUUJEX0FIR2ZrS2Q5UTljZHBHdzZTbmcwSkdPYmdxcm1weEJvUUZ1cWdwajVKYnpJQUZZ0gHwAUFVX3lxTE53ZlphMkZ0NHFzVXh6eFJ5LWd1R1dhV0xGaU9MZVc5ZU03RC1LRldpcFhwLXRnUmwxS1NSdjI3c0FVTjJ0VTR6Wk45ZEwtMkFHV29NSjU1UDJ6Y2ZZUWpobW8tci0yTU52dm5ZTF9QdmpVRm1wbGpVNUtPVG5uZEhPMHM0ZDFVQU1uZHlMMjVfSTduakdSQkVUNjVrUjdEMThmU0hZVEVWWG1kNFU5U3Vkc21hdDZUakM1YVlPMU94bk5GWDdDUlpndGM1djhLLTJnRFBGd0M5U20waXM5Z19xSDBibHhGTG5zQy1JRmVBVA?oc=5",
-      "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks - marktechpost.com",
-      "summary": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks marktechpost.com",
-      "source": "marktechpost.com",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOU43a3ZKT01Nd0ZmMjVZNFJVdGw0OUJENWZna0piUTIxTmxvUVJxTHNzazdzVGxNbVhMa0pkYVVvUGN6VW51a0lhS3VUeEhIMnpZM2diT25tcm96MUhfeVB2Z1NQbnBzaHVkN00tSDIyNDVRamwwdWVIT0dJem16dVZXSVo5WlExUkowN24zTEt5M3ROVVRzNzZwdkZpNmFSY1YwVWFlQXdsaC1XeEUwMHNiZXhMN3FFUUJEX0FIR2ZrS2Q5UTljZHBHdzZTbmcwSkdPYmdxcm1weEJvUUZ1cWdwajVKYnpJQUZZ0gHwAUFVX3lxTE53ZlphMkZ0NHFzVXh6eFJ5LWd1R1dhV0xGaU9MZVc5ZU03RC1LRldpcFhwLXRnUmwxS1NSdjI3c0FVTjJ0VTR6Wk45ZEwtMkFHV29NSjU1UDJ6Y2ZZUWpobW8tci0yTU52dm5ZTF9QdmpVRm1wbGpVNUtPVG5uZEhPMHM0ZDFVQU1uZHlMMjVfSTduakdSQkVUNjVrUjdEMThmU0hZVEVWWG1kNFU5U3Vkc21hdDZUakM1YVlPMU94bk5GWDdDUlpndGM1djhLLTJnRFBGd0M5U20waXM5Z19xSDBibHhGTG5zQy1JRmVBVA?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "benchmark",
-        "codex",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "claude_code",
-          "codex"
-        ],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "benchmark",
-          "codex",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "wextl announces official public launch an ai agent builder and visual workflow automation platform apg",
-      "normalized_title": "wextl announces official public launch an ai agent builder and visual workflow automation platform apg",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNdVpKSjAtMS1Hcjg5V2ZXdnBSQkNOVXJ5d1RtWVp0ZktrOFhCelVWdWdSNG1JZHk3V3lkdTdHVWpqbXlTMUNJMVlQVHY4OFR4SXJxdE0wdWNERWtLX2JwLUpJd05xby1taFZpUzdGU25rRy1sWTRvR0EteWRTa2JDOHdpRk1BV1RrbWhmUnpuUHI1ZGJwM2l0YkFCXy02NERiOUprZ1hTRjFGNUFjY0lJUGpBOGgwTEJQLXRLQjNHSy0wUDVlMkUzeUJ6aUxBWU15Q2xGMFpVQTBWRjQ5WFlWQ3VETVZjTWN2SE5pc3hPdEhhSWp2RHhjN3VwZ3pfdkpMRFR5WVJZV0NmMjBlNFZhWVh6ZHc0bzhDQ053TEdfQ0lIM2E2bjhKVTNn?oc=5",
-      "title": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform - apg-wi.com",
-      "summary": "WEXTL Announces Official Public Launch: An AI Agent Builder and Visual Workflow Automation Platform apg-wi.com",
-      "source": "apg-wi.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNdVpKSjAtMS1Hcjg5V2ZXdnBSQkNOVXJ5d1RtWVp0ZktrOFhCelVWdWdSNG1JZHk3V3lkdTdHVWpqbXlTMUNJMVlQVHY4OFR4SXJxdE0wdWNERWtLX2JwLUpJd05xby1taFZpUzdGU25rRy1sWTRvR0EteWRTa2JDOHdpRk1BV1RrbWhmUnpuUHI1ZGJwM2l0YkFCXy02NERiOUprZ1hTRjFGNUFjY0lJUGpBOGgwTEJQLXRLQjNHSy0wUDVlMkUzeUJ6aUxBWU15Q2xGMFpVQTBWRjQ5WFlWQ3VETVZjTWN2SE5pc3hPdEhhSWp2RHhjN3VwZ3pfdkpMRFR5WVJZV0NmMjBlNFZhWVh6ZHc0bzhDQ053TEdfQ0lIM2E2bjhKVTNn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-02",
-      "canonical_key": "9点1氪丨马斯克回应特斯拉剥离中国业务 国内航线燃油附加费将再次下调 中国最高薪本科专业易主",
-      "normalized_title": "9点1氪丨马斯克回应特斯拉剥离中国业务 国内航线燃油附加费将再次下调 中国最高薪本科专业易主",
-      "normalized_link": "https://36kr.com/p/3920241240419720?f=rss",
-      "title": "9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主",
-      "summary": "今日热点导览 字节跳动发布视频创作模型Seedance 2.5 长鑫科技市值突破4万亿 人形机器人现“电量焦虑”，行业正在积极探索换电等不同路线 韩国KOSPI指数上涨18% Anthropic称AI模型在测试期间误侵三家真实机构系统 TOP3大新闻 马斯克回应特斯拉剥离中国业务 7月31日，对于特斯拉正考虑拆分中国业务的消息，特斯拉CEO马斯克在回应第三方转发评论时回复：“这是假新闻。”对于特斯拉正考虑出售或剥离其中国业务的消息，特斯拉中国内部人士也向第一财经记者表示：“不实消息。”（第一财经） 去哪儿：8月5日起燃油附加费再下调，800公里以上航线每人省30元 36氪获悉，7月31日，去…",
-      "source": "36氪",
-      "link": "https://36kr.com/p/3920241240419720?f=rss",
-      "category": "全球AI",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "robotics",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "research",
-          "robotics",
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-03",
@@ -5538,6 +5284,184 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "how law firm gilbert tobin governs and scales ai with openai",
+      "normalized_title": "how law firm gilbert tobin governs and scales ai with openai",
+      "normalized_link": "https://openai.com/index/gilbert-tobin",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/gilbert-tobin",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "办公ai agent加速落地车企全场景 汽车行业向内开启 组织智能 深度变革 新经济观察",
+      "normalized_title": "办公ai agent加速落地车企全场景 汽车行业向内开启 组织智能 深度变革 新经济观察",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdXc5a3RXaVhOOTdRdUNQbWswbnE0aThmTDhVT1JqWTQtSUJJVkl0MzROV0ZKcE9YZVYxYXJodktfMmtCb2IzTkw1R29wRndlLXU2MlpwdDFFNjNESUlQWjBPeEwyMTVicUtPa2JGX1B5Z20zSENBcTVtWlpuaGVkUF9mSzU1T2NicTU2dA?oc=5",
+      "title": "办公AI Agent加速落地车企全场景，汽车行业向内开启“组织智能”深度变革 | 新经济观察 - Sohu",
+      "summary": "办公AI Agent加速落地车企全场景，汽车行业向内开启“组织智能”深度变革 | 新经济观察 Sohu",
+      "source": "Sohu",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdXc5a3RXaVhOOTdRdUNQbWswbnE0aThmTDhVT1JqWTQtSUJJVkl0MzROV0ZKcE9YZVYxYXJodktfMmtCb2IzTkw1R29wRndlLXU2MlpwdDFFNjNESUlQWjBPeEwyMTVicUtPa2JGX1B5Z20zSENBcTVtWlpuaGVkUF9mSzU1T2NicTU2dA?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "automotive",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "automotive",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "young graduate trainee",
+      "normalized_title": "young graduate trainee",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
+      "title": "Young Graduate Trainee - jobs.infineon.com",
+      "summary": "Young Graduate Trainee jobs.infineon.com",
+      "source": "jobs.infineon.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "号称 全球最强 还降价75 anthropic发布 大模型fable 5 1",
+      "normalized_title": "号称 全球最强 还降价75 anthropic发布 大模型fable 5 1",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSk1RY2owdjhXVGRkT1hJUUhIeV9RRlFsUTZpQ3U3cWZLTURpNWVhb2o3YXIzZXhFeVU5RkV3TGo5SHJOLWd1eTM4eXZOdk8zUVlRUXJob3RVSXZXQXZMbg?oc=5",
+      "title": "号称“全球最强”还降价75%！Anthropic发布最新大模型Fable 5.1 - 东方财富",
+      "summary": "号称“全球最强”还降价75%！Anthropic发布最新大模型Fable 5.1 东方财富",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSk1RY2owdjhXVGRkT1hJUUhIeV9RRlFsUTZpQ3U3cWZLTURpNWVhb2o3YXIzZXhFeVU5RkV3TGo5SHJOLWd1eTM4eXZOdk8zUVlRUXJob3RVSXZXQXZMbg?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "llm",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "researchers fear safety disaster ahead of openai s astra release",
+      "normalized_title": "researchers fear safety disaster ahead of openai s astra release",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+      "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI secu…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
