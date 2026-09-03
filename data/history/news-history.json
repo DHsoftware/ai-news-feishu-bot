@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T07:19:26.281641+08:00",
+  "updated_at": "2026-09-03T08:12:26.716298+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5326,7 +5326,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-02",
@@ -5363,7 +5363,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-02",
@@ -5428,7 +5428,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-02",
@@ -5459,6 +5459,39 @@
         "topics": [
           "agent",
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-02",
+      "last_seen_date": "2026-09-02",
+      "canonical_key": "young graduate trainee infineon jobs",
+      "normalized_title": "young graduate trainee infineon jobs",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
+      "title": "Young Graduate Trainee - Infineon Jobs | Infineon",
+      "summary": "Young Graduate Trainee Infineon Jobs | Infineon",
+      "source": "Infineon Jobs | Infineon",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
         ]
       },
       "seen_count": 1

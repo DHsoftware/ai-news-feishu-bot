@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-03T07:19:26.281641+08:00",
+  "generated_at": "2026-09-03T08:12:26.716298+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 152,
-    "history_size_after": 150,
-    "history_duplicate_count": 22
+    "history_size_before": 150,
+    "history_size_after": 151,
+    "history_duplicate_count": 24
   },
-  "raw_item_count": 5120,
-  "deduped_item_count": 3823,
-  "filtered_item_count": 289,
+  "raw_item_count": 5124,
+  "deduped_item_count": 3833,
+  "filtered_item_count": 294,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -111,12 +111,12 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "Young Graduate Trainee - jobs.infineon.com",
-      "summary": "Young Graduate Trainee jobs.infineon.com",
+      "title": "Young Graduate Trainee - Infineon Jobs | Infineon",
+      "summary": "Young Graduate Trainee Infineon Jobs | Infineon",
       "summary_source": "rss_description",
       "summary_quality": "low",
       "published_at": "2026-09-02T17:49:45+08:00",
-      "source": "jobs.infineon.com",
+      "source": "Infineon Jobs | Infineon",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
       "language": "en",
       "region": "global",
@@ -135,8 +135,8 @@
         "technical_blog"
       ],
       "category": "功率电子",
-      "dedupe_key": "young graduate trainee",
-      "canonical_key": "young graduate trainee",
+      "dedupe_key": "young graduate trainee infineon jobs",
+      "canonical_key": "young graduate trainee infineon jobs",
       "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
       "score": 59,
       "selection_reason": "power_electronics_boost"
@@ -194,14 +194,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1297,
-    "history_duplicate": 22,
-    "weak_relevance": 155,
+    "duplicate": 1291,
+    "history_duplicate": 24,
+    "weak_relevance": 156,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3379,
-    "same_entity_limit": 111,
+    "old_news": 3383,
+    "same_entity_limit": 108,
     "similar_selected": 0,
     "company_research_limit": 8,
     "auto_driving_limit": 0,
