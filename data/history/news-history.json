@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T08:12:26.716298+08:00",
+  "updated_at": "2026-09-04T07:17:12.251159+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -171,72 +171,6 @@
     },
     {
       "first_seen_date": "2026-08-03",
-      "last_seen_date": "2026-08-03",
-      "canonical_key": "鸿蒙7 0什么推送 华为开发者问答",
-      "normalized_title": "鸿蒙7 0什么推送 华为开发者问答",
-      "normalized_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vWnVnOFZKTmZWLTVoWjZfU1JoaTVEV25VcFQtX2o3X1ZBUTBnYkhpUXhsOFpWWWpQcWthRFBYc294YWZMaXllTEFaQW9GUmdzamtDRkkzMzlvajY0akFYZm5Nc2FsYU5Gc2syMVZ0NkpEaTRkMS1xTWc3QXQ?oc=5",
-      "title": "鸿蒙7.0什么推送| 华为开发者问答 - Huawei Developer",
-      "summary": "鸿蒙7.0什么推送| 华为开发者问答 Huawei Developer",
-      "source": "Huawei Developer",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vWnVnOFZKTmZWLTVoWjZfU1JoaTVEV25VcFQtX2o3X1ZBUTBnYkhpUXhsOFpWWWpQcWthRFBYc294YWZMaXllTEFaQW9GUmdzamtDRkkzMzlvajY0akFYZm5Nc2FsYU5Gc2syMVZ0NkpEaTRkMS1xTWc3QXQ?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "company_blog",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "company_research",
-        "org_productivity",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "org_productivity",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-03",
-      "last_seen_date": "2026-08-03",
-      "canonical_key": "engineering the ai data center why simulation is becoming core infrastructure",
-      "normalized_title": "engineering the ai data center why simulation is becoming core infrastructure",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zM21qYk1rcnNuQlBVdkdYNlB1b0NyWG5TN0FhVTZza3ZaN0VfYy10eXpmdGhHTE1Lakl5aDFGdjJjckNfLVVYdDNMS044T196Y1U3aGZGY09WampzbFVyUzdwdl8wNkhRQXBzbA?oc=5",
-      "title": "Engineering the AI Data Center: Why Simulation Is Becoming Core Infrastructure - Electronics Media",
-      "summary": "Engineering the AI Data Center: Why Simulation Is Becoming Core Infrastructure Electronics Media",
-      "source": "Electronics Media",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zM21qYk1rcnNuQlBVdkdYNlB1b0NyWG5TN0FhVTZza3ZaN0VfYy10eXpmdGhHTE1Lakl5aDFGdjJjckNfLVVYdDNMS044T196Y1U3aGZGY09WampzbFVyUzdwdl8wNkhRQXBzbA?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "simulation_optimization"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "simulation_optimization"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-03",
       "last_seen_date": "2026-08-04",
       "canonical_key": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
       "normalized_title": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
@@ -273,44 +207,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-03",
-      "last_seen_date": "2026-08-03",
-      "canonical_key": "claude outage hits 5h 44m as anthropic tops 47b 2026 tech",
-      "normalized_title": "claude outage hits 5h 44m as anthropic tops 47b 2026 tech",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45MW5sSEdPNm5HQlZSOTROYlBFNDgzaU1TR05JQk53bEtBbFNtdDUwS0tvQUYwcFhaNEV5NzBINkU1bG1WYUZ4cEJRdkVtYTh6bXdWU2RYLUJUalFzdmc?oc=5",
-      "title": "Claude Outage Hits 5h 44m as Anthropic Tops $47B [2026] - tech-insider.org",
-      "summary": "Claude Outage Hits 5h 44m as Anthropic Tops $47B [2026] tech-insider.org",
-      "source": "tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45MW5sSEdPNm5HQlZSOTROYlBFNDgzaU1TR05JQk53bEtBbFNtdDUwS0tvQUYwcFhaNEV5NzBINkU1bG1WYUZ4cEJRdkVtYTh6bXdWU2RYLUJUalFzdmc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "incident"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-04",
@@ -5491,6 +5387,190 @@
         "topics": [
           "company_research",
           "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "decoding the new ai lingo loops harnesses squads hill climbing oh my",
+      "normalized_title": "decoding the new ai lingo loops harnesses squads hill climbing oh my",
+      "normalized_link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "summary": "It might be overwhelming to see all of the new vocabulary popping up in software development these days thanks to AI tools introducing them… all the time. Some of this new vocab describes useful patterns that people are newly pursuing, others are just fancy names on top of things that already exist…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "enterprise ai transformation relies on the end to end platform azure was built for this moment",
+      "normalized_title": "enterprise ai transformation relies on the end to end platform azure was built for this moment",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd2VUT3dZeDI0QTk2NE1QU2dPZ1hMQ3Q3MXVRQmVHUnZKSkhiLW9WM1B4VE81Q3dDaEZSTTdKNm5BWEZXOTFweWdWaThTd29WcW0zMnMyN2lJT0dncVlWVE02Nm5QUHVJMHJTdWhOcy1jalQyaXZGQkh2OUlWSHliSmZldlEzMGFLQWExMjZySTdLSkZqRXB0YnNTb2RDVHlwbVE4cm56TGlhU2Nwd3ppWXJVTklPNlpmRFlvajZIOHJHbW5GQ05tRHItWVZzNFU?oc=5",
+      "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment - Microsoft Azure",
+      "summary": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment Microsoft Azure",
+      "source": "Microsoft Azure",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd2VUT3dZeDI0QTk2NE1QU2dPZ1hMQ3Q3MXVRQmVHUnZKSkhiLW9WM1B4VE81Q3dDaEZSTTdKNm5BWEZXOTFweWdWaThTd29WcW0zMnMyN2lJT0dncVlWVE02Nm5QUHVJMHJTdWhOcy1jalQyaXZGQkh2OUlWSHliSmZldlEzMGFLQWExMjZySTdLSkZqRXB0YnNTb2RDVHlwbVE4cm56TGlhU2Nwd3ppWXJVTklPNlpmRFlvajZIOHJHbW5GQ05tRHItWVZzNFU?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "会议通知 ai算力与数字能源供配电技术合作峰会将于11月在苏州召开",
+      "normalized_title": "会议通知 ai算力与数字能源供配电技术合作峰会将于11月在苏州召开",
+      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDY1QzSHVtdTlTV1FDYy1kcUlNUEsyWFRvdm9QV2NtdUxVY0xpUzBXUW5QMVg5U0VCQ0c0QnVGMFFhR0ZKaENYRnM3aV9XYTg2S2hHbnMxeWdLQnFKWEMtMEZoVmN3T29Tc2dlMjItNUU?oc=5",
+      "title": "会议通知 | AI算力与数字能源供配电技术合作峰会将于11月在苏州召开 - 新浪网",
+      "summary": "会议通知 | AI算力与数字能源供配电技术合作峰会将于11月在苏州召开 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDY1QzSHVtdTlTV1FDYy1kcUlNUEsyWFRvdm9QV2NtdUxVY0xpUzBXUW5QMVg5U0VCQ0c0QnVGMFFhR0ZKaENYRnM3aV9XYTg2S2hHbnMxeWdLQnFKWEMtMEZoVmN3T29Tc2dlMjItNUU?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "anthropic 开源 电商agent 不用多智能体 一个就够",
+      "normalized_title": "anthropic 开源 电商agent 不用多智能体 一个就够",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02Y3NVbmdVZm1KenFNOHJyNDJKNEhMNDVfTzhoMjZ0UmJGY1pjLUo3Y3Q1dUpEMWZwSE1HTElTN3J3V3pVZUdzWjl6ZGM?oc=5",
+      "title": "Anthropic“开源”电商Agent：不用多智能体，一个就够 - 凤凰网科技",
+      "summary": "Anthropic“开源”电商Agent：不用多智能体，一个就够 凤凰网科技",
+      "source": "凤凰网科技",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02Y3NVbmdVZm1KenFNOHJyNDJKNEhMNDVfTzhoMjZ0UmJGY1pjLUo3Y3Q1dUpEMWZwSE1HTElTN3J3V3pVZUdzWjl6ZGM?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "co designing ai models using speculative decoding for faster llm inference",
+      "normalized_title": "co designing ai models using speculative decoding for faster llm inference",
+      "normalized_link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
+      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+      "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and... This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using s…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "llm",
           "technical_blog"
         ]
       },

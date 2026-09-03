@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T08:12:26.716298+08:00",
+  "updated_at": "2026-09-04T07:17:12.251159+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -421,6 +421,57 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "codex cli release 0 150 0",
+      "normalized_title": "codex cli release 0 150 0",
+      "normalized_link": "https://developers.openai.com/codex/changelog",
+      "title": "Codex CLI Release: 0.150.0",
+      "summary": "New Features Reference other Codex tasks with @ mentions, and ask agents to read, create, or message tasks from the terminal. ( #40308 , #40315 ) /copy now offers a picker for full responses, individual code blocks, and blockquotes. ( #39997 ) Unnamed terminal tasks receive descriptive titles autom…",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-377374683",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "agents_md",
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "agents_md",
+          "codex",
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agents_md",
+          "cli",
+          "code_review",
+          "codex",
+          "mcp",
+          "official",
+          "terminal",
+          "workflow"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
