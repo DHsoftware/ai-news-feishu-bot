@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T08:03:14.973967+08:00",
+  "updated_at": "2026-09-05T07:03:06.340321+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -513,6 +513,45 @@
           "codex",
           "mcp",
           "tools"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "introducing gpt",
+      "normalized_title": "introducing gpt",
+      "normalized_link": "https://www.youtube.com/watch?v=bOC3DisEOfg",
+      "title": "Introducing GPT-6 Astra for developers",
+      "summary": "Meet GPT-6 Astra, our latest frontier model for tasks where raw intelligence matters. Charlie Guo, Developer Experience Engineer at OpenAI, demonstrates improved Computer Use, stronger creative and knowledge-work outputs, and new asynchronous tool calling and steering in the Responses API. Read mor…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=bOC3DisEOfg",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Tool Calling",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "tool_calling"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "model_capability",
+          "tool_calling"
         ]
       },
       "seen_count": 1

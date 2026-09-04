@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T08:03:14.973967+08:00",
+  "updated_at": "2026-09-05T07:03:06.340321+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -118,208 +118,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-03",
-      "last_seen_date": "2026-08-04",
-      "canonical_key": "orchard an open framework for scalable agentic ai",
-      "normalized_title": "orchard an open framework for scalable agentic ai",
-      "normalized_link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "summary": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and pe…",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report",
-          "research"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-03",
-      "last_seen_date": "2026-08-04",
-      "canonical_key": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
-      "normalized_title": "性能与anthropic fable 5相当 阿里巴巴发布千问3 8 max 2 4万亿个参数 长程自动编程表现出色",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51dVpGZ3hUaWhKeWNVTTk5eXBWRGcyc3IybXBYZzY5d3ZyZmxjbmdlODl1Y3o1d0RzSDJ2aWtiQWxJT2VqYk9hQTljQ0RGUDJPRHg4?oc=5",
-      "title": "性能与Anthropic Fable 5相当！阿里巴巴发布千问3.8-MAX，2.4万亿个参数，长程自动编程表现出色 - 华尔街见闻",
-      "summary": "性能与Anthropic Fable 5相当！阿里巴巴发布千问3.8-MAX，2.4万亿个参数，长程自动编程表现出色 华尔街见闻",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51dVpGZ3hUaWhKeWNVTTk5eXBWRGcyc3IybXBYZzY5d3ZyZmxjbmdlODl1Y3o1d0RzSDJ2aWtiQWxJT2VqYk9hQTljQ0RGUDJPRHg4?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-04",
-      "last_seen_date": "2026-08-04",
-      "canonical_key": "走进华为 从智能体到超级组织 ai重构人力资源的4 重进化",
-      "normalized_title": "走进华为 从智能体到超级组织 ai重构人力资源的4 重进化",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TTTB0bzJWTWtqMExVM0tvSmIxemtFa1F4Q1VNd0dJNzIzSHRRR2djVVVMQkk2S2ZWcFhiTzRFaU9pNUliSk11RVg5Y01mQmlNaVJCWjhRMA?oc=5",
-      "title": "走进华为 | 从智能体到超级组织：AI重构人力资源的4 重进化 - 美通社",
-      "summary": "走进华为 | 从智能体到超级组织：AI重构人力资源的4 重进化 美通社",
-      "source": "美通社",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TTTB0bzJWTWtqMExVM0tvSmIxemtFa1F4Q1VNd0dJNzIzSHRRR2djVVVMQkk2S2ZWcFhiTzRFaU9pNUliSk11RVg5Y01mQmlNaVJCWjhRMA?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-04",
-      "last_seen_date": "2026-08-04",
-      "canonical_key": "acid number testing reagent kits market predictive maintenance demand to 2035 news and statistics",
-      "normalized_title": "acid number testing reagent kits market predictive maintenance demand to 2035 news and statistics",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMWVXVUJxZHJ6bk9yd2FPVXdNeHFaR2hLX291RzFVbFpfXzZYNlhSdW5WQlpialNiM3FnYTA5eHBaUHZWWEdNeGJvWFdCZzN5d29iN2hyRWw0YUU3ZVBIR2NuellOTXMtbk1IS1NMbkQ4UnJfRHI5S1c4MVJrZWN4d1pIN1htTkFVMEphc2RSYWdlRk12MDRIUHJfWVBWd0JCSTl1R3VTNm9fZmRnTVpNdjRYUjJReDBEUEFWaDRoSFZlNHQ0eEFN?oc=5",
-      "title": "Acid Number Testing Reagent Kits Market Predictive Maintenance Demand to 2035 - News and Statistics - IndexBox",
-      "summary": "Acid Number Testing Reagent Kits Market Predictive Maintenance Demand to 2035 - News and Statistics IndexBox",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMWVXVUJxZHJ6bk9yd2FPVXdNeHFaR2hLX291RzFVbFpfXzZYNlhSdW5WQlpialNiM3FnYTA5eHBaUHZWWEdNeGJvWFdCZzN5d29iN2hyRWw0YUU3ZVBIR2NuellOTXMtbk1IS1NMbkQ4UnJfRHI5S1c4MVJrZWN4d1pIN1htTkFVMEphc2RSYWdlRk12MDRIUHJfWVBWd0JCSTl1R3VTNm9fZmRnTVpNdjRYUjJReDBEUEFWaDRoSFZlNHQ0eEFN?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "predictive_maintenance"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "predictive_maintenance"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-04",
-      "last_seen_date": "2026-08-04",
-      "canonical_key": "ai leaders propose safe guidelines for cybersecurity transparency",
-      "normalized_title": "ai leaders propose safe guidelines for cybersecurity transparency",
-      "normalized_link": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions",
-      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "summary": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchang…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5575,6 +5373,194 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "building games with astra",
+      "normalized_title": "building games with astra",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
+      "title": "Building games with Astra - OpenAI Developers",
+      "summary": "Building games with Astra OpenAI Developers",
+      "source": "OpenAI Developers",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "u w los tpo workflow automation ai risk education tools mbs and msr trends",
+      "normalized_title": "u w los tpo workflow automation ai risk education tools mbs and msr trends",
+      "normalized_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MeG02M3hUd3NleTRpbUo3Ylp6SG9ucngxVGZlWnl6QjJZZ1pCZHZpeXREZVhSUmt6NEpDWXVBbVVOQ3IySzdFY0U5SlJBZHFWaTQ0UVpTVUp3SHVPenlDdEt0Y1FjMHRiaktQNzdzX3d4UVNP0gF0QVVfeXFMTUx4bTYzeFR3c2V5NGltSjdiWnpIb25yeDFUZmVaeXpCMllnWkJkdml5dERlWFJSa3o0SkNZdUFtVU5DcjJLN0VjRTlKUkFkcVZpNDRRWlNVSndIdU96eUN0S3RjUWMwdGJqS1A3N3Nfd3hRU08?oc=5",
+      "title": "U/W, LOS/TPO, Workflow Automation, AI Risk, Education Tools; MBS and MSR Trends - Mortgage News Daily",
+      "summary": "U/W, LOS/TPO, Workflow Automation, AI Risk, Education Tools; MBS and MSR Trends Mortgage News Daily",
+      "source": "Mortgage News Daily",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MeG02M3hUd3NleTRpbUo3Ylp6SG9ucngxVGZlWnl6QjJZZ1pCZHZpeXREZVhSUmt6NEpDWXVBbVVOQ3IySzdFY0U5SlJBZHFWaTQ0UVpTVUp3SHVPenlDdEt0Y1FjMHRiaktQNzdzX3d4UVNP0gF0QVVfeXFMTUx4bTYzeFR3c2V5NGltSjdiWnpIb25yeDFUZmVaeXpCMllnWkJkdml5dERlWFJSa3o0SkNZdUFtVU5DcjJLN0VjRTlKUkFkcVZpNDRRWlNVSndIdU96eUN0S3RjUWMwdGJqS1A3N3Nfd3hRU08?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
+      "normalized_title": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUpqN0FqRnpmQTdHbE9acDJuRVJPaXNNa0dZdFpGMkQ0Q0ZDVldfckg3bHNwU1dKUGR0ZTJEaTBvb282VTdtTW9yVUV3OHFLLTZlYU5XNUttNWN1bFFOYWZXbkdfY3NXRVl4aTBjaWxKeTVtU1pSRVZxSlBfMXRLSkwtQUxUVldQ?oc=5",
+      "title": "Ugreen Launches HomeAgent AI Hubs and Liquid-Cooled Qi2 Charger - MacRumors",
+      "summary": "Ugreen Launches HomeAgent AI Hubs and Liquid-Cooled Qi2 Charger MacRumors",
+      "source": "MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUpqN0FqRnpmQTdHbE9acDJuRVJPaXNNa0dZdFpGMkQ0Q0ZDVldfckg3bHNwU1dKUGR0ZTJEaTBvb282VTdtTW9yVUV3OHFLLTZlYU5XNUttNWN1bFFOYWZXbkdfY3NXRVl4aTBjaWxKeTVtU1pSRVZxSlBfMXRLSkwtQUxUVldQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
+      "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
+      "title": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 - 金十数据",
+      "summary": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 金十数据",
+      "source": "金十数据",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "project hydrafusion frontier quality via multi",
+      "normalized_title": "project hydrafusion frontier quality via multi",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "summary": "Providing developers the best model for the task at hand has always been our goal. Earlier this year, we made that easier by launching Auto model selection, which reviews your task and matches it to the best-suited model for that task. Today, we’re introducing Project HydraFusion, a research previe…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "cloud",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cloud",
+          "cloud_platform",
+          "coding_agent",
+          "company_research",
+          "research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
