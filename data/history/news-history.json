@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T07:17:12.251159+08:00",
+  "updated_at": "2026-09-04T08:03:14.973967+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5429,7 +5429,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-03",
@@ -5462,7 +5462,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-03",
@@ -5497,7 +5497,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-03",
@@ -5538,7 +5538,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-03",
@@ -5574,7 +5574,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }

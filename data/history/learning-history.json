@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T07:17:12.251159+08:00",
+  "updated_at": "2026-09-04T08:03:14.973967+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -469,6 +469,50 @@
           "official",
           "terminal",
           "workflow"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-03",
+      "canonical_key": "build agent",
+      "normalized_title": "build agent",
+      "normalized_link": "https://www.youtube.com/watch?v=Is2NHa7awWY",
+      "title": "Build agent-ready sites with WebMCP",
+      "summary": "Eric Provencher from OpenAI Developer Experience demonstrates WebMCP support in Codex with Codex Modeling Studio, a 3D modeling site designed for people and agents to use together. See how adding tools directly to a website lets Codex discover capabilities, iterate on visuals, capture feedback, and…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=Is2NHa7awWY",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Tool Calling",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "mcp",
+        "tools"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "mcp",
+          "tools"
         ]
       },
       "seen_count": 1
