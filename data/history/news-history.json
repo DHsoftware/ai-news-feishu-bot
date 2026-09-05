@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T08:01:36.620002+08:00",
+  "updated_at": "2026-09-06T06:54:54.753010+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -118,157 +118,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-05",
-      "canonical_key": "how the github legal team used copilot cli to streamline their workflows",
-      "normalized_title": "how the github legal team used copilot cli to streamline their workflows",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
-      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-      "summary": "Whether you are just starting out or are not in a technical role at all, you likely already have the skills you need to build your own tools. If you have ever thought “I’m not technical enough to build that,” this post is for you. Let me introduce the team. We are lawyers, program managers, and bus…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog",
-          "terminal"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-05",
-      "canonical_key": "openai hugging face aftermath what it means for ai agent security",
-      "normalized_title": "openai hugging face aftermath what it means for ai agent security",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFE1Y3Qtb1Vobkd4M01ZZ0RmLVYzczJhUDRhcXNRNVBpc2tfWVdJUzJJLTNzYmlKNWh0RGJ2a0VEeURobFlSTUVjQmx4SkJmSXNXMEJfMHdBMTNZOHY3eElpZzEzZUg4VE1vc25uRV9IMG82LXRKS1lnRGRteVpXQ0wtRmptSkNqOG1tTXR5OUlOcWx6Y3FyRHhpbw?oc=5",
-      "title": "OpenAI/Hugging Face Aftermath: What It Means for AI Agent Security - UC Today",
-      "summary": "OpenAI/Hugging Face Aftermath: What It Means for AI Agent Security UC Today",
-      "source": "UC Today",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFE1Y3Qtb1Vobkd4M01ZZ0RmLVYzczJhUDRhcXNRNVBpc2tfWVdJUzJJLTNzYmlKNWh0RGJ2a0VEeURobFlSTUVjQmx4SkJmSXNXMEJfMHdBMTNZOHY3eElpZzEzZUg4VE1vc25uRV9IMG82LXRKS1lnRGRteVpXQ0wtRmptSkNqOG1tTXR5OUlOcWx6Y3FyRHhpbw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "security",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "security",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-05",
-      "canonical_key": "249元 小米有品众筹ai彩屏磁吸充电宝 自带3 87英寸彩色墨水屏",
-      "normalized_title": "249元 小米有品众筹ai彩屏磁吸充电宝 自带3 87英寸彩色墨水屏",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oN2F2R290c0JoU0JvRWxNbVhhaDhwcXpIV2hxVW5uLVBMbTFQWl81TFBrMl9VdWoyMDhnYUV2OWFpZkdhMnpzNHYwVEIxWEg5bnlBV2hjVlc?oc=5",
-      "title": "249元！小米有品众筹AI彩屏磁吸充电宝：自带3.87英寸彩色墨水屏 - 驱动之家",
-      "summary": "249元！小米有品众筹AI彩屏磁吸充电宝：自带3.87英寸彩色墨水屏 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oN2F2R290c0JoU0JvRWxNbVhhaDhwcXpIV2hxVW5uLVBMbTFQWl81TFBrMl9VdWoyMDhnYUV2OWFpZkdhMnpzNHYwVEIxWEg5bnlBV2hjVlc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-05",
-      "canonical_key": "黑芝麻智能与正行创新达成战略合作 全力推动具身智能全球布局",
-      "normalized_title": "黑芝麻智能与正行创新达成战略合作 全力推动具身智能全球布局",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yR0NndDdjX2c0ZFNGOHlNeVpvemIwQ1haWVlDQTlWUnFWYnZoeVFCMmNUbWRoNjhuek9GNFYwSVNzaURaUVRoNGxKVXJPU2luRlI2dmZSM0VDQQ?oc=5",
-      "title": "黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局 - 黑芝麻智能",
-      "summary": "黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局 黑芝麻智能",
-      "source": "黑芝麻智能",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yR0NndDdjX2c0ZFNGOHlNeVpvemIwQ1haWVlDQTlWUnFWYnZoeVFCMmNUbWRoNjhuek9GNFYwSVNzaURaUVRoNGxKVXJPU2luRlI2dmZSM0VDQQ?oc=5",
-      "category": "官方研究",
-      "region": "china",
-      "source_group": "technical_report",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "black_sesame"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "robotics"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-05",
@@ -5376,7 +5225,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-05",
       "canonical_key": "building games with astra",
       "normalized_title": "building games with astra",
       "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
@@ -5411,7 +5260,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5452,7 +5301,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-05",
       "canonical_key": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
       "normalized_title": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
       "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUpqN0FqRnpmQTdHbE9acDJuRVJPaXNNa0dZdFpGMkQ0Q0ZDVldfckg3bHNwU1dKUGR0ZTJEaTBvb282VTdtTW9yVUV3OHFLLTZlYU5XNUttNWN1bFFOYWZXbkdfY3NXRVl4aTBjaWxKeTVtU1pSRVZxSlBfMXRLSkwtQUxUVldQ?oc=5",
@@ -5483,7 +5332,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5688,6 +5537,117 @@
         "topics": [
           "policy_regulation",
           "regulation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-05",
+      "last_seen_date": "2026-09-05",
+      "canonical_key": "servicenow now becomes core partner in multi agent ai workflow push",
+      "normalized_title": "servicenow now becomes core partner in multi agent ai workflow push",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHZIOUFEOGdEYTlOdjZZU2ZjZnk2LTJNUlF0TnJQRzN2My1mMFZwc2RmVFdhczhGZU9xcU1jTEtPQ0F2Wm1sZDRSR1hRQm9GYWdBUWhTWkJZek9pYW9VUTVLRTFzXzE0ck9mcUJxRi1ZZGJvcGh1LUtPQVBWOUtEN2dsV0Q3a3RwdlR3QzRJd0xCQjViT2t2QUw1YkpaVGJ1NTdIQTVEWkV2SFVzZFdZbzZrZF9TZm5FNUdTWWE2cHdhdHFyVHcwcHVR0gHKAUFVX3lxTE1Udkg5QUQ4Z0RhOU52NllTZmNmeTYtMk1SUXROclBHM3YzLWYwVnBzZGZUV2FzOEZlT3FxTWNMS09DQXZabWxkNFJHWFFCb0ZhZ0FRaFNaQll6T2lhb1VRNUtFMXNfMTRyT2ZxQnFGLVlkYm9waHUtS09BUFY5S0Q3Z2xXRDdrdHB2VHdDNEl3TEJCNWJPa3ZBTDViSlpUYnU1N0hBNURaRXZIVXNkV1lvNmtkX1NmbkU1R1NZYTZwd2F0cXJUdzBwdVE?oc=5",
+      "title": "ServiceNow (NOW) Becomes Core Partner In Multi Agent AI Workflow Push - simplywall.st",
+      "summary": "ServiceNow (NOW) Becomes Core Partner In Multi Agent AI Workflow Push simplywall.st",
+      "source": "simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHZIOUFEOGdEYTlOdjZZU2ZjZnk2LTJNUlF0TnJQRzN2My1mMFZwc2RmVFdhczhGZU9xcU1jTEtPQ0F2Wm1sZDRSR1hRQm9GYWdBUWhTWkJZek9pYW9VUTVLRTFzXzE0ck9mcUJxRi1ZZGJvcGh1LUtPQVBWOUtEN2dsV0Q3a3RwdlR3QzRJd0xCQjViT2t2QUw1YkpaVGJ1NTdIQTVEWkV2SFVzZFdZbzZrZF9TZm5FNUdTWWE2cHdhdHFyVHcwcHVR0gHKAUFVX3lxTE1Udkg5QUQ4Z0RhOU52NllTZmNmeTYtMk1SUXROclBHM3YzLWYwVnBzZGZUV2FzOEZlT3FxTWNMS09DQXZabWxkNFJHWFFCb0ZhZ0FRaFNaQll6T2lhb1VRNUtFMXNfMTRyT2ZxQnFGLVlkYm9waHUtS09BUFY5S0Q3Z2xXRDdrdHB2VHdDNEl3TEJCNWJPa3ZBTDViSlpUYnU1N0hBNURaRXZIVXNkV1lvNmtkX1NmbkU1R1NZYTZwd2F0cXJUdzBwdVE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "st"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-05",
+      "last_seen_date": "2026-09-05",
+      "canonical_key": "openai astra用了10万张nvidia显卡 需100亿美元费用 国产大模型太难追了",
+      "normalized_title": "openai astra用了10万张nvidia显卡 需100亿美元费用 国产大模型太难追了",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTEJ4a2hrWE52X3RoUERpYmU1b01IWXlXSTAwSV9WWnFBTWNJaDJWMEFma0tfdGdZR2tHX2lza3dySXUyeG1heHBFektWc0ZaVnEyYV83ZVc?oc=5",
+      "title": "OpenAI Astra用了10万张NVIDIA显卡：需100亿美元费用 国产大模型太难追了 - 驱动之家",
+      "summary": "OpenAI Astra用了10万张NVIDIA显卡：需100亿美元费用 国产大模型太难追了 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTEJ4a2hrWE52X3RoUERpYmU1b01IWXlXSTAwSV9WWnFBTWNJaDJWMEFma0tfdGdZR2tHX2lza3dySXUyeG1heHBFektWc0ZaVnEyYV83ZVc?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "llm",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-05",
+      "last_seen_date": "2026-09-05",
+      "canonical_key": "architectural visualization with astra",
+      "normalized_title": "architectural visualization with astra",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cGtLX2h1Q1RKZ0JRenZrTTIwMEt6NEZoMzhhMEVHTnlKUVFOdlI0OUt4czQyUlVqZXRyWkhMbzZXWk5nMXBwamQ2OFFqMWM5WU1vMjlqMlZaWnpXYXgzRDdUcTFubHFEOFY5bXYwUXJuN1hIM3FQTk4zNVM4QQ?oc=5",
+      "title": "Architectural visualization with Astra - OpenAI Developers",
+      "summary": "Architectural visualization with Astra OpenAI Developers",
+      "source": "OpenAI Developers",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cGtLX2h1Q1RKZ0JRenZrTTIwMEt6NEZoMzhhMEVHTnlKUVFOdlI0OUt4czQyUlVqZXRyWkhMbzZXWk5nMXBwamQ2OFFqMWM5WU1vMjlqMlZaWnpXYXgzRDdUcTFubHFEOFY5bXYwUXJuN1hIM3FQTk4zNVM4QQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
