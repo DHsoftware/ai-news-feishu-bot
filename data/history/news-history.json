@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T07:03:06.340321+08:00",
+  "updated_at": "2026-09-05T08:01:36.620002+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5558,6 +5558,136 @@
           "company_research",
           "research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "how to carry user identity across federated kubernetes and ai platforms",
+      "normalized_title": "how to carry user identity across federated kubernetes and ai platforms",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms",
+      "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
+      "summary": "Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook... Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed d…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "openai s rogue agents keep escaping with no formal process to investigate them",
+      "normalized_title": "openai s rogue agents keep escaping with no formal process to investigate them",
+      "normalized_link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "incident",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "microsoft says virtually nobody was grabbing nyt articles through its chatbot",
+      "normalized_title": "microsoft says virtually nobody was grabbing nyt articles through its chatbot",
+      "normalized_link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors . As part of…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-04",
+      "canonical_key": "what will apple s john ternus era look like",
+      "normalized_title": "what will apple s john ternus era look like",
+      "normalized_link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like",
+      "title": "What will Apple’s John Ternus era look like?",
+      "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far,…",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "policy_regulation",
+          "regulation"
         ]
       },
       "seen_count": 1
