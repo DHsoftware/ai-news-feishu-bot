@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-07T06:53:40.907966+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 13,
+    "history_size_after": 12,
+    "history_duplicate_count": 9
+  },
+  "raw_item_count": 67,
+  "deduped_item_count": 23,
+  "filtered_item_count": 3,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Integrations and observability | OpenAI API",
+      "link": "https://developers.openai.com/api/docs/guides/agents/integrations-observability",
+      "source": "OpenAI Developers",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_source": "official_static_summary",
+      "summary_quality": "high",
+      "is_official_source": true,
+      "summary": "OpenAI official guide on tracing, debugging, integrations, and observability for agent workflows.",
+      "tags": [
+        "agent",
+        "agent_workflow",
+        "debugging",
+        "integrations",
+        "mcp",
+        "observability",
+        "official",
+        "tracing"
+      ],
+      "published_at": "2026-09-07T06:53:40.907966+08:00",
+      "language": "en",
+      "region": "global",
+      "source_group": "official_agent_concept",
+      "score": 128,
+      "concept_hint": "Agent Workflow",
+      "canonical_key": "integrations and observability",
+      "dedupe_key": "integrations and observability",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 44,
+    "history_duplicate": 9,
+    "same_source_limit": 0,
+    "old_resource": 11,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}

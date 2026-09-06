@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T07:52:38.095057+08:00",
+  "updated_at": "2026-09-07T06:53:40.907966+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -118,232 +118,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-05",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "anthropic s ai used fake identities malware in rogue attack on github project",
-      "normalized_title": "anthropic s ai used fake identities malware in rogue attack on github project",
-      "normalized_link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
-      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "summary": "Routine cybersecurity testing of frontier AI models sparked a series of unexpected security incidents—the most serious case arising when Anthropic’s Mythos 5 model attempted to insert malicious code into an open source software application and created fake identities to deceive the human developers…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "opensource",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "opensource",
-          "research",
-          "security"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-08-06",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "nvidia vera storage benchmarks faster encryption compression integrity checking and recovery for ai",
-      "normalized_title": "nvidia vera storage benchmarks faster encryption compression integrity checking and recovery for ai",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage",
-      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
-      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,... Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "benchmark",
-        "company_research",
-        "technical_blog",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [
-          "vera"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "benchmark",
-          "company_research",
-          "technical_blog",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-06",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "lh1153雷火电竞官网 ai数字孪生驱动精密制造 封装良率突破99 7 能耗降低35 tgbus",
-      "normalized_title": "lh1153雷火电竞官网 ai数字孪生驱动精密制造 封装良率突破99 7 能耗降低35 tgbus",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCNkNBaTdnR0RqZGF1UWhXWjF3alU1eDQ4bERsLVBBRUJkMFJNNTlHYjlnMkg3TEk4VmJHOVZpWWhDV0xES3ppNWc5YkdtNDgyWEYwc2x3?oc=5",
-      "title": "LH1153雷火电竞官网：AI数字孪生驱动精密制造，封装良率突破99.7% 能耗降低35%-TGBUS - 电玩巴士",
-      "summary": "LH1153雷火电竞官网：AI数字孪生驱动精密制造，封装良率突破99.7% 能耗降低35%-TGBUS 电玩巴士",
-      "source": "电玩巴士",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCNkNBaTdnR0RqZGF1UWhXWjF3alU1eDQ4bERsLVBBRUJkMFJNNTlHYjlnMkg3TEk4VmJHOVZpWWhDV0xES3ppNWc5YkdtNDgyWEYwc2x3?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "digital_twin",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "digital_twin",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-06",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "当ai开始 自作主张 谁为智能体戴上 项圈",
-      "normalized_title": "当ai开始 自作主张 谁为智能体戴上 项圈",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85QlVqVXdoNEVucUFWME5Xb29wUUtyR09vM1hGeWthcDZYQUhuREZGZWgzNi1vWlllM3ZVUGJNSlM5eUtOSzlLQ3NhRzhEWVE3OFB1cmxpWERHOXA3UUNpRA?oc=5",
-      "title": "当AI开始“自作主张”，谁为智能体戴上“项圈”？ - thepaper.cn",
-      "summary": "当AI开始“自作主张”，谁为智能体戴上“项圈”？ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85QlVqVXdoNEVucUFWME5Xb29wUUtyR09vM1hGeWthcDZYQUhuREZGZWgzNi1vWlllM3ZVUGJNSlM5eUtOSzlLQ3NhRzhEWVE3OFB1cmxpWERHOXA3UUNpRA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-06",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "meta正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
-      "normalized_title": "meta正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56STJ6S3ZNdjFSYkJkdWpaQ0pYTEJfMTkyQmpBNk9OajM2bW9YbHlNek1SX3BxR0RNT2dZc1h6TVhVMVQ0bTI2Nk9BQ20?oc=5",
-      "title": "Meta正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 - baijing.cn",
-      "summary": "Meta正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 baijing.cn",
-      "source": "baijing.cn",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56STJ6S3ZNdjFSYkJkdWpaQ0pYTEJfMTkyQmpBNk9OajM2bW9YbHlNek1SX3BxR0RNT2dZc1h6TVhVMVQ0bTI2Nk9BQ20?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-06",
-      "last_seen_date": "2026-08-06",
-      "canonical_key": "meta s muse code is yet another ai coding agent on macos",
-      "normalized_title": "meta s muse code is yet another ai coding agent on macos",
-      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcGJxd1poczRpUHh1VkdScmxmaURLQVZlTllpZEVxSExYT1ZaMnl5NjdBYWJNVkdZYUhYMEtudy1xcG9wTlJ6T1FqMnBTejVfa0JIUHFxcWZOZF91a09tYlh5T3loOWg3d0xGNF83X2h2S20wOEM5aHNaRHNjWWtPQzF2ajZsOFVUdlZid2JyNHl5dDlmTzk2bmhqZnp3Rzg?oc=5",
-      "title": "Meta's Muse Code is yet another AI coding agent on macOS - AppleInsider",
-      "summary": "Meta's Muse Code is yet another AI coding agent on macOS AppleInsider",
-      "source": "AppleInsider",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcGJxd1poczRpUHh1VkdScmxmaURLQVZlTllpZEVxSExYT1ZaMnl5NjdBYWJNVkdZYUhYMEtudy1xcG9wTlJ6T1FqMnBTejVfa0JIUHFxcWZOZF91a09tYlh5T3loOWg3d0xGNF83X2h2S20wOEM5aHNaRHNjWWtPQzF2ajZsOFVUdlZid2JyNHl5dDlmTzk2bmhqZnp3Rzg?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-07",
@@ -5651,6 +5425,174 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-06",
+      "canonical_key": "research acceleration the view inside openai",
+      "normalized_title": "research acceleration the view inside openai",
+      "normalized_link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-06",
+      "canonical_key": "the techbeat your ai productivity gains are creating a talent crisis 9 6 2026",
+      "normalized_title": "the techbeat your ai productivity gains are creating a talent crisis 9 6 2026",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
+      "title": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026) - HackerNoon",
+      "summary": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026) HackerNoon",
+      "source": "HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-06",
+      "canonical_key": "jdb电子夺宝技术研讨会在深圳成功举办 聚焦ai音频与热管理创新 体坛网_体坛",
+      "normalized_title": "jdb电子夺宝技术研讨会在深圳成功举办 聚焦ai音频与热管理创新 体坛网_体坛",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02U2tLMDVySm5ZdEZLTllDcldUbEF3T2p4YzdoQWZCUXFJcFRkMlRsUnRxenF3bkVDTS1jQ05tUFZxR1hnb1hVMjZTSmQ2WWhYSDQxWVZSellmZ3l0SVhGaGpDR3hfYXFNakRyT2J3?oc=5",
+      "title": "jdb电子夺宝技术研讨会在深圳成功举办：聚焦AI音频与热管理创新-体坛网_体坛+ - 体坛",
+      "summary": "jdb电子夺宝技术研讨会在深圳成功举办：聚焦AI音频与热管理创新-体坛网_体坛+ 体坛",
+      "source": "体坛",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02U2tLMDVySm5ZdEZLTllDcldUbEF3T2p4YzdoQWZCUXFJcFRkMlRsUnRxenF3bkVDTS1jQ05tUFZxR1hnb1hVMjZTSmQ2WWhYSDQxWVZSellmZ3l0SVhGaGpDR3hfYXFNakRyT2J3?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "thermal_management"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "thermal_management"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-06",
+      "canonical_key": "2大关键处仍被卡 国产ai芯片还在追赶3年前的nvidia显卡",
+      "normalized_title": "2大关键处仍被卡 国产ai芯片还在追赶3年前的nvidia显卡",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9adUNjUFl4Rlptd3IxUTI5RHo3T3I0YnliOWpucml2cDdxVlAxa3U4X1VkYlJNRVZkVllzTTFpRW9wOXRmZ01lT1VZclBjMkhjVGlwQ3E5Mno?oc=5",
+      "title": "2大关键处仍被卡：国产AI芯片还在追赶3年前的NVIDIA显卡 - 驱动之家",
+      "summary": "2大关键处仍被卡：国产AI芯片还在追赶3年前的NVIDIA显卡 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9adUNjUFl4Rlptd3IxUTI5RHo3T3I0YnliOWpucml2cDdxVlAxa3U4X1VkYlJNRVZkVllzTTFpRW9wOXRmZ01lT1VZclBjMkhjVGlwQ3E5Mno?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-06",
+      "canonical_key": "an alien mind",
+      "normalized_title": "an alien mind",
+      "normalized_link": "https://openai.com/index/an-alien-mind",
+      "title": "An Alien Mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/an-alien-mind",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
