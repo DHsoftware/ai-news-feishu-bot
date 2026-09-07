@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T06:53:40.907966+08:00",
+  "updated_at": "2026-09-07T07:50:52.493726+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5462,7 +5462,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5499,7 +5499,7 @@
           "org_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5532,7 +5532,7 @@
           "thermal_management"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5561,7 +5561,7 @@
           "chip"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5592,7 +5592,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
