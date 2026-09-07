@@ -1,45 +1,8 @@
 {
-  "updated_at": "2026-09-07T07:50:52.493726+08:00",
+  "updated_at": "2026-09-08T07:30:06.209812+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-07-27",
-      "last_seen_date": "2026-08-07",
-      "canonical_key": "six agent harness capabilities for higher model performance",
-      "normalized_title": "six agent harness capabilities for higher model performance",
-      "normalized_link": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance",
-      "title": "Six Agent Harness Capabilities for Higher Model Performance",
-      "summary": "Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes... Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it render…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "benchmark",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "benchmark",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 6
-    },
     {
       "first_seen_date": "2026-07-28",
       "last_seen_date": "2026-08-20",
@@ -118,154 +81,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-07",
-      "last_seen_date": "2026-08-07",
-      "canonical_key": "鱼泡直聘加码技术研发 以ai推动招聘行业走向全流程自动化",
-      "normalized_title": "鱼泡直聘加码技术研发 以ai推动招聘行业走向全流程自动化",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qLXRscUVvaV85UExySGQ2clZ2a095RFVsSGNmSlpuSkZMTmhHUGg5WW9wbzZRS21BQXBFbEtjbEFvYjZ1eXZxeFJkVkJhNzdGWVFjSVBlNG9WdDZzU0E?oc=5",
-      "title": "鱼泡直聘加码技术研发，以AI推动招聘行业走向全流程自动化 - 中华网",
-      "summary": "鱼泡直聘加码技术研发，以AI推动招聘行业走向全流程自动化 中华网",
-      "source": "中华网",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qLXRscUVvaV85UExySGQ2clZ2a095RFVsSGNmSlpuSkZMTmhHUGg5WW9wbzZRS21BQXBFbEtjbEFvYjZ1eXZxeFJkVkJhNzdGWVFjSVBlNG9WdDZzU0E?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-07",
-      "last_seen_date": "2026-08-07",
-      "canonical_key": "wolfspeed and liteon partner to support hyperscale ai data center deployments with 800 vdc power solutions",
-      "normalized_title": "wolfspeed and liteon partner to support hyperscale ai data center deployments with 800 vdc power solutions",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2hmU20tSzZoSy16bzRSVF9RLS1EWUwydEhWR3Z1b3JRNk1sY2RwRlBTenBfbl9FT2pfaDFwYTdNTThMSnlFMmpmUUxvV3ZYdFNxU1ZwSWtXT0gza0lZQmxKV0o5MFRIX2hTSXJyNEsxTWE4WnhkaFlweFc5cXNKeUNrdWdhRmx2bVZoMm5EaTUzYmQ5OHZDWkVQa2h4Y0lfWGptZTVOWjZxaTFUTWtqZUVuLXlOYldIQk95LWd3aHd1Z29ScndkQmRkVXlrN2d5a3pnX3lZa2VFTUY2YVFQNTFXRGR2bnlhZFNpWXFUZw?oc=5",
-      "title": "Wolfspeed and LITEON Partner to Support Hyperscale AI Data Center Deployments with 800 VDC Power Solutions - Wolfspeed",
-      "summary": "Wolfspeed and LITEON Partner to Support Hyperscale AI Data Center Deployments with 800 VDC Power Solutions Wolfspeed",
-      "source": "Wolfspeed",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2hmU20tSzZoSy16bzRSVF9RLS1EWUwydEhWR3Z1b3JRNk1sY2RwRlBTenBfbl9FT2pfaDFwYTdNTThMSnlFMmpmUUxvV3ZYdFNxU1ZwSWtXT0gza0lZQmxKV0o5MFRIX2hTSXJyNEsxTWE4WnhkaFlweFc5cXNKeUNrdWdhRmx2bVZoMm5EaTUzYmQ5OHZDWkVQa2h4Y0lfWGptZTVOWjZxaTFUTWtqZUVuLXlOYldIQk95LWd3aHd1Z29ScndkQmRkVXlrN2d5a3pnX3lZa2VFTUY2YVFQNTFXRGR2bnlhZFNpWXFUZw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "sic",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "wolfspeed"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "sic",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-07",
-      "last_seen_date": "2026-08-07",
-      "canonical_key": "meta meta us 正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
-      "normalized_title": "meta meta us 正面硬刚openai与anthropic 发布首个ai编程智能体muse code 主打低价与 崩溃恢复 能力",
-      "normalized_link": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOYTJsNFZnQV96TUtuVFFnaVRIQ05GSjFVcTlyTUFkS2tTMDRPc0x6YjQzRW5nWDN4eG10bXprcTdENmRVX2daWk5EeDZSb2M4OV9YNjFpd1l4SmtEbzVMdGdDdFlLZG1Sb2VGSUdTYWhXNGFNYk9KTERBdWdPcW8yUGRNZFU5TldxSmplOXVKVlZvUVpSOTdQRUxFTUZBQnBsWG5EcFdFMkIxRURCQXo1dnM5WmZqVG1ET2gyb2Raa0dqbEk4bERPZ0lTblNycnhualpuYnd0bi1Pei1QUXhhcGYzMXF1QXZXWkhOOC12VUtFaW5mYVZVYnBkbWl3WXYzRWtzNVotaFZQT29EcXNwZkEwXzlrUVIxbTVlbGdDTnVfLWVNa25vLTFpQndiSEwwRUxVeWM0aFZuaXlpU2x2SXhaSUIyRHcyNkI4T3JjOHdmbm53QjhVVUc5cm1XUmMzU2tNdkd6aGhXWXVQSHZ3QkZQbHItR1RwSWdtRjZzNlhlSVUzZnNHQ0h1V2Q2eHNleGd0NXV4S3VSc2llX2NCeHpEQUppTTNDYThsQ0hGelFfb1F4VEpkZHJlcFl0Vllzb1pnaVdaMm1jQzZ5SjZBdDNjY2NPQWZ6X2JxUHhhN0h4RzBVVnpZcndwTzdIZk9XNzUwYWxIUzJtSEpJQkpsSTJlVmEzSXRhdW13Qlh3Z3RJQQ?oc=5",
-      "title": "Meta(META.US)正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 - 新浪财经",
-      "summary": "Meta(META.US)正面硬刚OpenAI与Anthropic：发布首个AI编程智能体Muse Code，主打低价与“崩溃恢复”能力 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMikgRBVV95cUxOYTJsNFZnQV96TUtuVFFnaVRIQ05GSjFVcTlyTUFkS2tTMDRPc0x6YjQzRW5nWDN4eG10bXprcTdENmRVX2daWk5EeDZSb2M4OV9YNjFpd1l4SmtEbzVMdGdDdFlLZG1Sb2VGSUdTYWhXNGFNYk9KTERBdWdPcW8yUGRNZFU5TldxSmplOXVKVlZvUVpSOTdQRUxFTUZBQnBsWG5EcFdFMkIxRURCQXo1dnM5WmZqVG1ET2gyb2Raa0dqbEk4bERPZ0lTblNycnhualpuYnd0bi1Pei1QUXhhcGYzMXF1QXZXWkhOOC12VUtFaW5mYVZVYnBkbWl3WXYzRWtzNVotaFZQT29EcXNwZkEwXzlrUVIxbTVlbGdDTnVfLWVNa25vLTFpQndiSEwwRUxVeWM0aFZuaXlpU2x2SXhaSUIyRHcyNkI4T3JjOHdmbm53QjhVVUc5cm1XUmMzU2tNdkd6aGhXWXVQSHZ3QkZQbHItR1RwSWdtRjZzNlhlSVUzZnNHQ0h1V2Q2eHNleGd0NXV4S3VSc2llX2NCeHpEQUppTTNDYThsQ0hGelFfb1F4VEpkZHJlcFl0Vllzb1pnaVdaMm1jQzZ5SjZBdDNjY2NPQWZ6X2JxUHhhN0h4RzBVVnpZcndwTzdIZk9XNzUwYWxIUzJtSEpJQkpsSTJlVmEzSXRhdW13Qlh3Z3RJQQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-07",
-      "last_seen_date": "2026-08-07",
-      "canonical_key": "openai puts the brakes on a new model because it s supposedly too powerful",
-      "normalized_title": "openai puts the brakes on a new model because it s supposedly too powerful",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face . Anthropic and Meta have…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-08",
@@ -5428,7 +5243,7 @@
     },
     {
       "first_seen_date": "2026-09-06",
-      "last_seen_date": "2026-09-06",
+      "last_seen_date": "2026-09-07",
       "canonical_key": "research acceleration the view inside openai",
       "normalized_title": "research acceleration the view inside openai",
       "normalized_link": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -5462,7 +5277,7 @@
           "research"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5593,6 +5408,138 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-07",
+      "last_seen_date": "2026-09-07",
+      "canonical_key": "18个月生产力翻倍 缺陷率降65 ai重构软件开发全流程 组织变革是关键",
+      "normalized_title": "18个月生产力翻倍 缺陷率降65 ai重构软件开发全流程 组织变革是关键",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Zd1ZLTWVxSzB4Sk0tTVc2NDZVRlkxRVlVWFpKMjdOV0F2Ty13anJqNUdwYjVfYU05NC1yYkZ4QWtqQmhrdDg0Z2RqNjRFbkxteXJKMnFTenhqOUxncHByVmxoSjkzNGVDQWlN?oc=5",
+      "title": "18个月生产力翻倍、缺陷率降65%！AI重构软件开发全流程，组织变革是关键 - blog.csdn.net",
+      "summary": "18个月生产力翻倍、缺陷率降65%！AI重构软件开发全流程，组织变革是关键 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Zd1ZLTWVxSzB4Sk0tTVc2NDZVRlkxRVlVWFpKMjdOV0F2Ty13anJqNUdwYjVfYU05NC1yYkZ4QWtqQmhrdDg0Z2RqNjRFbkxteXJKMnFTenhqOUxncHByVmxoSjkzNGVDQWlN?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "org_productivity",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "org_productivity",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-07",
+      "last_seen_date": "2026-09-07",
+      "canonical_key": "java annotated monthly september 2026",
+      "normalized_title": "java annotated monthly september 2026",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ3N4eFFET2F6UjFEM0ZLSmdYVldrOU5kTzkxQTg0UDhYTlkwd3k3Vmx6NEtqc3k2dVJUeS1OUk5VNzJ4MC1Qeno4MjVvUVAwSkUzYy1KVmFzUDJHMzEzZ3ljaEE2LU9zOHVicF9hSkpIMnhXVnJyZjltV0Izd1hndlJzZWU?oc=5",
+      "title": "Java Annotated Monthly – September 2026 - The JetBrains Blog",
+      "summary": "Java Annotated Monthly – September 2026 The JetBrains Blog",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ3N4eFFET2F6UjFEM0ZLSmdYVldrOU5kTzkxQTg0UDhYTlkwd3k3Vmx6NEtqc3k2dVJUeS1OUk5VNzJ4MC1Qeno4MjVvUVAwSkUzYy1KVmFzUDJHMzEzZ3ljaEE2LU9zOHVicF9hSkpIMnhXVnJyZjltV0Izd1hndlJzZWU?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-07",
+      "last_seen_date": "2026-09-07",
+      "canonical_key": "openai承认ai智能体入侵维基事件 将出台错位行为披露新规",
+      "normalized_title": "openai承认ai智能体入侵维基事件 将出台错位行为披露新规",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tc1pZbjVRM0RhRjZjbFpfMlpzeEtoOTFzVVlOS3hnMV9uaGxJRjgxUjRnMURBY3Nuell3d1Vac3g1QjVOVzhDc2ZITEl1Y1FlLUhIbndWRjc3cUZXd24xT1lZR2p0LVNpXzY0?oc=5",
+      "title": "OpenAI承认AI智能体入侵维基事件，将出台错位行为披露新规 - blog.csdn.net",
+      "summary": "OpenAI承认AI智能体入侵维基事件，将出台错位行为披露新规 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tc1pZbjVRM0RhRjZjbFpfMlpzeEtoOTFzVVlOS3hnMV9uaGxJRjgxUjRnMURBY3Nuell3d1Vac3g1QjVOVzhDc2ZITEl1Y1FlLUhIbndWRjc3cUZXd24xT1lZR2p0LVNpXzY0?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-07",
+      "last_seen_date": "2026-09-07",
+      "canonical_key": "authors push back as publishers and agents make claims on anthropic settlement",
+      "normalized_title": "authors push back as publishers and agents make claims on anthropic settlement",
+      "normalized_link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
