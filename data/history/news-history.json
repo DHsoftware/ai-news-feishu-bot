@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T08:22:32.114425+08:00",
+  "updated_at": "2026-09-09T07:24:02.704338+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -84,76 +84,6 @@
     },
     {
       "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-08",
-      "canonical_key": "ai agents on the factory floor moving from copilots to closed loop decision making",
-      "normalized_title": "ai agents on the factory floor moving from copilots to closed loop decision making",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNckJueEpaVjJMXzVUZzk1VTdmVE9hMEp1amJDVGtoOWEwTWI5UTBwYUFtaDhtY1hveGV5UFZOc0J6UWYzZWM4VjJHcnNyR0FFam5WdUNiaHMycXFObWxXWkQzenNFZXBtSG5tRWo4eEZZeU45ckJTR1ZHcHdoalc1bFpEWEJVUHZkYmpSdHkyX2cxVzJFQ1RHQ01HSm1wT3VqRGgtMzZaVjBKcVJjYnlsUQ?oc=5",
-      "title": "AI Agents on the Factory Floor: Moving From Copilots to Closed-Loop Decision-Making - BizTech Magazine",
-      "summary": "AI Agents on the Factory Floor: Moving From Copilots to Closed-Loop Decision-Making BizTech Magazine",
-      "source": "BizTech Magazine",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNckJueEpaVjJMXzVUZzk1VTdmVE9hMEp1amJDVGtoOWEwTWI5UTBwYUFtaDhtY1hveGV5UFZOc0J6UWYzZWM4VjJHcnNyR0FFam5WdUNiaHMycXFObWxXWkQzenNFZXBtSG5tRWo4eEZZeU45ckJTR1ZHcHdoalc1bFpEWEJVUHZkYmpSdHkyX2cxVzJFQ1RHQ01HSm1wT3VqRGgtMzZaVjBKcVJjYnlsUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-08",
-      "canonical_key": "前瞻洞察 48v直达1v给ai芯片供电的核心难点 低损耗路径 高频软开关 薄型磁件 宽控制带宽 封装可制造性",
-      "normalized_title": "前瞻洞察 48v直达1v给ai芯片供电的核心难点 低损耗路径 高频软开关 薄型磁件 宽控制带宽 封装可制造性",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYldrZmpxSHFNSHRpRi0zOFJNaVJ2WFF1d3RxNWszMXprOTVEUDBaREN5VHl6UzZLcG9jbnpxemg3Qi1SOGdKcnM0bWJKNXZiTzVV?oc=5",
-      "title": "[前瞻洞察] 48V直达1V给AI芯片供电的核心难点：低损耗路径、高频软开关、薄型磁件、宽控制带宽、封装可制造性 - 电子工程专辑",
-      "summary": "[前瞻洞察] 48V直达1V给AI芯片供电的核心难点：低损耗路径、高频软开关、薄型磁件、宽控制带宽、封装可制造性 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qYldrZmpxSHFNSHRpRi0zOFJNaVJ2WFF1d3RxNWszMXprOTVEUDBaREN5VHl6UzZLcG9jbnpxemg3Qi1SOGdKcnM0bWJKNXZiTzVV?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-08",
       "last_seen_date": "2026-08-09",
       "canonical_key": "firebird launches cis region s largest ai factory in armenia",
       "normalized_title": "firebird launches cis region s largest ai factory in armenia",
@@ -191,70 +121,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-08",
-      "canonical_key": "anthropic正式官宣自研 ai 芯片 采用多芯片并行发展策略",
-      "normalized_title": "anthropic正式官宣自研 ai 芯片 采用多芯片并行发展策略",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OGhWTkRnZDM3TXJTakl2QkhPN05wUXZ2akRrRmJRY1h4M0dyZ2cwSlVmbzEtMzBhWm4zSXVFMExNQnJ4ZDNWck9WSHV0NkxtR3Q2TlRWcS1iVHlhenhRdjJGREdoQlFJYlE?oc=5",
-      "title": "Anthropic正式官宣自研 AI 芯片，采用多芯片并行发展策略 - 世界互联网大会",
-      "summary": "Anthropic正式官宣自研 AI 芯片，采用多芯片并行发展策略 世界互联网大会",
-      "source": "世界互联网大会",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OGhWTkRnZDM3TXJTakl2QkhPN05wUXZ2akRrRmJRY1h4M0dyZ2cwSlVmbzEtMzBhWm4zSXVFMExNQnJ4ZDNWck9WSHV0NkxtR3Q2TlRWcS1iVHlhenhRdjJGREdoQlFJYlE?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-08",
-      "canonical_key": "responding to the next frontier of critical cyber capabilities",
-      "normalized_title": "responding to the next frontier of critical cyber capabilities",
-      "normalized_link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-09",
@@ -5540,6 +5406,195 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-08",
+      "canonical_key": "1password increases engineering productivity 21 with codex",
+      "normalized_title": "1password increases engineering productivity 21 with codex",
+      "normalized_link": "https://openai.com/index/1password",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/1password",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "engineering_productivity",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "engineering_productivity",
+          "official_report",
+          "security",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-08",
+      "canonical_key": "ai芯片热管理需求升温 鸿富诚高端导热材料加速放量冲刺创业板ipo",
+      "normalized_title": "ai芯片热管理需求升温 鸿富诚高端导热材料加速放量冲刺创业板ipo",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjakkzcy10allYbW1pVTc0eXJNeHdoVWcxRy1UVjM4WXB5T2Znc1h5OUd5RlRzcWQ4SklnT2Rjd09Lck5FaWdJZE9KSFFvdGdU?oc=5",
+      "title": "AI芯片热管理需求升温，鸿富诚高端导热材料加速放量冲刺创业板IPO - 凤凰网",
+      "summary": "AI芯片热管理需求升温，鸿富诚高端导热材料加速放量冲刺创业板IPO 凤凰网",
+      "source": "凤凰网",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjakkzcy10allYbW1pVTc0eXJNeHdoVWcxRy1UVjM4WXB5T2Znc1h5OUd5RlRzcWQ4SklnT2Rjd09Lck5FaWdJZE9KSFFvdGdU?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "thermal_management"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "thermal_management"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-08",
+      "canonical_key": "how gpt 5 6 sol helps run quantum computing experiments",
+      "normalized_title": "how gpt 5 6 sol helps run quantum computing experiments",
+      "normalized_link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-08",
+      "canonical_key": "ai coding 在大型客户端工程中的落地实践 从通才模型到专才 agent qcon 上海 infoq",
+      "normalized_title": "ai coding 在大型客户端工程中的落地实践 从通才模型到专才 agent qcon 上海 infoq",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oSm9TSU5FemJMTXdaVFNZelpFWnY1cjlZV3h3eUhYTFlsSTRkdWV0b0pobWlRNjFpQnNxZllCTldvb2lkVl9vbDlXaFZlLXoxZ3VWNHlyRUVCMGtWamc?oc=5",
+      "title": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon 上海 - InfoQ-CN",
+      "summary": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon 上海 InfoQ-CN",
+      "source": "InfoQ-CN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oSm9TSU5FemJMTXdaVFNZelpFWnY1cjlZV3h3eUhYTFlsSTRkdWV0b0pobWlRNjFpQnNxZllCTldvb2lkVl9vbDlXaFZlLXoxZ3VWNHlyRUVCMGtWamc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-08",
+      "canonical_key": "i have adhd a skill to stop coding agents from burying the answer",
+      "normalized_title": "i have adhd a skill to stop coding agents from burying the answer",
+      "normalized_link": "https://github.com/ayghri/i-have-adhd",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
