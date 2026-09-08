@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:30:06.209812+08:00",
+  "updated_at": "2026-09-08T08:22:32.114425+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5277,7 +5277,7 @@
           "research"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5440,7 +5440,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-07",
@@ -5473,7 +5473,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-07",
@@ -5510,7 +5510,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-07",
@@ -5539,7 +5539,7 @@
           "agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
