@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T08:11:13.598123+08:00",
+  "updated_at": "2026-09-10T07:15:16.446576+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -81,182 +81,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-08",
-      "last_seen_date": "2026-08-09",
-      "canonical_key": "firebird launches cis region s largest ai factory in armenia",
-      "normalized_title": "firebird launches cis region s largest ai factory in armenia",
-      "normalized_link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
-      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-      "summary": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure . Ni…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "cloud",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "release"
-        ],
-        "topics": [
-          "ai_factory",
-          "ai_research",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-09",
-      "last_seen_date": "2026-08-09",
-      "canonical_key": "智能体ai或将推动企业级ai服务器架构重新设计",
-      "normalized_title": "智能体ai或将推动企业级ai服务器架构重新设计",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtazI5UmpYeFlfSDVYVC1KeWlrOUQ2WUpWM3M1Mlk2NjdDNVlDY3VLM2dZVHNQaXRXYnpTMEdFN3NKekVubWgzbnRqRFBEM0RfaTZFcDdEN2ZPV0stZlE?oc=5",
-      "title": "智能体AI或将推动企业级AI服务器架构重新设计 - thepaper.cn",
-      "summary": "智能体AI或将推动企业级AI服务器架构重新设计 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtazI5UmpYeFlfSDVYVC1KeWlrOUQ2WUpWM3M1Mlk2NjdDNVlDY3VLM2dZVHNQaXRXYnpTMEdFN3NKekVubWgzbnRqRFBEM0RfaTZFcDdEN2ZPV0stZlE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-09",
-      "last_seen_date": "2026-08-09",
-      "canonical_key": "why pharmacovigilance is moving from workflow automation to ai assisted decision intelligence",
-      "normalized_title": "why pharmacovigilance is moving from workflow automation to ai assisted decision intelligence",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTGFqOE1MQUw2dndySUtrcFdEMExBaFd2eVhfR3BsbGlGN2ptX0JuTzEtR3JhaTBZSW03aHd6dnYwMFJJZUR4NDdjbzBYRzczQTFxaU1CZEN3UzhpNXFjVXFUem5DVnBScVVYbEtqS1VONWF5bmlleHBpaGYyN0paSW1RbXl5bmppek5jU0FBZmJ1b2o3NTk3S2tVcURQMG5TSDlnTzJHZHVqT0hhVjRSU1JucnpzUlQ2enRfNnZLd2pnaFJYa1BGS3VB?oc=5",
-      "title": "Why pharmacovigilance is moving from workflow automation to AI-assisted decision intelligence - drugdiscoverytrends.com",
-      "summary": "Why pharmacovigilance is moving from workflow automation to AI-assisted decision intelligence drugdiscoverytrends.com",
-      "source": "drugdiscoverytrends.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTGFqOE1MQUw2dndySUtrcFdEMExBaFd2eVhfR3BsbGlGN2ptX0JuTzEtR3JhaTBZSW03aHd6dnYwMFJJZUR4NDdjbzBYRzczQTFxaU1CZEN3UzhpNXFjVXFUem5DVnBScVVYbEtqS1VONWF5bmlleHBpaGYyN0paSW1RbXl5bmppek5jU0FBZmJ1b2o3NTk3S2tVcURQMG5TSDlnTzJHZHVqT0hhVjRSU1JucnpzUlQ2enRfNnZLd2pnaFJYa1BGS3VB?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-09",
-      "last_seen_date": "2026-08-09",
-      "canonical_key": "anthropic升级ai编程工具 免去开发者手动复制上下文",
-      "normalized_title": "anthropic升级ai编程工具 免去开发者手动复制上下文",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xVC0yR0Y1Znp4N04zUTZlYzd1U2Z5VzFDSzZuNEhQR1Q5dVFkTExfMzlNeFR1a2VfaWNkTFhjdnZyZUFQbFJRLXBGdjRwUU01cjJB?oc=5",
-      "title": "Anthropic升级AI编程工具，免去开发者手动复制上下文 - 环球网",
-      "summary": "Anthropic升级AI编程工具，免去开发者手动复制上下文 环球网",
-      "source": "环球网",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xVC0yR0Y1Znp4N04zUTZlYzd1U2Z5VzFDSzZuNEhQR1Q5dVFkTExfMzlNeFR1a2VfaWNkTFhjdnZyZUFQbFJRLXBGdjRwUU01cjJB?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "coding"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-09",
-      "last_seen_date": "2026-08-09",
-      "canonical_key": "anthropic is turning claude code s auto mode on by default",
-      "normalized_title": "anthropic is turning claude code s auto mode on by default",
-      "normalized_link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
-      "title": "Anthropic is turning Claude Code’s auto mode on by default",
-      "summary": "Programming with Claude Code will soon require even less human oversight.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-10",
@@ -5409,7 +5233,7 @@
     },
     {
       "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-08",
+      "last_seen_date": "2026-09-09",
       "canonical_key": "1password increases engineering productivity 21 with codex",
       "normalized_title": "1password increases engineering productivity 21 with codex",
       "normalized_link": "https://openai.com/index/1password",
@@ -5453,7 +5277,7 @@
           "software_engineering"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-08",
@@ -5595,6 +5419,144 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "ai开始管理海浪 数字孪生技术进入海洋新能源产业",
+      "normalized_title": "ai开始管理海浪 数字孪生技术进入海洋新能源产业",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdkU1M19jTVp2QUE1bThmSC10ZTdFUi1pNG1DWVM2aG90Vnp6cThWOXN1X3pxbGZMY0VNaEdueURJenJaNDIwT2Z2am5tNmt6Q3Qya1k2MVpMczg?oc=5",
+      "title": "AI开始管理海浪：数字孪生技术进入海洋新能源产业 - haijingshe.com",
+      "summary": "AI开始管理海浪：数字孪生技术进入海洋新能源产业 haijingshe.com",
+      "source": "haijingshe.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdkU1M19jTVp2QUE1bThmSC10ZTdFUi1pNG1DWVM2aG90Vnp6cThWOXN1X3pxbGZMY0VNaEdueURJenJaNDIwT2Z2am5tNmt6Q3Qya1k2MVpMczg?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "digital_twin",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "digital_twin",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "an alignment assessment of recent cybersecurity incidents",
+      "normalized_title": "an alignment assessment of recent cybersecurity incidents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
+      "title": "An alignment assessment of recent cybersecurity incidents - Anthropic",
+      "summary": "An alignment assessment of recent cybersecurity incidents Anthropic",
+      "source": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "2026外滩大会丨智能体时代的交互变革和未来图景",
+      "normalized_title": "2026外滩大会丨智能体时代的交互变革和未来图景",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5OThkM3dvYnBCbkhfMnJmZS1fVGlreEJwS2NqV3BIRmFYRW1xX01ERDlhYmp2em1BTXhyR2lGbWctSDhZOC1JVmxXa1RTV0xsbmpsREhZMnpSaXBQZDJBZQ?oc=5",
+      "title": "2026外滩大会丨智能体时代的交互变革和未来图景 - thepaper.cn",
+      "summary": "2026外滩大会丨智能体时代的交互变革和未来图景 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5OThkM3dvYnBCbkhfMnJmZS1fVGlreEJwS2NqV3BIRmFYRW1xX01ERDlhYmp2em1BTXhyR2lGbWctSDhZOC1JVmxXa1RTV0xsbmpsREhZMnpSaXBQZDJBZQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "the download openai s turning point for math and a battery record",
+      "normalized_title": "the download openai s turning point for math and a battery record",
+      "normalized_link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "summary": "This is today’s edition of The Download , our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Un…",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
