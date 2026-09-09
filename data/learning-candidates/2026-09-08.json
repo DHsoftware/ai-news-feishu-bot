@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-09T07:24:02.704338+08:00",
+  "generated_at": "2026-09-09T08:11:13.598123+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -22,7 +22,7 @@
     "history_duplicate_count": 11
   },
   "raw_item_count": 67,
-  "deduped_item_count": 23,
+  "deduped_item_count": 24,
   "filtered_item_count": 1,
   "curated_item_count": 1,
   "curated_items": [
@@ -31,7 +31,7 @@
       "summary": "Delegate work to Codex in isolated cloud environments.",
       "summary_source": "page_meta_description",
       "summary_quality": "low",
-      "published_at": "2026-09-09T07:24:02.704338+08:00",
+      "published_at": "2026-09-09T08:11:13.598123+08:00",
       "source": "OpenAI",
       "source_type": "official_doc",
       "source_quality": "high",
@@ -51,10 +51,10 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 44,
+    "duplicate": 43,
     "history_duplicate": 11,
     "same_source_limit": 0,
-    "old_resource": 11,
+    "old_resource": 12,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0
