@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T07:15:16.446576+08:00",
+  "updated_at": "2026-09-10T08:12:05.033516+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5451,7 +5451,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-09",
@@ -5488,7 +5488,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-09",
@@ -5554,6 +5554,74 @@
         ],
         "topics": [
           "agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "新长宁东展教育ai办公实战课 轻松解锁高效办公新模式",
+      "normalized_title": "新长宁东展教育ai办公实战课 轻松解锁高效办公新模式",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSnZOOXUtb0hFSVppVzEtWmFHei0xV3hjc1h6bDI4YmtUTUlfYXB4b0JLRG1tRGVoYkFfbFZqbjlDNnVHTEJVYll4Mm1QVXVDa0xZX2NkRHZPbGFvVlE?oc=5",
+      "title": "新长宁东展教育AI办公实战课，轻松解锁高效办公新模式~ - thepaper.cn",
+      "summary": "新长宁东展教育AI办公实战课，轻松解锁高效办公新模式~ thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSnZOOXUtb0hFSVppVzEtWmFHei0xV3hjc1h6bDI4YmtUTUlfYXB4b0JLRG1tRGVoYkFfbFZqbjlDNnVHTEJVYll4Mm1QVXVDa0xZX2NkRHZPbGFvVlE?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-09",
+      "last_seen_date": "2026-09-09",
+      "canonical_key": "paul christiano joins openai foundation board",
+      "normalized_title": "paul christiano joins openai foundation board",
+      "normalized_link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "official_report",
+          "security"
         ]
       },
       "seen_count": 1
