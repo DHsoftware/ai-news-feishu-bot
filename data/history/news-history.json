@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T08:12:05.033516+08:00",
+  "updated_at": "2026-09-11T07:11:10.627176+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -130,141 +130,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-08-10",
-      "last_seen_date": "2026-08-10",
-      "canonical_key": "公告精选 江波龙上半年净利润高增约71529 宇树科技 最终中签率不足万分之二",
-      "normalized_title": "公告精选 江波龙上半年净利润高增约71529 宇树科技 最终中签率不足万分之二",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5NUowV1pDTlp6N1kzdC13bXJZazc0cDlHUW9qVHVQLXRRcUdyR1lFa2p2eWtLMk5XSXM3TEdiLU9jRFE3QjJ3bko1OGhDTVZuaGlEd2NrYXctSTRX?oc=5",
-      "title": "公告精选 | 江波龙上半年净利润高增约71529% 宇树科技：最终中签率不足万分之二！ - caiwennews.com",
-      "summary": "公告精选 | 江波龙上半年净利润高增约71529% 宇树科技：最终中签率不足万分之二！ caiwennews.com",
-      "source": "caiwennews.com",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5NUowV1pDTlp6N1kzdC13bXJZazc0cDlHUW9qVHVQLXRRcUdyR1lFa2p2eWtLMk5XSXM3TEdiLU9jRFE3QjJ3bko1OGhDTVZuaGlEd2NrYXctSTRX?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-10",
-      "last_seen_date": "2026-08-10",
-      "canonical_key": "openai s letter to governor abbott on responsible ai infrastructure in texas",
-      "normalized_title": "openai s letter to governor abbott on responsible ai infrastructure in texas",
-      "normalized_link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-10",
-      "last_seen_date": "2026-08-10",
-      "canonical_key": "办公训练提升软件工程 论文 大模型智能体 办公任务 跨领域迁移 行为主义 软件工程_新浪新闻",
-      "normalized_title": "办公训练提升软件工程 论文 大模型智能体 办公任务 跨领域迁移 行为主义 软件工程_新浪新闻",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84OHY4QWhucWlZLVJJSkdSRG9aMm9sMlRGOUhZd0tha1BxOTBXU0dxSW1JWkg5RjJPSmQwZHQ1RHQzNm8zVF8zaTF2VXo1d0cwa3dETFdyMjZiTmk2S1pFUnBWSQ?oc=5",
-      "title": "办公训练提升软件工程|论文|大模型智能体|办公任务|跨领域迁移|行为主义|软件工程_新浪新闻 - 新浪网",
-      "summary": "办公训练提升软件工程|论文|大模型智能体|办公任务|跨领域迁移|行为主义|软件工程_新浪新闻 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84OHY4QWhucWlZLVJJSkdSRG9aMm9sMlRGOUhZd0tha1BxOTBXU0dxSW1JWkg5RjJPSmQwZHQ1RHQzNm8zVF8zaTF2VXo1d0cwa3dETFdyMjZiTmk2S1pFUnBWSQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "llm",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "llm",
-          "model_capability",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-10",
-      "last_seen_date": "2026-08-10",
-      "canonical_key": "muse glimmer 30b parameter model optimized for always",
-      "normalized_title": "muse glimmer 30b parameter model optimized for always",
-      "normalized_link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "summary": "Muse Glimmer is a 30-billion-parameter open agentic model from Meta Superintelligence Labs, optimized for always-on local workflows on consumer hardware.",
-      "source": "Hacker News",
-      "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "agentic_ai"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-11",
@@ -4615,7 +4480,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-04",
+      "last_seen_date": "2026-09-10",
       "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
@@ -4651,7 +4516,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5622,6 +5487,169 @@
           "company_research",
           "official_report",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-10",
+      "canonical_key": "introducing the agents api",
+      "normalized_title": "introducing the agents api",
+      "normalized_link": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Introducing the Agents API",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "cloud",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-10",
+      "canonical_key": "hackers can turn ai workflows into privileged data stealing proxies without jailbreaking models",
+      "normalized_title": "hackers can turn ai workflows into privileged data stealing proxies without jailbreaking models",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QbmRKZWF1Y2tBcWxucEJfZjEzc3RQT2hqNk9pNTBhaS1ZLThfS01zZkxpaTFLazdGUGNwV3QzRVU2UEVVc0p0VUVNdUVqOXJXZk1mZ0JoLW8zd0twMTNTWlRoNFRCLTlTMGRfRtIBwAJBVV95cUxQejh6aTBYMmpCUk14Qjh1eFVKcGMwRlJGWEh0ekxnZnNFMXBuaTFHVjJPdDY4QVR1c1pjUmxiTFJhaWphOGZ1Nl80bUg5Y0d6d0ltVTRoY3ZwaFl6dng4dThWS0NWVWRrMzFGQlJJQnRzSVRCTXpzMzlEVmdzeUlEYUZNeVRNSEc1YkhwU2NzUGJndHFyU3EtTHcxazF6a2VrNG5oN0xlY1hhNm1tR3lQVUU2cmhkYjZHMG1Sa1dWdjlzRFZFazFjYVZ3cy1FaUhsX0ZJSlI2RUlhQU9vUHJROENOV21Eb0xISW9QV0RsRTZ5Mk4zNEppNXpidTVfN3lWZVlpWWxRNmlhVmR6bm9xRUQtTnhWZDVnQ2lHam9WUllBZkJJbXBYZVBRX1BHaGlFb01HdXRXZ2FBemlZVkFTZA?oc=5",
+      "title": "Hackers Can Turn AI Workflows Into Privileged Data-Stealing Proxies Without Jailbreaking Models - CyberSecurityNews",
+      "summary": "Hackers Can Turn AI Workflows Into Privileged Data-Stealing Proxies Without Jailbreaking Models CyberSecurityNews",
+      "source": "CyberSecurityNews",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QbmRKZWF1Y2tBcWxucEJfZjEzc3RQT2hqNk9pNTBhaS1ZLThfS01zZkxpaTFLazdGUGNwV3QzRVU2UEVVc0p0VUVNdUVqOXJXZk1mZ0JoLW8zd0twMTNTWlRoNFRCLTlTMGRfRtIBwAJBVV95cUxQejh6aTBYMmpCUk14Qjh1eFVKcGMwRlJGWEh0ekxnZnNFMXBuaTFHVjJPdDY4QVR1c1pjUmxiTFJhaWphOGZ1Nl80bUg5Y0d6d0ltVTRoY3ZwaFl6dng4dThWS0NWVWRrMzFGQlJJQnRzSVRCTXpzMzlEVmdzeUlEYUZNeVRNSEc1YkhwU2NzUGJndHFyU3EtTHcxazF6a2VrNG5oN0xlY1hhNm1tR3lQVUU2cmhkYjZHMG1Sa1dWdjlzRFZFazFjYVZ3cy1FaUhsX0ZJSlI2RUlhQU9vUHJROENOV21Eb0xISW9QV0RsRTZ5Mk4zNEppNXpidTVfN3lWZVlpWWxRNmlhVmR6bm9xRUQtTnhWZDVnQ2lHam9WUllBZkJJbXBYZVBRX1BHaGlFb01HdXRXZ2FBemlZVkFTZA?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-10",
+      "canonical_key": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
+      "normalized_title": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
+      "normalized_link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-hori…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "production",
+          "release"
+        ],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "research",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-10",
+      "canonical_key": "从提效到业务增长 智合 ai agent 3 0 如何拓展法律 ai 价值",
+      "normalized_title": "从提效到业务增长 智合 ai agent 3 0 如何拓展法律 ai 价值",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3Wjhncjk3NDNLeU9INXpnemNJSnZHTXdDaXV4al9qUlFpQy1TN1lwOHI0T3ZxdmY2RkVFWGxJalppcEhXRlQ5M0FzdGc?oc=5",
+      "title": "从提效到业务增长：智合 AI Agent 3.0 如何拓展法律 AI 价值 - 极客公园",
+      "summary": "从提效到业务增长：智合 AI Agent 3.0 如何拓展法律 AI 价值 极客公园",
+      "source": "极客公园",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3Wjhncjk3NDNLeU9INXpnemNJSnZHTXdDaXV4al9qUlFpQy1TN1lwOHI0T3ZxdmY2RkVFWGxJalppcEhXRlQ5M0FzdGc?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
