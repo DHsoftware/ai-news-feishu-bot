@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-11T07:11:10.627176+08:00",
+  "generated_at": "2026-09-11T08:07:21.477235+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 156,
-    "history_size_after": 156,
-    "history_duplicate_count": 50
+    "history_size_after": 157,
+    "history_duplicate_count": 42
   },
   "raw_item_count": 5194,
-  "deduped_item_count": 3899,
-  "filtered_item_count": 428,
+  "deduped_item_count": 3897,
+  "filtered_item_count": 434,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -180,13 +180,13 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 - 金十数据",
-      "summary": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 金十数据",
+      "title": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 - 华尔街见闻",
+      "summary": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 华尔街见闻",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-09-10T14:39:49+08:00",
-      "source": "金十数据",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
+      "published_at": "2026-09-11T01:36:46+08:00",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -202,26 +202,27 @@
         "agent",
         "agentic_ai",
         "ai_agent",
+        "benchmark",
         "coding",
         "coding_agent"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
-      "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
-      "score": 58,
+      "dedupe_key": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
+      "canonical_key": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
+      "score": 74,
       "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1295,
-    "history_duplicate": 50,
-    "weak_relevance": 192,
+    "duplicate": 1297,
+    "history_duplicate": 42,
+    "weak_relevance": 193,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3279,
-    "same_entity_limit": 3,
+    "old_news": 3270,
+    "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

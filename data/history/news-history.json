@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T07:11:10.627176+08:00",
+  "updated_at": "2026-09-11T08:07:21.477235+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5535,7 +5535,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5574,7 +5574,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5617,7 +5617,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5650,6 +5650,47 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-10",
+      "canonical_key": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
+      "normalized_title": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
+      "title": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 - 华尔街见闻",
+      "summary": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
