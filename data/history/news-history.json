@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T08:07:21.477235+08:00",
+  "updated_at": "2026-09-12T07:16:06.301864+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -133,117 +133,6 @@
     },
     {
       "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-11",
-      "canonical_key": "d c uses claude more per capita than california its paperwork economy explains why",
-      "normalized_title": "d c uses claude more per capita than california its paperwork economy explains why",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
-      "title": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why - inc.com",
-      "summary": "D.C. Uses Claude More Per Capita Than California. Its Paperwork Economy Explains Why inc.com",
-      "source": "inc.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZERudVpEUFZaMHllMlM5eGhEc0dnT2NwaWZWdFM3TFducHNFaW5CS2lNb2tKdWlNR2VXUHQ0Vk51eHI4VEtSZExlUjlIMjhCZlk2Q1lScjlyaWhMVV93X3ZBRm9TaWxBS3pKNkFsaWl6M1pOR1FGVFU4ZFlCR0NfVTVUajNNbEE5ZjBfd1JobE55a3dZNjdRUUFTSEZEQmdaWllNNFN0bS1GM0RyVlg1SUwzQjh1VU5rb1ZibA?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-11",
-      "canonical_key": "企查查mcp上线字节跳动traework 4亿企业数据 一句话调用",
-      "normalized_title": "企查查mcp上线字节跳动traework 4亿企业数据 一句话调用",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPek5GVGJob1g5ZGp1WVMwZ2dCejUzOUpYdkwtYU01NHdCWElCaWJpU1lTblpyaVU1QjZWS0RYczdneWZFM2RJV05XbGlpSFNJRE5BZ29HX2pyXzVSN05FUHZRQjN6UVBnZTFDdXNKWFVxZng2aHU5Tm4xT1p0blBiNmZaeFdfNGdGSkRyRg?oc=5",
-      "title": "企查查MCP上线字节跳动TraeWork：4亿企业数据，一句话调用 - 搜狐网",
-      "summary": "企查查MCP上线字节跳动TraeWork：4亿企业数据，一句话调用 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPek5GVGJob1g5ZGp1WVMwZ2dCejUzOUpYdkwtYU01NHdCWElCaWJpU1lTblpyaVU1QjZWS0RYczdneWZFM2RJV05XbGlpSFNJRE5BZ29HX2pyXzVSN05FUHZRQjN6UVBnZTFDdXNKWFVxZng2aHU5Tm4xT1p0blBiNmZaeFdfNGdGSkRyRg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "mcp"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "mcp"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "mcp"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-11",
-      "canonical_key": "知情人士 微软计划明年大幅增产下一代ai芯片 云计算 anthropic 云服务 copilot 谷歌_手机新浪网",
-      "normalized_title": "知情人士 微软计划明年大幅增产下一代ai芯片 云计算 anthropic 云服务 copilot 谷歌_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcThJbzdkNllaSnhWdVBhd3hJRGJlc0EwaGJEV20zamRTYklkSUZ5TGVTY245aW5nT2dvMG1DelRfa3FPTjZZN3RqdnE3N0Z1S1BQbjhDVnR3WDhCR0RsY0xlQkNaSVpXZTNlSGVRZE5jY3NRWHBQbmVfWnphZW5vUUl2RzhQVUo1LVE?oc=5",
-      "title": "知情人士：微软计划明年大幅增产下一代AI芯片|云计算|Anthropic|云服务|Copilot|谷歌_手机新浪网 - 新浪财经",
-      "summary": "知情人士：微软计划明年大幅增产下一代AI芯片|云计算|Anthropic|云服务|Copilot|谷歌_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcThJbzdkNllaSnhWdVBhd3hJRGJlc0EwaGJEV20zamRTYklkSUZ5TGVTY245aW5nT2dvMG1DelRfa3FPTjZZN3RqdnE3N0Z1S1BQbjhDVnR3WDhCR0RsY0xlQkNaSVpXZTNlSGVRZE5jY3NRWHBQbmVfWnphZW5vUUl2RzhQVUo1LVE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "cloud",
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "google",
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [],
-        "topics": [
-          "chip",
-          "cloud",
-          "coding"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-11",
       "last_seen_date": "2026-08-13",
       "canonical_key": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
       "normalized_title": "nvidia jetpack 7 2 1 adds agentic video skills and t3000 emulation",
@@ -283,41 +172,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-08-11",
-      "last_seen_date": "2026-08-11",
-      "canonical_key": "automotive electronics components ai autonomous driving future",
-      "normalized_title": "automotive electronics components ai autonomous driving future",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXFDV3BwNHlScHFpNUFXSnAwZklQZ1g3TWoxSHUzUms2bVNwQjdfYnZuTkFmaFJSTy1SNE5HQUVwbnZxRjFoZ0liZzRjTmYza1BGenh6QTZrTDItQURkbmVQaE9wSW9JT3hZQlRwTnVHYVYzM0xENE9KZEtJWGVDUmxPdlJSZTlibWlPYg?oc=5",
-      "title": "Automotive Electronics: Components, AI, Autonomous Driving & Future - TimesTech",
-      "summary": "Automotive Electronics: Components, AI, Autonomous Driving & Future TimesTech",
-      "source": "TimesTech",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXFDV3BwNHlScHFpNUFXSnAwZklQZ1g3TWoxSHUzUms2bVNwQjdfYnZuTkFmaFJSTy1SNE5HQUVwbnZxRjFoZ0liZzRjTmYza1BGenh6QTZrTDItQURkbmVQaE9wSW9JT3hZQlRwTnVHYVYzM0xENE9KZEtJWGVDUmxPdlJSZTlibWlPYg?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "automotive",
-        "autonomous_driving",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "automotive",
-          "autonomous_driving",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-12",
@@ -4480,7 +4334,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-11",
       "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
@@ -4516,7 +4370,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5578,7 +5432,7 @@
     },
     {
       "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-10",
+      "last_seen_date": "2026-09-11",
       "canonical_key": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
       "normalized_title": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
       "normalized_link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
@@ -5617,7 +5471,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5691,6 +5545,124 @@
           "benchmark",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "canonical_key": "how full stack nim optimizations deliver 2 5x more users on nemotron 3 ultra",
+      "normalized_title": "how full stack nim optimizations deliver 2 5x more users on nemotron 3 ultra",
+      "normalized_link": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
+      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+      "summary": "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as... Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "availability",
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "llm",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "canonical_key": "papercut mf ng flaws attacked with hundreds of ai agents",
+      "normalized_title": "papercut mf ng flaws attacked with hundreds of ai agents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQakIwWW81cXZaSWt0a0ptc3lpb1lhOVBoUVRqYkFYZ2RQTEF3ZkFWcXBjZldQenB3Q1BSSlB5REhCSkQ2OUtDS0FtSmdmQnZjelQtUFlFYi15YXdlMlN5Y0h0M3BlNWFTTkF0UHdxanNNV3ZNVklKWmRjXzh0dzB3cDJFZlZ1Z0pPQUFGdQ?oc=5",
+      "title": "PaperCut MF/NG flaws attacked with hundreds of AI agents - SC Media",
+      "summary": "PaperCut MF/NG flaws attacked with hundreds of AI agents SC Media",
+      "source": "SC Media",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQakIwWW81cXZaSWt0a0ptc3lpb1lhOVBoUVRqYkFYZ2RQTEF3ZkFWcXBjZldQenB3Q1BSSlB5REhCSkQ2OUtDS0FtSmdmQnZjelQtUFlFYi15YXdlMlN5Y0h0M3BlNWFTTkF0UHdxanNNV3ZNVklKWmRjXzh0dzB3cDJFZlZ1Z0pPQUFGdQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "canonical_key": "人是最省token的智能体 王坚 人类总把 最复杂机器 当成 像人 这是人类很好又很坏的倾向性",
+      "normalized_title": "人是最省token的智能体 王坚 人类总把 最复杂机器 当成 像人 这是人类很好又很坏的倾向性",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CeW5lUFQ0OW1jS1pidWtDcWg2OG1EclZjLWNDVXBsX3pCTmJDenBIY29ZOVNjSzdZZS1peGprSEdHVzFmVFVKN0FsaXNCNHlHZW5uOS1TZmMzaWJRLU9wSg?oc=5",
+      "title": "人是最省token的智能体？王坚：人类总把“最复杂机器”当成“像人”，这是人类很好又很坏的倾向性 - thepaper.cn",
+      "summary": "人是最省token的智能体？王坚：人类总把“最复杂机器”当成“像人”，这是人类很好又很坏的倾向性 thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CeW5lUFQ0OW1jS1pidWtDcWg2OG1EclZjLWNDVXBsX3pCTmJDenBIY29ZOVNjSzdZZS1peGprSEdHVzFmVFVKN0FsaXNCNHlHZW5uOS1TZmMzaWJRLU9wSg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1
