@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T07:16:06.301864+08:00",
+  "updated_at": "2026-09-12T08:15:20.425724+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4370,7 +4370,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5471,7 +5471,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5628,7 +5628,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-11",
@@ -5656,6 +5656,83 @@
         "entities": [],
         "products": [],
         "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "canonical_key": "cognition helps devin test its own work with gpt 6 astra",
+      "normalized_title": "cognition helps devin test its own work with gpt 6 astra",
+      "normalized_link": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "devin"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-11",
+      "canonical_key": "首个材料领域轻量化 双模型协作的智能体发布 论文 科学网",
+      "normalized_title": "首个材料领域轻量化 双模型协作的智能体发布 论文 科学网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XZVJEbnlrMmgwZHVFWGtwZWtNTWJhNnhSNXVjNWVWWm1IYjVsckZ2aDAxM19SMXpicFprZGdQM0NTTk05dmNsWFVENWV6cjFFS2hlbGVjVVl4MTdiUlBUSzVfcmdVdHY3RFVyQXpfNmh5RnlmV3FsTnB4Zw?oc=5",
+      "title": "首个材料领域轻量化、双模型协作的智能体发布—论文 - 科学网—新闻",
+      "summary": "首个材料领域轻量化、双模型协作的智能体发布—论文 科学网—新闻",
+      "source": "科学网—新闻",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XZVJEbnlrMmgwZHVFWGtwZWtNTWJhNnhSNXVjNWVWWm1IYjVsckZ2aDAxM19SMXpicFprZGdQM0NTTk05dmNsWFVENWV6cjFFS2hlbGVjVVl4MTdiUlBUSzVfcmdVdHY3RFVyQXpfNmh5RnlmV3FsTnB4Zw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
         "topics": [
           "agent",
           "agentic_ai",
