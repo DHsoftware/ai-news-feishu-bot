@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T08:15:20.425724+08:00",
+  "updated_at": "2026-09-13T07:02:55.929880+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -172,166 +172,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-08-12",
-      "last_seen_date": "2026-08-12",
-      "canonical_key": "西门子推进半导体与 pcb 设计的自验证智能体 ai 工作流",
-      "normalized_title": "西门子推进半导体与 pcb 设计的自验证智能体 ai 工作流",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GOEdxZFM5dXptSGQ4aTFSRlpDaGxaU0xuMjRKRFhaSS14THZTSERCQzEzQnRNaHpHS3U0QlR2M011YlpJMUMybTVIaGliYnFSQVhKanZFS3hndw?oc=5",
-      "title": "西门子推进半导体与 PCB 设计的自验证智能体 AI 工作流 - industrysourcing.cn",
-      "summary": "西门子推进半导体与 PCB 设计的自验证智能体 AI 工作流 industrysourcing.cn",
-      "source": "industrysourcing.cn",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GOEdxZFM5dXptSGQ4aTFSRlpDaGxaU0xuMjRKRFhaSS14THZTSERCQzEzQnRNaHpHS3U0QlR2M011YlpJMUMybTVIaGliYnFSQVhKanZFS3hndw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-12",
-      "last_seen_date": "2026-08-12",
-      "canonical_key": "meta and nvidia plant very firm flag in open weight ai race led by chinese labs",
-      "normalized_title": "meta and nvidia plant very firm flag in open weight ai race led by chinese labs",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
-      "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs - CNBC",
-      "summary": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs CNBC",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-12",
-      "last_seen_date": "2026-08-12",
-      "canonical_key": "周三直播 3d物体自动化设计 ai与人类幻觉现象研究 efficient highlight cvpr 2026双奖 已开源",
-      "normalized_title": "周三直播 3d物体自动化设计 ai与人类幻觉现象研究 efficient highlight cvpr 2026双奖 已开源",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPajdERG5BcU0wR1dSZElJMnBNOWN6bkZxcFQ3MTY3LThFamR6cTI2eEhHaE1RTzNGODZNSDFoazYxeDZfUmFnTw?oc=5",
-      "title": "周三直播｜3D物体自动化设计，AI与人类幻觉现象研究，Efficient & Highlight CVPR 2026双奖，已开源 - 智源社区",
-      "summary": "周三直播｜3D物体自动化设计，AI与人类幻觉现象研究，Efficient & Highlight CVPR 2026双奖，已开源 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPajdERG5BcU0wR1dSZElJMnBNOWN6bkZxcFQ3MTY3LThFamR6cTI2eEhHaE1RTzNGODZNSDFoazYxeDZfUmFnTw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "opensource",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-12",
-      "last_seen_date": "2026-08-12",
-      "canonical_key": "from assistance to execution how enterprises put ai to work",
-      "normalized_title": "from assistance to execution how enterprises put ai to work",
-      "normalized_link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-13",
@@ -5740,6 +5580,173 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-12",
+      "last_seen_date": "2026-09-12",
+      "canonical_key": "marketing ops as code automating events from planning to follow",
+      "normalized_title": "marketing ops as code automating events from planning to follow",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "summary": "I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics are worth an hour…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-12",
+      "last_seen_date": "2026-09-12",
+      "canonical_key": "智慧药研解决方案 药物研发 华为企业业务",
+      "normalized_title": "智慧药研解决方案 药物研发 华为企业业务",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMy1lVTNDN3FHSVZnVS1PZWEwNzZneUl3cGlUQ0tWTDNUam5QRVZwbjczX1JiMzBidzZPaFVnekx0NGk1VUR6UXRmdnV4Y05yUFp0YmZzSDQzSVVtRk9CYUF3eTU2aDhILTR3dlROaWszNl8xbGxXenZyclE3SlNtM29OZ2NRUQ?oc=5",
+      "title": "智慧药研解决方案-药物研发-华为企业业务 - Huawei Enterprise",
+      "summary": "智慧药研解决方案-药物研发-华为企业业务 Huawei Enterprise",
+      "source": "Huawei Enterprise",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMy1lVTNDN3FHSVZnVS1PZWEwNzZneUl3cGlUQ0tWTDNUam5QRVZwbjczX1JiMzBidzZPaFVnekx0NGk1VUR6UXRmdnV4Y05yUFp0YmZzSDQzSVVtRk9CYUF3eTU2aDhILTR3dlROaWszNl8xbGxXenZyclE3SlNtM29OZ2NRUQ?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "company_research",
+        "org_productivity",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "org_productivity",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-12",
+      "last_seen_date": "2026-09-12",
+      "canonical_key": "能源路由器厂商深度解析 ai算力时代的中压固态变压器核心供应商",
+      "normalized_title": "能源路由器厂商深度解析 ai算力时代的中压固态变压器核心供应商",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWmplT1pyVHZKRkppZEMtOUpKQkh1NjYzbGlsLVE2NEFHeDVQdVlNQlhGQ19seThISmFTeWRNMDFEV1hrNW94eDgzbmRYeXFfVE83ZzJLbnNrOVpZMEdjWlRRS2RsS1FOaDA4Z29mTHJ4ZVJGMTgtcGhLYl82OVo3ZF9GZkJZbDR5bW9LM1BVdmc?oc=5",
+      "title": "能源路由器厂商深度解析：AI算力时代的中压固态变压器核心供应商 - 新浪网",
+      "summary": "能源路由器厂商深度解析：AI算力时代的中压固态变压器核心供应商 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWmplT1pyVHZKRkppZEMtOUpKQkh1NjYzbGlsLVE2NEFHeDVQdVlNQlhGQ19seThISmFTeWRNMDFEV1hrNW94eDgzbmRYeXFfVE83ZzJLbnNrOVpZMEdjWlRRS2RsS1FOaDA4Z29mTHJ4ZVJGMTgtcGhLYl82OVo3ZF9GZkJZbDR5bW9LM1BVdmc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-12",
+      "last_seen_date": "2026-09-12",
+      "canonical_key": "openai s rogue ai tried to hack another company in may",
+      "normalized_title": "openai s rogue ai tried to hack another company in may",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "llm"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-12",
+      "last_seen_date": "2026-09-12",
+      "canonical_key": "anthropic ceo says it s time to pump the brakes on ai",
+      "normalized_title": "anthropic ceo says it s time to pump the brakes on ai",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay , Amodei proposed a three-step plan to \"pace the frontier\" - jargo…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "security"
         ]
       },
       "seen_count": 1
