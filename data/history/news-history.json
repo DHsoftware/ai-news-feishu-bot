@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:10:33.168909+08:00",
+  "updated_at": "2026-09-14T08:09:12.148011+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5687,7 +5687,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-13",
@@ -5720,7 +5720,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-13",
@@ -5749,7 +5749,7 @@
           "ai_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-13",
@@ -5774,6 +5774,76 @@
         "actions": [],
         "topics": [
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-13",
+      "last_seen_date": "2026-09-13",
+      "canonical_key": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
+      "normalized_title": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
+      "normalized_link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [
+          "devin"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-13",
+      "last_seen_date": "2026-09-13",
+      "canonical_key": "perplexity trusts gpt 6 astra with end to",
+      "normalized_title": "perplexity trusts gpt 6 astra with end to",
+      "normalized_link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "official_report"
         ]
       },
       "seen_count": 1

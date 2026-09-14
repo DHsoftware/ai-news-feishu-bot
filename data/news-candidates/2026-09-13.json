@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generated_at": "2026-09-14T07:10:33.168909+08:00",
+  "generated_at": "2026-09-14T08:09:12.148011+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,17 +32,17 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 159,
-    "history_size_after": 160,
-    "history_duplicate_count": 13
+    "history_size_before": 160,
+    "history_size_after": 162,
+    "history_duplicate_count": 15
   },
   "raw_item_count": 5202,
-  "deduped_item_count": 3889,
-  "filtered_item_count": 154,
+  "deduped_item_count": 3899,
+  "filtered_item_count": 158,
   "curated_item_count": 5,
   "curated_items": [
     {
-      "title": "Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
       "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
       "summary_source": "rss_description",
       "summary_quality": "medium",
@@ -61,8 +61,8 @@
         "coding_agent"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "insight partners devin parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
-      "canonical_key": "insight partners devin parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
+      "dedupe_key": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
+      "canonical_key": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
       "normalized_link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
       "score": 94,
       "selection_reason": "required_agent_or_coding"
@@ -133,6 +133,37 @@
       "selection_reason": "power_electronics_boost"
     },
     {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-09-14T08:00:00+08:00",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "language": "en",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [
+        "company_research",
+        "official_report",
+        "ai_research"
+      ],
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "category": "官方研究",
+      "dedupe_key": "perplexity trusts gpt 6 astra with end to",
+      "canonical_key": "perplexity trusts gpt 6 astra with end to",
+      "normalized_link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "score": 93,
+      "selection_reason": "required_company_research"
+    },
+    {
       "title": "Why are AI agents lying, cheating and coordinating?",
       "summary": "Comments",
       "summary_source": "rss_description",
@@ -157,42 +188,17 @@
       "normalized_link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
       "score": 17,
       "selection_reason": "fill_remaining_high_score"
-    },
-    {
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-09-14T00:30:00+08:00",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-      "language": "en",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "security"
-      ],
-      "category": "全球AI",
-      "dedupe_key": "obama urges democrats to have a clear plan for ai safeguards",
-      "canonical_key": "obama urges democrats to have a clear plan for ai safeguards",
-      "normalized_link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
-      "score": 15,
-      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1313,
-    "history_duplicate": 13,
-    "weak_relevance": 121,
+    "duplicate": 1303,
+    "history_duplicate": 15,
+    "weak_relevance": 119,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3614,
-    "same_entity_limit": 201,
+    "old_news": 3622,
+    "same_entity_limit": 183,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
