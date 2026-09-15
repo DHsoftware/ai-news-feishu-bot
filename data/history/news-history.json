@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T08:36:08.861494+08:00",
+  "updated_at": "2026-09-16T07:31:45.991900+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -130,214 +130,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot eet",
-      "normalized_title": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot eet",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
-      "title": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot - eet-china.com",
-      "summary": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot eet-china.com",
-      "source": "eet-china.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "chip",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "openai"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "chip",
-          "coding",
-          "model_capability",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "pcim研讨会 速览130 电力电子前沿技术报告 宽禁带半导体 ai 算力供电 新能源电驱 智能电网多专题集结深圳 eet",
-      "normalized_title": "pcim研讨会 速览130 电力电子前沿技术报告 宽禁带半导体 ai 算力供电 新能源电驱 智能电网多专题集结深圳 eet",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEakpBNXZPSG5mbmJvcy0zOFBiaXZibWdoXzJuc1pSaFNfVFE1aWhEWS10MWNOeEt6UEhEcExoWUVFMHlLdE5ibFVfZDczcnQtdlRv?oc=5",
-      "title": "PCIM研讨会 | 速览130+电力电子前沿技术报告，宽禁带半导体、AI 算力供电、新能源电驱、智能电网多专题集结深圳！ - eet-china.com",
-      "summary": "PCIM研讨会 | 速览130+电力电子前沿技术报告，宽禁带半导体、AI 算力供电、新能源电驱、智能电网多专题集结深圳！ eet-china.com",
-      "source": "eet-china.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEakpBNXZPSG5mbmJvcy0zOFBiaXZibWdoXzJuc1pSaFNfVFE1aWhEWS10MWNOeEt6UEhEcExoWUVFMHlLdE5ibFVfZDczcnQtdlRv?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "rashmi athavale",
-      "normalized_title": "rashmi athavale",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
-      "title": "Rashmi Athavale - Microsoft",
-      "summary": "Rashmi Athavale Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfN0l5dlNmOWJxbzRIY3BLWlA2VHVuazdIekZTbHpTX1ljajJUT1BpSVBpSmNwZ2hvLVQ3c21kYW1NOW44T1JEd1VsTkdqWDdDem50emYybFNwM1VBRkJOVVJ5MVdxbmpqY0dz?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "engineering_productivity"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "state of open models summer 2026 observations",
-      "normalized_title": "state of open models summer 2026 observations",
-      "normalized_link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "source": "Hugging Face - Blog",
-      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "kog is going deeper to squeeze more inference out of gpus",
-      "normalized_title": "kog is going deeper to squeeze more inference out of gpus",
-      "normalized_link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
-      "title": "Kog is going deeper to squeeze more inference out of GPUs",
-      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "chip",
-          "inference"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-15",
-      "last_seen_date": "2026-08-15",
-      "canonical_key": "exploring compose html for server side rendering",
-      "normalized_title": "exploring compose html for server side rendering",
-      "normalized_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
-      "title": "Exploring Compose HTML for Server Side Rendering - The JetBrains Blog",
-      "summary": "Exploring Compose HTML for Server Side Rendering The JetBrains Blog",
-      "source": "The JetBrains Blog",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFpHanBST1J3am04bnlHR0lWZWpNeW5DWWVGWDRVVzFqRHdrVDlLNVNOSXZ0VDZBcWpBWjlVcVREVzhwX05aSDgzczZFdTFDclVOZno2WHRmTFBHY1hBLWxEQmcycmdPOUJmS1VENS0yckhvUEdkaDV1d0tsYUpvYnF4bDNrcTQ2eU9BSHZDUWdLY2taaHc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_blog",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-16",
@@ -3846,7 +3638,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-11",
+      "last_seen_date": "2026-09-15",
       "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
@@ -3882,7 +3674,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5657,7 +5449,7 @@
     },
     {
       "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-15",
       "canonical_key": "perplexity portable computer is now available on windows powered by nvidia rtx",
       "normalized_title": "perplexity portable computer is now available on windows powered by nvidia rtx",
       "normalized_link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
@@ -5698,7 +5490,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5741,7 +5533,7 @@
     },
     {
       "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-15",
       "canonical_key": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
       "normalized_title": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
       "normalized_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTlKZkJ1UG9SanFPZXdkVjhydV9CSE5KMEY2V1dPZ3ZreUg2RWRkdFowbUZ1WUtPN3hUU3RLb3ZjVVVySzBvLU1mZEV3cFE5NG5iU0NyQUNRWUZqT3BSVHZvdm9PT1NSdURBYnp0Z0VfNXA4MEhjWW1fRmRleDZIQjE1X1Y4ZC1vem45OERMX1oyd2FiT2tyWVM0TXhmY1ByeDJkN0poeTBBb3UxM3doV3A0cG90YjNSaE83bkNkU3ctWmp2dVU2allqY21sTHJ2ckJfSzlMeTU4R1Vpc2c?oc=5",
@@ -5778,7 +5570,7 @@
           "whitepaper"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5867,6 +5659,74 @@
         ],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-15",
+      "last_seen_date": "2026-09-15",
+      "canonical_key": "zendesk s specialized ai agents redefine the cx automation benchmark",
+      "normalized_title": "zendesk s specialized ai agents redefine the cx automation benchmark",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSlVNSmMwOFcyZTZsMVFnY0pVM1h0UzdNbUxYQ2J1OEp2Y2l2aUJyS2RKZnRHZnpZeVFnMW9FX2lwVTExbDBBRHhFQlRiaGdtSjBEclByV0x0SG1lZTN6TW5FcE9zZTVhSXdaSS1DOFMxc2hUeUZXRklkX0NkQ0w2bDk5bU10OVdZTzM5eWc2dzBlQ3ZUbW5qcHQtTTl2ZU9nYWgtMw?oc=5",
+      "title": "Zendesk's Specialized AI Agents Redefine the CX Automation Benchmark - The Futurum Group",
+      "summary": "Zendesk's Specialized AI Agents Redefine the CX Automation Benchmark The Futurum Group",
+      "source": "The Futurum Group",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSlVNSmMwOFcyZTZsMVFnY0pVM1h0UzdNbUxYQ2J1OEp2Y2l2aUJyS2RKZnRHZnpZeVFnMW9FX2lwVTExbDBBRHhFQlRiaGdtSjBEclByV0x0SG1lZTN6TW5FcE9zZTVhSXdaSS1DOFMxc2hUeUZXRklkX0NkQ0w2bDk5bU10OVdZTzM5eWc2dzBlQ3ZUbW5qcHQtTTl2ZU9nYWgtMw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "benchmark",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "benchmark",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-15",
+      "last_seen_date": "2026-09-15",
+      "canonical_key": "early anthropic hire former metr coo have found a way to rein in rogue ai agents",
+      "normalized_title": "early anthropic hire former metr coo have found a way to rein in rogue ai agents",
+      "normalized_link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
         ]
       },
       "seen_count": 1
