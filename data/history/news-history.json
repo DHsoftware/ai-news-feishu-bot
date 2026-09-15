@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T08:09:12.148011+08:00",
+  "updated_at": "2026-09-15T07:52:29.039170+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -130,199 +130,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-08-14",
-      "last_seen_date": "2026-08-14",
-      "canonical_key": "what 50 open source projects taught us about security in the ai era",
-      "normalized_title": "what 50 open source projects taught us about security in the ai era",
-      "normalized_link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "summary": "AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources. Session 4 of the GitHub Secure Open Source Fund test…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-14",
-      "last_seen_date": "2026-08-14",
-      "canonical_key": "what s next for sql performance scale ai and developer productivity at the european sql community conference",
-      "normalized_title": "what s next for sql performance scale ai and developer productivity at the european sql community conference",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPM1RPWk9PVHZ3SkRTLUNSY1RQN0diMnQ0RHdXeHVWcTVkZ3EwLUZ2NHFKOEZacnFzMWY5NENWTUZCZVpZYVIyUDl4d3hTUnlHLWJuY01MTWtMSkdUczVtV0JzSDlyYW4wa2ZFdkh2M01UTVZTaXhIQ1lsZ2I0M2JvMU5aNEpuRGttQk1oeGw0SGFQSG1pNzRRRVRHSzRGWlJGYWg4bktJWkllYmRXNTQ5QWtWRGtRTzRqcDhyX0JjT2NmbjR4MDd6OHZfNnVZU2JHUTdWa2xZQTItYzU5LUU0V01VUms3emhESlhLZ2tXVkJoRkJWNmZobk9BUQ?oc=5",
-      "title": "What’s next for SQL? Performance, scale, AI, and developer productivity at the European SQL Community Conference - Microsoft",
-      "summary": "What’s next for SQL? Performance, scale, AI, and developer productivity at the European SQL Community Conference Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPM1RPWk9PVHZ3SkRTLUNSY1RQN0diMnQ0RHdXeHVWcTVkZ3EwLUZ2NHFKOEZacnFzMWY5NENWTUZCZVpZYVIyUDl4d3hTUnlHLWJuY01MTWtMSkdUczVtV0JzSDlyYW4wa2ZFdkh2M01UTVZTaXhIQ1lsZ2I0M2JvMU5aNEpuRGttQk1oeGw0SGFQSG1pNzRRRVRHSzRGWlJGYWg4bktJWkllYmRXNTQ5QWtWRGtRTzRqcDhyX0JjT2NmbjR4MDd6OHZfNnVZU2JHUTdWa2xZQTItYzU5LUU0V01VUms3emhESlhLZ2tXVkJoRkJWNmZobk9BUQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "developer_productivity",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "developer_productivity",
-          "engineering_productivity",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-14",
-      "last_seen_date": "2026-08-14",
-      "canonical_key": "三条增长曲线接力 ai提速 芯联集成首次实现半年度盈利 跨越关键拐点",
-      "normalized_title": "三条增长曲线接力 ai提速 芯联集成首次实现半年度盈利 跨越关键拐点",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lNFV5eHJub242cFpMazdfN3AyUlBlcE1KcGIwZHNrRjlSR3pFOV93ejFMNGJzNXp3OXBRZENERS1uX3hORzQxbzdmOFFwTU02LXc?oc=5",
-      "title": "三条增长曲线接力、AI提速，芯联集成首次实现半年度盈利，跨越关键拐点 - NE时代",
-      "summary": "三条增长曲线接力、AI提速，芯联集成首次实现半年度盈利，跨越关键拐点 NE时代",
-      "source": "NE时代",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lNFV5eHJub242cFpMazdfN3AyUlBlcE1KcGIwZHNrRjlSR3pFOV93ejFMNGJzNXp3OXBRZENERS1uX3hORzQxbzdmOFFwTU02LXc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-14",
-      "last_seen_date": "2026-08-14",
-      "canonical_key": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot",
-      "normalized_title": "每日瞰ai 算力狂飙14倍 openai正式发布gpt 5 6 sol 超快 模式 workbuddy发布5 3 11版本 微软宣布合并消费级与企业级copilot",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
-      "title": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot - 电子工程专辑",
-      "summary": "【每日瞰AI】算力狂飙14倍！OpenAI正式发布GPT-5.6 Sol“超快”模式；WorkBuddy发布5.3.11版本；微软宣布合并消费级与企业级Copilot 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yVEhXRHNPTFFWY2RJQTk4TTJHdjRtSDJYc2ZBOW9ualVLWVVReThMbnRUa3BYZl9xWGNLQ2NOSXVtRVFQT2xlOUw3MGV3SEF5V1lN?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "chip",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "openai"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "chip",
-          "coding",
-          "model_capability",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-14",
-      "last_seen_date": "2026-08-14",
-      "canonical_key": "the builder s guide to gpt 5 6",
-      "normalized_title": "the builder s guide to gpt 5 6",
-      "normalized_link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "title": "The builder’s guide to GPT‑5.6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-15",
@@ -5844,6 +5651,191 @@
           "company_research",
           "model_capability",
           "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "perplexity portable computer is now available on windows powered by nvidia rtx",
+      "normalized_title": "perplexity portable computer is now available on windows powered by nvidia rtx",
+      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "cloud",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "ai workflow automation ai 업무 자동화 폴더",
+      "normalized_title": "ai workflow automation ai 업무 자동화 폴더",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkxLeTdGYUg3THd6MXVFd04xd2F6cFlwNGUySWVvMGNhNE05WS1HZzB4eEppNUg5WHVWSXNVcEtCcm5GaXJ6d2dlLXRBalhfX2FvaXhYOHhyMnBNZ01yRnRVc3dhRTMyTjV1RERnSG94WmtLeUh3WGFXM0g2ZktwdndFRmM1cmJ2OG9rX1BRSUhKbnNOOW1DSmJXcXVBQ1hnR3ZZRy02aVh4LXVCTElZZThFck9GVXdxMU9xRGVkNjdNcXpFbWkxWUhJaUI2RUd1b0ppSA?oc=5",
+      "title": "AI Workflow Automation (AI 업무 자동화 폴더) - Microsoft",
+      "summary": "AI Workflow Automation (AI 업무 자동화 폴더) Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkxLeTdGYUg3THd6MXVFd04xd2F6cFlwNGUySWVvMGNhNE05WS1HZzB4eEppNUg5WHVWSXNVcEtCcm5GaXJ6d2dlLXRBalhfX2FvaXhYOHhyMnBNZ01yRnRVc3dhRTMyTjV1RERnSG94WmtLeUh3WGFXM0g2ZktwdndFRmM1cmJ2OG9rX1BRSUhKbnNOOW1DSmJXcXVBQ1hnR3ZZRy02aVh4LXVCTElZZThFck9GVXdxMU9xRGVkNjdNcXpFbWkxWUhJaUI2RUd1b0ppSA?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
+      "normalized_title": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTlKZkJ1UG9SanFPZXdkVjhydV9CSE5KMEY2V1dPZ3ZreUg2RWRkdFowbUZ1WUtPN3hUU3RLb3ZjVVVySzBvLU1mZEV3cFE5NG5iU0NyQUNRWUZqT3BSVHZvdm9PT1NSdURBYnp0Z0VfNXA4MEhjWW1fRmRleDZIQjE1X1Y4ZC1vem45OERMX1oyd2FiT2tyWVM0TXhmY1ByeDJkN0poeTBBb3UxM3doV3A0cG90YjNSaE83bkNkU3ctWmp2dVU2allqY21sTHJ2ckJfSzlMeTU4R1Vpc2c?oc=5",
+      "title": "EPC Releases Two New White Papers on GaN Power Conversion for AI Data Centers and Advanced Motor Drives - EIN News",
+      "summary": "EPC Releases Two New White Papers on GaN Power Conversion for AI Data Centers and Advanced Motor Drives EIN News",
+      "source": "EIN News",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTlKZkJ1UG9SanFPZXdkVjhydV9CSE5KMEY2V1dPZ3ZreUg2RWRkdFowbUZ1WUtPN3hUU3RLb3ZjVVVySzBvLU1mZEV3cFE5NG5iU0NyQUNRWUZqT3BSVHZvdm9PT1NSdURBYnp0Z0VfNXA4MEhjWW1fRmRleDZIQjE1X1Y4ZC1vem45OERMX1oyd2FiT2tyWVM0TXhmY1ByeDJkN0poeTBBb3UxM3doV3A0cG90YjNSaE83bkNkU3ctWmp2dVU2allqY21sTHJ2ckJfSzlMeTU4R1Vpc2c?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "gan",
+        "obc",
+        "power_electronics",
+        "research",
+        "whitepaper"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "gan"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "gan",
+          "obc",
+          "power_electronics",
+          "research",
+          "whitepaper"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "菲尔兹奖集体警告ai 冲击数学 openai 筹建全球安全标准 deepseek 新模型火速上榜 每日大事件",
+      "normalized_title": "菲尔兹奖集体警告ai 冲击数学 openai 筹建全球安全标准 deepseek 新模型火速上榜 每日大事件",
+      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4MmRJNFh3Y18zaW5aY2xlSUF2UTZVNkJOVjd6UHdNMGFTbUZtU2U2VjJYd2UxX1RCTEdSUk4ybnUwWGNOcDkyQ01pbTdRamV1VFJFVERSbHJTOHYwV0E5TzVwb2hsVTVlTUIwQmtPN2pwcnZsTDFBUA?oc=5",
+      "title": "菲尔兹奖集体警告AI 冲击数学，OpenAI 筹建全球安全标准，DeepSeek 新模型火速上榜| 每日大事件 - 新浪财经",
+      "summary": "菲尔兹奖集体警告AI 冲击数学，OpenAI 筹建全球安全标准，DeepSeek 新模型火速上榜| 每日大事件 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4MmRJNFh3Y18zaW5aY2xlSUF2UTZVNkJOVjd6UHdNMGFTbUZtU2U2VjJYd2UxX1RCTEdSUk4ybnUwWGNOcDkyQ01pbTdRamV1VFJFVERSbHJTOHYwV0E5TzVwb2hsVTVlTUIwQmtPN2pwcnZsTDFBUA?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "ai安全警示再升级 前anthropic员工离职发声 ceo呼吁行业减速",
+      "normalized_title": "ai安全警示再升级 前anthropic员工离职发声 ceo呼吁行业减速",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wdDJlbWlkZ2t0c0d4eHZUMm5NSlA0SGFxVkJUR1pSbkNRVzQ2Y2hYVUFlYWlXdEpQTXA3cU5JVXpjWW1XWEg0MExKOGlQRjJFV1E?oc=5",
+      "title": "AI安全警示再升级：前Anthropic员工离职发声，CEO呼吁行业减速 - huxiu.com",
+      "summary": "AI安全警示再升级：前Anthropic员工离职发声，CEO呼吁行业减速 huxiu.com",
+      "source": "huxiu.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wdDJlbWlkZ2t0c0d4eHZUMm5NSlA0SGFxVkJUR1pSbkNRVzQ2Y2hYVUFlYWlXdEpQTXA3cU5JVXpjWW1XWEg0MExKOGlQRjJFV1E?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1
