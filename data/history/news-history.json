@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T07:52:29.039170+08:00",
+  "updated_at": "2026-09-15T08:36:08.861494+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5698,7 +5698,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5737,7 +5737,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5778,7 +5778,7 @@
           "whitepaper"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5836,6 +5836,37 @@
         ],
         "topics": [
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-14",
+      "last_seen_date": "2026-09-14",
+      "canonical_key": "ai infrastructure company cornelis raises 205m to chip away at nvidia s dominance",
+      "normalized_title": "ai infrastructure company cornelis raises 205m to chip away at nvidia s dominance",
+      "normalized_link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance",
+      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
+      "summary": "The company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1
