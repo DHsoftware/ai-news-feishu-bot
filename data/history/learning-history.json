@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T08:16:00.090421+08:00",
+  "updated_at": "2026-09-17T07:39:02.652608+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -425,6 +425,44 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "assess usage and value of chatgpt work",
+      "normalized_title": "assess usage and value of chatgpt work",
+      "normalized_link": "https://www.youtube.com/watch?v=iZE2r-Vx5b8",
+      "title": "Assess Usage and Value of ChatGPT Work",
+      "summary": "See how insights in the ChatGPT Admin Console help you understand AI adoption, usage, and spend across your organization. Explore team use cases, review Codex contributions, and identify where to focus training and expand access. Then use the ChatGPT Admin plugin to turn those analytics into a lead…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=iZE2r-Vx5b8",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "expand"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

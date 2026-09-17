@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T08:16:00.090421+08:00",
+  "updated_at": "2026-09-17T07:39:02.652608+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -130,180 +130,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-08-16",
-      "last_seen_date": "2026-08-16",
-      "canonical_key": "sciencediscovery发布 零科研幻觉的一站式ai工作台 biomnibench da验证效果业界sota",
-      "normalized_title": "sciencediscovery发布 零科研幻觉的一站式ai工作台 biomnibench da验证效果业界sota",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
-      "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA - sohu.com",
-      "summary": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA sohu.com",
-      "source": "sohu.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-16",
-      "last_seen_date": "2026-08-16",
-      "canonical_key": "2026年十大ai 工具 哪款最能实现创作全流程自动化",
-      "normalized_title": "2026年十大ai 工具 哪款最能实现创作全流程自动化",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1saE5ZZENWaWxTNU5YWEQ2TVF2OG9GNXJnTGtJSHNrb1BqZERoNVFEY2VPMEVuZTFmMGhVU3JXVWpWajVFb19rakNvdkZxNDZQZ0E?oc=5",
-      "title": "2026年十大AI视频工具：哪款最能实现创作全流程自动化？ - 至顶网",
-      "summary": "2026年十大AI视频工具：哪款最能实现创作全流程自动化？ 至顶网",
-      "source": "至顶网",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1saE5ZZENWaWxTNU5YWEQ2TVF2OG9GNXJnTGtJSHNrb1BqZERoNVFEY2VPMEVuZTFmMGhVU3JXVWpWajVFb19rakNvdkZxNDZQZ0E?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-16",
-      "last_seen_date": "2026-08-16",
-      "canonical_key": "mathcode mathematical coding agent",
-      "normalized_title": "mathcode mathematical coding agent",
-      "normalized_link": "https://math-ai-org.github.io/mathcode",
-      "title": "MathCode, Mathematical Coding Agent",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://math-ai-org.github.io/mathcode/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-16",
-      "last_seen_date": "2026-08-16",
-      "canonical_key": "rogue ai incident openai s autonomous agent breach",
-      "normalized_title": "rogue ai incident openai s autonomous agent breach",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtU21WX2RsUzNIU3BXNmF5WTdYcC1YSlp6Yzh4UUlQakhTcWZwaHRXeXNWb3RWQ2hOOVlNc1cxOWpJV1RNWUliRmtjRzFMY1VuYnhRVy1EZmNMLVFJUk84ZFl0SjRlcmthQ1MxS3ZvWWNrZXQ2OHdqYjJn?oc=5",
-      "title": "Rogue AI Incident: OpenAI's Autonomous Agent Breach - The Cryptonomist",
-      "summary": "Rogue AI Incident: OpenAI's Autonomous Agent Breach The Cryptonomist",
-      "source": "The Cryptonomist",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtU21WX2RsUzNIU3BXNmF5WTdYcC1YSlp6Yzh4UUlQakhTcWZwaHRXeXNWb3RWQ2hOOVlNc1cxOWpJV1RNWUliRmtjRzFMY1VuYnhRVy1EZmNMLVFJUk84ZFl0SjRlcmthQ1MxS3ZvWWNrZXQ2OHdqYjJn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "incident"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-16",
-      "last_seen_date": "2026-08-16",
-      "canonical_key": "spacex officially closes its cursor acquisition",
-      "normalized_title": "spacex officially closes its cursor acquisition",
-      "normalized_link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
-      "title": "SpaceX officially closes its Cursor acquisition",
-      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "cursor"
-        ],
-        "actions": [],
-        "topics": [
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-17",
@@ -5730,6 +5556,217 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "tensorrt edge llm completes the mlperf edge agentic benchmark 6 4x faster on jetson agx thor",
+      "normalized_title": "tensorrt edge llm completes the mlperf edge agentic benchmark 6 4x faster on jetson agx thor",
+      "normalized_link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through... AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt,…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "automotive",
+        "benchmark",
+        "chip",
+        "cloud",
+        "company_research",
+        "llm",
+        "robotics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "automotive",
+          "benchmark",
+          "chip",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "inference",
+          "llm",
+          "robotics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "how to use ai agents to prepare 3d scenes for simulation",
+      "normalized_title": "how to use ai agents to prepare 3d scenes for simulation",
+      "normalized_link": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in... Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author si…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "digital_twin",
+        "simulation_optimization",
+        "technical_blog",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "digital_twin",
+          "simulation_optimization",
+          "technical_blog",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "诺和诺德携手anthropic 利用ai加速药物研发",
+      "normalized_title": "诺和诺德携手anthropic 利用ai加速药物研发",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTnJXVUJXSFp0ZTE4YjdBT1k3T3ZZQ0tFWmdfTTNIZ3BTTXRiY3B1TUczZWxybmJpWGt1amRoVmwzZFYyaUJNeWRtcHQwa1VTeUloZFdlcV9tRENqLUJ4THhQa2VCem9aT3VHNnZZVUZOaVRENXpqeW13Nno3cjE0cVh6TXBicHpvVG1PS1JvY3BTa01IVy03Z0dhMFhLMldfZktBWllUZGZUUmFsTFpNQlZrSjZWX0hjcndkMG5ONFBRcnZKUDlNNGV5dE5wNG1pS0o2WmtxcExZZ2ItMFpvOA?oc=5",
+      "title": "诺和诺德携手Anthropic，利用AI加速药物研发 - TradingKey",
+      "summary": "诺和诺德携手Anthropic，利用AI加速药物研发 TradingKey",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTnJXVUJXSFp0ZTE4YjdBT1k3T3ZZQ0tFWmdfTTNIZ3BTTXRiY3B1TUczZWxybmJpWGt1amRoVmwzZFYyaUJNeWRtcHQwa1VTeUloZFdlcV9tRENqLUJ4THhQa2VCem9aT3VHNnZZVUZOaVRENXpqeW13Nno3cjE0cVh6TXBicHpvVG1PS1JvY3BTa01IVy03Z0dhMFhLMldfZktBWllUZGZUUmFsTFpNQlZrSjZWX0hjcndkMG5ONFBRcnZKUDlNNGV5dE5wNG1pS0o2WmtxcExZZ2ItMFpvOA?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "谷歌开放mcp早期访问 人工智能代理可控制google home智能家居 乌克兰新闻 mezha",
+      "normalized_title": "谷歌开放mcp早期访问 人工智能代理可控制google home智能家居 乌克兰新闻 mezha",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0SUN4Y1lFVFNvTkFSVnNCRmE5WGVtMHgzbi1Oa2daTlJ4aVdUT2tKZ1lWSmFXUkRFR19EbGpkbFRlYjJva2htbUdFN0VqYjNmbFVleW0wbUVVTk9BQVFZ?oc=5",
+      "title": "谷歌开放MCP早期访问：人工智能代理可控制Google Home智能家居| 乌克兰新闻- #Mezha - Межа. Новини України.",
+      "summary": "谷歌开放MCP早期访问：人工智能代理可控制Google Home智能家居| 乌克兰新闻- #Mezha Межа. Новини України.",
+      "source": "Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0SUN4Y1lFVFNvTkFSVnNCRmE5WGVtMHgzbi1Oa2daTlJ4aVdUT2tKZ1lWSmFXUkRFR19EbGpkbFRlYjJva2htbUdFN0VqYjNmbFVleW0wbUVVTk9BQVFZ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [
+          "google"
+        ],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-16",
+      "last_seen_date": "2026-09-16",
+      "canonical_key": "stanford researchers release paper2agent turning research papers into ai agents that reproduce results and run on new data",
+      "normalized_title": "stanford researchers release paper2agent turning research papers into ai agents that reproduce results and run on new data",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRC1rMDNZVnlJNjE5TUlweGR5SVBqYnlWSDA1MV9LU2pPSE5WSmtDZHk0Uk5GREdSd3RXUkJFeUtPcjZFcUY0VHlrUV93eVdpWFJtb2pUU0ZQUU9GM2ltdnJBSm9GSTRvRndTRElwemF3bWQzT0o1NnhGTHJJLV9Da21xbXJPa3hzTU1XZHB6Um5kV1U0cXE0bjl2eW9zUkg3b21ESnNSa3dCUldORFQ5OVVXei1VNVZtUEZvLW81Um1xTk1KTHRuc3Nqdl95NVJ5MjlXWVcwUUtCSEhnTXdRR04tc3E2eWoxS1p3YVhnbURzT1REREHSAfsBQVVfeXFMTXQwVC04Yk9NaEUzWFZsakhsZ1lJanotV29tWDBrc2xQUERwYzBRYlNvWTBJMFBaTVM2Q2tpbzdTS1pfUVBlMjN1SW12RkVrMlE3dm9YaGZZV1FUWmZYeEtFenNKNjVOMnhTWXlFenY4ZTJXOVZ2bl9LMmtrUnRBY05laHFXUE5zQnZ5ZnpKYjBTZ0tzVE5QdUZUZGFpd2llUkdzTEVOMThaNEQyVUhEcnowVkJlNnpQN3FBa1RPU1RxdjFxZHZhWGt0MlkzRXBxamZ0b1lseXU2X2k1anRodFFVRlZkLUNvM3dQNVpMZHk4RnhGbWJKUUplMlE?oc=5",
+      "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data - MarkTechPost",
+      "summary": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data MarkTechPost",
+      "source": "MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRC1rMDNZVnlJNjE5TUlweGR5SVBqYnlWSDA1MV9LU2pPSE5WSmtDZHk0Uk5GREdSd3RXUkJFeUtPcjZFcUY0VHlrUV93eVdpWFJtb2pUU0ZQUU9GM2ltdnJBSm9GSTRvRndTRElwemF3bWQzT0o1NnhGTHJJLV9Da21xbXJPa3hzTU1XZHB6Um5kV1U0cXE0bjl2eW9zUkg3b21ESnNSa3dCUldORFQ5OVVXei1VNVZtUEZvLW81Um1xTk1KTHRuc3Nqdl95NVJ5MjlXWVcwUUtCSEhnTXdRR04tc3E2eWoxS1p3YVhnbURzT1REREHSAfsBQVVfeXFMTXQwVC04Yk9NaEUzWFZsakhsZ1lJanotV29tWDBrc2xQUERwYzBRYlNvWTBJMFBaTVM2Q2tpbzdTS1pfUVBlMjN1SW12RkVrMlE3dm9YaGZZV1FUWmZYeEtFenNKNjVOMnhTWXlFenY4ZTJXOVZ2bl9LMmtrUnRBY05laHFXUE5zQnZ5ZnpKYjBTZ0tzVE5QdUZUZGFpd2llUkdzTEVOMThaNEQyVUhEcnowVkJlNnpQN3FBa1RPU1RxdjFxZHZhWGt0MlkzRXBxamZ0b1lseXU2X2k1anRodFFVRlZkLUNvM3dQNVpMZHk4RnhGbWJKUUplMlE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
