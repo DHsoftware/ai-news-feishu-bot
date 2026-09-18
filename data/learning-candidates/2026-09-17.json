@@ -1,11 +1,11 @@
 {
   "date": "2026-09-17",
-  "generated_at": "2026-09-18T07:33:26.100516+08:00",
+  "generated_at": "2026-09-18T08:14:15.511982+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 14,
-    "failed_count": 8
+    "success_count": 21,
+    "failed_count": 1
   },
   "selection_config": {
     "target_learning_candidate_count": 1,

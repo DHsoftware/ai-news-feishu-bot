@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T07:33:26.100516+08:00",
+  "updated_at": "2026-09-18T08:14:15.511982+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -3290,7 +3290,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-15",
+      "last_seen_date": "2026-09-17",
       "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
@@ -3326,7 +3326,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 6
+      "seen_count": 7
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5430,7 +5430,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-16",
@@ -5727,6 +5727,122 @@
         "products": [],
         "actions": [],
         "topics": [
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-17",
+      "last_seen_date": "2026-09-17",
+      "canonical_key": "microsoft releases new ai playbook for enterprises with real world examples and it reveals a surprising moat you may already have",
+      "normalized_title": "microsoft releases new ai playbook for enterprises with real world examples and it reveals a surprising moat you may already have",
+      "normalized_link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5",
+      "title": "Microsoft releases new AI playbook for enterprises with real-world examples, and it reveals a surprising 'moat' you may already have - VentureBeat",
+      "summary": "Microsoft releases new AI playbook for enterprises with real-world examples, and it reveals a surprising 'moat' you may already have VentureBeat",
+      "source": "VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-17",
+      "last_seen_date": "2026-09-17",
+      "canonical_key": "huawei and china construction bank jointly release ai dc white paper 2026",
+      "normalized_title": "huawei and china construction bank jointly release ai dc white paper 2026",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FRFJ1bmpfemZTM2ZBSHM3QzRnUXB2cFd5akRJZVp6QzdnLTlKZGJyU0FKalZOS1plVWg4M0t3V3JKXzhsR1dic1JCd1ZCd3B5Q2xVZ3RMWW1IeHJDQnV3bFU3SWFGZDhNTlRULUNlLTBPVGJSaEpsRUxWaFJaQQ?oc=5",
+      "title": "Huawei and China Construction Bank Jointly Release AI DC White Paper 2026 - Huawei Enterprise",
+      "summary": "Huawei and China Construction Bank Jointly Release AI DC White Paper 2026 Huawei Enterprise",
+      "source": "Huawei Enterprise",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FRFJ1bmpfemZTM2ZBSHM3QzRnUXB2cFd5akRJZVp6QzdnLTlKZGJyU0FKalZOS1plVWg4M0t3V3JKXzhsR1dic1JCd1ZCd3B5Q2xVZ3RMWW1IeHJDQnV3bFU3SWFGZDhNTlRULUNlLTBPVGJSaEpsRUxWaFJaQQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research",
+        "whitepaper"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research",
+          "whitepaper"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-17",
+      "last_seen_date": "2026-09-17",
+      "canonical_key": "论文汇总丨benchmark进入真实世界 斯坦福 清华 anthropic meta 阿里等重新定义ai能力评测",
+      "normalized_title": "论文汇总丨benchmark进入真实世界 斯坦福 清华 anthropic meta 阿里等重新定义ai能力评测",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93VHFIYVpBLXhSUERNNGF0NjlSZ0tnM0EydGtIMFZkUWtrZWxXN3VMSmFyeHV5SWhJdHR3WlRza3ZwRnc1ZWppYw?oc=5",
+      "title": "论文汇总丨Benchmark进入真实世界，斯坦福/清华/Anthropic/Meta/阿里等重新定义AI能力评测 - 智源社区",
+      "summary": "论文汇总丨Benchmark进入真实世界，斯坦福/清华/Anthropic/Meta/阿里等重新定义AI能力评测 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93VHFIYVpBLXhSUERNNGF0NjlSZ0tnM0EydGtIMFZkUWtrZWxXN3VMSmFyeHV5SWhJdHR3WlRza3ZwRnc1ZWppYw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
+          "coding",
+          "coding_agent",
           "research"
         ]
       },
