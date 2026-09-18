@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:14:15.511982+08:00",
+  "updated_at": "2026-09-19T07:18:44.486405+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -198,44 +198,6 @@
       "seen_count": 10
     },
     {
-      "first_seen_date": "2026-08-18",
-      "last_seen_date": "2026-08-18",
-      "canonical_key": "computer history in chatgpt",
-      "normalized_title": "computer history in chatgpt",
-      "normalized_link": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
-      "title": "Computer History in ChatGPT",
-      "summary": "Codex & ChatGPT can now understand the context around what you’re working on. When you opt in to Computer History, it can help you pick up where you left off, get back to unfinished projects, and see suggested skills or scheduled tasks based on the work you do regularly. Available in the ChatGPT de…",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=W-HhMUe9hOg",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "summary_quality": "medium",
-      "concept_hint": "Coding Agent",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "codex"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "agent",
-          "cli",
-          "codex"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
       "first_seen_date": "2026-08-19",
       "last_seen_date": "2026-08-19",
       "canonical_key": "codex cli release 0 145 0",
@@ -294,7 +256,7 @@
     },
     {
       "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
+      "last_seen_date": "2026-09-18",
       "canonical_key": "codex cli release 0 150 0",
       "normalized_title": "codex cli release 0 150 0",
       "normalized_link": "https://developers.openai.com/codex/changelog",
@@ -341,7 +303,7 @@
           "workflow"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-03",
