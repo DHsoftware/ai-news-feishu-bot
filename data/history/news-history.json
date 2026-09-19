@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T08:17:53.617285+08:00",
+  "updated_at": "2026-09-20T07:06:41.771580+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -130,217 +130,6 @@
         ]
       },
       "seen_count": 8
-    },
-    {
-      "first_seen_date": "2026-08-18",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "asana cleared 5 years of engineering work in 2 weeks with codex",
-      "normalized_title": "asana cleared 5 years of engineering work in 2 weeks with codex",
-      "normalized_link": "https://openai.com/index/asana",
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/asana",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-19",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "ai workflow coordination is the new competitive advantage in u s workers comp report",
-      "normalized_title": "ai workflow coordination is the new competitive advantage in u s workers comp report",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlVEd3T21Pd2laVEZqcnE1clMxSVlZZUZ3eUtwSzBTcTV0N1FNV0VTZlJ3U1ItNnY1MDJJWGRrcC1rR3ZBTVoyc3VTWlBoblI4TThLRGNFTlM5ZFBYckhSLXlwV05Gd3FUSWFieQ?oc=5",
-      "title": "AI Workflow Coordination is the New Competitive Advantage in U.S. Workers’ Comp: Report - Carrier Management",
-      "summary": "AI Workflow Coordination is the New Competitive Advantage in U.S. Workers’ Comp: Report Carrier Management",
-      "source": "Carrier Management",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlVEd3T21Pd2laVEZqcnE1clMxSVlZZUZ3eUtwSzBTcTV0N1FNV0VTZlJ3U1ItNnY1MDJJWGRrcC1rR3ZBTVoyc3VTWlBoblI4TThLRGNFTlM5ZFBYckhSLXlwV05Gd3FUSWFieQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-19",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "simscale releases simulation ai agent to engineering users",
-      "normalized_title": "simscale releases simulation ai agent to engineering users",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQejZUVmM1cV9XUlg1cnlQc0ZnOE5lSVpBVUpXTl9LTnFhUEJhdndId3YxWXlFS0JIVGt4TDEyMERsdzlTTHpabmxkQVZ3ZHZ5WTNxSEJ3a1NtQ04tc1ZPRndmbnFLdlMxdjBUT1pqaWZ6MkNCajJVcXI1T25TTkhqV2lMbktRYkVGb2thTlJnVXJzSXVkTy1fUg?oc=5",
-      "title": "SimScale releases simulation AI agent to engineering users - Design World",
-      "summary": "SimScale releases simulation AI agent to engineering users Design World",
-      "source": "Design World",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQejZUVmM1cV9XUlg1cnlQc0ZnOE5lSVpBVUpXTl9LTnFhUEJhdndId3YxWXlFS0JIVGt4TDEyMERsdzlTTHpabmxkQVZ3ZHZ5WTNxSEJ3a1NtQ04tc1ZPRndmbnFLdlMxdjBUT1pqaWZ6MkNCajJVcXI1T25TTkhqV2lMbktRYkVGb2thTlJnVXJzSXVkTy1fUg?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "simulation_optimization"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "simulation_optimization"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-19",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "21评论丨anthropic首次季度盈利 ai商业模式跑通了",
-      "normalized_title": "21评论丨anthropic首次季度盈利 ai商业模式跑通了",
-      "normalized_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUFJpODJsZC01SkxBS2FOekRxVzVDLWRTZ3NjNkdUNTk0eThTMWI3X29rX195UktMVG5sVXF5N05WdUVGRGFUQl9NcWFvc2k4LVlNbV91bURwMDlXY0V2QVc4X3NjNENQeFVUZGRUcEJUeEdEMk12X0E1c0tzS0FjTnFjbw?oc=5",
-      "title": "21评论丨Anthropic首次季度盈利，AI商业模式跑通了？ - 21财经",
-      "summary": "21评论丨Anthropic首次季度盈利，AI商业模式跑通了？ 21财经",
-      "source": "21财经",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUFJpODJsZC01SkxBS2FOekRxVzVDLWRTZ3NjNkdUNTk0eThTMWI3X29rX195UktMVG5sVXF5N05WdUVGRGFUQl9NcWFvc2k4LVlNbV91bURwMDlXY0V2QVc4X3NjNENQeFVUZGRUcEJUeEdEMk12X0E1c0tzS0FjTnFjbw?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-19",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "国产大模型kimi 线上澳门人威尼斯是真的吗问世 美国ai巨头anthropic被冲击 估值少了9000亿",
-      "normalized_title": "国产大模型kimi 线上澳门人威尼斯是真的吗问世 美国ai巨头anthropic被冲击 估值少了9000亿",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40aTFOVUFXVjB4OE11WVIzalpOZ2ZscGxRQ2Q2Zks3bGU4R1BONzl1Um9qY2Q4Q3lYUGZkTV8zYkxhMWx3ekQ3V29wbUFfcDFWajNyS2ZEXzg0dw?oc=5",
-      "title": "国产大模型Kimi 线上澳门人威尼斯是真的吗问世 美国AI巨头Anthropic被冲击：估值少了9000亿 - womenofchina.com",
-      "summary": "国产大模型Kimi 线上澳门人威尼斯是真的吗问世 美国AI巨头Anthropic被冲击：估值少了9000亿 womenofchina.com",
-      "source": "womenofchina.com",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40aTFOVUFXVjB4OE11WVIzalpOZ2ZscGxRQ2Q2Zks3bGU4R1BONzl1Um9qY2Q4Q3lYUGZkTV8zYkxhMWx3ekQ3V29wbUFfcDFWajNyS2ZEXzg0dw?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-19",
-      "last_seen_date": "2026-08-19",
-      "canonical_key": "openai内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考",
-      "normalized_title": "openai内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VWGFzZ0tNWXlnaWcxSkptVFJNcklzZFdfam45el9vekREVFhEZ2sxNkYwckx0ODM3YmZuRFhFNnhlOFhRdG5maF8xdW9FdFR0MWprLQ?oc=5",
-      "title": "OpenAI内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考 - 虎嗅",
-      "summary": "OpenAI内部评估中模型利用零日漏洞突破沙箱引发网络安全新思考 虎嗅",
-      "source": "虎嗅",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VWGFzZ0tNWXlnaWcxSkptVFJNcklzZFdfam45el9vekREVFhEZ2sxNkYwckx0ODM3YmZuRFhFNnhlOFhRdG5maF8xdW9FdFR0MWprLQ?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-20",
@@ -3107,7 +2896,7 @@
     },
     {
       "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-18",
+      "last_seen_date": "2026-09-19",
       "canonical_key": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_title": "meta发布最强ai模型 编程直追openai 下一步是 24小时替你工作 的个人智能体 市场参考",
       "normalized_link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBySy1CaU4xNVFuSXloaEhOTkJIc05YcndaRkpQSzN6WFgzZkQ3bHBWS2VHTlJYV0o2S0VaSkhvcGg5YUhjbllsOEFuVHBrUDA?oc=5",
@@ -3143,7 +2932,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5810,6 +5599,162 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-19",
+      "last_seen_date": "2026-09-19",
+      "canonical_key": "benchmarking llm inference at scale with aiperf nvidia technical blog",
+      "normalized_title": "benchmarking llm inference at scale with aiperf nvidia technical blog",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmZ6SXBWVXB5aDBPUTJMNzRxVjdxTW9zc0FELTdJQkdtMDg4YjRJbFNNdTVmTmVfX1Y2M2I5VjJLY3ZRaTVmeGZHdi1rLWp2a0NpWENqcHQwMnRVRnFCTXNxSXozeWVPUjRsbkI0dlhLWTdhQ2FVTEw2LTEyMjVXQXdvdWxFdTk4Vmc?oc=5",
+      "title": "Benchmarking LLM Inference at Scale with AIPerf | NVIDIA Technical Blog - developer.nvidia.com",
+      "summary": "Benchmarking LLM Inference at Scale with AIPerf | NVIDIA Technical Blog developer.nvidia.com",
+      "source": "developer.nvidia.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmZ6SXBWVXB5aDBPUTJMNzRxVjdxTW9zc0FELTdJQkdtMDg4YjRJbFNNdTVmTmVfX1Y2M2I5VjJLY3ZRaTVmeGZHdi1rLWp2a0NpWENqcHQwMnRVRnFCTXNxSXozeWVPUjRsbkI0dlhLWTdhQ2FVTEw2LTEyMjVXQXdvdWxFdTk4Vmc?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "benchmark",
+        "chip",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "llm",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-19",
+      "last_seen_date": "2026-09-19",
+      "canonical_key": "get hands on ai agent and automation training for 19 99",
+      "normalized_title": "get hands on ai agent and automation training for 19 99",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVENHUDR4aHExREE3SGxqV0xSbVJQYkszaG5ha09GNzR3MmJkblk4eVE5cm1Za3NDeUFCWmN0dWRCaW5wQWc0LU14UENCVmdsOTRvZm9fTHcwaDc1Q2g0cTNxXzQ5SUhPUzJjRkhfS1ZGVVlxbGxFRjl4LWdZcUdPYXlmSGJxdURfd01F?oc=5",
+      "title": "Get hands-on AI agent and automation training for $19.99 - Mashable",
+      "summary": "Get hands-on AI agent and automation training for $19.99 Mashable",
+      "source": "Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVENHUDR4aHExREE3SGxqV0xSbVJQYkszaG5ha09GNzR3MmJkblk4eVE5cm1Za3NDeUFCWmN0dWRCaW5wQWc0LU14UENCVmdsOTRvZm9fTHcwaDc1Q2g0cTNxXzQ5SUhPUzJjRkhfS1ZGVVlxbGxFRjl4LWdZcUdPYXlmSGJxdURfd01F?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "chip",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "chip",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-19",
+      "last_seen_date": "2026-09-19",
+      "canonical_key": "sic systems applies multi agent ai to first of a kind methane to hydrogen and carbon nanotube plants under teaming agreement with carbonlume",
+      "normalized_title": "sic systems applies multi agent ai to first of a kind methane to hydrogen and carbon nanotube plants under teaming agreement with carbonlume",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQeVY1bnVVVlFvY2FiQUZoMjkzeGltdlhxalpmSWw1UHd0ZU55UHBBWjlVeWVSZTVZSlJiT0ZFYzFUbm5IekswV3dmdWoyaUNlY0N3aGZGTV9sZ0tkaEFnOHNCQXhQazFmMGxyOWVrbEg2eG9Ld2dxRERBVWxXelJnc2phWTJTYmFnbXBfN0pScTBkV0lITUwwek1Uc3RhNE1Sb2NZMDVyWndrbzQ1Ui1Hd3JJLWtBa0M4RW5yR2w1VDY5NVNZa2VaV2d1NnRZbmI5eFktNXBFSmhkamFpMEJXTW9BbkFjWlhHc2E0UllXRmJoNEI5UnBiSjNnUXU1alVTOS1uYk5zZXVwYkhPVzA5Q0RwLVhEcFA1U2hEaGMyNXRJdnM?oc=5",
+      "title": "SiC Systems Applies Multi-Agent AI to First-of-a-Kind Methane-to-Hydrogen and Carbon Nanotube Plants Under Teaming Agreement with CarbonLume - Business Wire",
+      "summary": "SiC Systems Applies Multi-Agent AI to First-of-a-Kind Methane-to-Hydrogen and Carbon Nanotube Plants Under Teaming Agreement with CarbonLume Business Wire",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQeVY1bnVVVlFvY2FiQUZoMjkzeGltdlhxalpmSWw1UHd0ZU55UHBBWjlVeWVSZTVZSlJiT0ZFYzFUbm5IekswV3dmdWoyaUNlY0N3aGZGTV9sZ0tkaEFnOHNCQXhQazFmMGxyOWVrbEg2eG9Ld2dxRERBVWxXelJnc2phWTJTYmFnbXBfN0pScTBkV0lITUwwek1Uc3RhNE1Sb2NZMDVyWndrbzQ1Ui1Hd3JJLWtBa0M4RW5yR2w1VDY5NVNZa2VaV2d1NnRZbmI5eFktNXBFSmhkamFpMEJXTW9BbkFjWlhHc2E0UllXRmJoNEI5UnBiSjNnUXU1alVTOS1uYk5zZXVwYkhPVzA5Q0RwLVhEcFA1U2hEaGMyNXRJdnM?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "sic"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "sic"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "sic"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-19",
+      "last_seen_date": "2026-09-19",
+      "canonical_key": "openai智能体在德国维基上未授权编辑1 8万次 暴露ai监管灰色地带",
+      "normalized_title": "openai智能体在德国维基上未授权编辑1 8万次 暴露ai监管灰色地带",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vSWFiRkIwNnZhRzZDQVhRV3RzQnd2OUJVYUVOTmtvTnQ5a2stcEh0MmM5TVQ2VDBKeVpYODlpdTBtSnFMc2Y2ZEx5QVJQTVlzTXd1NE1rQmJ6YkNlZ3Uw?oc=5",
+      "title": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 - 虎嗅",
+      "summary": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vSWFiRkIwNnZhRzZDQVhRV3RzQnd2OUJVYUVOTmtvTnQ5a2stcEh0MmM5TVQ2VDBKeVpYODlpdTBtSnFMc2Y2ZEx5QVJQTVlzTXd1NE1rQmJ6YkNlZ3Uw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "policy_regulation",
+          "regulation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
