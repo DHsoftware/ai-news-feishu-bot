@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T07:15:10.449660+08:00",
+  "updated_at": "2026-09-21T08:13:39.167581+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2821,7 +2821,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "first_seen_date": "2026-09-04",
@@ -5676,7 +5676,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-20",
@@ -5713,7 +5713,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-20",
@@ -5754,7 +5754,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-20",
@@ -5784,7 +5784,7 @@
           "chip"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
