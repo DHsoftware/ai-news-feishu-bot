@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T08:48:24.647183+08:00",
+  "updated_at": "2026-09-23T07:36:02.183742+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,153 +42,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-08-22",
-      "last_seen_date": "2026-08-22",
-      "canonical_key": "where security fits in an ai agent stack",
-      "normalized_title": "where security fits in an ai agent stack",
-      "normalized_link": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack",
-      "title": "Where Security Fits in an AI Agent Stack",
-      "summary": "As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important.... As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-22",
-      "last_seen_date": "2026-08-22",
-      "canonical_key": "ntt data and palo alto networks sign global strategic alliance to accelerate secure ai transformation",
-      "normalized_title": "ntt data and palo alto networks sign global strategic alliance to accelerate secure ai transformation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVklUWnZzWVdPMTlhYW9XSWN4NjdxNnNxNkNsQmxLNEwtSmI0MGdQaEg5MlE3TnNUclFVanpfZjBzTU54Wm9uQzFrcE5HOUdkMTd2RE1mNFN1ZnZLdTNNOXVwSmN2WVhSME9mcG8wNHRJeEtwSXBOU2t1eDNma3IzeEt6Tjl2Ni00Y05VYk0tMzdlbnZ5ckI1V0E4M3RjczNiMEtnRzVzZDZoQ0J3UXNwSFQ2SjFsZ2ZvTlFYb0NQYmpMSEo3NlhxUnJieXo5a2tfTHM1enRzVUVYakppak9kd01oX0JfazB2?oc=5",
-      "title": "NTT DATA and Palo Alto Networks Sign Global Strategic Alliance to Accelerate Secure AI Transformation - Palo Alto Networks",
-      "summary": "NTT DATA and Palo Alto Networks Sign Global Strategic Alliance to Accelerate Secure AI Transformation Palo Alto Networks",
-      "source": "Palo Alto Networks",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVklUWnZzWVdPMTlhYW9XSWN4NjdxNnNxNkNsQmxLNEwtSmI0MGdQaEg5MlE3TnNUclFVanpfZjBzTU54Wm9uQzFrcE5HOUdkMTd2RE1mNFN1ZnZLdTNNOXVwSmN2WVhSME9mcG8wNHRJeEtwSXBOU2t1eDNma3IzeEt6Tjl2Ni00Y05VYk0tMzdlbnZ5ckI1V0E4M3RjczNiMEtnRzVzZDZoQ0J3UXNwSFQ2SjFsZ2ZvTlFYb0NQYmpMSEo3NlhxUnJieXo5a2tfTHM1enRzVUVYakppak9kd01oX0JfazB2?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-22",
-      "last_seen_date": "2026-08-22",
-      "canonical_key": "开 云官方网站下载发布全场景ai能源管理平台 以智能充电技术重塑智慧家庭生态",
-      "normalized_title": "开 云官方网站下载发布全场景ai能源管理平台 以智能充电技术重塑智慧家庭生态",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tTkp6N04xRzVFRHc1c3hib3RZcGxwNndKeU4wWWFQendoeUhIbVdPSG5nbzRZYXBpVjJHTm1TS3pYdjduUEVCUFRrZk9HT2JzNDItQVdPalk4Mm9mQy1V?oc=5",
-      "title": "开・云官方网站下载发布全场景AI能源管理平台 以智能充电技术重塑智慧家庭生态 - womenofchina.com",
-      "summary": "开・云官方网站下载发布全场景AI能源管理平台 以智能充电技术重塑智慧家庭生态 womenofchina.com",
-      "source": "womenofchina.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tTkp6N04xRzVFRHc1c3hib3RZcGxwNndKeU4wWWFQendoeUhIbVdPSG5nbzRZYXBpVjJHTm1TS3pYdjduUEVCUFRrZk9HT2JzNDItQVdPalk4Mm9mQy1V?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "cloud",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "cloud",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-22",
-      "last_seen_date": "2026-08-22",
-      "canonical_key": "ai推理时代自研硅加速崛起 anthropic挖来谷歌tpu元老 算力帝国从 gpu独奏 迈向 异构算力交响",
-      "normalized_title": "ai推理时代自研硅加速崛起 anthropic挖来谷歌tpu元老 算力帝国从 gpu独奏 迈向 异构算力交响",
-      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NbTllSC1IbWUzcUFJRUt1YlRrUm1LZFU4b2JSUDFsWnEyY1RDTGhqNzBpZXhMT1ZBNld2ck1EaTdHRlNZa0MxVWZ2RVNTVmgyV3RNa2oxTUlaNEktLWRCcGlyOVZuR0t6SEhWLWhTZnY?oc=5",
-      "title": "AI推理时代自研硅加速崛起! Anthropic挖来谷歌TPU元老 算力帝国从“GPU独奏”迈向“异构算力交响” - t.cj.sina.cn",
-      "summary": "AI推理时代自研硅加速崛起! Anthropic挖来谷歌TPU元老 算力帝国从“GPU独奏”迈向“异构算力交响” t.cj.sina.cn",
-      "source": "t.cj.sina.cn",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NbTllSC1IbWUzcUFJRUt1YlRrUm1LZFU4b2JSUDFsWnEyY1RDTGhqNzBpZXhMT1ZBNld2ck1EaTdHRlNZa0MxVWZ2RVNTVmgyV3RNa2oxTUlaNEktLWRCcGlyOVZuR0t6SEhWLWhTZnY?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "google"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "inference"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-22",
@@ -5747,6 +5600,195 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-22",
+      "last_seen_date": "2026-09-22",
+      "canonical_key": "nvidia isaac ros 5 0 advances agentic open source robotics development",
+      "normalized_title": "nvidia isaac ros 5 0 advances agentic open source robotics development",
+      "normalized_link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-acce…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "robotics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "opensource",
+          "robotics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-22",
+      "last_seen_date": "2026-09-22",
+      "canonical_key": "the enterprise ai shift from gpu infrastructure to workflow automation",
+      "normalized_title": "the enterprise ai shift from gpu infrastructure to workflow automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjR5bHptaTZ5MUlRNmNTdngxQ1ZoYXVfUkVaVWg3Y2l5czR6TFNFcjVoM2RWYjJvUmVFeTdHTTlsbXEwZ3V1N2ZMN0luMU8zdldISENOTjJkX2JhQkFxY0pxVEctdGljTUxvUVlYb2hyNk5vOUxFbGV6UVJQT2pKNmszdldWN21PRmtqV1ZjeVlJWFh5d1pRa052MktCUHQxalRVclFMS2RRQXc?oc=5",
+      "title": "The Enterprise AI Shift: From GPU Infrastructure to Workflow Automation - CXOToday.com",
+      "summary": "The Enterprise AI Shift: From GPU Infrastructure to Workflow Automation CXOToday.com",
+      "source": "CXOToday.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjR5bHptaTZ5MUlRNmNTdngxQ1ZoYXVfUkVaVWg3Y2l5czR6TFNFcjVoM2RWYjJvUmVFeTdHTTlsbXEwZ3V1N2ZMN0luMU8zdldISENOTjJkX2JhQkFxY0pxVEctdGljTUxvUVlYb2hyNk5vOUxFbGV6UVJQT2pKNmszdldWN21PRmtqV1ZjeVlJWFh5d1pRa052MktCUHQxalRVclFMS2RRQXc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "chip",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "chip",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-22",
+      "last_seen_date": "2026-09-22",
+      "canonical_key": "性能成本双平衡 极海g32r502实时控制mcu dsp赋能ai算力电源与运动控制升级",
+      "normalized_title": "性能成本双平衡 极海g32r502实时控制mcu dsp赋能ai算力电源与运动控制升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRzcxZndmckNtcnJLXzNlekpheDl1S183V1dpb1NuZlpDbWhld2hyNnZvNFdCTVl1RmRuYWV1NUZ0Rjl3eUYwUzZjOERJM1FFREdB?oc=5",
+      "title": "性能成本双平衡：极海G32R502实时控制MCU/DSP赋能AI算力电源与运动控制升级 - 电子工程专辑",
+      "summary": "性能成本双平衡：极海G32R502实时控制MCU/DSP赋能AI算力电源与运动控制升级 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRzcxZndmckNtcnJLXzNlekpheDl1S183V1dpb1NuZlpDbWhld2hyNnZvNFdCTVl1RmRuYWV1NUZ0Rjl3eUYwUzZjOERJM1FFREdB?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-22",
+      "last_seen_date": "2026-09-22",
+      "canonical_key": "openai泄露代码显示代号aeon 正在开发对标grok bot的智能体功能",
+      "normalized_title": "openai泄露代码显示代号aeon 正在开发对标grok bot的智能体功能",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hWGxuazJ2TWcwa2NoaUItdTNXR0hIb2NILTJNYzlobzRkcURKYndsRXZlRURJSUZwRTllbmI1alFta1VlMFBrdFZ2UTFfaUR0YmJPUy0zOHI1SFhpUzZv?oc=5",
+      "title": "OpenAI泄露代码显示代号Aeon，正在开发对标Grok Bot的智能体功能 - 虎嗅网",
+      "summary": "OpenAI泄露代码显示代号Aeon，正在开发对标Grok Bot的智能体功能 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hWGxuazJ2TWcwa2NoaUItdTNXR0hIb2NILTJNYzlobzRkcURKYndsRXZlRURJSUZwRTllbmI1alFta1VlMFBrdFZ2UTFfaUR0YmJPUy0zOHI1SFhpUzZv?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-22",
+      "last_seen_date": "2026-09-22",
+      "canonical_key": "benchmarking llm inference at scale with aiperf",
+      "normalized_title": "benchmarking llm inference at scale with aiperf",
+      "normalized_link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+      "title": "Benchmarking LLM Inference at Scale with AIPerf",
+      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts mig…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "llm",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "llm",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
