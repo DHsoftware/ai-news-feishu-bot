@@ -1,15 +1,15 @@
 {
   "date": "2026-09-23",
-  "generated_at": "2026-09-24T07:42:34.817093+08:00",
+  "generated_at": "2026-09-24T08:28:38.974716+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 228,
-    "failed_count": 2,
+    "success_count": 18,
+    "failed_count": 212,
     "global_source_count": 16,
-    "global_success_count": 15,
+    "global_success_count": 9,
     "china_source_count": 34,
-    "china_success_count": 213
+    "china_success_count": 9
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 156,
-    "history_duplicate_count": 48
+    "history_size_before": 156,
+    "history_size_after": 159,
+    "history_duplicate_count": 8
   },
-  "raw_item_count": 5208,
-  "deduped_item_count": 3898,
-  "filtered_item_count": 468,
+  "raw_item_count": 291,
+  "deduped_item_count": 225,
+  "filtered_item_count": 54,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,96 +77,6 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "UiPath aims to bridge gap between process, agentic AI, orchestration - Constellation Research",
-      "summary": "UiPath aims to bridge gap between process, agentic AI, orchestration Constellation Research",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-09-24T02:34:34+08:00",
-      "source": "Constellation Research",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkp1Z3AxU1J2aWRtT3M0V0d6WTVDaDJKRHZSakRKSHF6ekl6Nzk1a0xieTN5Mk9nNTlxbFo1STE3YjV2cndfczIzNWMwSks2U2JMQlRtMUdGd0FDalI1T0VUTUhrQzB5OXQ4UHZsaURRd1BJdWtKY3B4YTc0dUFlbGZBUkt0V0xoN00ybkkxZjdiUGxqNU5Xay1DV2R2MlNwb3YzZE5MeDNsRllaUUQ4?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
-      ],
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "category": "AI Agent",
-      "dedupe_key": "uipath aims to bridge gap between process agentic ai orchestration",
-      "canonical_key": "uipath aims to bridge gap between process agentic ai orchestration",
-      "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkp1Z3AxU1J2aWRtT3M0V0d6WTVDaDJKRHZSakRKSHF6ekl6Nzk1a0xieTN5Mk9nNTlxbFo1STE3YjV2cndfczIzNWMwSks2U2JMQlRtMUdGd0FDalI1T0VUTUhrQzB5OXQ4UHZsaURRd1BJdWtKY3B4YTc0dUFlbGZBUkt0V0xoN00ybkkxZjdiUGxqNU5Xay1DV2R2MlNwb3YzZE5MeDNsRllaUUQ4?oc=5",
-      "score": 75,
-      "selection_reason": "required_productivity"
-    },
-    {
-      "title": "Geely Auto Group Introduces Ultra-Fast AI-Powered Geely Smart Charging - markets.businessinsider.com",
-      "summary": "Geely Auto Group Introduces Ultra-Fast AI-Powered Geely Smart Charging markets.businessinsider.com",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-09-23T21:57:45+08:00",
-      "source": "markets.businessinsider.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRU5PVFQ2QkV1aDJWMV9SWW1ySEVpdnM1blR5aXhKVE9SUmpNQURiWVdCVGZtTkV5ZXoyS3VPOThqcUZaZUtWZ3dXSlpRSHlqc3dVR2VGcGpNaXVIMGQyZmJpSWFBeVFKbWF0ckJfTW9lRThmaHE0LVk4Rlp6TG5vOUVTTUJZY2dzQkJDcmd4eVZocWE2clB1TDVTV0pZOEx3eW5OZHVPWmdzb1BrUXJsS1gyS0pxNXpWLS1GQ2ZTTmlrZ2FLa2pSNw?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "power_electronics",
-        "obc",
-        "dcdc"
-      ],
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "category": "OBC/DCDC",
-      "dedupe_key": "geely auto group introduces ultra fast ai powered geely smart charging",
-      "canonical_key": "geely auto group introduces ultra fast ai powered geely smart charging",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRU5PVFQ2QkV1aDJWMV9SWW1ySEVpdnM1blR5aXhKVE9SUmpNQURiWVdCVGZtTkV5ZXoyS3VPOThqcUZaZUtWZ3dXSlpRSHlqc3dVR2VGcGpNaXVIMGQyZmJpSWFBeVFKbWF0ckJfTW9lRThmaHE0LVk4Rlp6TG5vOUVTTUJZY2dzQkJDcmd4eVZocWE2clB1TDVTV0pZOEx3eW5OZHVPWmdzb1BrUXJsS1gyS0pxNXpWLS1GQ2ZTTmlrZ2FLa2pSNw?oc=5",
-      "score": 61,
-      "selection_reason": "power_electronics_boost"
-    },
-    {
-      "title": "OpenAI与Anthropic，同日“上新”大模型 - 世界互联网大会",
-      "summary": "OpenAI与Anthropic，同日“上新”大模型 世界互联网大会",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-09-23T19:56:25+08:00",
-      "source": "世界互联网大会",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wNE9oeUZTaGRSWDlyOThMZ09UY1JIZVU4RE9sZk1CRUR6dkpfSE1peEp4OUVqUnFIZ2NCeGNxbXcwQ2tSWjUta29xQVNSMncxd0pBaDBlcU03TWRyQUQ2cmEzZzdqa3JFZGc?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "llm"
-      ],
-      "category": "中国AI",
-      "dedupe_key": "openai与anthropic 同日 上新 大模型",
-      "canonical_key": "openai与anthropic 同日 上新 大模型",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wNE9oeUZTaGRSWDlyOThMZ09UY1JIZVU4RE9sZk1CRUR6dkpfSE1peEp4OUVqUnFIZ2NCeGNxbXcwQ2tSWjUta29xQVNSMncxd0pBaDBlcU03TWRyQUQ2cmEzZzdqa3JFZGc?oc=5",
-      "score": 19,
-      "selection_reason": "auto_china_quota"
-    },
-    {
       "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
       "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at the ROSCon conference in Toronto, Canada — helps humans and AI agents build robots together. The release introduces new agentic workflows and platform support to help developers build, customize and deploy robotics applications faster. ROS provides the open source foundation for much of modern robotics development, giving developers common tools, libraries and standards for building and connecting robot applications. NVIDIA Isaac ROS brings NVIDIA…",
       "summary_source": "rss_content_encoded",
@@ -200,25 +110,102 @@
       "canonical_key": "nvidia isaac ros 5 0 advances agentic open source robotics development",
       "normalized_link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics",
       "score": 139,
-      "selection_reason": "fill_remaining_high_score"
+      "selection_reason": "required_global_quota"
+    },
+    {
+      "title": "Microsoft’s new Surface Mouse has haptic feedback and a customizable action button",
+      "summary": "Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot ( of course ), but can be configured to work with other shortcuts from the Surface app. \"Its haptic feedback adds a small, purposeful physical response to the moment you usually only see on a screen: a click registering, a window snapping into place or an object aligning just right,\" says Brett Ostrum , corporate vice president of Surface Devices. \"It is subtle by design, but noticeable within seconds … Read the full story at The Verge.",
+      "summary_source": "atom_content",
+      "summary_quality": "high",
+      "published_at": "2026-09-24T04:24:59+08:00",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "coding"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "microsoft s new surface mouse has haptic feedback and a customizable action button",
+      "canonical_key": "microsoft s new surface mouse has haptic feedback and a customizable action button",
+      "normalized_link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+      "score": 72,
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
+    },
+    {
+      "title": "The AI Hype Index: AI loves cheating",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s only what we’ve caught so far. Freaking out? You’re not alone. AI lab researchers are quitting their jobs and issuing dire warnings that if we keep going this way, AI might eventually kill us all. Bill Gates is sounding the alarm . Bernie Sanders has teamed up with Steve Bannon, of all people, to call for curbs on AI . Anthropic CEO Dario Amodei is urging a slowdown , and other top US AI executives agree. But fear not: President Trump has a pl…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-09-23T17:00:00+08:00",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "agent",
+        "security"
+      ],
+      "category": "AI Agent",
+      "dedupe_key": "the ai hype index ai loves cheating",
+      "canonical_key": "the ai hype index ai loves cheating",
+      "normalized_link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating",
+      "score": 52,
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
+    },
+    {
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "summary": "Comments",
+      "summary_source": "rss_description",
+      "summary_quality": "low",
+      "published_at": "2026-09-24T06:45:49+08:00",
+      "source": "Hacker News",
+      "link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "research"
+      ],
+      "category": "研究论文",
+      "dedupe_key": "arxiv receives multiyear commitments to support it as an independent nonprofit",
+      "canonical_key": "arxiv receives multiyear commitments to support it as an independent nonprofit",
+      "normalized_link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment",
+      "score": 45,
+      "selection_reason": "fill_remaining_high_score;no_productivity_candidate;no_power_electronics_candidate"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1310,
-    "history_duplicate": 48,
-    "weak_relevance": 194,
+    "duplicate": 66,
+    "history_duplicate": 8,
+    "weak_relevance": 56,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3236,
-    "same_entity_limit": 149,
+    "old_news": 115,
+    "same_entity_limit": 0,
     "similar_selected": 0,
-    "company_research_limit": 0,
+    "company_research_limit": 13,
     "auto_driving_limit": 0,
     "smart_cockpit_limit": 0,
     "no_agent_candidate": 0,
-    "no_productivity_candidate": 0,
+    "no_productivity_candidate": 1,
     "no_company_research_candidate": 0,
-    "no_power_electronics_candidate": 0
+    "no_power_electronics_candidate": 1,
+    "source_limit_applied": 6
   }
 }

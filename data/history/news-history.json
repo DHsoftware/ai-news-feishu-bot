@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:42:34.817093+08:00",
+  "updated_at": "2026-09-24T08:28:38.974716+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5378,7 +5378,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-22",
@@ -5561,7 +5561,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-23",
@@ -5661,6 +5661,98 @@
         "topics": [
           "llm",
           "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-23",
+      "last_seen_date": "2026-09-23",
+      "canonical_key": "microsoft s new surface mouse has haptic feedback and a customizable action button",
+      "normalized_title": "microsoft s new surface mouse has haptic feedback and a customizable action button",
+      "normalized_link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+      "title": "Microsoft’s new Surface Mouse has haptic feedback and a customizable action button",
+      "summary": "Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot ( of course ), but can be configured to work with oth…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-23",
+      "last_seen_date": "2026-09-23",
+      "canonical_key": "the ai hype index ai loves cheating",
+      "normalized_title": "the ai hype index ai loves cheating",
+      "normalized_link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating",
+      "title": "The AI Hype Index: AI loves cheating",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into oth…",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-23",
+      "last_seen_date": "2026-09-23",
+      "canonical_key": "arxiv receives multiyear commitments to support it as an independent nonprofit",
+      "normalized_title": "arxiv receives multiyear commitments to support it as an independent nonprofit",
+      "normalized_link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment",
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "research"
         ]
       },
       "seen_count": 1
