@@ -1,48 +1,8 @@
 {
-  "updated_at": "2026-09-24T08:28:38.974716+08:00",
+  "updated_at": "2026-09-25T07:52:44.711335+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-08-02",
-      "last_seen_date": "2026-08-24",
-      "canonical_key": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
-      "normalized_title": "openai举行 ai上岗 发布会 股票研究 投行路演都能干",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
-      "title": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 - 财联社",
-      "summary": "OpenAI举行“AI上岗”发布会：股票研究、投行路演都能干 财联社",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84dFE3Mmc3WS1jQVJmNUNBdkZ2UlhJUTAtaHdIZVB5NnNCQ1lmaGg5U0FGSXNGTUFnVG14eDFiYUh0d2ZoVUh4Yw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 5
-    },
     {
       "first_seen_date": "2026-08-24",
       "last_seen_date": "2026-08-25",
@@ -100,72 +60,6 @@
     },
     {
       "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-24",
-      "canonical_key": "enterprise ai agents are only as reliable as the messiest documents behind them",
-      "normalized_title": "enterprise ai agents are only as reliable as the messiest documents behind them",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpfMGY0V0NOZEdaRzZXRHJQWUg3U0drSDRESzR3SFBoT2piWHVxbWZLWWZOcUhmYnBjUVhmZU5QUDNDWTUtX2M2Y0xQSXV3RGNxY0FRcEVvYVdtTnRfb3BxdGtkSjBDZVVlRmtsTXVhdVA3U3pqTERMT1lHZXFrWjgxX2t0R291R0UxWFd3NGJsaklrMUpaU1dxWV9pSmI3Wkp3cHAybTFQMXBLb05vNUdUZ1ppVy0x?oc=5",
-      "title": "Enterprise AI agents are only as reliable as the messiest documents behind them - VentureBeat",
-      "summary": "Enterprise AI agents are only as reliable as the messiest documents behind them VentureBeat",
-      "source": "VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpfMGY0V0NOZEdaRzZXRHJQWUg3U0drSDRESzR3SFBoT2piWHVxbWZLWWZOcUhmYnBjUVhmZU5QUDNDWTUtX2M2Y0xQSXV3RGNxY0FRcEVvYVdtTnRfb3BxdGtkSjBDZVVlRmtsTXVhdVA3U3pqTERMT1lHZXFrWjgxX2t0R291R0UxWFd3NGJsaklrMUpaU1dxWV9pSmI3Wkp3cHAybTFQMXBLb05vNUdUZ1ppVy0x?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-24",
-      "canonical_key": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
-      "normalized_title": "e8体育app官方网站工业计算平台 面向智能制造与边缘ai的长期可靠部署方案",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
-      "title": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 - womenofchina.com",
-      "summary": "e8体育app官方网站工业计算平台：面向智能制造与边缘AI的长期可靠部署方案 womenofchina.com",
-      "source": "womenofchina.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lUTJUTWlEMXp1LUN5VE92MGw1SEQ2UWFjMEJvS2hhSXdQbWVybEFoX3JVQjJGQ2tudDVYblN4dWt3OGxRdHhjU1VsU2ZraXFWOXNIbHRlMV9uek1tNVB5WVh6OV9LOWlTOFB5U0ZR?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-24",
       "last_seen_date": "2026-08-25",
       "canonical_key": "openai宣布开源codex harness",
       "normalized_title": "openai宣布开源codex harness",
@@ -209,86 +103,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-24",
-      "canonical_key": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
-      "normalized_title": "nvidia vera rubin and blackwell set a new standard for agentic ai performance per watt",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt",
-      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
-      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing... AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents,…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [
-          "rubin",
-          "vera"
-        ],
-        "actions": [
-          "expand"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-24",
-      "canonical_key": "ultra thin spray cooling shows promise for high power ai chips",
-      "normalized_title": "ultra thin spray cooling shows promise for high power ai chips",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
-      "title": "Ultra-thin spray cooling shows promise for high-power AI chips - EurekAlert!",
-      "summary": "Ultra-thin spray cooling shows promise for high-power AI chips EurekAlert!",
-      "source": "EurekAlert!",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11Tnk1OFNRekR2ZWFVTlpnQWwtUmlzVm1GWkNYSjh4M0xLN0tDaDBQdXhMLWUtVDAzZnloT0VRTG1WNHc3T2RPQVdDRno0c25xaW55cUtpTFMxMFF1?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-08-25",
@@ -5753,6 +5567,194 @@
         "actions": [],
         "topics": [
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "manage kubernetes node fleets with nodewright",
+      "normalized_title": "manage kubernetes node fleets with nodewright",
+      "normalized_link": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright",
+      "title": "Manage Kubernetes Node Fleets with NodeWright",
+      "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage layouts, security agents,... Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage la…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "what if robots didn t need all their ai onboard",
+      "normalized_title": "what if robots didn t need all their ai onboard",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnpNaGRsVmFjZXZ2Y3czS2I5MHlLSlgtMVB6d0pXY2J1aW94Q3RyRE82WnpIaUdZOU1QMFM0SDdJbzB0a2htSmJFQTZ0VDNWeGJrcXZpREdGRnFHeFF1TTF1TnhJODVkUWlLT1hCbFM3SnRCTlM1cFJFV2tsRDhwdmphVnN2Mmt5MFlUTVVHOVl0TW1GeS12OG5WWFR2ZlA3MDhMOA?oc=5",
+      "title": "What if robots didn't need all their AI onboard? - Microsoft",
+      "summary": "What if robots didn't need all their AI onboard? Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnpNaGRsVmFjZXZ2Y3czS2I5MHlLSlgtMVB6d0pXY2J1aW94Q3RyRE82WnpIaUdZOU1QMFM0SDdJbzB0a2htSmJFQTZ0VDNWeGJrcXZpREdGRnFHeFF1TTF1TnhJODVkUWlLT1hCbFM3SnRCTlM1cFJFV2tsRDhwdmphVnN2Mmt5MFlUTVVHOVl0TW1GeS12OG5WWFR2ZlA3MDhMOA?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "over 80 000 finance workers to get ai training by 2028 as industry launches job transformation initiative",
+      "normalized_title": "over 80 000 finance workers to get ai training by 2028 as industry launches job transformation initiative",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWIzTUlSMEZaRk4yeFhpWXI5a2JoamxRSktHQ0QxSGJJR0E1V2h0ZjJGQVVJeXh6UkxMZVhJMHZLX1dVREpDSDlER05vZUdIUkhxZURkVHA4V3N4Tk5VZmxmbmltam9JZmpyTXAtU2Z5LXdYU1ZGeGRHRjJERXhhM2RCN2JOTnJtU3Ezd3dQMmtNNHVzallCUw?oc=5",
+      "title": "Over 80,000 finance workers to get AI training by 2028 as industry launches job transformation initiative - CNA",
+      "summary": "Over 80,000 finance workers to get AI training by 2028 as industry launches job transformation initiative CNA",
+      "source": "CNA",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWIzTUlSMEZaRk4yeFhpWXI5a2JoamxRSktHQ0QxSGJJR0E1V2h0ZjJGQVVJeXh6UkxMZVhJMHZLX1dVREpDSDlER05vZUdIUkhxZURkVHA4V3N4Tk5VZmxmbmltam9JZmpyTXAtU2Z5LXdYU1ZGeGRHRjJERXhhM2RCN2JOTnJtU3Ezd3dQMmtNNHVzallCUw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "openai智能体在搜集数据期间 又尝试入侵另外四家网站 黑客攻击 网络安全 澳大利亚 agent 研究人员_手机新浪网",
+      "normalized_title": "openai智能体在搜集数据期间 又尝试入侵另外四家网站 黑客攻击 网络安全 澳大利亚 agent 研究人员_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxNbm5FRjU1SGdZZ1lNcjBNNUpxWTZHTENxeFhtNG5UV3U0Tm9sbDFCcnhuSG0zdVpldnNFR214b292RTlDU0VVd3V3d1VkRFoxbWNTRXdpOGRPRlhOU0FyZlRSSFRPaFFlZTktRWhQQzBvSng5NTV0dnVySzhmc0pfZG5wZlY4WXBYWUkxR3dqckZkVGtxVXFMWkZCX085Qjg1SnJhYjBKMDF0QTEyelo5NkRoS3E3S2xKLXMxcWRsdnRMMEs2QUFBQ1dLN1JkZ1oxQklfeVdjYjFUdW9DLTVFQ3ZlVGlkZUZVMV9EbUVKdUJiNHFvc0MyclVpb0N0X3Rva3ZCM3JXaUF1YWotS2ZKdXJ0aE43UmxTOWJ1ZVNkUzFMQXBPd1BTZXFGeE00andVQTBmbzFNSmJXTjlySVR1dUtWODBRVHhhU0U2ZVlRdk9fOHBJVGYybFI4ZFNHR01YZFh1VGNneGtLZk9iWF9xTndZckFIWEE4aEVSYzlQM2JFSVJoNlBVQU0xVDM0VGYwREw0RE9sb2ZxNHc2cVBHUGJlMm5qc2F0SElNQmlYQ3R4T3lOUm9jcGxNYmxaME1IVHlaVWpZS1RTa2tKMktHTDJ0UUFsNTNldjJQdGdfYWc1eGVjdDR1VHZSSUZnVWI4OHJj?oc=5",
+      "title": "OpenAI智能体在搜集数据期间，又尝试入侵另外四家网站|黑客攻击|网络安全|澳大利亚|Agent|研究人员_手机新浪网 - 新浪财经",
+      "summary": "OpenAI智能体在搜集数据期间，又尝试入侵另外四家网站|黑客攻击|网络安全|澳大利亚|Agent|研究人员_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxNbm5FRjU1SGdZZ1lNcjBNNUpxWTZHTENxeFhtNG5UV3U0Tm9sbDFCcnhuSG0zdVpldnNFR214b292RTlDU0VVd3V3d1VkRFoxbWNTRXdpOGRPRlhOU0FyZlRSSFRPaFFlZTktRWhQQzBvSng5NTV0dnVySzhmc0pfZG5wZlY4WXBYWUkxR3dqckZkVGtxVXFMWkZCX085Qjg1SnJhYjBKMDF0QTEyelo5NkRoS3E3S2xKLXMxcWRsdnRMMEs2QUFBQ1dLN1JkZ1oxQklfeVdjYjFUdW9DLTVFQ3ZlVGlkZUZVMV9EbUVKdUJiNHFvc0MyclVpb0N0X3Rva3ZCM3JXaUF1YWotS2ZKdXJ0aE43UmxTOWJ1ZVNkUzFMQXBPd1BTZXFGeE00andVQTBmbzFNSmJXTjlySVR1dUtWODBRVHhhU0U2ZVlRdk9fOHBJVGYybFI4ZFNHR01YZFh1VGNneGtLZk9iWF9xTndZckFIWEE4aEVSYzlQM2JFSVJoNlBVQU0xVDM0VGYwREw0RE9sb2ZxNHc2cVBHUGJlMm5qc2F0SElNQmlYQ3R4T3lOUm9jcGxNYmxaME1IVHlaVWpZS1RTa2tKMktHTDJ0UUFsNTNldjJQdGdfYWc1eGVjdDR1VHZSSUZnVWI4OHJj?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "openai agent hacking spree widens to australia targeting government website",
+      "normalized_title": "openai agent hacking spree widens to australia targeting government website",
+      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HNXpfbHF5cTNoN0V3d1JuOFVScUNfLThfOVhlQkFacEdubWQ4OE5EbjdBQzZvQnpBUnNOUll0d2hSMzA3RlhhVVkwdkNnTkpKZXJ3STZmNmZ6TTZsWW5adEhNSUZ4WXBHdG5xNlI0QnRNN1NlQmV5VkFxeExZdHM?oc=5",
+      "title": "OpenAI agent hacking spree widens to Australia, targeting government website - Help Net Security",
+      "summary": "OpenAI agent hacking spree widens to Australia, targeting government website Help Net Security",
+      "source": "Help Net Security",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HNXpfbHF5cTNoN0V3d1JuOFVScUNfLThfOVhlQkFacEdubWQ4OE5EbjdBQzZvQnpBUnNOUll0d2hSMzA3RlhhVVkwdkNnTkpKZXJ3STZmNmZ6TTZsWW5adEhNSUZ4WXBHdG5xNlI0QnRNN1NlQmV5VkFxeExZdHM?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security"
         ]
       },
       "seen_count": 1

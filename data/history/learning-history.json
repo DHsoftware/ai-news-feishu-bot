@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T08:28:38.974716+08:00",
+  "updated_at": "2026-09-25T07:52:44.711335+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -406,6 +406,48 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-24",
+      "last_seen_date": "2026-09-24",
+      "canonical_key": "agents api multi",
+      "normalized_title": "agents api multi",
+      "normalized_link": "https://developers.openai.com/api/docs/guides/agents-api/multi-agent",
+      "title": "Agents API multi-agent orchestration",
+      "summary": "Let an agent delegate work to independent subagents.",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/api/docs/guides/agents-api/multi-agent",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "low",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "mcp",
+        "multi_agent",
+        "official",
+        "orchestration"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "mcp",
+          "multi_agent",
+          "official",
+          "orchestration"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
