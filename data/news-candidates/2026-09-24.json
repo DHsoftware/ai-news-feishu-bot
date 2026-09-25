@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-25T07:52:44.711335+08:00",
+  "generated_at": "2026-09-25T08:32:02.166116+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -34,10 +34,10 @@
     "similarity_threshold": 0.82,
     "history_size_before": 159,
     "history_size_after": 159,
-    "history_duplicate_count": 46
+    "history_duplicate_count": 47
   },
-  "raw_item_count": 5210,
-  "deduped_item_count": 3874,
+  "raw_item_count": 5207,
+  "deduped_item_count": 3886,
   "filtered_item_count": 454,
   "curated_item_count": 5,
   "curated_items": [
@@ -174,12 +174,12 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "OpenAI agent hacking spree widens to Australia, targeting government website - Help Net Security",
-      "summary": "OpenAI agent hacking spree widens to Australia, targeting government website Help Net Security",
+      "title": "OpenAI agent hacking spree widens to Australia, targeting government website - helpnetsecurity.com",
+      "summary": "OpenAI agent hacking spree widens to Australia, targeting government website helpnetsecurity.com",
       "summary_source": "rss_description",
       "summary_quality": "medium",
       "published_at": "2026-09-24T20:53:34+08:00",
-      "source": "Help Net Security",
+      "source": "helpnetsecurity.com",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HNXpfbHF5cTNoN0V3d1JuOFVScUNfLThfOVhlQkFacEdubWQ4OE5EbjdBQzZvQnpBUnNOUll0d2hSMzA3RlhhVVkwdkNnTkpKZXJ3STZmNmZ6TTZsWW5adEhNSUZ4WXBHdG5xNlI0QnRNN1NlQmV5VkFxeExZdHM?oc=5",
       "language": "en",
       "region": "global",
@@ -209,16 +209,16 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1336,
-    "history_duplicate": 46,
-    "weak_relevance": 188,
+    "duplicate": 1321,
+    "history_duplicate": 47,
+    "weak_relevance": 185,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3232,
-    "same_entity_limit": 152,
+    "old_news": 3247,
+    "same_entity_limit": 148,
     "similar_selected": 0,
-    "company_research_limit": 22,
+    "company_research_limit": 21,
     "auto_driving_limit": 0,
     "smart_cockpit_limit": 0,
     "no_agent_candidate": 0,
