@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T07:57:05.356694+08:00",
+  "updated_at": "2026-09-26T08:36:30.175507+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5595,7 +5595,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-25",
@@ -5665,7 +5665,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-25",
@@ -5742,6 +5742,83 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
+      "normalized_title": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
+      "title": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% - 网通社",
+      "summary": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% 网通社",
+      "source": "网通社",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "automotive",
+        "coding",
+        "coding_agent",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "automotive",
+          "coding",
+          "coding_agent",
+          "engineering_productivity",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "deepseek 智能体论文 梁文锋署名 科学网",
+      "normalized_title": "deepseek 智能体论文 梁文锋署名 科学网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
+      "title": "DeepSeek最新智能体论文：梁文锋署名 - 科学网—新闻",
+      "summary": "DeepSeek最新智能体论文：梁文锋署名 科学网—新闻",
+      "source": "科学网—新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1

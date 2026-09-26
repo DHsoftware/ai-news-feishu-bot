@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-26T07:57:05.356694+08:00",
+  "generated_at": "2026-09-26T08:36:30.175507+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 159,
-    "history_size_after": 159,
+    "history_size_after": 161,
     "history_duplicate_count": 50
   },
   "raw_item_count": 5193,
-  "deduped_item_count": 3839,
-  "filtered_item_count": 343,
+  "deduped_item_count": 3834,
+  "filtered_item_count": 341,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,15 +77,15 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices - Nasscom",
-      "summary": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices Nasscom",
+      "title": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% - 网通社",
+      "summary": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% 网通社",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-09-25T16:31:04+08:00",
-      "source": "Nasscom",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
-      "language": "en",
-      "region": "global",
+      "summary_quality": "low",
+      "published_at": "2026-09-26T02:10:10+08:00",
+      "source": "网通社",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
+      "language": "zh",
+      "region": "china",
       "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
@@ -99,15 +99,16 @@
         "agent",
         "agentic_ai",
         "ai_agent",
+        "automotive",
         "coding",
         "coding_agent",
-        "workflow_automation"
+        "engineering_productivity"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "building enterprise ai workflow automation systems key architectures and best practices",
-      "canonical_key": "building enterprise ai workflow automation systems key architectures and best practices",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
-      "score": 59,
+      "dedupe_key": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
+      "canonical_key": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
+      "score": 81,
       "selection_reason": "required_productivity"
     },
     {
@@ -142,12 +143,12 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "DeepSeek最新智能体论文：梁文锋署名 - news.sciencenet.cn",
-      "summary": "DeepSeek最新智能体论文：梁文锋署名 news.sciencenet.cn",
+      "title": "DeepSeek最新智能体论文：梁文锋署名 - 科学网—新闻",
+      "summary": "DeepSeek最新智能体论文：梁文锋署名 科学网—新闻",
       "summary_source": "rss_description",
       "summary_quality": "low",
       "published_at": "2026-09-24T10:25:03+08:00",
-      "source": "news.sciencenet.cn",
+      "source": "科学网—新闻",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
       "language": "zh",
       "region": "china",
@@ -169,10 +170,10 @@
         "research"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "deepseek 智能体论文 梁文锋署名",
-      "canonical_key": "deepseek 智能体论文 梁文锋署名",
+      "dedupe_key": "deepseek 智能体论文 梁文锋署名 科学网",
+      "canonical_key": "deepseek 智能体论文 梁文锋署名 科学网",
       "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
-      "score": 83,
+      "score": 78,
       "selection_reason": "china_quota"
     },
     {
@@ -210,14 +211,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1354,
+    "duplicate": 1359,
     "history_duplicate": 50,
-    "weak_relevance": 156,
+    "weak_relevance": 151,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3340,
-    "same_entity_limit": 97,
+    "old_news": 3342,
+    "same_entity_limit": 96,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
