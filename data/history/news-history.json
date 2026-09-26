@@ -1,212 +1,8 @@
 {
-  "updated_at": "2026-09-25T08:32:02.166116+08:00",
+  "updated_at": "2026-09-26T07:57:05.356694+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-25",
-      "canonical_key": "with groq 3 lpx in full production nvidia extends vera rubin inference for agents",
-      "normalized_title": "with groq 3 lpx in full production nvidia extends vera rubin inference for agents",
-      "normalized_link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion",
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today , the NVIDIA Vera Rub…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [
-          "rubin",
-          "vera"
-        ],
-        "actions": [
-          "opensource",
-          "partnership",
-          "production",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_factory",
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "inference",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-24",
-      "last_seen_date": "2026-08-25",
-      "canonical_key": "openai宣布开源codex harness",
-      "normalized_title": "openai宣布开源codex harness",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9laUoyd056cHdzWUpYYXY4WHIyczJFdkhXX2NLclFxRmRqVk9mdmtTVmFseDFPN012b2MzZW9OQWNYVlNqUzc1MGdNRFVUc3QxbzI0UTExMUJ3SmdvZ0Y1SUdMVHVGR2dfckE?oc=5",
-      "title": "OpenAI宣布开源Codex Harness - 世界互联网大会",
-      "summary": "OpenAI宣布开源Codex Harness 世界互联网大会",
-      "source": "世界互联网大会",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9laUoyd056cHdzWUpYYXY4WHIyczJFdkhXX2NLclFxRmRqVk9mdmtTVmFseDFPN012b2MzZW9OQWNYVlNqUzc1MGdNRFVUc3QxbzI0UTExMUJ3SmdvZ0Y1SUdMVHVGR2dfckE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-25",
-      "last_seen_date": "2026-08-25",
-      "canonical_key": "why tokenmaxxing was always the wrong way for developers to measure ai productivity",
-      "normalized_title": "why tokenmaxxing was always the wrong way for developers to measure ai productivity",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem1mRnRsYndRTVljeE9RRGN5azFDOGY3QVc2VEFITDlPZmxmNTIxWUlTX0FPVWhnSFNPOTh5RkxlcmdHeG9JaGRLZ0VtYWJpZy1uNVV1R0NCQ2wzUGFSMWJkcTlCQ2diR3ZDNThBdUxyaEV3MVh2NnBfTXV0NXp5RnJWTV9nZGZuQnlIUTd3N1JGelRoRWJfdC1uVHR6YzVQOTZWa1dR?oc=5",
-      "title": "Why “Tokenmaxxing” Was Always the Wrong Way for Developers to Measure AI Productivity - DevOps.com",
-      "summary": "Why “Tokenmaxxing” Was Always the Wrong Way for Developers to Measure AI Productivity DevOps.com",
-      "source": "DevOps.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPem1mRnRsYndRTVljeE9RRGN5azFDOGY3QVc2VEFITDlPZmxmNTIxWUlTX0FPVWhnSFNPOTh5RkxlcmdHeG9JaGRLZ0VtYWJpZy1uNVV1R0NCQ2wzUGFSMWJkcTlCQ2diR3ZDNThBdUxyaEV3MVh2NnBfTXV0NXp5RnJWTV9nZGZuQnlIUTd3N1JGelRoRWJfdC1uVHR6YzVQOTZWa1dR?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-25",
-      "last_seen_date": "2026-08-25",
-      "canonical_key": "navitas to acquire claros advancing ai infrastructure with vpd ivr technology for grid to xpu",
-      "normalized_title": "navitas to acquire claros advancing ai infrastructure with vpd ivr technology for grid to xpu",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUXBPZ0w4MjVzaFpGd0x2aXFiaDNNTENqMlUwVEVSMUl2VE1Vd2pRR0FMOGoyamp5alFzSVRfVzJBSUNjRExsbGUxNWlvbnVmRWlVaFRWclNxSHc1dHJubXVkOEQ3d0xpb285MVBCSDQ0dVM5ZWppSTQwZkFEQkJNSUszN0RNUHo0RE9hWXZ0S3p6QnBRU24wWV91WlBzX09XVS12YTBfTk82V1gtRDdIWGFCUWt2RS15Nm9ZNXhnZHNBTmxFZWtFbnZOODdSYUJlZGFmYnVR?oc=5",
-      "title": "Navitas To Acquire Claros, Advancing AI Infrastructure with VPD & IVR Technology for Grid-to-xPU - Navitas Semiconductor",
-      "summary": "Navitas To Acquire Claros, Advancing AI Infrastructure with VPD & IVR Technology for Grid-to-xPU Navitas Semiconductor",
-      "source": "Navitas Semiconductor",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUXBPZ0w4MjVzaFpGd0x2aXFiaDNNTENqMlUwVEVSMUl2VE1Vd2pRR0FMOGoyamp5alFzSVRfVzJBSUNjRExsbGUxNWlvbnVmRWlVaFRWclNxSHc1dHJubXVkOEQ3d0xpb285MVBCSDQ0dVM5ZWppSTQwZkFEQkJNSUszN0RNUHo0RE9hWXZ0S3p6QnBRU24wWV91WlBzX09XVS12YTBfTk82V1gtRDdIWGFCUWt2RS15Nm9ZNXhnZHNBTmxFZWtFbnZOODdSYUJlZGFmYnVR?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "gan",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-25",
-      "last_seen_date": "2026-08-25",
-      "canonical_key": "2025精选6个anthropic官方亲选claude code神作 高效ai编程工具推荐",
-      "normalized_title": "2025精选6个anthropic官方亲选claude code神作 高效ai编程工具推荐",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TVTVONFlqV0dYWHl6UmxHN0dxeTI5ai1vTHg5Zm1UTlp5ZlpjTWR1Um5aSWp3TXhFaWR5aHJVMTRfTnVkTUdRVlhoRHFzMV9SR213?oc=5",
-      "title": "2025精选6个Anthropic官方亲选Claude Code神作 高效AI编程工具推荐 - 36Kr",
-      "summary": "2025精选6个Anthropic官方亲选Claude Code神作 高效AI编程工具推荐 36Kr",
-      "source": "36Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TVTVONFlqV0dYWHl6UmxHN0dxeTI5ai1vTHg5Zm1UTlp5ZlpjTWR1Um5aSWp3TXhFaWR5aHJVMTRfTnVkTUdRVlhoRHFzMV9SR213?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-08-26",
       "last_seen_date": "2026-08-26",
@@ -5758,6 +5554,197 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "proaction boosts sales 60 and saves 75 hours with codex",
+      "normalized_title": "proaction boosts sales 60 and saves 75 hours with codex",
+      "normalized_link": "https://openai.com/index/proaction",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/proaction",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "building enterprise ai workflow automation systems key architectures and best practices",
+      "normalized_title": "building enterprise ai workflow automation systems key architectures and best practices",
+      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
+      "title": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices - Nasscom",
+      "summary": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices Nasscom",
+      "source": "Nasscom",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "d c circuit upholds pentagon s supply chain exclusion of anthropic",
+      "normalized_title": "d c circuit upholds pentagon s supply chain exclusion of anthropic",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGotSExqbUpvaTNvamJBdU1McTdBc2hLMVZkZTljSFVadEJhUjkwekV5WFBzUEFHUFNwOG9FZTZJb2EyQ2ZRN0NIYTZyUG1fYWxyUmk2VlZQLVZVM0ZzdDFRNmtzUUs4bnFoNUVGSHlVbVZ2YWpnOFVHanFDdEhBRHZwWUM2elBfbUtCOVBpb0s?oc=5",
+      "title": "D.C. Circuit Upholds Pentagon’s Supply-Chain Exclusion of Anthropic - unite.ai",
+      "summary": "D.C. Circuit Upholds Pentagon’s Supply-Chain Exclusion of Anthropic unite.ai",
+      "source": "unite.ai",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGotSExqbUpvaTNvamJBdU1McTdBc2hLMVZkZTljSFVadEJhUjkwekV5WFBzUEFHUFNwOG9FZTZJb2EyQ2ZRN0NIYTZyUG1fYWxyUmk2VlZQLVZVM0ZzdDFRNmtzUUs4bnFoNUVGSHlVbVZ2YWpnOFVHanFDdEhBRHZwWUM2elBfbUtCOVBpb0s?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "deepseek 智能体论文 梁文锋署名",
+      "normalized_title": "deepseek 智能体论文 梁文锋署名",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
+      "title": "DeepSeek最新智能体论文：梁文锋署名 - news.sciencenet.cn",
+      "summary": "DeepSeek最新智能体论文：梁文锋署名 news.sciencenet.cn",
+      "source": "news.sciencenet.cn",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-25",
+      "last_seen_date": "2026-09-25",
+      "canonical_key": "github copilot app for beginners how to build custom workflows with canvases",
+      "normalized_title": "github copilot app for beginners how to build custom workflows with canvases",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "summary": "Most tools give you a fixed set of screens and ask you to fit your work into them. But what if you could start with the workflow you want instead and have the interface take shape around it? That’s the idea behind canvases in the GitHub Copilot app . A canvas, also called a canvas extension, is a c…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
