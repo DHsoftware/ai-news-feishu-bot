@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-27T07:37:47.480343+08:00",
+  "generated_at": "2026-09-27T08:33:26.249722+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -21,8 +21,8 @@
     "history_size_after": 11,
     "history_duplicate_count": 11
   },
-  "raw_item_count": 66,
-  "deduped_item_count": 23,
+  "raw_item_count": 65,
+  "deduped_item_count": 22,
   "filtered_item_count": 2,
   "curated_item_count": 1,
   "curated_items": [
@@ -31,7 +31,7 @@
       "summary": "Docs and resources to help you build with, for, and on OpenAI.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-09-27T07:37:47.480343+08:00",
+      "published_at": "2026-09-27T08:33:26.249722+08:00",
       "source": "OpenAI Developers",
       "source_type": "official_doc",
       "source_quality": "high",
@@ -56,7 +56,7 @@
     "duplicate": 43,
     "history_duplicate": 11,
     "same_source_limit": 0,
-    "old_resource": 10,
+    "old_resource": 9,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0

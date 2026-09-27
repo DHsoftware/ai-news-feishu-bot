@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T07:37:47.480343+08:00",
+  "updated_at": "2026-09-27T08:33:26.249722+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5502,7 +5502,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-25",
@@ -5645,7 +5645,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-26",
@@ -5682,7 +5682,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-26",
@@ -5717,6 +5717,74 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-26",
+      "last_seen_date": "2026-09-26",
+      "canonical_key": "best keynote speakers on agentic ai futurist scott steinberg",
+      "normalized_title": "best keynote speakers on agentic ai futurist scott steinberg",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzNqWUVIMFFYOHdOdjYwSU0xNVN6Ti15eTJSNHRXQjhtajVOWUJQNXJYaTZwX25XQkJWWkFqVUtGdUpxZE1yWUZ3VzVJMzh5MGZ0eVM0N214WUZrYkx6U1ZXZklORmEwOHEySWlWdEQ3dWFucW02UVpNQ3BZb3phU0NjYzN4UQ?oc=5",
+      "title": "Best Keynote Speakers on Agentic AI Futurist Scott Steinberg - futuristsspeakers.com",
+      "summary": "Best Keynote Speakers on Agentic AI Futurist Scott Steinberg futuristsspeakers.com",
+      "source": "futuristsspeakers.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzNqWUVIMFFYOHdOdjYwSU0xNVN6Ti15eTJSNHRXQjhtajVOWUJQNXJYaTZwX25XQkJWWkFqVUtGdUpxZE1yWUZ3VzVJMzh5MGZ0eVM0N214WUZrYkx6U1ZXZklORmEwOHEySWlWdEQ3dWFucW02UVpNQ3BZb3phU0NjYzN4UQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-26",
+      "last_seen_date": "2026-09-26",
+      "canonical_key": "离谱 openai智能体攻击hugging face时 竟想叫deepseek kimi和qwen来帮忙",
+      "normalized_title": "离谱 openai智能体攻击hugging face时 竟想叫deepseek kimi和qwen来帮忙",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nZnlsWlBYRkM3QktZRFU1b0ctMkdsWmM1NVZqTVpNMVV3MTdYck84V3k2c2ZpQkREV1VfbmJ0LXVVOGJ1b29lLTc3MUY3Zw?oc=5",
+      "title": "离谱！OpenAI智能体攻击Hugging Face时，竟想叫DeepSeek、Kimi和Qwen来帮忙 - 36氪",
+      "summary": "离谱！OpenAI智能体攻击Hugging Face时，竟想叫DeepSeek、Kimi和Qwen来帮忙 36氪",
+      "source": "36氪",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nZnlsWlBYRkM3QktZRFU1b0ctMkdsWmM1NVZqTVpNMVV3MTdYck84V3k2c2ZpQkREV1VfbmJ0LXVVOGJ1b29lLTc3MUY3Zw?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
         ]
       },
       "seen_count": 1
