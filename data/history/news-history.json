@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T08:33:26.249722+08:00",
+  "updated_at": "2026-09-28T07:48:11.011074+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -45,156 +45,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-27",
-      "canonical_key": "支持4g lte的ai可穿戴设备 plaud one可为专业人士实现工作流程自动化",
-      "normalized_title": "支持4g lte的ai可穿戴设备 plaud one可为专业人士实现工作流程自动化",
-      "normalized_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yclBGR3hpVTdjVXF1dFNqY01scFl6NlRiNzVqU3o1UFlLMmFYRzhjXzhRdXlTVWtVbHZwd2xBNTNqdTBlNExhX3BiQk9ocmQ0NWRzU0V0UFh5VnhDTDBhMHZkbHFRamVqWk42SGI0cllIQXN1Tnc?oc=5",
-      "title": "支持4G LTE的AI可穿戴设备：Plaud One可为专业人士实现工作流程自动化 - Notebookcheck CN",
-      "summary": "支持4G LTE的AI可穿戴设备：Plaud One可为专业人士实现工作流程自动化 Notebookcheck CN",
-      "source": "Notebookcheck CN",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yclBGR3hpVTdjVXF1dFNqY01scFl6NlRiNzVqU3o1UFlLMmFYRzhjXzhRdXlTVWtVbHZwd2xBNTNqdTBlNExhX3BiQk9ocmQ0NWRzU0V0UFh5VnhDTDBhMHZkbHFRamVqWk42SGI0cllIQXN1Tnc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-27",
-      "canonical_key": "nvidia starts pac as ai chip maker builds dc influence force 1",
-      "normalized_title": "nvidia starts pac as ai chip maker builds dc influence force 1",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDlkbV84MXpKeFRldVRjRGF4bG9Rd25OZWhuUERnWXhlWU5qVnZiLXVhT0stLVVMd2xOWm1UdlZ2TkRmek9wUVNiWDhZSmMybEJ1UElId19leElTYUZJS2dKV0l4WWVDRGRocFRsZXpOUERTdnlPWTJycHB2QS12RG00RFZxek14Zzdrbm1Tdm9hUG16eHpILXZLY2lzQXRqVE1BcGlicTlWYmp6d01Wbkln?oc=5",
-      "title": "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1) - Bloomberg Government News",
-      "summary": "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1) Bloomberg Government News",
-      "source": "Bloomberg Government News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDlkbV84MXpKeFRldVRjRGF4bG9Rd25OZWhuUERnWXhlWU5qVnZiLXVhT0stLVVMd2xOWm1UdlZ2TkRmek9wUVNiWDhZSmMybEJ1UElId19leElTYUZJS2dKV0l4WWVDRGRocFRsZXpOUERTdnlPWTJycHB2QS12RG00RFZxek14Zzdrbm1Tdm9hUG16eHpILXZLY2lzQXRqVE1BcGlicTlWYmp6d01Wbkln?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-27",
-      "canonical_key": "观察 巨头扎堆布局ai办公智能体 百度搭子用户增长近9倍 能赢得市场吗",
-      "normalized_title": "观察 巨头扎堆布局ai办公智能体 百度搭子用户增长近9倍 能赢得市场吗",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5",
-      "title": "观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ - thepaper.cn",
-      "summary": "观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-27",
-      "canonical_key": "github copilot app for beginners automate dependabot pull request triage",
-      "normalized_title": "github copilot app for beginners automate dependabot pull request triage",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage",
-      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
-      "summary": "I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I’m always using secure libraries. But because there’re frequently new vulnerabilities, there’re frequently new pull requests from Dependabot. Sometimes it’s a minor version bump. Sometimes i…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-08-28",
@@ -5785,6 +5635,170 @@
         "topics": [
           "agent",
           "ai_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "openai pauses training of its most capable models",
+      "normalized_title": "openai pauses training of its most capable models",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "summary": "As reports of OpenAI's models breaking containment , hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "chip",
+          "incident",
+          "inference"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "gwanak gu develops workflow automation program through employee club innovation ai club",
+      "normalized_title": "gwanak gu develops workflow automation program through employee club innovation ai club",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVUUR2dUw5ZTdYLUhsZUsxTXZxNHJDMVRQTFJwMzkzZGM5YnZ1bjA0dzI1V0JvcnhSUnRHRXVuVGRwWG1OVFp6RlVaWURRQkVkNVBGdW5RanpkVmJVOEtDTzZUT0o?oc=5",
+      "title": "Gwanak-gu Develops Workflow Automation Program Through Employee Club 'Innovation AI Club' - 아시아경제",
+      "summary": "Gwanak-gu Develops Workflow Automation Program Through Employee Club 'Innovation AI Club' 아시아경제",
+      "source": "아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVUUR2dUw5ZTdYLUhsZUsxTXZxNHJDMVRQTFJwMzkzZGM5YnZ1bjA0dzI1V0JvcnhSUnRHRXVuVGRwWG1OVFp6RlVaWURRQkVkNVBGdW5RanpkVmJVOEtDTzZUT0o?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "ai after the dc summit ramageddon takes center stage ai rtz 1222",
+      "normalized_title": "ai after the dc summit ramageddon takes center stage ai rtz 1222",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZlpFYkZ5WDZyWE9sZXE4QjAzMlA4eDFZOVJfWlc1X0xIMEoweVNaQU8yWnJHN25jMk5RTGVCNV9BV2JPUkhpQ1E4QURSVkFGS2xaZ0l3TjFfRkhKVDNDdFRBeGZSY25EVm91N0w3NURLM0J3ZFNtSUlB?oc=5",
+      "title": "AI: After the DC Summit, ‘RAMageddon’ Takes Center Stage. AI-RTZ #1222 - AI: Reset to Zero",
+      "summary": "AI: After the DC Summit, ‘RAMageddon’ Takes Center Stage. AI-RTZ #1222 AI: Reset to Zero",
+      "source": "AI: Reset to Zero",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZlpFYkZ5WDZyWE9sZXE4QjAzMlA4eDFZOVJfWlc1X0xIMEoweVNaQU8yWnJHN25jMk5RTGVCNV9BV2JPUkhpQ1E4QURSVkFGS2xaZ0l3TjFfRkhKVDNDdFRBeGZSY25EVm91N0w3NURLM0J3ZFNtSUlB?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "introducing nv reason ct open 3d ct vlm for radiologist chain of",
+      "normalized_title": "introducing nv reason ct open 3d ct vlm for radiologist chain of",
+      "normalized_link": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning",
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and... Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "openai再曝大模型越界行为 盖茨加入ai安全论战 足以导致 十亿人死亡",
+      "normalized_title": "openai再曝大模型越界行为 盖茨加入ai安全论战 足以导致 十亿人死亡",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HN09LRHNVRTAyb1RIUHRrMWNxR3gydUVTN1g3NXpkOUpPcTRUNjdFLWlhTm93ZzJvNmdyR3Y5eW9FUFQ1Z08xRA?oc=5",
+      "title": "OpenAI再曝大模型越界行为！盖茨加入AI安全论战：足以导致“十亿人死亡” - 财联社",
+      "summary": "OpenAI再曝大模型越界行为！盖茨加入AI安全论战：足以导致“十亿人死亡” 财联社",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HN09LRHNVRTAyb1RIUHRrMWNxR3gydUVTN1g3NXpkOUpPcTRUNjdFLWlhTm93ZzJvNmdyR3Y5eW9FUFQ1Z08xRA?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "llm",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "llm",
+          "model_capability",
+          "security"
         ]
       },
       "seen_count": 1
