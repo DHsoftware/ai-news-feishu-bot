@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:48:11.011074+08:00",
+  "updated_at": "2026-09-28T08:41:57.195695+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5670,7 +5670,7 @@
           "inference"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-27",
@@ -5769,7 +5769,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-27",
@@ -5799,6 +5799,79 @@
           "llm",
           "model_capability",
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "微软统一copilot应用正式发布 一个入口打通四大ai模式 企业工作方式迎来彻底重塑",
+      "normalized_title": "微软统一copilot应用正式发布 一个入口打通四大ai模式 企业工作方式迎来彻底重塑",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GZy14ek0wMTFQT1RaQlBCdnllUjNseElPY242NGxtdXVTYnBTZnBHbXlPaDBaNEtBb0pHRjdESHB0dTBtYld0RGxXLTNkS3hEYzJsOTZMR0lTRzFvMUFhakVDSUhqZw?oc=5",
+      "title": "微软统一Copilot应用正式发布：一个入口打通四大AI模式，企业工作方式迎来彻底重塑 - blog.csdn.net",
+      "summary": "微软统一Copilot应用正式发布：一个入口打通四大AI模式，企业工作方式迎来彻底重塑 blog.csdn.net",
+      "source": "blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GZy14ek0wMTFQT1RaQlBCdnllUjNseElPY242NGxtdXVTYnBTZnBHbXlPaDBaNEtBb0pHRjdESHB0dTBtYld0RGxXLTNkS3hEYzJsOTZMR0lTRzFvMUFhakVDSUhqZw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-27",
+      "last_seen_date": "2026-09-27",
+      "canonical_key": "bill gates warns ai could be used to trigger a billion deaths urges regulation",
+      "normalized_title": "bill gates warns ai could be used to trigger a billion deaths urges regulation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTmJITU1Pd1hwdE5EV0NzUVBqOWRKLV9iVUJ1NGxqclJ1LXBieTFla000a19xQ0l1TS1YWHZrVEhmMlpIaTY5cUVPbUE2RFdlSzdHaUJtMVltWTFNWk1QUjYwZ216NV9zZURSb1g0NzRmeUZqUy1JUXJUZkRsM24zd1pHQnZMTXZXaS1YdEp6WEljYXctTFNBTGxVQ0xlZE9jdVVGeXVsUVY2Qm5BSmljLWZMWWp5R0dr?oc=5",
+      "title": "Bill Gates warns AI could be used to trigger 'a billion deaths,' urges regulation - WCIV",
+      "summary": "Bill Gates warns AI could be used to trigger 'a billion deaths,' urges regulation WCIV",
+      "source": "WCIV",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTmJITU1Pd1hwdE5EV0NzUVBqOWRKLV9iVUJ1NGxqclJ1LXBieTFla000a19xQ0l1TS1YWHZrVEhmMlpIaTY5cUVPbUE2RFdlSzdHaUJtMVltWTFNWk1QUjYwZ216NV9zZURSb1g0NzRmeUZqUy1JUXJUZkRsM24zd1pHQnZMTXZXaS1YdEp6WEljYXctTFNBTGxVQ0xlZE9jdVVGeXVsUVY2Qm5BSmljLWZMWWp5R0dr?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "policy_regulation",
+          "power_electronics",
+          "regulation"
         ]
       },
       "seen_count": 1
