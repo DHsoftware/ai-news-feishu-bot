@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generated_at": "2026-09-29T08:59:49.741139+08:00",
+  "generated_at": "2026-09-29T09:54:09.807011+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 164,
-    "history_size_after": 165,
-    "history_duplicate_count": 36
+    "history_size_before": 165,
+    "history_size_after": 167,
+    "history_duplicate_count": 39
   },
   "raw_item_count": 5195,
-  "deduped_item_count": 3849,
-  "filtered_item_count": 367,
+  "deduped_item_count": 3850,
+  "filtered_item_count": 350,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,12 +77,12 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity - CDO Magazine",
-      "summary": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity CDO Magazine",
+      "title": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity - cdomagazine.tech",
+      "summary": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity cdomagazine.tech",
       "summary_source": "rss_description",
       "summary_quality": "medium",
       "published_at": "2026-09-28T21:17:00+08:00",
-      "source": "CDO Magazine",
+      "source": "cdomagazine.tech",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzBRdDFuRTUyaE5sb3F0c2RwbHhEcjNfeGNONDkyTUtmak5TamdrTG04MWpDOFdueTZ0RG4xbV9aUmhzZ2tPanM2ckZfYnRDeURITnNTam9KV280VUVtM1hWMTBiNmRQdW5pSkpmaHVLZjdrcHBCekdIZEQzOFhNRjZRVEpKVVB5eUxkQzczNXpRS0hFXzliNFRjQ3V5WjdxM2E5czlKaGJsVDQ?oc=5",
       "language": "en",
       "region": "global",
@@ -110,15 +110,15 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "Singapore’s finance firms to train 80,000 staff in AI skills - The Malaysian Reserve",
-      "summary": "Singapore’s finance firms to train 80,000 staff in AI skills The Malaysian Reserve",
+      "title": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 - 搜狐网",
+      "summary": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 搜狐网",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-09-29T08:35:43+08:00",
-      "source": "The Malaysian Reserve",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
-      "language": "en",
-      "region": "global",
+      "summary_quality": "low",
+      "published_at": "2026-09-29T09:01:00+08:00",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
+      "language": "zh",
+      "region": "china",
       "source_group": "power_electronics",
       "source_type": "news_search",
       "source_quality": "",
@@ -129,15 +129,16 @@
         "dcdc"
       ],
       "topic_tags": [
+        "chip",
         "dcdc",
         "obc",
         "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "singapore s finance firms to train 80 000 staff in ai skills",
-      "canonical_key": "singapore s finance firms to train 80 000 staff in ai skills",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
-      "score": 41,
+      "dedupe_key": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
+      "canonical_key": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
+      "score": 55,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -175,49 +176,46 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” - thepaper.cn",
-      "summary": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” thepaper.cn",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-09-28T19:42:00+08:00",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding... As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding capabilities increases computation for both training and inference. Mixture-of-experts (MoE) architectures take a different approach to scaling by using many subnetworks, or experts, while activating only a small subset for each token. Source",
+      "summary_source": "atom_content",
+      "summary_quality": "high",
+      "published_at": "2026-09-29T01:00:03+08:00",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
+      "language": "en",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
+        "company_research",
+        "technical_blog",
+        "ai_research"
       ],
       "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research",
-        "security"
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
       ],
-      "category": "AI编程工具",
-      "dedupe_key": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
-      "canonical_key": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
-      "score": 73,
-      "selection_reason": "china_quota"
+      "category": "官方研究",
+      "dedupe_key": "efficient moe training for biological foundation models",
+      "canonical_key": "efficient moe training for biological foundation models",
+      "normalized_link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "score": 121,
+      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1346,
-    "history_duplicate": 36,
-    "weak_relevance": 155,
+    "duplicate": 1345,
+    "history_duplicate": 39,
+    "weak_relevance": 160,
     "same_source_limit": 0,
-    "china_limit": 0,
+    "china_limit": 106,
     "auto_china_limit": 0,
-    "old_news": 3327,
+    "old_news": 3340,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,

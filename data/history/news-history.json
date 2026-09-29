@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T08:59:49.741139+08:00",
+  "updated_at": "2026-09-29T09:54:09.807011+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5776,7 +5776,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5813,7 +5813,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5886,7 +5886,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5928,6 +5928,77 @@
           "coding_agent",
           "research",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
+      "normalized_title": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
+      "title": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 - 搜狐网",
+      "summary": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "efficient moe training for biological foundation models",
+      "normalized_title": "efficient moe training for biological foundation models",
+      "normalized_link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding... As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through e…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
         ]
       },
       "seen_count": 1
