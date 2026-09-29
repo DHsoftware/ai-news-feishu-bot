@@ -1,150 +1,8 @@
 {
-  "updated_at": "2026-09-28T08:41:57.195695+08:00",
+  "updated_at": "2026-09-29T08:59:49.741139+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-08-27",
-      "last_seen_date": "2026-08-28",
-      "canonical_key": "openclaw went viral meet the maintainers building and securing it",
-      "normalized_title": "openclaw went viral meet the maintainers building and securing it",
-      "normalized_link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it",
-      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
-      "summary": "What began as a personal experiment quickly became a global open source project with extraordinary momentum. OpenClaw is a personal AI assistant that runs on users’ devices and connects with the messaging channels they already use. Started by Peter Steinberger as a weekend project in November 2025,…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_code_review",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "ai_code_review",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-28",
-      "last_seen_date": "2026-08-28",
-      "canonical_key": "the ai productivity paradox more code not more delivery",
-      "normalized_title": "the ai productivity paradox more code not more delivery",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUh4Tzl0aU92aHY5TERBeEdVQTVsQzBBUFFIcXFzY0pIa1NLUjJOdmhUanQ2cmdrV2ZjblZWRGJXa1FYUmJ0MWdHaklaZUdnVDRQWFMzOEwxZWg2YWJMQTFwQ20zaTRqMk9sUXFtam1KUlE3WTh5Yl8teEVqVnh4TGFsdTFkRE9LcEdmZWl30gGeAUFVX3lxTFB4ZWxmQ3FpaWdmLWxpaENFQVZqXzNiTFpaVEZHOXJCZjJTd3VHLV8tcUE5eFFzcGVxMFhZZDVJMkRnZnp6Z2dqSXh4eVlHbURmM2x5Q1ZRandiSTJxR21zR3cyX2RCQ1NYTUVUSllxb1lBZ1o5cjlYY281cUtwbnlhdU5MWVBxQUZRV3NWYV96bEQzN1pMWTFWUUd2cGhR?oc=5",
-      "title": "The AI Productivity Paradox: More Code, Not More Delivery - Sonatype",
-      "summary": "The AI Productivity Paradox: More Code, Not More Delivery Sonatype",
-      "source": "Sonatype",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUh4Tzl0aU92aHY5TERBeEdVQTVsQzBBUFFIcXFzY0pIa1NLUjJOdmhUanQ2cmdrV2ZjblZWRGJXa1FYUmJ0MWdHaklaZUdnVDRQWFMzOEwxZWg2YWJMQTFwQ20zaTRqMk9sUXFtam1KUlE3WTh5Yl8teEVqVnh4TGFsdTFkRE9LcEdmZWl30gGeAUFVX3lxTFB4ZWxmQ3FpaWdmLWxpaENFQVZqXzNiTFpaVEZHOXJCZjJTd3VHLV8tcUE5eFFzcGVxMFhZZDVJMkRnZnp6Z2dqSXh4eVlHbURmM2x5Q1ZRandiSTJxR21zR3cyX2RCQ1NYTUVUSllxb1lBZ1o5cjlYY281cUtwbnlhdU5MWVBxQUZRV3NWYV96bEQzN1pMWTFWUUd2cGhR?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-28",
-      "last_seen_date": "2026-08-28",
-      "canonical_key": "伊顿数据中心固态变压器 ai算力时代供电架构的范式跃迁",
-      "normalized_title": "伊顿数据中心固态变压器 ai算力时代供电架构的范式跃迁",
-      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMTRueXc3X0syMUZhYTFCRTduVHB0WXp2QWhPanNqSG44a1RRSDlVekNUVE5xQ3ByOFhlVEtXZFJoN1Q2bVJ0ZmJJR1k4Z3JLYXA2Q04wNktjWFh5Q1FHQXRwSE1uVC1sYU5mLXVHd3VkbFp6S1ZuZlh5djZkSlpnVXh1eEV0OUs5ZnFxY3BQZ18?oc=5",
-      "title": "伊顿数据中心固态变压器：AI算力时代供电架构的范式跃迁 - 新浪网",
-      "summary": "伊顿数据中心固态变压器：AI算力时代供电架构的范式跃迁 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMTRueXc3X0syMUZhYTFCRTduVHB0WXp2QWhPanNqSG44a1RRSDlVekNUVE5xQ3ByOFhlVEtXZFJoN1Q2bVJ0ZmJJR1k4Z3JLYXA2Q04wNktjWFh5Q1FHQXRwSE1uVC1sYU5mLXVHd3VkbFp6S1ZuZlh5djZkSlpnVXh1eEV0OUs5ZnFxY3BQZ18?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-28",
-      "last_seen_date": "2026-08-28",
-      "canonical_key": "anthropic加码自研ai芯片 曾考虑70亿美元收购matx 正接洽多家初创公司",
-      "normalized_title": "anthropic加码自研ai芯片 曾考虑70亿美元收购matx 正接洽多家初创公司",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMlJSQlhSNVJvaWw1Mm9BN2F6ZGJZRFJzWlViY3FtSXBDM0ljd2ptOFdFdExSRVloYm9VUEhyRzd3aHNtY0F2UXp0QlBkaXBTeG1B?oc=5",
-      "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司 - 华尔街见闻",
-      "summary": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司 华尔街见闻",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yMlJSQlhSNVJvaWw1Mm9BN2F6ZGJZRFJzWlViY3FtSXBDM0ljd2ptOFdFdExSRVloYm9VUEhyRzd3aHNtY0F2UXp0QlBkaXBTeG1B?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-08-28",
       "last_seen_date": "2026-08-29",
@@ -5872,6 +5730,204 @@
           "policy_regulation",
           "power_electronics",
           "regulation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "how we found 24 android vulnerabilities using our open source ai security agent",
+      "normalized_title": "how we found 24 android vulnerabilities using our open source ai security agent",
+      "normalized_link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "summary": "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effective for their work. In this blog post, I’ll share how I created auditing task…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "llm",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "llm",
+          "opensource",
+          "research",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "openai discloses dozens of institutions hit by improper ai agent activity",
+      "normalized_title": "openai discloses dozens of institutions hit by improper ai agent activity",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzBRdDFuRTUyaE5sb3F0c2RwbHhEcjNfeGNONDkyTUtmak5TamdrTG04MWpDOFdueTZ0RG4xbV9aUmhzZ2tPanM2ckZfYnRDeURITnNTam9KV280VUVtM1hWMTBiNmRQdW5pSkpmaHVLZjdrcHBCekdIZEQzOFhNRjZRVEpKVVB5eUxkQzczNXpRS0hFXzliNFRjQ3V5WjdxM2E5czlKaGJsVDQ?oc=5",
+      "title": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity - CDO Magazine",
+      "summary": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity CDO Magazine",
+      "source": "CDO Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzBRdDFuRTUyaE5sb3F0c2RwbHhEcjNfeGNONDkyTUtmak5TamdrTG04MWpDOFdueTZ0RG4xbV9aUmhzZ2tPanM2ckZfYnRDeURITnNTam9KV280VUVtM1hWMTBiNmRQdW5pSkpmaHVLZjdrcHBCekdIZEQzOFhNRjZRVEpKVVB5eUxkQzczNXpRS0hFXzliNFRjQ3V5WjdxM2E5czlKaGJsVDQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "singapore s finance firms to train 80 000 staff in ai skills",
+      "normalized_title": "singapore s finance firms to train 80 000 staff in ai skills",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
+      "title": "Singapore’s finance firms to train 80,000 staff in AI skills - The Malaysian Reserve",
+      "summary": "Singapore’s finance firms to train 80,000 staff in AI skills The Malaysian Reserve",
+      "source": "The Malaysian Reserve",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
+      "normalized_title": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwbUpuMmZnZXJraWIzNVJTbTJIZmJnNGZFY3Bnb1VsbG0ybXotN00wVzFCcDNfZ0pkcG81VlhhS2hkeVJXNGFLX21CQnVyckdaaGIzN01uYXdOcWp1d1pUaE9DeGJvbHc?oc=5",
+      "title": "NVIDIA 发布开放智能体安全平台，保障智能体从测试到部署全流程安全 - NVIDIA",
+      "summary": "NVIDIA 发布开放智能体安全平台，保障智能体从测试到部署全流程安全 NVIDIA",
+      "source": "NVIDIA",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwbUpuMmZnZXJraWIzNVJTbTJIZmJnNGZFY3Bnb1VsbG0ybXotN00wVzFCcDNfZ0pkcG81VlhhS2hkeVJXNGFLX21CQnVyckdaaGIzN01uYXdOcWp1d1pUaE9DeGJvbHc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-28",
+      "last_seen_date": "2026-09-28",
+      "canonical_key": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
+      "normalized_title": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
+      "title": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” - thepaper.cn",
+      "summary": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” thepaper.cn",
+      "source": "thepaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research",
+          "security"
         ]
       },
       "seen_count": 1
