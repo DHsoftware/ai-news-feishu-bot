@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T08:27:59.368515+08:00",
+  "updated_at": "2026-09-30T09:16:38.078408+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5657,7 +5657,7 @@
           "security"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5816,7 +5816,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5851,7 +5851,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5882,7 +5882,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5908,6 +5908,46 @@
       "event_signature": {
         "entities": [
           "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-29",
+      "last_seen_date": "2026-09-29",
+      "canonical_key": "openai发布全天候智能体dot gpt 6 astra驱动 可连4000多款应用自主干活",
+      "normalized_title": "openai发布全天候智能体dot gpt 6 astra驱动 可连4000多款应用自主干活",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtVU1zLVdBN1V6Zk5GeF9ZRVg5TlRucy1OeGNjaTczclRaWmIxbHE4aUZjWjhqTUNqY3FXMGpxYmpzUjNXMEZaVUZWZ2Q2ZU9zMTJTVTlwdWg?oc=5",
+      "title": "OpenAI发布全天候智能体Dot：GPT-6 Astra驱动 可连4000多款应用自主干活 - 驱动之家",
+      "summary": "OpenAI发布全天候智能体Dot：GPT-6 Astra驱动 可连4000多款应用自主干活 驱动之家",
+      "source": "驱动之家",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtVU1zLVdBN1V6Zk5GeF9ZRVg5TlRucy1OeGNjaTczclRaWmIxbHE4aUZjWjhqTUNqY3FXMGpxYmpzUjNXMEZaVUZWZ2Q2ZU9zMTJTVTlwdWg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
           "openai"
         ],
         "products": [],
