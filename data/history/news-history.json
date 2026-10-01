@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:33:15.441860+08:00",
+  "updated_at": "2026-10-01T09:16:09.589383+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5609,7 +5609,7 @@
     },
     {
       "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-29",
+      "last_seen_date": "2026-09-30",
       "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
@@ -5649,7 +5649,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5917,7 +5917,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-30",
@@ -5957,6 +5957,76 @@
           "coding_agent",
           "model_capability",
           "opensource"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "amazon target lifted as rosenblatt says ai agents won t disrupt business model",
+      "normalized_title": "amazon target lifted as rosenblatt says ai agents won t disrupt business model",
+      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1RNGR6OFBqSE1xM0RQWVNKaUdLNjN6NXFhRTIxZnpTVlAwTzNnQ2RTSWN2MHp6R2RORHJJa2ZsbzA1UnZfYU1iZXVQcFRKRHpSZV9LeFQ2T0szTjE0MTduUTIwYktTY2NXdXFuRDFLM0FZRGk3dGNHODVkbHlQZzNUeVVObmlQZVI4aDFqTlhiLUloRXJIQ3dCYW95NzJHRV9RdVpsaTZ4cG1DTC0tTkZVaTZDU3lqaFZpNm1R?oc=5",
+      "title": "Amazon Target Lifted as Rosenblatt Says AI Agents Won’t Disrupt Business Model - 247wallst.com",
+      "summary": "Amazon Target Lifted as Rosenblatt Says AI Agents Won’t Disrupt Business Model 247wallst.com",
+      "source": "247wallst.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay1RNGR6OFBqSE1xM0RQWVNKaUdLNjN6NXFhRTIxZnpTVlAwTzNnQ2RTSWN2MHp6R2RORHJJa2ZsbzA1UnZfYU1iZXVQcFRKRHpSZV9LeFQ2T0szTjE0MTduUTIwYktTY2NXdXFuRDFLM0FZRGk3dGNHODVkbHlQZzNUeVVObmlQZVI4aDFqTlhiLUloRXJIQ3dCYW95NzJHRV9RdVpsaTZ4cG1DTC0tTkZVaTZDU3lqaFZpNm1R?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "openai发布全天候agent dots ai agent市场竞争升温",
+      "normalized_title": "openai发布全天候agent dots ai agent市场竞争升温",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfRnJLUjM1ZFNuOW9LRWF2NUtWclc5VFIzLWhDY1FhcEYyb2lZRDB3cmZpd1B1S1FHZmloMk4wQkJHYmRJMFRSTzRkMVVfQVVrYWk2aA?oc=5",
+      "title": "OpenAI发布全天候Agent dots，AI Agent市场竞争升温 - 虎嗅网",
+      "summary": "OpenAI发布全天候Agent dots，AI Agent市场竞争升温 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfRnJLUjM1ZFNuOW9LRWF2NUtWclc5VFIzLWhDY1FhcEYyb2lZRDB3cmZpd1B1S1FHZmloMk4wQkJHYmRJMFRSTzRkMVVfQVVrYWk2aA?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent"
         ]
       },
       "seen_count": 1
