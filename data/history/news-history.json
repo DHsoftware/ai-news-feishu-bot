@@ -1,175 +1,8 @@
 {
-  "updated_at": "2026-09-30T09:16:38.078408+08:00",
+  "updated_at": "2026-10-01T08:33:15.441860+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-08-30",
-      "last_seen_date": "2026-08-30",
-      "canonical_key": "microsoft admits windows 11 kb5120998 update breaks mouse cursors with wallpapers turning black until you uninstall it",
-      "normalized_title": "microsoft admits windows 11 kb5120998 update breaks mouse cursors with wallpapers turning black until you uninstall it",
-      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tN3duSDJ3UVBXc0JvZ18yLTU0YzlRZ1YyTmluS1FRTTNCVVNkNmtETlN2NC1GaWpGVTNmNVRVZHBCV3I2cWtFY2JWa1ZOTTBtWWRVY1JCdkJoYTRHYlZQQ0NUSndvWVR0MzJaRjJBb2Q4enk0YnRSctIBfkFVX3lxTE0zcVJ3N2VodkJRbTltSFVsbjZ0Wnp1dFBHWFoyNFVEdTg1c3Z1WFBYeWxjX28tcU5LOXI4X2NySGFnNFBlQXI4LWlCNXZuX1E2QW00NktPNXdQNnNHR3hUZF9MeTk3WDBVOEN1dE1nc2dIRlVWb0dha0hYdkt0Zw?oc=5",
-      "title": "Microsoft Admits Windows 11 KB5120998 Update Breaks Mouse Cursors, With Wallpapers Turning Black Until You Uninstall It - Wccftech",
-      "summary": "Microsoft Admits Windows 11 KB5120998 Update Breaks Mouse Cursors, With Wallpapers Turning Black Until You Uninstall It Wccftech",
-      "source": "Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tN3duSDJ3UVBXc0JvZ18yLTU0YzlRZ1YyTmluS1FRTTNCVVNkNmtETlN2NC1GaWpGVTNmNVRVZHBCV3I2cWtFY2JWa1ZOTTBtWWRVY1JCdkJoYTRHYlZQQ0NUSndvWVR0MzJaRjJBb2Q4enk0YnRSctIBfkFVX3lxTE0zcVJ3N2VodkJRbTltSFVsbjZ0Wnp1dFBHWFoyNFVEdTg1c3Z1WFBYeWxjX28tcU5LOXI4X2NySGFnNFBlQXI4LWlCNXZuX1E2QW00NktPNXdQNnNHR3hUZF9MeTk3WDBVOEN1dE1nc2dIRlVWb0dha0hYdkt0Zw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-30",
-      "last_seen_date": "2026-08-30",
-      "canonical_key": "github copilot新模型默认开放 三类例外仍禁用",
-      "normalized_title": "github copilot新模型默认开放 三类例外仍禁用",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUkc4U213bjA0SExOQ1lfcmJ1dDlwRWNNTTc4VG0zMERVbWpuLTRtNElHZm5ZUWgzZDg3UHduUVE4WDRlZ2xWemdEQTI1cXhKOTI4NWw2UWR3OW5pRVhNdXRsR2JFWmdpaWpVdW1mTWFXVEozemNFdlgtYkp4S2pEb2dhemFmVWNuZDl0S29KSXVhbzc4ZzVUUEZDOC05ZklhWTg1RnVFUFh4RDBDVk1VbQ?oc=5",
-      "title": "GitHub Copilot新模型默认开放：三类例外仍禁用 - quasa.io",
-      "summary": "GitHub Copilot新模型默认开放：三类例外仍禁用 quasa.io",
-      "source": "quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUkc4U213bjA0SExOQ1lfcmJ1dDlwRWNNTTc4VG0zMERVbWpuLTRtNElHZm5ZUWgzZDg3UHduUVE4WDRlZ2xWemdEQTI1cXhKOTI4NWw2UWR3OW5pRVhNdXRsR2JFWmdpaWpVdW1mTWFXVEozemNFdlgtYkp4S2pEb2dhemFmVWNuZDl0S29KSXVhbzc4ZzVUUEZDOC05ZklhWTg1RnVFUFh4RDBDVk1VbQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "coding_agent",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "ai_transformation",
-          "coding",
-          "coding_agent",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-30",
-      "last_seen_date": "2026-08-30",
-      "canonical_key": "why open source rocks a new sm750 silicon motion gpu hdmi driver",
-      "normalized_title": "why open source rocks a new sm750 silicon motion gpu hdmi driver",
-      "normalized_link": "https://github.com/KodeMunkie/sm750hdmifb",
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://github.com/KodeMunkie/sm750hdmifb",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "chip",
-          "opensource"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-30",
-      "last_seen_date": "2026-08-30",
-      "canonical_key": "techcrunch mobility the hidden human cost of robotaxis",
-      "normalized_title": "techcrunch mobility the hidden human cost of robotaxis",
-      "normalized_link": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis",
-      "title": "TechCrunch Mobility: The hidden human cost of robotaxis",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-30",
-      "last_seen_date": "2026-08-30",
-      "canonical_key": "alt right troll milo yiannopoulos has been deported",
-      "normalized_title": "alt right troll milo yiannopoulos has been deported",
-      "normalized_link": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
-      "title": "Alt-right troll Milo Yiannopoulos has been deported",
-      "summary": "Alt-right troll Milo Yiannopoulos was arrested by ICE on Thursday, and today the Department of Homeland Security confirmed to Reuters and the Washington Post that he had been deported to the UK. Yiannopoulos came to the US legally in 2019, but overstayed his visa. After he failed to appear in court…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-08-31",
       "last_seen_date": "2026-09-01",
@@ -5619,7 +5452,7 @@
     },
     {
       "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-29",
+      "last_seen_date": "2026-09-30",
       "canonical_key": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
       "normalized_title": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
       "normalized_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwbUpuMmZnZXJraWIzNVJTbTJIZmJnNGZFY3Bnb1VsbG0ybXotN00wVzFCcDNfZ0pkcG81VlhhS2hkeVJXNGFLX21CQnVyckdaaGIzN01uYXdOcWp1d1pUaE9DeGJvbHc?oc=5",
@@ -5657,7 +5490,7 @@
           "security"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5961,6 +5794,169 @@
           "coding",
           "coding_agent",
           "model_capability"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "devday 2026 recap",
+      "normalized_title": "devday 2026 recap",
+      "normalized_link": "https://openai.com/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/devday-2026-recap",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "investors are pricing in a 32 6 ai productivity boost for software engineers",
+      "normalized_title": "investors are pricing in a 32 6 ai productivity boost for software engineers",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjloX3d1UGp1Rl9NVHF4VUZKSFgzZGczcHFaYzRhdldndUgxb3lUMVRtM3B4ektCallCY0U1YjhwOE1hNk9semw5ZGZDTVlPYXZJbktJSl9rUnpZSUNXNHRpanBseGRrelN5cThwc2FuQ3g4MWJ1UnhvejBYbXVBZUdGRE5EMlVsQnY3SHJOdXJJR0RhbDNpblBTQnhVWmV3YVI4RXZkQXphWWxERGJab200VllJQUZnUEl3Q0NvNFMtMjQ0REpjczBGN3g?oc=5",
+      "title": "Investors are pricing in a 32.6% AI productivity boost for software engineers - The Register",
+      "summary": "Investors are pricing in a 32.6% AI productivity boost for software engineers The Register",
+      "source": "The Register",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjloX3d1UGp1Rl9NVHF4VUZKSFgzZGczcHFaYzRhdldndUgxb3lUMVRtM3B4ektCallCY0U1YjhwOE1hNk9semw5ZGZDTVlPYXZJbktJSl9rUnpZSUNXNHRpanBseGRrelN5cThwc2FuQ3g4MWJ1UnhvejBYbXVBZUdGRE5EMlVsQnY3SHJOdXJJR0RhbDNpblBTQnhVWmV3YVI4RXZkQXphWWxERGJab200VllJQUZnUEl3Q0NvNFMtMjQ0REpjczBGN3g?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "delta electronics unveils ai modular data center with 800 vdc in row power for nvidia vera rubin and microgrid solutions at data center world asia 2026",
+      "normalized_title": "delta electronics unveils ai modular data center with 800 vdc in row power for nvidia vera rubin and microgrid solutions at data center world asia 2026",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWkE5VTFGQWhzaXByZm9BZElhMXNpU0oza1FCVkFlMVpIQmlGQU05YXN5bzlLeWljNFJiU09mb2ZkdndCXzQxXzhiZDQ5RTU1YzNWRFFPMG4tbzc2c1pvVE80a29EVjVfV09lU0VRcks0Y1g2bUlscFY4NHlKTldicFRGY3dfY2dxVF9aWUc0MExjcldxT2F1d19MTEJ3bGdQRlRTZEtobU9hRkIxSmFFWGFGU00tc1I5WG5Sb3k3cWc4Y1lXNzQxbDZUUnBUM1QwLWZaVW9fUVlmVU4zTm9DZ2swbXl5NUVSemswNlJfWFR5NE9iZDFZQmlHSFc2QWtFNWRfaE80RmNOd3F1MVRIdnB1M2s?oc=5",
+      "title": "Delta Electronics Unveils AI Modular Data Center with 800 VDC In-Row Power for NVIDIA Vera Rubin and Microgrid Solutions at Data Center World Asia 2026 - Voice of ASIA",
+      "summary": "Delta Electronics Unveils AI Modular Data Center with 800 VDC In-Row Power for NVIDIA Vera Rubin and Microgrid Solutions at Data Center World Asia 2026 Voice of ASIA",
+      "source": "Voice of ASIA",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWkE5VTFGQWhzaXByZm9BZElhMXNpU0oza1FCVkFlMVpIQmlGQU05YXN5bzlLeWljNFJiU09mb2ZkdndCXzQxXzhiZDQ5RTU1YzNWRFFPMG4tbzc2c1pvVE80a29EVjVfV09lU0VRcks0Y1g2bUlscFY4NHlKTldicFRGY3dfY2dxVF9aWUc0MExjcldxT2F1d19MTEJ3bGdQRlRTZEtobU9hRkIxSmFFWGFGU00tc1I5WG5Sb3k3cWc4Y1lXNzQxbDZUUnBUM1QwLWZaVW9fUVlmVU4zTm9DZ2swbXl5NUVSemswNlJfWFR5NE9iZDFZQmlHSFc2QWtFNWRfaE80RmNOd3F1MVRIdnB1M2s?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "rubin",
+          "vera"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-09-30",
+      "last_seen_date": "2026-09-30",
+      "canonical_key": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
+      "normalized_title": "ai编程进入下半场 新基准不测补丁 拷问真正的工程能力 gpt 5 4 智能体 ai代码生成 minimax 开源模型_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOd3BmSW5RalRjX2dzYXJDUk5aVll6NzhyZE5qV2tPTGpydktDbjl5aUlZdzZOZDZUOTYtWERGcmxBVGF4dGNSdnRPekRTREduQ0xnQ0lGLVRCLURySUQtNHhrRUQ5Q1lhMnlIVWxvQnF5YlZUMTlRX0ljOXR6d3dyWUY1clFyTy1ROFhSSWJRRmZneTFsdDVncnVGUTFySzc5ekdHaUFlZ1N4NDZDeXo3UHotSnI0c2E5WGJ0QVB1YlpiZnoxdjJ6aFFya2p4M2VFN0IzdEdJMHZCcmJQODF2R0V6dGFVYVJkbmlUc3RJRTYxWktqbkZJR2QzeFlONzRnekNucmVFTGdHQlVLWEZzM1lnVFdSN3NUS1lranpiX25oX1piWFljT3ZvSURTVnZxRnV1T2syR3hkQQ?oc=5",
+      "title": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 - finance.sina.com.cn",
+      "summary": "AI编程进入下半场！新基准不测补丁，拷问真正的工程能力|GPT-5.4|智能体|AI代码生成|Minimax|开源模型_手机新浪网 finance.sina.com.cn",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOd3BmSW5RalRjX2dzYXJDUk5aVll6NzhyZE5qV2tPTGpydktDbjl5aUlZdzZOZDZUOTYtWERGcmxBVGF4dGNSdnRPekRTREduQ0xnQ0lGLVRCLURySUQtNHhrRUQ5Q1lhMnlIVWxvQnF5YlZUMTlRX0ljOXR6d3dyWUY1clFyTy1ROFhSSWJRRmZneTFsdDVncnVGUTFySzc5ekdHaUFlZ1N4NDZDeXo3UHotSnI0c2E5WGJ0QVB1YlpiZnoxdjJ6aFFya2p4M2VFN0IzdEdJMHZCcmJQODF2R0V6dGFVYVJkbmlUc3RJRTYxWktqbkZJR2QzeFlONzRnekNucmVFTGdHQlVLWEZzM1lnVFdSN3NUS1lranpiX25oX1piWFljT3ZvSURTVnZxRnV1T2syR3hkQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "benchmark",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "benchmark",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "opensource"
         ]
       },
       "seen_count": 1
