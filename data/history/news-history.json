@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:47:49.686911+08:00",
+  "updated_at": "2026-10-02T09:39:40.557813+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4027,7 +4027,7 @@
     },
     {
       "first_seen_date": "2026-09-22",
-      "last_seen_date": "2026-09-22",
+      "last_seen_date": "2026-10-01",
       "canonical_key": "benchmarking llm inference at scale with aiperf",
       "normalized_title": "benchmarking llm inference at scale with aiperf",
       "normalized_link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
@@ -4061,7 +4061,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-09-23",
@@ -5509,7 +5509,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5994,6 +5994,104 @@
         "topics": [
           "chip",
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "inside microsoft s big copilot rethink",
+      "normalized_title": "inside microsoft s big copilot rethink",
+      "normalized_link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+      "title": "Inside Microsoft’s big Copilot rethink",
+      "summary": "Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft really cares about, pitching its latest rethink of the AI a…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "the download openai s chief research officer explains its hacking response",
+      "normalized_title": "the download openai s chief research officer explains its hacking response",
+      "normalized_link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response",
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "summary": "This is today’s edition of The Download , our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the comput…",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "chip",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "microsoft 365 and linkedin leadership update",
+      "normalized_title": "microsoft 365 and linkedin leadership update",
+      "normalized_link": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update",
+      "title": "Microsoft 365 and LinkedIn leadership update",
+      "summary": "Satya Nadella, Chairman and CEO, and Ryan Roslansky, Executive Vice President of LinkedIn and Microsoft 365 , shared the below communications with Microsoft and LinkedIn employees this morning. SATYA NADELLA MESSAGE After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky has decided to leav…",
+      "source": "The Official Microsoft Blog",
+      "link": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "coding"
         ]
       },
       "seen_count": 1
