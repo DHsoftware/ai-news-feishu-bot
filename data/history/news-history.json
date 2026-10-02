@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T09:16:09.589383+08:00",
+  "updated_at": "2026-10-02T08:47:49.686911+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -48,146 +48,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-08-31",
-      "canonical_key": "polimill builds japan s next generation public ai infrastructure",
-      "normalized_title": "polimill builds japan s next generation public ai infrastructure",
-      "normalized_link": "https://openai.com/index/polimill",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/polimill",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-08-31",
-      "canonical_key": "the hugging face hack could indicate cultural issues at openai",
-      "normalized_title": "the hugging face hack could indicate cultural issues at openai",
-      "normalized_link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai",
-      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging…",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "incident",
-          "research",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-08-31",
-      "canonical_key": "nvidia s 3 5b mediatek bet reveals its plan for tackling big tech s ai chip buildout",
-      "normalized_title": "nvidia s 3 5b mediatek bet reveals its plan for tackling big tech s ai chip buildout",
-      "normalized_link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-08-31",
-      "canonical_key": "debian won t ban ai code from its linux distribution",
-      "normalized_title": "debian won t ban ai code from its linux distribution",
-      "normalized_link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "title": "Debian won’t ban AI code from its Linux distribution",
-      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exe…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "llm",
-        "regulation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm",
-          "policy_regulation",
-          "regulation"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-01",
@@ -5609,7 +5469,7 @@
     },
     {
       "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-30",
+      "last_seen_date": "2026-10-01",
       "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
@@ -5649,7 +5509,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-09-29",
@@ -6000,7 +5860,7 @@
     },
     {
       "first_seen_date": "2026-09-30",
-      "last_seen_date": "2026-09-30",
+      "last_seen_date": "2026-10-01",
       "canonical_key": "openai发布全天候agent dots ai agent市场竞争升温",
       "normalized_title": "openai发布全天候agent dots ai agent市场竞争升温",
       "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfRnJLUjM1ZFNuOW9LRWF2NUtWclc5VFIzLWhDY1FhcEYyb2lZRDB3cmZpd1B1S1FHZmloMk4wQkJHYmRJMFRSTzRkMVVfQVVrYWk2aA?oc=5",
@@ -6027,6 +5887,113 @@
         "topics": [
           "agent",
           "ai_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "helport ai publishes white paper on ai labor and the evolution of enterprise digital workforces",
+      "normalized_title": "helport ai publishes white paper on ai labor and the evolution of enterprise digital workforces",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3h5ZVZFbXhKbUlaVDRUbGRaMWJjNUI1UHJYUVZIcDBHMXczV1owUmhXamJHX0hkR3pLVU5FQkhvXzN2cWRFdHoxV1Nld0tLd043NklOc0hwelRZNW9EeHJHSmtZSjdZc2lDUU5WM2JQRE5MVzZsZTJ3Nm1vTjZWOTVoTEdaemtZ?oc=5",
+      "title": "Helport AI Publishes White Paper on AI Labor and the Evolution of Enterprise Digital Workforces - Yahoo Finance UK",
+      "summary": "Helport AI Publishes White Paper on AI Labor and the Evolution of Enterprise Digital Workforces Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3h5ZVZFbXhKbUlaVDRUbGRaMWJjNUI1UHJYUVZIcDBHMXczV1owUmhXamJHX0hkR3pLVU5FQkhvXzN2cWRFdHoxV1Nld0tLd043NklOc0hwelRZNW9EeHJHSmtZSjdZc2lDUU5WM2JQRE5MVzZsZTJ3Nm1vTjZWOTVoTEdaemtZ?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "whitepaper",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "whitepaper",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "renesas unveils industry s first 650v gan in dual side cooled 8x8mm package for megawatt scale ai data centers",
+      "normalized_title": "renesas unveils industry s first 650v gan in dual side cooled 8x8mm package for megawatt scale ai data centers",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQVFpbUFKTG9qTHFfeThXWXd2N2c5WjEteHN4TW1TY2t2ZUJVczJGeWpSTVY5OU1rbGJIQkxRSkQtYkVOVXpmOE9hcnFDVVZEZnJhalg1NWl6R19qbkxhNWxfdTE5bUdlS3NnZEV6ZkNKUGg2Sy1YaDh2RTdUODBiQWM3UXk5VEhnaWpwQnNYRG90b3hfVEZMYWNkRnRocVFXNHNzcHNsRDJPdHJQTVpoTW5JaVRUZDB4U3Q2aXJiSk45ZTJSbjh5WlZDcU02LUlvWUE?oc=5",
+      "title": "Renesas Unveils Industry's First 650V GaN in Dual-Side Cooled 8x8mm Package for Megawatt-Scale AI Data Centers - Renesas",
+      "summary": "Renesas Unveils Industry's First 650V GaN in Dual-Side Cooled 8x8mm Package for Megawatt-Scale AI Data Centers Renesas",
+      "source": "Renesas",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQVFpbUFKTG9qTHFfeThXWXd2N2c5WjEteHN4TW1TY2t2ZUJVczJGeWpSTVY5OU1rbGJIQkxRSkQtYkVOVXpmOE9hcnFDVVZEZnJhalg1NWl6R19qbkxhNWxfdTE5bUdlS3NnZEV6ZkNKUGg2Sy1YaDh2RTdUODBiQWM3UXk5VEhnaWpwQnNYRG90b3hfVEZMYWNkRnRocVFXNHNzcHNsRDJPdHJQTVpoTW5JaVRUZDB4U3Q2aXJiSk45ZTJSbjh5WlZDcU02LUlvWUE?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "gan",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "gan"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "company_research",
+          "gan",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-01",
+      "canonical_key": "deepseek与华为合作开发昇腾编程工具开源软件基础设施以减少对nvidia的依赖 ai 人工智能",
+      "normalized_title": "deepseek与华为合作开发昇腾编程工具开源软件基础设施以减少对nvidia的依赖 ai 人工智能",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PUkVUNm5Wd2NiWEVWMjhsOFBpeFNYc2ZfUFNkT2RWcXlpa1RsWFhwSWZfT2ZUWU5qSk1zYVFWdVhxaklDUXJTX1dBaG5uSmdyU01kQjdnWlJmdjZWdjVCdQ?oc=5",
+      "title": "DeepSeek与华为合作开发昇腾编程工具开源软件基础设施以减少对NVIDIA的依赖- AI 人工智能 - cnbeta.com.tw",
+      "summary": "DeepSeek与华为合作开发昇腾编程工具开源软件基础设施以减少对NVIDIA的依赖- AI 人工智能 cnbeta.com.tw",
+      "source": "cnbeta.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PUkVUNm5Wd2NiWEVWMjhsOFBpeFNYc2ZfUFNkT2RWcXlpa1RsWFhwSWZfT2ZUWU5qSk1zYVFWdVhxaklDUXJTX1dBaG5uSmdyU01kQjdnWlJmdjZWdjVCdQ?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "partnership"
+        ],
+        "topics": [
+          "chip",
+          "opensource"
         ]
       },
       "seen_count": 1
