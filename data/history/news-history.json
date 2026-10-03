@@ -1,194 +1,8 @@
 {
-  "updated_at": "2026-10-02T09:39:40.557813+08:00",
+  "updated_at": "2026-10-03T08:30:44.311115+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-08-31",
-      "last_seen_date": "2026-09-01",
-      "canonical_key": "run nvidia bionemo nim microservices for protein structure prediction in claude science",
-      "normalized_title": "run nvidia bionemo nim microservices for protein structure prediction in claude science",
-      "normalized_link": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science",
-      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
-      "summary": "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next.... Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experi…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "coding_agent",
-        "company_research",
-        "research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "coding_agent",
-          "company_research",
-          "research",
-          "software_engineering",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-01",
-      "last_seen_date": "2026-09-01",
-      "canonical_key": "本地 ai 与云端超算协同 联想 thinkstation p4 打造双轨 ai 工作流",
-      "normalized_title": "本地 ai 与云端超算协同 联想 thinkstation p4 打造双轨 ai 工作流",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kTW9rTUdwaktTNDFnWHlCY3gyODlPc05TUW5RVG9MNXhRZDUtUUxTQWRjS0tkcHhXQ1QyaDJabHk5R1NPM3luVVBfeDQ?oc=5",
-      "title": "本地 AI 与云端超算协同，联想 ThinkStation P4 打造双轨 AI 工作流 - 极客公园",
-      "summary": "本地 AI 与云端超算协同，联想 ThinkStation P4 打造双轨 AI 工作流 极客公园",
-      "source": "极客公园",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kTW9rTUdwaktTNDFnWHlCY3gyODlPc05TUW5RVG9MNXhRZDUtUUxTQWRjS0tkcHhXQ1QyaDJabHk5R1NPM3luVVBfeDQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "cloud",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "cloud",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-01",
-      "last_seen_date": "2026-09-01",
-      "canonical_key": "change agents completes phase 2 of ai video platform",
-      "normalized_title": "change agents completes phase 2 of ai video platform",
-      "normalized_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHpxMEwyUFlOWE5iS2FwejBfQlJMa2dVTkZfcVhsaXFNOFZHNWhNOHM5TnlUVGhmVkExZ3pYMWNNc1lndGpqUHhZSlBRVkYxSUVIT1poUWxHTGJlMjVteEUwdTFaYWVhU1JDc0dFRDl5WkVLb2g0VHFVNGJPd3hjQ29tU1VyOVFleXhMRVY3cm1EdWd1N2J3OFhHOFdPZW4weVp5NXNMVGlzTzNCNXc?oc=5",
-      "title": "Change Agents completes phase 2 of AI video platform - Investing.com",
-      "summary": "Change Agents completes phase 2 of AI video platform Investing.com",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZHpxMEwyUFlOWE5iS2FwejBfQlJMa2dVTkZfcVhsaXFNOFZHNWhNOHM5TnlUVGhmVkExZ3pYMWNNc1lndGpqUHhZSlBRVkYxSUVIT1poUWxHTGJlMjVteEUwdTFaYWVhU1JDc0dFRDl5WkVLb2g0VHFVNGJPd3hjQ29tU1VyOVFleXhMRVY3cm1EdWd1N2J3OFhHOFdPZW4weVp5NXNMVGlzTzNCNXc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-01",
-      "last_seen_date": "2026-09-01",
-      "canonical_key": "坚决不用行业标准agents md claude code惹来 封杀令 anthropic终于回应了 但开发者更气了 infoq",
-      "normalized_title": "坚决不用行业标准agents md claude code惹来 封杀令 anthropic终于回应了 但开发者更气了 infoq",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GVVB1MmtYa1gxN2RDaXR3NzEtMnQ2eTNpNEFuS0FBTkstcEZ1YlFPVGM3YnFxUEFpbFZscE5zakIyZGZqU190VUpKLXB2S2VsSFRFeG40UzEwNGJUbVE?oc=5",
-      "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了 - InfoQ-CN",
-      "summary": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了 InfoQ-CN",
-      "source": "InfoQ-CN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GVVB1MmtYa1gxN2RDaXR3NzEtMnQ2eTNpNEFuS0FBTkstcEZ1YlFPVGM3YnFxUEFpbFZscE5zakIyZGZqU190VUpKLXB2S2VsSFRFeG40UzEwNGJUbVE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "agents_md",
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-01",
-      "last_seen_date": "2026-09-01",
-      "canonical_key": "how to size gpus for ai inference and tco without overspending",
-      "normalized_title": "how to size gpus for ai inference and tco without overspending",
-      "normalized_link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending",
-      "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
-      "summary": "The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can organizations confidently... The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can orga…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-09-02",
       "last_seen_date": "2026-09-02",
@@ -5469,7 +5283,7 @@
     },
     {
       "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-10-01",
+      "last_seen_date": "2026-10-02",
       "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
@@ -5509,7 +5323,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "first_seen_date": "2026-09-29",
@@ -6092,6 +5906,143 @@
         ],
         "topics": [
           "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-02",
+      "canonical_key": "in person event applying ai for engineering productivity",
+      "normalized_title": "in person event applying ai for engineering productivity",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONS1xaFoxZDN1SEd1TVJfVjROM0kxcWYyZ0xwdFFwc000SENFeUFQOW5iRXAtQVVkVmI4NXd3ZHBqdzRTUjdjbUljenJhWFJsaVJTRDFfVkVHRklGRF9DSFJ0WjdHbVRtZ1c5Z3pLYzl6LTRrTkNmZE5uY2Q1aU5RSlJ2TEh2dHNtb2RhZUxBcmp4d2paWW1IZm1uQXZjZnRBNXpN?oc=5",
+      "title": "In-person event: Applying AI for Engineering Productivity - The Engineer",
+      "summary": "In-person event: Applying AI for Engineering Productivity The Engineer",
+      "source": "The Engineer",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONS1xaFoxZDN1SEd1TVJfVjROM0kxcWYyZ0xwdFFwc000SENFeUFQOW5iRXAtQVVkVmI4NXd3ZHBqdzRTUjdjbUljenJhWFJsaVJTRDFfVkVHRklGRF9DSFJ0WjdHbVRtZ1c5Z3pLYzl6LTRrTkNmZE5uY2Q1aU5RSlJ2TEh2dHNtb2RhZUxBcmp4d2paWW1IZm1uQXZjZnRBNXpN?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "engineering_productivity",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-02",
+      "canonical_key": "high density power converter for 800v ai data centre architectures",
+      "normalized_title": "high density power converter for 800v ai data centre architectures",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzZfTXFnYVQzbVVpNlZlZnotejAyOWp1VjExakpqb1psX3hYc2IweFBHdTU0SlZqT2lkazQ1aXI1SHhubG1WeHRyelE3NXlPMXhCd1JPSmM2RkpUSVhKNXpNbUxxRFk3RzFfVUZIbThidXZ3b3dxZEFqaElCbDdCRUVjLTN0SEI5S2hvNTNPekFmVTY2UkRHelBYT2JBN3d1TWhfZko0aGlndE9RQWZmZVZPTXcwWXlhT2Mtd1FhMVJRZw?oc=5",
+      "title": "High-density power converter for 800V AI data centre architectures - New Electronics",
+      "summary": "High-density power converter for 800V AI data centre architectures New Electronics",
+      "source": "New Electronics",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzZfTXFnYVQzbVVpNlZlZnotejAyOWp1VjExakpqb1psX3hYc2IweFBHdTU0SlZqT2lkazQ1aXI1SHhubG1WeHRyelE3NXlPMXhCd1JPSmM2RkpUSVhKNXpNbUxxRFk3RzFfVUZIbThidXZ3b3dxZEFqaElCbDdCRUVjLTN0SEI5S2hvNTNPekFmVTY2UkRHelBYT2JBN3d1TWhfZko0aGlndE9RQWZmZVZPTXcwWXlhT2Mtd1FhMVJRZw?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-02",
+      "canonical_key": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
+      "normalized_title": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5",
+      "title": "奥特曼发布“常驻智能体”：OpenAI的野心不再是聊天，而是接管你的工作流 - 搜狐网",
+      "summary": "奥特曼发布“常驻智能体”：OpenAI的野心不再是聊天，而是接管你的工作流 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-02",
+      "canonical_key": "博通联手黑石筹资600亿美元 为anthropic等ai公司铺路算力",
+      "normalized_title": "博通联手黑石筹资600亿美元 为anthropic等ai公司铺路算力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wREZoczhueGFYM2ZwZkZaeUx5TllGb2NzZFFfYmRFODRGMFJKUWVkNlJUN283T1VMNFQ5a194b29BYmJhRjBVNklPNlBZZ25YS04w?oc=5",
+      "title": "博通联手黑石筹资600亿美元，为Anthropic等AI公司铺路算力 - 华尔街见闻",
+      "summary": "博通联手黑石筹资600亿美元，为Anthropic等AI公司铺路算力 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wREZoczhueGFYM2ZwZkZaeUx5TllGb2NzZFFfYmRFODRGMFJKUWVkNlJUN283T1VMNFQ5a194b29BYmJhRjBVNklPNlBZZ25YS04w?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1
