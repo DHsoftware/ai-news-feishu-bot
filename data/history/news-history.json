@@ -1,219 +1,8 @@
 {
-  "updated_at": "2026-10-03T09:10:09.089754+08:00",
+  "updated_at": "2026-10-04T07:46:55.674375+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "how law firm gilbert tobin governs and scales ai with openai",
-      "normalized_title": "how law firm gilbert tobin governs and scales ai with openai",
-      "normalized_link": "https://openai.com/index/gilbert-tobin",
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/gilbert-tobin",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "办公ai agent加速落地车企全场景 汽车行业向内开启 组织智能 深度变革 新经济观察",
-      "normalized_title": "办公ai agent加速落地车企全场景 汽车行业向内开启 组织智能 深度变革 新经济观察",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdXc5a3RXaVhOOTdRdUNQbWswbnE0aThmTDhVT1JqWTQtSUJJVkl0MzROV0ZKcE9YZVYxYXJodktfMmtCb2IzTkw1R29wRndlLXU2MlpwdDFFNjNESUlQWjBPeEwyMTVicUtPa2JGX1B5Z20zSENBcTVtWlpuaGVkUF9mSzU1T2NicTU2dA?oc=5",
-      "title": "办公AI Agent加速落地车企全场景，汽车行业向内开启“组织智能”深度变革 | 新经济观察 - Sohu",
-      "summary": "办公AI Agent加速落地车企全场景，汽车行业向内开启“组织智能”深度变革 | 新经济观察 Sohu",
-      "source": "Sohu",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdXc5a3RXaVhOOTdRdUNQbWswbnE0aThmTDhVT1JqWTQtSUJJVkl0MzROV0ZKcE9YZVYxYXJodktfMmtCb2IzTkw1R29wRndlLXU2MlpwdDFFNjNESUlQWjBPeEwyMTVicUtPa2JGX1B5Z20zSENBcTVtWlpuaGVkUF9mSzU1T2NicTU2dA?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "automotive",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "automotive",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "young graduate trainee",
-      "normalized_title": "young graduate trainee",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
-      "title": "Young Graduate Trainee - jobs.infineon.com",
-      "summary": "Young Graduate Trainee jobs.infineon.com",
-      "source": "jobs.infineon.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "号称 全球最强 还降价75 anthropic发布 大模型fable 5 1",
-      "normalized_title": "号称 全球最强 还降价75 anthropic发布 大模型fable 5 1",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSk1RY2owdjhXVGRkT1hJUUhIeV9RRlFsUTZpQ3U3cWZLTURpNWVhb2o3YXIzZXhFeVU5RkV3TGo5SHJOLWd1eTM4eXZOdk8zUVlRUXJob3RVSXZXQXZMbg?oc=5",
-      "title": "号称“全球最强”还降价75%！Anthropic发布最新大模型Fable 5.1 - 东方财富",
-      "summary": "号称“全球最强”还降价75%！Anthropic发布最新大模型Fable 5.1 东方财富",
-      "source": "东方财富",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaSk1RY2owdjhXVGRkT1hJUUhIeV9RRlFsUTZpQ3U3cWZLTURpNWVhb2o3YXIzZXhFeVU5RkV3TGo5SHJOLWd1eTM4eXZOdk8zUVlRUXJob3RVSXZXQXZMbg?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "researchers fear safety disaster ahead of openai s astra release",
-      "normalized_title": "researchers fear safety disaster ahead of openai s astra release",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-      "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI secu…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-02",
-      "last_seen_date": "2026-09-02",
-      "canonical_key": "young graduate trainee infineon jobs",
-      "normalized_title": "young graduate trainee infineon jobs",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
-      "title": "Young Graduate Trainee - Infineon Jobs | Infineon",
-      "summary": "Young Graduate Trainee Infineon Jobs | Infineon",
-      "source": "Infineon Jobs | Infineon",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWDhBNWdVQXhBV0RqYTBwLTlsaktCQ0JpVnZXVTZzZkpNU20wYnJkTTdSdUYtc0l0YXFHSGpxeFoydXJ2MzI2eHBVWTdYT1NJemxaVXY0WEV0RTBYa3F1ZUozNjJKNnNw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
     {
       "first_seen_date": "2026-09-03",
       "last_seen_date": "2026-09-03",
@@ -5981,7 +5770,7 @@
     },
     {
       "first_seen_date": "2026-10-02",
-      "last_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-03",
       "canonical_key": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
       "normalized_title": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
       "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5",
@@ -6016,7 +5805,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-02",
@@ -6046,6 +5835,163 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "chatham scales its capital markets expertise with openai",
+      "normalized_title": "chatham scales its capital markets expertise with openai",
+      "normalized_link": "https://openai.com/index/chatham-financial",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/chatham-financial",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "from ai experiments to agentic execution transforming legal compliance and forensics workflows",
+      "normalized_title": "from ai experiments to agentic execution transforming legal compliance and forensics workflows",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcy12ZDhBVVZjTWI4TVZwM3JsN2VRWE1DR0xqUkpJZ1BPdGJLcFh0WHRWYU5XeVRsX1lWMHA5N3ByWkJYVlpGbko2bnFveERydTFycWxqS2c1T3F6QmVRYW15M0dPZGxab2NhX3V1T0pRSS0xelotNnQ1cnh5UQ?oc=5",
+      "title": "From AI Experiments to Agentic Execution: Transforming Legal, Compliance, and Forensics Workflows - JDSupra",
+      "summary": "From AI Experiments to Agentic Execution: Transforming Legal, Compliance, and Forensics Workflows JDSupra",
+      "source": "JDSupra",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcy12ZDhBVVZjTWI4TVZwM3JsN2VRWE1DR0xqUkpJZ1BPdGJLcFh0WHRWYU5XeVRsX1lWMHA5N3ByWkJYVlpGbko2bnFveERydTFycWxqS2c1T3F6QmVRYW15M0dPZGxab2NhX3V1T0pRSS0xelotNnQ1cnh5UQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "spintronics ai partners csir ceeri to advance indigenous gan tech set up fabrication unit",
+      "normalized_title": "spintronics ai partners csir ceeri to advance indigenous gan tech set up fabrication unit",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVDVsd0Z2ZDMxNXZSMmhfY3FSdzVwZUVIcGNUVXdhQUdRcEJtUV9JSmpXX0JEa3JMYmgxMHFma1dydmRTWGg4Z3pSb3dvSGhMMTlGZ0M4cWM1Mzk5cV9takhSeXdSNHlLTEQ1TklIbllrbHdFR3ZuM3VIODZ3V1BobmJ1SG9zVDl4U2JhU1JZaHpMNEZHcVQyOGVnMHBlSUo4ejV0cm5EcGRFS2xHSUxjbl9BeWFoWV9pNXpRQ0FOcXI4LVBVSjI5WWVua2RCNVJ4dlRjSkVqOTZvdk81ajMtdFAxUHNNY1J6MC1tNEJfNXdwTmJJWjBRaHhJRdIBgAJBVV95cUxQcVlwdlB1NlBFV0tGUXoyaGFmZGpqMlFpSjZBTnd5WFNFalhFM2JIcUp5UTJCMWtoOXJQRmlKd25Wb043TGFaV0J1cXc4bDRkZ1RMaFdlb29RU1B4Ymd3WmpxVk1CLVREZWdXQzhrMXFFdDBsUjFjaTB0MGVWcjhMWlNpTFdXWjU3UWhGcWdHcGtPU0hhUDlPV21RbDFrZWxaWERWX0ZZdWdRM0JoODdjLXR0eUNiMjBkWXB5SHVpRnJwZUJsYmV6MHl2UXM5ajZtb3JhNkFmdm9paVR6SU92SnJzR0dXLUowRHVldGpOOGxQSXctbmo4Q2xxazdzc1py?oc=5",
+      "title": "Spintronics AI partners CSIR-CEERI to advance indigenous GaN tech, set up fabrication unit - ET CIO",
+      "summary": "Spintronics AI partners CSIR-CEERI to advance indigenous GaN tech, set up fabrication unit ET CIO",
+      "source": "ET CIO",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVDVsd0Z2ZDMxNXZSMmhfY3FSdzVwZUVIcGNUVXdhQUdRcEJtUV9JSmpXX0JEa3JMYmgxMHFma1dydmRTWGg4Z3pSb3dvSGhMMTlGZ0M4cWM1Mzk5cV9takhSeXdSNHlLTEQ1TklIbllrbHdFR3ZuM3VIODZ3V1BobmJ1SG9zVDl4U2JhU1JZaHpMNEZHcVQyOGVnMHBlSUo4ejV0cm5EcGRFS2xHSUxjbl9BeWFoWV9pNXpRQ0FOcXI4LVBVSjI5WWVua2RCNVJ4dlRjSkVqOTZvdk81ajMtdFAxUHNNY1J6MC1tNEJfNXdwTmJJWjBRaHhJRdIBgAJBVV95cUxQcVlwdlB1NlBFV0tGUXoyaGFmZGpqMlFpSjZBTnd5WFNFalhFM2JIcUp5UTJCMWtoOXJQRmlKd25Wb043TGFaV0J1cXc4bDRkZ1RMaFdlb29RU1B4Ymd3WmpxVk1CLVREZWdXQzhrMXFFdDBsUjFjaTB0MGVWcjhMWlNpTFdXWjU3UWhGcWdHcGtPU0hhUDlPV21RbDFrZWxaWERWX0ZZdWdRM0JoODdjLXR0eUNiMjBkWXB5SHVpRnJwZUJsYmV6MHl2UXM5ajZtb3JhNkFmdm9paVR6SU92SnJzR0dXLUowRHVldGpOOGxQSXctbmo4Q2xxazdzc1py?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "gan",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "gan"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "dcdc",
+          "gan",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "nvidia dgx spark 64gb gives developers more ways to build and scale local ai",
+      "normalized_title": "nvidia dgx spark 64gb gives developers more ways to build and scale local ai",
+      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "cloud",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

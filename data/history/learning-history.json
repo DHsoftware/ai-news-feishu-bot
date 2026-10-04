@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T09:10:09.089754+08:00",
+  "updated_at": "2026-10-04T07:46:55.674375+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -486,6 +486,52 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "codex cli release 0 159 0",
+      "normalized_title": "codex cli release 0 159 0",
+      "normalized_link": "https://developers.openai.com/codex/changelog",
+      "title": "Codex CLI Release: 0.159.0",
+      "summary": "New Features Opt-in instant_interrupt lets new input steer Codex during model responses or long-running code-mode calls. ( #48135 , #48141 ) New sessions get a compact welcome screen and consistent headers, with occasional tips during and after turns. ( #48513 , #48562 , #48352 ) The warnings viewe…",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-398926954",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex",
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "cli",
+          "code_review",
+          "codex",
+          "mcp",
+          "official",
+          "terminal",
+          "workflow"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
