@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T07:46:55.674375+08:00",
+  "updated_at": "2026-10-04T08:35:08.620141+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -531,7 +531,7 @@
           "workflow"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }

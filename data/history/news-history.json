@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T07:46:55.674375+08:00",
+  "updated_at": "2026-10-04T08:35:08.620141+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5805,7 +5805,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-02",
@@ -5911,7 +5911,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-03",
@@ -5948,7 +5948,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-03",
@@ -5987,6 +5987,43 @@
           "ai_research",
           "cloud",
           "cloud_platform",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-03",
+      "last_seen_date": "2026-10-03",
+      "canonical_key": "ai is changing developer work here are three skills to strengthen",
+      "normalized_title": "ai is changing developer work here are three skills to strengthen",
+      "normalized_link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "summary": "AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions. The good news? You can start preparing today. Here’s where to focus:…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "coding_agent",
           "company_research",
           "technical_blog"
         ]
