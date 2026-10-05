@@ -1,192 +1,8 @@
 {
-  "updated_at": "2026-10-04T08:35:08.620141+08:00",
+  "updated_at": "2026-10-05T07:57:26.630684+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "decoding the new ai lingo loops harnesses squads hill climbing oh my",
-      "normalized_title": "decoding the new ai lingo loops harnesses squads hill climbing oh my",
-      "normalized_link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my",
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "summary": "It might be overwhelming to see all of the new vocabulary popping up in software development these days thanks to AI tools introducing them… all the time. Some of this new vocab describes useful patterns that people are newly pursuing, others are just fancy names on top of things that already exist…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "enterprise ai transformation relies on the end to end platform azure was built for this moment",
-      "normalized_title": "enterprise ai transformation relies on the end to end platform azure was built for this moment",
-      "normalized_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd2VUT3dZeDI0QTk2NE1QU2dPZ1hMQ3Q3MXVRQmVHUnZKSkhiLW9WM1B4VE81Q3dDaEZSTTdKNm5BWEZXOTFweWdWaThTd29WcW0zMnMyN2lJT0dncVlWVE02Nm5QUHVJMHJTdWhOcy1jalQyaXZGQkh2OUlWSHliSmZldlEzMGFLQWExMjZySTdLSkZqRXB0YnNTb2RDVHlwbVE4cm56TGlhU2Nwd3ppWXJVTklPNlpmRFlvajZIOHJHbW5GQ05tRHItWVZzNFU?oc=5",
-      "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment - Microsoft Azure",
-      "summary": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment Microsoft Azure",
-      "source": "Microsoft Azure",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd2VUT3dZeDI0QTk2NE1QU2dPZ1hMQ3Q3MXVRQmVHUnZKSkhiLW9WM1B4VE81Q3dDaEZSTTdKNm5BWEZXOTFweWdWaThTd29WcW0zMnMyN2lJT0dncVlWVE02Nm5QUHVJMHJTdWhOcy1jalQyaXZGQkh2OUlWSHliSmZldlEzMGFLQWExMjZySTdLSkZqRXB0YnNTb2RDVHlwbVE4cm56TGlhU2Nwd3ppWXJVTklPNlpmRFlvajZIOHJHbW5GQ05tRHItWVZzNFU?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "会议通知 ai算力与数字能源供配电技术合作峰会将于11月在苏州召开",
-      "normalized_title": "会议通知 ai算力与数字能源供配电技术合作峰会将于11月在苏州召开",
-      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDY1QzSHVtdTlTV1FDYy1kcUlNUEsyWFRvdm9QV2NtdUxVY0xpUzBXUW5QMVg5U0VCQ0c0QnVGMFFhR0ZKaENYRnM3aV9XYTg2S2hHbnMxeWdLQnFKWEMtMEZoVmN3T29Tc2dlMjItNUU?oc=5",
-      "title": "会议通知 | AI算力与数字能源供配电技术合作峰会将于11月在苏州召开 - 新浪网",
-      "summary": "会议通知 | AI算力与数字能源供配电技术合作峰会将于11月在苏州召开 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDY1QzSHVtdTlTV1FDYy1kcUlNUEsyWFRvdm9QV2NtdUxVY0xpUzBXUW5QMVg5U0VCQ0c0QnVGMFFhR0ZKaENYRnM3aV9XYTg2S2hHbnMxeWdLQnFKWEMtMEZoVmN3T29Tc2dlMjItNUU?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "anthropic 开源 电商agent 不用多智能体 一个就够",
-      "normalized_title": "anthropic 开源 电商agent 不用多智能体 一个就够",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02Y3NVbmdVZm1KenFNOHJyNDJKNEhMNDVfTzhoMjZ0UmJGY1pjLUo3Y3Q1dUpEMWZwSE1HTElTN3J3V3pVZUdzWjl6ZGM?oc=5",
-      "title": "Anthropic“开源”电商Agent：不用多智能体，一个就够 - 凤凰网科技",
-      "summary": "Anthropic“开源”电商Agent：不用多智能体，一个就够 凤凰网科技",
-      "source": "凤凰网科技",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02Y3NVbmdVZm1KenFNOHJyNDJKNEhMNDVfTzhoMjZ0UmJGY1pjLUo3Y3Q1dUpEMWZwSE1HTElTN3J3V3pVZUdzWjl6ZGM?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "opensource"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "co designing ai models using speculative decoding for faster llm inference",
-      "normalized_title": "co designing ai models using speculative decoding for faster llm inference",
-      "normalized_link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference",
-      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-      "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and... This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using s…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "llm",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "llm",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-09-04",
       "last_seen_date": "2026-09-05",
@@ -6026,6 +5842,181 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "模型的危机 token 硅谷 闭源模型 开源模型 copilot_手机新浪网",
+      "normalized_title": "模型的危机 token 硅谷 闭源模型 开源模型 copilot_手机新浪网",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOUlhOT2YwYlRlQzcxVWN5a3lmUUVNRUtlVkZjMW1GcGJTTjRobEQ3bXBzRW9xdHZoUzJGRlBjTk9FcEdyU0tDOVRvOU5jWVhvbFVDdlQzTGcxaTRZYVh0S3M1Qy1RWUZ1QUdOdzU2Mm1GXzh2c1N0cVM3SmFIMG9QZXh1RDZPTl8zOG5Ua1U0Zm9JdmwxMDNkQmVqVHBKTWhwdm9lenJUQm4taU1GdnpTbkl5M0xZb1FMbDlVMEg0aVNTWTlvNDVycTFBSm9PeURmZmJfUXhSZHRydi0ybkd3NXlnd0VzWUFrU3RqS2IwTE16T0Z5M0U2aXFoMGpydXBkNEg4MERXRndTR3JTZUtFc25kZGlKNVZYdndsZGFXdXZwcDlHWXUwTnhnNjQzNEN4OUtlRGtWWjVoMzVINm5Sb2F1NXdXM0NoblI2Z1Jad3NZN0JQR0dNRU43RTFOU3JZNkVjZ24xeC1XQ3pOT1J2dnd1LXRhcHZ5SWQtRU1vUEVTVkNkbUJMSjc1TmFWaTB5a1FoMHlIZTlJeGxxUXBQem41YXBiT0RySnRZOXQtQzRBV2ljRmIxNHhHOXRhVGROWHo3ZVp3bENXa2NTcmFwemx6cWZFZW5DRlVnQTdDaURqV1NUaDF5RjEwcDNpalNvMWFhblNGSGRMM0JDNkZBNExwTS1Wa1dkRzhGYWpzczdieTNoVU1hc2NFQUZYcmpSZUxHbnFNVWxjUl9vYmREQS1OWVpJNEVUMll0TTBPbUozaVZHZ0J1UnJaYVg3Y2pyckExbWpObw?oc=5",
+      "title": "模型的危机|Token|硅谷|闭源模型|开源模型|Copilot_手机新浪网 - 新浪财经",
+      "summary": "模型的危机|Token|硅谷|闭源模型|开源模型|Copilot_手机新浪网 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOUlhOT2YwYlRlQzcxVWN5a3lmUUVNRUtlVkZjMW1GcGJTTjRobEQ3bXBzRW9xdHZoUzJGRlBjTk9FcEdyU0tDOVRvOU5jWVhvbFVDdlQzTGcxaTRZYVh0S3M1Qy1RWUZ1QUdOdzU2Mm1GXzh2c1N0cVM3SmFIMG9QZXh1RDZPTl8zOG5Ua1U0Zm9JdmwxMDNkQmVqVHBKTWhwdm9lenJUQm4taU1GdnpTbkl5M0xZb1FMbDlVMEg0aVNTWTlvNDVycTFBSm9PeURmZmJfUXhSZHRydi0ybkd3NXlnd0VzWUFrU3RqS2IwTE16T0Z5M0U2aXFoMGpydXBkNEg4MERXRndTR3JTZUtFc25kZGlKNVZYdndsZGFXdXZwcDlHWXUwTnhnNjQzNEN4OUtlRGtWWjVoMzVINm5Sb2F1NXdXM0NoblI2Z1Jad3NZN0JQR0dNRU43RTFOU3JZNkVjZ24xeC1XQ3pOT1J2dnd1LXRhcHZ5SWQtRU1vUEVTVkNkbUJMSjc1TmFWaTB5a1FoMHlIZTlJeGxxUXBQem41YXBiT0RySnRZOXQtQzRBV2ljRmIxNHhHOXRhVGROWHo3ZVp3bENXa2NTcmFwemx6cWZFZW5DRlVnQTdDaURqV1NUaDF5RjEwcDNpalNvMWFhblNGSGRMM0JDNkZBNExwTS1Wa1dkRzhGYWpzczdieTNoVU1hc2NFQUZYcmpSZUxHbnFNVWxjUl9vYmREQS1OWVpJNEVUMll0TTBPbUozaVZHZ0J1UnJaYVg3Y2pyckExbWpObw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "coding",
+        "opensource",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "ai_transformation",
+          "coding",
+          "opensource",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "nj s former lt gov is using ai to say he s innocent of sexual harassment",
+      "normalized_title": "nj s former lt gov is using ai to say he s innocent of sexual harassment",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "summary": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "sic"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "sic"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "sic"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "product marketing director infineon jobs",
+      "normalized_title": "product marketing director infineon jobs",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtWDBZUUNuUWt5djBJdmlZVzY1dExPazRTSFQ5RkZCeUo2UXhxUUl3NXE5dEZ1WDcwVm95T1R5Z2V2OUNfRkdiVXhZSS1rbG1SR3dFandPQWNiQ2JEZzJEelJOSQ?oc=5",
+      "title": "Product Marketing Director - Infineon Jobs | Infineon",
+      "summary": "Product Marketing Director Infineon Jobs | Infineon",
+      "source": "Infineon Jobs | Infineon",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtWDBZUUNuUWt5djBJdmlZVzY1dExPazRTSFQ5RkZCeUo2UXhxUUl3NXE5dEZ1WDcwVm95T1R5Z2V2OUNfRkdiVXhZSS1rbG1SR3dFandPQWNiQ2JEZzJEelJOSQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "run qwen 3 8 flash next 125b on consumer hardware rtx 4090 at 100t s",
+      "normalized_title": "run qwen 3 8 flash next 125b on consumer hardware rtx 4090 at 100t s",
+      "normalized_link": "https://github.com/Niko1221/Strata",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. - Niko1221/Strata",
+      "source": "Hacker News",
+      "link": "https://github.com/Niko1221/Strata",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "inference"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "former anthropic security leader warns ai agents are becoming too autonomous for humans to keep them in check",
+      "normalized_title": "former anthropic security leader warns ai agents are becoming too autonomous for humans to keep them in check",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemJIM1RfS0l6SDBQY29CRUNuNWNVaE9JTEdDdXVueWc4dXo3eUZ4UzA0QVdpcWFydFB1U1BRYVd0V1gxQWhZZU1LTERTMmt3a3FzTm1QbWFTYWY3R0lNc0VLbFFRMnNMU2FKWVloclBLQWR4bDZmRS1GeTE0S2w4a1dvaklkWXhkeVlOUzRfc1cyTFZTVVlMQnhXZTkteUp2M25KSUI0UG54a2tvQkxXT3hkc1ptdXNrcmF30gHAAUFVX3lxTE4wcmtnRFY5cF9KMnFwLTdacndfMi1tVTFyYXotTHdsOGxoYnRpX0NwWnQ4dlRlcjRJd2RMOEtIWTNLRWplcHNLZHU2QUlWQWc0cWhwUkVOUUFYRWxwT3BwTGQ2TW5xTWFvaGtuS01yS0tEQzFjNDVtVkJVd2JyOGRPU1Q2bUhRLVFXcVlrM21nc2xXTjgxSDI2dkFsa19GUEJwYXVYR19uV09qemtxZVktMlk4MjVsMVloRlE1SFVseg?oc=5",
+      "title": "Former Anthropic security leader warns AI agents are becoming too autonomous for humans to keep them in check - Fox News",
+      "summary": "Former Anthropic security leader warns AI agents are becoming too autonomous for humans to keep them in check Fox News",
+      "source": "Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemJIM1RfS0l6SDBQY29CRUNuNWNVaE9JTEdDdXVueWc4dXo3eUZ4UzA0QVdpcWFydFB1U1BRYVd0V1gxQWhZZU1LTERTMmt3a3FzTm1QbWFTYWY3R0lNc0VLbFFRMnNMU2FKWVloclBLQWR4bDZmRS1GeTE0S2w4a1dvaklkWXhkeVlOUzRfc1cyTFZTVVlMQnhXZTkteUp2M25KSUI0UG54a2tvQkxXT3hkc1ptdXNrcmF30gHAAUFVX3lxTE4wcmtnRFY5cF9KMnFwLTdacndfMi1tVTFyYXotTHdsOGxoYnRpX0NwWnQ4dlRlcjRJd2RMOEtIWTNLRWplcHNLZHU2QUlWQWc0cWhwUkVOUUFYRWxwT3BwTGQ2TW5xTWFvaGtuS01yS0tEQzFjNDVtVkJVd2JyOGRPU1Q2bUhRLVFXcVlrM21nc2xXTjgxSDI2dkFsa19GUEJwYXVYR19uV09qemtxZVktMlk4MjVsMVloRlE1SFVseg?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security"
         ]
       },
       "seen_count": 1

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T08:35:08.620141+08:00",
+  "updated_at": "2026-10-05T07:57:26.630684+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -249,50 +249,6 @@
       "seen_count": 3
     },
     {
-      "first_seen_date": "2026-09-03",
-      "last_seen_date": "2026-09-03",
-      "canonical_key": "build agent",
-      "normalized_title": "build agent",
-      "normalized_link": "https://www.youtube.com/watch?v=Is2NHa7awWY",
-      "title": "Build agent-ready sites with WebMCP",
-      "summary": "Eric Provencher from OpenAI Developer Experience demonstrates WebMCP support in Codex with Codex Modeling Studio, a 3D modeling site designed for people and agents to use together. See how adding tools directly to a website lets Codex discover capabilities, iterate on visuals, capture feedback, and…",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=Is2NHa7awWY",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "summary_quality": "medium",
-      "concept_hint": "Tool Calling",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "codex",
-        "mcp",
-        "tools"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "cli",
-          "codex",
-          "mcp",
-          "tools"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
       "first_seen_date": "2026-09-04",
       "last_seen_date": "2026-09-04",
       "canonical_key": "introducing gpt",
@@ -532,6 +488,42 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-04",
+      "last_seen_date": "2026-10-04",
+      "canonical_key": "the dots demo take two",
+      "normalized_title": "the dots demo take two",
+      "normalized_link": "https://www.youtube.com/watch?v=fHEIw5CcN5U",
+      "title": "The dots demo, take two | OpenAI DevDay 2026",
+      "summary": "Meet dots, always-on AI agents that get to know what matters to you and take work off your plate. See dots in action, from planning a trip to making sense of user feedback and catching up on Slack. https://openai.com/index/introducing-dots/",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=fHEIw5CcN5U",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
