@@ -1,82 +1,8 @@
 {
-  "updated_at": "2026-10-06T10:16:27.536582+08:00",
+  "updated_at": "2026-10-07T08:43:15.874937+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-05",
-      "canonical_key": "building games with astra",
-      "normalized_title": "building games with astra",
-      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
-      "title": "Building games with Astra - OpenAI Developers",
-      "summary": "Building games with Astra OpenAI Developers",
-      "source": "OpenAI Developers",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_blog",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-04",
-      "last_seen_date": "2026-09-05",
-      "canonical_key": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
-      "normalized_title": "ugreen launches homeagent ai hubs and liquid cooled qi2 charger",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUpqN0FqRnpmQTdHbE9acDJuRVJPaXNNa0dZdFpGMkQ0Q0ZDVldfckg3bHNwU1dKUGR0ZTJEaTBvb282VTdtTW9yVUV3OHFLLTZlYU5XNUttNWN1bFFOYWZXbkdfY3NXRVl4aTBjaWxKeTVtU1pSRVZxSlBfMXRLSkwtQUxUVldQ?oc=5",
-      "title": "Ugreen Launches HomeAgent AI Hubs and Liquid-Cooled Qi2 Charger - MacRumors",
-      "summary": "Ugreen Launches HomeAgent AI Hubs and Liquid-Cooled Qi2 Charger MacRumors",
-      "source": "MacRumors",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUpqN0FqRnpmQTdHbE9acDJuRVJPaXNNa0dZdFpGMkQ0Q0ZDVldfckg3bHNwU1dKUGR0ZTJEaTBvb282VTdtTW9yVUV3OHFLLTZlYU5XNUttNWN1bFFOYWZXbkdfY3NXRVl4aTBjaWxKeTVtU1pSRVZxSlBfMXRLSkwtQUxUVldQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 3
-    },
     {
       "first_seen_date": "2026-09-04",
       "last_seen_date": "2026-09-20",
@@ -116,117 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-05",
-      "last_seen_date": "2026-09-05",
-      "canonical_key": "servicenow now becomes core partner in multi agent ai workflow push",
-      "normalized_title": "servicenow now becomes core partner in multi agent ai workflow push",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHZIOUFEOGdEYTlOdjZZU2ZjZnk2LTJNUlF0TnJQRzN2My1mMFZwc2RmVFdhczhGZU9xcU1jTEtPQ0F2Wm1sZDRSR1hRQm9GYWdBUWhTWkJZek9pYW9VUTVLRTFzXzE0ck9mcUJxRi1ZZGJvcGh1LUtPQVBWOUtEN2dsV0Q3a3RwdlR3QzRJd0xCQjViT2t2QUw1YkpaVGJ1NTdIQTVEWkV2SFVzZFdZbzZrZF9TZm5FNUdTWWE2cHdhdHFyVHcwcHVR0gHKAUFVX3lxTE1Udkg5QUQ4Z0RhOU52NllTZmNmeTYtMk1SUXROclBHM3YzLWYwVnBzZGZUV2FzOEZlT3FxTWNMS09DQXZabWxkNFJHWFFCb0ZhZ0FRaFNaQll6T2lhb1VRNUtFMXNfMTRyT2ZxQnFGLVlkYm9waHUtS09BUFY5S0Q3Z2xXRDdrdHB2VHdDNEl3TEJCNWJPa3ZBTDViSlpUYnU1N0hBNURaRXZIVXNkV1lvNmtkX1NmbkU1R1NZYTZwd2F0cXJUdzBwdVE?oc=5",
-      "title": "ServiceNow (NOW) Becomes Core Partner In Multi Agent AI Workflow Push - simplywall.st",
-      "summary": "ServiceNow (NOW) Becomes Core Partner In Multi Agent AI Workflow Push simplywall.st",
-      "source": "simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHZIOUFEOGdEYTlOdjZZU2ZjZnk2LTJNUlF0TnJQRzN2My1mMFZwc2RmVFdhczhGZU9xcU1jTEtPQ0F2Wm1sZDRSR1hRQm9GYWdBUWhTWkJZek9pYW9VUTVLRTFzXzE0ck9mcUJxRi1ZZGJvcGh1LUtPQVBWOUtEN2dsV0Q3a3RwdlR3QzRJd0xCQjViT2t2QUw1YkpaVGJ1NTdIQTVEWkV2SFVzZFdZbzZrZF9TZm5FNUdTWWE2cHdhdHFyVHcwcHVR0gHKAUFVX3lxTE1Udkg5QUQ4Z0RhOU52NllTZmNmeTYtMk1SUXROclBHM3YzLWYwVnBzZGZUV2FzOEZlT3FxTWNMS09DQXZabWxkNFJHWFFCb0ZhZ0FRaFNaQll6T2lhb1VRNUtFMXNfMTRyT2ZxQnFGLVlkYm9waHUtS09BUFY5S0Q3Z2xXRDdrdHB2VHdDNEl3TEJCNWJPa3ZBTDViSlpUYnU1N0hBNURaRXZIVXNkV1lvNmtkX1NmbkU1R1NZYTZwd2F0cXJUdzBwdVE?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "st"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-05",
-      "last_seen_date": "2026-09-05",
-      "canonical_key": "openai astra用了10万张nvidia显卡 需100亿美元费用 国产大模型太难追了",
-      "normalized_title": "openai astra用了10万张nvidia显卡 需100亿美元费用 国产大模型太难追了",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTEJ4a2hrWE52X3RoUERpYmU1b01IWXlXSTAwSV9WWnFBTWNJaDJWMEFma0tfdGdZR2tHX2lza3dySXUyeG1heHBFektWc0ZaVnEyYV83ZVc?oc=5",
-      "title": "OpenAI Astra用了10万张NVIDIA显卡：需100亿美元费用 国产大模型太难追了 - 驱动之家",
-      "summary": "OpenAI Astra用了10万张NVIDIA显卡：需100亿美元费用 国产大模型太难追了 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTEJ4a2hrWE52X3RoUERpYmU1b01IWXlXSTAwSV9WWnFBTWNJaDJWMEFma0tfdGdZR2tHX2lza3dySXUyeG1heHBFektWc0ZaVnEyYV83ZVc?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm",
-          "model_capability"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-05",
-      "last_seen_date": "2026-09-05",
-      "canonical_key": "architectural visualization with astra",
-      "normalized_title": "architectural visualization with astra",
-      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cGtLX2h1Q1RKZ0JRenZrTTIwMEt6NEZoMzhhMEVHTnlKUVFOdlI0OUt4czQyUlVqZXRyWkhMbzZXWk5nMXBwamQ2OFFqMWM5WU1vMjlqMlZaWnpXYXgzRDdUcTFubHFEOFY5bXYwUXJuN1hIM3FQTk4zNVM4QQ?oc=5",
-      "title": "Architectural visualization with Astra - OpenAI Developers",
-      "summary": "Architectural visualization with Astra OpenAI Developers",
-      "source": "OpenAI Developers",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cGtLX2h1Q1RKZ0JRenZrTTIwMEt6NEZoMzhhMEVHTnlKUVFOdlI0OUt4czQyUlVqZXRyWkhMbzZXWk5nMXBwamQ2OFFqMWM5WU1vMjlqMlZaWnpXYXgzRDdUcTFubHFEOFY5bXYwUXJuN1hIM3FQTk4zNVM4QQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_blog",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-06",
@@ -5819,7 +5634,7 @@
     },
     {
       "first_seen_date": "2026-10-05",
-      "last_seen_date": "2026-10-05",
+      "last_seen_date": "2026-10-06",
       "canonical_key": "reviewbench an open benchmark for ai code review",
       "normalized_title": "reviewbench an open benchmark for ai code review",
       "normalized_link": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
@@ -5852,7 +5667,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-05",
@@ -5960,6 +5775,158 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-06",
+      "last_seen_date": "2026-10-06",
+      "canonical_key": "agentic ai in hr workflows adoption and impact",
+      "normalized_title": "agentic ai in hr workflows adoption and impact",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Z1YtOWRXTld5eFExOFhTYTc0TFBsWURFbEFnMm5aRnZBbGc3REFhc3c3eGdmUkhNV3lrUG9jX3Vra3VVd2o3N0dUc3FZd2xnWlFVSmtsU2VqWGttbUlwTm9Ic1VhaXFKSnc2UTF3?oc=5",
+      "title": "Agentic AI in HR: Workflows, Adoption, and Impact - Kings Research",
+      "summary": "Agentic AI in HR: Workflows, Adoption, and Impact Kings Research",
+      "source": "Kings Research",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Z1YtOWRXTld5eFExOFhTYTc0TFBsWURFbEFnMm5aRnZBbGc3REFhc3c3eGdmUkhNV3lrUG9jX3Vra3VVd2o3N0dUc3FZd2xnWlFVSmtsU2VqWGttbUlwTm9Ic1VhaXFKSnc2UTF3?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-06",
+      "last_seen_date": "2026-10-06",
+      "canonical_key": "navitas closes acquisition of claros advancing ai infrastructure with grid to xpu power delivery",
+      "normalized_title": "navitas closes acquisition of claros advancing ai infrastructure with grid to xpu power delivery",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSEVJSFE1YUtlZ1VqQ051X3FEeW1zV01KVVFvOFZWMG5fVFZsRHJiQl9xWkpSZE9uQVZCdkwyMEVWUjBIY1VrSXBoWVBZSTl1X1FiSm83c3ZMajU0LUtyc3lfbFpadnl6WTlaOWQ0Zl9kN3h1ZVRHdWZoNzBmTV9oSldoVFhNZG5oOW1wb0l0Z2djdTRGUm0zR2gtN3gyczQyNndjMTZrYl9mOXE5cGI2NWpEcFVpN1pCQ1ZtakFBOU5YNGxUNThvSER4bkktUWhQZWFZbQ?oc=5",
+      "title": "Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery - Navitas Semiconductor",
+      "summary": "Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery Navitas Semiconductor",
+      "source": "Navitas Semiconductor",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSEVJSFE1YUtlZ1VqQ051X3FEeW1zV01KVVFvOFZWMG5fVFZsRHJiQl9xWkpSZE9uQVZCdkwyMEVWUjBIY1VrSXBoWVBZSTl1X1FiSm83c3ZMajU0LUtyc3lfbFpadnl6WTlaOWQ0Zl9kN3h1ZVRHdWZoNzBmTV9oSldoVFhNZG5oOW1wb0l0Z2djdTRGUm0zR2gtN3gyczQyNndjMTZrYl9mOXE5cGI2NWpEcFVpN1pCQ1ZtakFBOU5YNGxUNThvSER4bkktUWhQZWFZbQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "gan",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "gan",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-06",
+      "last_seen_date": "2026-10-06",
+      "canonical_key": "openai与ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究",
+      "normalized_title": "openai与ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGMjFfTzRzZzkwQWxWVHU4MU9fN21lU1hJSFVCUURwamh0NHV4cnFrcU1lOHVvanNOUDlmQk9ablZQamNNYzBoYjd4dGF4TVUzb3NtVmVNOXl5Z2d3bm5qYw?oc=5",
+      "title": "OpenAI与Ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究 - 东方财富",
+      "summary": "OpenAI与Ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究 东方财富",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGMjFfTzRzZzkwQWxWVHU4MU9fN21lU1hJSFVCUURwamh0NHV4cnFrcU1lOHVvanNOUDlmQk9ablZQamNNYzBoYjd4dGF4TVUzb3NtVmVNOXl5Z2d3bm5qYw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-06",
+      "last_seen_date": "2026-10-06",
+      "canonical_key": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
+      "normalized_title": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
+      "title": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 - 虎嗅网",
+      "summary": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
