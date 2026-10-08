@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-08T09:00:50.858255+08:00",
+  "generated_at": "2026-10-08T09:53:53.074655+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 163,
-    "history_size_after": 163,
-    "history_duplicate_count": 46
+    "history_size_after": 164,
+    "history_duplicate_count": 44
   },
-  "raw_item_count": 5129,
-  "deduped_item_count": 3774,
-  "filtered_item_count": 323,
+  "raw_item_count": 5145,
+  "deduped_item_count": 3783,
+  "filtered_item_count": 331,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -82,9 +82,9 @@
       "summary": "What Wolters Kluwer (ENXTAM:WKL) AI Workflow Launch Means For Shareholders Simply Wall Street",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-10-08T07:06:41+08:00",
+      "published_at": "2026-10-08T07:08:17+08:00",
       "source": "Simply Wall Street",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZ9IB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "ai_agent",
@@ -107,7 +107,7 @@
       "category": "AI编程工具",
       "dedupe_key": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
       "canonical_key": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZ9IB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
       "score": 59,
       "selection_reason": "required_productivity"
     },
@@ -145,6 +145,31 @@
       "selection_reason": "power_electronics_boost"
     },
     {
+      "title": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# - 搜狐网",
+      "summary": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# 搜狐网",
+      "summary_source": "rss_description",
+      "summary_quality": "low",
+      "published_at": "2026-10-08T09:08:35+08:00",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "chip"
+      ],
+      "category": "AI芯片",
+      "dedupe_key": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
+      "canonical_key": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
+      "score": 47,
+      "selection_reason": "auto_china_quota"
+    },
+    {
       "title": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 - 虎嗅网",
       "summary": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 虎嗅网",
       "summary_source": "rss_description",
@@ -169,43 +194,17 @@
       "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UeU56T1daMGdMVVlwVjJvU3hSaTMyUXRoV19wY1o0anBCM3ZhSkxxalh0amRCLTd0U2NPVG5LZUJjaWx5ZlFPVDQ4R1lWVlktUmtqWQ?oc=5",
       "score": 36,
       "selection_reason": "china_quota"
-    },
-    {
-      "title": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 - 虎嗅网",
-      "summary": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 虎嗅网",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-10-06T12:32:06+08:00",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "category": "AI Agent",
-      "dedupe_key": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
-      "canonical_key": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
-      "score": 36,
-      "selection_reason": "china_quota"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1355,
-    "history_duplicate": 46,
-    "weak_relevance": 173,
+    "duplicate": 1362,
+    "history_duplicate": 44,
+    "weak_relevance": 177,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3278,
-    "same_entity_limit": 30,
+    "old_news": 3275,
+    "same_entity_limit": 31,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

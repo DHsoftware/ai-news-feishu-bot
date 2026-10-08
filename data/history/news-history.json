@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T09:00:50.858255+08:00",
+  "updated_at": "2026-10-08T09:53:53.074655+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5841,7 +5841,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-07",
@@ -5880,7 +5880,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-07",
@@ -5917,7 +5917,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-07",
@@ -5948,6 +5948,35 @@
           "agent",
           "policy_regulation",
           "regulation"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-07",
+      "canonical_key": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
+      "normalized_title": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
+      "title": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# - 搜狐网",
+      "summary": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1
