@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T09:30:28.907591+08:00",
+  "updated_at": "2026-10-08T09:00:50.858255+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -80,136 +80,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-06",
-      "last_seen_date": "2026-09-06",
-      "canonical_key": "the techbeat your ai productivity gains are creating a talent crisis 9 6 2026",
-      "normalized_title": "the techbeat your ai productivity gains are creating a talent crisis 9 6 2026",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
-      "title": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026) - HackerNoon",
-      "summary": "The TechBeat: Your AI Productivity Gains Are Creating a Talent Crisis (9/6/2026) HackerNoon",
-      "source": "HackerNoon",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95QVlKVDNYaGtoSHQxeUFvUVdzUTh4QzhQUjJzX2NmQVZpc1p5ZldaWjUyS0VNVE5LVy1idFp3cUoyeDVYSHdaSHdYWWJkbUh5eEE?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "org_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "org_productivity"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-06",
-      "last_seen_date": "2026-09-06",
-      "canonical_key": "jdb电子夺宝技术研讨会在深圳成功举办 聚焦ai音频与热管理创新 体坛网_体坛",
-      "normalized_title": "jdb电子夺宝技术研讨会在深圳成功举办 聚焦ai音频与热管理创新 体坛网_体坛",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02U2tLMDVySm5ZdEZLTllDcldUbEF3T2p4YzdoQWZCUXFJcFRkMlRsUnRxenF3bkVDTS1jQ05tUFZxR1hnb1hVMjZTSmQ2WWhYSDQxWVZSellmZ3l0SVhGaGpDR3hfYXFNakRyT2J3?oc=5",
-      "title": "jdb电子夺宝技术研讨会在深圳成功举办：聚焦AI音频与热管理创新-体坛网_体坛+ - 体坛",
-      "summary": "jdb电子夺宝技术研讨会在深圳成功举办：聚焦AI音频与热管理创新-体坛网_体坛+ 体坛",
-      "source": "体坛",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02U2tLMDVySm5ZdEZLTllDcldUbEF3T2p4YzdoQWZCUXFJcFRkMlRsUnRxenF3bkVDTS1jQ05tUFZxR1hnb1hVMjZTSmQ2WWhYSDQxWVZSellmZ3l0SVhGaGpDR3hfYXFNakRyT2J3?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "thermal_management"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "thermal_management"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-06",
-      "last_seen_date": "2026-09-06",
-      "canonical_key": "2大关键处仍被卡 国产ai芯片还在追赶3年前的nvidia显卡",
-      "normalized_title": "2大关键处仍被卡 国产ai芯片还在追赶3年前的nvidia显卡",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9adUNjUFl4Rlptd3IxUTI5RHo3T3I0YnliOWpucml2cDdxVlAxa3U4X1VkYlJNRVZkVllzTTFpRW9wOXRmZ01lT1VZclBjMkhjVGlwQ3E5Mno?oc=5",
-      "title": "2大关键处仍被卡：国产AI芯片还在追赶3年前的NVIDIA显卡 - 驱动之家",
-      "summary": "2大关键处仍被卡：国产AI芯片还在追赶3年前的NVIDIA显卡 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9adUNjUFl4Rlptd3IxUTI5RHo3T3I0YnliOWpucml2cDdxVlAxa3U4X1VkYlJNRVZkVllzTTFpRW9wOXRmZ01lT1VZclBjMkhjVGlwQ3E5Mno?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-06",
-      "last_seen_date": "2026-09-06",
-      "canonical_key": "an alien mind",
-      "normalized_title": "an alien mind",
-      "normalized_link": "https://openai.com/index/an-alien-mind",
-      "title": "An Alien Mind",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/an-alien-mind",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-07",
@@ -5889,7 +5759,7 @@
     },
     {
       "first_seen_date": "2026-10-06",
-      "last_seen_date": "2026-10-06",
+      "last_seen_date": "2026-10-07",
       "canonical_key": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
       "normalized_title": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
       "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
@@ -5919,14 +5789,168 @@
         ],
         "topics": [
           "agent",
+          "ai_agent",
+          "model_capability"
+        ]
+      },
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-07",
+      "canonical_key": "agent lightning v1 0 a 3 500 line lightweight agentic rl framework for training agents with real harnesses",
+      "normalized_title": "agent lightning v1 0 a 3 500 line lightweight agentic rl framework for training agents with real harnesses",
+      "normalized_link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "summary": "At a glance Harnessed Agentic RL: Microsoft Research Asia introduces a training paradigm in which the same agent harness used in deployment participates directly in reinforcement learning, removing the need to reimplement the agent inside the training framework. Lightweight by design: Agent Lightni…",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "cloud",
+        "coding_agent",
+        "company_research",
+        "official_report",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "cloud",
+          "cloud_platform",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "opensource",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-07",
+      "canonical_key": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
+      "normalized_title": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
+      "title": "What Wolters Kluwer (ENXTAM:WKL) AI Workflow Launch Means For Shareholders - Simply Wall Street",
+      "summary": "What Wolters Kluwer (ENXTAM:WKL) AI Workflow Launch Means For Shareholders Simply Wall Street",
+      "source": "Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
           "agentic_ai",
           "ai_agent",
           "coding",
           "coding_agent",
-          "model_capability"
+          "workflow_automation"
         ]
       },
-      "seen_count": 2
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-07",
+      "canonical_key": "wolfspeed announces conditional 30 year 1 5 billion loan commitment from u s department of war to advance domestic wide bandgap supply chain",
+      "normalized_title": "wolfspeed announces conditional 30 year 1 5 billion loan commitment from u s department of war to advance domestic wide bandgap supply chain",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenFLTVFzekVSMGJKSzdGVXdSeXNXeGdCZWpmUFk4UE1lVXFBSHprWVFWN0VITzZaZmllZXItQjBLOGJORS1JMk1LUlg0ZVlEcmhfOTR4dEVrN18yVjZYeS1HcFlaZjJaQTVqMUFIQlVXaDVUemhGdi0wdmMwVjY5YVRZZ0xBa2ZacW9OZVd1VmlhNl9CV1A5dUJUVlNYVFY2T0cwc0pZdExPWmh2YTZDZGJfUW1oXzY2N0hubG5HMWlYb1pvek04bFFCY1p4YnFja212TV9VT3JQcFpKNFVqcEUyVDJ3RHgtUEktajJ5ekdUU1F0UGRyWUpPbVJCNDJUMUw2ZjFrbkktcnc?oc=5",
+      "title": "Wolfspeed Announces Conditional 30-Year, $1.5 Billion Loan Commitment from U.S. Department of War to Advance Domestic Wide Bandgap Supply Chain - Wolfspeed",
+      "summary": "Wolfspeed Announces Conditional 30-Year, $1.5 Billion Loan Commitment from U.S. Department of War to Advance Domestic Wide Bandgap Supply Chain Wolfspeed",
+      "source": "Wolfspeed",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenFLTVFzekVSMGJKSzdGVXdSeXNXeGdCZWpmUFk4UE1lVXFBSHprWVFWN0VITzZaZmllZXItQjBLOGJORS1JMk1LUlg0ZVlEcmhfOTR4dEVrN18yVjZYeS1HcFlaZjJaQTVqMUFIQlVXaDVUemhGdi0wdmMwVjY5YVRZZ0xBa2ZacW9OZVd1VmlhNl9CV1A5dUJUVlNYVFY2T0cwc0pZdExPWmh2YTZDZGJfUW1oXzY2N0hubG5HMWlYb1pvek04bFFCY1p4YnFja212TV9VT3JQcFpKNFVqcEUyVDJ3RHgtUEktajJ5ekdUU1F0UGRyWUpPbVJCNDJUMUw2ZjFrbkktcnc?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "sic",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "wolfspeed"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "sic",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-07",
+      "canonical_key": "国庆黄金周ai巨头动态 openai旗舰模型延期 agent产品补位 anthropic面临监管与竞争压力",
+      "normalized_title": "国庆黄金周ai巨头动态 openai旗舰模型延期 agent产品补位 anthropic面临监管与竞争压力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UeU56T1daMGdMVVlwVjJvU3hSaTMyUXRoV19wY1o0anBCM3ZhSkxxalh0amRCLTd0U2NPVG5LZUJjaWx5ZlFPVDQ4R1lWVlktUmtqWQ?oc=5",
+      "title": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 - 虎嗅网",
+      "summary": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UeU56T1daMGdMVVlwVjJvU3hSaTMyUXRoV19wY1o0anBCM3ZhSkxxalh0amRCLTd0U2NPVG5LZUJjaWx5ZlFPVDQ4R1lWVlktUmtqWQ?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "regulation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "policy_regulation",
+          "regulation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
