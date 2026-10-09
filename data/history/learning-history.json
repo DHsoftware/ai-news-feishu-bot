@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T09:53:53.074655+08:00",
+  "updated_at": "2026-10-09T09:13:37.696037+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -164,7 +164,7 @@
     },
     {
       "first_seen_date": "2026-07-10",
-      "last_seen_date": "2026-09-23",
+      "last_seen_date": "2026-10-08",
       "canonical_key": "codex cloud",
       "normalized_title": "codex cloud",
       "normalized_link": "https://platform.openai.com/docs/codex/overview",
@@ -195,7 +195,7 @@
           "codex"
         ]
       },
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "first_seen_date": "2026-09-03",
