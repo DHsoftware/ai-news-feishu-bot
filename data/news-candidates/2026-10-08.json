@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-09T09:13:37.696037+08:00",
+  "generated_at": "2026-10-09T10:06:35.653409+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 164,
-    "history_size_after": 163,
-    "history_duplicate_count": 43
+    "history_size_before": 163,
+    "history_size_after": 164,
+    "history_duplicate_count": 41
   },
-  "raw_item_count": 5146,
-  "deduped_item_count": 3817,
-  "filtered_item_count": 423,
+  "raw_item_count": 5152,
+  "deduped_item_count": 3821,
+  "filtered_item_count": 420,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -113,36 +113,35 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "Navitas 2.0: ‘Breaking the AI Infrastructure Power Wall’ - Navitas Semiconductor",
-      "summary": "Navitas 2.0: ‘Breaking the AI Infrastructure Power Wall’ Navitas Semiconductor",
+      "title": "Investing in America: AI companies fuel economic growth, but will they be accountable for rogue agents? - KARK",
+      "summary": "Investing in America: AI companies fuel economic growth, but will they be accountable for rogue agents? KARK",
       "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-10-08T16:37:56+08:00",
-      "source": "Navitas Semiconductor",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTnRVWTV0aldfUmR4eXg4bDRwa3RmUkZkcmp4RUkxSjVZTV8yc0txZEZleDRnM0hwNV9TU1gyY0tSdko5MnkxOGNzRmNKcXFMVEQtT1JZNHNWdjczZXBJRXpYQlZFV0oyWXl4UUQyenhfaXg1TFcwSkQxdGdkTFE?oc=5",
+      "summary_quality": "medium",
+      "published_at": "2026-10-08T01:22:41+08:00",
+      "source": "KARK",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTVCVEdQTVhZRGdUaXZtVmJrd2dvSGtrNEl3cHBlLWpDZTl4eGZnUmozTUZFSFIwVURnR0FFUWxuMHdHZTFZalVETFltVGNmby1VdHBzS0lBUnBMSWNZNFVadmR1eWdPbjFCRUNxWVpGVzgxdTlnMm0xamJWVUR0Tmp3SFhxdTUtVWZRTndiNUc1S3lvLVpySDY5ZmZmLUlIM3dLMk5POGFKanFITDd3eHdIZE9qZzN5cnZrLVlwY0xLejhfUXJiLTBzcFBHeFcwLTdyd2xjbkF4Z0hEaHZHag?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "company_research",
-        "technical_blog",
-        "gan",
-        "power_electronics"
+        "power_electronics",
+        "obc",
+        "dcdc"
       ],
       "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
+        "agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
       ],
-      "category": "功率电子",
-      "dedupe_key": "navitas 2 0 breaking the ai infrastructure power wall",
-      "canonical_key": "navitas 2 0 breaking the ai infrastructure power wall",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTnRVWTV0aldfUmR4eXg4bDRwa3RmUkZkcmp4RUkxSjVZTV8yc0txZEZleDRnM0hwNV9TU1gyY0tSdko5MnkxOGNzRmNKcXFMVEQtT1JZNHNWdjczZXBJRXpYQlZFV0oyWXl4UUQyenhfaXg1TFcwSkQxdGdkTFE?oc=5",
-      "score": 59,
+      "category": "OBC/DCDC",
+      "dedupe_key": "investing in america ai companies fuel economic growth but will they be accountable for rogue agents",
+      "canonical_key": "investing in america ai companies fuel economic growth but will they be accountable for rogue agents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTVCVEdQTVhZRGdUaXZtVmJrd2dvSGtrNEl3cHBlLWpDZTl4eGZnUmozTUZFSFIwVURnR0FFUWxuMHdHZTFZalVETFltVGNmby1VdHBzS0lBUnBMSWNZNFVadmR1eWdPbjFCRUNxWVpGVzgxdTlnMm0xamJWVUR0Tmp3SFhxdTUtVWZRTndiNUc1S3lvLVpySDY5ZmZmLUlIM3dLMk5POGFKanFITDd3eHdIZE9qZzN5cnZrLVlwY0xLejhfUXJiLTBzcFBHeFcwLTdyd2xjbkF4Z0hEaHZHag?oc=5",
+      "score": 63,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -213,13 +212,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1329,
-    "history_duplicate": 43,
-    "weak_relevance": 205,
+    "duplicate": 1331,
+    "history_duplicate": 41,
+    "weak_relevance": 204,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3189,
+    "old_news": 3197,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 0,

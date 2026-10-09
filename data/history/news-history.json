@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T09:13:37.696037+08:00",
+  "updated_at": "2026-10-09T10:06:35.653409+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5671,7 +5671,7 @@
           "research"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-07",
@@ -5850,7 +5850,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-08",
@@ -5921,7 +5921,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-08",
@@ -5956,6 +5956,39 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-08",
+      "last_seen_date": "2026-10-08",
+      "canonical_key": "investing in america ai companies fuel economic growth but will they be accountable for rogue agents",
+      "normalized_title": "investing in america ai companies fuel economic growth but will they be accountable for rogue agents",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTVCVEdQTVhZRGdUaXZtVmJrd2dvSGtrNEl3cHBlLWpDZTl4eGZnUmozTUZFSFIwVURnR0FFUWxuMHdHZTFZalVETFltVGNmby1VdHBzS0lBUnBMSWNZNFVadmR1eWdPbjFCRUNxWVpGVzgxdTlnMm0xamJWVUR0Tmp3SFhxdTUtVWZRTndiNUc1S3lvLVpySDY5ZmZmLUlIM3dLMk5POGFKanFITDd3eHdIZE9qZzN5cnZrLVlwY0xLejhfUXJiLTBzcFBHeFcwLTdyd2xjbkF4Z0hEaHZHag?oc=5",
+      "title": "Investing in America: AI companies fuel economic growth, but will they be accountable for rogue agents? - KARK",
+      "summary": "Investing in America: AI companies fuel economic growth, but will they be accountable for rogue agents? KARK",
+      "source": "KARK",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNTVCVEdQTVhZRGdUaXZtVmJrd2dvSGtrNEl3cHBlLWpDZTl4eGZnUmozTUZFSFIwVURnR0FFUWxuMHdHZTFZalVETFltVGNmby1VdHBzS0lBUnBMSWNZNFVadmR1eWdPbjFCRUNxWVpGVzgxdTlnMm0xamJWVUR0Tmp3SFhxdTUtVWZRTndiNUc1S3lvLVpySDY5ZmZmLUlIM3dLMk5POGFKanFITDd3eHdIZE9qZzN5cnZrLVlwY0xLejhfUXJiLTBzcFBHeFcwLTdyd2xjbkF4Z0hEaHZHag?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
         ]
       },
       "seen_count": 1
