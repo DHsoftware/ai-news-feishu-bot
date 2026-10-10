@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T10:06:35.653409+08:00",
+  "updated_at": "2026-10-10T08:52:17.819887+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -90,147 +90,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-08",
-      "canonical_key": "ai芯片热管理需求升温 鸿富诚高端导热材料加速放量冲刺创业板ipo",
-      "normalized_title": "ai芯片热管理需求升温 鸿富诚高端导热材料加速放量冲刺创业板ipo",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjakkzcy10allYbW1pVTc0eXJNeHdoVWcxRy1UVjM4WXB5T2Znc1h5OUd5RlRzcWQ4SklnT2Rjd09Lck5FaWdJZE9KSFFvdGdU?oc=5",
-      "title": "AI芯片热管理需求升温，鸿富诚高端导热材料加速放量冲刺创业板IPO - 凤凰网",
-      "summary": "AI芯片热管理需求升温，鸿富诚高端导热材料加速放量冲刺创业板IPO 凤凰网",
-      "source": "凤凰网",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjakkzcy10allYbW1pVTc0eXJNeHdoVWcxRy1UVjM4WXB5T2Znc1h5OUd5RlRzcWQ4SklnT2Rjd09Lck5FaWdJZE9KSFFvdGdU?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "thermal_management"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "thermal_management"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-08",
-      "canonical_key": "how gpt 5 6 sol helps run quantum computing experiments",
-      "normalized_title": "how gpt 5 6 sol helps run quantum computing experiments",
-      "normalized_link": "https://openai.com/index/codex-quantum-computing-experiments",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-08",
-      "canonical_key": "ai coding 在大型客户端工程中的落地实践 从通才模型到专才 agent qcon 上海 infoq",
-      "normalized_title": "ai coding 在大型客户端工程中的落地实践 从通才模型到专才 agent qcon 上海 infoq",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oSm9TSU5FemJMTXdaVFNZelpFWnY1cjlZV3h3eUhYTFlsSTRkdWV0b0pobWlRNjFpQnNxZllCTldvb2lkVl9vbDlXaFZlLXoxZ3VWNHlyRUVCMGtWamc?oc=5",
-      "title": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon 上海 - InfoQ-CN",
-      "summary": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon 上海 InfoQ-CN",
-      "source": "InfoQ-CN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oSm9TSU5FemJMTXdaVFNZelpFWnY1cjlZV3h3eUhYTFlsSTRkdWV0b0pobWlRNjFpQnNxZllCTldvb2lkVl9vbDlXaFZlLXoxZ3VWNHlyRUVCMGtWamc?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-08",
-      "canonical_key": "i have adhd a skill to stop coding agents from burying the answer",
-      "normalized_title": "i have adhd a skill to stop coding agents from burying the answer",
-      "normalized_link": "https://github.com/ayghri/i-have-adhd",
-      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://github.com/ayghri/i-have-adhd",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-09",
@@ -5989,6 +5848,190 @@
           "dcdc",
           "obc",
           "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-09",
+      "canonical_key": "hack the world why hackathons are still the best place to learn to build",
+      "normalized_title": "hack the world why hackathons are still the best place to learn to build",
+      "normalized_link": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "summary": "Someone bursts through the door and announces, “There’s pizza!” Nearby, a team has duct tape and cardboard holding its prototype together. Another is debugging a model that won’t detect their movements. This is a common scene during hackathons, and for a lot of people they’re the place to learn to…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "robotics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "robotics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-09",
+      "canonical_key": "yettel hungary launches rpa software for enterprise automation",
+      "normalized_title": "yettel hungary launches rpa software for enterprise automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEVmVDNDemtkMEdvbkJCVjcyRXhJREtFbGJyYUhsQ25FM0ZnelBHSU40OFZVaGtMb0I4RFVRZ0FSTTFka2RiSHl0bUlVQ0YxWmtKRTJYNjRESFZBWFAwTUdNT0V2NzJTM2ttT0Q2aFRWbFV3SGRsbV9GVFd4S0g5LTI2VGNYb3RCWWtNQmtqTTdydFFiMy1aSE5aX1NscWNiOHEwQmZfQmY?oc=5",
+      "title": "Yettel Hungary launches RPA software for enterprise automation - Telecompaper",
+      "summary": "Yettel Hungary launches RPA software for enterprise automation Telecompaper",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEVmVDNDemtkMEdvbkJCVjcyRXhJREtFbGJyYUhsQ25FM0ZnelBHSU40OFZVaGtMb0I4RFVRZ0FSTTFka2RiSHl0bUlVQ0YxWmtKRTJYNjRESFZBWFAwTUdNT0V2NzJTM2ttT0Q2aFRWbFV3SGRsbV9GVFd4S0g5LTI2VGNYb3RCWWtNQmtqTTdydFFiMy1aSE5aX1NscWNiOHEwQmZfQmY?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-09",
+      "canonical_key": "ai算力扩张 功率半导体迎来新一轮竞争",
+      "normalized_title": "ai算力扩张 功率半导体迎来新一轮竞争",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uamRIQWFSVzBkQm1FZjdBLXVDLWxmRHdLYURDTDRBQmJhVDlHSFhTampFUHRxN3Rqb2hhQTRSQU9NUkdpTlRIRE0zODJoMDduaXh3d0NzTy1sWGNXSGc?oc=5",
+      "title": "AI算力扩张，功率半导体迎来新一轮竞争 - ThePaper.cn",
+      "summary": "AI算力扩张，功率半导体迎来新一轮竞争 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uamRIQWFSVzBkQm1FZjdBLXVDLWxmRHdLYURDTDRBQmJhVDlHSFhTampFUHRxN3Rqb2hhQTRSQU9NUkdpTlRIRE0zODJoMDduaXh3d0NzTy1sWGNXSGc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-09",
+      "canonical_key": "gpt周报 meta等公司联合起草个人智能体协议 manus完成超5亿美元新一轮融资 数学组织反对openai发布数学研究成果",
+      "normalized_title": "gpt周报 meta等公司联合起草个人智能体协议 manus完成超5亿美元新一轮融资 数学组织反对openai发布数学研究成果",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrMkFwSGRjaUtiUDkxXzdfMjk0UjRQQmtUbldiUzFUXzU0LXRqOTR0aGV6ekNtemtSeWdRQUNKNUV1T1JZTHUyRFRRT01LSWtuX2NEVlhDMUJsNFd3ZHZHV0Rkcm4?oc=5",
+      "title": "GPT周报｜Meta等公司联合起草个人智能体协议；Manus完成超5亿美元新一轮融资；数学组织反对OpenAI发布数学研究成果 - 财新",
+      "summary": "GPT周报｜Meta等公司联合起草个人智能体协议；Manus完成超5亿美元新一轮融资；数学组织反对OpenAI发布数学研究成果 财新",
+      "source": "财新",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrMkFwSGRjaUtiUDkxXzdfMjk0UjRQQmtUbldiUzFUXzU0LXRqOTR0aGV6ekNtemtSeWdRQUNKNUV1T1JZTHUyRFRRT01LSWtuX2NEVlhDMUJsNFd3ZHZHV0Rkcm4?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "model_capability",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-09",
+      "canonical_key": "scale bitwise deterministic pretraining with nvidia megatron core",
+      "normalized_title": "scale bitwise deterministic pretraining with nvidia megatron core",
+      "normalized_link": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core",
+      "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+      "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially val…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
