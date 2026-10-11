@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T09:44:30.795692+08:00",
+  "updated_at": "2026-10-11T08:14:24.539594+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,260 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-08",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "1password increases engineering productivity 21 with codex",
-      "normalized_title": "1password increases engineering productivity 21 with codex",
-      "normalized_link": "https://openai.com/index/1password",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/1password",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "engineering_productivity",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "engineering_productivity",
-          "official_report",
-          "security",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "ai开始管理海浪 数字孪生技术进入海洋新能源产业",
-      "normalized_title": "ai开始管理海浪 数字孪生技术进入海洋新能源产业",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdkU1M19jTVp2QUE1bThmSC10ZTdFUi1pNG1DWVM2aG90Vnp6cThWOXN1X3pxbGZMY0VNaEdueURJenJaNDIwT2Z2am5tNmt6Q3Qya1k2MVpMczg?oc=5",
-      "title": "AI开始管理海浪：数字孪生技术进入海洋新能源产业 - haijingshe.com",
-      "summary": "AI开始管理海浪：数字孪生技术进入海洋新能源产业 haijingshe.com",
-      "source": "haijingshe.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdkU1M19jTVp2QUE1bThmSC10ZTdFUi1pNG1DWVM2aG90Vnp6cThWOXN1X3pxbGZMY0VNaEdueURJenJaNDIwT2Z2am5tNmt6Q3Qya1k2MVpMczg?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "digital_twin",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "digital_twin",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "an alignment assessment of recent cybersecurity incidents",
-      "normalized_title": "an alignment assessment of recent cybersecurity incidents",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
-      "title": "An alignment assessment of recent cybersecurity incidents - Anthropic",
-      "summary": "An alignment assessment of recent cybersecurity incidents Anthropic",
-      "source": "Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "company_research",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "2026外滩大会丨智能体时代的交互变革和未来图景",
-      "normalized_title": "2026外滩大会丨智能体时代的交互变革和未来图景",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5OThkM3dvYnBCbkhfMnJmZS1fVGlreEJwS2NqV3BIRmFYRW1xX01ERDlhYmp2em1BTXhyR2lGbWctSDhZOC1JVmxXa1RTV0xsbmpsREhZMnpSaXBQZDJBZQ?oc=5",
-      "title": "2026外滩大会丨智能体时代的交互变革和未来图景 - thepaper.cn",
-      "summary": "2026外滩大会丨智能体时代的交互变革和未来图景 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5OThkM3dvYnBCbkhfMnJmZS1fVGlreEJwS2NqV3BIRmFYRW1xX01ERDlhYmp2em1BTXhyR2lGbWctSDhZOC1JVmxXa1RTV0xsbmpsREhZMnpSaXBQZDJBZQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "the download openai s turning point for math and a battery record",
-      "normalized_title": "the download openai s turning point for math and a battery record",
-      "normalized_link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record",
-      "title": "The Download: OpenAI’s turning point for math and a battery record",
-      "summary": "This is today’s edition of The Download , our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Un…",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "新长宁东展教育ai办公实战课 轻松解锁高效办公新模式",
-      "normalized_title": "新长宁东展教育ai办公实战课 轻松解锁高效办公新模式",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSnZOOXUtb0hFSVppVzEtWmFHei0xV3hjc1h6bDI4YmtUTUlfYXB4b0JLRG1tRGVoYkFfbFZqbjlDNnVHTEJVYll4Mm1QVXVDa0xZX2NkRHZPbGFvVlE?oc=5",
-      "title": "新长宁东展教育AI办公实战课，轻松解锁高效办公新模式~ - thepaper.cn",
-      "summary": "新长宁东展教育AI办公实战课，轻松解锁高效办公新模式~ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSnZOOXUtb0hFSVppVzEtWmFHei0xV3hjc1h6bDI4YmtUTUlfYXB4b0JLRG1tRGVoYkFfbFZqbjlDNnVHTEJVYll4Mm1QVXVDa0xZX2NkRHZPbGFvVlE?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-09",
-      "last_seen_date": "2026-09-09",
-      "canonical_key": "paul christiano joins openai foundation board",
-      "normalized_title": "paul christiano joins openai foundation board",
-      "normalized_link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-10",
@@ -5854,7 +5600,7 @@
     },
     {
       "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-09",
+      "last_seen_date": "2026-10-10",
       "canonical_key": "hack the world why hackathons are still the best place to learn to build",
       "normalized_title": "hack the world why hackathons are still the best place to learn to build",
       "normalized_link": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
@@ -5887,7 +5633,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-09",
@@ -6035,6 +5781,150 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-10",
+      "last_seen_date": "2026-10-10",
+      "canonical_key": "print workflow automation software how printers can reduce manual work and scale faster",
+      "normalized_title": "print workflow automation software how printers can reduce manual work and scale faster",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkd5Wkt4aFFDUHgyUjhOS0NWYi1HMTJZdURvamdhLTA4TWlESE95VXhVcHRlRHhIcHhvbTJuSkxTMzAyZjhZQm1Day1iZmVGZTlFS3ZRd1NaOWZ2a2F6TWVvd2RFSFF3YUtsVm93Vk1EdGo4ZUxEN0pMU19zYlpsZUpNNVNpZUF3eS1NM2lmR2wxQXRNTUlPVk1VcWNpOGNNQXRwUWJuRHZuWG91RktJS0R2WGR1ZDNQaUE?oc=5",
+      "title": "Print Workflow Automation Software: How Printers Can Reduce Manual Work and Scale Faster - PC Tech Magazine",
+      "summary": "Print Workflow Automation Software: How Printers Can Reduce Manual Work and Scale Faster PC Tech Magazine",
+      "source": "PC Tech Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkd5Wkt4aFFDUHgyUjhOS0NWYi1HMTJZdURvamdhLTA4TWlESE95VXhVcHRlRHhIcHhvbTJuSkxTMzAyZjhZQm1Day1iZmVGZTlFS3ZRd1NaOWZ2a2F6TWVvd2RFSFF3YUtsVm93Vk1EdGo4ZUxEN0pMU19zYlpsZUpNNVNpZUF3eS1NM2lmR2wxQXRNTUlPVk1VcWNpOGNNQXRwUWJuRHZuWG91RktJS0R2WGR1ZDNQaUE?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-10",
+      "last_seen_date": "2026-10-10",
+      "canonical_key": "远景 发布 ai风储一体机白皮书",
+      "normalized_title": "远景 发布 ai风储一体机白皮书",
+      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NDRJMVNlZDNzN1Vsa0RfaGR2TWM2NFpiTUVsQkpuMjJEWXhULXhsVjJET0FzdVhRUTAtM0pYZFNBbHlldFJNY3dPSldJMF9fTkZ3cUdjMnV4RUp5TU45dzcwajh3VXItekpjYXlwRkRSLU9UZk12RnllV0xPYjQ?oc=5",
+      "title": "远景重磅发布《AI风储一体机白皮书》 - 新浪网",
+      "summary": "远景重磅发布《AI风储一体机白皮书》 新浪网",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NDRJMVNlZDNzN1Vsa0RfaGR2TWM2NFpiTUVsQkpuMjJEWXhULXhsVjJET0FzdVhRUTAtM0pYZFNBbHlldFJNY3dPSldJMF9fTkZ3cUdjMnV4RUp5TU45dzcwajh3VXItekpjYXlwRkRSLU9UZk12RnllV0xPYjQ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "whitepaper"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "whitepaper"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-10",
+      "last_seen_date": "2026-10-10",
+      "canonical_key": "codex 和 claude code 都跑偏了 前 openai 研究员称 jev 出现前 ai 世界是个悲剧 infoq",
+      "normalized_title": "codex 和 claude code 都跑偏了 前 openai 研究员称 jev 出现前 ai 世界是个悲剧 infoq",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fN0lSVXhQNkp3Q1Jid1BPX2hPdnRoS0JrNUV3RENGZFA0ZkxKNXMyYjV5c0xWM3AwMTFjUmRSNTFDeUVWT1oySzVSc3hNcEdVVHJNM2xPT3Ztc3dWNUE?oc=5",
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧 - InfoQ-CN",
+      "summary": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧 InfoQ-CN",
+      "source": "InfoQ-CN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fN0lSVXhQNkp3Q1Jid1BPX2hPdnRoS0JrNUV3RENGZFA0ZkxKNXMyYjV5c0xWM3AwMTFjUmRSNTFDeUVWT1oySzVSc3hNcEdVVHJNM2xPT3Ztc3dWNUE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "claude_code",
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-10",
+      "last_seen_date": "2026-10-10",
+      "canonical_key": "anthropic can t reliably control its ai agents it s cutting off its internal evals from the live internet instead",
+      "normalized_title": "anthropic can t reliably control its ai agents it s cutting off its internal evals from the live internet instead",
+      "normalized_link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
