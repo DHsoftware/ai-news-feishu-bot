@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T08:58:52.570712+08:00",
+  "updated_at": "2026-10-12T08:33:00.380238+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -45,91 +45,6 @@
     },
     {
       "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-10",
-      "canonical_key": "introducing the agents api",
-      "normalized_title": "introducing the agents api",
-      "normalized_link": "https://openai.com/index/introducing-the-agents-api",
-      "title": "Introducing the Agents API",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/introducing-the-agents-api",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "cloud",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "cloud",
-          "cloud_platform",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-10",
-      "canonical_key": "hackers can turn ai workflows into privileged data stealing proxies without jailbreaking models",
-      "normalized_title": "hackers can turn ai workflows into privileged data stealing proxies without jailbreaking models",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QbmRKZWF1Y2tBcWxucEJfZjEzc3RQT2hqNk9pNTBhaS1ZLThfS01zZkxpaTFLazdGUGNwV3QzRVU2UEVVc0p0VUVNdUVqOXJXZk1mZ0JoLW8zd0twMTNTWlRoNFRCLTlTMGRfRtIBwAJBVV95cUxQejh6aTBYMmpCUk14Qjh1eFVKcGMwRlJGWEh0ekxnZnNFMXBuaTFHVjJPdDY4QVR1c1pjUmxiTFJhaWphOGZ1Nl80bUg5Y0d6d0ltVTRoY3ZwaFl6dng4dThWS0NWVWRrMzFGQlJJQnRzSVRCTXpzMzlEVmdzeUlEYUZNeVRNSEc1YkhwU2NzUGJndHFyU3EtTHcxazF6a2VrNG5oN0xlY1hhNm1tR3lQVUU2cmhkYjZHMG1Sa1dWdjlzRFZFazFjYVZ3cy1FaUhsX0ZJSlI2RUlhQU9vUHJROENOV21Eb0xISW9QV0RsRTZ5Mk4zNEppNXpidTVfN3lWZVlpWWxRNmlhVmR6bm9xRUQtTnhWZDVnQ2lHam9WUllBZkJJbXBYZVBRX1BHaGlFb01HdXRXZ2FBemlZVkFTZA?oc=5",
-      "title": "Hackers Can Turn AI Workflows Into Privileged Data-Stealing Proxies Without Jailbreaking Models - CyberSecurityNews",
-      "summary": "Hackers Can Turn AI Workflows Into Privileged Data-Stealing Proxies Without Jailbreaking Models CyberSecurityNews",
-      "source": "CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QbmRKZWF1Y2tBcWxucEJfZjEzc3RQT2hqNk9pNTBhaS1ZLThfS01zZkxpaTFLazdGUGNwV3QzRVU2UEVVc0p0VUVNdUVqOXJXZk1mZ0JoLW8zd0twMTNTWlRoNFRCLTlTMGRfRtIBwAJBVV95cUxQejh6aTBYMmpCUk14Qjh1eFVKcGMwRlJGWEh0ekxnZnNFMXBuaTFHVjJPdDY4QVR1c1pjUmxiTFJhaWphOGZ1Nl80bUg5Y0d6d0ltVTRoY3ZwaFl6dng4dThWS0NWVWRrMzFGQlJJQnRzSVRCTXpzMzlEVmdzeUlEYUZNeVRNSEc1YkhwU2NzUGJndHFyU3EtTHcxazF6a2VrNG5oN0xlY1hhNm1tR3lQVUU2cmhkYjZHMG1Sa1dWdjlzRFZFazFjYVZ3cy1FaUhsX0ZJSlI2RUlhQU9vUHJROENOV21Eb0xISW9QV0RsRTZ5Mk4zNEppNXpidTVfN3lWZVlpWWxRNmlhVmR6bm9xRUQtTnhWZDVnQ2lHam9WUllBZkJJbXBYZVBRX1BHaGlFb01HdXRXZ2FBemlZVkFTZA?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "security",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "security",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-10",
       "last_seen_date": "2026-09-11",
       "canonical_key": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
       "normalized_title": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
@@ -170,82 +85,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-10",
-      "canonical_key": "从提效到业务增长 智合 ai agent 3 0 如何拓展法律 ai 价值",
-      "normalized_title": "从提效到业务增长 智合 ai agent 3 0 如何拓展法律 ai 价值",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3Wjhncjk3NDNLeU9INXpnemNJSnZHTXdDaXV4al9qUlFpQy1TN1lwOHI0T3ZxdmY2RkVFWGxJalppcEhXRlQ5M0FzdGc?oc=5",
-      "title": "从提效到业务增长：智合 AI Agent 3.0 如何拓展法律 AI 价值 - 极客公园",
-      "summary": "从提效到业务增长：智合 AI Agent 3.0 如何拓展法律 AI 价值 极客公园",
-      "source": "极客公园",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB3Wjhncjk3NDNLeU9INXpnemNJSnZHTXdDaXV4al9qUlFpQy1TN1lwOHI0T3ZxdmY2RkVFWGxJalppcEhXRlQ5M0FzdGc?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-10",
-      "canonical_key": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
-      "normalized_title": "openai推出数据智能体 一句话把企业数据变成分析和dashboard 但未公布准确率基准",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
-      "title": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 - 华尔街见闻",
-      "summary": "OpenAI推出数据智能体，一句话把企业数据变成分析和Dashboard，但未公布准确率基准 华尔街见闻",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TRmtyUk0xSjFTcUY5MlQxaFBWQkNxaFN5T2d3aFE4N25TQTJ5UnpoaHpkQzVCSW96WnNEdmIzUlRmaU5ZRUx1WDA1NlNsWWJoaUJV?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "benchmark",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "benchmark",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-11",
@@ -5925,6 +5764,189 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "用不着ctrl f了 全新ai论文工具 帮你在原文献里海里捞针",
+      "normalized_title": "用不着ctrl f了 全新ai论文工具 帮你在原文献里海里捞针",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10OFJjQUtYM2o0bEJJaW5fMmdUM2xaNUd3ZVBNckRxdVhENDhtYUgzNFdQSW5wYUVWUkRVcTRySmxxNGFHQ1BkTDFkRnZwck9QbG44Tg?oc=5",
+      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针 - 量子位",
+      "summary": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针 量子位",
+      "source": "量子位",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10OFJjQUtYM2o0bEJJaW5fMmdUM2xaNUd3ZVBNckRxdVhENDhtYUgzNFdQSW5wYUVWUkRVcTRySmxxNGFHQ1BkTDFkRnZwck9QbG44Tg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "ai automation projects 5 000 ai workflows claude guide",
+      "normalized_title": "ai automation projects 5 000 ai workflows claude guide",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBQX3Z3YXVRNDk2MjgycjU1LWxodHdXUXN1LTBETzNyNGNFZWZrdmRrMzk4cTFZbXFnUko4MlE1ZkNkQQ?oc=5",
+      "title": "AI Automation Projects - $5,000 AI Workflows (Claude Guide) - YouTube",
+      "summary": "AI Automation Projects - $5,000 AI Workflows (Claude Guide) YouTube",
+      "source": "YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBQX3Z3YXVRNDk2MjgycjU1LWxodHdXUXN1LTBETzNyNGNFZWZrdmRrMzk4cTFZbXFnUko4MlE1ZkNkQQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "anthropic为claude上线动态工作流 可并行调度千个ai代理",
+      "normalized_title": "anthropic为claude上线动态工作流 可并行调度千个ai代理",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvOWZkSVpaYlJWaUFJOWltMURBNDRTbU0yZmpua2hHMk5hYXpUMmo3dl9xQUVQbzhWQjlKYkM1UTV0WjVEODhZZzJEd0pEWFZrTDlDY1B3?oc=5",
+      "title": "Anthropic为Claude上线动态工作流 可并行调度千个AI代理 - 亿邦动力",
+      "summary": "Anthropic为Claude上线动态工作流 可并行调度千个AI代理 亿邦动力",
+      "source": "亿邦动力",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvOWZkSVpaYlJWaUFJOWltMURBNDRTbU0yZmpua2hHMk5hYXpUMmo3dl9xQUVQbzhWQjlKYkM1UTV0WjVEODhZZzJEd0pEWFZrTDlDY1B3?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "google launches gemini agent to rival openai microsoft 2026 https tech",
+      "normalized_title": "google launches gemini agent to rival openai microsoft 2026 https tech",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
+      "title": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] - https://tech-insider.org/",
+      "summary": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] https://tech-insider.org/",
+      "source": "https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "google",
+          "microsoft",
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "here are the top ai agents that can live in your text messages",
+      "normalized_title": "here are the top ai agents that can live in your text messages",
+      "normalized_link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
