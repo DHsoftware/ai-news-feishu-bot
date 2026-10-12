@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-12T08:33:00.380238+08:00",
+  "generated_at": "2026-10-12T09:18:21.900520+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 162,
-    "history_size_after": 163,
+    "history_size_before": 163,
+    "history_size_after": 164,
     "history_duplicate_count": 13
   },
-  "raw_item_count": 5167,
-  "deduped_item_count": 3827,
-  "filtered_item_count": 183,
+  "raw_item_count": 5165,
+  "deduped_item_count": 3835,
+  "filtered_item_count": 190,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -143,39 +143,6 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] - https://tech-insider.org/",
-      "summary": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] https://tech-insider.org/",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-10T17:45:55+08:00",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
-      ],
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "category": "AI编程工具",
-      "dedupe_key": "google launches gemini agent to rival openai microsoft 2026 https tech",
-      "canonical_key": "google launches gemini agent to rival openai microsoft 2026 https tech",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
-      "score": 56,
-      "selection_reason": "fill_remaining_high_score"
-    },
-    {
       "title": "Here are the top AI agents that can live in your text messages",
       "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
       "summary_source": "rss_description",
@@ -200,17 +167,44 @@
       "normalized_link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
       "score": 37,
       "selection_reason": "fill_remaining_high_score"
+    },
+    {
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "summary": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful that it's worth throwing gobs of money at a computer or a laptop with lots of overpriced RAM? I'll try to help you find out. I'm not an AI expert, it's going to be a journey for me, but maybe I can help you see if that journey is worth taking - and I'll be posting my way through it. A big part of Apple's pitch for its new Mac desktops is how good they … Read the full story at The Verge.",
+      "summary_source": "atom_content",
+      "summary_quality": "high",
+      "published_at": "2026-10-11T12:53:46+08:00",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "cloud"
+      ],
+      "category": "AI Agent",
+      "dedupe_key": "learning to use local ai is exciting overwhelming and frustrating",
+      "canonical_key": "learning to use local ai is exciting overwhelming and frustrating",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "score": 32,
+      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1340,
+    "duplicate": 1330,
     "history_duplicate": 13,
-    "weak_relevance": 152,
+    "weak_relevance": 155,
     "same_source_limit": 0,
     "china_limit": 2,
     "auto_china_limit": 0,
-    "old_news": 3492,
-    "same_entity_limit": 183,
+    "old_news": 3490,
+    "same_entity_limit": 209,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

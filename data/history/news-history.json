@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:33:00.380238+08:00",
+  "updated_at": "2026-10-12T09:18:21.900520+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5800,7 +5800,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-11",
@@ -5837,7 +5837,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-11",
@@ -5876,7 +5876,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-11",
@@ -5944,6 +5944,40 @@
         "topics": [
           "agent",
           "ai_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-11",
+      "canonical_key": "learning to use local ai is exciting overwhelming and frustrating",
+      "normalized_title": "learning to use local ai is exciting overwhelming and frustrating",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "summary": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful m…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "cloud"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "cloud",
+          "cloud_platform"
         ]
       },
       "seen_count": 1
