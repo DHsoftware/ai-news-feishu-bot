@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T09:18:21.900520+08:00",
+  "updated_at": "2026-10-13T10:34:35.580885+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,244 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-10",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
-      "normalized_title": "skild ai taps nvidia physical ai to teach robots new tasks from a single video",
-      "normalized_link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-hori…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "robotics",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "production",
-          "release"
-        ],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "research",
-          "robotics",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "how full stack nim optimizations deliver 2 5x more users on nemotron 3 ultra",
-      "normalized_title": "how full stack nim optimizations deliver 2 5x more users on nemotron 3 ultra",
-      "normalized_link": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra",
-      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
-      "summary": "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as... Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "llm",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "availability",
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "llm",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "papercut mf ng flaws attacked with hundreds of ai agents",
-      "normalized_title": "papercut mf ng flaws attacked with hundreds of ai agents",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQakIwWW81cXZaSWt0a0ptc3lpb1lhOVBoUVRqYkFYZ2RQTEF3ZkFWcXBjZldQenB3Q1BSSlB5REhCSkQ2OUtDS0FtSmdmQnZjelQtUFlFYi15YXdlMlN5Y0h0M3BlNWFTTkF0UHdxanNNV3ZNVklKWmRjXzh0dzB3cDJFZlZ1Z0pPQUFGdQ?oc=5",
-      "title": "PaperCut MF/NG flaws attacked with hundreds of AI agents - SC Media",
-      "summary": "PaperCut MF/NG flaws attacked with hundreds of AI agents SC Media",
-      "source": "SC Media",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQakIwWW81cXZaSWt0a0ptc3lpb1lhOVBoUVRqYkFYZ2RQTEF3ZkFWcXBjZldQenB3Q1BSSlB5REhCSkQ2OUtDS0FtSmdmQnZjelQtUFlFYi15YXdlMlN5Y0h0M3BlNWFTTkF0UHdxanNNV3ZNVklKWmRjXzh0dzB3cDJFZlZ1Z0pPQUFGdQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "人是最省token的智能体 王坚 人类总把 最复杂机器 当成 像人 这是人类很好又很坏的倾向性",
-      "normalized_title": "人是最省token的智能体 王坚 人类总把 最复杂机器 当成 像人 这是人类很好又很坏的倾向性",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CeW5lUFQ0OW1jS1pidWtDcWg2OG1EclZjLWNDVXBsX3pCTmJDenBIY29ZOVNjSzdZZS1peGprSEdHVzFmVFVKN0FsaXNCNHlHZW5uOS1TZmMzaWJRLU9wSg?oc=5",
-      "title": "人是最省token的智能体？王坚：人类总把“最复杂机器”当成“像人”，这是人类很好又很坏的倾向性 - thepaper.cn",
-      "summary": "人是最省token的智能体？王坚：人类总把“最复杂机器”当成“像人”，这是人类很好又很坏的倾向性 thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CeW5lUFQ0OW1jS1pidWtDcWg2OG1EclZjLWNDVXBsX3pCTmJDenBIY29ZOVNjSzdZZS1peGprSEdHVzFmVFVKN0FsaXNCNHlHZW5uOS1TZmMzaWJRLU9wSg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "cognition helps devin test its own work with gpt 6 astra",
-      "normalized_title": "cognition helps devin test its own work with gpt 6 astra",
-      "normalized_link": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "devin"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-11",
-      "last_seen_date": "2026-09-11",
-      "canonical_key": "首个材料领域轻量化 双模型协作的智能体发布 论文 科学网",
-      "normalized_title": "首个材料领域轻量化 双模型协作的智能体发布 论文 科学网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XZVJEbnlrMmgwZHVFWGtwZWtNTWJhNnhSNXVjNWVWWm1IYjVsckZ2aDAxM19SMXpicFprZGdQM0NTTk05dmNsWFVENWV6cjFFS2hlbGVjVVl4MTdiUlBUSzVfcmdVdHY3RFVyQXpfNmh5RnlmV3FsTnB4Zw?oc=5",
-      "title": "首个材料领域轻量化、双模型协作的智能体发布—论文 - 科学网—新闻",
-      "summary": "首个材料领域轻量化、双模型协作的智能体发布—论文 科学网—新闻",
-      "source": "科学网—新闻",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XZVJEbnlrMmgwZHVFWGtwZWtNTWJhNnhSNXVjNWVWWm1IYjVsckZ2aDAxM19SMXpicFprZGdQM0NTTk05dmNsWFVENWV6cjFFS2hlbGVjVVl4MTdiUlBUSzVfcmdVdHY3RFVyQXpfNmh5RnlmV3FsTnB4Zw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-12",
@@ -5978,6 +5740,178 @@
           "ai_agent",
           "cloud",
           "cloud_platform"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-12",
+      "last_seen_date": "2026-10-12",
+      "canonical_key": "how distributed inference keeps large ai models moving",
+      "normalized_title": "how distributed inference keeps large ai models moving",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TcTk1dk90OTNqR3FTWjNRRTNNbWt3UWp6RWp5UUQxazE2OWNpbmhzMUllUTFNNDR4U29xMDMtQ2NQTEtnTzhpMmhRQ1FqbVBoUTYzeGRYcmY4a19nX3c5bQ?oc=5",
+      "title": "How distributed inference keeps large AI models moving - IBM Research",
+      "summary": "How distributed inference keeps large AI models moving IBM Research",
+      "source": "IBM Research",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TcTk1dk90OTNqR3FTWjNRRTNNbWt3UWp6RWp5UUQxazE2OWNpbmhzMUllUTFNNDR4U29xMDMtQ2NQTEtnTzhpMmhRQ1FqbVBoUTYzeGRYcmY4a19nX3c5bQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-12",
+      "last_seen_date": "2026-10-12",
+      "canonical_key": "singapore firms are already seeing business value as ai adoption matures",
+      "normalized_title": "singapore firms are already seeing business value as ai adoption matures",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmx0Y2pCUzdYVWVCODMyS2tSM21TT0RpZ2pGTDNiUWFmMzRNTEVKUDNac0E3RHBLcmtGY0Y1RVREbGktRnM5UXVTQWtmNWpVSU1rbGJSaFBlVjVNd0ZkV3l0TVREanlteUNzZzZLYks1amlfMGY3R3g3M3hRTm5vX2lnTk9JeThvWnVULXBBdUhxZlRzREI3YmJJemtWdUI4TnhON3l1NjAtOWlGdXFEQWRTb09XXzJNVzdFVEJzd3k?oc=5",
+      "title": "Singapore Firms are already seeing Business Value as AI Adoption matures - Microsoft Source",
+      "summary": "Singapore Firms are already seeing Business Value as AI Adoption matures Microsoft Source",
+      "source": "Microsoft Source",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmx0Y2pCUzdYVWVCODMyS2tSM21TT0RpZ2pGTDNiUWFmMzRNTEVKUDNac0E3RHBLcmtGY0Y1RVREbGktRnM5UXVTQWtmNWpVSU1rbGJSaFBlVjVNd0ZkV3l0TVREanlteUNzZzZLYks1amlfMGY3R3g3M3hRTm5vX2lnTk9JeThvWnVULXBBdUhxZlRzREI3YmJJemtWdUI4TnhON3l1NjAtOWlGdXFEQWRTb09XXzJNVzdFVEJzd3k?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-12",
+      "last_seen_date": "2026-10-12",
+      "canonical_key": "openai再发数学突破成果 解决数百道难题",
+      "normalized_title": "openai再发数学突破成果 解决数百道难题",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3QtZVplckw3TlZsLWh5aGNQVXFYWXFQN1ZaNkxHV0U0QjZLMDc0VlZ3Q1AtOHNuRjNIRmUzMVYtUXB6Q1VZbGxwcnYtdFk2cXV6UUQ2REpzYnJUY1o0dkFQYnA0QW5kX0pz?oc=5",
+      "title": "OpenAI再发数学突破成果，解决数百道难题 - CSDN博客",
+      "summary": "OpenAI再发数学突破成果，解决数百道难题 CSDN博客",
+      "source": "CSDN博客",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3QtZVplckw3TlZsLWh5aGNQVXFYWXFQN1ZaNkxHV0U0QjZLMDc0VlZ3Q1AtOHNuRjNIRmUzMVYtUXB6Q1VZbGxwcnYtdFk2cXV6UUQ2REpzYnJUY1o0dkFQYnA0QW5kX0pz?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-12",
+      "last_seen_date": "2026-10-12",
+      "canonical_key": "anthropic放手 亚马逊想买 帮ai 换芯片 凭什么值70亿美元",
+      "normalized_title": "anthropic放手 亚马逊想买 帮ai 换芯片 凭什么值70亿美元",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NWHkwOU1iZUpMT1dFUEVpRzlvR29WSzhhTzliS3FlbDZXTGlVOTlrWWxLTkJYQjF5VnJZemxvYzA5YklkQVd5SkQzR1VOUQ?oc=5",
+      "title": "Anthropic放手，亚马逊想买，帮AI“换芯片”，凭什么值70亿美元？ - 36Kr",
+      "summary": "Anthropic放手，亚马逊想买，帮AI“换芯片”，凭什么值70亿美元？ 36Kr",
+      "source": "36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NWHkwOU1iZUpMT1dFUEVpRzlvR29WSzhhTzliS3FlbDZXTGlVOTlrWWxLTkJYQjF5VnJZemxvYzA5YklkQVd5SkQzR1VOUQ?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-12",
+      "last_seen_date": "2026-10-12",
+      "canonical_key": "github copilot app for beginners how to teach copilot about your codebase",
+      "normalized_title": "github copilot app for beginners how to teach copilot about your codebase",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "summary": "Context matters when you’re working with AI. Every codebase has its own house rules: how components are structured, which scripts to run, and which conventions apply to different frameworks and file types. Copilot can help you make changes across a project, but it works best when it knows those rul…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
