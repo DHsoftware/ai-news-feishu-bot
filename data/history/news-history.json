@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:11:30.949399+08:00",
+  "updated_at": "2026-10-15T07:54:57.725854+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,238 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "insight partners devin parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
-      "normalized_title": "insight partners devin parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
-      "normalized_link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
-      "title": "Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-      "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [
-          "devin"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "5 ai workflow automation apps to help professionals work smarter",
-      "normalized_title": "5 ai workflow automation apps to help professionals work smarter",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZFFfRnQ5Wl9Uck1TS0JkTFo4NExCLXFTRUVkdmRHZGVId3hjUndfRDdEakZRNG5VMVpLUHZfVFBnZVNzWE9SbWdURG9TWUdNSWJ2VWRRMjFxX2JSaEFhSTlnZmwyRjhmcG5VRXhoRmljMkR6Q0RTSGRJTDdRZVRGUGhKSVp4aTJuNTRxLXowNVBiUVd6RFdFZmxxVWRHZW81eVFYRU4wVmFhWWd3QXQtTzFlZlREUjA1dGRLYU530gHLAUFVX3lxTE5GQ3N1SUJmVWVPRUVOTzdJalliTnItX3lTM3lfeS1MQWJKSWlHeW5JaURQMVlTSkJCVVJRZnZfWlRsMGVOZ2pON190YzlKdHBTMk1vaTR6ek5lUTJQLVJaU0F5REE0MjBkeWp5TDN6YV9vUFNDcUt2VDViMk05cDVieWx3QnEtaUJqZU9Fa1hJQ1NwVnMzd3MwbnI2ZTlldmVlRWxqR21KMDN2ZE02WUk5WXVWdENNSmxuUENRZXNjMnVMUFdSVWwwbEVz?oc=5",
-      "title": "5 AI Workflow Automation Apps To Help Professionals Work Smarter - Analytics Insight",
-      "summary": "5 AI Workflow Automation Apps To Help Professionals Work Smarter Analytics Insight",
-      "source": "Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZFFfRnQ5Wl9Uck1TS0JkTFo4NExCLXFTRUVkdmRHZGVId3hjUndfRDdEakZRNG5VMVpLUHZfVFBnZVNzWE9SbWdURG9TWUdNSWJ2VWRRMjFxX2JSaEFhSTlnZmwyRjhmcG5VRXhoRmljMkR6Q0RTSGRJTDdRZVRGUGhKSVp4aTJuNTRxLXowNVBiUVd6RFdFZmxxVWRHZW81eVFYRU4wVmFhWWd3QXQtTzFlZlREUjA1dGRLYU530gHLAUFVX3lxTE5GQ3N1SUJmVWVPRUVOTzdJalliTnItX3lTM3lfeS1MQWJKSWlHeW5JaURQMVlTSkJCVVJRZnZfWlRsMGVOZ2pON190YzlKdHBTMk1vaTR6ek5lUTJQLVJaU0F5REE0MjBkeWp5TDN6YV9vUFNDcUt2VDViMk05cDVieWx3QnEtaUJqZU9Fa1hJQ1NwVnMzd3MwbnI2ZTlldmVlRWxqR21KMDN2ZE02WUk5WXVWdENNSmxuUENRZXNjMnVMUFdSVWwwbEVz?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "meta ai 泄露儿童隐私引风波 修复问题仍遭博主质疑",
-      "normalized_title": "meta ai 泄露儿童隐私引风波 修复问题仍遭博主质疑",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FOUJnSGgtS2s1VVVGejJBNUFhRUZMQ2RrQ3ZYNzRtVG5GWHBnTDBpQ2xHWnNRaFBudjNSOEJMWE04bEJjSUdCaHhILWtvNkgtTGJOVGwwR0pnRDJJdkZUbVhwUlNwdFlPbWFj?oc=5",
-      "title": "Meta AI 泄露儿童隐私引风波，修复问题仍遭博主质疑！ - blog.csdn.net",
-      "summary": "Meta AI 泄露儿童隐私引风波，修复问题仍遭博主质疑！ blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FOUJnSGgtS2s1VVVGejJBNUFhRUZMQ2RrQ3ZYNzRtVG5GWHBnTDBpQ2xHWnNRaFBudjNSOEJMWE04bEJjSUdCaHhILWtvNkgtTGJOVGwwR0pnRDJJdkZUbVhwUlNwdFlPbWFj?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "why are ai agents lying cheating and coordinating",
-      "normalized_title": "why are ai agents lying cheating and coordinating",
-      "normalized_link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "obama urges democrats to have a clear plan for ai safeguards",
-      "normalized_title": "obama urges democrats to have a clear plan for ai safeguards",
-      "normalized_link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
-      "normalized_title": "insight partners deven parekh on why the firm is diversifying while everyone else bets the farm on openai and anthropic",
-      "normalized_link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
-      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-      "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [
-          "devin"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-13",
-      "last_seen_date": "2026-09-13",
-      "canonical_key": "perplexity trusts gpt 6 astra with end to",
-      "normalized_title": "perplexity trusts gpt 6 astra with end to",
-      "normalized_link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-14",
@@ -5951,6 +5719,197 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-14",
+      "canonical_key": "nvidia open agent safety platform a reference for continuous in",
+      "normalized_title": "nvidia open agent safety platform a reference for continuous in",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
+      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+      "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of... To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-14",
+      "canonical_key": "ai办公进入场景整合期智能体竞争从 单点提效 转向 核心业务流闭环 workbuddy agent 企业微信 腾讯 体协",
+      "normalized_title": "ai办公进入场景整合期智能体竞争从 单点提效 转向 核心业务流闭环 workbuddy agent 企业微信 腾讯 体协",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOWWpJMll0OWlzbHR3Qk5UZFpBZjYtUTN4eW1OSjBha2RWMGRJRVhKcnhoWFNoMU9HSFJwdTJfQmVBTkpGR3pGVnNEa0V4a2NxQjJUVmsteTFoTjZsQzlDazNBYWFUQVlqNElJYVI1cTF6dS1aUF9kbkZGSWdiLS1xQ2NlRnRkZ0lVODlPRGJkWFZBVG9mcUVwbkl4SWoxeDZxZ0dUMnl6cDlnc0ZpeGJPc2EyN2N4TVpPa2FUaDNqeDBLYjhRa2FKaEtpR0pjV1FnSFFQeDFYaTdQUVk5VlZfbEhyc0UxSkhlS29Za3lqVkR3am53TVZaUkRnV3dUQmVOb2tXT3FRZzVUSVVyTHJHZzRnNDJWWGxaVk0wN2JiS0MzYmNOQkZtN0Y1djVHekxFYW5xYVd6alZyM3E1d2JsakNnWGxpc21aWTd1UksxeXNBRVdQWnEtVmFwdjFrM1U0clZqRV93b1RjRWYtVjRwWWR1SmQ3bmxTRklQclpzMWZUbER0NlFZMHREQ1RJZ0o5WURxMG53dU5ac1hmV2Q5Z0NGZ3ZmcTh6cUNvZEJPdkxmVjJvS0VxRmFzRFpFVUZRV09vODlkZFIwMFZWUDc3Zk14ZldPVjVvNzlfYTVEaG11RzVtUE1Hcjk2NnRwZS1NUVQ0ckYwZTlPOXpaY01RZ0QyeVo5OWdRTDNYRlBhR2cyeDBVMDh1QjVWRlZVeGxIb3R5WEEwY3VoZ2psaThRcXIycVF0dFVYVHBXRlhpUUhmaTZxcE9FS0ZGaVZiTG9sd3c2eXFkcGZSU0FnSkZ5anNUcmYzZkFsRXNyU0F1MnRnRzFmVEdBeFVyWVVYS3JxTFBUMnozUGlLejQ1cmQ2WlVwbGI2ZnVnR2ZEdVhya3A4SHFUbmNxeThJaGVZNkNV?oc=5",
+      "title": "AI办公进入场景整合期智能体竞争从“单点提效”转向“核心业务流闭环”|WorkBuddy|Agent|企业微信|腾讯|体协 - 新浪财经",
+      "summary": "AI办公进入场景整合期智能体竞争从“单点提效”转向“核心业务流闭环”|WorkBuddy|Agent|企业微信|腾讯|体协 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOWWpJMll0OWlzbHR3Qk5UZFpBZjYtUTN4eW1OSjBha2RWMGRJRVhKcnhoWFNoMU9HSFJwdTJfQmVBTkpGR3pGVnNEa0V4a2NxQjJUVmsteTFoTjZsQzlDazNBYWFUQVlqNElJYVI1cTF6dS1aUF9kbkZGSWdiLS1xQ2NlRnRkZ0lVODlPRGJkWFZBVG9mcUVwbkl4SWoxeDZxZ0dUMnl6cDlnc0ZpeGJPc2EyN2N4TVpPa2FUaDNqeDBLYjhRa2FKaEtpR0pjV1FnSFFQeDFYaTdQUVk5VlZfbEhyc0UxSkhlS29Za3lqVkR3am53TVZaUkRnV3dUQmVOb2tXT3FRZzVUSVVyTHJHZzRnNDJWWGxaVk0wN2JiS0MzYmNOQkZtN0Y1djVHekxFYW5xYVd6alZyM3E1d2JsakNnWGxpc21aWTd1UksxeXNBRVdQWnEtVmFwdjFrM1U0clZqRV93b1RjRWYtVjRwWWR1SmQ3bmxTRklQclpzMWZUbER0NlFZMHREQ1RJZ0o5WURxMG53dU5ac1hmV2Q5Z0NGZ3ZmcTh6cUNvZEJPdkxmVjJvS0VxRmFzRFpFVUZRV09vODlkZFIwMFZWUDc3Zk14ZldPVjVvNzlfYTVEaG11RzVtUE1Hcjk2NnRwZS1NUVQ0ckYwZTlPOXpaY01RZ0QyeVo5OWdRTDNYRlBhR2cyeDBVMDh1QjVWRlZVeGxIb3R5WEEwY3VoZ2psaThRcXIycVF0dFVYVHBXRlhpUUhmaTZxcE9FS0ZGaVZiTG9sd3c2eXFkcGZSU0FnSkZ5anNUcmYzZkFsRXNyU0F1MnRnRzFmVEdBeFVyWVVYS3JxTFBUMnozUGlLejQ1cmQ2WlVwbGI2ZnVnR2ZEdVhya3A4SHFUbmNxeThJaGVZNkNV?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-14",
+      "canonical_key": "digikey加速引入tdk sensei edgerx starter 赋能工业ai与预测性维护",
+      "normalized_title": "digikey加速引入tdk sensei edgerx starter 赋能工业ai与预测性维护",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14YzRPT2k0MkJtU2Z6RWk2X0RCWV9jeGNkYlhXdlYzbkVkd2FWLWxRUGRibE1XZ1k1TjFfZjJraUg2bWN6TzF4OERlajJNMm1NNEdB?oc=5",
+      "title": "DigiKey加速引入TDK SensEI edgeRX Starter，赋能工业AI与预测性维护 - 电子工程专辑",
+      "summary": "DigiKey加速引入TDK SensEI edgeRX Starter，赋能工业AI与预测性维护 电子工程专辑",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14YzRPT2k0MkJtU2Z6RWk2X0RCWV9jeGNkYlhXdlYzbkVkd2FWLWxRUGRibE1XZ1k1TjFfZjJraUg2bWN6TzF4OERlajJNMm1NNEdB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "predictive_maintenance"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "predictive_maintenance"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-14",
+      "canonical_key": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
+      "normalized_title": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
+      "title": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+      "summary": "NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to... NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to pr…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "expand",
+          "opensource",
+          "partnership",
+          "production",
+          "release"
+        ],
+        "topics": [
+          "ai_factory",
+          "ai_research",
+          "chip",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-14",
+      "canonical_key": "recording device hidden in toilet paper found in top",
+      "normalized_title": "recording device hidden in toilet paper found in top",
+      "normalized_link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
+      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "summary": "It took OpenAI two days to notice that a recording device was hidden in a restricted executive conference room where leadership met to discuss highly confidential information, including technical progress, government engagements, and commercial partnerships. Only those with special clearance are su…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "category": "研究论文",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "research",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "research",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
