@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:30:06.253765+08:00",
+  "updated_at": "2026-10-16T07:41:44.094096+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -521,6 +521,50 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-15",
+      "canonical_key": "code review is no longer the bottleneck",
+      "normalized_title": "code review is no longer the bottleneck",
+      "normalized_link": "https://www.youtube.com/watch?v=IZXv6a78NDw",
+      "title": "Code review is no longer the bottleneck",
+      "summary": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHu…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=IZXv6a78NDw",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Tool Calling",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "code_review",
+        "codex",
+        "tools"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "code_review",
+          "codex",
+          "tools"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:30:06.253765+08:00",
+  "updated_at": "2026-10-16T07:41:44.094096+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -90,45 +90,6 @@
     },
     {
       "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
-      "canonical_key": "ai workflow automation ai 업무 자동화 폴더",
-      "normalized_title": "ai workflow automation ai 업무 자동화 폴더",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkxLeTdGYUg3THd6MXVFd04xd2F6cFlwNGUySWVvMGNhNE05WS1HZzB4eEppNUg5WHVWSXNVcEtCcm5GaXJ6d2dlLXRBalhfX2FvaXhYOHhyMnBNZ01yRnRVc3dhRTMyTjV1RERnSG94WmtLeUh3WGFXM0g2ZktwdndFRmM1cmJ2OG9rX1BRSUhKbnNOOW1DSmJXcXVBQ1hnR3ZZRy02aVh4LXVCTElZZThFck9GVXdxMU9xRGVkNjdNcXpFbWkxWUhJaUI2RUd1b0ppSA?oc=5",
-      "title": "AI Workflow Automation (AI 업무 자동화 폴더) - Microsoft",
-      "summary": "AI Workflow Automation (AI 업무 자동화 폴더) Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkxLeTdGYUg3THd6MXVFd04xd2F6cFlwNGUySWVvMGNhNE05WS1HZzB4eEppNUg5WHVWSXNVcEtCcm5GaXJ6d2dlLXRBalhfX2FvaXhYOHhyMnBNZ01yRnRVc3dhRTMyTjV1RERnSG94WmtLeUh3WGFXM0g2ZktwdndFRmM1cmJ2OG9rX1BRSUhKbnNOOW1DSmJXcXVBQ1hnR3ZZRy02aVh4LXVCTElZZThFck9GVXdxMU9xRGVkNjdNcXpFbWkxWUhJaUI2RUd1b0ppSA?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-14",
       "last_seen_date": "2026-09-15",
       "canonical_key": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
       "normalized_title": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
@@ -167,97 +128,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
-      "canonical_key": "菲尔兹奖集体警告ai 冲击数学 openai 筹建全球安全标准 deepseek 新模型火速上榜 每日大事件",
-      "normalized_title": "菲尔兹奖集体警告ai 冲击数学 openai 筹建全球安全标准 deepseek 新模型火速上榜 每日大事件",
-      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4MmRJNFh3Y18zaW5aY2xlSUF2UTZVNkJOVjd6UHdNMGFTbUZtU2U2VjJYd2UxX1RCTEdSUk4ybnUwWGNOcDkyQ01pbTdRamV1VFJFVERSbHJTOHYwV0E5TzVwb2hsVTVlTUIwQmtPN2pwcnZsTDFBUA?oc=5",
-      "title": "菲尔兹奖集体警告AI 冲击数学，OpenAI 筹建全球安全标准，DeepSeek 新模型火速上榜| 每日大事件 - 新浪财经",
-      "summary": "菲尔兹奖集体警告AI 冲击数学，OpenAI 筹建全球安全标准，DeepSeek 新模型火速上榜| 每日大事件 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4MmRJNFh3Y18zaW5aY2xlSUF2UTZVNkJOVjd6UHdNMGFTbUZtU2U2VjJYd2UxX1RCTEdSUk4ybnUwWGNOcDkyQ01pbTdRamV1VFJFVERSbHJTOHYwV0E5TzVwb2hsVTVlTUIwQmtPN2pwcnZsTDFBUA?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
-      "canonical_key": "ai安全警示再升级 前anthropic员工离职发声 ceo呼吁行业减速",
-      "normalized_title": "ai安全警示再升级 前anthropic员工离职发声 ceo呼吁行业减速",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wdDJlbWlkZ2t0c0d4eHZUMm5NSlA0SGFxVkJUR1pSbkNRVzQ2Y2hYVUFlYWlXdEpQTXA3cU5JVXpjWW1XWEg0MExKOGlQRjJFV1E?oc=5",
-      "title": "AI安全警示再升级：前Anthropic员工离职发声，CEO呼吁行业减速 - huxiu.com",
-      "summary": "AI安全警示再升级：前Anthropic员工离职发声，CEO呼吁行业减速 huxiu.com",
-      "source": "huxiu.com",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wdDJlbWlkZ2t0c0d4eHZUMm5NSlA0SGFxVkJUR1pSbkNRVzQ2Y2hYVUFlYWlXdEpQTXA3cU5JVXpjWW1XWEg0MExKOGlQRjJFV1E?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-14",
-      "canonical_key": "ai infrastructure company cornelis raises 205m to chip away at nvidia s dominance",
-      "normalized_title": "ai infrastructure company cornelis raises 205m to chip away at nvidia s dominance",
-      "normalized_link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance",
-      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
-      "summary": "The company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
-      "category": "AI芯片",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-15",
@@ -3006,7 +2876,7 @@
     },
     {
       "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-10-02",
+      "last_seen_date": "2026-10-15",
       "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
@@ -3046,7 +2916,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5910,6 +5780,156 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-15",
+      "canonical_key": "servicenow launches ai workflow factory and autonomous engineer to close the execution gap",
+      "normalized_title": "servicenow launches ai workflow factory and autonomous engineer to close the execution gap",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVI3YVVoNjV6aDF0b05qY2pVeVVKRUUwaEQtMUNnNTlJdFpQV2M4cnNJOHhLNUMxYkdGX2xxQldsQW9tb0dpQS1zSHg2NUlhRUpWaVZZMlEyNXZSZEhTWEVjZTJ2UEg5UGpkcm53UkpJaEt6WXhQWG5NVkRoS3A1UGhoWE0xNHdtejloRzRYdk15M192NGktek54eFJ3MHZ0dmsxWXJ3ajlLOGtTeUtkMTZB?oc=5",
+      "title": "ServiceNow Launches AI Workflow Factory and Autonomous Engineer to Close the Execution Gap - Forkast News",
+      "summary": "ServiceNow Launches AI Workflow Factory and Autonomous Engineer to Close the Execution Gap Forkast News",
+      "source": "Forkast News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVI3YVVoNjV6aDF0b05qY2pVeVVKRUUwaEQtMUNnNTlJdFpQV2M4cnNJOHhLNUMxYkdGX2xxQldsQW9tb0dpQS1zSHg2NUlhRUpWaVZZMlEyNXZSZEhTWEVjZTJ2UEg5UGpkcm53UkpJaEt6WXhQWG5NVkRoS3A1UGhoWE0xNHdtejloRzRYdk15M192NGktek54eFJ3MHZ0dmsxWXJ3ajlLOGtTeUtkMTZB?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-15",
+      "canonical_key": "validate ai factory changes with digital twins and ai agents",
+      "normalized_title": "validate ai factory changes with digital twins and ai agents",
+      "normalized_link": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents",
+      "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+      "summary": "AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration... AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers,…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research",
+        "digital_twin",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_factory",
+          "ai_research",
+          "company_research",
+          "digital_twin",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-15",
+      "canonical_key": "axi 推出 mcp 集成方案 将 mt5 账户与 claude 对接",
+      "normalized_title": "axi 推出 mcp 集成方案 将 mt5 账户与 claude 对接",
+      "normalized_link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNMmJkd3NuMGRhZXQzeGQ3UWxhaFJSNUFMNVQ2YWZtaWhpempuaWZQdjNGOVZGMmZnRUJ0NDQ4RVViOXRIV3E4YW9BZ0IxbXJPTGRRWk8wR011cGpZYUVLYnZaYTNMU2RyRGpZQ3lJWG1Fb2VSN0RDb2g5QzRHUWp4cUxRYTJHS0JseGtqRExEbGpqS1Ywc191bTBjZ015RzBjMWRXYjNlY01sQWE5emxFb0pmMUo1emNGV0JoRl9ZMDBTem9pdE5UVW9VRXNLUHhZTjBwNUZCZWx4WHJuZjhhN0Y5eng3TE53bWVaSThYSGJDZTV3cTl3djFYcEtCUnlHYnM3MVVPSnZ3Yjg3NWJUUGZjcV9hU21LWm1Rd2VFNW1BbmZUT3dGcDhmZDZ3STV4VkE?oc=5",
+      "title": "Axi 推出 MCP 集成方案，将 MT5 账户与 Claude 对接 - GlobeNewswire",
+      "summary": "Axi 推出 MCP 集成方案，将 MT5 账户与 Claude 对接 GlobeNewswire",
+      "source": "GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNMmJkd3NuMGRhZXQzeGQ3UWxhaFJSNUFMNVQ2YWZtaWhpempuaWZQdjNGOVZGMmZnRUJ0NDQ4RVViOXRIV3E4YW9BZ0IxbXJPTGRRWk8wR011cGpZYUVLYnZaYTNMU2RyRGpZQ3lJWG1Fb2VSN0RDb2g5QzRHUWp4cUxRYTJHS0JseGtqRExEbGpqS1Ywc191bTBjZ015RzBjMWRXYjNlY01sQWE5emxFb0pmMUo1emNGV0JoRl9ZMDBTem9pdE5UVW9VRXNLUHhZTjBwNUZCZWx4WHJuZjhhN0Y5eng3TE53bWVaSThYSGJDZTV3cTl3djFYcEtCUnlHYnM3MVVPSnZ3Yjg3NWJUUGZjcV9hU21LWm1Rd2VFNW1BbmZUT3dGcDhmZDZ3STV4VkE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-15",
+      "canonical_key": "anthropic五年前内部路线图曝光 ai编程 工具调用早已列入研究计划",
+      "normalized_title": "anthropic五年前内部路线图曝光 ai编程 工具调用早已列入研究计划",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Qb1BnSlU4bm50UHdNY2dLM2MteWQ2Rm9Mb2NHMmlGQ2pXU3Q3SkR2Y1ZnaER1dktiVmZidFQwNXhGLWxYalhncklXVkQ2dkNPVlNrOG0xYw?oc=5",
+      "title": "Anthropic五年前内部路线图曝光：AI编程、工具调用早已列入研究计划 - 麻省理工科技评论",
+      "summary": "Anthropic五年前内部路线图曝光：AI编程、工具调用早已列入研究计划 麻省理工科技评论",
+      "source": "麻省理工科技评论",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Qb1BnSlU4bm50UHdNY2dLM2MteWQ2Rm9Mb2NHMmlGQ2pXU3Q3SkR2Y1ZnaER1dktiVmZidFQwNXhGLWxYalhncklXVkQ2dkNPVlNrOG0xYw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "coding",
+          "research"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
