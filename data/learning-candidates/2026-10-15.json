@@ -1,11 +1,11 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-16T07:41:44.094096+08:00",
+  "generated_at": "2026-10-16T08:21:44.401293+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 21,
-    "failed_count": 1
+    "success_count": 20,
+    "failed_count": 2
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -17,48 +17,20 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 13,
+    "history_size_before": 14,
     "history_size_after": 14,
-    "history_duplicate_count": 11
+    "history_duplicate_count": 10
   },
-  "raw_item_count": 72,
-  "deduped_item_count": 25,
-  "filtered_item_count": 1,
-  "curated_item_count": 1,
-  "curated_items": [
-    {
-      "title": "Code review is no longer the bottleneck",
-      "summary": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub code review is generally available, with GitLab support in preview.",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-13T00:00:08+08:00",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=IZXv6a78NDw",
-      "language": "en",
-      "region": "global",
-      "source_group": "youtube",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "is_official_source": true,
-      "tags": [
-        "agent",
-        "cli",
-        "code_review",
-        "codex",
-        "tools"
-      ],
-      "concept_hint": "Tool Calling",
-      "score": 28,
-      "canonical_key": "code review is no longer the bottleneck",
-      "dedupe_key": "code review is no longer the bottleneck",
-      "selection_reason": "learning_high_score"
-    }
-  ],
+  "raw_item_count": 63,
+  "deduped_item_count": 21,
+  "filtered_item_count": 0,
+  "curated_item_count": 0,
+  "curated_items": [],
   "rejected_stats": {
-    "duplicate": 47,
-    "history_duplicate": 11,
+    "duplicate": 42,
+    "history_duplicate": 10,
     "same_source_limit": 0,
-    "old_resource": 13,
+    "old_resource": 11,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0
