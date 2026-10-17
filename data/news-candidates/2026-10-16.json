@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-10-17T07:36:12.933316+08:00",
+  "generated_at": "2026-10-17T08:26:03.226084+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 161,
-    "history_size_after": 161,
-    "history_duplicate_count": 54
+    "history_size_after": 162,
+    "history_duplicate_count": 52
   },
-  "raw_item_count": 5203,
-  "deduped_item_count": 3874,
-  "filtered_item_count": 406,
+  "raw_item_count": 5198,
+  "deduped_item_count": 3868,
+  "filtered_item_count": 411,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,37 +77,37 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations - The Globe and Mail",
-      "summary": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations The Globe and Mail",
+      "title": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? - Finextra Research",
+      "summary": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? Finextra Research",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-10-17T01:11:18+08:00",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
+      "published_at": "2026-10-16T22:03:16+08:00",
+      "source": "Finextra Research",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "ai_agent",
+      "source_group": "ai_productivity",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
+        "org_productivity",
+        "ai_transformation",
+        "workflow_automation"
       ],
       "topic_tags": [
         "agent",
         "agentic_ai",
         "ai_agent",
-        "coding",
-        "coding_agent",
+        "ai_transformation",
+        "org_productivity",
         "workflow_automation"
       ],
-      "category": "AI编程工具",
-      "dedupe_key": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
-      "canonical_key": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
-      "score": 79,
+      "category": "AI Agent",
+      "dedupe_key": "can agentic ai transform corporate banking self service experiences",
+      "canonical_key": "can agentic ai transform corporate banking self service experiences",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
+      "score": 75,
       "selection_reason": "required_productivity"
     },
     {
@@ -204,14 +204,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1329,
-    "history_duplicate": 54,
-    "weak_relevance": 198,
+    "duplicate": 1330,
+    "history_duplicate": 52,
+    "weak_relevance": 201,
     "same_source_limit": 0,
     "china_limit": 1,
     "auto_china_limit": 0,
-    "old_news": 3270,
-    "same_entity_limit": 148,
+    "old_news": 3256,
+    "same_entity_limit": 147,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

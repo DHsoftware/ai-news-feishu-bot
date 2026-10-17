@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:36:12.933316+08:00",
+  "updated_at": "2026-10-17T08:26:03.226084+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -562,6 +562,45 @@
           "code_review",
           "codex",
           "tools"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "put your dot on call",
+      "normalized_title": "put your dot on call",
+      "normalized_link": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+      "title": "Put your dot on call",
+      "summary": "Ali, an engineer at OpenAI, used his dot to triage an on-call incident at 3am. His dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "incident"
         ]
       },
       "seen_count": 1

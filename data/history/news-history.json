@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:36:12.933316+08:00",
+  "updated_at": "2026-10-17T08:26:03.226084+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2762,7 +2762,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5847,7 +5847,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-16",
@@ -5880,7 +5880,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-16",
@@ -5915,6 +5915,44 @@
           "chip",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "can agentic ai transform corporate banking self service experiences",
+      "normalized_title": "can agentic ai transform corporate banking self service experiences",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
+      "title": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? - Finextra Research",
+      "summary": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? Finextra Research",
+      "source": "Finextra Research",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
