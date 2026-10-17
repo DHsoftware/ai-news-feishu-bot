@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:21:44.401293+08:00",
+  "updated_at": "2026-10-17T07:36:12.933316+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,160 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-15",
-      "canonical_key": "perplexity portable computer is now available on windows powered by nvidia rtx",
-      "normalized_title": "perplexity portable computer is now available on windows powered by nvidia rtx",
-      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "summary": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "cloud",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-14",
-      "last_seen_date": "2026-09-15",
-      "canonical_key": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
-      "normalized_title": "epc releases two new white papers on gan power conversion for ai data centers and advanced motor drives",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTlKZkJ1UG9SanFPZXdkVjhydV9CSE5KMEY2V1dPZ3ZreUg2RWRkdFowbUZ1WUtPN3hUU3RLb3ZjVVVySzBvLU1mZEV3cFE5NG5iU0NyQUNRWUZqT3BSVHZvdm9PT1NSdURBYnp0Z0VfNXA4MEhjWW1fRmRleDZIQjE1X1Y4ZC1vem45OERMX1oyd2FiT2tyWVM0TXhmY1ByeDJkN0poeTBBb3UxM3doV3A0cG90YjNSaE83bkNkU3ctWmp2dVU2allqY21sTHJ2ckJfSzlMeTU4R1Vpc2c?oc=5",
-      "title": "EPC Releases Two New White Papers on GaN Power Conversion for AI Data Centers and Advanced Motor Drives - EIN News",
-      "summary": "EPC Releases Two New White Papers on GaN Power Conversion for AI Data Centers and Advanced Motor Drives EIN News",
-      "source": "EIN News",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZTlKZkJ1UG9SanFPZXdkVjhydV9CSE5KMEY2V1dPZ3ZreUg2RWRkdFowbUZ1WUtPN3hUU3RLb3ZjVVVySzBvLU1mZEV3cFE5NG5iU0NyQUNRWUZqT3BSVHZvdm9PT1NSdURBYnp0Z0VfNXA4MEhjWW1fRmRleDZIQjE1X1Y4ZC1vem45OERMX1oyd2FiT2tyWVM0TXhmY1ByeDJkN0poeTBBb3UxM3doV3A0cG90YjNSaE83bkNkU3ctWmp2dVU2allqY21sTHJ2ckJfSzlMeTU4R1Vpc2c?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "gan",
-        "obc",
-        "power_electronics",
-        "research",
-        "whitepaper"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "gan"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "dcdc",
-          "gan",
-          "obc",
-          "power_electronics",
-          "research",
-          "whitepaper"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-15",
-      "last_seen_date": "2026-09-15",
-      "canonical_key": "zendesk s specialized ai agents redefine the cx automation benchmark",
-      "normalized_title": "zendesk s specialized ai agents redefine the cx automation benchmark",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSlVNSmMwOFcyZTZsMVFnY0pVM1h0UzdNbUxYQ2J1OEp2Y2l2aUJyS2RKZnRHZnpZeVFnMW9FX2lwVTExbDBBRHhFQlRiaGdtSjBEclByV0x0SG1lZTN6TW5FcE9zZTVhSXdaSS1DOFMxc2hUeUZXRklkX0NkQ0w2bDk5bU10OVdZTzM5eWc2dzBlQ3ZUbW5qcHQtTTl2ZU9nYWgtMw?oc=5",
-      "title": "Zendesk's Specialized AI Agents Redefine the CX Automation Benchmark - The Futurum Group",
-      "summary": "Zendesk's Specialized AI Agents Redefine the CX Automation Benchmark The Futurum Group",
-      "source": "The Futurum Group",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSlVNSmMwOFcyZTZsMVFnY0pVM1h0UzdNbUxYQ2J1OEp2Y2l2aUJyS2RKZnRHZnpZeVFnMW9FX2lwVTExbDBBRHhFQlRiaGdtSjBEclByV0x0SG1lZTN6TW5FcE9zZTVhSXdaSS1DOFMxc2hUeUZXRklkX0NkQ0w2bDk5bU10OVdZTzM5eWc2dzBlQ3ZUbW5qcHQtTTl2ZU9nYWgtMw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "benchmark",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "benchmark",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-15",
-      "last_seen_date": "2026-09-15",
-      "canonical_key": "early anthropic hire former metr coo have found a way to rein in rogue ai agents",
-      "normalized_title": "early anthropic hire former metr coo have found a way to rein in rogue ai agents",
-      "normalized_link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
-      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-16",
@@ -2876,7 +2722,7 @@
     },
     {
       "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-10-15",
+      "last_seen_date": "2026-10-16",
       "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
       "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
@@ -2916,7 +2762,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5930,6 +5776,148 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
+      "normalized_title": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
+      "title": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations - The Globe and Mail",
+      "summary": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations The Globe and Mail",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "enabot ebo 评测 air 2 plus 一款可以引导您在家中行走的机器人伴侣",
+      "normalized_title": "enabot ebo 评测 air 2 plus 一款可以引导您在家中行走的机器人伴侣",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNW1sS0JEeHNpV3hreDc1RWc4Sm9RQTNVc09GTnZpYTh0R0hzb1VBOG9ITXFJU1REUDRyakhmZHhWNFVNRlpSWEZ3WmVrcXpVSnA4dHRFdmtIVjN5RERCaGpCWkxydkMyUmhUX1dxSG9udUg3M2s0c1E0Vm0zR045UlpfY3ZWTmprendJeW9OYkNnT3lGNnY5X2l2dnM5Y3o2UVJoQ2FaaTlra2UzSDBsVVBrRG5PQ0t3QnY4RzhRMF90OVozU3Zr?oc=5",
+      "title": "Enabot EBO 评测 Air 2 Plus：一款可以引导您在家中行走的机器人伴侣 - Letem světem Applem",
+      "summary": "Enabot EBO 评测 Air 2 Plus：一款可以引导您在家中行走的机器人伴侣 Letem světem Applem",
+      "source": "Letem světem Applem",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNW1sS0JEeHNpV3hreDc1RWc4Sm9RQTNVc09GTnZpYTh0R0hzb1VBOG9ITXFJU1REUDRyakhmZHhWNFVNRlpSWEZ3WmVrcXpVSnA4dHRFdmtIVjN5RERCaGpCWkxydkMyUmhUX1dxSG9udUg3M2s0c1E0Vm0zR045UlpfY3ZWTmprendJeW9OYkNnT3lGNnY5X2l2dnM5Y3o2UVJoQ2FaaTlra2UzSDBsVVBrRG5PQ0t3QnY4RzhRMF90OVozU3Zr?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics",
+          "robotics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "openai约700个智能体测评逃逸事件引发ai安全与对齐争议",
+      "normalized_title": "openai约700个智能体测评逃逸事件引发ai安全与对齐争议",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiV2ZhNFZmWnpfZnl5Um55MjY0NGFUdk1Dc2ZpeFcxbkpmQzBmYjNxZW9MV3lla054OGZPTFBndUlRTzl3WWJTb0haSXlGNDFCXzdEYg?oc=5",
+      "title": "OpenAI约700个智能体测评逃逸事件引发AI安全与对齐争议 - 虎嗅网",
+      "summary": "OpenAI约700个智能体测评逃逸事件引发AI安全与对齐争议 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiV2ZhNFZmWnpfZnl5Um55MjY0NGFUdk1Dc2ZpeFcxbkpmQzBmYjNxZW9MV3lla054OGZPTFBndUlRTzl3WWJTb0haSXlGNDFCXzdEYg?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-16",
+      "last_seen_date": "2026-10-16",
+      "canonical_key": "fine tuning nvidia nemotron for saudi arabic dialects with a path to other languages",
+      "normalized_title": "fine tuning nvidia nemotron for saudi arabic dialects with a path to other languages",
+      "normalized_link": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages",
+      "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+      "summary": "Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and... Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Region…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
