@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:00:16.278883+08:00",
+  "updated_at": "2026-10-19T07:13:18.332064+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -563,6 +563,62 @@
           "cli",
           "codex",
           "incident"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "codex cli release 0 161 0",
+      "normalized_title": "codex cli release 0 161 0",
+      "normalized_link": "https://developers.openai.com/codex/changelog",
+      "title": "Codex CLI Release: 0.161.0",
+      "summary": "New Features GPT-6.1 Sol is now the default model in the bundled and Amazon Bedrock catalogs. ( #49318 , #49339 ) Amazon Bedrock supports multi-agent V2 and Ultra reasoning on compatible models; Bedrock Mantle also accepts AWS GovCloud regions. ( #49345 , #49813 ) Sign in to MCP servers from an act…",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-405921402",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "multi_agent",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon",
+          "aws"
+        ],
+        "products": [
+          "codex",
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "aws",
+          "bedrock",
+          "cli",
+          "code_review",
+          "codex",
+          "mcp",
+          "model_capability",
+          "multi_agent",
+          "official",
+          "terminal",
+          "workflow"
         ]
       },
       "seen_count": 1

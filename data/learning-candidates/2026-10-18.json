@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-19T07:13:18.332064+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 14,
+    "history_size_after": 15,
+    "history_duplicate_count": 12
+  },
+  "raw_item_count": 71,
+  "deduped_item_count": 25,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Codex CLI Release: 0.161.0",
+      "summary": "New Features GPT-6.1 Sol is now the default model in the bundled and Amazon Bedrock catalogs. ( #49318 , #49339 ) Amazon Bedrock supports multi-agent V2 and Ultra reasoning on compatible models; Bedrock Mantle also accepts AWS GovCloud regions. ( #49345 , #49813 ) Sign in to MCP servers from an active terminal session with /mcp login . ( #49290 ) Choose your microphone, speaker, and microphone input channels for voice conversations, with preferences saved locally. ( #49437 , #49836 ) Daybreak is opt-in through --enable cli_daybreak or features.cli_daybreak=true ; daybreak=true alone is insufficient. By default, controls and indicators are hidden, /daybreak is unavailable, and automatic Cyber routing is omitted—even for saved Daybreak threads. Saved preferences remain intact. Opt-in routin…",
+      "summary_source": "rss_content_encoded",
+      "summary_quality": "high",
+      "published_at": "2026-10-07T08:00:00+08:00",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-405921402",
+      "language": "en",
+      "region": "global",
+      "source_group": "official",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "multi_agent",
+        "official",
+        "workflow"
+      ],
+      "concept_hint": "MCP",
+      "score": 114,
+      "canonical_key": "codex cli release 0 161 0",
+      "dedupe_key": "codex cli release 0 161 0",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 46,
+    "history_duplicate": 12,
+    "same_source_limit": 0,
+    "old_resource": 12,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}

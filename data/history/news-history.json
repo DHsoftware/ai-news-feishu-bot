@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:00:16.278883+08:00",
+  "updated_at": "2026-10-19T07:13:18.332064+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,309 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-16",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "tensorrt edge llm completes the mlperf edge agentic benchmark 6 4x faster on jetson agx thor",
-      "normalized_title": "tensorrt edge llm completes the mlperf edge agentic benchmark 6 4x faster on jetson agx thor",
-      "normalized_link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
-      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through... AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt,…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "automotive",
-        "benchmark",
-        "chip",
-        "cloud",
-        "company_research",
-        "llm",
-        "robotics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "automotive",
-          "benchmark",
-          "chip",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "inference",
-          "llm",
-          "robotics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "translating cuda tile operations from python to rust using agentic ai",
-      "normalized_title": "translating cuda tile operations from python to rust using agentic ai",
-      "normalized_link": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai",
-      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
-      "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to... cuTile Rust () is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust owne…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "claude code relaunches projects to manage multiple ai agents in the cloud",
-      "normalized_title": "claude code relaunches projects to manage multiple ai agents in the cloud",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel,…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "cloud",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "cloud",
-          "cloud_platform",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "the ai superintelligence slowdown",
-      "normalized_title": "the ai superintelligence slowdown",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "title": "The AI Superintelligence Slowdown",
-      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all , a number of leading US AI companies are publicly suggesting i…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "google",
-          "microsoft",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "scientists develop new method for deciphering ancient scrolls",
-      "normalized_title": "scientists develop new method for deciphering ancient scrolls",
-      "normalized_link": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls",
-      "title": "Scientists develop new method for deciphering ancient scrolls",
-      "summary": "The Vesuvius Challenge is an ongoing project that combines \"digital unwrapping\" with crowdsourced machine learning to decipher the so-called Herculaneum scrolls, badly charred 2,000-year-old papyri too fragile to be physically unrolled. The effort just got an additional boost. A team of researchers…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "microsoft releases new ai playbook for enterprises with real world examples and it reveals a surprising moat you may already have",
-      "normalized_title": "microsoft releases new ai playbook for enterprises with real world examples and it reveals a surprising moat you may already have",
-      "normalized_link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5",
-      "title": "Microsoft releases new AI playbook for enterprises with real-world examples, and it reveals a surprising 'moat' you may already have - VentureBeat",
-      "summary": "Microsoft releases new AI playbook for enterprises with real-world examples, and it reveals a surprising 'moat' you may already have VentureBeat",
-      "source": "VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORGdWaVVFWnlKSnNyYlFoMzBBX1BFS1JZNHJ3Nk1UNXprZWJ3MmN4WjI0aE5wR1NQdE9XUGZfZG50Z20zc3d2aE9HdkZNc0EzOThrMHZxeGVYMkRQcVp4QURCLVI0TGlmeDI2T0RmdzV3Q21NQjdaczVHMEVKd3J2dVFKb0ctdGxRbk1hZm9PclAydmR2N0xXTFlGOGxubXRuMGdOYzQ5OFZ0VDRXZS00Q08wUUo0TG96YUp1MkVIS0VTbnNSSFNfMWIwVW5OZl9YbzJMQzNhajhWZW9SWk1mWEwxdk5VUnZYUnItMXI3WjB0Q0YweUh1RmhfcWs3S1k1?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "huawei and china construction bank jointly release ai dc white paper 2026",
-      "normalized_title": "huawei and china construction bank jointly release ai dc white paper 2026",
-      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FRFJ1bmpfemZTM2ZBSHM3QzRnUXB2cFd5akRJZVp6QzdnLTlKZGJyU0FKalZOS1plVWg4M0t3V3JKXzhsR1dic1JCd1ZCd3B5Q2xVZ3RMWW1IeHJDQnV3bFU3SWFGZDhNTlRULUNlLTBPVGJSaEpsRUxWaFJaQQ?oc=5",
-      "title": "Huawei and China Construction Bank Jointly Release AI DC White Paper 2026 - Huawei Enterprise",
-      "summary": "Huawei and China Construction Bank Jointly Release AI DC White Paper 2026 Huawei Enterprise",
-      "source": "Huawei Enterprise",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FRFJ1bmpfemZTM2ZBSHM3QzRnUXB2cFd5akRJZVp6QzdnLTlKZGJyU0FKalZOS1plVWg4M0t3V3JKXzhsR1dic1JCd1ZCd3B5Q2xVZ3RMWW1IeHJDQnV3bFU3SWFGZDhNTlRULUNlLTBPVGJSaEpsRUxWaFJaQQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research",
-        "whitepaper"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research",
-          "whitepaper"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-17",
-      "last_seen_date": "2026-09-17",
-      "canonical_key": "论文汇总丨benchmark进入真实世界 斯坦福 清华 anthropic meta 阿里等重新定义ai能力评测",
-      "normalized_title": "论文汇总丨benchmark进入真实世界 斯坦福 清华 anthropic meta 阿里等重新定义ai能力评测",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93VHFIYVpBLXhSUERNNGF0NjlSZ0tnM0EydGtIMFZkUWtrZWxXN3VMSmFyeHV5SWhJdHR3WlRza3ZwRnc1ZWppYw?oc=5",
-      "title": "论文汇总丨Benchmark进入真实世界，斯坦福/清华/Anthropic/Meta/阿里等重新定义AI能力评测 - 智源社区",
-      "summary": "论文汇总丨Benchmark进入真实世界，斯坦福/清华/Anthropic/Meta/阿里等重新定义AI能力评测 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93VHFIYVpBLXhSUERNNGF0NjlSZ0tnM0EydGtIMFZkUWtrZWxXN3VMSmFyeHV5SWhJdHR3WlRza3ZwRnc1ZWppYw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "benchmark",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "benchmark",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-18",
@@ -5979,6 +5676,184 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "putting earth ai to work geospatial agents for our planet s biggest challenges",
+      "normalized_title": "putting earth ai to work geospatial agents for our planet s biggest challenges",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamdhbmQ0UE1lV2RVZ1ZqTVNNUXVoa2FXRkxRQWVkN1JHSGxCUGx3V192M3VyRnRjMU5sQWVmYWcyUDVLUEJXLV9UcFZ3Y09iRFZmejQ1U25rVzFkT0xTYVdBTlpncXcwR1ZMX3NxUGRudFZLSklQMGNxSjZfOFZ4azI1am5HNWYtSWJMYS1OekMwZEwyX295WFZUZGNlRkg4cWEtbC1qcnd4MVk?oc=5",
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges - Google Research",
+      "summary": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges Google Research",
+      "source": "Google Research",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamdhbmQ0UE1lV2RVZ1ZqTVNNUXVoa2FXRkxRQWVkN1JHSGxCUGx3V192M3VyRnRjMU5sQWVmYWcyUDVLUEJXLV9UcFZ3Y09iRFZmejQ1U25rVzFkT0xTYVdBTlpncXcwR1ZMX3NxUGRudFZLSklQMGNxSjZfOFZ4azI1am5HNWYtSWJMYS1OekMwZEwyX295WFZUZGNlRkg4cWEtbC1qcnd4MVk?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "coding_agent",
+        "company_research"
+      ],
+      "event_signature": {
+        "entities": [
+          "google"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "coding_agent",
+          "company_research",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "清华开源 智能体操作系统任务成本降83 ai记忆可查可改",
+      "normalized_title": "清华开源 智能体操作系统任务成本降83 ai记忆可查可改",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56R2NNeGE4SnhCdmFqbUtVb2ZGRHNfVkJUalhFV3JNZG95VGJ0WU95U0FDWnctNHRzamdNNkhQUEFUOTQ4Y0JwVg?oc=5",
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改 - 智源社区",
+      "summary": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56R2NNeGE4SnhCdmFqbUtVb2ZGRHNfVkJUalhFV3JNZG95VGJ0WU95U0FDWnctNHRzamdNNkhQUEFUOTQ4Y0JwVg?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "opensource",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "opensource",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
+      "normalized_title": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tX0ROeHZLRktmZ1JIdUpJSmxKQVlkZU5rTEx4U1piSFJTWEgwMnE0Umlra01sNy1WYWxieVlIY3FJOWVCV3FWUEJubnpzUG9DVkV3?oc=5",
+      "title": "Anthropic发布内部就业报告：智能体工时达到人类6倍，“元工作时代”来了 - 华尔街见闻",
+      "summary": "Anthropic发布内部就业报告：智能体工时达到人类6倍，“元工作时代”来了 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tX0ROeHZLRktmZ1JIdUpJSmxKQVlkZU5rTEx4U1piSFJTWEgwMnE0Umlra01sNy1WYWxieVlIY3FJOWVCV3FWUEJubnpzUG9DVkV3?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "hybrid reasoning agents llm agents that think in latent space act through text",
+      "normalized_title": "hybrid reasoning agents llm agents that think in latent space act through text",
+      "normalized_link": "https://arxiv.org/abs/2610.18861",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summary": "Abstract page for arXiv paper 2610.18861: Hybrid Reasoning Agents",
+      "source": "Hacker News",
+      "link": "https://arxiv.org/abs/2610.18861",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "llm",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "llm",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-18",
+      "canonical_key": "show hn whatsapp mcp running free on cloudflare",
+      "normalized_title": "show hn whatsapp mcp running free on cloudflare",
+      "normalized_link": "https://github.com/finereli/whatsapp-mcp",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://github.com/finereli/whatsapp-mcp",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "cloud",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cloud",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
