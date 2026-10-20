@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-20T08:20:50.326918+08:00",
+  "generated_at": "2026-10-20T09:04:33.540452+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,18 +32,18 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 159,
-    "history_duplicate_count": 24
+    "history_size_before": 159,
+    "history_size_after": 160,
+    "history_duplicate_count": 26
   },
-  "raw_item_count": 5197,
-  "deduped_item_count": 3864,
-  "filtered_item_count": 340,
+  "raw_item_count": 5160,
+  "deduped_item_count": 3844,
+  "filtered_item_count": 336,
   "curated_item_count": 5,
   "curated_items": [
     {
-      "title": "Muse Glimmer 30B: An On-Device Agentic Model - AI at Meta",
-      "summary": "Muse Glimmer 30B: An On-Device Agentic Model AI at Meta",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research - AI at Meta",
+      "summary": "Muse Glimmer 30B: An On-Device Agentic Model | Research AI at Meta",
       "summary_source": "rss_description",
       "summary_quality": "low",
       "published_at": "2026-10-20T07:04:03+08:00",
@@ -67,8 +67,8 @@
         "company_research"
       ],
       "category": "AI Agent",
-      "dedupe_key": "muse glimmer 30b an on device agentic model",
-      "canonical_key": "muse glimmer 30b an on device agentic model",
+      "dedupe_key": "muse glimmer 30b an on device agentic model research",
+      "canonical_key": "muse glimmer 30b an on device agentic model research",
       "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
       "score": 97,
       "selection_reason": "required_agent_or_coding"
@@ -198,14 +198,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1333,
-    "history_duplicate": 24,
-    "weak_relevance": 181,
+    "duplicate": 1316,
+    "history_duplicate": 26,
+    "weak_relevance": 186,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3343,
-    "same_entity_limit": 135,
+    "old_news": 3322,
+    "same_entity_limit": 133,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

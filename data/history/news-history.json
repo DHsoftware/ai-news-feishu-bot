@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T08:20:50.326918+08:00",
+  "updated_at": "2026-10-20T09:04:33.540452+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4981,7 +4981,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-14",
@@ -5643,7 +5643,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-18",
@@ -5778,7 +5778,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-19",
@@ -5805,6 +5805,42 @@
         "actions": [],
         "topics": [
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-19",
+      "last_seen_date": "2026-10-19",
+      "canonical_key": "muse glimmer 30b an on device agentic model research",
+      "normalized_title": "muse glimmer 30b an on device agentic model research",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research - AI at Meta",
+      "summary": "Muse Glimmer 30B: An On-Device Agentic Model | Research AI at Meta",
+      "source": "AI at Meta",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research",
+          "research"
         ]
       },
       "seen_count": 1
