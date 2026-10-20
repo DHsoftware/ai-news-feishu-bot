@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T08:11:38.662340+08:00",
+  "updated_at": "2026-10-20T08:20:50.326918+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -42,152 +42,6 @@
         ]
       },
       "seen_count": 13
-    },
-    {
-      "first_seen_date": "2026-09-18",
-      "last_seen_date": "2026-09-18",
-      "canonical_key": "the future of practice enabling teachers to create learning interactives with generative ui",
-      "normalized_title": "the future of practice enabling teachers to create learning interactives with generative ui",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUd4VHNzYnpwbDQ1MTc1SUpJbXVVcl94NWwtd3BibzJvZFc0SlJEQ3BweURFdnhiTlc3NXRNSTlaZXVHajdGcXBmTE52UlByY0FSWVQ5XzV2UDBSYWpUUUdiM1M3cDVaQ2tqMFlLZURnbS1zZ0lRWkRxeUFGX0oxWklQVnlmSmZUTDhtSXJIenpBTmpfekNUeDBOTzJzSFVLZnNESTFSV0lQUlk4ZGtwM1dfS1gyQ1hFemR0VnVn?oc=5",
-      "title": "The future of practice: Enabling teachers to create learning interactives with generative UI - Google Research",
-      "summary": "The future of practice: Enabling teachers to create learning interactives with generative UI Google Research",
-      "source": "Google Research",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUd4VHNzYnpwbDQ1MTc1SUpJbXVVcl94NWwtd3BibzJvZFc0SlJEQ3BweURFdnhiTlc3NXRNSTlaZXVHajdGcXBmTE52UlByY0FSWVQ5XzV2UDBSYWpUUUdiM1M3cDVaQ2tqMFlLZURnbS1zZ0lRWkRxeUFGX0oxWklQVnlmSmZUTDhtSXJIenpBTmpfekNUeDBOTzJzSFVLZnNESTFSV0lQUlk4ZGtwM1dfS1gyQ1hFemR0VnVn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "coding_agent",
-        "company_research"
-      ],
-      "event_signature": {
-        "entities": [
-          "google"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "coding_agent",
-          "company_research",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-18",
-      "last_seen_date": "2026-09-18",
-      "canonical_key": "新方法 新组织 新工具 华为发布ai行业落地新路径 华为",
-      "normalized_title": "新方法 新组织 新工具 华为发布ai行业落地新路径 华为",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwQ0gwZHh4Z002X0tXWGo5eWljdFhCNElRRmp3WGgxNVlWVzdfdER1SHRZbWt5NjVpLWlzOW1Ka2FuaVpnSUlQZnBONnp2V1FsdkJ5cTdSTXBoZkRPQXE3eDFTaHN2VGpWS2c2NGRn?oc=5",
-      "title": "新方法、新组织、新工具：华为发布AI行业落地新路径- 华为 - Huawei",
-      "summary": "新方法、新组织、新工具：华为发布AI行业落地新路径- 华为 Huawei",
-      "source": "Huawei",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwQ0gwZHh4Z002X0tXWGo5eWljdFhCNElRRmp3WGgxNVlWVzdfdER1SHRZbWt5NjVpLWlzOW1Ka2FuaVpnSUlQZnBONnp2V1FsdkJ5cTdSTXBoZkRPQXE3eDFTaHN2VGpWS2c2NGRn?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "company_blog",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "company_research",
-        "org_productivity",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "company_research",
-          "org_productivity",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-18",
-      "last_seen_date": "2026-09-18",
-      "canonical_key": "anthropic launches claude code projects an always on conversation that remembers and delegates your long running dev work",
-      "normalized_title": "anthropic launches claude code projects an always on conversation that remembers and delegates your long running dev work",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbzFBR1I0TUFsdkpnMFY2amNCMzJuRFlxS2tCZ1JiWEFhOVl0WkJBU1pBSkZha0hHWEdMYTFGc201QmtVUGFFU2VnQUh2UW9ucHp5V1Y2Uk10WlBWbjdvYTBjX0JfTDB2MUJDMnFRNkstUG9iNU1hQnV0TXJDcHhhbkdKenEyMVREQ3BVMzdEdnlEN1VKLXpGQXRMRTJGMHlLSzY1TUZSeWEyU0pqMy1SX20wRHJIVTgwZXpqWHVLY184Y09GS0M1M2VCU29ZN1JjYWNGelUya0NmOGxkdVRubnVGM21SM0t1OTJNUmZLbFI?oc=5",
-      "title": "Anthropic launches Claude Code Projects, an ‘always-on’ conversation that remembers and delegates your long-running dev work - VentureBeat",
-      "summary": "Anthropic launches Claude Code Projects, an ‘always-on’ conversation that remembers and delegates your long-running dev work VentureBeat",
-      "source": "VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbzFBR1I0TUFsdkpnMFY2amNCMzJuRFlxS2tCZ1JiWEFhOVl0WkJBU1pBSkZha0hHWEdMYTFGc201QmtVUGFFU2VnQUh2UW9ucHp5V1Y2Uk10WlBWbjdvYTBjX0JfTDB2MUJDMnFRNkstUG9iNU1hQnV0TXJDcHhhbkdKenEyMVREQ3BVMzdEdnlEN1VKLXpGQXRMRTJGMHlLSzY1TUZSeWEyU0pqMy1SX20wRHJIVTgwZXpqWHVLY184Y09GS0M1M2VCU29ZN1JjYWNGelUya0NmOGxkdVRubnVGM21SM0t1OTJNUmZLbFI?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [
-          "claude_code"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-18",
-      "last_seen_date": "2026-09-18",
-      "canonical_key": "microsoft exec called ai scraping the largest theft of labor in human history",
-      "normalized_title": "microsoft exec called ai scraping the largest theft of labor in human history",
-      "normalized_link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history",
-      "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
-      "summary": "For years, Microsoft and OpenAI have fought to keep certain information out of the public eye in their fight with news organizations that have accused the AI firms of teaming up to violate copyright laws by stealing tons of news content to train AI. However, now the details that should never have b…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "openai"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [],
-        "topics": [
-          "chip",
-          "coding"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-19",
@@ -5086,7 +4940,7 @@
     },
     {
       "first_seen_date": "2026-10-14",
-      "last_seen_date": "2026-10-14",
+      "last_seen_date": "2026-10-19",
       "canonical_key": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
       "normalized_title": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
@@ -5127,7 +4981,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-14",
@@ -5754,7 +5608,7 @@
     },
     {
       "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
+      "last_seen_date": "2026-10-19",
       "canonical_key": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
       "normalized_title": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
       "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tX0ROeHZLRktmZ1JIdUpJSmxKQVlkZU5rTEx4U1piSFJTWEgwMnE0Umlra01sNy1WYWxieVlIY3FJOWVCV3FWUEJubnpzUG9DVkV3?oc=5",
@@ -5789,7 +5643,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-18",
@@ -5854,6 +5708,106 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-19",
+      "last_seen_date": "2026-10-19",
+      "canonical_key": "muse glimmer 30b an on device agentic model",
+      "normalized_title": "muse glimmer 30b an on device agentic model",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model - AI at Meta",
+      "summary": "Muse Glimmer 30B: An On-Device Agentic Model AI at Meta",
+      "source": "AI at Meta",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "company_research"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "company_research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-19",
+      "last_seen_date": "2026-10-19",
+      "canonical_key": "closing the gap between agentic cx pilots and production emerj artificial intelligence research",
+      "normalized_title": "closing the gap between agentic cx pilots and production emerj artificial intelligence research",
+      "normalized_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGxFbWlGMHJaRUsxUll6VWU0X3hvbmQ4M0RrbU1aM0ctQlprTWk3WElRVkdqVkRBNW8tUS1IdXV3Tzk2R3I0Q1JmZGMwRVRGUVM4OUVJZG9nc3dOV2o5VUFBdHc2RDBtMmdxa2h0Mk54WWVGOGw1X3M2T2JtVFZuaw?oc=5",
+      "title": "Closing the Gap Between Agentic CX Pilots and Production - Emerj Artificial Intelligence Research",
+      "summary": "Closing the Gap Between Agentic CX Pilots and Production Emerj Artificial Intelligence Research",
+      "source": "Emerj Artificial Intelligence Research",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGxFbWlGMHJaRUsxUll6VWU0X3hvbmQ4M0RrbU1aM0ctQlprTWk3WElRVkdqVkRBNW8tUS1IdXV3Tzk2R3I0Q1JmZGMwRVRGUVM4OUVJZG9nc3dOV2o5VUFBdHc2RDBtMmdxa2h0Mk54WWVGOGw1X3M2T2JtVFZuaw?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-19",
+      "last_seen_date": "2026-10-19",
+      "canonical_key": "anthropic拟以5 股份善后ai社会冲击 ipo前安全叙事与商业扩张矛盾显现",
+      "normalized_title": "anthropic拟以5 股份善后ai社会冲击 ipo前安全叙事与商业扩张矛盾显现",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xVUY1ZE9vY3RDNVRpc1ZUOEU5RC1hNmtMdE8tSE1EdDVaVEkzbTFqUGFKcGJRU3dyeThtOExtYWoxeVhmclpyQkdhNXJzVjNfOC1qaw?oc=5",
+      "title": "Anthropic拟以5%股份善后AI社会冲击，IPO前安全叙事与商业扩张矛盾显现 - 虎嗅网",
+      "summary": "Anthropic拟以5%股份善后AI社会冲击，IPO前安全叙事与商业扩张矛盾显现 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xVUY1ZE9vY3RDNVRpc1ZUOEU5RC1hNmtMdE8tSE1EdDVaVEkzbTFqUGFKcGJRU3dyeThtOExtYWoxeVhmclpyQkdhNXJzVjNfOC1qaw?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
