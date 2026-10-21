@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:04:33.540452+08:00",
+  "updated_at": "2026-10-21T07:53:02.990640+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -196,44 +196,6 @@
         ]
       },
       "seen_count": 14
-    },
-    {
-      "first_seen_date": "2026-09-19",
-      "last_seen_date": "2026-09-19",
-      "canonical_key": "use chatgpt work to build your data agent",
-      "normalized_title": "use chatgpt work to build your data agent",
-      "normalized_link": "https://www.youtube.com/watch?v=cXUmFec2PNY",
-      "title": "Use ChatGPT Work to build your data agent",
-      "summary": "Give your data agent the context it needs to work with your business. In this clip, see how to connect tools in ChatGPT Work and bring together data tables, team discussions, and metric definitions. Then see how a data expert can review and refine that context before sharing it across the company.…",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/watch?v=cXUmFec2PNY",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "summary_quality": "medium",
-      "concept_hint": "Tool Calling",
-      "is_official_source": true,
-      "language": "en",
-      "region": "global",
-      "tags": [
-        "agent",
-        "cli",
-        "codex",
-        "tools"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "cli",
-          "codex",
-          "tools"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-24",
