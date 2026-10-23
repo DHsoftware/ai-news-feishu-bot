@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:59:12.917070+08:00",
+  "updated_at": "2026-10-23T08:37:56.152065+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5584,7 +5584,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-21",
@@ -5660,7 +5660,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-22",
@@ -5773,6 +5773,124 @@
         "topics": [
           "agent",
           "ai_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "agent进群接咨询 ai编程提效率 医院知识管理的智能化落地实践",
+      "normalized_title": "agent进群接咨询 ai编程提效率 医院知识管理的智能化落地实践",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWMyWThyZmY0Y19ZTGxsOWx3c1NVWG0wb29ncHRmVGozRXhHb3VzUlhUcll1eXdyeGlKczNFbmtFV291cXVlQWpFUHA1M0cxeTVPVkFkUkZZajlHa19Hbk1PcFByblVXN2c3NXFEQWpUcnVvYmtjYzZZYjNqM1Z5UDduTGpNeHQ2N2RCWFA3REdILUk1RWc2OUE1NHlTV3dyV2RFVnA5ZjZiRmNzUENobTZhOU01ZXc?oc=5",
+      "title": "Agent进群接咨询、AI编程提效率：医院知识管理的智能化落地实践 - 积墨 AI",
+      "summary": "Agent进群接咨询、AI编程提效率：医院知识管理的智能化落地实践 积墨 AI",
+      "source": "积墨 AI",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWMyWThyZmY0Y19ZTGxsOWx3c1NVWG0wb29ncHRmVGozRXhHb3VzUlhUcll1eXdyeGlKczNFbmtFV291cXVlQWpFUHA1M0cxeTVPVkFkUkZZajlHa19Hbk1PcFByblVXN2c3NXFEQWpUcnVvYmtjYzZZYjNqM1Z5UDduTGpNeHQ2N2RCWFA3REdILUk1RWc2OUE1NHlTV3dyV2RFVnA5ZjZiRmNzUENobTZhOU01ZXc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "knowledge_management",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "knowledge_management",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "nvidia agent toolkit expands grounding enterprise agents in company data",
+      "normalized_title": "nvidia agent toolkit expands grounding enterprise agents in company data",
+      "normalized_link": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit",
+      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor w…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "company_research",
+          "opensource",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "switch 2 security takes a hit as hackers unlock homebrew access",
+      "normalized_title": "switch 2 security takes a hit as hackers unlock homebrew access",
+      "normalized_link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games",
+      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+      "summary": "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining \"userland\" access that he says \"lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.\" The hack r…",
+      "source": "Ars Technica - All content",
+      "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "security"
         ]
       },
       "seen_count": 1
