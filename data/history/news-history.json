@@ -1,184 +1,8 @@
 {
-  "updated_at": "2026-10-22T08:39:44.000827+08:00",
+  "updated_at": "2026-10-23T07:59:12.917070+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-21",
-      "last_seen_date": "2026-09-21",
-      "canonical_key": "how to evaluate ai agents from tool calls to task completion",
-      "normalized_title": "how to evaluate ai agents from tool calls to task completion",
-      "normalized_link": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
-      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
-      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and... When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-21",
-      "last_seen_date": "2026-09-21",
-      "canonical_key": "无代码 ai 工作流引擎 flowlong 1 2 7 发布 oschina 开源 ai 开发者生态社区",
-      "normalized_title": "无代码 ai 工作流引擎 flowlong 1 2 7 发布 oschina 开源 ai 开发者生态社区",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FX0ZTUFdpLXdiZnpKcjJpVmRRZ0kyS3VMLTFpN3hPRi1KN0hOQktXQ3JWZ2RpUXZEMGFKSThsVUhScTlqcGdjeUMtOA?oc=5",
-      "title": "🔥🔥无代码 AI 工作流引擎 FlowLong 1.2.7 发布 - OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-      "summary": "🔥🔥无代码 AI 工作流引擎 FlowLong 1.2.7 发布 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
-      "source": "OSCHINA",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FX0ZTUFdpLXdiZnpKcjJpVmRRZ0kyS3VMLTFpN3hPRi1KN0hOQktXQ3JWZ2RpUXZEMGFKSThsVUhScTlqcGdjeUMtOA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "opensource",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "opensource",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-21",
-      "last_seen_date": "2026-09-21",
-      "canonical_key": "delta showcases ai driven digital twins at semicon india",
-      "normalized_title": "delta showcases ai driven digital twins at semicon india",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWlJjcUVRQUIwOEM1elU5UTNkbEU5RVBHdXk4bGhrZ1ZaeWswZ0JUVlR4M3JCNUZHWE5EckxqQXFoWW1PUkRaN2FJUzdSVXY1VzNaSDBrZktpcnZtd2hLTTgyNzBhTjgxdlR2dGtyYUlLVEpJYUtXRmtRcEh2ZzNkMi00dnNtU3BvcDhTdDVGUUJocjFIdV9wNzZzd2xHZ3hSZnBDcnBMRzh5WUpCOWtxaDg5dno0NU9vOHkxWHBSdThtbmM5cTdzdk1OR09yclJMdEpxenZLRllNczdLLWVuUWZHWkxLLXIy?oc=5",
-      "title": "Delta showcases AI-driven digital twins at SEMICON India - Bisinfotech",
-      "summary": "Delta showcases AI-driven digital twins at SEMICON India Bisinfotech",
-      "source": "Bisinfotech",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWlJjcUVRQUIwOEM1elU5UTNkbEU5RVBHdXk4bGhrZ1ZaeWswZ0JUVlR4M3JCNUZHWE5EckxqQXFoWW1PUkRaN2FJUzdSVXY1VzNaSDBrZktpcnZtd2hLTTgyNzBhTjgxdlR2dGtyYUlLVEpJYUtXRmtRcEh2ZzNkMi00dnNtU3BvcDhTdDVGUUJocjFIdV9wNzZzd2xHZ3hSZnBDcnBMRzh5WUpCOWtxaDg5dno0NU9vOHkxWHBSdThtbmM5cTdzdk1OR09yclJMdEpxenZLRllNczdLLWVuUWZHWkxLLXIy?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "digital_twin",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "digital_twin",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-21",
-      "last_seen_date": "2026-09-21",
-      "canonical_key": "中国具身智能又跑出一匹黑马 清科灵境 oasis wam 登顶robolab 击败 nvidia google pi 等头部团队",
-      "normalized_title": "中国具身智能又跑出一匹黑马 清科灵境 oasis wam 登顶robolab 击败 nvidia google pi 等头部团队",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GNURRN0ZBYm50YlRjYVZfRW1RUnBaeHFaVFA3WUFQS0wyTUtzaVU4alg0c3dvdGJlZkNUQVNPQ3J0QkRkX3hoVF80THFkQQ?oc=5",
-      "title": "中国具身智能又跑出一匹黑马：清科灵境 OASIS WAM 登顶RoboLab，击败 NVIDIA、Google、PI 等头部团队 - 36kr.com",
-      "summary": "中国具身智能又跑出一匹黑马：清科灵境 OASIS WAM 登顶RoboLab，击败 NVIDIA、Google、PI 等头部团队 36kr.com",
-      "source": "36kr.com",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GNURRN0ZBYm50YlRjYVZfRW1RUnBaeHFaVFA3WUFQS0wyTUtzaVU4alg0c3dvdGJlZkNUQVNPQ3J0QkRkX3hoVF80THFkQQ?oc=5",
-      "category": "全球AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "google",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-21",
-      "last_seen_date": "2026-09-21",
-      "canonical_key": "how v7 gives ai agents institutional memory",
-      "normalized_title": "how v7 gives ai agents institutional memory",
-      "normalized_link": "https://openai.com/index/v7",
-      "title": "How V7 gives AI agents institutional memory",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/v7",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
     {
       "first_seen_date": "2026-09-22",
       "last_seen_date": "2026-09-23",
@@ -5722,7 +5546,7 @@
     },
     {
       "first_seen_date": "2026-10-21",
-      "last_seen_date": "2026-10-21",
+      "last_seen_date": "2026-10-22",
       "canonical_key": "英伟达发布omniverse dsx 蓝图 用智能体辅助工作流构建ai 工厂数字孪生 ai基础设施",
       "normalized_title": "英伟达发布omniverse dsx 蓝图 用智能体辅助工作流构建ai 工厂数字孪生 ai基础设施",
       "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xeWFnaTBpZXJmemhPUUNpZXlOWmxmcFY1QTFqSGtMZHF4OUoyVWQtZjl0akpqMkhtbVoxem1xSGZRTXZMTFNnRGtJY05vb2ZpRmFWaXhjWGZRWVI5SFRNMGhmYzU2WVVFdi1wbk9XVTMxUQ?oc=5",
@@ -5760,7 +5584,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-21",
@@ -5797,7 +5621,7 @@
     },
     {
       "first_seen_date": "2026-10-21",
-      "last_seen_date": "2026-10-21",
+      "last_seen_date": "2026-10-22",
       "canonical_key": "how nvidia openshell reference architecture secures and governs ai agent workloads at scale",
       "normalized_title": "how nvidia openshell reference architecture secures and governs ai agent workloads at scale",
       "normalized_link": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
@@ -5836,7 +5660,122 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "cloudflare links vulnerability discovery to defense with openai",
+      "normalized_title": "cloudflare links vulnerability discovery to defense with openai",
+      "normalized_link": "https://openai.com/index/cloudflare-cyber",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/cloudflare-cyber",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "cloud",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "cloud",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "研发提效的瓶颈不在编码室里 而在协作的 暗物质 里",
+      "normalized_title": "研发提效的瓶颈不在编码室里 而在协作的 暗物质 里",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTTZnM0hTZmtqNGplYWMyZUVhdFN6eXFOMzhESDNlc1c1WTJGVXhCLTFMeDNPSFVIMGZ3X1ZCVHhhY3VSMVZtS2VKa1VMck1NT3BiSU5fM2hDVVFuVkRQY0FqQnJkVk03WFoxOEpWcVYzTWdSOHJBSmlXaVYtcFI1SDFHUnRvbThzMEJ0VlptZVNaeXNGV3pNU0JrcDdPeGxsTlpQTmpPQmt6Q3FM?oc=5",
+      "title": "研发提效的瓶颈不在编码室里，而在协作的「暗物质」里 - 积墨 AI",
+      "summary": "研发提效的瓶颈不在编码室里，而在协作的「暗物质」里 积墨 AI",
+      "source": "积墨 AI",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTTZnM0hTZmtqNGplYWMyZUVhdFN6eXFOMzhESDNlc1c1WTJGVXhCLTFMeDNPSFVIMGZ3X1ZCVHhhY3VSMVZtS2VKa1VMck1NT3BiSU5fM2hDVVFuVkRQY0FqQnJkVk03WFoxOEpWcVYzTWdSOHJBSmlXaVYtcFI1SDFHUnRvbThzMEJ0VlptZVNaeXNGV3pNU0JrcDdPeGxsTlpQTmpPQmt6Q3FM?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "engineering_productivity",
+          "software_engineering"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-22",
+      "last_seen_date": "2026-10-22",
+      "canonical_key": "openshell a safe private runtime for fleets of autonomous ai agents",
+      "normalized_title": "openshell a safe private runtime for fleets of autonomous ai agents",
+      "normalized_link": "https://github.com/NVIDIA/OpenShell",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summary": "OpenShell is the safe, private runtime for autonomous AI agents. - NVIDIA/OpenShell",
+      "source": "Hacker News",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

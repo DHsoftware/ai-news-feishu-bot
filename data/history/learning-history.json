@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:39:44.000827+08:00",
+  "updated_at": "2026-10-23T07:59:12.917070+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -41,7 +41,7 @@
     },
     {
       "first_seen_date": "2026-06-09",
-      "last_seen_date": "2026-10-07",
+      "last_seen_date": "2026-10-22",
       "canonical_key": "guardrails and human review",
       "normalized_title": "guardrails and human review",
       "normalized_link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
@@ -81,7 +81,7 @@
           "safety"
         ]
       },
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "first_seen_date": "2026-06-11",
