@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:51:28.967215+08:00",
+  "updated_at": "2026-10-24T08:37:57.508524+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5832,7 +5832,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-23",
@@ -5904,7 +5904,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-23",
@@ -5971,6 +5971,83 @@
           "research",
           "security",
           "technical_blog"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "lindy ai work assistant workflow automation meeting management",
+      "normalized_title": "lindy ai work assistant workflow automation meeting management",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
+      "title": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management - Quasa.io",
+      "summary": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management Quasa.io",
+      "source": "Quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
+      "normalized_title": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
+      "title": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 - 国际电子商情",
+      "summary": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 国际电子商情",
+      "source": "国际电子商情",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "gan",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon",
+          "nvidia"
+        ],
+        "products": [
+          "gan"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "dcdc",
+          "gan",
+          "obc",
+          "power_electronics"
         ]
       },
       "seen_count": 1

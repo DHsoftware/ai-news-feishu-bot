@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-24T07:51:28.967215+08:00",
+  "generated_at": "2026-10-24T08:37:57.508524+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 162,
-    "history_duplicate_count": 58
+    "history_size_before": 162,
+    "history_size_after": 164,
+    "history_duplicate_count": 55
   },
-  "raw_item_count": 5129,
-  "deduped_item_count": 3827,
-  "filtered_item_count": 400,
+  "raw_item_count": 5131,
+  "deduped_item_count": 3828,
+  "filtered_item_count": 401,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -79,36 +79,37 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Beyond copilots: The agentic enterprise - Infosys",
-      "summary": "Beyond copilots: The agentic enterprise Infosys",
+      "title": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management - Quasa.io",
+      "summary": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management Quasa.io",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-10-22T22:00:02+08:00",
-      "source": "Infosys",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
+      "published_at": "2026-10-24T00:44:23+08:00",
+      "source": "Quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
       "language": "en",
       "region": "global",
-      "source_group": "ai_productivity",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
         "agent",
-        "ai_transformation",
+        "agentic_ai",
+        "ai_agent",
         "coding",
-        "org_productivity",
+        "coding_agent",
         "workflow_automation"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "beyond copilots the agentic enterprise",
-      "canonical_key": "beyond copilots the agentic enterprise",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
-      "score": 77,
+      "dedupe_key": "lindy ai work assistant workflow automation meeting management",
+      "canonical_key": "lindy ai work assistant workflow automation meeting management",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
+      "score": 59,
       "selection_reason": "required_productivity"
     },
     {
@@ -146,28 +147,35 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 - 虎嗅",
-      "summary": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 虎嗅",
+      "title": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 - 国际电子商情",
+      "summary": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 国际电子商情",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-10-23T17:29:08+08:00",
-      "source": "虎嗅",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
+      "published_at": "2026-10-22T14:51:46+08:00",
+      "source": "国际电子商情",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
       "language": "zh",
       "region": "china",
-      "source_group": "china",
-      "source_type": "",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "agent"
+      "tags": [
+        "power_electronics",
+        "obc",
+        "dcdc"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
-      "canonical_key": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
-      "score": 36,
+      "topic_tags": [
+        "dcdc",
+        "gan",
+        "obc",
+        "power_electronics"
+      ],
+      "category": "OBC/DCDC",
+      "dedupe_key": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
+      "canonical_key": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
+      "score": 58,
       "selection_reason": "china_quota"
     },
     {
@@ -205,13 +213,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1302,
-    "history_duplicate": 58,
-    "weak_relevance": 191,
+    "duplicate": 1303,
+    "history_duplicate": 55,
+    "weak_relevance": 189,
     "same_source_limit": 0,
-    "china_limit": 0,
+    "china_limit": 1,
     "auto_china_limit": 0,
-    "old_news": 3236,
+    "old_news": 3238,
     "same_entity_limit": 135,
     "similar_selected": 0,
     "company_research_limit": 0,
