@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:37:56.152065+08:00",
+  "updated_at": "2026-10-24T07:51:28.967215+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -48,111 +48,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-22",
-      "last_seen_date": "2026-09-22",
-      "canonical_key": "the enterprise ai shift from gpu infrastructure to workflow automation",
-      "normalized_title": "the enterprise ai shift from gpu infrastructure to workflow automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjR5bHptaTZ5MUlRNmNTdngxQ1ZoYXVfUkVaVWg3Y2l5czR6TFNFcjVoM2RWYjJvUmVFeTdHTTlsbXEwZ3V1N2ZMN0luMU8zdldISENOTjJkX2JhQkFxY0pxVEctdGljTUxvUVlYb2hyNk5vOUxFbGV6UVJQT2pKNmszdldWN21PRmtqV1ZjeVlJWFh5d1pRa052MktCUHQxalRVclFMS2RRQXc?oc=5",
-      "title": "The Enterprise AI Shift: From GPU Infrastructure to Workflow Automation - CXOToday.com",
-      "summary": "The Enterprise AI Shift: From GPU Infrastructure to Workflow Automation CXOToday.com",
-      "source": "CXOToday.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjR5bHptaTZ5MUlRNmNTdngxQ1ZoYXVfUkVaVWg3Y2l5czR6TFNFcjVoM2RWYjJvUmVFeTdHTTlsbXEwZ3V1N2ZMN0luMU8zdldISENOTjJkX2JhQkFxY0pxVEctdGljTUxvUVlYb2hyNk5vOUxFbGV6UVJQT2pKNmszdldWN21PRmtqV1ZjeVlJWFh5d1pRa052MktCUHQxalRVclFMS2RRQXc?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "chip",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "chip",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-22",
-      "last_seen_date": "2026-09-22",
-      "canonical_key": "性能成本双平衡 极海g32r502实时控制mcu dsp赋能ai算力电源与运动控制升级",
-      "normalized_title": "性能成本双平衡 极海g32r502实时控制mcu dsp赋能ai算力电源与运动控制升级",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRzcxZndmckNtcnJLXzNlekpheDl1S183V1dpb1NuZlpDbWhld2hyNnZvNFdCTVl1RmRuYWV1NUZ0Rjl3eUYwUzZjOERJM1FFREdB?oc=5",
-      "title": "性能成本双平衡：极海G32R502实时控制MCU/DSP赋能AI算力电源与运动控制升级 - 电子工程专辑",
-      "summary": "性能成本双平衡：极海G32R502实时控制MCU/DSP赋能AI算力电源与运动控制升级 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YRzcxZndmckNtcnJLXzNlekpheDl1S183V1dpb1NuZlpDbWhld2hyNnZvNFdCTVl1RmRuYWV1NUZ0Rjl3eUYwUzZjOERJM1FFREdB?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-22",
-      "last_seen_date": "2026-09-22",
-      "canonical_key": "openai泄露代码显示代号aeon 正在开发对标grok bot的智能体功能",
-      "normalized_title": "openai泄露代码显示代号aeon 正在开发对标grok bot的智能体功能",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hWGxuazJ2TWcwa2NoaUItdTNXR0hIb2NILTJNYzlobzRkcURKYndsRXZlRURJSUZwRTllbmI1alFta1VlMFBrdFZ2UTFfaUR0YmJPUy0zOHI1SFhpUzZv?oc=5",
-      "title": "OpenAI泄露代码显示代号Aeon，正在开发对标Grok Bot的智能体功能 - 虎嗅网",
-      "summary": "OpenAI泄露代码显示代号Aeon，正在开发对标Grok Bot的智能体功能 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hWGxuazJ2TWcwa2NoaUItdTNXR0hIb2NILTJNYzlobzRkcURKYndsRXZlRURJSUZwRTllbmI1alFta1VlMFBrdFZ2UTFfaUR0YmJPUy0zOHI1SFhpUzZv?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-22",
@@ -5891,6 +5786,191 @@
           "coding",
           "coding_agent",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "using ai agents to teach robots like microduck to walk in simulation",
+      "normalized_title": "using ai agents to teach robots like microduck to walk in simulation",
+      "normalized_link": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
+      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+      "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions... Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balanc…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "regulation",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "policy_regulation",
+          "regulation",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "beyond copilots the agentic enterprise",
+      "normalized_title": "beyond copilots the agentic enterprise",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
+      "title": "Beyond copilots: The agentic enterprise - Infosys",
+      "summary": "Beyond copilots: The agentic enterprise Infosys",
+      "source": "Infosys",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "论文周报丨8篇论文聚焦agent harness新进展 覆盖编程智能体 具身控制 图像 生成",
+      "normalized_title": "论文周报丨8篇论文聚焦agent harness新进展 覆盖编程智能体 具身控制 图像 生成",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByVGVrUkJVT2tuN1NtODFWTHp2Mms1YlFSRTFLQW80cGpoVnd1eDlwYnRXczdpbC1XeERlUVRwenlaRXZXZTU1NA?oc=5",
+      "title": "论文周报丨8篇论文聚焦Agent Harness新进展，覆盖编程智能体/具身控制/图像视频生成 - 智源社区",
+      "summary": "论文周报丨8篇论文聚焦Agent Harness新进展，覆盖编程智能体/具身控制/图像视频生成 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByVGVrUkJVT2tuN1NtODFWTHp2Mms1YlFSRTFLQW80cGpoVnd1eDlwYnRXczdpbC1XeERlUVRwenlaRXZXZTU1NA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
+      "normalized_title": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
+      "title": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 - 虎嗅",
+      "summary": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "meta",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-23",
+      "last_seen_date": "2026-10-23",
+      "canonical_key": "how bug bounty sharpens one researcher s security skills",
+      "normalized_title": "how bug bounty sharpens one researcher s security skills",
+      "normalized_link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n ! As home to the world’s developers, GitHub is dedicated to the security and reliability of the code behind mi…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "research",
+          "security",
+          "technical_blog"
         ]
       },
       "seen_count": 1
