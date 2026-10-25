@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T07:15:37.781622+08:00",
+  "updated_at": "2026-10-25T08:18:51.445275+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5807,7 +5807,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-24",
@@ -5844,7 +5844,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-24",
@@ -5914,7 +5914,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-24",
@@ -5941,6 +5941,38 @@
         "actions": [],
         "topics": [
           "research"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-24",
+      "last_seen_date": "2026-10-24",
+      "canonical_key": "litpivot developing research ideas through dynamic contextualization within the literature landscape",
+      "normalized_title": "litpivot developing research ideas through dynamic contextualization within the literature landscape",
+      "normalized_link": "https://huggingface.co/blog/allenai/litpivot",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary": "A Blog post by Ai2 on Hugging Face",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "research",
+          "technical_blog"
         ]
       },
       "seen_count": 1

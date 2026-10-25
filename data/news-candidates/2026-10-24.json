@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-25T07:15:37.781622+08:00",
+  "generated_at": "2026-10-25T08:18:51.445275+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 164,
-    "history_size_after": 161,
-    "history_duplicate_count": 23
+    "history_size_before": 161,
+    "history_size_after": 162,
+    "history_duplicate_count": 19
   },
-  "raw_item_count": 5078,
-  "deduped_item_count": 3784,
-  "filtered_item_count": 237,
+  "raw_item_count": 5147,
+  "deduped_item_count": 3811,
+  "filtered_item_count": 232,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -110,13 +110,13 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "Does Your Model Run on AWS Trainium? Look It Up",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary": "A Blog post by Ai2 on Hugging Face",
       "summary_source": "page_meta_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-23T08:00:00+08:00",
+      "summary_quality": "low",
+      "published_at": "2026-10-24T00:15:50+08:00",
       "source": "Hugging Face - Blog",
-      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
       "language": "en",
       "region": "global",
       "source_group": "company_research",
@@ -131,14 +131,13 @@
       "topic_tags": [
         "ai_research",
         "company_research",
-        "opensource",
         "technical_blog"
       ],
       "category": "官方研究",
-      "dedupe_key": "does your model run on aws trainium look it up",
-      "canonical_key": "does your model run on aws trainium look it up",
-      "normalized_link": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "score": 75,
+      "dedupe_key": "litpivot developing research ideas through dynamic contextualization within the literature landscape",
+      "canonical_key": "litpivot developing research ideas through dynamic contextualization within the literature landscape",
+      "normalized_link": "https://huggingface.co/blog/allenai/litpivot",
+      "score": 63,
       "selection_reason": "required_company_research"
     },
     {
@@ -194,14 +193,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1294,
-    "history_duplicate": 23,
-    "weak_relevance": 148,
+    "duplicate": 1336,
+    "history_duplicate": 19,
+    "weak_relevance": 149,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3399,
-    "same_entity_limit": 123,
+    "old_news": 3430,
+    "same_entity_limit": 126,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
