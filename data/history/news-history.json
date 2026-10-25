@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T08:18:51.445275+08:00",
+  "updated_at": "2026-10-26T07:16:46.044357+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -40,194 +40,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-24",
-      "last_seen_date": "2026-09-24",
-      "canonical_key": "manage kubernetes node fleets with nodewright",
-      "normalized_title": "manage kubernetes node fleets with nodewright",
-      "normalized_link": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright",
-      "title": "Manage Kubernetes Node Fleets with NodeWright",
-      "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage layouts, security agents,... Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage la…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-24",
-      "last_seen_date": "2026-09-24",
-      "canonical_key": "what if robots didn t need all their ai onboard",
-      "normalized_title": "what if robots didn t need all their ai onboard",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnpNaGRsVmFjZXZ2Y3czS2I5MHlLSlgtMVB6d0pXY2J1aW94Q3RyRE82WnpIaUdZOU1QMFM0SDdJbzB0a2htSmJFQTZ0VDNWeGJrcXZpREdGRnFHeFF1TTF1TnhJODVkUWlLT1hCbFM3SnRCTlM1cFJFV2tsRDhwdmphVnN2Mmt5MFlUTVVHOVl0TW1GeS12OG5WWFR2ZlA3MDhMOA?oc=5",
-      "title": "What if robots didn't need all their AI onboard? - Microsoft",
-      "summary": "What if robots didn't need all their AI onboard? Microsoft",
-      "source": "Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnpNaGRsVmFjZXZ2Y3czS2I5MHlLSlgtMVB6d0pXY2J1aW94Q3RyRE82WnpIaUdZOU1QMFM0SDdJbzB0a2htSmJFQTZ0VDNWeGJrcXZpREdGRnFHeFF1TTF1TnhJODVkUWlLT1hCbFM3SnRCTlM1cFJFV2tsRDhwdmphVnN2Mmt5MFlUTVVHOVl0TW1GeS12OG5WWFR2ZlA3MDhMOA?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "engineering_productivity",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "engineering_productivity",
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-24",
-      "last_seen_date": "2026-09-24",
-      "canonical_key": "over 80 000 finance workers to get ai training by 2028 as industry launches job transformation initiative",
-      "normalized_title": "over 80 000 finance workers to get ai training by 2028 as industry launches job transformation initiative",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWIzTUlSMEZaRk4yeFhpWXI5a2JoamxRSktHQ0QxSGJJR0E1V2h0ZjJGQVVJeXh6UkxMZVhJMHZLX1dVREpDSDlER05vZUdIUkhxZURkVHA4V3N4Tk5VZmxmbmltam9JZmpyTXAtU2Z5LXdYU1ZGeGRHRjJERXhhM2RCN2JOTnJtU3Ezd3dQMmtNNHVzallCUw?oc=5",
-      "title": "Over 80,000 finance workers to get AI training by 2028 as industry launches job transformation initiative - CNA",
-      "summary": "Over 80,000 finance workers to get AI training by 2028 as industry launches job transformation initiative CNA",
-      "source": "CNA",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTWIzTUlSMEZaRk4yeFhpWXI5a2JoamxRSktHQ0QxSGJJR0E1V2h0ZjJGQVVJeXh6UkxMZVhJMHZLX1dVREpDSDlER05vZUdIUkhxZURkVHA4V3N4Tk5VZmxmbmltam9JZmpyTXAtU2Z5LXdYU1ZGeGRHRjJERXhhM2RCN2JOTnJtU3Ezd3dQMmtNNHVzallCUw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-24",
-      "last_seen_date": "2026-09-24",
-      "canonical_key": "openai智能体在搜集数据期间 又尝试入侵另外四家网站 黑客攻击 网络安全 澳大利亚 agent 研究人员_手机新浪网",
-      "normalized_title": "openai智能体在搜集数据期间 又尝试入侵另外四家网站 黑客攻击 网络安全 澳大利亚 agent 研究人员_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxNbm5FRjU1SGdZZ1lNcjBNNUpxWTZHTENxeFhtNG5UV3U0Tm9sbDFCcnhuSG0zdVpldnNFR214b292RTlDU0VVd3V3d1VkRFoxbWNTRXdpOGRPRlhOU0FyZlRSSFRPaFFlZTktRWhQQzBvSng5NTV0dnVySzhmc0pfZG5wZlY4WXBYWUkxR3dqckZkVGtxVXFMWkZCX085Qjg1SnJhYjBKMDF0QTEyelo5NkRoS3E3S2xKLXMxcWRsdnRMMEs2QUFBQ1dLN1JkZ1oxQklfeVdjYjFUdW9DLTVFQ3ZlVGlkZUZVMV9EbUVKdUJiNHFvc0MyclVpb0N0X3Rva3ZCM3JXaUF1YWotS2ZKdXJ0aE43UmxTOWJ1ZVNkUzFMQXBPd1BTZXFGeE00andVQTBmbzFNSmJXTjlySVR1dUtWODBRVHhhU0U2ZVlRdk9fOHBJVGYybFI4ZFNHR01YZFh1VGNneGtLZk9iWF9xTndZckFIWEE4aEVSYzlQM2JFSVJoNlBVQU0xVDM0VGYwREw0RE9sb2ZxNHc2cVBHUGJlMm5qc2F0SElNQmlYQ3R4T3lOUm9jcGxNYmxaME1IVHlaVWpZS1RTa2tKMktHTDJ0UUFsNTNldjJQdGdfYWc1eGVjdDR1VHZSSUZnVWI4OHJj?oc=5",
-      "title": "OpenAI智能体在搜集数据期间，又尝试入侵另外四家网站|黑客攻击|网络安全|澳大利亚|Agent|研究人员_手机新浪网 - 新浪财经",
-      "summary": "OpenAI智能体在搜集数据期间，又尝试入侵另外四家网站|黑客攻击|网络安全|澳大利亚|Agent|研究人员_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxNbm5FRjU1SGdZZ1lNcjBNNUpxWTZHTENxeFhtNG5UV3U0Tm9sbDFCcnhuSG0zdVpldnNFR214b292RTlDU0VVd3V3d1VkRFoxbWNTRXdpOGRPRlhOU0FyZlRSSFRPaFFlZTktRWhQQzBvSng5NTV0dnVySzhmc0pfZG5wZlY4WXBYWUkxR3dqckZkVGtxVXFMWkZCX085Qjg1SnJhYjBKMDF0QTEyelo5NkRoS3E3S2xKLXMxcWRsdnRMMEs2QUFBQ1dLN1JkZ1oxQklfeVdjYjFUdW9DLTVFQ3ZlVGlkZUZVMV9EbUVKdUJiNHFvc0MyclVpb0N0X3Rva3ZCM3JXaUF1YWotS2ZKdXJ0aE43UmxTOWJ1ZVNkUzFMQXBPd1BTZXFGeE00andVQTBmbzFNSmJXTjlySVR1dUtWODBRVHhhU0U2ZVlRdk9fOHBJVGYybFI4ZFNHR01YZFh1VGNneGtLZk9iWF9xTndZckFIWEE4aEVSYzlQM2JFSVJoNlBVQU0xVDM0VGYwREw0RE9sb2ZxNHc2cVBHUGJlMm5qc2F0SElNQmlYQ3R4T3lOUm9jcGxNYmxaME1IVHlaVWpZS1RTa2tKMktHTDJ0UUFsNTNldjJQdGdfYWc1eGVjdDR1VHZSSUZnVWI4OHJj?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-24",
-      "last_seen_date": "2026-09-24",
-      "canonical_key": "openai agent hacking spree widens to australia targeting government website",
-      "normalized_title": "openai agent hacking spree widens to australia targeting government website",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HNXpfbHF5cTNoN0V3d1JuOFVScUNfLThfOVhlQkFacEdubWQ4OE5EbjdBQzZvQnpBUnNOUll0d2hSMzA3RlhhVVkwdkNnTkpKZXJ3STZmNmZ6TTZsWW5adEhNSUZ4WXBHdG5xNlI0QnRNN1NlQmV5VkFxeExZdHM?oc=5",
-      "title": "OpenAI agent hacking spree widens to Australia, targeting government website - Help Net Security",
-      "summary": "OpenAI agent hacking spree widens to Australia, targeting government website Help Net Security",
-      "source": "Help Net Security",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HNXpfbHF5cTNoN0V3d1JuOFVScUNfLThfOVhlQkFacEdubWQ4OE5EbjdBQzZvQnpBUnNOUll0d2hSMzA3RlhhVVkwdkNnTkpKZXJ3STZmNmZ6TTZsWW5adEhNSUZ4WXBHdG5xNlI0QnRNN1NlQmV5VkFxeExZdHM?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-09-25",
@@ -5973,6 +5785,168 @@
           "company_research",
           "research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "工作流 票价 分账比例 观众反馈 云片场 首部ai超写实电影上院线背后 主创访谈",
+      "normalized_title": "工作流 票价 分账比例 观众反馈 云片场 首部ai超写实电影上院线背后 主创访谈",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GSVp0UWl3V2hFZW5ZaGVQQWNET1duSGRPTzhUc2pvTHNuRFRZS2ZfSlJVdXBEbW5uLUdPOTVZc1pzXzMxVzVvN2RZTUhxNDJNaldTczJpZkRnbE9mLTZBUA?oc=5",
+      "title": "工作流、票价、分账比例、观众反馈、云片场……首部AI超写实电影上院线背后 | 主创访谈 - ThePaper.cn",
+      "summary": "工作流、票价、分账比例、观众反馈、云片场……首部AI超写实电影上院线背后 | 主创访谈 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GSVp0UWl3V2hFZW5ZaGVQQWNET1duSGRPTzhUc2pvTHNuRFRZS2ZfSlJVdXBEbW5uLUdPOTVZc1pzXzMxVzVvN2RZTUhxNDJNaldTczJpZkRnbE9mLTZBUA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "cloud",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "cloud",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
+      "normalized_title": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
+      "title": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 - 汽车之家",
+      "summary": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 汽车之家",
+      "source": "汽车之家",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "automotive",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "automotive",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "r opensource just banned ai non",
+      "normalized_title": "r opensource just banned ai non",
+      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to thi…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "category": "开源模型",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "openai and anthropic cut their llm prices by up to 80 within a few months why",
+      "normalized_title": "openai and anthropic cut their llm prices by up to 80 within a few months why",
+      "normalized_link": "https://minimaxir.com/2026/10/cheap-llms",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "llm"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "show hn hurston 1 open source tts that speak southern american and afro",
+      "normalized_title": "show hn hurston 1 open source tts that speak southern american and afro",
+      "normalized_link": "https://huggingface.co/destined/hurston-1",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://huggingface.co/destined/hurston-1",
+      "category": "开源模型",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
         ]
       },
       "seen_count": 1
