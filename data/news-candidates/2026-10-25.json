@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-26T07:16:46.044357+08:00",
+  "generated_at": "2026-10-26T08:18:26.933090+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 162,
-    "history_size_after": 162,
-    "history_duplicate_count": 11
+    "history_size_after": 163,
+    "history_duplicate_count": 10
   },
-  "raw_item_count": 5146,
-  "deduped_item_count": 3823,
-  "filtered_item_count": 140,
+  "raw_item_count": 5158,
+  "deduped_item_count": 3845,
+  "filtered_item_count": 133,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -77,13 +77,13 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 - 汽车之家",
-      "summary": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 汽车之家",
+      "title": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” - 搜狐网",
+      "summary": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” 搜狐网",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-10-24T07:41:21+08:00",
-      "source": "汽车之家",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
+      "published_at": "2026-10-24T17:17:00+08:00",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_productivity",
@@ -102,9 +102,9 @@
         "workflow_automation"
       ],
       "category": "AI组织提效",
-      "dedupe_key": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
-      "canonical_key": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
+      "dedupe_key": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
+      "canonical_key": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
       "score": 45,
       "selection_reason": "required_productivity"
     },
@@ -185,14 +185,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1323,
-    "history_duplicate": 11,
-    "weak_relevance": 114,
+    "duplicate": 1313,
+    "history_duplicate": 10,
+    "weak_relevance": 118,
     "same_source_limit": 0,
     "china_limit": 7,
     "auto_china_limit": 0,
-    "old_news": 3569,
-    "same_entity_limit": 261,
+    "old_news": 3594,
+    "same_entity_limit": 247,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

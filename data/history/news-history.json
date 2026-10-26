@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:16:46.044357+08:00",
+  "updated_at": "2026-10-26T08:18:26.933090+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5826,7 +5826,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-25",
@@ -5890,7 +5890,7 @@
           "opensource"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-25",
@@ -5920,7 +5920,7 @@
           "llm"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-25",
@@ -5947,6 +5947,43 @@
         ],
         "topics": [
           "opensource"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-25",
+      "last_seen_date": "2026-10-25",
+      "canonical_key": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
+      "normalized_title": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
+      "title": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” - 搜狐网",
+      "summary": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” 搜狐网",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "automotive",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "byd"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "ai_transformation",
+          "automotive",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
