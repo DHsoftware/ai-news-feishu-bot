@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:18:26.933090+08:00",
+  "updated_at": "2026-10-27T08:26:11.543481+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -126,7 +126,7 @@
     },
     {
       "first_seen_date": "2026-06-12",
-      "last_seen_date": "2026-10-11",
+      "last_seen_date": "2026-10-26",
       "canonical_key": "openai developers",
       "normalized_title": "openai developers",
       "normalized_link": "https://developers.openai.com",
@@ -160,7 +160,7 @@
           "workflow"
         ]
       },
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "first_seen_date": "2026-07-10",

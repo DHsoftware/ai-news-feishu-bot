@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:18:26.933090+08:00",
+  "updated_at": "2026-10-27T08:26:11.543481+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -43,155 +43,6 @@
     },
     {
       "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "proaction boosts sales 60 and saves 75 hours with codex",
-      "normalized_title": "proaction boosts sales 60 and saves 75 hours with codex",
-      "normalized_link": "https://openai.com/index/proaction",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/proaction",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "building enterprise ai workflow automation systems key architectures and best practices",
-      "normalized_title": "building enterprise ai workflow automation systems key architectures and best practices",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
-      "title": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices - Nasscom",
-      "summary": "Building Enterprise AI Workflow Automation Systems: Key Architectures and Best Practices Nasscom",
-      "source": "Nasscom",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlZzS2pwSTBleTJObnZFYVhnby1wSzhfaWdUS243aW5udEVFOEhIeVVxUlBoUlBLdW5BSFUzUURLWENVMWxidDNBZ1hPVXptM2VRRHdGU0p3NzZrNFBBbFlzVnE2UDM1MEZSRzd2bXdteHRaVkZqZW05WjdQemdkbHI3XzNUOEZ4WUIxcGlKSzZJYU5WdFowYmN0SjJDRGtzM3dZb01nVllmM3NSWEFvZ0VSVXlRN2hzcDNFdG1R?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "d c circuit upholds pentagon s supply chain exclusion of anthropic",
-      "normalized_title": "d c circuit upholds pentagon s supply chain exclusion of anthropic",
-      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGotSExqbUpvaTNvamJBdU1McTdBc2hLMVZkZTljSFVadEJhUjkwekV5WFBzUEFHUFNwOG9FZTZJb2EyQ2ZRN0NIYTZyUG1fYWxyUmk2VlZQLVZVM0ZzdDFRNmtzUUs4bnFoNUVGSHlVbVZ2YWpnOFVHanFDdEhBRHZwWUM2elBfbUtCOVBpb0s?oc=5",
-      "title": "D.C. Circuit Upholds Pentagon’s Supply-Chain Exclusion of Anthropic - unite.ai",
-      "summary": "D.C. Circuit Upholds Pentagon’s Supply-Chain Exclusion of Anthropic unite.ai",
-      "source": "unite.ai",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGotSExqbUpvaTNvamJBdU1McTdBc2hLMVZkZTljSFVadEJhUjkwekV5WFBzUEFHUFNwOG9FZTZJb2EyQ2ZRN0NIYTZyUG1fYWxyUmk2VlZQLVZVM0ZzdDFRNmtzUUs4bnFoNUVGSHlVbVZ2YWpnOFVHanFDdEhBRHZwWUM2elBfbUtCOVBpb0s?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "deepseek 智能体论文 梁文锋署名",
-      "normalized_title": "deepseek 智能体论文 梁文锋署名",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
-      "title": "DeepSeek最新智能体论文：梁文锋署名 - news.sciencenet.cn",
-      "summary": "DeepSeek最新智能体论文：梁文锋署名 news.sciencenet.cn",
-      "source": "news.sciencenet.cn",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-25",
       "last_seen_date": "2026-09-26",
       "canonical_key": "github copilot app for beginners how to build custom workflows with canvases",
       "normalized_title": "github copilot app for beginners how to build custom workflows with canvases",
@@ -231,83 +82,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
-      "normalized_title": "腾讯workbuddy拿下零跑汽车定点 ai工具赋能供应链与整车研发提效90",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
-      "title": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% - 网通社",
-      "summary": "腾讯WorkBuddy拿下零跑汽车定点，AI工具赋能供应链与整车研发提效90% 网通社",
-      "source": "网通社",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GZUlCZDJlRVctdmNkdjNKc0E5cUx2Sjg0ZkNPbjJoQThoMmFWRG4zRGwwWllLVENOUXZpRFQ4dTE1QUhyeXluZmxUcU5PWE5XYU5NclpYdjQzWHM?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "automotive",
-        "coding",
-        "coding_agent",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "automotive",
-          "coding",
-          "coding_agent",
-          "engineering_productivity",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-25",
-      "canonical_key": "deepseek 智能体论文 梁文锋署名 科学网",
-      "normalized_title": "deepseek 智能体论文 梁文锋署名 科学网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
-      "title": "DeepSeek最新智能体论文：梁文锋署名 - 科学网—新闻",
-      "summary": "DeepSeek最新智能体论文：梁文锋署名 科学网—新闻",
-      "source": "科学网—新闻",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lUkc2U3BkTjVQWHZUN3pSeGlHY3FkajBxNG95cGliQkhxVWhHSzIwb1RMSE1iWG1XNFprWUpZek94LUZTTUhZQXF2bzhoOEVyWWlJUnBycmEtcEx0MS1TRmdJX2Y?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-26",
@@ -5984,6 +5758,203 @@
           "automotive",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "how ultrafast cut incident investigation from hours to minutes at openai",
+      "normalized_title": "how ultrafast cut incident investigation from hours to minutes at openai",
+      "normalized_link": "https://openai.com/index/openai-cut-incident-investigation",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/openai-cut-incident-investigation",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "incident",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
+      "normalized_title": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
+      "title": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 - Sohu",
+      "summary": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 Sohu",
+      "source": "Sohu",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "autonomous_driving",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "ai_transformation",
+          "autonomous_driving",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "智能体直接调用数字孪生开发平台 漂视网络新产品dpe赋形正式接入workbuddy与deepseek harness生态",
+      "normalized_title": "智能体直接调用数字孪生开发平台 漂视网络新产品dpe赋形正式接入workbuddy与deepseek harness生态",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPQnZLSDZMa2o0NkVJVHhxZk1Nbl82Nmc2cGlDaDN3ZW9scTJCZjR4M2RjY1U5Z1VrVW42UkR5aE5mNWV4VTFPSmtSLWxXZzVtbFpGUmlNeWNuMkhOUXdoLTc1VFQ5RjFGZU1RSGlB?oc=5",
+      "title": "智能体直接调用数字孪生开发平台！漂视网络新产品DPE赋形正式接入WorkBuddy与DeepSeek Harness生态 - 中华网",
+      "summary": "智能体直接调用数字孪生开发平台！漂视网络新产品DPE赋形正式接入WorkBuddy与DeepSeek Harness生态 中华网",
+      "source": "中华网",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPQnZLSDZMa2o0NkVJVHhxZk1Nbl82Nmc2cGlDaDN3ZW9scTJCZjR4M2RjY1U5Z1VrVW42UkR5aE5mNWV4VTFPSmtSLWxXZzVtbFpGUmlNeWNuMkhOUXdoLTc1VFQ5RjFGZU1RSGlB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "digital_twin"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "digital_twin"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
+      "normalized_title": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
+      "normalized_link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "anthropic details what stops claude duet from going rogue",
+      "normalized_title": "anthropic details what stops claude duet from going rogue",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnZPWXdUUTFNZGM1VHp0dGg3OTVhdndRVlRVZTNiRTBKWTdnZzhQdXVqbHJKcjNfR3VwcUlNeXRHOGk5RXZBMlBIa2hIV3FMSHlPVzktYzFOS0dJREJLN3QwQ0tPWWFMaFB1bUZpQjRESV84S1hySmgxcGd5Tnc1bFRSUFdhdFRhWV9RTmRn?oc=5",
+      "title": "Anthropic details what stops Claude Duet from going rogue - Help Net Security",
+      "summary": "Anthropic details what stops Claude Duet from going rogue Help Net Security",
+      "source": "Help Net Security",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnZPWXdUUTFNZGM1VHp0dGg3OTVhdndRVlRVZTNiRTBKWTdnZzhQdXVqbHJKcjNfR3VwcUlNeXRHOGk5RXZBMlBIa2hIV3FMSHlPVzktYzFOS0dJREJLN3QwQ0tPWWFMaFB1bUZpQjRESV84S1hySmgxcGd5Tnc1bFRSUFdhdFRhWV9RTmRn?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security"
         ]
       },
       "seen_count": 1
