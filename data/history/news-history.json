@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T08:26:11.543481+08:00",
+  "updated_at": "2026-10-27T09:27:31.774957+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5806,7 +5806,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-26",
@@ -5882,7 +5882,7 @@
           "digital_twin"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-26",
@@ -5955,6 +5955,74 @@
           "coding",
           "coding_agent",
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "referralmd completes the referral with end to end ai powered workflow automation",
+      "normalized_title": "referralmd completes the referral with end to end ai powered workflow automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
+      "title": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation - Business Wire",
+      "summary": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation Business Wire",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-26",
+      "last_seen_date": "2026-10-26",
+      "canonical_key": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
+      "normalized_title": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
+      "title": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 - 虎嗅网",
+      "summary": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 虎嗅网",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
+      "category": "研究论文",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "research"
         ]
       },
       "seen_count": 1

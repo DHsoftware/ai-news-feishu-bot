@@ -1,11 +1,11 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-27T08:26:11.543481+08:00",
+  "generated_at": "2026-10-27T09:27:31.774957+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 21,
-    "failed_count": 1
+    "success_count": 20,
+    "failed_count": 2
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -19,10 +19,10 @@
     "similarity_threshold": 0.82,
     "history_size_before": 13,
     "history_size_after": 13,
-    "history_duplicate_count": 15
+    "history_duplicate_count": 10
   },
-  "raw_item_count": 81,
-  "deduped_item_count": 31,
+  "raw_item_count": 68,
+  "deduped_item_count": 25,
   "filtered_item_count": 2,
   "curated_item_count": 1,
   "curated_items": [
@@ -31,7 +31,7 @@
       "summary": "Docs and resources to help you build with, for, and on OpenAI.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-10-27T08:26:11.543481+08:00",
+      "published_at": "2026-10-27T09:27:31.774957+08:00",
       "source": "OpenAI Developers",
       "source_type": "official_doc",
       "source_quality": "high",
@@ -53,10 +53,10 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 50,
-    "history_duplicate": 15,
+    "duplicate": 43,
+    "history_duplicate": 10,
     "same_source_limit": 0,
-    "old_resource": 14,
+    "old_resource": 13,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-27T08:26:11.543481+08:00",
+  "generated_at": "2026-10-27T09:27:31.774957+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 163,
-    "history_size_after": 162,
-    "history_duplicate_count": 34
+    "history_size_before": 162,
+    "history_size_after": 164,
+    "history_duplicate_count": 31
   },
-  "raw_item_count": 4924,
-  "deduped_item_count": 3642,
-  "filtered_item_count": 330,
+  "raw_item_count": 4981,
+  "deduped_item_count": 3708,
+  "filtered_item_count": 321,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -78,36 +78,37 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 - Sohu",
-      "summary": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 Sohu",
+      "title": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation - Business Wire",
+      "summary": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation Business Wire",
       "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-10-26T11:04:03+08:00",
-      "source": "Sohu",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_productivity",
+      "summary_quality": "medium",
+      "published_at": "2026-10-26T23:14:00+08:00",
+      "source": "Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
-        "ai_transformation",
-        "autonomous_driving",
+        "agent",
+        "agentic_ai",
+        "ai_agent",
         "coding",
-        "org_productivity",
+        "coding_agent",
         "workflow_automation"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
-      "canonical_key": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
-      "score": 61,
+      "dedupe_key": "referralmd completes the referral with end to end ai powered workflow automation",
+      "canonical_key": "referralmd completes the referral with end to end ai powered workflow automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
+      "score": 59,
       "selection_reason": "required_productivity"
     },
     {
@@ -145,37 +146,29 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "title": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 - 虎嗅网",
+      "summary": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 虎嗅网",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-26T21:45:00+08:00",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "language": "en",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
+      "summary_quality": "low",
+      "published_at": "2026-10-25T10:44:49+08:00",
+      "source": "虎嗅网",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
       "source_quality": "",
       "is_official_source": false,
-      "tags": [
-        "company_research",
-        "official_report",
-        "ai_research"
-      ],
+      "tags": [],
       "topic_tags": [
-        "agent",
-        "ai_research",
-        "company_research",
-        "official_report",
-        "security"
+        "research"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
-      "canonical_key": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
-      "normalized_link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "score": 115,
-      "selection_reason": "fill_remaining_high_score"
+      "category": "研究论文",
+      "dedupe_key": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
+      "canonical_key": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
+      "score": 44,
+      "selection_reason": "china_quota"
     },
     {
       "title": "Anthropic details what stops Claude Duet from going rogue - Help Net Security",
@@ -213,14 +206,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1282,
-    "history_duplicate": 34,
-    "weak_relevance": 185,
+    "duplicate": 1273,
+    "history_duplicate": 31,
+    "weak_relevance": 182,
     "same_source_limit": 0,
-    "china_limit": 3,
+    "china_limit": 2,
     "auto_china_limit": 0,
-    "old_news": 3127,
-    "same_entity_limit": 120,
+    "old_news": 3205,
+    "same_entity_limit": 113,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
@@ -228,7 +221,6 @@
     "no_agent_candidate": 0,
     "no_productivity_candidate": 0,
     "no_company_research_candidate": 0,
-    "no_power_electronics_candidate": 0,
-    "source_limit_applied": 3
+    "no_power_electronics_candidate": 0
   }
 }
