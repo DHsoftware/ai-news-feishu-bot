@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T09:27:31.774957+08:00",
+  "updated_at": "2026-10-28T08:31:21.040693+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -40,256 +40,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-25",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "github copilot app for beginners how to build custom workflows with canvases",
-      "normalized_title": "github copilot app for beginners how to build custom workflows with canvases",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "summary": "Most tools give you a fixed set of screens and ask you to fit your work into them. But what if you could start with the workflow you want instead and have the interface take shape around it? That’s the idea behind canvases in the GitHub Copilot app . A canvas, also called a canvas extension, is a c…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "从ai工具到ai驱动 阿里云重构企业生产力与组织边界",
-      "normalized_title": "从ai工具到ai驱动 阿里云重构企业生产力与组织边界",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qT2lmcjRQV0ZyV0xVNTdabEZhRENhN0FwYnRjX0hIYllBVVlqSFM5YWZ5NGp0cVJ1OHJtV3F3dXpSM1EtZk9URQ?oc=5",
-      "title": "从AI工具到AI驱动，阿里云重构企业生产力与组织边界 - pingwest.com",
-      "summary": "从AI工具到AI驱动，阿里云重构企业生产力与组织边界 pingwest.com",
-      "source": "pingwest.com",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qT2lmcjRQV0ZyV0xVNTdabEZhRENhN0FwYnRjX0hIYllBVVlqSFM5YWZ5NGp0cVJ1OHJtV3F3dXpSM1EtZk9URQ?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "cloud",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "cloud",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "openai ceo exhorts critical government ai adoption in dc",
-      "normalized_title": "openai ceo exhorts critical government ai adoption in dc",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbWVZSGx5UlJkbW9wZm9EMGtLNmMtTUJ1NmJRNlMtdmVmSFo1d1NwNl8yMmJ4X3ppUmc2S1hVZHluQVF4ekxCVzlVN1lCejN0UTZtSnJsVVc2bmJnNWZrMjJTRHE5dGJTVXJzS3NOdzNKYUhzb05iWHF4UjdTSURaX0FoNHhvS0FaeXpKVDJkdmtQODdVT2RkVm5OdWtQYzFTOUF1MWVzZjdRVTR3dFlHTl96SXdsMy1QLXhKNnlIT0NPOVNHOXpqVF83M3lUdlV0X2lrWQ?oc=5",
-      "title": "OpenAI CEO exhorts ‘critical’ government AI adoption in DC - Nextgov/FCW",
-      "summary": "OpenAI CEO exhorts ‘critical’ government AI adoption in DC Nextgov/FCW",
-      "source": "Nextgov/FCW",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbWVZSGx5UlJkbW9wZm9EMGtLNmMtTUJ1NmJRNlMtdmVmSFo1d1NwNl8yMmJ4X3ppUmc2S1hVZHluQVF4ekxCVzlVN1lCejN0UTZtSnJsVVc2bmJnNWZrMjJTRHE5dGJTVXJzS3NOdzNKYUhzb05iWHF4UjdTSURaX0FoNHhvS0FaeXpKVDJkdmtQODdVT2RkVm5OdWtQYzFTOUF1MWVzZjdRVTR3dFlHTl96SXdsMy1QLXhKNnlIT0NPOVNHOXpqVF83M3lUdlV0X2lrWQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "ai直接下场砍价 智能体muse爆火 给出哪些新启示",
-      "normalized_title": "ai直接下场砍价 智能体muse爆火 给出哪些新启示",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWUdrN1g1OUtEenF1dU9ySkJhTDFZbkczdU5KYVBWQnZCWlU1c3ZWbDVRSm1aZE5waGx3QnhXVFExRS1HcFplQ21ONG9sdW5SdWRGTjZjYTBud1J0WjVXdQ?oc=5",
-      "title": "AI直接下场砍价！智能体Muse爆火，给出哪些新启示？ - thepaper.cn",
-      "summary": "AI直接下场砍价！智能体Muse爆火，给出哪些新启示？ thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hWUdrN1g1OUtEenF1dU9ySkJhTDFZbkczdU5KYVBWQnZCWlU1c3ZWbDVRSm1aZE5waGx3QnhXVFExRS1HcFplQ21ONG9sdW5SdWRGTjZjYTBud1J0WjVXdQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "improving site performance by shipping more css",
-      "normalized_title": "improving site performance by shipping more css",
-      "normalized_link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
-      "title": "Improving site performance by shipping more CSS",
-      "summary": "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios. Back in 2023, the number of components on certain pages…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "best keynote speakers on agentic ai futurist scott steinberg",
-      "normalized_title": "best keynote speakers on agentic ai futurist scott steinberg",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzNqWUVIMFFYOHdOdjYwSU0xNVN6Ti15eTJSNHRXQjhtajVOWUJQNXJYaTZwX25XQkJWWkFqVUtGdUpxZE1yWUZ3VzVJMzh5MGZ0eVM0N214WUZrYkx6U1ZXZklORmEwOHEySWlWdEQ3dWFucW02UVpNQ3BZb3phU0NjYzN4UQ?oc=5",
-      "title": "Best Keynote Speakers on Agentic AI Futurist Scott Steinberg - futuristsspeakers.com",
-      "summary": "Best Keynote Speakers on Agentic AI Futurist Scott Steinberg futuristsspeakers.com",
-      "source": "futuristsspeakers.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzNqWUVIMFFYOHdOdjYwSU0xNVN6Ti15eTJSNHRXQjhtajVOWUJQNXJYaTZwX25XQkJWWkFqVUtGdUpxZE1yWUZ3VzVJMzh5MGZ0eVM0N214WUZrYkx6U1ZXZklORmEwOHEySWlWdEQ3dWFucW02UVpNQ3BZb3phU0NjYzN4UQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-26",
-      "last_seen_date": "2026-09-26",
-      "canonical_key": "离谱 openai智能体攻击hugging face时 竟想叫deepseek kimi和qwen来帮忙",
-      "normalized_title": "离谱 openai智能体攻击hugging face时 竟想叫deepseek kimi和qwen来帮忙",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nZnlsWlBYRkM3QktZRFU1b0ctMkdsWmM1NVZqTVpNMVV3MTdYck84V3k2c2ZpQkREV1VfbmJ0LXVVOGJ1b29lLTc3MUY3Zw?oc=5",
-      "title": "离谱！OpenAI智能体攻击Hugging Face时，竟想叫DeepSeek、Kimi和Qwen来帮忙 - 36氪",
-      "summary": "离谱！OpenAI智能体攻击Hugging Face时，竟想叫DeepSeek、Kimi和Qwen来帮忙 36氪",
-      "source": "36氪",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nZnlsWlBYRkM3QktZRFU1b0ctMkdsWmM1NVZqTVpNMVV3MTdYck84V3k2c2ZpQkREV1VfbmJ0LXVVOGJ1b29lLTc3MUY3Zw?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-27",
@@ -2454,7 +2204,7 @@
     },
     {
       "first_seen_date": "2026-10-08",
-      "last_seen_date": "2026-10-08",
+      "last_seen_date": "2026-10-27",
       "canonical_key": "navitas 2 0 breaking the ai infrastructure power wall",
       "normalized_title": "navitas 2 0 breaking the ai infrastructure power wall",
       "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTnRVWTV0aldfUmR4eXg4bDRwa3RmUkZkcmp4RUkxSjVZTV8yc0txZEZleDRnM0hwNV9TU1gyY0tSdko5MnkxOGNzRmNKcXFMVEQtT1JZNHNWdjczZXBJRXpYQlZFV0oyWXl4UUQyenhfaXg1TFcwSkQxdGdkTFE?oc=5",
@@ -2483,7 +2233,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-08",
@@ -6023,6 +5773,165 @@
         ],
         "topics": [
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-27",
+      "canonical_key": "retell uses openai models to help power 100m monthly calls",
+      "normalized_title": "retell uses openai models to help power 100m monthly calls",
+      "normalized_link": "https://openai.com/index/retell-ai",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/retell-ai",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "benchmark",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "benchmark",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-27",
+      "canonical_key": "pietra e commerce operations platform ai workflows product sourcing",
+      "normalized_title": "pietra e commerce operations platform ai workflows product sourcing",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
+      "title": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing - Quasa.io",
+      "summary": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing Quasa.io",
+      "source": "Quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-27",
+      "canonical_key": "算力 芯 动向 anthropic招股书撕开算力账单 高端ai芯片需求的强信号 藏在长约里",
+      "normalized_title": "算力 芯 动向 anthropic招股书撕开算力账单 高端ai芯片需求的强信号 藏在长约里",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Sdy1Ka05LNmV0Qjk3TF9aejB6U095eUp3M25sbjlSY2hKN0lfMUhFdlFNZllnVnZxOGtRWUZGRkRvNElJVVJSN2I3cWtJOVJVT2NrTDdvQUxrcEU?oc=5",
+      "title": "算力 “芯” 动向｜Anthropic招股书撕开算力账单：高端AI芯片需求的强信号，藏在长约里 - www.doit.com.cn",
+      "summary": "算力 “芯” 动向｜Anthropic招股书撕开算力账单：高端AI芯片需求的强信号，藏在长约里 www.doit.com.cn",
+      "source": "www.doit.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Sdy1Ka05LNmV0Qjk3TF9aejB6U095eUp3M25sbjlSY2hKN0lfMUhFdlFNZllnVnZxOGtRWUZGRkRvNElJVVJSN2I3cWtJOVJVT2NrTDdvQUxrcEU?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-27",
+      "canonical_key": "oracle adds openai s chatgpt codex to business apps expands cloud infra chip roster",
+      "normalized_title": "oracle adds openai s chatgpt codex to business apps expands cloud infra chip roster",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV1JlNXpZb3BqV2FqQVNNcnF0Qmw4OUpMeVhJRHZ3bnEwUGVKVjB3N2UtTDdkS1Bpa052c3pMZ0s4Ulo1anZ4QklldDlwQUUxelcyZldhejRjalFwQUQtbDkzZ0N3ZUwtRlNVV25ha0tBRXhPTzY1c1dKSlBYdmhHQjl1MW54QkFsYXptcTZxTUlOWmlSY0lQWXFaUDhMVDlpSzVnZUg4NkRVeld2TkR4UnJZY1RBQy1FdUFBVzRWUjM1ZjRpTlhaMtIB0AFBVV95cUxNak5lclZaS0lFZE9kUk5VN0Zka21tUXJPYXgwNkx4MmFlNUV5Vkw1TUpvVnpEQmREVFdMVHBaMmltTFJ5cjhvMEZkbnVEa1hwSTBEYl92aHBONVpSMC1COHdsbDRVRmxHNmtoeW8xQ2FZdHJxU1phSnRLLVpOUlBjYTdpelFqM1FadzdCVXZHR3VqZXphOW9QaUpfVUR6YnJOd0p1V1lUT3EzLVMwM0dlSVJvZEQzbUVzUTFodkJNY0RESjgyM2FGRGg2eE45MDhU?oc=5",
+      "title": "Oracle Adds OpenAI's ChatGPT, Codex To Business Apps; Expands Cloud Infra Chip Roster - NDTV Profit",
+      "summary": "Oracle Adds OpenAI's ChatGPT, Codex To Business Apps; Expands Cloud Infra Chip Roster NDTV Profit",
+      "source": "NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV1JlNXpZb3BqV2FqQVNNcnF0Qmw4OUpMeVhJRHZ3bnEwUGVKVjB3N2UtTDdkS1Bpa052c3pMZ0s4Ulo1anZ4QklldDlwQUUxelcyZldhejRjalFwQUQtbDkzZ0N3ZUwtRlNVV25ha0tBRXhPTzY1c1dKSlBYdmhHQjl1MW54QkFsYXptcTZxTUlOWmlSY0lQWXFaUDhMVDlpSzVnZUg4NkRVeld2TkR4UnJZY1RBQy1FdUFBVzRWUjM1ZjRpTlhaMtIB0AFBVV95cUxNak5lclZaS0lFZE9kUk5VN0Zka21tUXJPYXgwNkx4MmFlNUV5Vkw1TUpvVnpEQmREVFdMVHBaMmltTFJ5cjhvMEZkbnVEa1hwSTBEYl92aHBONVpSMC1COHdsbDRVRmxHNmtoeW8xQ2FZdHJxU1phSnRLLVpOUlBjYTdpelFqM1FadzdCVXZHR3VqZXphOW9QaUpfVUR6YnJOd0p1V1lUT3EzLVMwM0dlSVJvZEQzbUVzUTFodkJNY0RESjgyM2FGRGg2eE45MDhU?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "cloud",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "expand",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "cloud",
+          "cloud_platform",
+          "codex",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
