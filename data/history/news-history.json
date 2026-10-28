@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:31:21.040693+08:00",
+  "updated_at": "2026-10-28T09:17:42.452183+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -2233,7 +2233,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-08",
@@ -5821,7 +5821,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-27",
@@ -5887,7 +5887,7 @@
           "chip"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-27",
@@ -5932,6 +5932,39 @@
           "codex",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-27",
+      "canonical_key": "张祺 博士 dr qi zhang",
+      "normalized_title": "张祺 博士 dr qi zhang",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
+      "title": "张祺 博士 (Dr. Qi Zhang) - Microsoft Source",
+      "summary": "张祺 博士 (Dr. Qi Zhang) Microsoft Source",
+      "source": "Microsoft Source",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1

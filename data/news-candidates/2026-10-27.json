@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generated_at": "2026-10-28T08:31:21.040693+08:00",
+  "generated_at": "2026-10-28T09:17:42.452183+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 164,
-    "history_size_after": 161,
-    "history_duplicate_count": 51
+    "history_size_before": 161,
+    "history_size_after": 162,
+    "history_duplicate_count": 48
   },
-  "raw_item_count": 4991,
-  "deduped_item_count": 3712,
-  "filtered_item_count": 428,
+  "raw_item_count": 4955,
+  "deduped_item_count": 3661,
+  "filtered_item_count": 418,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -78,37 +78,34 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing - Quasa.io",
-      "summary": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing Quasa.io",
+      "title": "张祺 博士 (Dr. Qi Zhang) - Microsoft Source",
+      "summary": "张祺 博士 (Dr. Qi Zhang) Microsoft Source",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-27T23:44:41+08:00",
-      "source": "Quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
-      "language": "en",
-      "region": "global",
-      "source_group": "ai_agent",
+      "summary_quality": "low",
+      "published_at": "2026-10-26T11:42:05+08:00",
+      "source": "Microsoft Source",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
+      "language": "zh",
+      "region": "china",
+      "source_group": "ai_productivity",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "ai_agent",
-        "agentic_ai",
-        "coding_agent"
-      ],
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
+        "org_productivity",
+        "ai_transformation",
         "workflow_automation"
       ],
-      "category": "AI编程工具",
-      "dedupe_key": "pietra e commerce operations platform ai workflows product sourcing",
-      "canonical_key": "pietra e commerce operations platform ai workflows product sourcing",
-      "normalized_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
-      "score": 59,
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "category": "AI组织提效",
+      "dedupe_key": "张祺 博士 dr qi zhang",
+      "canonical_key": "张祺 博士 dr qi zhang",
+      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
+      "score": 70,
       "selection_reason": "required_productivity"
     },
     {
@@ -206,14 +203,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1279,
-    "history_duplicate": 51,
-    "weak_relevance": 202,
+    "duplicate": 1294,
+    "history_duplicate": 48,
+    "weak_relevance": 199,
     "same_source_limit": 0,
-    "china_limit": 0,
-    "auto_china_limit": 3,
-    "old_news": 3082,
-    "same_entity_limit": 134,
+    "china_limit": 3,
+    "auto_china_limit": 0,
+    "old_news": 3044,
+    "same_entity_limit": 131,
     "similar_selected": 0,
     "company_research_limit": 3,
     "auto_driving_limit": 0,
