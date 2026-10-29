@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T08:57:34.827271+08:00",
+  "updated_at": "2026-10-29T09:46:52.339215+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5584,7 +5584,7 @@
           "official_report"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-27",
@@ -5862,6 +5862,142 @@
           "coding",
           "coding_agent",
           "terminal"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "alex lavaee",
+      "normalized_title": "alex lavaee",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53bVQxdDlHUjNCbi00ZTk3bGxJV3FpNk82eUZNbnZaWXRRUnlVVVhUXzhrN3ZFTGNNYlBCRFlMcmV3d0NsSENvQlRndmRzSENnZE44Mm15U3J2RjZaYm1CcGlpUDltVmVhXzN3?oc=5",
+      "title": "Alex Lavaee - Microsoft",
+      "summary": "Alex Lavaee Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53bVQxdDlHUjNCbi00ZTk3bGxJV3FpNk82eUZNbnZaWXRRUnlVVVhUXzhrN3ZFTGNNYlBCRFlMcmV3d0NsSENvQlRndmRzSENnZE44Mm15U3J2RjZaYm1CcGlpUDltVmVhXzN3?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "simspace highlights cyber simulations for gcc ai agent testing",
+      "normalized_title": "simspace highlights cyber simulations for gcc ai agent testing",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRE15UGd0eU1OMGRJazE4eWVrU092aU1kaF9XaW93aUd1eTBEbDlsODRQQ2Qydk9Jd0NkOUowcEhFcmNtSWt2dXdGLUdzZUJfbGxiU1haWnR1djBOeTlqdG9pQ3c3eVI2cTJvazA4Smp3OHROZFhrWFJhQmJ3QXRRdmlpVFVWYjlQTUZ2X1ZpQXUwcTFYdDZzemZfblNhZXV3cGpQcHRmM2ZVcmdGdjBWMU1JMk15UExJaDREQ3lKVVM?oc=5",
+      "title": "SimSpace highlights cyber simulations for GCC AI agent testing - MSSP Alert",
+      "summary": "SimSpace highlights cyber simulations for GCC AI agent testing MSSP Alert",
+      "source": "MSSP Alert",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRE15UGd0eU1OMGRJazE4eWVrU092aU1kaF9XaW93aUd1eTBEbDlsODRQQ2Qydk9Jd0NkOUowcEhFcmNtSWt2dXdGLUdzZUJfbGxiU1haWnR1djBOeTlqdG9pQ3c3eVI2cTJvazA4Smp3OHROZFhrWFJhQmJ3QXRRdmlpVFVWYjlQTUZ2X1ZpQXUwcTFYdDZzemZfblNhZXV3cGpQcHRmM2ZVcmdGdjBWMU1JMk15UExJaDREQ3lKVVM?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "simulation_optimization"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "simulation_optimization"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "legora 正在打造面向法律工作的智能体操作系统",
+      "normalized_title": "legora 正在打造面向法律工作的智能体操作系统",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNbjQ3VHgzUnBVd2RmWElJRG15Z1FGQ3JGZkF2bUExX1JsUUkxWElHOVJMa1RROUFuN09CZHZjaW9aZFBxUVpZRDQ4R2NyUk1iVm83VmxB?oc=5",
+      "title": "Legora 正在打造面向法律工作的智能体操作系统 - OpenAI",
+      "summary": "Legora 正在打造面向法律工作的智能体操作系统 OpenAI",
+      "source": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNbjQ3VHgzUnBVd2RmWElJRG15Z1FGQ3JGZkF2bUExX1JsUUkxWElHOVJMa1RROUFuN09CZHZjaW9aZFBxUVpZRDQ4R2NyUk1iVm83VmxB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "ai编程能力改变招聘标准 anthropic招聘负责人取消传统编程面试",
+      "normalized_title": "ai编程能力改变招聘标准 anthropic招聘负责人取消传统编程面试",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LMkVzV19RTGxMcnF1M1NjYm93ME4tcnJ0ejJNQ2NWaGdIZWttcGEyNEpzUGdYdlg1OGk2QmtRVVgxZlNKOG9YbUI5TmRXUQ?oc=5",
+      "title": "AI编程能力改变招聘标准，Anthropic招聘负责人取消传统编程面试 - AIBase",
+      "summary": "AI编程能力改变招聘标准，Anthropic招聘负责人取消传统编程面试 AIBase",
+      "source": "AIBase",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LMkVzV19RTGxMcnF1M1NjYm93ME4tcnJ0ejJNQ2NWaGdIZWttcGEyNEpzUGdYdlg1OGk2QmtRVVgxZlNKOG9YbUI5TmRXUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "coding"
         ]
       },
       "seen_count": 1

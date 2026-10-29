@@ -1,11 +1,11 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-29T08:57:34.827271+08:00",
+  "generated_at": "2026-10-29T09:46:52.339215+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 14,
-    "failed_count": 8
+    "success_count": 20,
+    "failed_count": 2
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -17,44 +17,17 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 13,
+    "history_size_before": 14,
     "history_size_after": 14,
     "history_duplicate_count": 11
   },
-  "raw_item_count": 72,
-  "deduped_item_count": 24,
-  "filtered_item_count": 1,
-  "curated_item_count": 1,
-  "curated_items": [
-    {
-      "title": "Better Sources, Better Presentations | Hebbia on Astra",
-      "summary": "Hebbia’s Kavita Anand explains two areas where Astra improved in the company’s evaluations: selecting the right sources and generating PowerPoint presentations. For bankers and investors working through thousands of documents, both help turn research into information they can use.",
-      "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-10-27T22:50:21+08:00",
-      "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/shorts/uhpS6vfhrH8",
-      "language": "en",
-      "region": "global",
-      "source_group": "youtube",
-      "source_type": "official_video",
-      "source_quality": "high",
-      "is_official_source": true,
-      "tags": [
-        "agent",
-        "agent_evaluation",
-        "cli",
-        "codex"
-      ],
-      "concept_hint": "Agent Evaluation",
-      "score": 26,
-      "canonical_key": "better sources better presentations",
-      "dedupe_key": "better sources better presentations",
-      "selection_reason": "learning_high_score"
-    }
-  ],
+  "raw_item_count": 65,
+  "deduped_item_count": 23,
+  "filtered_item_count": 0,
+  "curated_item_count": 0,
+  "curated_items": [],
   "rejected_stats": {
-    "duplicate": 48,
+    "duplicate": 42,
     "history_duplicate": 11,
     "same_source_limit": 0,
     "old_resource": 12,
