@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T09:17:42.452183+08:00",
+  "updated_at": "2026-10-29T08:57:34.827271+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -526,6 +526,43 @@
           "agent_workflow",
           "cli",
           "codex"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "better sources better presentations",
+      "normalized_title": "better sources better presentations",
+      "normalized_link": "https://www.youtube.com/shorts/uhpS6vfhrH8",
+      "title": "Better Sources, Better Presentations | Hebbia on Astra",
+      "summary": "Hebbia’s Kavita Anand explains two areas where Astra improved in the company’s evaluations: selecting the right sources and generating PowerPoint presentations. For bankers and investors working through thousands of documents, both help turn research into information they can use.",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/uhpS6vfhrH8",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Agent Evaluation",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "agent_evaluation",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agent_evaluation",
+          "cli",
+          "codex",
+          "research"
         ]
       },
       "seen_count": 1

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T09:17:42.452183+08:00",
+  "updated_at": "2026-10-29T08:57:34.827271+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -40,243 +40,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "openai pauses training of its most capable models",
-      "normalized_title": "openai pauses training of its most capable models",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "summary": "As reports of OpenAI's models breaking containment , hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "chip",
-          "incident",
-          "inference"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "gwanak gu develops workflow automation program through employee club innovation ai club",
-      "normalized_title": "gwanak gu develops workflow automation program through employee club innovation ai club",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVUUR2dUw5ZTdYLUhsZUsxTXZxNHJDMVRQTFJwMzkzZGM5YnZ1bjA0dzI1V0JvcnhSUnRHRXVuVGRwWG1OVFp6RlVaWURRQkVkNVBGdW5RanpkVmJVOEtDTzZUT0o?oc=5",
-      "title": "Gwanak-gu Develops Workflow Automation Program Through Employee Club 'Innovation AI Club' - 아시아경제",
-      "summary": "Gwanak-gu Develops Workflow Automation Program Through Employee Club 'Innovation AI Club' 아시아경제",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVUUR2dUw5ZTdYLUhsZUsxTXZxNHJDMVRQTFJwMzkzZGM5YnZ1bjA0dzI1V0JvcnhSUnRHRXVuVGRwWG1OVFp6RlVaWURRQkVkNVBGdW5RanpkVmJVOEtDTzZUT0o?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "ai after the dc summit ramageddon takes center stage ai rtz 1222",
-      "normalized_title": "ai after the dc summit ramageddon takes center stage ai rtz 1222",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZlpFYkZ5WDZyWE9sZXE4QjAzMlA4eDFZOVJfWlc1X0xIMEoweVNaQU8yWnJHN25jMk5RTGVCNV9BV2JPUkhpQ1E4QURSVkFGS2xaZ0l3TjFfRkhKVDNDdFRBeGZSY25EVm91N0w3NURLM0J3ZFNtSUlB?oc=5",
-      "title": "AI: After the DC Summit, ‘RAMageddon’ Takes Center Stage. AI-RTZ #1222 - AI: Reset to Zero",
-      "summary": "AI: After the DC Summit, ‘RAMageddon’ Takes Center Stage. AI-RTZ #1222 AI: Reset to Zero",
-      "source": "AI: Reset to Zero",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZlpFYkZ5WDZyWE9sZXE4QjAzMlA4eDFZOVJfWlc1X0xIMEoweVNaQU8yWnJHN25jMk5RTGVCNV9BV2JPUkhpQ1E4QURSVkFGS2xaZ0l3TjFfRkhKVDNDdFRBeGZSY25EVm91N0w3NURLM0J3ZFNtSUlB?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "introducing nv reason ct open 3d ct vlm for radiologist chain of",
-      "normalized_title": "introducing nv reason ct open 3d ct vlm for radiologist chain of",
-      "normalized_link": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning",
-      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and... Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "openai再曝大模型越界行为 盖茨加入ai安全论战 足以导致 十亿人死亡",
-      "normalized_title": "openai再曝大模型越界行为 盖茨加入ai安全论战 足以导致 十亿人死亡",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HN09LRHNVRTAyb1RIUHRrMWNxR3gydUVTN1g3NXpkOUpPcTRUNjdFLWlhTm93ZzJvNmdyR3Y5eW9FUFQ1Z08xRA?oc=5",
-      "title": "OpenAI再曝大模型越界行为！盖茨加入AI安全论战：足以导致“十亿人死亡” - 财联社",
-      "summary": "OpenAI再曝大模型越界行为！盖茨加入AI安全论战：足以导致“十亿人死亡” 财联社",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HN09LRHNVRTAyb1RIUHRrMWNxR3gydUVTN1g3NXpkOUpPcTRUNjdFLWlhTm93ZzJvNmdyR3Y5eW9FUFQ1Z08xRA?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "llm",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm",
-          "model_capability",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "微软统一copilot应用正式发布 一个入口打通四大ai模式 企业工作方式迎来彻底重塑",
-      "normalized_title": "微软统一copilot应用正式发布 一个入口打通四大ai模式 企业工作方式迎来彻底重塑",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GZy14ek0wMTFQT1RaQlBCdnllUjNseElPY242NGxtdXVTYnBTZnBHbXlPaDBaNEtBb0pHRjdESHB0dTBtYld0RGxXLTNkS3hEYzJsOTZMR0lTRzFvMUFhakVDSUhqZw?oc=5",
-      "title": "微软统一Copilot应用正式发布：一个入口打通四大AI模式，企业工作方式迎来彻底重塑 - blog.csdn.net",
-      "summary": "微软统一Copilot应用正式发布：一个入口打通四大AI模式，企业工作方式迎来彻底重塑 blog.csdn.net",
-      "source": "blog.csdn.net",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GZy14ek0wMTFQT1RaQlBCdnllUjNseElPY242NGxtdXVTYnBTZnBHbXlPaDBaNEtBb0pHRjdESHB0dTBtYld0RGxXLTNkS3hEYzJsOTZMR0lTRzFvMUFhakVDSUhqZw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-27",
-      "last_seen_date": "2026-09-27",
-      "canonical_key": "bill gates warns ai could be used to trigger a billion deaths urges regulation",
-      "normalized_title": "bill gates warns ai could be used to trigger a billion deaths urges regulation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTmJITU1Pd1hwdE5EV0NzUVBqOWRKLV9iVUJ1NGxqclJ1LXBieTFla000a19xQ0l1TS1YWHZrVEhmMlpIaTY5cUVPbUE2RFdlSzdHaUJtMVltWTFNWk1QUjYwZ216NV9zZURSb1g0NzRmeUZqUy1JUXJUZkRsM24zd1pHQnZMTXZXaS1YdEp6WEljYXctTFNBTGxVQ0xlZE9jdVVGeXVsUVY2Qm5BSmljLWZMWWp5R0dr?oc=5",
-      "title": "Bill Gates warns AI could be used to trigger 'a billion deaths,' urges regulation - WCIV",
-      "summary": "Bill Gates warns AI could be used to trigger 'a billion deaths,' urges regulation WCIV",
-      "source": "WCIV",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTmJITU1Pd1hwdE5EV0NzUVBqOWRKLV9iVUJ1NGxqclJ1LXBieTFla000a19xQ0l1TS1YWHZrVEhmMlpIaTY5cUVPbUE2RFdlSzdHaUJtMVltWTFNWk1QUjYwZ216NV9zZURSb1g0NzRmeUZqUy1JUXJUZkRsM24zd1pHQnZMTXZXaS1YdEp6WEljYXctTFNBTGxVQ0xlZE9jdVVGeXVsUVY2Qm5BSmljLWZMWWp5R0dr?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "regulation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "policy_regulation",
-          "power_electronics",
-          "regulation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-28",
@@ -5779,7 +5542,7 @@
     },
     {
       "first_seen_date": "2026-10-27",
-      "last_seen_date": "2026-10-27",
+      "last_seen_date": "2026-10-28",
       "canonical_key": "retell uses openai models to help power 100m monthly calls",
       "normalized_title": "retell uses openai models to help power 100m monthly calls",
       "normalized_link": "https://openai.com/index/retell-ai",
@@ -5821,7 +5584,7 @@
           "official_report"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-27",
@@ -5965,6 +5728,140 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "creating ai value with enterprise context",
+      "normalized_title": "creating ai value with enterprise context",
+      "normalized_link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "title": "Creating AI value with enterprise context",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the out…",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "category": "AI工作流自动化",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "pairing industrial ai autonomy and human control",
+      "normalized_title": "pairing industrial ai autonomy and human control",
+      "normalized_link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+      "title": "Pairing industrial AI autonomy and human control",
+      "summary": "Living digital twins are helping industrial plants run more like living systems, and setting the stage for industries that work in sync.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "digital_twin"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "digital_twin"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "thin light and built for everything nvidia rtx spark windows laptops gain new models agent tools and games",
+      "normalized_title": "thin light and built for everything nvidia rtx spark windows laptops gain new models agent tools and games",
+      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip w…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "availability",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-28",
+      "canonical_key": "introducing the microsoft copilot harness unlocking the potential of truly multi",
+      "normalized_title": "introducing the microsoft copilot harness unlocking the potential of truly multi",
+      "normalized_link": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work",
+      "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+      "summary": "If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, qua…",
+      "source": "The Official Microsoft Blog",
+      "link": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "github",
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "terminal"
         ]
       },
       "seen_count": 1
