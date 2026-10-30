@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T09:00:06.967086+08:00",
+  "updated_at": "2026-10-30T09:55:34.072672+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5598,7 +5598,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-28",
@@ -5808,7 +5808,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-29",
@@ -5841,7 +5841,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-29",
@@ -5901,6 +5901,75 @@
         "entities": [
           "google",
           "nvidia",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "芯片设计中的左移 数字孪生 ai智能体与信任缺口 新闻和统计",
+      "normalized_title": "芯片设计中的左移 数字孪生 ai智能体与信任缺口 新闻和统计",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbjZkN1hORHk4bmNkX1pHYkhtWVVVUHh3bTZyTU1HZmwwUUktUjBadVcweHRDeE5CbG8xZnREeWF0NUw4Nll6WmR6VndCMnE1b0tBN2VpVndGUVVIMWRNRVZ5NVVVLUNvUWhpTi11dnM4VzBweWh0TnZXM0xseHdaLUlib1FScG5sajBzYkRCR3psTWl5RktERDQwcFEtbkdDMDkzdGp1OTVPQjFUMzkzVUZkVzRCYlRXVzI4?oc=5",
+      "title": "芯片设计中的左移：数字孪生、AI智能体与信任缺口 - 新闻和统计 - IndexBox",
+      "summary": "芯片设计中的左移：数字孪生、AI智能体与信任缺口 - 新闻和统计 IndexBox",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbjZkN1hORHk4bmNkX1pHYkhtWVVVUHh3bTZyTU1HZmwwUUktUjBadVcweHRDeE5CbG8xZnREeWF0NUw4Nll6WmR6VndCMnE1b0tBN2VpVndGUVVIMWRNRVZ5NVVVLUNvUWhpTi11dnM4VzBweWh0TnZXM0xseHdaLUlib1FScG5sajBzYkRCR3psTWl5RktERDQwcFEtbkdDMDkzdGp1OTVPQjFUMzkzVUZkVzRCYlRXVzI4?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "chip",
+        "dcdc",
+        "digital_twin",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "chip",
+          "dcdc",
+          "digital_twin",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "消息称openai计划购买谷歌的ai芯片 此前已租用",
+      "normalized_title": "消息称openai计划购买谷歌的ai芯片 此前已租用",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83XzMySXJ5cTlSVDlKakpINFdUQ1JRWkJEcmRUTldWTl9TRmdLREw4cDRWSTZjUm5reWNIYzZ6c2kybjMtOURXMHczYWZJM1V6ZlE?oc=5",
+      "title": "消息称OpenAI计划购买谷歌的AI芯片，此前已租用 - 凤凰网",
+      "summary": "消息称OpenAI计划购买谷歌的AI芯片，此前已租用 凤凰网",
+      "source": "凤凰网",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83XzMySXJ5cTlSVDlKakpINFdUQ1JRWkJEcmRUTldWTl9TRmdLREw4cDRWSTZjUm5reWNIYzZ6c2kybjMtOURXMHczYWZJM1V6ZlE?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "google",
           "openai"
         ],
         "products": [],
