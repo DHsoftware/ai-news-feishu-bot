@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T09:46:52.339215+08:00",
+  "updated_at": "2026-10-30T09:00:06.967086+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -43,118 +43,6 @@
     },
     {
       "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "how we found 24 android vulnerabilities using our open source ai security agent",
-      "normalized_title": "how we found 24 android vulnerabilities using our open source ai security agent",
-      "normalized_link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "summary": "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effective for their work. In this blog post, I’ll share how I created auditing task…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "llm",
-        "opensource",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "llm",
-          "opensource",
-          "research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "openai discloses dozens of institutions hit by improper ai agent activity",
-      "normalized_title": "openai discloses dozens of institutions hit by improper ai agent activity",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzBRdDFuRTUyaE5sb3F0c2RwbHhEcjNfeGNONDkyTUtmak5TamdrTG04MWpDOFdueTZ0RG4xbV9aUmhzZ2tPanM2ckZfYnRDeURITnNTam9KV280VUVtM1hWMTBiNmRQdW5pSkpmaHVLZjdrcHBCekdIZEQzOFhNRjZRVEpKVVB5eUxkQzczNXpRS0hFXzliNFRjQ3V5WjdxM2E5czlKaGJsVDQ?oc=5",
-      "title": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity - CDO Magazine",
-      "summary": "OpenAI Discloses Dozens of Institutions Hit by Improper AI Agent Activity CDO Magazine",
-      "source": "CDO Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzBRdDFuRTUyaE5sb3F0c2RwbHhEcjNfeGNONDkyTUtmak5TamdrTG04MWpDOFdueTZ0RG4xbV9aUmhzZ2tPanM2ckZfYnRDeURITnNTam9KV280VUVtM1hWMTBiNmRQdW5pSkpmaHVLZjdrcHBCekdIZEQzOFhNRjZRVEpKVVB5eUxkQzczNXpRS0hFXzliNFRjQ3V5WjdxM2E5czlKaGJsVDQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "singapore s finance firms to train 80 000 staff in ai skills",
-      "normalized_title": "singapore s finance firms to train 80 000 staff in ai skills",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
-      "title": "Singapore’s finance firms to train 80,000 staff in AI skills - The Malaysian Reserve",
-      "summary": "Singapore’s finance firms to train 80,000 staff in AI skills The Malaysian Reserve",
-      "source": "The Malaysian Reserve",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLU0tSW40NDFhR2ZwSnZ5Z2pBeXVlTkh4RXlJT293YnBuU2d1V3o2enBGYmFtczRrQWRYSEdEOWFLTjNCTkNFUG9kNV9FRnMtNk9ENnFEUms1U1V1d1JZb2ZiMzFKSGllSHd6VmlRQV9nT0dzUzNWQlh5WmVfeTlwNlhkUC13S0hnbXVwbmZPcnBXRWZLUkZhd2RoTTJ3TFdMRG8xZw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-28",
       "last_seen_date": "2026-09-30",
       "canonical_key": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
       "normalized_title": "nvidia 发布开放智能体安全平台 保障智能体从测试到部署全流程安全",
@@ -194,121 +82,6 @@
         ]
       },
       "seen_count": 5
-    },
-    {
-      "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
-      "normalized_title": "英伟达发布开放智能体安全平台 全流程防止ai智能体 失控",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
-      "title": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” - thepaper.cn",
-      "summary": "英伟达发布开放智能体安全平台，全流程防止AI智能体“失控” thepaper.cn",
-      "source": "thepaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90Z05hTXZ6OFFNT2J4eW5WRkpLN2NldUUwYXJHVmQ4RjBmY1dQa1hROUdDd2ItTkFnZE0zc0RYSi01bjNqcGJfWE9UVXRnLXJjc0ZZUGF4OGcxQ3p6bi1Meg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research",
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
-      "normalized_title": "英飞凌推出ai加速器双相功率芯片 支持 vpd 垂直供电架构",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
-      "title": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 - 搜狐网",
-      "summary": "英飞凌推出AI加速器双相功率芯片，支持 VPD 垂直供电架构 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX2lhTl9neHRhRUotTmF1cVlhSnJtMzRqNWJQOTFJTkdzMk9LV3BuV0J6TnQ5dzhDTDg3MnRuYVFrRGdieGRkUkpDd1dERE4yel81Y3B6VWV1TlgydlJBQ2NySGFQQ2huNG53OFVJaVRaTkZVOHRvV1ZQd2xoa245aUpPUHJfQ2pLMThIbw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-28",
-      "last_seen_date": "2026-09-28",
-      "canonical_key": "efficient moe training for biological foundation models",
-      "normalized_title": "efficient moe training for biological foundation models",
-      "normalized_link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
-      "title": "Efficient MoE Training for Biological Foundation Models",
-      "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding... As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through e…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-29",
@@ -5788,7 +5561,7 @@
     },
     {
       "first_seen_date": "2026-10-28",
-      "last_seen_date": "2026-10-28",
+      "last_seen_date": "2026-10-29",
       "canonical_key": "thin light and built for everything nvidia rtx spark windows laptops gain new models agent tools and games",
       "normalized_title": "thin light and built for everything nvidia rtx spark windows laptops gain new models agent tools and games",
       "normalized_link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
@@ -5825,7 +5598,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-28",
@@ -5998,6 +5771,142 @@
         "actions": [],
         "topics": [
           "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "serval s jake stauch says code agents will beat servicenow and the guardrails are the business",
+      "normalized_title": "serval s jake stauch says code agents will beat servicenow and the guardrails are the business",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3MzY0dHFJYzIwT2pId1BTc29ZUE9fUVlMdllPeHNuWktFN1RkQXZpazJlS2twVXZhNS13TmFFWEpnZDdxbEFIOVBRdXBsVUFlOVB6OGpDTlVSNGc?oc=5",
+      "title": "Serval's Jake Stauch Says Code Agents Will Beat ServiceNow, and the Guardrails Are the Business - BigGo Finance",
+      "summary": "Serval's Jake Stauch Says Code Agents Will Beat ServiceNow, and the Guardrails Are the Business BigGo Finance",
+      "source": "BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3MzY0dHFJYzIwT2pId1BTc29ZUE9fUVlMdllPeHNuWktFN1RkQXZpazJlS2twVXZhNS13TmFFWEpnZDdxbEFIOVBRdXBsVUFlOVB6OGpDTlVSNGc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding_agent",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding_agent",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "unlocking tensor core performance for machine learning interatomic potentials",
+      "normalized_title": "unlocking tensor core performance for machine learning interatomic potentials",
+      "normalized_link": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials",
+      "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+      "summary": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These... Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "ai智能体究竟有哪些值得警惕之处 以及我们如何重获人类的自主主导权",
+      "normalized_title": "ai智能体究竟有哪些值得警惕之处 以及我们如何重获人类的自主主导权",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tcWJfYWlXTi15WXA3aWdyYlJKM2g0VjlNSDNNMHBQMy1hclJsNllyaUNaR21nZW1YY0FYY3otS19DdUlianFmSFV1UjYyTDdxS013RDlNR1NfbHZmMVhpeA?oc=5",
+      "title": "AI智能体究竟有哪些值得警惕之处，以及我们如何重获人类的自主主导权 - ThePaper.cn",
+      "summary": "AI智能体究竟有哪些值得警惕之处，以及我们如何重获人类的自主主导权 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tcWJfYWlXTi15WXA3aWdyYlJKM2g0VjlNSDNNMHBQMy1hclJsNllyaUNaR21nZW1YY0FYY3otS19DdUlianFmSFV1UjYyTDdxS013RDlNR1NfbHZmMVhpeA?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "openai据悉计划采购谷歌ai芯片 进一步降低对英伟达的依赖",
+      "normalized_title": "openai据悉计划采购谷歌ai芯片 进一步降低对英伟达的依赖",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTE9FSzljVkR6aDl4U2c1dWtkcjZWQkVaMGlJOGJjc0RocnVmTVRQNFlRUS1BVklNS092bDU5anFPMXk3Q3JiV2dXS3hETDNsSEhLSG9pZ3V5VXdUSE52NzE3cVVXeHU4bG83QzRoUUJoTzROaDRVcGVaajJKVVdSd09zNkszU2xfS04wLTFYSExVWHpQd0hmaTJVaHlOUjVUQy1odUp6MEJaUW9GVE9sMm44Tlc4YXA3YnZxSFBmY1VyZDh4bTM4YXJ5T281cW5CNlN5Q0ZLbnBNUllN?oc=5",
+      "title": "OpenAI据悉计划采购谷歌AI芯片，进一步降低对英伟达的依赖 - 新浪财经",
+      "summary": "OpenAI据悉计划采购谷歌AI芯片，进一步降低对英伟达的依赖 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTE9FSzljVkR6aDl4U2c1dWtkcjZWQkVaMGlJOGJjc0RocnVmTVRQNFlRUS1BVklNS092bDU5anFPMXk3Q3JiV2dXS3hETDNsSEhLSG9pZ3V5VXdUSE52NzE3cVVXeHU4bG83QzRoUUJoTzROaDRVcGVaajJKVVdSd09zNkszU2xfS04wLTFYSExVWHpQd0hmaTJVaHlOUjVUQy1odUp6MEJaUW9GVE9sMm44Tlc4YXA3YnZxSFBmY1VyZDh4bTM4YXJ5T281cW5CNlN5Q0ZLbnBNUllN?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "google",
+          "nvidia",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1

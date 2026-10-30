@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-30T09:00:06.967086+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 14,
+    "history_size_after": 15,
+    "history_duplicate_count": 11
+  },
+  "raw_item_count": 73,
+  "deduped_item_count": 24,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+      "summary": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface expansion opportunities—and helps salespeople explain how the customer could benefit. About 1,000 people use the application every day. Watch Daniel Humble, VP of Enterprise Data and Analytics at Zendesk, share what teams are building and putting to work.",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-10-30T06:48:11+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/GNYHDltnwZQ",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "concept_hint": "Coding Agent",
+      "score": 27,
+      "canonical_key": "chatgpt enterprise at zendesk putting company data to work",
+      "dedupe_key": "chatgpt enterprise at zendesk putting company data to work",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 49,
+    "history_duplicate": 11,
+    "same_source_limit": 0,
+    "old_resource": 12,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}

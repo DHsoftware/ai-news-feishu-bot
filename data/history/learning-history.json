@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T09:46:52.339215+08:00",
+  "updated_at": "2026-10-30T09:00:06.967086+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -563,6 +563,42 @@
           "cli",
           "codex",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-29",
+      "last_seen_date": "2026-10-29",
+      "canonical_key": "chatgpt enterprise at zendesk putting company data to work",
+      "normalized_title": "chatgpt enterprise at zendesk putting company data to work",
+      "normalized_link": "https://www.youtube.com/shorts/GNYHDltnwZQ",
+      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+      "summary": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their da…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/GNYHDltnwZQ",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Coding Agent",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex"
         ]
       },
       "seen_count": 1
