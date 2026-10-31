@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T09:55:34.072672+08:00",
+  "updated_at": "2026-10-31T08:47:36.016229+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -126,153 +126,6 @@
         ]
       },
       "seen_count": 11
-    },
-    {
-      "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-29",
-      "canonical_key": "ooma offers ai productivity agent bundle as ooma office pro plus bolt on option",
-      "normalized_title": "ooma offers ai productivity agent bundle as ooma office pro plus bolt on option",
-      "normalized_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdkJkSWFDRktfWUhRalprN0tEY25wVDA3TkxuRDJicGU4VUlMZEtOOUlCdngzZHdxb01naC1SbGRzUFFPanBWczlxRnU0VFBrU2RmMWtUNkFQVUdjZTdxSXBtVWVROWh4SzR1REpWWGR6amJ6SlcwdndtVk1LTm9SeWhsQ2ZSbEo2cFYzRnhPcVFQRFNobTVjblJMRmdjY2dDR2tFU1VmNlAtZm1na2RYV0xyME5mMHpYY3p3RHRLdw?oc=5",
-      "title": "Ooma offers AI Productivity Agent Bundle as Ooma Office Pro Plus bolt-on option - Telecompaper",
-      "summary": "Ooma offers AI Productivity Agent Bundle as Ooma Office Pro Plus bolt-on option Telecompaper",
-      "source": "Telecompaper",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdkJkSWFDRktfWUhRalprN0tEY25wVDA3TkxuRDJicGU4VUlMZEtOOUlCdngzZHdxb01naC1SbGRzUFFPanBWczlxRnU0VFBrU2RmMWtUNkFQVUdjZTdxSXBtVWVROWh4SzR1REpWWGR6amJ6SlcwdndtVk1LTm9SeWhsQ2ZSbEo2cFYzRnhPcVFQRFNobTVjblJMRmdjY2dDR2tFU1VmNlAtZm1na2RYV0xyME5mMHpYY3p3RHRLdw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-29",
-      "canonical_key": "raw dc speaker johnson ai leaders signed statement of principles",
-      "normalized_title": "raw dc speaker johnson ai leaders signed statement of principles",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQVAza09pNTJmUnZxc0ZBZ0JkYkpJX3ZoM3Z2Mm53XzBWUzEzb2E1cmFFdmJucnozek11Yi1DdDN4NGotZm15VDlOanJiNGZORVQxVENKV2tqNXI2SmZ1SUgxc01Hd3JRQndvRjV2WGkzSEJmSndleXdwTWZNLTlaWVJCNWZZbW93Y0ZCMVZXb2FJZUhxQVRVejlYdEUzTHVRODlpS1BKbDRTTFoyUThkaXFpdFZEOGpXeFhmbkpYZ1VJdHZjQXIwWk9QQVlBZ3k3aE12Unh1d1B4a0hKRDBIam14SjhUcVpKQVlPS1RNOXRfUUJJNVM0MGxB?oc=5",
-      "title": "RAW: DC: SPEAKER JOHNSON/AI LEADERS SIGNED STATEMENT OF PRINCIPLES - AppleValleyNewsNow.com",
-      "summary": "RAW: DC: SPEAKER JOHNSON/AI LEADERS SIGNED STATEMENT OF PRINCIPLES AppleValleyNewsNow.com",
-      "source": "AppleValleyNewsNow.com",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQVAza09pNTJmUnZxc0ZBZ0JkYkpJX3ZoM3Z2Mm53XzBWUzEzb2E1cmFFdmJucnozek11Yi1DdDN4NGotZm15VDlOanJiNGZORVQxVENKV2tqNXI2SmZ1SUgxc01Hd3JRQndvRjV2WGkzSEJmSndleXdwTWZNLTlaWVJCNWZZbW93Y0ZCMVZXb2FJZUhxQVRVejlYdEUzTHVRODlpS1BKbDRTTFoyUThkaXFpdFZEOGpXeFhmbkpYZ1VJdHZjQXIwWk9QQVlBZ3k3aE12Unh1d1B4a0hKRDBIam14SjhUcVpKQVlPS1RNOXRfUUJJNVM0MGxB?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-29",
-      "canonical_key": "openai推出全天候ai智能体dots 相关域名已被马斯克拿下",
-      "normalized_title": "openai推出全天候ai智能体dots 相关域名已被马斯克拿下",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QRFQ2WnJqcDNZNDEyQ2QwRGdIQjRBdDJSaDNFaERVMlNuOFg1MVBhT2N4VVhwYUlYYjZMLVg4X1NyV1FWcXZ4Yw?oc=5",
-      "title": "OpenAI推出全天候AI智能体Dots，相关域名已被马斯克拿下 - 凤凰网",
-      "summary": "OpenAI推出全天候AI智能体Dots，相关域名已被马斯克拿下 凤凰网 OpenAI发布全天候智能体Dot：GPT-6 Astra驱动 可连4000多款应用自主干活 news.mydrivers.com OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍 华尔街见闻",
-      "source": "凤凰网",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QRFQ2WnJqcDNZNDEyQ2QwRGdIQjRBdDJSaDNFaERVMlNuOFg1MVBhT2N4VVhwYUlYYjZMLVg4X1NyV1FWcXZ4Yw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "model_capability"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-09-29",
-      "canonical_key": "openai发布全天候智能体dot gpt 6 astra驱动 可连4000多款应用自主干活",
-      "normalized_title": "openai发布全天候智能体dot gpt 6 astra驱动 可连4000多款应用自主干活",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtVU1zLVdBN1V6Zk5GeF9ZRVg5TlRucy1OeGNjaTczclRaWmIxbHE4aUZjWjhqTUNqY3FXMGpxYmpzUjNXMEZaVUZWZ2Q2ZU9zMTJTVTlwdWg?oc=5",
-      "title": "OpenAI发布全天候智能体Dot：GPT-6 Astra驱动 可连4000多款应用自主干活 - 驱动之家",
-      "summary": "OpenAI发布全天候智能体Dot：GPT-6 Astra驱动 可连4000多款应用自主干活 驱动之家",
-      "source": "驱动之家",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtVU1zLVdBN1V6Zk5GeF9ZRVg5TlRucy1OeGNjaTczclRaWmIxbHE4aUZjWjhqTUNqY3FXMGpxYmpzUjNXMEZaVUZWZ2Q2ZU9zMTJTVTlwdWg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "model_capability"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-09-30",
@@ -5976,6 +5829,186 @@
         "actions": [],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-30",
+      "last_seen_date": "2026-10-30",
+      "canonical_key": "from synthetic enterprise data evaluations to real microsoft copilot ai confidence",
+      "normalized_title": "from synthetic enterprise data evaluations to real microsoft copilot ai confidence",
+      "normalized_link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "summary": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Eva…",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "coding",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "coding",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-30",
+      "last_seen_date": "2026-10-30",
+      "canonical_key": "腾讯发布buddy one与企业级agent能力 把ai从对话工具变成生产力",
+      "normalized_title": "腾讯发布buddy one与企业级agent能力 把ai从对话工具变成生产力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9scGZkbU5QTUtudTlNeXhuRGQ0S29BVWdWRHNtNFl5NTk4NkdyZF80c2N1OUR0cHVLSnJINTlCeF9TS0h3Qy1BWU5wdG5SZmJDcDJtLVhWWUhjTS1hbEFJMnlTRHJvQQ?oc=5",
+      "title": "腾讯发布Buddy One与企业级Agent能力，把AI从对话工具变成生产力 - 每日经济新闻",
+      "summary": "腾讯发布Buddy One与企业级Agent能力，把AI从对话工具变成生产力 每日经济新闻",
+      "source": "每日经济新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9scGZkbU5QTUtudTlNeXhuRGQ0S29BVWdWRHNtNFl5NTk4NkdyZF80c2N1OUR0cHVLSnJINTlCeF9TS0h3Qy1BWU5wdG5SZmJDcDJtLVhWWUhjTS1hbEFJMnlTRHJvQQ?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-30",
+      "last_seen_date": "2026-10-30",
+      "canonical_key": "ai data centers are trading copper for control",
+      "normalized_title": "ai data centers are trading copper for control",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOY3FhbjhTcHhZWXkyUGJhNzFQNDkwdWY1amZzQkdQMl80dmU3VFV0XzVXNjFvOHRIS180REdlcG9yVDRDakFickF3MU4?oc=5",
+      "title": "AI data centers are trading copper for control - STMicroelectronics",
+      "summary": "AI data centers are trading copper for control STMicroelectronics",
+      "source": "STMicroelectronics",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOY3FhbjhTcHhZWXkyUGJhNzFQNDkwdWY1amZzQkdQMl80dmU3VFV0XzVXNjFvOHRIS180REdlcG9yVDRDakFickF3MU4?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "st"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-30",
+      "last_seen_date": "2026-10-30",
+      "canonical_key": "从卖芯片到为ai基建担保 英伟达 nvda us 欲出手背书新云势力nscale 护航anthropic算力扩张提供者智通财经",
+      "normalized_title": "从卖芯片到为ai基建担保 英伟达 nvda us 欲出手背书新云势力nscale 护航anthropic算力扩张提供者智通财经",
+      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTbkN6YlZuQmpNYmtIWTU1OUVUZld1eXVvRmthMzBlRTg4ejBQQzQzS3RlWGpVbk5zUTQzVVI0T3U0dllBTXd4N3ljdjVoSk1vem9uaTVBak5tU3BMNWlFQVhYTjY0S2lXY2M3Vmp3aDE?oc=5",
+      "title": "从卖芯片到为AI基建担保! 英伟达(NVDA.US)欲出手背书新云势力Nscale 护航Anthropic算力扩张提供者智通财经 - 英为财情 Investing.com",
+      "summary": "从卖芯片到为AI基建担保! 英伟达(NVDA.US)欲出手背书新云势力Nscale 护航Anthropic算力扩张提供者智通财经 英为财情 Investing.com",
+      "source": "英为财情 Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTbkN6YlZuQmpNYmtIWTU1OUVUZld1eXVvRmthMzBlRTg4ejBQQzQzS3RlWGpVbk5zUTQzVVI0T3U0dllBTXd4N3ljdjVoSk1vem9uaTVBak5tU3BMNWlFQVhYTjY0S2lXY2M3Vmp3aDE?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "cloud"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "cloud"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-10-30",
+      "last_seen_date": "2026-10-30",
+      "canonical_key": "the biggest names in ai are backing a new way to opt out of scraping",
+      "normalized_title": "the biggest names in ai are backing a new way to opt out of scraping",
+      "normalized_link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable . With this control, publishers can apply their AI training preferences across multiple AI companies, instead of set…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip",
+        "regulation",
+        "robotics"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "google",
+          "microsoft",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "policy_regulation",
+          "regulation",
+          "robotics"
         ]
       },
       "seen_count": 1
