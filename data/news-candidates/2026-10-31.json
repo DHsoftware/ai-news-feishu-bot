@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "generated_at": "2026-11-01T08:08:06.831600+08:00",
+  "generated_at": "2026-11-01T09:06:21.514398+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 166,
-    "history_size_after": 162,
-    "history_duplicate_count": 25
+    "history_size_before": 162,
+    "history_size_after": 163,
+    "history_duplicate_count": 24
   },
-  "raw_item_count": 4964,
-  "deduped_item_count": 3676,
-  "filtered_item_count": 244,
+  "raw_item_count": 4950,
+  "deduped_item_count": 3649,
+  "filtered_item_count": 250,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -76,13 +76,13 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "腾讯发布Buddy One与企业级Agent能力，把AI从对话工具变成生产力 - 每日经济新闻",
-      "summary": "腾讯发布Buddy One与企业级Agent能力，把AI从对话工具变成生产力 每日经济新闻",
+      "title": "腾讯AI to B落子“连接”，办公智能体赛道竞速升温 - 手机新浪网",
+      "summary": "腾讯AI to B落子“连接”，办公智能体赛道竞速升温 手机新浪网",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-10-30T19:26:00+08:00",
-      "source": "每日经济新闻",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9scGZkbU5QTUtudTlNeXhuRGQ0S29BVWdWRHNtNFl5NTk4NkdyZF80c2N1OUR0cHVLSnJINTlCeF9TS0h3Qy1BWU5wdG5SZmJDcDJtLVhWWUhjTS1hbEFJMnlTRHJvQQ?oc=5",
+      "published_at": "2026-10-31T17:16:00+08:00",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVDV1WXhxUXpsV2xjNEstMld2V0J4bWJVWWFFTnJLN3VmVG94ZVVKa0JnSlB4aVlsVUlTMHluaTFaQ0NLUjRmRVlCLXFrNUtQOUZrTU1EdE84Mlg2aGw1OW5wQUdvUEFFTkE0VVplcUtia2FzbnU0c2JlMXNpcHdqOXRn?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_productivity",
@@ -96,14 +96,15 @@
       ],
       "topic_tags": [
         "agent",
+        "ai_agent",
         "ai_transformation",
         "org_productivity",
         "workflow_automation"
       ],
       "category": "AI Agent",
-      "dedupe_key": "腾讯发布buddy one与企业级agent能力 把ai从对话工具变成生产力",
-      "canonical_key": "腾讯发布buddy one与企业级agent能力 把ai从对话工具变成生产力",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9scGZkbU5QTUtudTlNeXhuRGQ0S29BVWdWRHNtNFl5NTk4NkdyZF80c2N1OUR0cHVLSnJINTlCeF9TS0h3Qy1BWU5wdG5SZmJDcDJtLVhWWUhjTS1hbEFJMnlTRHJvQQ?oc=5",
+      "dedupe_key": "腾讯ai to b落子 连接 办公智能体赛道竞速升温",
+      "canonical_key": "腾讯ai to b落子 连接 办公智能体赛道竞速升温",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVDV1WXhxUXpsV2xjNEstMld2V0J4bWJVWWFFTnJLN3VmVG94ZVVKa0JnSlB4aVlsVUlTMHluaTFaQ0NLUjRmRVlCLXFrNUtQOUZrTU1EdE84Mlg2aGw1OW5wQUdvUEFFTkE0VVplcUtia2FzbnU0c2JlMXNpcHdqOXRn?oc=5",
       "score": 67,
       "selection_reason": "required_productivity"
     },
@@ -199,14 +200,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1288,
-    "history_duplicate": 25,
-    "weak_relevance": 135,
+    "duplicate": 1301,
+    "history_duplicate": 24,
+    "weak_relevance": 137,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3297,
-    "same_entity_limit": 92,
+    "old_news": 3262,
+    "same_entity_limit": 95,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
