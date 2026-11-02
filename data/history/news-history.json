@@ -1,46 +1,8 @@
 {
-  "updated_at": "2026-11-01T09:06:21.514398+08:00",
+  "updated_at": "2026-11-02T08:44:54.589991+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-22",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "benchmarking llm inference at scale with aiperf",
-      "normalized_title": "benchmarking llm inference at scale with aiperf",
-      "normalized_link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
-      "title": "Benchmarking LLM Inference at Scale with AIPerf",
-      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts mig…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "llm",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "inference",
-          "llm",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
     {
       "first_seen_date": "2026-09-29",
       "last_seen_date": "2026-10-16",
@@ -84,244 +46,6 @@
         ]
       },
       "seen_count": 11
-    },
-    {
-      "first_seen_date": "2026-09-30",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "openai发布全天候agent dots ai agent市场竞争升温",
-      "normalized_title": "openai发布全天候agent dots ai agent市场竞争升温",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfRnJLUjM1ZFNuOW9LRWF2NUtWclc5VFIzLWhDY1FhcEYyb2lZRDB3cmZpd1B1S1FHZmloMk4wQkJHYmRJMFRSTzRkMVVfQVVrYWk2aA?oc=5",
-      "title": "OpenAI发布全天候Agent dots，AI Agent市场竞争升温 - 虎嗅网",
-      "summary": "OpenAI发布全天候Agent dots，AI Agent市场竞争升温 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfRnJLUjM1ZFNuOW9LRWF2NUtWclc5VFIzLWhDY1FhcEYyb2lZRDB3cmZpd1B1S1FHZmloMk4wQkJHYmRJMFRSTzRkMVVfQVVrYWk2aA?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "helport ai publishes white paper on ai labor and the evolution of enterprise digital workforces",
-      "normalized_title": "helport ai publishes white paper on ai labor and the evolution of enterprise digital workforces",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3h5ZVZFbXhKbUlaVDRUbGRaMWJjNUI1UHJYUVZIcDBHMXczV1owUmhXamJHX0hkR3pLVU5FQkhvXzN2cWRFdHoxV1Nld0tLd043NklOc0hwelRZNW9EeHJHSmtZSjdZc2lDUU5WM2JQRE5MVzZsZTJ3Nm1vTjZWOTVoTEdaemtZ?oc=5",
-      "title": "Helport AI Publishes White Paper on AI Labor and the Evolution of Enterprise Digital Workforces - Yahoo Finance UK",
-      "summary": "Helport AI Publishes White Paper on AI Labor and the Evolution of Enterprise Digital Workforces Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3h5ZVZFbXhKbUlaVDRUbGRaMWJjNUI1UHJYUVZIcDBHMXczV1owUmhXamJHX0hkR3pLVU5FQkhvXzN2cWRFdHoxV1Nld0tLd043NklOc0hwelRZNW9EeHJHSmtZSjdZc2lDUU5WM2JQRE5MVzZsZTJ3Nm1vTjZWOTVoTEdaemtZ?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "whitepaper",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "whitepaper",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "renesas unveils industry s first 650v gan in dual side cooled 8x8mm package for megawatt scale ai data centers",
-      "normalized_title": "renesas unveils industry s first 650v gan in dual side cooled 8x8mm package for megawatt scale ai data centers",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQVFpbUFKTG9qTHFfeThXWXd2N2c5WjEteHN4TW1TY2t2ZUJVczJGeWpSTVY5OU1rbGJIQkxRSkQtYkVOVXpmOE9hcnFDVVZEZnJhalg1NWl6R19qbkxhNWxfdTE5bUdlS3NnZEV6ZkNKUGg2Sy1YaDh2RTdUODBiQWM3UXk5VEhnaWpwQnNYRG90b3hfVEZMYWNkRnRocVFXNHNzcHNsRDJPdHJQTVpoTW5JaVRUZDB4U3Q2aXJiSk45ZTJSbjh5WlZDcU02LUlvWUE?oc=5",
-      "title": "Renesas Unveils Industry's First 650V GaN in Dual-Side Cooled 8x8mm Package for Megawatt-Scale AI Data Centers - Renesas",
-      "summary": "Renesas Unveils Industry's First 650V GaN in Dual-Side Cooled 8x8mm Package for Megawatt-Scale AI Data Centers Renesas",
-      "source": "Renesas",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQVFpbUFKTG9qTHFfeThXWXd2N2c5WjEteHN4TW1TY2t2ZUJVczJGeWpSTVY5OU1rbGJIQkxRSkQtYkVOVXpmOE9hcnFDVVZEZnJhalg1NWl6R19qbkxhNWxfdTE5bUdlS3NnZEV6ZkNKUGg2Sy1YaDh2RTdUODBiQWM3UXk5VEhnaWpwQnNYRG90b3hfVEZMYWNkRnRocVFXNHNzcHNsRDJPdHJQTVpoTW5JaVRUZDB4U3Q2aXJiSk45ZTJSbjh5WlZDcU02LUlvWUE?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "gan"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "company_research",
-          "gan",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "deepseek与华为合作开发昇腾编程工具开源软件基础设施以减少对nvidia的依赖 ai 人工智能",
-      "normalized_title": "deepseek与华为合作开发昇腾编程工具开源软件基础设施以减少对nvidia的依赖 ai 人工智能",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PUkVUNm5Wd2NiWEVWMjhsOFBpeFNYc2ZfUFNkT2RWcXlpa1RsWFhwSWZfT2ZUWU5qSk1zYVFWdVhxaklDUXJTX1dBaG5uSmdyU01kQjdnWlJmdjZWdjVCdQ?oc=5",
-      "title": "DeepSeek与华为合作开发昇腾编程工具开源软件基础设施以减少对NVIDIA的依赖- AI 人工智能 - cnbeta.com.tw",
-      "summary": "DeepSeek与华为合作开发昇腾编程工具开源软件基础设施以减少对NVIDIA的依赖- AI 人工智能 cnbeta.com.tw",
-      "source": "cnbeta.com.tw",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PUkVUNm5Wd2NiWEVWMjhsOFBpeFNYc2ZfUFNkT2RWcXlpa1RsWFhwSWZfT2ZUWU5qSk1zYVFWdVhxaklDUXJTX1dBaG5uSmdyU01kQjdnWlJmdjZWdjVCdQ?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [
-          "huawei",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource",
-          "partnership"
-        ],
-        "topics": [
-          "chip",
-          "opensource"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "inside microsoft s big copilot rethink",
-      "normalized_title": "inside microsoft s big copilot rethink",
-      "normalized_link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
-      "title": "Inside Microsoft’s big Copilot rethink",
-      "summary": "Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft really cares about, pitching its latest rethink of the AI a…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "the download openai s chief research officer explains its hacking response",
-      "normalized_title": "the download openai s chief research officer explains its hacking response",
-      "normalized_link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response",
-      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
-      "summary": "This is today’s edition of The Download , our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the comput…",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "chip",
-          "research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-01",
-      "last_seen_date": "2026-10-01",
-      "canonical_key": "microsoft 365 and linkedin leadership update",
-      "normalized_title": "microsoft 365 and linkedin leadership update",
-      "normalized_link": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update",
-      "title": "Microsoft 365 and LinkedIn leadership update",
-      "summary": "Satya Nadella, Chairman and CEO, and Ryan Roslansky, Executive Vice President of LinkedIn and Microsoft 365 , shared the below communications with Microsoft and LinkedIn employees this morning. SATYA NADELLA MESSAGE After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky has decided to leav…",
-      "source": "The Official Microsoft Blog",
-      "link": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "coding"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "coding"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-02",
@@ -5937,6 +5661,171 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-01",
+      "last_seen_date": "2026-11-01",
+      "canonical_key": "a 100 merge rate cannot prove that ai code review costs have fallen",
+      "normalized_title": "a 100 merge rate cannot prove that ai code review costs have fallen",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84Y25lMHQ1UE52QkZWTEdmWHdNazVYSzV6NVR2NDU5QWZKdE4ySjhuNXpsWk5WMnlXSGNtV3hWSFdYcmlKUmRScUZJMk5aTzAzcUg4Uktsc2VaUGIwZG9kbjBGYm82XzNP?oc=5",
+      "title": "A 100% Merge Rate Cannot Prove That AI Code Review Costs Have Fallen - KoreaTechDesk",
+      "summary": "A 100% Merge Rate Cannot Prove That AI Code Review Costs Have Fallen KoreaTechDesk",
+      "source": "KoreaTechDesk",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84Y25lMHQ1UE52QkZWTEdmWHdNazVYSzV6NVR2NDU5QWZKdE4ySjhuNXpsWk5WMnlXSGNtV3hWSFdYcmlKUmRScUZJMk5aTzAzcUg4Uktsc2VaUGIwZG9kbjBGYm82XzNP?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-01",
+      "last_seen_date": "2026-11-01",
+      "canonical_key": "ai agents secretly rely on human workers to fill the gaps",
+      "normalized_title": "ai agents secretly rely on human workers to fill the gaps",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcHJIa1I2UjVWVG5peHJtZFBqT0xWa1A5c2pqMzRGRi15WEVVVmF4TDliUmxuNjhxVFR2dnBtT2pDQmIxTl94cll4bmk5VWozSzNZbS1ERGpqWnhSY3c3WVExaW00THA4QUl2blVGZUY0aE15MzV0VHdZZlVjR2hjQ0t2RVJGR1g2VFVaUVNPN01GZnNU?oc=5",
+      "title": "AI Agents Secretly Rely on Human Workers to Fill the Gaps - The Tech Buzz",
+      "summary": "AI Agents Secretly Rely on Human Workers to Fill the Gaps The Tech Buzz",
+      "source": "The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcHJIa1I2UjVWVG5peHJtZFBqT0xWa1A5c2pqMzRGRi15WEVVVmF4TDliUmxuNjhxVFR2dnBtT2pDQmIxTl94cll4bmk5VWozSzNZbS1ERGpqWnhSY3c3WVExaW00THA4QUl2blVGZUY0aE15MzV0VHdZZlVjR2hjQ0t2RVJGR1g2VFVaUVNPN01GZnNU?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-01",
+      "last_seen_date": "2026-11-01",
+      "canonical_key": "openai计划采购google ai芯片 拓展nvidia之外的算力来源",
+      "normalized_title": "openai计划采购google ai芯片 拓展nvidia之外的算力来源",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV253OEdaN09QN3M2cWVYZEFmVmZFU0xGcDRiOVplM3BNV2xlazJGY2pCZ2QyV0VVNl9OdHNNTTJ5c1UyemctQnZhSHNEOGdOclFYanhQdWRxWWpzMlBjVFdZVGUzenBZYllzYllPbG16QjU1R016RUt3Wml5bWFWU2NFV09mQXlwRDg2TXZLZUE?oc=5",
+      "title": "OpenAI计划采购Google AI芯片，拓展Nvidia之外的算力来源 - Mezha.net",
+      "summary": "OpenAI计划采购Google AI芯片，拓展Nvidia之外的算力来源 Mezha.net",
+      "source": "Mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV253OEdaN09QN3M2cWVYZEFmVmZFU0xGcDRiOVplM3BNV2xlazJGY2pCZ2QyV0VVNl9OdHNNTTJ5c1UyemctQnZhSHNEOGdOclFYanhQdWRxWWpzMlBjVFdZVGUzenBZYllzYllPbG16QjU1R016RUt3Wml5bWFWU2NFV09mQXlwRDg2TXZLZUE?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "google",
+          "nvidia",
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-01",
+      "last_seen_date": "2026-11-01",
+      "canonical_key": "deepseek drops enhanced coding agent with aim to rival anthropic",
+      "normalized_title": "deepseek drops enhanced coding agent with aim to rival anthropic",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+      "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic - Bloomberg.com",
+      "summary": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic Bloomberg.com",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGJoZUdrNzFHTjRVcm9OOVZ5a1Z4dVB4ME1aNjlmYmdjX1ZOTXNWTFJTNFFFUkQ2UUxxTGV4UDlOS0RjMnRlWlFUZ04yemVtQU9zU3FZbHlWY1YxMi1YSVBGb3k5cGszYnptNnZVZk1mR1NmS0RvLUhOeS1QUmxZamtoNGgzR21CR2tmY0JUd1c3YXBBMlc0SDhkZm9kOFRtZ3NvQ2RLNVZOYnFaV2x5Vy1ra3ZNUQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-01",
+      "last_seen_date": "2026-11-01",
+      "canonical_key": "apple s homeview could add security camera features",
+      "normalized_title": "apple s homeview could add security camera features",
+      "normalized_link": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+      "title": "Apple’s HomeView could add security camera features",
+      "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode with motion detection, live streaming, and recording options, as well as privacy functions. According to pdfu, there i…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+      "category": "全球AI",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "security"
         ]
       },
       "seen_count": 1
