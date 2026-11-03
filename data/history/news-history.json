@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T10:55:16.248739+08:00",
+  "updated_at": "2026-11-03T11:27:33.931176+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5773,7 +5773,7 @@
           "mcp"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-02",
@@ -5806,7 +5806,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-02",
@@ -5874,7 +5874,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-02",
@@ -5901,6 +5901,39 @@
         "actions": [],
         "topics": [
           "security"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "livestream scaling agentic development with air governance",
+      "normalized_title": "livestream scaling agentic development with air governance",
+      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkxwZmo2bVJaQnN4M2U3cXhNdzBlaE9UNXB2OFdER3lKS0xoMFJRZk5scjNfTk9iUnRBMHJQc08wX0NYc2F5dUE0VU53WEZ6MnBocjZEREFqbnRDTGg2Q1B3bTJvNU5uVG80LUtvSFo3VmYyV0RHMG5WRzZvS2UxQVFrS3NENEJBTXUxQlExdnFGMWo2QkxqOTRJeUhVZw?oc=5",
+      "title": "Livestream: Scaling Agentic Development With Air Governance - The JetBrains Blog",
+      "summary": "Livestream: Scaling Agentic Development With Air Governance The JetBrains Blog",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkxwZmo2bVJaQnN4M2U3cXhNdzBlaE9UNXB2OFdER3lKS0xoMFJRZk5scjNfTk9iUnRBMHJQc08wX0NYc2F5dUE0VU53WEZ6MnBocjZEREFqbnRDTGg2Q1B3bTJvNU5uVG80LUtvSFo3VmYyV0RHMG5WRzZvS2UxQVFrS3NENEJBTXUxQlExdnFGMWo2QkxqOTRJeUhVZw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
