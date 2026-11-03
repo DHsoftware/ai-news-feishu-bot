@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T09:29:12.885427+08:00",
+  "updated_at": "2026-11-03T10:55:16.248739+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -49,75 +49,6 @@
     },
     {
       "first_seen_date": "2026-10-02",
-      "last_seen_date": "2026-10-02",
-      "canonical_key": "in person event applying ai for engineering productivity",
-      "normalized_title": "in person event applying ai for engineering productivity",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONS1xaFoxZDN1SEd1TVJfVjROM0kxcWYyZ0xwdFFwc000SENFeUFQOW5iRXAtQVVkVmI4NXd3ZHBqdzRTUjdjbUljenJhWFJsaVJTRDFfVkVHRklGRF9DSFJ0WjdHbVRtZ1c5Z3pLYzl6LTRrTkNmZE5uY2Q1aU5RSlJ2TEh2dHNtb2RhZUxBcmp4d2paWW1IZm1uQXZjZnRBNXpN?oc=5",
-      "title": "In-person event: Applying AI for Engineering Productivity - The Engineer",
-      "summary": "In-person event: Applying AI for Engineering Productivity The Engineer",
-      "source": "The Engineer",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONS1xaFoxZDN1SEd1TVJfVjROM0kxcWYyZ0xwdFFwc000SENFeUFQOW5iRXAtQVVkVmI4NXd3ZHBqdzRTUjdjbUljenJhWFJsaVJTRDFfVkVHRklGRF9DSFJ0WjdHbVRtZ1c5Z3pLYzl6LTRrTkNmZE5uY2Q1aU5RSlJ2TEh2dHNtb2RhZUxBcmp4d2paWW1IZm1uQXZjZnRBNXpN?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "engineering_productivity"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "engineering_productivity",
-          "software_engineering"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-02",
-      "last_seen_date": "2026-10-02",
-      "canonical_key": "high density power converter for 800v ai data centre architectures",
-      "normalized_title": "high density power converter for 800v ai data centre architectures",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzZfTXFnYVQzbVVpNlZlZnotejAyOWp1VjExakpqb1psX3hYc2IweFBHdTU0SlZqT2lkazQ1aXI1SHhubG1WeHRyelE3NXlPMXhCd1JPSmM2RkpUSVhKNXpNbUxxRFk3RzFfVUZIbThidXZ3b3dxZEFqaElCbDdCRUVjLTN0SEI5S2hvNTNPekFmVTY2UkRHelBYT2JBN3d1TWhfZko0aGlndE9RQWZmZVZPTXcwWXlhT2Mtd1FhMVJRZw?oc=5",
-      "title": "High-density power converter for 800V AI data centre architectures - New Electronics",
-      "summary": "High-density power converter for 800V AI data centre architectures New Electronics",
-      "source": "New Electronics",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzZfTXFnYVQzbVVpNlZlZnotejAyOWp1VjExakpqb1psX3hYc2IweFBHdTU0SlZqT2lkazQ1aXI1SHhubG1WeHRyelE3NXlPMXhCd1JPSmM2RkpUSVhKNXpNbUxxRFk3RzFfVUZIbThidXZ3b3dxZEFqaElCbDdCRUVjLTN0SEI5S2hvNTNPekFmVTY2UkRHelBYT2JBN3d1TWhfZko0aGlndE9RQWZmZVZPTXcwWXlhT2Mtd1FhMVJRZw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-02",
       "last_seen_date": "2026-10-03",
       "canonical_key": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
       "normalized_title": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
@@ -154,35 +85,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-02",
-      "last_seen_date": "2026-10-02",
-      "canonical_key": "博通联手黑石筹资600亿美元 为anthropic等ai公司铺路算力",
-      "normalized_title": "博通联手黑石筹资600亿美元 为anthropic等ai公司铺路算力",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wREZoczhueGFYM2ZwZkZaeUx5TllGb2NzZFFfYmRFODRGMFJKUWVkNlJUN283T1VMNFQ5a194b29BYmJhRjBVNklPNlBZZ25YS04w?oc=5",
-      "title": "博通联手黑石筹资600亿美元，为Anthropic等AI公司铺路算力 - 华尔街见闻",
-      "summary": "博通联手黑石筹资600亿美元，为Anthropic等AI公司铺路算力 华尔街见闻",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wREZoczhueGFYM2ZwZkZaeUx5TllGb2NzZFFfYmRFODRGMFJKUWVkNlJUN283T1VMNFQ5a194b29BYmJhRjBVNklPNlBZZ25YS04w?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-03",
@@ -5829,6 +5731,179 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "athenahealth launches athenapatient mcp to bridge official patient records into anthropic s claude",
+      "normalized_title": "athenahealth launches athenapatient mcp to bridge official patient records into anthropic s claude",
+      "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpwckVYeGZOOWMyemVjcXVsOURWT3lPcTBVYktTNl8zSzhlU21EUms5Q2d3bG03cUxZcE96RnY5TkxIdjFHd1d5LUY1MkgzajM2ZGZIbnZJcHNveWQ2cG5zV2hNZDRjbjBEcUxlQTEteXhxT3ItQTZWLWJGTFJ5VU56Mkl6R0NHN2FVYXN5b1BVdFdtSTFyZ2Z2T3NoT01FcXUtb1ktZ3BjazRUOUlR?oc=5",
+      "title": "athenahealth Launches athenaPatient MCP to Bridge Official Patient Records into Anthropic’s Claude - HIT Consultant",
+      "summary": "athenahealth Launches athenaPatient MCP to Bridge Official Patient Records into Anthropic’s Claude HIT Consultant",
+      "source": "HIT Consultant",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpwckVYeGZOOWMyemVjcXVsOURWT3lPcTBVYktTNl8zSzhlU21EUms5Q2d3bG03cUxZcE96RnY5TkxIdjFHd1d5LUY1MkgzajM2ZGZIbnZJcHNveWQ2cG5zV2hNZDRjbjBEcUxlQTEteXhxT3ItQTZWLWJGTFJ5VU56Mkl6R0NHN2FVYXN5b1BVdFdtSTFyZ2Z2T3NoT01FcXUtb1ktZ3BjazRUOUlR?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "sk telecom grows enterprise wide ai transformation programme",
+      "normalized_title": "sk telecom grows enterprise wide ai transformation programme",
+      "normalized_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcTR4Nk40VVNaSVJya0FNLTZMbWdmMlBDaFRkUWZMZ3JVWkdSNllSUjZzMy1SOEE4NkliaVdEWmIzNEVmZ0pfa21laEhTQWU0T0dKMzc1UFI3dWRfMkE5b2lzNHZ3WTgwYXl3TzNIVUNFa1F6a3NjNFNOaE5UTFRqX3VtZzV2N2NnV0Fmc1VtZGlnQ0F5Mm5kODBfOG9TTzhxb3NKZndn?oc=5",
+      "title": "SK Telecom grows enterprise-wide AI transformation programme - Telecompaper",
+      "summary": "SK Telecom grows enterprise-wide AI transformation programme Telecompaper",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcTR4Nk40VVNaSVJya0FNLTZMbWdmMlBDaFRkUWZMZ3JVWkdSNllSUjZzMy1SOEE4NkliaVdEWmIzNEVmZ0pfa21laEhTQWU0T0dKMzc1UFI3dWRfMkE5b2lzNHZ3WTgwYXl3TzNIVUNFa1F6a3NjNFNOaE5UTFRqX3VtZzV2N2NnV0Fmc1VtZGlnQ0F5Mm5kODBfOG9TTzhxb3NKZndn?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "ai算力驱动千亿市场 资本扎堆布局固态变压器赛道",
+      "normalized_title": "ai算力驱动千亿市场 资本扎堆布局固态变压器赛道",
+      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0azZuT2cxa24tX3VRR2VXQXU3akNZOWk4cGdMRUgwVlVmQjdmeWFsZVZ5UkRSTDJxTGRpbVZsQ1RDM0g1MHUyT3R2Z1BvSS1DVnNlc2pPZjM4bzU5aXN0VjE0N0JJczM0VTM1V2RZUE9xbkZ4SWtuR2VjY08yd0U?oc=5",
+      "title": "AI算力驱动千亿市场 资本扎堆布局固态变压器赛道 - 手机新浪网",
+      "summary": "AI算力驱动千亿市场 资本扎堆布局固态变压器赛道 手机新浪网",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0azZuT2cxa24tX3VRR2VXQXU3akNZOWk4cGdMRUgwVlVmQjdmeWFsZVZ5UkRSTDJxTGRpbVZsQ1RDM0g1MHUyT3R2Z1BvSS1DVnNlc2pPZjM4bzU5aXN0VjE0N0JJczM0VTM1V2RZUE9xbkZ4SWtuR2VjY08yd0U?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "company_research:https://openai.com/index/lifeval",
+      "normalized_title": "lifeval",
+      "normalized_link": "https://openai.com/index/lifeval",
+      "title": "LifeVal",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/lifeval",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "ai_research",
+        "benchmark",
+        "company_research",
+        "official_report",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "benchmark",
+          "company_research",
+          "official_report",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-02",
+      "canonical_key": "我在anthropic感到不安全 一位anthropic 早期员工的回忆",
+      "normalized_title": "我在anthropic感到不安全 一位anthropic 早期员工的回忆",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43amJaM2hwUzdyTWt0aUFYcnlKTWlKcWFUc2hWTDczTVYxYXBkVGdsUzN1WmVWV0ZDX09pSlNybUpybkh1S2h0dlVGaWtpODlmZEJjZw?oc=5",
+      "title": "“我在Anthropic感到不安全”：一位Anthropic 早期员工的回忆 - 虎嗅",
+      "summary": "“我在Anthropic感到不安全”：一位Anthropic 早期员工的回忆 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43amJaM2hwUzdyTWt0aUFYcnlKTWlKcWFUc2hWTDczTVYxYXBkVGdsUzN1WmVWV0ZDX09pSlNybUpybkh1S2h0dlVGaWtpODlmZEJjZw?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

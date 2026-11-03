@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T09:29:12.885427+08:00",
+  "updated_at": "2026-11-03T10:55:16.248739+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -400,7 +400,7 @@
     },
     {
       "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
+      "last_seen_date": "2026-11-02",
       "canonical_key": "codex cli release 0 161 0",
       "normalized_title": "codex cli release 0 161 0",
       "normalized_link": "https://developers.openai.com/codex/changelog",
@@ -452,7 +452,7 @@
           "workflow"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-10-24",
