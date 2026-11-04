@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T09:22:23.061528+08:00",
+  "updated_at": "2026-11-04T10:16:42.503050+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5540,7 +5540,7 @@
           "mcp"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-02",
@@ -5743,7 +5743,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-03",
@@ -5784,7 +5784,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-03",
@@ -5817,7 +5817,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-03",
@@ -5847,14 +5847,15 @@
         "actions": [],
         "topics": [
           "agent",
+          "agentic_ai",
           "ai_agent",
-          "ai_transformation",
           "chip",
-          "org_productivity",
+          "coding",
+          "coding_agent",
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
