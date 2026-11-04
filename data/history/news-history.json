@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:27:33.931176+08:00",
+  "updated_at": "2026-11-04T09:22:23.061528+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -46,239 +46,6 @@
         ]
       },
       "seen_count": 11
-    },
-    {
-      "first_seen_date": "2026-10-02",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
-      "normalized_title": "奥特曼发布 常驻智能体 openai的野心不再是聊天 而是接管你的工作流",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5",
-      "title": "奥特曼发布“常驻智能体”：OpenAI的野心不再是聊天，而是接管你的工作流 - 搜狐网",
-      "summary": "奥特曼发布“常驻智能体”：OpenAI的野心不再是聊天，而是接管你的工作流 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVndoTnQtNUhNMmxHWWdZWC1nUW9Fc2tfT08yUDhvdmtfSHItOVJ6amFVZTFQcFoxTTV0eldqSVctWlI2MlNDM1hJOUhiS05YM2VyNUZhbUNxUWZJcVlrVjlOcXNud1J6dmQ1UXZsNGtlbkdxOWluREN3aGY1Y0RXV3NCVUhzTlBBVXk1NQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-03",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "chatham scales its capital markets expertise with openai",
-      "normalized_title": "chatham scales its capital markets expertise with openai",
-      "normalized_link": "https://openai.com/index/chatham-financial",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/chatham-financial",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "model_capability",
-          "official_report"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-03",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "from ai experiments to agentic execution transforming legal compliance and forensics workflows",
-      "normalized_title": "from ai experiments to agentic execution transforming legal compliance and forensics workflows",
-      "normalized_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcy12ZDhBVVZjTWI4TVZwM3JsN2VRWE1DR0xqUkpJZ1BPdGJLcFh0WHRWYU5XeVRsX1lWMHA5N3ByWkJYVlpGbko2bnFveERydTFycWxqS2c1T3F6QmVRYW15M0dPZGxab2NhX3V1T0pRSS0xelotNnQ1cnh5UQ?oc=5",
-      "title": "From AI Experiments to Agentic Execution: Transforming Legal, Compliance, and Forensics Workflows - JDSupra",
-      "summary": "From AI Experiments to Agentic Execution: Transforming Legal, Compliance, and Forensics Workflows JDSupra",
-      "source": "JDSupra",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wcy12ZDhBVVZjTWI4TVZwM3JsN2VRWE1DR0xqUkpJZ1BPdGJLcFh0WHRWYU5XeVRsX1lWMHA5N3ByWkJYVlpGbko2bnFveERydTFycWxqS2c1T3F6QmVRYW15M0dPZGxab2NhX3V1T0pRSS0xelotNnQ1cnh5UQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-03",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "spintronics ai partners csir ceeri to advance indigenous gan tech set up fabrication unit",
-      "normalized_title": "spintronics ai partners csir ceeri to advance indigenous gan tech set up fabrication unit",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVDVsd0Z2ZDMxNXZSMmhfY3FSdzVwZUVIcGNUVXdhQUdRcEJtUV9JSmpXX0JEa3JMYmgxMHFma1dydmRTWGg4Z3pSb3dvSGhMMTlGZ0M4cWM1Mzk5cV9takhSeXdSNHlLTEQ1TklIbllrbHdFR3ZuM3VIODZ3V1BobmJ1SG9zVDl4U2JhU1JZaHpMNEZHcVQyOGVnMHBlSUo4ejV0cm5EcGRFS2xHSUxjbl9BeWFoWV9pNXpRQ0FOcXI4LVBVSjI5WWVua2RCNVJ4dlRjSkVqOTZvdk81ajMtdFAxUHNNY1J6MC1tNEJfNXdwTmJJWjBRaHhJRdIBgAJBVV95cUxQcVlwdlB1NlBFV0tGUXoyaGFmZGpqMlFpSjZBTnd5WFNFalhFM2JIcUp5UTJCMWtoOXJQRmlKd25Wb043TGFaV0J1cXc4bDRkZ1RMaFdlb29RU1B4Ymd3WmpxVk1CLVREZWdXQzhrMXFFdDBsUjFjaTB0MGVWcjhMWlNpTFdXWjU3UWhGcWdHcGtPU0hhUDlPV21RbDFrZWxaWERWX0ZZdWdRM0JoODdjLXR0eUNiMjBkWXB5SHVpRnJwZUJsYmV6MHl2UXM5ajZtb3JhNkFmdm9paVR6SU92SnJzR0dXLUowRHVldGpOOGxQSXctbmo4Q2xxazdzc1py?oc=5",
-      "title": "Spintronics AI partners CSIR-CEERI to advance indigenous GaN tech, set up fabrication unit - ET CIO",
-      "summary": "Spintronics AI partners CSIR-CEERI to advance indigenous GaN tech, set up fabrication unit ET CIO",
-      "source": "ET CIO",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVDVsd0Z2ZDMxNXZSMmhfY3FSdzVwZUVIcGNUVXdhQUdRcEJtUV9JSmpXX0JEa3JMYmgxMHFma1dydmRTWGg4Z3pSb3dvSGhMMTlGZ0M4cWM1Mzk5cV9takhSeXdSNHlLTEQ1TklIbllrbHdFR3ZuM3VIODZ3V1BobmJ1SG9zVDl4U2JhU1JZaHpMNEZHcVQyOGVnMHBlSUo4ejV0cm5EcGRFS2xHSUxjbl9BeWFoWV9pNXpRQ0FOcXI4LVBVSjI5WWVua2RCNVJ4dlRjSkVqOTZvdk81ajMtdFAxUHNNY1J6MC1tNEJfNXdwTmJJWjBRaHhJRdIBgAJBVV95cUxQcVlwdlB1NlBFV0tGUXoyaGFmZGpqMlFpSjZBTnd5WFNFalhFM2JIcUp5UTJCMWtoOXJQRmlKd25Wb043TGFaV0J1cXc4bDRkZ1RMaFdlb29RU1B4Ymd3WmpxVk1CLVREZWdXQzhrMXFFdDBsUjFjaTB0MGVWcjhMWlNpTFdXWjU3UWhGcWdHcGtPU0hhUDlPV21RbDFrZWxaWERWX0ZZdWdRM0JoODdjLXR0eUNiMjBkWXB5SHVpRnJwZUJsYmV6MHl2UXM5ajZtb3JhNkFmdm9paVR6SU92SnJzR0dXLUowRHVldGpOOGxQSXctbmo4Q2xxazdzc1py?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "gan",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "gan"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "dcdc",
-          "gan",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-03",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "nvidia dgx spark 64gb gives developers more ways to build and scale local ai",
-      "normalized_title": "nvidia dgx spark 64gb gives developers more ways to build and scale local ai",
-      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "cloud",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "cloud",
-          "cloud_platform",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-03",
-      "last_seen_date": "2026-10-03",
-      "canonical_key": "ai is changing developer work here are three skills to strengthen",
-      "normalized_title": "ai is changing developer work here are three skills to strengthen",
-      "normalized_link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "summary": "AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions. The good news? You can start preparing today. Here’s where to focus:…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-04",
@@ -5734,7 +5501,7 @@
     },
     {
       "first_seen_date": "2026-11-02",
-      "last_seen_date": "2026-11-02",
+      "last_seen_date": "2026-11-03",
       "canonical_key": "athenahealth launches athenapatient mcp to bridge official patient records into anthropic s claude",
       "normalized_title": "athenahealth launches athenapatient mcp to bridge official patient records into anthropic s claude",
       "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpwckVYeGZOOWMyemVjcXVsOURWT3lPcTBVYktTNl8zSzhlU21EUms5Q2d3bG03cUxZcE96RnY5TkxIdjFHd1d5LUY1MkgzajM2ZGZIbnZJcHNveWQ2cG5zV2hNZDRjbjBEcUxlQTEteXhxT3ItQTZWLWJGTFJ5VU56Mkl6R0NHN2FVYXN5b1BVdFdtSTFyZ2Z2T3NoT01FcXUtb1ktZ3BjazRUOUlR?oc=5",
@@ -5773,7 +5540,7 @@
           "mcp"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-02",
@@ -5934,6 +5701,157 @@
           "coding_agent",
           "company_research",
           "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-03",
+      "last_seen_date": "2026-11-03",
+      "canonical_key": "progress on provable inference for large language models",
+      "normalized_title": "progress on provable inference for large language models",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+      "title": "Progress on provable inference for large language models - Anthropic",
+      "summary": "Progress on provable inference for large language models Anthropic",
+      "source": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "chip",
+        "company_research",
+        "llm",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "chip",
+          "company_research",
+          "inference",
+          "llm",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-03",
+      "last_seen_date": "2026-11-03",
+      "canonical_key": "n8n 开源 ai 工作流自动化革命 全面评测",
+      "normalized_title": "n8n 开源 ai 工作流自动化革命 全面评测",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR0NFV3Rlc094SmNTUHpkMWxYcnl3cmpXbGEwTWQtc2lNUmVOZ2VJT09lZjk1c1pUeXFRWWI5MGNad1FfdHJFWHplWVVBaEh1YllKeUxGdXJlVVNrdjE4Um8teENwczBuNWVvY1dNeXV6dWNmS0RMLUsyZzFMak1tNEJLaVV6cnd4ME9ZbW5WYnE0MnQza01R?oc=5",
+      "title": "n8n：开源 AI 工作流自动化革命——全面评测。 - quasa.io",
+      "summary": "n8n：开源 AI 工作流自动化革命——全面评测。 quasa.io",
+      "source": "quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR0NFV3Rlc094SmNTUHpkMWxYcnl3cmpXbGEwTWQtc2lNUmVOZ2VJT09lZjk1c1pUeXFRWWI5MGNad1FfdHJFWHplWVVBaEh1YllKeUxGdXJlVVNrdjE4Um8teENwczBuNWVvY1dNeXV6dWNmS0RMLUsyZzFMak1tNEJLaVV6cnd4ME9ZbW5WYnE0MnQza01R?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "opensource",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "opensource",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-03",
+      "last_seen_date": "2026-11-03",
+      "canonical_key": "ai is changing how semiconductor fabs work and engineers are moving faster because of it",
+      "normalized_title": "ai is changing how semiconductor fabs work and engineers are moving faster because of it",
+      "normalized_link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challen…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-03",
+      "last_seen_date": "2026-11-03",
+      "canonical_key": "合见工软uda 3 0亮相eda智能体沙龙 多智能体协同推进芯片设计验证全流程自动化",
+      "normalized_title": "合见工软uda 3 0亮相eda智能体沙龙 多智能体协同推进芯片设计验证全流程自动化",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5veDJER1B6eS1DZmR4cmdTWjYtSm5VMHNKdmtIY3pUVVZENllxUDZzbmxIT01TWE5JRXpGR205cmlwZ1JMSTBhLXhwVDdwXzdERlhz?oc=5",
+      "title": "合见工软UDA 3.0亮相EDA智能体沙龙：多智能体协同推进芯片设计验证全流程自动化 - 电子工程专辑EE Times China",
+      "summary": "合见工软UDA 3.0亮相EDA智能体沙龙：多智能体协同推进芯片设计验证全流程自动化 电子工程专辑EE Times China",
+      "source": "电子工程专辑EE Times China",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5veDJER1B6eS1DZmR4cmdTWjYtSm5VMHNKdmtIY3pUVVZENllxUDZzbmxIT01TWE5JRXpGR205cmlwZ1JMSTBhLXhwVDdwXzdERlhz?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "chip",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "chip",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1
