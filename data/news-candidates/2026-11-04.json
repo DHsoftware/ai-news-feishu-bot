@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-05T09:27:35.807187+08:00",
+  "generated_at": "2026-11-05T10:22:16.612147+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 161,
-    "history_size_after": 161,
+    "history_size_after": 162,
     "history_duplicate_count": 33
   },
-  "raw_item_count": 4728,
-  "deduped_item_count": 3481,
-  "filtered_item_count": 413,
+  "raw_item_count": 4715,
+  "deduped_item_count": 3475,
+  "filtered_item_count": 416,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -145,13 +145,13 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设 - 凤凰网财经",
-      "summary": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设 凤凰网财经 中国信通院、华为、腾讯、阿里等联合发布公约：共同抵制利用智能体实施算法压榨、黑灰产等行为 ThePaper.cn 《智能体发展自律公约》发布 促进行业规范与发展 中华网",
+      "title": "中国信通院、华为、腾讯、阿里等联合发布公约：共同抵制利用智能体实施算法压榨、黑灰产等行为 - ThePaper.cn",
+      "summary": "中国信通院、华为、腾讯、阿里等联合发布公约：共同抵制利用智能体实施算法压榨、黑灰产等行为 ThePaper.cn",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-11-04T17:17:09+08:00",
-      "source": "凤凰网财经",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ldFhyVVVRTlNmWHlGT1Vmam1MYVBhczJhR25FTkFSSFYxekVDN2JyRXNMaUN5SXgxdGNpUDVTZ2stMVRKb2FWQVRSTGItNG03?oc=5",
+      "summary_quality": "low",
+      "published_at": "2026-11-04T19:55:34+08:00",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNQndtN0RQaGVIRkRYck9oWDd3SnNBM1k4TWc4S01Wd1FQVlB1WGZaU1FCcVJ0YWR2S0w2X2xpemtKMXdJV0NWcHRyRDl2YW0xSDIxTVdPUGgzZlliQk00VQ?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_agent",
@@ -172,9 +172,9 @@
         "research"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "智能体身份注册与解析平台在乌镇发布 蚂蚁参与首批运行平台建设",
-      "canonical_key": "智能体身份注册与解析平台在乌镇发布 蚂蚁参与首批运行平台建设",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ldFhyVVVRTlNmWHlGT1Vmam1MYVBhczJhR25FTkFSSFYxekVDN2JyRXNMaUN5SXgxdGNpUDVTZ2stMVRKb2FWQVRSTGItNG03?oc=5",
+      "dedupe_key": "中国信通院 华为 腾讯 阿里等联合发布公约 共同抵制利用智能体实施算法压榨 黑灰产等行为",
+      "canonical_key": "中国信通院 华为 腾讯 阿里等联合发布公约 共同抵制利用智能体实施算法压榨 黑灰产等行为",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNQndtN0RQaGVIRkRYck9oWDd3SnNBM1k4TWc4S01Wd1FQVlB1WGZaU1FCcVJ0YWR2S0w2X2xpemtKMXdJV0NWcHRyRDl2YW0xSDIxTVdPUGgzZlliQk00VQ?oc=5",
       "score": 83,
       "selection_reason": "china_quota"
     },
@@ -206,14 +206,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1247,
+    "duplicate": 1240,
     "history_duplicate": 33,
-    "weak_relevance": 154,
+    "weak_relevance": 151,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 2914,
-    "same_entity_limit": 153,
+    "old_news": 2908,
+    "same_entity_limit": 157,
     "similar_selected": 0,
     "company_research_limit": 5,
     "auto_driving_limit": 0,

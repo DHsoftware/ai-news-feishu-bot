@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T09:27:35.807187+08:00",
+  "updated_at": "2026-11-05T10:22:16.612147+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5648,7 +5648,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-03",
@@ -5758,7 +5758,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-04",
@@ -5802,7 +5802,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-04",
@@ -5872,6 +5872,47 @@
         "topics": [
           "agent",
           "coding"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-04",
+      "last_seen_date": "2026-11-04",
+      "canonical_key": "中国信通院 华为 腾讯 阿里等联合发布公约 共同抵制利用智能体实施算法压榨 黑灰产等行为",
+      "normalized_title": "中国信通院 华为 腾讯 阿里等联合发布公约 共同抵制利用智能体实施算法压榨 黑灰产等行为",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNQndtN0RQaGVIRkRYck9oWDd3SnNBM1k4TWc4S01Wd1FQVlB1WGZaU1FCcVJ0YWR2S0w2X2xpemtKMXdJV0NWcHRyRDl2YW0xSDIxTVdPUGgzZlliQk00VQ?oc=5",
+      "title": "中国信通院、华为、腾讯、阿里等联合发布公约：共同抵制利用智能体实施算法压榨、黑灰产等行为 - ThePaper.cn",
+      "summary": "中国信通院、华为、腾讯、阿里等联合发布公约：共同抵制利用智能体实施算法压榨、黑灰产等行为 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNQndtN0RQaGVIRkRYck9oWDd3SnNBM1k4TWc4S01Wd1FQVlB1WGZaU1FCcVJ0YWR2S0w2X2xpemtKMXdJV0NWcHRyRDl2YW0xSDIxTVdPUGgzZlliQk00VQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1
