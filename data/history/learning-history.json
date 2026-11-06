@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T09:33:19.770972+08:00",
+  "updated_at": "2026-11-06T10:22:17.453596+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -20,7 +20,7 @@
       "is_official_source": true,
       "language": "en",
       "region": "global",
-      "seen_count": 20,
+      "seen_count": 21,
       "event_signature": {
         "entities": [
           "openai"
