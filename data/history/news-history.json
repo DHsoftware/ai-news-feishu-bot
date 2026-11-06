@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T10:22:16.612147+08:00",
+  "updated_at": "2026-11-06T09:33:19.770972+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -48,45 +48,6 @@
       "seen_count": 11
     },
     {
-      "first_seen_date": "2026-10-04",
-      "last_seen_date": "2026-10-05",
-      "canonical_key": "模型的危机 token 硅谷 闭源模型 开源模型 copilot_手机新浪网",
-      "normalized_title": "模型的危机 token 硅谷 闭源模型 开源模型 copilot_手机新浪网",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOUlhOT2YwYlRlQzcxVWN5a3lmUUVNRUtlVkZjMW1GcGJTTjRobEQ3bXBzRW9xdHZoUzJGRlBjTk9FcEdyU0tDOVRvOU5jWVhvbFVDdlQzTGcxaTRZYVh0S3M1Qy1RWUZ1QUdOdzU2Mm1GXzh2c1N0cVM3SmFIMG9QZXh1RDZPTl8zOG5Ua1U0Zm9JdmwxMDNkQmVqVHBKTWhwdm9lenJUQm4taU1GdnpTbkl5M0xZb1FMbDlVMEg0aVNTWTlvNDVycTFBSm9PeURmZmJfUXhSZHRydi0ybkd3NXlnd0VzWUFrU3RqS2IwTE16T0Z5M0U2aXFoMGpydXBkNEg4MERXRndTR3JTZUtFc25kZGlKNVZYdndsZGFXdXZwcDlHWXUwTnhnNjQzNEN4OUtlRGtWWjVoMzVINm5Sb2F1NXdXM0NoblI2Z1Jad3NZN0JQR0dNRU43RTFOU3JZNkVjZ24xeC1XQ3pOT1J2dnd1LXRhcHZ5SWQtRU1vUEVTVkNkbUJMSjc1TmFWaTB5a1FoMHlIZTlJeGxxUXBQem41YXBiT0RySnRZOXQtQzRBV2ljRmIxNHhHOXRhVGROWHo3ZVp3bENXa2NTcmFwemx6cWZFZW5DRlVnQTdDaURqV1NUaDF5RjEwcDNpalNvMWFhblNGSGRMM0JDNkZBNExwTS1Wa1dkRzhGYWpzczdieTNoVU1hc2NFQUZYcmpSZUxHbnFNVWxjUl9vYmREQS1OWVpJNEVUMll0TTBPbUozaVZHZ0J1UnJaYVg3Y2pyckExbWpObw?oc=5",
-      "title": "模型的危机|Token|硅谷|闭源模型|开源模型|Copilot_手机新浪网 - 新浪财经",
-      "summary": "模型的危机|Token|硅谷|闭源模型|开源模型|Copilot_手机新浪网 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxOUlhOT2YwYlRlQzcxVWN5a3lmUUVNRUtlVkZjMW1GcGJTTjRobEQ3bXBzRW9xdHZoUzJGRlBjTk9FcEdyU0tDOVRvOU5jWVhvbFVDdlQzTGcxaTRZYVh0S3M1Qy1RWUZ1QUdOdzU2Mm1GXzh2c1N0cVM3SmFIMG9QZXh1RDZPTl8zOG5Ua1U0Zm9JdmwxMDNkQmVqVHBKTWhwdm9lenJUQm4taU1GdnpTbkl5M0xZb1FMbDlVMEg0aVNTWTlvNDVycTFBSm9PeURmZmJfUXhSZHRydi0ybkd3NXlnd0VzWUFrU3RqS2IwTE16T0Z5M0U2aXFoMGpydXBkNEg4MERXRndTR3JTZUtFc25kZGlKNVZYdndsZGFXdXZwcDlHWXUwTnhnNjQzNEN4OUtlRGtWWjVoMzVINm5Sb2F1NXdXM0NoblI2Z1Jad3NZN0JQR0dNRU43RTFOU3JZNkVjZ24xeC1XQ3pOT1J2dnd1LXRhcHZ5SWQtRU1vUEVTVkNkbUJMSjc1TmFWaTB5a1FoMHlIZTlJeGxxUXBQem41YXBiT0RySnRZOXQtQzRBV2ljRmIxNHhHOXRhVGROWHo3ZVp3bENXa2NTcmFwemx6cWZFZW5DRlVnQTdDaURqV1NUaDF5RjEwcDNpalNvMWFhblNGSGRMM0JDNkZBNExwTS1Wa1dkRzhGYWpzczdieTNoVU1hc2NFQUZYcmpSZUxHbnFNVWxjUl9vYmREQS1OWVpJNEVUMll0TTBPbUozaVZHZ0J1UnJaYVg3Y2pyckExbWpObw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "coding",
-        "opensource",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "ai_transformation",
-          "coding",
-          "opensource",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
       "first_seen_date": "2026-10-05",
       "last_seen_date": "2026-10-06",
       "canonical_key": "reviewbench an open benchmark for ai code review",
@@ -122,113 +83,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-05",
-      "last_seen_date": "2026-10-05",
-      "canonical_key": "data sheet 1sd1548ai",
-      "normalized_title": "data sheet 1sd1548ai",
-      "normalized_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZjNkcEcySlFKbGRCR2VTX0xueUowRkRTUFluZWJGT2VHbzNjUFgzV0ZnV1YxMTMxQmtHc3ZVejVzb0YxOHZPNkZoMmxsOG1xZVRHYjk2VTAxMnN6ZWZXcWM0aHVYY2Fxd3pobHE3WmZraG1WWjNrMHppRkhaWlgwakdYcw?oc=5",
-      "title": "Data Sheet 1SD1548AI - power.com",
-      "summary": "Data Sheet 1SD1548AI power.com",
-      "source": "power.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZjNkcEcySlFKbGRCR2VTX0xueUowRkRTUFluZWJGT2VHbzNjUFgzV0ZnV1YxMTMxQmtHc3ZVejVzb0YxOHZPNkZoMmxsOG1xZVRHYjk2VTAxMnN6ZWZXcWM0aHVYY2Fxd3pobHE3WmZraG1WWjNrMHppRkhaWlgwakdYcw?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-05",
-      "last_seen_date": "2026-10-05",
-      "canonical_key": "openai is adding text watermarking in chatgpt and codex",
-      "normalized_title": "openai is adding text watermarking in chatgpt and codex",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-      "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the wate…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "benchmark",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "deepmind",
-          "google",
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "benchmark",
-          "codex",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-05",
-      "last_seen_date": "2026-10-05",
-      "canonical_key": "wikipedia operator says openai s rogue bots may be linked to a may outage",
-      "normalized_title": "wikipedia operator says openai s rogue bots may be linked to a may outage",
-      "normalized_link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
-      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
-      "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "incident"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-06",
@@ -5723,7 +5577,7 @@
     },
     {
       "first_seen_date": "2026-11-04",
-      "last_seen_date": "2026-11-04",
+      "last_seen_date": "2026-11-05",
       "canonical_key": "use nvidia nemo to turn agent failures into tests and harness fixes",
       "normalized_title": "use nvidia nemo to turn agent failures into tests and harness fixes",
       "normalized_link": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes",
@@ -5758,7 +5612,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-04",
@@ -5913,6 +5767,140 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-05",
+      "last_seen_date": "2026-11-05",
+      "canonical_key": "uipath named a leader in everest group s 2026 agentic process automation platform and full suite apap peak matrix assessments",
+      "normalized_title": "uipath named a leader in everest group s 2026 agentic process automation platform and full suite apap peak matrix assessments",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGMyZnRZX3lydWxMRWhsRVNYUVIzWENuSF9wRFMxNW1aNnVyUjl4OWFNSlFJdXVkNTNaRDZmaGlrRjdndENFdGJldVFGdW1Jam50OGVrclZKYi0wRnRrS3VDeU5MSXhHQWJ4blBoU0F6LWd1aDR6VzhUUTVHZWYtQ1NaYWxNVUpYcXZ5ckFWNUhBUXg0NXppcUVIdVBlZlE?oc=5",
+      "title": "UiPath Named a Leader in Everest Group's 2026 Agentic Process Automation Platform and Full Suite APAP PEAK Matrix® Assessments - Yahoo Finance",
+      "summary": "UiPath Named a Leader in Everest Group's 2026 Agentic Process Automation Platform and Full Suite APAP PEAK Matrix® Assessments Yahoo Finance",
+      "source": "Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGMyZnRZX3lydWxMRWhsRVNYUVIzWENuSF9wRFMxNW1aNnVyUjl4OWFNSlFJdXVkNTNaRDZmaGlrRjdndENFdGJldVFGdW1Jam50OGVrclZKYi0wRnRrS3VDeU5MSXhHQWJ4blBoU0F6LWd1aDR6VzhUUTVHZWYtQ1NaYWxNVUpYcXZ5ckFWNUhBUXg0NXppcUVIdVBlZlE?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-05",
+      "last_seen_date": "2026-11-05",
+      "canonical_key": "48v fpa slashes thermal losses when powering ai",
+      "normalized_title": "48v fpa slashes thermal losses when powering ai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ2d4bGEyZFVOOUl3Vzc5VHpMUW9CZ3ZkalNkUG9xQVZxLWFkMUxZWnl6Q243WmtVdjBCMWlRY0tVVzlUVVRPc05GMlRaYWxTRFIxQk9BZUdPTWlUeXliWGRHMjN1TnVDdV9mRk13WmgwRFczQmVlYVo4eF92NVlNLW9xWjZ5U2kyeVNIZW8yN2lIQm16Q2ZpSTZrY25uTW00a2x6Z1hVOUg3WDNOYzh5c014amFNNUhDWFlXMlRZUnd0VC1tQ29Uenc4dVAwdw?oc=5",
+      "title": "48V FPA slashes thermal losses when powering AI - Vicor Corporation",
+      "summary": "48V FPA slashes thermal losses when powering AI Vicor Corporation",
+      "source": "Vicor Corporation",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ2d4bGEyZFVOOUl3Vzc5VHpMUW9CZ3ZkalNkUG9xQVZxLWFkMUxZWnl6Q243WmtVdjBCMWlRY0tVVzlUVVRPc05GMlRaYWxTRFIxQk9BZUdPTWlUeXliWGRHMjN1TnVDdV9mRk13WmgwRFczQmVlYVo4eF92NVlNLW9xWjZ5U2kyeVNIZW8yN2lIQm16Q2ZpSTZrY25uTW00a2x6Z1hVOUg3WDNOYzh5c014amFNNUhDWFlXMlRZUnd0VC1tQ29Uenc4dVAwdw?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-05",
+      "last_seen_date": "2026-11-05",
+      "canonical_key": "claude code 产品负责人 cut wu 官宣加入 openai",
+      "normalized_title": "claude code 产品负责人 cut wu 官宣加入 openai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04VmhSQWRZZU1PWkdLTXJ2anJKdUl6ZUF3LXNqNVdIWjZFRzBKRDB4M25sUkFNc1o1eXZ5OVBHMjBuSExybW0zUExCMzlFenVpeWprZDdCejE1SllfRlE?oc=5",
+      "title": "Claude Code 产品负责人 Cut Wu 官宣加入 OpenAI - InfoQ.cn",
+      "summary": "Claude Code 产品负责人 Cut Wu 官宣加入 OpenAI InfoQ.cn",
+      "source": "InfoQ.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04VmhSQWRZZU1PWkdLTXJ2anJKdUl6ZUF3LXNqNVdIWjZFRzBKRDB4M25sUkFNc1o1eXZ5OVBHMjBuSExybW0zUExCMzlFenVpeWprZDdCejE1SllfRlE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-05",
+      "last_seen_date": "2026-11-05",
+      "canonical_key": "openai adds gif creation to chatgpt in images 2 6 update",
+      "normalized_title": "openai adds gif creation to chatgpt in images 2 6 update",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJaFJyTjVZOUtlTEdqY0FXYjZKNGVfdEpFcnFqQjhfLXJqX1lDbUJPMFZYYW56eVhnVFZKZHBnR25MT3dtWmVfUDJ0dnBUYmpTcEJ1X19aSUsxajQ?oc=5",
+      "title": "OpenAI Adds GIF Creation to ChatGPT in Images 2.6 Update - www.tokenpost.com",
+      "summary": "OpenAI Adds GIF Creation to ChatGPT in Images 2.6 Update www.tokenpost.com",
+      "source": "www.tokenpost.com",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJaFJyTjVZOUtlTEdqY0FXYjZKNGVfdEpFcnFqQjhfLXJqX1lDbUJPMFZYYW56eVhnVFZKZHBnR25MT3dtWmVfUDJ0dnBUYmpTcEJ1X19aSUsxajQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
