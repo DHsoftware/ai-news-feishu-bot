@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:22:17.453596+08:00",
+  "updated_at": "2026-11-07T08:56:43.464354+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -46,154 +46,6 @@
         ]
       },
       "seen_count": 11
-    },
-    {
-      "first_seen_date": "2026-10-05",
-      "last_seen_date": "2026-10-06",
-      "canonical_key": "reviewbench an open benchmark for ai code review",
-      "normalized_title": "reviewbench an open benchmark for ai code review",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "summary": "Agentic code review is becoming an essential piece of how development happens. It helps you inspect pull requests, catch issues, and decide what deserves attention before code ships. But the quality of existing AI reviewers can be hard to measure, and you need to know the strengths of a reviewer be…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_code_review",
-        "benchmark",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_code_review",
-          "benchmark",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-06",
-      "last_seen_date": "2026-10-06",
-      "canonical_key": "agentic ai in hr workflows adoption and impact",
-      "normalized_title": "agentic ai in hr workflows adoption and impact",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Z1YtOWRXTld5eFExOFhTYTc0TFBsWURFbEFnMm5aRnZBbGc3REFhc3c3eGdmUkhNV3lrUG9jX3Vra3VVd2o3N0dUc3FZd2xnWlFVSmtsU2VqWGttbUlwTm9Ic1VhaXFKSnc2UTF3?oc=5",
-      "title": "Agentic AI in HR: Workflows, Adoption, and Impact - Kings Research",
-      "summary": "Agentic AI in HR: Workflows, Adoption, and Impact Kings Research",
-      "source": "Kings Research",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85Z1YtOWRXTld5eFExOFhTYTc0TFBsWURFbEFnMm5aRnZBbGc3REFhc3c3eGdmUkhNV3lrUG9jX3Vra3VVd2o3N0dUc3FZd2xnWlFVSmtsU2VqWGttbUlwTm9Ic1VhaXFKSnc2UTF3?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-06",
-      "last_seen_date": "2026-10-06",
-      "canonical_key": "navitas closes acquisition of claros advancing ai infrastructure with grid to xpu power delivery",
-      "normalized_title": "navitas closes acquisition of claros advancing ai infrastructure with grid to xpu power delivery",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSEVJSFE1YUtlZ1VqQ051X3FEeW1zV01KVVFvOFZWMG5fVFZsRHJiQl9xWkpSZE9uQVZCdkwyMEVWUjBIY1VrSXBoWVBZSTl1X1FiSm83c3ZMajU0LUtyc3lfbFpadnl6WTlaOWQ0Zl9kN3h1ZVRHdWZoNzBmTV9oSldoVFhNZG5oOW1wb0l0Z2djdTRGUm0zR2gtN3gyczQyNndjMTZrYl9mOXE5cGI2NWpEcFVpN1pCQ1ZtakFBOU5YNGxUNThvSER4bkktUWhQZWFZbQ?oc=5",
-      "title": "Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery - Navitas Semiconductor",
-      "summary": "Navitas Closes Acquisition of Claros, Advancing AI Infrastructure with Grid-to-xPU Power Delivery Navitas Semiconductor",
-      "source": "Navitas Semiconductor",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSEVJSFE1YUtlZ1VqQ051X3FEeW1zV01KVVFvOFZWMG5fVFZsRHJiQl9xWkpSZE9uQVZCdkwyMEVWUjBIY1VrSXBoWVBZSTl1X1FiSm83c3ZMajU0LUtyc3lfbFpadnl6WTlaOWQ0Zl9kN3h1ZVRHdWZoNzBmTV9oSldoVFhNZG5oOW1wb0l0Z2djdTRGUm0zR2gtN3gyczQyNndjMTZrYl9mOXE5cGI2NWpEcFVpN1pCQ1ZtakFBOU5YNGxUNThvSER4bkktUWhQZWFZbQ?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "gan",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-06",
-      "last_seen_date": "2026-10-06",
-      "canonical_key": "openai与ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究",
-      "normalized_title": "openai与ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGMjFfTzRzZzkwQWxWVHU4MU9fN21lU1hJSFVCUURwamh0NHV4cnFrcU1lOHVvanNOUDlmQk9ablZQamNNYzBoYjd4dGF4TVUzb3NtVmVNOXl5Z2d3bm5qYw?oc=5",
-      "title": "OpenAI与Ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究 - 东方财富",
-      "summary": "OpenAI与Ironclad开展合作 针对复杂合同工作流开展人工智能智能体研究 东方财富",
-      "source": "东方财富",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGMjFfTzRzZzkwQWxWVHU4MU9fN21lU1hJSFVCUURwamh0NHV4cnFrcU1lOHVvanNOUDlmQk9ablZQamNNYzBoYjd4dGF4TVUzb3NtVmVNOXl5Z2d3bm5qYw?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-06",
@@ -5904,6 +5756,199 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-06",
+      "canonical_key": "measuring how ai agents handle everyday wet",
+      "normalized_title": "measuring how ai agents handle everyday wet",
+      "normalized_link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-06",
+      "canonical_key": "true to accelerate ai deployment across network operations and business functions in 2027",
+      "normalized_title": "true to accelerate ai deployment across network operations and business functions in 2027",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaUZ3MGxlREktVXJvdDF2UUZrQTJjR0VyQWZkU25scW81VTZ4RlcyNk9yMlEtUUN2dnBXalhhU1VPSG1jd2J5YWFrVU82aEk4UDMwNUdiSDhLUjl6S2F4alZ3SVkwWmRFNHZPTTRNR3VoUHBsNXM1RHZTdjZhbEhVbDYydUJRVDJsYnQtZnpOcFR2d0lXTjFfZy1MdWJsOHFYTzZDZ0NsNjN4RDItVDVhT1JENG5xaVUzMnlkbUg5bFp3RHBTc2xzQmpZV2s?oc=5",
+      "title": "True to accelerate AI deployment across network operations and business functions in 2027 - Telecompaper",
+      "summary": "True to accelerate AI deployment across network operations and business functions in 2027 Telecompaper",
+      "source": "Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaUZ3MGxlREktVXJvdDF2UUZrQTJjR0VyQWZkU25scW81VTZ4RlcyNk9yMlEtUUN2dnBXalhhU1VPSG1jd2J5YWFrVU82aEk4UDMwNUdiSDhLUjl6S2F4alZ3SVkwWmRFNHZPTTRNR3VoUHBsNXM1RHZTdjZhbEhVbDYydUJRVDJsYnQtZnpOcFR2d0lXTjFfZy1MdWJsOHFYTzZDZ0NsNjN4RDItVDVhT1JENG5xaVUzMnlkbUg5bFp3RHBTc2xzQmpZV2s?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-06",
+      "canonical_key": "how nvidia open source tools are helping researchers build next",
+      "normalized_title": "how nvidia open source tools are helping researchers build next",
+      "normalized_link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "summary": "A year ago, NVIDIA open sourced its Aerial wireless software , joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — conne…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "opensource",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-06",
+      "canonical_key": "阿里开源ai代码审查工具登顶github 如何解决code review疲劳",
+      "normalized_title": "阿里开源ai代码审查工具登顶github 如何解决code review疲劳",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FY1N4TjQ0Q3gwdGlwYXpPSk1qMXc4VlB5SjByUDQ5U1NHdTkzV1RmM3VhTFJvZW5tenpVeVJsMGNXRGFIRnNndmw2QjNuRE9ydnpfSDUwa2diVEJJT3pR?oc=5",
+      "title": "阿里开源AI代码审查工具登顶GitHub，如何解决Code Review疲劳 - CSDN",
+      "summary": "阿里开源AI代码审查工具登顶GitHub，如何解决Code Review疲劳 CSDN",
+      "source": "CSDN",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FY1N4TjQ0Q3gwdGlwYXpPSk1qMXc4VlB5SjByUDQ5U1NHdTkzV1RmM3VhTFJvZW5tenpVeVJsMGNXRGFIRnNndmw2QjNuRE9ydnpfSDUwa2diVEJJT3pR?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-06",
+      "canonical_key": "离职消息公布仅一天 claude code前负责人cat wu宣布加盟openai",
+      "normalized_title": "离职消息公布仅一天 claude code前负责人cat wu宣布加盟openai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tUk5oRlBTeW9IWTBwaWpvbjBMV0cyZnNsZmdiU2hYQmRPQkhJMDlGaEN4UklQVjBlc1lPWUJrODhsQzFfSk42RmVhR0I3dHNaUWc?oc=5",
+      "title": "离职消息公布仅一天，Claude Code前负责人Cat Wu宣布加盟OpenAI - 凤凰网",
+      "summary": "离职消息公布仅一天，Claude Code前负责人Cat Wu宣布加盟OpenAI 凤凰网",
+      "source": "凤凰网",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tUk5oRlBTeW9IWTBwaWpvbjBMV0cyZnNsZmdiU2hYQmRPQkhJMDlGaEN4UklQVjBlc1lPWUJrODhsQzFfSk42RmVhR0I3dHNaUWc?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
