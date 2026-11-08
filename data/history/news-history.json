@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T08:36:41.130068+08:00",
+  "updated_at": "2026-11-08T09:23:56.391298+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -4628,7 +4628,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "first_seen_date": "2026-10-31",
@@ -5696,7 +5696,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-06",
@@ -5807,7 +5807,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-07",
@@ -5844,7 +5844,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-07",
@@ -5887,6 +5887,40 @@
           "coding",
           "coding_agent",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-07",
+      "last_seen_date": "2026-11-07",
+      "canonical_key": "claude code s don t ask again exposes passwords in 1 122 public github files",
+      "normalized_title": "claude code s don t ask again exposes passwords in 1 122 public github files",
+      "normalized_link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "summary": "width=device-width, initial-scale=1.0\" name=\"viewport\"/> Apiiro: Secure your agentic development <meta content=",
+      "source": "Hacker News",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "github",
+          "meta"
+        ],
+        "products": [
+          "claude_code"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
         ]
       },
       "seen_count": 1

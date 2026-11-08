@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-08T08:36:41.130068+08:00",
+  "generated_at": "2026-11-08T09:23:56.391298+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -31,7 +31,7 @@
       "summary": "Run coding tasks in the cloud, review results, and get started with Codex Cloud.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-11-08T08:36:41.130068+08:00",
+      "published_at": "2026-11-08T09:23:56.391298+08:00",
       "source": "OpenAI",
       "source_type": "official_doc",
       "source_quality": "high",
