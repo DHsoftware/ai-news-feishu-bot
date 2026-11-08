@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:53:16.241115+08:00",
+  "updated_at": "2026-11-08T08:36:41.130068+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -48,44 +48,6 @@
       "seen_count": 11
     },
     {
-      "first_seen_date": "2026-10-06",
-      "last_seen_date": "2026-10-07",
-      "canonical_key": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
-      "normalized_title": "智能体越狱频发 openai踩刹车取消gpt 6 1 astra发布 meta猛踩油门边开边修",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
-      "title": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 - 虎嗅网",
-      "summary": "智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBajNoUFdaZm9WaGcyVWl0T3VOakhyc1RycC1nSkR2T0lSTDBpZ0V4WXctQzEzV1g2ZTZxQ1ZEOFJQYnB5OHQzOTNOOVRheU1nV245Ng?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "model_capability"
-        ]
-      },
-      "seen_count": 3
-    },
-    {
       "first_seen_date": "2026-10-07",
       "last_seen_date": "2026-10-08",
       "canonical_key": "agent lightning v1 0 a 3 500 line lightweight agentic rl framework for training agents with real harnesses",
@@ -132,144 +94,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-07",
-      "last_seen_date": "2026-10-07",
-      "canonical_key": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
-      "normalized_title": "what wolters kluwer enxtam wkl ai workflow launch means for shareholders",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
-      "title": "What Wolters Kluwer (ENXTAM:WKL) AI Workflow Launch Means For Shareholders - Simply Wall Street",
-      "summary": "What Wolters Kluwer (ENXTAM:WKL) AI Workflow Launch Means For Shareholders Simply Wall Street",
-      "source": "Simply Wall Street",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcVgtVXl3ZGdMMi1kV2VKSXlweXFQd2tFcF9LRkY1NVdCcTFFT2lacFhoZi1xbTUtamdINnBtZlFId256aHBhZVp4N0l6cWdudUluSzhYMzlsT2s0czBUcWw3ZzZuYWZRR3BPSDU0b0VPT3d3X2ZaYm1aeTlZT05nQW9aWUpoXzZTVnlrTjJjUHNfamliekl1c0ZkNGxCSEhkdC10cHNvLVBlejJvbEF0S2NKbDlIemo1aVNQWTZ4Uy1GRE9UVWhtemI5dHdYeWxNWTVhWk9tVlZ6TXQyamhERdIB5gFBVV95cUxOTGlxYS1CSHExV0tqb1FENl9Gel9VMHlwOWpzSnI1V21QMlFua3gtUGpXS3A3Q1pzTVI5YTFIdWpuRWJjMEp0alJBa0VONk5KMmFsd1pHNzZKR3dYb3NjZ05kdWhSb2NuM3E4dGM1YXUtek1Eek9oNUY3bzNBdzMzOXNIOG5MbVpYRmQzVTl4SmNCV21lWWN6dVFtWV85YlpueHZGR18xMHFWZW5wckJJNEcxVGk3WGU4MGJwWTEyc05MZzFQU0pUc0c3Q1o0bU1hdWV5ODdXVkhSNFRzeDVxazVfdmNkZw?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-07",
-      "last_seen_date": "2026-10-07",
-      "canonical_key": "wolfspeed announces conditional 30 year 1 5 billion loan commitment from u s department of war to advance domestic wide bandgap supply chain",
-      "normalized_title": "wolfspeed announces conditional 30 year 1 5 billion loan commitment from u s department of war to advance domestic wide bandgap supply chain",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenFLTVFzekVSMGJKSzdGVXdSeXNXeGdCZWpmUFk4UE1lVXFBSHprWVFWN0VITzZaZmllZXItQjBLOGJORS1JMk1LUlg0ZVlEcmhfOTR4dEVrN18yVjZYeS1HcFlaZjJaQTVqMUFIQlVXaDVUemhGdi0wdmMwVjY5YVRZZ0xBa2ZacW9OZVd1VmlhNl9CV1A5dUJUVlNYVFY2T0cwc0pZdExPWmh2YTZDZGJfUW1oXzY2N0hubG5HMWlYb1pvek04bFFCY1p4YnFja212TV9VT3JQcFpKNFVqcEUyVDJ3RHgtUEktajJ5ekdUU1F0UGRyWUpPbVJCNDJUMUw2ZjFrbkktcnc?oc=5",
-      "title": "Wolfspeed Announces Conditional 30-Year, $1.5 Billion Loan Commitment from U.S. Department of War to Advance Domestic Wide Bandgap Supply Chain - Wolfspeed",
-      "summary": "Wolfspeed Announces Conditional 30-Year, $1.5 Billion Loan Commitment from U.S. Department of War to Advance Domestic Wide Bandgap Supply Chain Wolfspeed",
-      "source": "Wolfspeed",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNenFLTVFzekVSMGJKSzdGVXdSeXNXeGdCZWpmUFk4UE1lVXFBSHprWVFWN0VITzZaZmllZXItQjBLOGJORS1JMk1LUlg0ZVlEcmhfOTR4dEVrN18yVjZYeS1HcFlaZjJaQTVqMUFIQlVXaDVUemhGdi0wdmMwVjY5YVRZZ0xBa2ZacW9OZVd1VmlhNl9CV1A5dUJUVlNYVFY2T0cwc0pZdExPWmh2YTZDZGJfUW1oXzY2N0hubG5HMWlYb1pvek04bFFCY1p4YnFja212TV9VT3JQcFpKNFVqcEUyVDJ3RHgtUEktajJ5ekdUU1F0UGRyWUpPbVJCNDJUMUw2ZjFrbkktcnc?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "power_electronics",
-        "sic",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "wolfspeed"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "company_research",
-          "power_electronics",
-          "sic",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-07",
-      "last_seen_date": "2026-10-07",
-      "canonical_key": "国庆黄金周ai巨头动态 openai旗舰模型延期 agent产品补位 anthropic面临监管与竞争压力",
-      "normalized_title": "国庆黄金周ai巨头动态 openai旗舰模型延期 agent产品补位 anthropic面临监管与竞争压力",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UeU56T1daMGdMVVlwVjJvU3hSaTMyUXRoV19wY1o0anBCM3ZhSkxxalh0amRCLTd0U2NPVG5LZUJjaWx5ZlFPVDQ4R1lWVlktUmtqWQ?oc=5",
-      "title": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 - 虎嗅网",
-      "summary": "国庆黄金周AI巨头动态：OpenAI旗舰模型延期，Agent产品补位，Anthropic面临监管与竞争压力 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UeU56T1daMGdMVVlwVjJvU3hSaTMyUXRoV19wY1o0anBCM3ZhSkxxalh0amRCLTd0U2NPVG5LZUJjaWx5ZlFPVDQ4R1lWVlktUmtqWQ?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "regulation"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "policy_regulation",
-          "regulation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-07",
-      "last_seen_date": "2026-10-07",
-      "canonical_key": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
-      "normalized_title": "博通联手 openai 筹集 500 亿美元研发 ai 芯片 ai资讯 博通openai 算力军备竞赛",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
-      "title": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# - 搜狐网",
-      "summary": "博通联手 OpenAI 筹集 500 亿美元研发 AI 芯片 ｜#AI资讯# #博通OpenAI# #算力军备竞赛# 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUjZLNGszdW1NSWZoOXhTcHRobm4xVDZZWjBIbGtPblpsdTBZd241akF1Z3RhWTdKVVp6cVMzMkRnbjQ2b0laZy14dS1CM2RnMG5pUktZX0liYlY1T3dENE1HT0RfMWhnelpJSDFpS2gzb3R4LXYxUG9BNEVQc3VJVGxVcVRYNmRUUjVtTw?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-08",
@@ -4771,7 +4595,7 @@
     },
     {
       "first_seen_date": "2026-10-30",
-      "last_seen_date": "2026-10-31",
+      "last_seen_date": "2026-11-07",
       "canonical_key": "run ai models for edge application development with just a few commands",
       "normalized_title": "run ai models for edge application development with just a few commands",
       "normalized_link": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands",
@@ -4804,7 +4628,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-10-31",
@@ -5833,7 +5657,7 @@
     },
     {
       "first_seen_date": "2026-11-06",
-      "last_seen_date": "2026-11-06",
+      "last_seen_date": "2026-11-07",
       "canonical_key": "how nvidia open source tools are helping researchers build next",
       "normalized_title": "how nvidia open source tools are helping researchers build next",
       "normalized_link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
@@ -5872,7 +5696,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-06",
@@ -5949,6 +5773,123 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-07",
+      "last_seen_date": "2026-11-07",
+      "canonical_key": "大家在做纯血鸿蒙运用开发中 是不是也用ai开发工具做开发了 华为发布了ai辅助代码的工具 这个工具是不是免费用吗",
+      "normalized_title": "大家在做纯血鸿蒙运用开发中 是不是也用ai开发工具做开发了 华为发布了ai辅助代码的工具 这个工具是不是免费用吗",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmthQkJNVnJvRHJQZW1qSV9QQzRXZlczcmR3TnZzUzUyRV9NWlA3aHhOQVNNckRQLUlhS3dlYzJHc3FhUmhRRzFNYmRZQnRnb20xelROVmFIYjkyQ2dsUFF5cXYxTUdoMm1lLUdJS1BWWGlNdm9nNlFXQ0ZpN0JGY25JREpCNThyT0R4ZjdBWXBKZTI4OU1GclZRdVk?oc=5",
+      "title": "大家在做纯血鸿蒙运用开发中，是不是也用ai开发工具做开发了，华为发布了ai辅助代码的工具，这个工具是不是免费用吗？ - Huawei Developer",
+      "summary": "大家在做纯血鸿蒙运用开发中，是不是也用ai开发工具做开发了，华为发布了ai辅助代码的工具，这个工具是不是免费用吗？ Huawei Developer",
+      "source": "Huawei Developer",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmthQkJNVnJvRHJQZW1qSV9QQzRXZlczcmR3TnZzUzUyRV9NWlA3aHhOQVNNckRQLUlhS3dlYzJHc3FhUmhRRzFNYmRZQnRnb20xelROVmFIYjkyQ2dsUFF5cXYxTUdoMm1lLUdJS1BWWGlNdm9nNlFXQ0ZpN0JGY25JREpCNThyT0R4ZjdBWXBKZTI4OU1GclZRdVk?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "company_research",
+        "org_productivity",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "huawei"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "company_research",
+          "org_productivity",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-07",
+      "last_seen_date": "2026-11-07",
+      "canonical_key": "ai代码审查工具 从规则扫描到语义理解的开发基础设施",
+      "normalized_title": "ai代码审查工具 从规则扫描到语义理解的开发基础设施",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xVGNGYWdWQXNsQzlpQ19sZWRaSG1tdlhYR1lSdEUwWWt2VWJuVG5nTWR6YUk4U0VnMlJPc04yNjVUU3AyOTZFZTFfaEtPalBwaVlYUEFESXFEcDM5SXR3?oc=5",
+      "title": "AI代码审查工具：从规则扫描到语义理解的开发基础设施 - CSDN",
+      "summary": "AI代码审查工具：从规则扫描到语义理解的开发基础设施 CSDN",
+      "source": "CSDN",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xVGNGYWdWQXNsQzlpQ19sZWRaSG1tdlhYR1lSdEUwWWt2VWJuVG5nTWR6YUk4U0VnMlJPc04yNjVUU3AyOTZFZTFfaEtPalBwaVlYUEFESXFEcDM5SXR3?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-07",
+      "last_seen_date": "2026-11-07",
+      "canonical_key": "openai partners with jpmorgan on codex and cybersecurity ai",
+      "normalized_title": "openai partners with jpmorgan on codex and cybersecurity ai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lSGhSaFMtX0lPTWsycUxOUGFLNmRYZE5uR2tQaGRKak9KZDh4TmMtaThpX1R4SHEwYUFxaFE1WjV2Y2xCc2pNWXJ4b2NwVU1tOXNTYm1nd3E?oc=5",
+      "title": "OpenAI Partners With JPMorgan on Codex and Cybersecurity AI - TOKENPOST",
+      "summary": "OpenAI Partners With JPMorgan on Codex and Cybersecurity AI TOKENPOST",
+      "source": "TOKENPOST",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lSGhSaFMtX0lPTWsycUxOUGFLNmRYZE5uR2tQaGRKak9KZDh4TmMtaThpX1R4SHEwYUFxaFE1WjV2Y2xCc2pNWXJ4b2NwVU1tOXNTYm1nd3E?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
