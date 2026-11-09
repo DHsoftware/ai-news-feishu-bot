@@ -1,11 +1,11 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-09T08:54:51.581490+08:00",
+  "generated_at": "2026-11-09T09:42:22.236513+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 20,
-    "failed_count": 2
+    "success_count": 21,
+    "failed_count": 1
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -18,19 +18,46 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 12,
-    "history_size_after": 12,
+    "history_size_after": 13,
     "history_duplicate_count": 10
   },
-  "raw_item_count": 66,
-  "deduped_item_count": 25,
-  "filtered_item_count": 0,
-  "curated_item_count": 0,
-  "curated_items": [],
+  "raw_item_count": 72,
+  "deduped_item_count": 26,
+  "filtered_item_count": 2,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "summary": "Coinbase CTO Rob Witoff explains why security, guardrails, and zero data retention matter when using OpenAI. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-11-03T06:44:26+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/NbDF90z-g6w",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "guardrails"
+      ],
+      "concept_hint": "Guardrails",
+      "score": 43,
+      "canonical_key": "coinbase on openai private intelligence",
+      "dedupe_key": "coinbase on openai private intelligence",
+      "selection_reason": "learning_high_score"
+    }
+  ],
   "rejected_stats": {
-    "duplicate": 41,
+    "duplicate": 46,
     "history_duplicate": 10,
     "same_source_limit": 0,
-    "old_resource": 15,
+    "old_resource": 14,
     "similar_selected": 0,
     "google_or_youtube_deprioritized": 0,
     "low_quality_learning_source": 0

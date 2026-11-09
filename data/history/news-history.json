@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:54:51.581490+08:00",
+  "updated_at": "2026-11-09T09:42:22.236513+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5763,7 +5763,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-08",
@@ -5796,7 +5796,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-08",
@@ -5829,7 +5829,7 @@
           "ai_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-08",
@@ -5864,7 +5864,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-08",
@@ -5893,7 +5893,7 @@
           "security"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }

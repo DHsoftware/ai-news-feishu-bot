@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:54:51.581490+08:00",
+  "updated_at": "2026-11-09T09:42:22.236513+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -479,6 +479,45 @@
           "agent",
           "cli",
           "codex"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-08",
+      "last_seen_date": "2026-11-08",
+      "canonical_key": "coinbase on openai private intelligence",
+      "normalized_title": "coinbase on openai private intelligence",
+      "normalized_link": "https://www.youtube.com/shorts/NbDF90z-g6w",
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "summary": "Coinbase CTO Rob Witoff explains why security, guardrails, and zero data retention matter when using OpenAI. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/NbDF90z-g6w",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Guardrails",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "guardrails"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "guardrails",
+          "security"
         ]
       },
       "seen_count": 1
