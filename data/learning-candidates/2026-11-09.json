@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-07T09:53:16.241115+08:00",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-10T11:34:21.221692+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 12,
+    "history_size_before": 13,
     "history_size_after": 12,
     "history_duplicate_count": 9
   },
@@ -27,32 +27,28 @@
   "curated_item_count": 1,
   "curated_items": [
     {
-      "title": "Guardrails and human review | OpenAI API",
-      "link": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
-      "source": "OpenAI Developers",
+      "title": "Overview - Claude Code Docs",
+      "summary": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.",
+      "summary_source": "page_meta_description",
+      "summary_quality": "high",
+      "published_at": "2026-11-10T11:34:21.221692+08:00",
+      "source": "Anthropic Docs",
       "source_type": "official_doc",
       "source_quality": "high",
-      "summary_source": "official_static_summary",
-      "summary_quality": "high",
       "is_official_source": true,
-      "summary": "OpenAI official guide explaining how guardrails and human review help constrain agent behavior and control sensitive actions.",
-      "tags": [
-        "agent",
-        "agent_governance",
-        "approvals",
-        "guardrails",
-        "human_in_the_loop",
-        "official",
-        "safety"
-      ],
-      "published_at": "2026-11-07T09:53:16.241115+08:00",
       "language": "en",
       "region": "global",
-      "source_group": "official_agent_concept",
-      "score": 114,
-      "concept_hint": "Guardrails",
-      "canonical_key": "guardrails and human review",
-      "dedupe_key": "guardrails and human review",
+      "link": "https://docs.anthropic.com/en/docs/claude-code",
+      "tags": [
+        "agent",
+        "coding_agent",
+        "tools",
+        "workflow"
+      ],
+      "concept_hint": "Tool Calling",
+      "score": 74,
+      "canonical_key": "overview",
+      "dedupe_key": "overview",
       "selection_reason": "learning_high_score"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:42:22.236513+08:00",
+  "updated_at": "2026-11-10T11:34:21.221692+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -116,153 +116,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-09",
-      "canonical_key": "yettel hungary launches rpa software for enterprise automation",
-      "normalized_title": "yettel hungary launches rpa software for enterprise automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEVmVDNDemtkMEdvbkJCVjcyRXhJREtFbGJyYUhsQ25FM0ZnelBHSU40OFZVaGtMb0I4RFVRZ0FSTTFka2RiSHl0bUlVQ0YxWmtKRTJYNjRESFZBWFAwTUdNT0V2NzJTM2ttT0Q2aFRWbFV3SGRsbV9GVFd4S0g5LTI2VGNYb3RCWWtNQmtqTTdydFFiMy1aSE5aX1NscWNiOHEwQmZfQmY?oc=5",
-      "title": "Yettel Hungary launches RPA software for enterprise automation - Telecompaper",
-      "summary": "Yettel Hungary launches RPA software for enterprise automation Telecompaper",
-      "source": "Telecompaper",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEVmVDNDemtkMEdvbkJCVjcyRXhJREtFbGJyYUhsQ25FM0ZnelBHSU40OFZVaGtMb0I4RFVRZ0FSTTFka2RiSHl0bUlVQ0YxWmtKRTJYNjRESFZBWFAwTUdNT0V2NzJTM2ttT0Q2aFRWbFV3SGRsbV9GVFd4S0g5LTI2VGNYb3RCWWtNQmtqTTdydFFiMy1aSE5aX1NscWNiOHEwQmZfQmY?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "research",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-09",
-      "canonical_key": "ai算力扩张 功率半导体迎来新一轮竞争",
-      "normalized_title": "ai算力扩张 功率半导体迎来新一轮竞争",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uamRIQWFSVzBkQm1FZjdBLXVDLWxmRHdLYURDTDRBQmJhVDlHSFhTampFUHRxN3Rqb2hhQTRSQU9NUkdpTlRIRE0zODJoMDduaXh3d0NzTy1sWGNXSGc?oc=5",
-      "title": "AI算力扩张，功率半导体迎来新一轮竞争 - ThePaper.cn",
-      "summary": "AI算力扩张，功率半导体迎来新一轮竞争 ThePaper.cn",
-      "source": "ThePaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uamRIQWFSVzBkQm1FZjdBLXVDLWxmRHdLYURDTDRBQmJhVDlHSFhTampFUHRxN3Rqb2hhQTRSQU9NUkdpTlRIRE0zODJoMDduaXh3d0NzTy1sWGNXSGc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "chip",
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip",
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-09",
-      "canonical_key": "gpt周报 meta等公司联合起草个人智能体协议 manus完成超5亿美元新一轮融资 数学组织反对openai发布数学研究成果",
-      "normalized_title": "gpt周报 meta等公司联合起草个人智能体协议 manus完成超5亿美元新一轮融资 数学组织反对openai发布数学研究成果",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrMkFwSGRjaUtiUDkxXzdfMjk0UjRQQmtUbldiUzFUXzU0LXRqOTR0aGV6ekNtemtSeWdRQUNKNUV1T1JZTHUyRFRRT01LSWtuX2NEVlhDMUJsNFd3ZHZHV0Rkcm4?oc=5",
-      "title": "GPT周报｜Meta等公司联合起草个人智能体协议；Manus完成超5亿美元新一轮融资；数学组织反对OpenAI发布数学研究成果 - 财新",
-      "summary": "GPT周报｜Meta等公司联合起草个人智能体协议；Manus完成超5亿美元新一轮融资；数学组织反对OpenAI发布数学研究成果 财新",
-      "source": "财新",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrMkFwSGRjaUtiUDkxXzdfMjk0UjRQQmtUbldiUzFUXzU0LXRqOTR0aGV6ekNtemtSeWdRQUNKNUV1T1JZTHUyRFRRT01LSWtuX2NEVlhDMUJsNFd3ZHZHV0Rkcm4?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "model_capability",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-09",
-      "canonical_key": "scale bitwise deterministic pretraining with nvidia megatron core",
-      "normalized_title": "scale bitwise deterministic pretraining with nvidia megatron core",
-      "normalized_link": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core",
-      "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
-      "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially val…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-10",
@@ -5894,6 +5747,211 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-09",
+      "canonical_key": "practice makes precise at corl nvidia and partners reveal how robots rehearse delicate work in simulation",
+      "normalized_title": "practice makes precise at corl nvidia and partners reveal how robots rehearse delicate work in simulation",
+      "normalized_link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "benchmark",
+        "company_research",
+        "research",
+        "robotics",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "benchmark",
+          "company_research",
+          "research",
+          "robotics",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-09",
+      "canonical_key": "codenotary releases open source agentmon live to improve ai coding productivity",
+      "normalized_title": "codenotary releases open source agentmon live to improve ai coding productivity",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc3Z3ZDRhYUVTc3czUmhXbUN6NVZyeFJoN1NIQWVlZGYxRjZKcXhDaDZpMEdyRDN2dkk1TXlqWEpIOHZ6NTVsVnM4Qi16ZXZ4TjVieDNwU2R0SlhZNHd3NS1ya2lUNkFjeWpZTHVOZlJGMk9oSzNGRU5tWE9maTZCX3dzOTJVUHRwX1RqM1dHdjJoN2xkQjlLR1QtYW9oUkdnanVNTE5uUm5uOEFyMmxDYjNqaEN5dw?oc=5",
+      "title": "Codenotary Releases Open-Source AgentMon Live to Improve AI Coding Productivity - SD Times",
+      "summary": "Codenotary Releases Open-Source AgentMon Live to Improve AI Coding Productivity SD Times",
+      "source": "SD Times",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc3Z3ZDRhYUVTc3czUmhXbUN6NVZyeFJoN1NIQWVlZGYxRjZKcXhDaDZpMEdyRDN2dkk1TXlqWEpIOHZ6NTVsVnM4Qi16ZXZ4TjVieDNwU2R0SlhZNHd3NS1ya2lUNkFjeWpZTHVOZlJGMk9oSzNGRU5tWE9maTZCX3dzOTJVUHRwX1RqM1dHdjJoN2xkQjlLR1QtYW9oUkdnanVNTE5uUm5uOEFyMmxDYjNqaEN5dw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-09",
+      "canonical_key": "neurips 26 只干预10个维度 给智能体穿上安全机甲 准确率超97",
+      "normalized_title": "neurips 26 只干预10个维度 给智能体穿上安全机甲 准确率超97",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FUHUwLWhGWnR6Y3I0SXlpLTZmVnFnN1E5VHh6YXJXUE5IRVRKOFhJN1lJUTdxeUp2dnVQVE50T0toZGwtZ3V2Wg?oc=5",
+      "title": "NeurIPS'26 | 只干预10个维度，给智能体穿上安全机甲，准确率超97% - 智源社区",
+      "summary": "NeurIPS'26 | 只干预10个维度，给智能体穿上安全机甲，准确率超97% 智源社区",
+      "source": "智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FUHUwLWhGWnR6Y3I0SXlpLTZmVnFnN1E5VHh6YXJXUE5IRVRKOFhJN1lJUTdxeUp2dnVQVE50T0toZGwtZ3V2Wg?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-09",
+      "canonical_key": "anthropic发布最强双旗舰模型 千个智能体30小时证明费马大定理 api降价两成",
+      "normalized_title": "anthropic发布最强双旗舰模型 千个智能体30小时证明费马大定理 api降价两成",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mNHZTQ0RNQjJVaWsyRnFFZEwxdkxjUXdiSWVocG9nRmFKR3lndWZoeXFVaHU2SlBySmJCX0xLalAwQjJVbDlwT0RUbEFfR28zNExF?oc=5",
+      "title": "Anthropic发布最强双旗舰模型：千个智能体30小时证明费马大定理、API降价两成 - 华尔街见闻",
+      "summary": "Anthropic发布最强双旗舰模型：千个智能体30小时证明费马大定理、API降价两成 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mNHZTQ0RNQjJVaWsyRnFFZEwxdkxjUXdiSWVocG9nRmFKR3lndWZoeXFVaHU2SlBySmJCX0xLalAwQjJVbDlwT0RUbEFfR28zNExF?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-09",
+      "canonical_key": "from chips to skills nvidia and korea expand sovereign ai collaboration",
+      "normalized_title": "from chips to skills nvidia and korea expand sovereign ai collaboration",
+      "normalized_link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU c…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "partnership",
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
