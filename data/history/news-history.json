@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:04:57.782751+08:00",
+  "updated_at": "2026-11-11T09:14:09.210611+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -79,187 +79,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-09",
-      "last_seen_date": "2026-10-10",
-      "canonical_key": "hack the world why hackathons are still the best place to learn to build",
-      "normalized_title": "hack the world why hackathons are still the best place to learn to build",
-      "normalized_link": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
-      "title": "Hack the World: Why hackathons are still the best place to learn to build",
-      "summary": "Someone bursts through the door and announces, “There’s pizza!” Nearby, a team has duct tape and cardboard holding its prototype together. Another is debugging a model that won’t detect their movements. This is a common scene during hackathons, and for a lot of people they’re the place to learn to…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "robotics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "robotics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-10",
-      "last_seen_date": "2026-10-10",
-      "canonical_key": "print workflow automation software how printers can reduce manual work and scale faster",
-      "normalized_title": "print workflow automation software how printers can reduce manual work and scale faster",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkd5Wkt4aFFDUHgyUjhOS0NWYi1HMTJZdURvamdhLTA4TWlESE95VXhVcHRlRHhIcHhvbTJuSkxTMzAyZjhZQm1Day1iZmVGZTlFS3ZRd1NaOWZ2a2F6TWVvd2RFSFF3YUtsVm93Vk1EdGo4ZUxEN0pMU19zYlpsZUpNNVNpZUF3eS1NM2lmR2wxQXRNTUlPVk1VcWNpOGNNQXRwUWJuRHZuWG91RktJS0R2WGR1ZDNQaUE?oc=5",
-      "title": "Print Workflow Automation Software: How Printers Can Reduce Manual Work and Scale Faster - PC Tech Magazine",
-      "summary": "Print Workflow Automation Software: How Printers Can Reduce Manual Work and Scale Faster PC Tech Magazine",
-      "source": "PC Tech Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkd5Wkt4aFFDUHgyUjhOS0NWYi1HMTJZdURvamdhLTA4TWlESE95VXhVcHRlRHhIcHhvbTJuSkxTMzAyZjhZQm1Day1iZmVGZTlFS3ZRd1NaOWZ2a2F6TWVvd2RFSFF3YUtsVm93Vk1EdGo4ZUxEN0pMU19zYlpsZUpNNVNpZUF3eS1NM2lmR2wxQXRNTUlPVk1VcWNpOGNNQXRwUWJuRHZuWG91RktJS0R2WGR1ZDNQaUE?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-10",
-      "last_seen_date": "2026-10-10",
-      "canonical_key": "远景 发布 ai风储一体机白皮书",
-      "normalized_title": "远景 发布 ai风储一体机白皮书",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NDRJMVNlZDNzN1Vsa0RfaGR2TWM2NFpiTUVsQkpuMjJEWXhULXhsVjJET0FzdVhRUTAtM0pYZFNBbHlldFJNY3dPSldJMF9fTkZ3cUdjMnV4RUp5TU45dzcwajh3VXItekpjYXlwRkRSLU9UZk12RnllV0xPYjQ?oc=5",
-      "title": "远景重磅发布《AI风储一体机白皮书》 - 新浪网",
-      "summary": "远景重磅发布《AI风储一体机白皮书》 新浪网",
-      "source": "新浪网",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55NDRJMVNlZDNzN1Vsa0RfaGR2TWM2NFpiTUVsQkpuMjJEWXhULXhsVjJET0FzdVhRUTAtM0pYZFNBbHlldFJNY3dPSldJMF9fTkZ3cUdjMnV4RUp5TU45dzcwajh3VXItekpjYXlwRkRSLU9UZk12RnllV0xPYjQ?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "whitepaper"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "whitepaper"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-10",
-      "last_seen_date": "2026-10-10",
-      "canonical_key": "codex 和 claude code 都跑偏了 前 openai 研究员称 jev 出现前 ai 世界是个悲剧 infoq",
-      "normalized_title": "codex 和 claude code 都跑偏了 前 openai 研究员称 jev 出现前 ai 世界是个悲剧 infoq",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fN0lSVXhQNkp3Q1Jid1BPX2hPdnRoS0JrNUV3RENGZFA0ZkxKNXMyYjV5c0xWM3AwMTFjUmRSNTFDeUVWT1oySzVSc3hNcEdVVHJNM2xPT3Ztc3dWNUE?oc=5",
-      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧 - InfoQ-CN",
-      "summary": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧 InfoQ-CN",
-      "source": "InfoQ-CN",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fN0lSVXhQNkp3Q1Jid1BPX2hPdnRoS0JrNUV3RENGZFA0ZkxKNXMyYjV5c0xWM3AwMTFjUmRSNTFDeUVWT1oySzVSc3hNcEdVVHJNM2xPT3Ztc3dWNUE?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "claude_code",
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-10",
-      "last_seen_date": "2026-10-10",
-      "canonical_key": "anthropic can t reliably control its ai agents it s cutting off its internal evals from the live internet instead",
-      "normalized_title": "anthropic can t reliably control its ai agents it s cutting off its internal evals from the live internet instead",
-      "normalized_link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-11",
@@ -5750,7 +5569,7 @@
     },
     {
       "first_seen_date": "2026-11-09",
-      "last_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-10",
       "canonical_key": "practice makes precise at corl nvidia and partners reveal how robots rehearse delicate work in simulation",
       "normalized_title": "practice makes precise at corl nvidia and partners reveal how robots rehearse delicate work in simulation",
       "normalized_link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
@@ -5791,7 +5610,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-09",
@@ -5872,7 +5691,7 @@
     },
     {
       "first_seen_date": "2026-11-09",
-      "last_seen_date": "2026-11-09",
+      "last_seen_date": "2026-11-10",
       "canonical_key": "anthropic发布最强双旗舰模型 千个智能体30小时证明费马大定理 api降价两成",
       "normalized_title": "anthropic发布最强双旗舰模型 千个智能体30小时证明费马大定理 api降价两成",
       "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mNHZTQ0RNQjJVaWsyRnFFZEwxdkxjUXdiSWVocG9nRmFKR3lndWZoeXFVaHU2SlBySmJCX0xLalAwQjJVbDlwT0RUbEFfR28zNExF?oc=5",
@@ -5907,7 +5726,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-09",
@@ -5952,6 +5771,124 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-10",
+      "last_seen_date": "2026-11-10",
+      "canonical_key": "agentic plm a reference architecture for ai assisted engineering change management",
+      "normalized_title": "agentic plm a reference architecture for ai assisted engineering change management",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaWlSNGh2aXcxZDJGdkFSUDFFTUh4NVRJUlFuUEpPdnhCZmt2RV80ZlVoTzNMbXMtN1JPMkZFXzBLM1dIRkE1Y0FQOWhPN0Rhd29JeHJYZ2xJcDRSbHZheldJVGRXNlROWHhoTFBvMUtMS3hwUXp4WFJIdzlXSjMyY3g2elQ5eUkwRmtnX3lhUGZnS0tkSjVpaVE5Wl9fQW96VWNnd3RTdkU?oc=5",
+      "title": "Agentic PLM: A Reference Architecture for AI-Assisted Engineering Change Management - HackerNoon",
+      "summary": "Agentic PLM: A Reference Architecture for AI-Assisted Engineering Change Management HackerNoon",
+      "source": "HackerNoon",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaWlSNGh2aXcxZDJGdkFSUDFFTUh4NVRJUlFuUEpPdnhCZmt2RV80ZlVoTzNMbXMtN1JPMkZFXzBLM1dIRkE1Y0FQOWhPN0Rhd29JeHJYZ2xJcDRSbHZheldJVGRXNlROWHhoTFBvMUtMS3hwUXp4WFJIdzlXSjMyY3g2elQ5eUkwRmtnX3lhUGZnS0tkSjVpaVE5Wl9fQW96VWNnd3RTdkU?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "org_productivity",
+        "reference_architecture",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "org_productivity",
+          "reference_architecture",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-10",
+      "last_seen_date": "2026-11-10",
+      "canonical_key": "可追溯ai代码审查 开源知识协同操作系统设计",
+      "normalized_title": "可追溯ai代码审查 开源知识协同操作系统设计",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JVDhxdmxOMmJqNXdnRjAtLWkwZ1VDWmhMMkxObWVJdGhxZTJSWm56TFBoRDhIdktRbjFLLUFaU0tJTkZGaHdxNm5YMjk3bnlDSWdqZU9JNUViRU5UaG9R?oc=5",
+      "title": "可追溯AI代码审查：开源知识协同操作系统设计 - CSDN",
+      "summary": "可追溯AI代码审查：开源知识协同操作系统设计 CSDN",
+      "source": "CSDN",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JVDhxdmxOMmJqNXdnRjAtLWkwZ1VDWmhMMkxObWVJdGhxZTJSWm56TFBoRDhIdktRbjFLLUFaU0tJTkZGaHdxNm5YMjk3bnlDSWdqZU9JNUViRU5UaG9R?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent",
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent",
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-10",
+      "last_seen_date": "2026-11-10",
+      "canonical_key": "nvidia dynamo recipes bring korea s leading open models to production",
+      "normalized_title": "nvidia dynamo recipes bring korea s leading open models to production",
+      "normalized_link": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models",
+      "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "summary": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom , K-EXAONE 2.0 from LG AI Research , Solar Open 2 from Upstage and Motif-3 from Motif Technologies . As models grow beyond the capacity of a single GPU, they must be split across multiple…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "opensource",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "production"
+        ],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "opensource",
+          "research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
