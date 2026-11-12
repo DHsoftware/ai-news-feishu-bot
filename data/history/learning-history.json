@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:54:17.809762+08:00",
+  "updated_at": "2026-11-12T10:15:32.150014+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -481,6 +481,47 @@
           "cli",
           "codex",
           "guardrails",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "how to enable pr security reviews with codex security",
+      "normalized_title": "how to enable pr security reviews with codex security",
+      "normalized_link": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
+      "title": "How to enable PR security reviews with Codex Security",
+      "summary": "Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Agent Workflow",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "agent_workflow",
+        "cli",
+        "codex"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agent_workflow",
+          "cli",
+          "codex",
           "security"
         ]
       },

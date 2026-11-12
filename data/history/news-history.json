@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:54:17.809762+08:00",
+  "updated_at": "2026-11-12T10:15:32.150014+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -79,223 +79,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "用不着ctrl f了 全新ai论文工具 帮你在原文献里海里捞针",
-      "normalized_title": "用不着ctrl f了 全新ai论文工具 帮你在原文献里海里捞针",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10OFJjQUtYM2o0bEJJaW5fMmdUM2xaNUd3ZVBNckRxdVhENDhtYUgzNFdQSW5wYUVWUkRVcTRySmxxNGFHQ1BkTDFkRnZwck9QbG44Tg?oc=5",
-      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针 - 量子位",
-      "summary": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针 量子位",
-      "source": "量子位",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10OFJjQUtYM2o0bEJJaW5fMmdUM2xaNUd3ZVBNckRxdVhENDhtYUgzNFdQSW5wYUVWUkRVcTRySmxxNGFHQ1BkTDFkRnZwck9QbG44Tg?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "ai automation projects 5 000 ai workflows claude guide",
-      "normalized_title": "ai automation projects 5 000 ai workflows claude guide",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBQX3Z3YXVRNDk2MjgycjU1LWxodHdXUXN1LTBETzNyNGNFZWZrdmRrMzk4cTFZbXFnUko4MlE1ZkNkQQ?oc=5",
-      "title": "AI Automation Projects - $5,000 AI Workflows (Claude Guide) - YouTube",
-      "summary": "AI Automation Projects - $5,000 AI Workflows (Claude Guide) YouTube",
-      "source": "YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBQX3Z3YXVRNDk2MjgycjU1LWxodHdXUXN1LTBETzNyNGNFZWZrdmRrMzk4cTFZbXFnUko4MlE1ZkNkQQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "anthropic为claude上线动态工作流 可并行调度千个ai代理",
-      "normalized_title": "anthropic为claude上线动态工作流 可并行调度千个ai代理",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvOWZkSVpaYlJWaUFJOWltMURBNDRTbU0yZmpua2hHMk5hYXpUMmo3dl9xQUVQbzhWQjlKYkM1UTV0WjVEODhZZzJEd0pEWFZrTDlDY1B3?oc=5",
-      "title": "Anthropic为Claude上线动态工作流 可并行调度千个AI代理 - 亿邦动力",
-      "summary": "Anthropic为Claude上线动态工作流 可并行调度千个AI代理 亿邦动力",
-      "source": "亿邦动力",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvOWZkSVpaYlJWaUFJOWltMURBNDRTbU0yZmpua2hHMk5hYXpUMmo3dl9xQUVQbzhWQjlKYkM1UTV0WjVEODhZZzJEd0pEWFZrTDlDY1B3?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "google launches gemini agent to rival openai microsoft 2026 https tech",
-      "normalized_title": "google launches gemini agent to rival openai microsoft 2026 https tech",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
-      "title": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] - https://tech-insider.org/",
-      "summary": "Google Launches Gemini Agent to Rival OpenAI, Microsoft [2026] https://tech-insider.org/",
-      "source": "https://tech-insider.org/",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mRWZ0d084cjgycktsYU1SMjRqQUYtX2FGZkVLZ09JRl9QYTBOVVdyeFdZSU1sS1FYM2o3VVI5OExhbEctckhDMGtKYm9DTU1LVzZwUjBsSVpzbFZ2VFozUnpFTjRzRkpUdFJyLVlaaU5VSmpBdWo2dXRn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "google",
-          "microsoft",
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "here are the top ai agents that can live in your text messages",
-      "normalized_title": "here are the top ai agents that can live in your text messages",
-      "normalized_link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-11",
-      "last_seen_date": "2026-10-11",
-      "canonical_key": "learning to use local ai is exciting overwhelming and frustrating",
-      "normalized_title": "learning to use local ai is exciting overwhelming and frustrating",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "summary": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful m…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "cloud"
-      ],
-      "event_signature": {
-        "entities": [
-          "apple"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "cloud",
-          "cloud_platform"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-12",
@@ -5889,6 +5672,203 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "nvidia expands open source commitment with openshell donation and new ai infrastructure",
+      "normalized_title": "nvidia expands open source commitment with openshell donation and new ai infrastructure",
+      "normalized_link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "summary": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "cloud",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "expand",
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "cloud",
+          "cloud_platform",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "anthropic路演藏着什么芯片变局 ai加速设计效率",
+      "normalized_title": "anthropic路演藏着什么芯片变局 ai加速设计效率",
+      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9veGZ1M1NRbkhwVGdHa1RERFl5WmhUR0NGc1pweGFZQVhPQWpuUGZHU2c2QnJnMV9oam1rWVhOM3VqOUtFSVNveEs4eEpkRWlDaER6Q205enJuc1czSWFYWEFKd0pDakd1b3N5ZmNVVkU?oc=5",
+      "title": "Anthropic路演藏着什么芯片变局 AI加速设计效率 - 中华网",
+      "summary": "Anthropic路演藏着什么芯片变局 AI加速设计效率 中华网",
+      "source": "中华网",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9veGZ1M1NRbkhwVGdHa1RERFl5WmhUR0NGc1pweGFZQVhPQWpuUGZHU2c2QnJnMV9oam1rWVhOM3VqOUtFSVNveEs4eEpkRWlDaER6Q205enJuc1czSWFYWEFKd0pDakd1b3N5ZmNVVkU?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "chip",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "chip",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "pfct发布金融级 ai agent builder 首家客户为koryo savings bank",
+      "normalized_title": "pfct发布金融级 ai agent builder 首家客户为koryo savings bank",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVpGRnItN21oRjd1bmdVY1NXZ1RaZ0dqLXJuQVBTNHo5eG92VGtRZ3Fmd1pLdVFpdXdlWDRJM0JWYUlENl91cy03QmdzdndlemphTnA4bThQbFAxM01kaDBNdmREajkwcVJhTHFrUkxPZ2tRanJmRFFNVXBHZGRYcThpZnhLYm5EVmV5OXRqSjlEbzd6b0xfYnRaQUhuWTRYMzN2dmRvcHd4anNReDc2d3lYX2pzNnk5TTdUY0tQTkp6R0tGTXp3?oc=5",
+      "title": "PFCT发布金融级“AI Agent Builder”，首家客户为Koryo Savings Bank - 디지털투데이",
+      "summary": "PFCT发布金融级“AI Agent Builder”，首家客户为Koryo Savings Bank 디지털투데이",
+      "source": "디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVVpGRnItN21oRjd1bmdVY1NXZ1RaZ0dqLXJuQVBTNHo5eG92VGtRZ3Fmd1pLdVFpdXdlWDRJM0JWYUlENl91cy03QmdzdndlemphTnA4bThQbFAxM01kaDBNdmREajkwcVJhTHFrUkxPZ2tRanJmRFFNVXBHZGRYcThpZnhLYm5EVmV5OXRqSjlEbzd6b0xfYnRaQUhuWTRYMzN2dmRvcHd4anNReDc2d3lYX2pzNnk5TTdUY0tQTkp6R0tGTXp3?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "agent substrate advancing kubernetes for agents at scale",
+      "normalized_title": "agent substrate advancing kubernetes for agents at scale",
+      "normalized_link": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale",
+      "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+      "summary": "AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per... AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Ru…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "armanino builds an ai app factory on microsoft foundry cutting production time 89",
+      "normalized_title": "armanino builds an ai app factory on microsoft foundry cutting production time 89",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTloQnFScldlcTdhczdkWUwzY2N1QkZKVHQ2WjFYeWJfcVcydFpsLVh3ZGdha2l3cTJybjNCZUNvb0lpSjMxbWtWV2RwQ3VmLWV6VWNGOHNyanE3S0VoYW50SEp2VW9pOUVNLTdsd2tJaUZLS1hZYnVxV1puTENrT1ZCS2t1QTFyRVUzOHh6Yw?oc=5",
+      "title": "Armanino builds an AI App Factory on Microsoft Foundry, cutting production time 89% - Microsoft",
+      "summary": "Armanino builds an AI App Factory on Microsoft Foundry, cutting production time 89% Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTloQnFScldlcTdhczdkWUwzY2N1QkZKVHQ2WjFYeWJfcVcydFpsLVh3ZGdha2l3cTJybjNCZUNvb0lpSjMxbWtWV2RwQ3VmLWV6VWNGOHNyanE3S0VoYW50SEp2VW9pOUVNLTdsd2tJaUZLS1hZYnVxV1puTENrT1ZCS2t1QTFyRVUzOHh6Yw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }

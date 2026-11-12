@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-09T09:42:22.236513+08:00",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-12T10:15:32.150014+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
@@ -19,21 +19,21 @@
     "similarity_threshold": 0.82,
     "history_size_before": 12,
     "history_size_after": 13,
-    "history_duplicate_count": 10
+    "history_duplicate_count": 12
   },
-  "raw_item_count": 72,
-  "deduped_item_count": 26,
-  "filtered_item_count": 2,
+  "raw_item_count": 76,
+  "deduped_item_count": 29,
+  "filtered_item_count": 3,
   "curated_item_count": 1,
   "curated_items": [
     {
-      "title": "Coinbase on OpenAI Private Intelligence",
-      "summary": "Coinbase CTO Rob Witoff explains why security, guardrails, and zero data retention matter when using OpenAI. Learn more about OpenAI Private Intelligence: https://openai.com/business/private-intelligence/",
+      "title": "How to enable PR security reviews with Codex Security",
+      "summary": "Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.",
       "summary_source": "rss_description",
       "summary_quality": "medium",
-      "published_at": "2026-11-03T06:44:26+08:00",
+      "published_at": "2026-11-12T05:10:24+08:00",
       "source": "OpenAI YouTube",
-      "link": "https://www.youtube.com/shorts/NbDF90z-g6w",
+      "link": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
       "language": "en",
       "region": "global",
       "source_group": "youtube",
@@ -42,20 +42,20 @@
       "is_official_source": true,
       "tags": [
         "agent",
+        "agent_workflow",
         "cli",
-        "codex",
-        "guardrails"
+        "codex"
       ],
-      "concept_hint": "Guardrails",
-      "score": 43,
-      "canonical_key": "coinbase on openai private intelligence",
-      "dedupe_key": "coinbase on openai private intelligence",
+      "concept_hint": "Agent Workflow",
+      "score": 44,
+      "canonical_key": "how to enable pr security reviews with codex security",
+      "dedupe_key": "how to enable pr security reviews with codex security",
       "selection_reason": "learning_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 46,
-    "history_duplicate": 10,
+    "duplicate": 47,
+    "history_duplicate": 12,
     "same_source_limit": 0,
     "old_resource": 14,
     "similar_selected": 0,
