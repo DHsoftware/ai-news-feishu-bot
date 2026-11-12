@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:15:32.150014+08:00",
+  "updated_at": "2026-11-12T10:56:00.950295+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5720,7 +5720,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-11",
@@ -5792,7 +5792,7 @@
           "power_electronics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-11",
@@ -5829,7 +5829,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-11",
@@ -5866,6 +5866,39 @@
           "ai_agent",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-11",
+      "last_seen_date": "2026-11-11",
+      "canonical_key": "ai 应用场景的识别与规模化 实用指南",
+      "normalized_title": "ai 应用场景的识别与规模化 实用指南",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelBjaVlkWjEwa2c3Vnkzck1Qd1VWSVUzR0VhQzB2djZfSndLUkcxRFo2MlBEQUNhUEtxVEtlTEpoTmExV3NtMmd0bHhQdkNDM19DR3NzNDlZVW55czBJVUVDQk9KUFoycGYtNV9Cb1JuUkpXeGE1QkhXVm9taEllZ0xQYTBLcnJpRGc?oc=5",
+      "title": "AI 应用场景的识别与规模化：实用指南 - OpenAI",
+      "summary": "AI 应用场景的识别与规模化：实用指南 OpenAI",
+      "source": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelBjaVlkWjEwa2c3Vnkzck1Qd1VWSVUzR0VhQzB2djZfSndLUkcxRFo2MlBEQUNhUEtxVEtlTEpoTmExV3NtMmd0bHhQdkNDM19DR3NzNDlZVW55czBJVUVDQk9KUFoycGYtNV9Cb1JuUkpXeGE1QkhXVm9taEllZ0xQYTBLcnJpRGc?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
         ]
       },
       "seen_count": 1

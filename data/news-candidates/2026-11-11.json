@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-12T10:15:32.150014+08:00",
+  "generated_at": "2026-11-12T10:56:00.950295+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 161,
-    "history_size_after": 160,
-    "history_duplicate_count": 23
+    "history_size_before": 160,
+    "history_size_after": 161,
+    "history_duplicate_count": 20
   },
-  "raw_item_count": 4733,
-  "deduped_item_count": 3479,
-  "filtered_item_count": 446,
+  "raw_item_count": 4734,
+  "deduped_item_count": 3481,
+  "filtered_item_count": 431,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -79,13 +79,13 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "Anthropic路演藏着什么芯片变局 AI加速设计效率 - 中华网",
-      "summary": "Anthropic路演藏着什么芯片变局 AI加速设计效率 中华网",
+      "title": "AI 应用场景的识别与规模化：实用指南 - OpenAI",
+      "summary": "AI 应用场景的识别与规模化：实用指南 OpenAI",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-11-12T08:13:43+08:00",
-      "source": "中华网",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9veGZ1M1NRbkhwVGdHa1RERFl5WmhUR0NGc1pweGFZQVhPQWpuUGZHU2c2QnJnMV9oam1rWVhOM3VqOUtFSVNveEs4eEpkRWlDaER6Q205enJuc1czSWFYWEFKd0pDakd1b3N5ZmNVVkU?oc=5",
+      "published_at": "2026-11-12T02:28:30+08:00",
+      "source": "OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelBjaVlkWjEwa2c3Vnkzck1Qd1VWSVUzR0VhQzB2djZfSndLUkcxRFo2MlBEQUNhUEtxVEtlTEpoTmExV3NtMmd0bHhQdkNDM19DR3NzNDlZVW55czBJVUVDQk9KUFoycGYtNV9Cb1JuUkpXeGE1QkhXVm9taEllZ0xQYTBLcnJpRGc?oc=5",
       "language": "zh",
       "region": "china",
       "source_group": "ai_productivity",
@@ -99,15 +99,14 @@
       ],
       "topic_tags": [
         "ai_transformation",
-        "chip",
         "org_productivity",
         "workflow_automation"
       ],
       "category": "AI组织提效",
-      "dedupe_key": "anthropic路演藏着什么芯片变局 ai加速设计效率",
-      "canonical_key": "anthropic路演藏着什么芯片变局 ai加速设计效率",
-      "normalized_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9veGZ1M1NRbkhwVGdHa1RERFl5WmhUR0NGc1pweGFZQVhPQWpuUGZHU2c2QnJnMV9oam1rWVhOM3VqOUtFSVNveEs4eEpkRWlDaER6Q205enJuc1czSWFYWEFKd0pDakd1b3N5ZmNVVkU?oc=5",
-      "score": 62,
+      "dedupe_key": "ai 应用场景的识别与规模化 实用指南",
+      "canonical_key": "ai 应用场景的识别与规模化 实用指南",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelBjaVlkWjEwa2c3Vnkzck1Qd1VWSVUzR0VhQzB2djZfSndLUkcxRFo2MlBEQUNhUEtxVEtlTEpoTmExV3NtMmd0bHhQdkNDM19DR3NzNDlZVW55czBJVUVDQk9KUFoycGYtNV9Cb1JuUkpXeGE1QkhXVm9taEllZ0xQYTBLcnJpRGc?oc=5",
+      "score": 80,
       "selection_reason": "required_productivity"
     },
     {
@@ -212,13 +211,13 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1254,
-    "history_duplicate": 23,
-    "weak_relevance": 175,
+    "duplicate": 1253,
+    "history_duplicate": 20,
+    "weak_relevance": 174,
     "same_source_limit": 0,
-    "china_limit": 148,
+    "china_limit": 142,
     "auto_china_limit": 0,
-    "old_news": 2858,
+    "old_news": 2876,
     "same_entity_limit": 0,
     "similar_selected": 0,
     "company_research_limit": 16,
