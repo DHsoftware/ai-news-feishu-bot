@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:56:00.950295+08:00",
+  "updated_at": "2026-11-13T09:49:57.332312+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -79,178 +79,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-12",
-      "last_seen_date": "2026-10-12",
-      "canonical_key": "how distributed inference keeps large ai models moving",
-      "normalized_title": "how distributed inference keeps large ai models moving",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TcTk1dk90OTNqR3FTWjNRRTNNbWt3UWp6RWp5UUQxazE2OWNpbmhzMUllUTFNNDR4U29xMDMtQ2NQTEtnTzhpMmhRQ1FqbVBoUTYzeGRYcmY4a19nX3c5bQ?oc=5",
-      "title": "How distributed inference keeps large AI models moving - IBM Research",
-      "summary": "How distributed inference keeps large AI models moving IBM Research",
-      "source": "IBM Research",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TcTk1dk90OTNqR3FTWjNRRTNNbWt3UWp6RWp5UUQxazE2OWNpbmhzMUllUTFNNDR4U29xMDMtQ2NQTEtnTzhpMmhRQ1FqbVBoUTYzeGRYcmY4a19nX3c5bQ?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "inference",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-12",
-      "last_seen_date": "2026-10-12",
-      "canonical_key": "singapore firms are already seeing business value as ai adoption matures",
-      "normalized_title": "singapore firms are already seeing business value as ai adoption matures",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmx0Y2pCUzdYVWVCODMyS2tSM21TT0RpZ2pGTDNiUWFmMzRNTEVKUDNac0E3RHBLcmtGY0Y1RVREbGktRnM5UXVTQWtmNWpVSU1rbGJSaFBlVjVNd0ZkV3l0TVREanlteUNzZzZLYks1amlfMGY3R3g3M3hRTm5vX2lnTk9JeThvWnVULXBBdUhxZlRzREI3YmJJemtWdUI4TnhON3l1NjAtOWlGdXFEQWRTb09XXzJNVzdFVEJzd3k?oc=5",
-      "title": "Singapore Firms are already seeing Business Value as AI Adoption matures - Microsoft Source",
-      "summary": "Singapore Firms are already seeing Business Value as AI Adoption matures Microsoft Source",
-      "source": "Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmx0Y2pCUzdYVWVCODMyS2tSM21TT0RpZ2pGTDNiUWFmMzRNTEVKUDNac0E3RHBLcmtGY0Y1RVREbGktRnM5UXVTQWtmNWpVSU1rbGJSaFBlVjVNd0ZkV3l0TVREanlteUNzZzZLYks1amlfMGY3R3g3M3hRTm5vX2lnTk9JeThvWnVULXBBdUhxZlRzREI3YmJJemtWdUI4TnhON3l1NjAtOWlGdXFEQWRTb09XXzJNVzdFVEJzd3k?oc=5",
-      "category": "AI组织提效",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-12",
-      "last_seen_date": "2026-10-12",
-      "canonical_key": "openai再发数学突破成果 解决数百道难题",
-      "normalized_title": "openai再发数学突破成果 解决数百道难题",
-      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3QtZVplckw3TlZsLWh5aGNQVXFYWXFQN1ZaNkxHV0U0QjZLMDc0VlZ3Q1AtOHNuRjNIRmUzMVYtUXB6Q1VZbGxwcnYtdFk2cXV6UUQ2REpzYnJUY1o0dkFQYnA0QW5kX0pz?oc=5",
-      "title": "OpenAI再发数学突破成果，解决数百道难题 - CSDN博客",
-      "summary": "OpenAI再发数学突破成果，解决数百道难题 CSDN博客",
-      "source": "CSDN博客",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQa3QtZVplckw3TlZsLWh5aGNQVXFYWXFQN1ZaNkxHV0U0QjZLMDc0VlZ3Q1AtOHNuRjNIRmUzMVYtUXB6Q1VZbGxwcnYtdFk2cXV6UUQ2REpzYnJUY1o0dkFQYnA0QW5kX0pz?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-12",
-      "last_seen_date": "2026-10-12",
-      "canonical_key": "anthropic放手 亚马逊想买 帮ai 换芯片 凭什么值70亿美元",
-      "normalized_title": "anthropic放手 亚马逊想买 帮ai 换芯片 凭什么值70亿美元",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NWHkwOU1iZUpMT1dFUEVpRzlvR29WSzhhTzliS3FlbDZXTGlVOTlrWWxLTkJYQjF5VnJZemxvYzA5YklkQVd5SkQzR1VOUQ?oc=5",
-      "title": "Anthropic放手，亚马逊想买，帮AI“换芯片”，凭什么值70亿美元？ - 36Kr",
-      "summary": "Anthropic放手，亚马逊想买，帮AI“换芯片”，凭什么值70亿美元？ 36Kr",
-      "source": "36Kr",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NWHkwOU1iZUpMT1dFUEVpRzlvR29WSzhhTzliS3FlbDZXTGlVOTlrWWxLTkJYQjF5VnJZemxvYzA5YklkQVd5SkQzR1VOUQ?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "amazon",
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-12",
-      "last_seen_date": "2026-10-12",
-      "canonical_key": "github copilot app for beginners how to teach copilot about your codebase",
-      "normalized_title": "github copilot app for beginners how to teach copilot about your codebase",
-      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
-      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-      "summary": "Context matters when you’re working with AI. Every codebase has its own house rules: how components are structured, which scripts to run, and which conventions apply to different frameworks and file types. Copilot can help you make changes across a project, but it works best when it knows those rul…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-13",
@@ -5899,6 +5727,189 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-12",
+      "canonical_key": "gondola doubles revenue as its team builds more with codex",
+      "normalized_title": "gondola doubles revenue as its team builds more with codex",
+      "normalized_link": "https://openai.com/business/customer-stories/gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/business/customer-stories/gondola",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-12",
+      "canonical_key": "腾讯管理层再谈ai 一半人要提效做好现有核心业务 另一半探索ai native 裁员50 不实",
+      "normalized_title": "腾讯管理层再谈ai 一半人要提效做好现有核心业务 另一半探索ai native 裁员50 不实",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tNi1aQ0pyX3NCSUk0ak5yY0k0cEIzaDYwUW55Q0xaSFFRa3lZZDVpU0NrODBZNlYtVTZZM1JoZnRZakdVVmpjUUVzVkloWk1zWVJrRG5CWkIzR0FuSWNKTA?oc=5",
+      "title": "独家｜腾讯管理层再谈AI：一半人要提效做好现有核心业务，另一半探索AI Native，“裁员50%”不实 - ThePaper.cn",
+      "summary": "独家｜腾讯管理层再谈AI：一半人要提效做好现有核心业务，另一半探索AI Native，“裁员50%”不实 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tNi1aQ0pyX3NCSUk0ak5yY0k0cEIzaDYwUW55Q0xaSFFRa3lZZDVpU0NrODBZNlYtVTZZM1JoZnRZakdVVmpjUUVzVkloWk1zWVJrRG5CWkIzR0FuSWNKTA?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-12",
+      "canonical_key": "jensen huang affair in dc resignation calls and moves to tighten nvidia china exports",
+      "normalized_title": "jensen huang affair in dc resignation calls and moves to tighten nvidia china exports",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWjJRY2daaGR0MlE5NzU0bndocWZPVF9qODRlRlBzUUVLN1dyNkE2VXlJeUdGanF2NkQ5OGVZMmJTYk9xY244NU9sUHppeFU2dVlHcVRwWFptNG9CSUN6ay1Ic3NVdFJRZTNkY05nQzJJUFJsSVp1N21LRElnSHotZmZyYVR2a25v0gGOAUFVX3lxTE5Ldzk4eUYyX0FWR3NfeDhpME5oOW5oSTZCQmFsUDFyMGUyRjZLSmJsOE0wYVlrRVFsZldKbDEzd0JIUVRTMlkwYXFLZFFBSTl1UXo3c2N2VUJPbjRHeURyRHpKbVpWMHI1d1NHMURuZFJJY1FOM1l2MHlVM2o5Vkl5eU9WSGdZT0piQXBwaWc?oc=5",
+      "title": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports - CNBC",
+      "summary": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports CNBC",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWjJRY2daaGR0MlE5NzU0bndocWZPVF9qODRlRlBzUUVLN1dyNkE2VXlJeUdGanF2NkQ5OGVZMmJTYk9xY244NU9sUHppeFU2dVlHcVRwWFptNG9CSUN6ay1Ic3NVdFJRZTNkY05nQzJJUFJsSVp1N21LRElnSHotZmZyYVR2a25v0gGOAUFVX3lxTE5Ldzk4eUYyX0FWR3NfeDhpME5oOW5oSTZCQmFsUDFyMGUyRjZLSmJsOE0wYVlrRVFsZldKbDEzd0JIUVRTMlkwYXFLZFFBSTl1UXo3c2N2VUJPbjRHeURyRHpKbVpWMHI1d1NHMURuZFJJY1FOM1l2MHlVM2o5Vkl5eU9WSGdZT0piQXBwaWc?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-12",
+      "canonical_key": "美联航限制第三方智能体访问 可能导致用户敏感信息泄露",
+      "normalized_title": "美联航限制第三方智能体访问 可能导致用户敏感信息泄露",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VSEY0X1VQQUN5MV93TDBSTGlwR2s2UjdYS0NwcVRSam9KenVXMWc1QmF4ZUVaaDJrRnN1S3VQNTBZX0RzeGNCUGNPRmcydjdoMmpFSlVVT2VKcUZ1UnZBcQ?oc=5",
+      "title": "美联航限制第三方智能体访问：可能导致用户敏感信息泄露 - ThePaper.cn",
+      "summary": "美联航限制第三方智能体访问：可能导致用户敏感信息泄露 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VSEY0X1VQQUN5MV93TDBSTGlwR2s2UjdYS0NwcVRSam9KenVXMWc1QmF4ZUVaaDJrRnN1S3VQNTBZX0RzeGNCUGNPRmcydjdoMmpFSlVVT2VKcUZ1UnZBcQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-12",
+      "canonical_key": "securing persistent agents like openclaw at openai",
+      "normalized_title": "securing persistent agents like openclaw at openai",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnQtTHNDclZ0QWNRdDhqOUxZWXB6NzBJQWZwVXFyOXM1ZlUtR1pSdjk1M0Frb0tMbUM4MzZRZVdUc1dUWTRORGhJRWhlWTlKR2VmRENsWVZZZ0JNWUF0eFFXc0dVUTBTSlBfblZwVTFBeTRQZXpGdTQ0VHpHazJubUktNGFXb0F2NFpJdlN3?oc=5",
+      "title": "Securing persistent agents like OpenClaw at OpenAI - OpenAI Developers",
+      "summary": "Securing persistent agents like OpenClaw at OpenAI OpenAI Developers",
+      "source": "OpenAI Developers",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnQtTHNDclZ0QWNRdDhqOUxZWXB6NzBJQWZwVXFyOXM1ZlUtR1pSdjk1M0Frb0tMbUM4MzZRZVdUc1dUWTRORGhJRWhlWTlKR2VmRENsWVZZZ0JNWUF0eFFXc0dVUTBTSlBfblZwVTFBeTRQZXpGdTQ0VHpHazJubUktNGFXb0F2NFpJdlN3?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
