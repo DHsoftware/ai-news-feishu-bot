@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:36:02.948206+08:00",
+  "updated_at": "2026-11-14T10:23:05.546521+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -79,209 +79,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-13",
-      "last_seen_date": "2026-10-13",
-      "canonical_key": "all systems go global pc app ecosystem ready for nvidia rtx spark",
-      "normalized_title": "all systems go global pc app ecosystem ready for nvidia rtx spark",
-      "normalized_link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and C…",
-      "source": "NVIDIA Blog",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft",
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "availability",
-          "expand",
-          "partnership",
-          "release",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-13",
-      "last_seen_date": "2026-10-13",
-      "canonical_key": "68 of automotive organizations use or pilot agentic ai for product development but only 5 report mature ai governance",
-      "normalized_title": "68 of automotive organizations use or pilot agentic ai for product development but only 5 report mature ai governance",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTE5aa3VQUmVRTG5GUWFpTnRpZmpOTmJGa2MtdXRxN1hTcFF2SWJvRFp3eE9ZWF9pdndFM2owUmZpeWMzQ0JYT0N1SXZkUXhDWVhpZ0tKOXFteVZMTUl1ckRiSUQ0MTFIZ2Y5Z3g1UnROd1VIR1RKUWE2SjF1OXdmNzRxdkRjbXhxSC1lY0w2d0J4cWxtaDhRNjlrcl9fOGx4UW94U2Y4aGtROEZObmxPOXVMbkxmU29ZaWZneXNEVmFzRE0yNTlBUTlOclBmbzB5eVVCUnpQWkZaWnVnLXNoQWRPcklOYmNpcGI5WHI1TW9OeGRSeThWc2R3?oc=5",
-      "title": "68% of automotive organizations use or pilot agentic AI for product development, but only 5% report mature AI governance - Capgemini",
-      "summary": "68% of automotive organizations use or pilot agentic AI for product development, but only 5% report mature AI governance Capgemini",
-      "source": "Capgemini",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTE5aa3VQUmVRTG5GUWFpTnRpZmpOTmJGa2MtdXRxN1hTcFF2SWJvRFp3eE9ZWF9pdndFM2owUmZpeWMzQ0JYT0N1SXZkUXhDWVhpZ0tKOXFteVZMTUl1ckRiSUQ0MTFIZ2Y5Z3g1UnROd1VIR1RKUWE2SjF1OXdmNzRxdkRjbXhxSC1lY0w2d0J4cWxtaDhRNjlrcl9fOGx4UW94U2Y4aGtROEZObmxPOXVMbkxmU29ZaWZneXNEVmFzRE0yNTlBUTlOclBmbzB5eVVCUnpQWkZaWnVnLXNoQWRPcklOYmNpcGI5WHI1TW9OeGRSeThWc2R3?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "automotive",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "automotive",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-13",
-      "last_seen_date": "2026-10-13",
-      "canonical_key": "ai风储一体机白皮书 正式发布",
-      "normalized_title": "ai风储一体机白皮书 正式发布",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lRk5tQU1aSnN1Q3lrbFhUd1RCU1Q5c08yUEdXWHUtOWdITGk2ZDBTZTZFME9xa2F3V21kREd4dGtaeDFoamhjZjd6dUxTOHNSM0pWNzdpNUppbk9xMlBjeXRmaw?oc=5",
-      "title": "重磅！《AI风储一体机白皮书》正式发布 - 海融网",
-      "summary": "重磅！《AI风储一体机白皮书》正式发布 海融网",
-      "source": "海融网",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lRk5tQU1aSnN1Q3lrbFhUd1RCU1Q5c08yUEdXWHUtOWdITGk2ZDBTZTZFME9xa2F3V21kREd4dGtaeDFoamhjZjd6dUxTOHNSM0pWNzdpNUppbk9xMlBjeXRmaw?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "whitepaper"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "whitepaper"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-13",
-      "last_seen_date": "2026-10-13",
-      "canonical_key": "nvidia发布isaac ros 5 0 将ai智能体引入机器人开发",
-      "normalized_title": "nvidia发布isaac ros 5 0 将ai智能体引入机器人开发",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTzI3MjdmVHNtcjYwVHo3SDlzYXRBcmF3RWlIYlVMVWtBeXZjOExsQW0yejd3Y0dnemJSRU5LRHFBYjRweVhpeW5uaDh1eERlRmNrbWVaMG0wRFk?oc=5",
-      "title": "NVIDIA发布Isaac ROS 5.0，将AI智能体引入机器人开发 - 汽车之家",
-      "summary": "NVIDIA发布Isaac ROS 5.0，将AI智能体引入机器人开发 汽车之家",
-      "source": "汽车之家",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTzI3MjdmVHNtcjYwVHo3SDlzYXRBcmF3RWlIYlVMVWtBeXZjOExsQW0yejd3Y0dnemJSRU5LRHFBYjRweVhpeW5uaDh1eERlRmNrbWVaMG0wRFk?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "automotive",
-        "coding",
-        "coding_agent",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "automotive",
-          "coding",
-          "coding_agent",
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-13",
-      "last_seen_date": "2026-10-13",
-      "canonical_key": "microsoft to expand azure maia system to multi",
-      "normalized_title": "microsoft to expand azure maia system to multi",
-      "normalized_link": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments",
-      "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
-      "summary": "Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move into the era of Super Intelligence, Microsoft is entering a new phase of infrastructure. We will scale our Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Micros…",
-      "source": "The Official Microsoft Blog",
-      "link": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "chip",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "github",
-          "microsoft",
-          "openai"
-        ],
-        "products": [
-          "copilot"
-        ],
-        "actions": [
-          "expand",
-          "opensource",
-          "production"
-        ],
-        "topics": [
-          "chip",
-          "coding",
-          "coding_agent",
-          "inference"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-14",
@@ -5877,7 +5674,7 @@
     },
     {
       "first_seen_date": "2026-11-12",
-      "last_seen_date": "2026-11-12",
+      "last_seen_date": "2026-11-13",
       "canonical_key": "securing persistent agents like openclaw at openai",
       "normalized_title": "securing persistent agents like openclaw at openai",
       "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnQtTHNDclZ0QWNRdDhqOUxZWXB6NzBJQWZwVXFyOXM1ZlUtR1pSdjk1M0Frb0tMbUM4MzZRZVdUc1dUWTRORGhJRWhlWTlKR2VmRENsWVZZZ0JNWUF0eFFXc0dVUTBTSlBfblZwVTFBeTRQZXpGdTQ0VHpHazJubUktNGFXb0F2NFpJdlN3?oc=5",
@@ -5912,7 +5709,156 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-11-13",
+      "last_seen_date": "2026-11-13",
+      "canonical_key": "introducing chatgpt wallet",
+      "normalized_title": "introducing chatgpt wallet",
+      "normalized_link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-13",
+      "last_seen_date": "2026-11-13",
+      "canonical_key": "微软ai战略三驾马车 azure ai copilot与agent如何协同驱动企业智能化",
+      "normalized_title": "微软ai战略三驾马车 azure ai copilot与agent如何协同驱动企业智能化",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Qa0ZFZ0tVQTV2UENSWnd1enhjalZNYUMyaTBsWXRkM0ZnUnJyUWtmeW1kckpyQ2lza0hrV09uaGozYWpCZmVuMmZGcTN0d3BZLXljdUlLb3BoVi1jZzBrMQ?oc=5",
+      "title": "微软AI战略三驾马车：Azure AI、Copilot与Agent如何协同驱动企业智能化 - CSDN",
+      "summary": "微软AI战略三驾马车：Azure AI、Copilot与Agent如何协同驱动企业智能化 CSDN",
+      "source": "CSDN",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Qa0ZFZ0tVQTV2UENSWnd1enhjalZNYUMyaTBsWXRkM0ZnUnJyUWtmeW1kckpyQ2lza0hrV09uaGozYWpCZmVuMmZGcTN0d3BZLXljdUlLb3BoVi1jZzBrMQ?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-13",
+      "last_seen_date": "2026-11-13",
+      "canonical_key": "英飞凌推出5 6 kw m crps psu参考设计 助力打造更高密度的企业级ai服务器电源",
+      "normalized_title": "英飞凌推出5 6 kw m crps psu参考设计 助力打造更高密度的企业级ai服务器电源",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IYS1LcGtuelFqS2doeFZ2TGVhLUtZeUdsdTd3dTJlU0w4TEZiUUpQYnh1blg1M3RuM2NsSlpoUlQ4dnE0QUx4T29TcnRiREI1T0xV?oc=5",
+      "title": "英飞凌推出5.6 kW M-CRPS PSU参考设计，助力打造更高密度的企业级AI服务器电源 - 电子工程专辑EE Times China",
+      "summary": "英飞凌推出5.6 kW M-CRPS PSU参考设计，助力打造更高密度的企业级AI服务器电源 电子工程专辑EE Times China",
+      "source": "电子工程专辑EE Times China",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IYS1LcGtuelFqS2doeFZ2TGVhLUtZeUdsdTd3dTJlU0w4TEZiUUpQYnh1blg1M3RuM2NsSlpoUlQ4dnE0QUx4T29TcnRiREI1T0xV?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "design_guide",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "infineon"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "dcdc",
+          "design_guide",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-13",
+      "last_seen_date": "2026-11-13",
+      "canonical_key": "microsoft s massive outlook outage might be over",
+      "normalized_title": "microsoft s massive outlook outage might be over",
+      "normalized_link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "title": "Microsoft’s massive Outlook outage might be over",
+      "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been…",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "agent",
+          "incident"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
