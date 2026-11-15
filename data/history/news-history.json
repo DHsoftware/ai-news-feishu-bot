@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:23:05.546521+08:00",
+  "updated_at": "2026-11-15T09:03:32.374143+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -82,119 +82,6 @@
     },
     {
       "first_seen_date": "2026-10-14",
-      "last_seen_date": "2026-10-14",
-      "canonical_key": "nvidia open agent safety platform a reference for continuous in",
-      "normalized_title": "nvidia open agent safety platform a reference for continuous in",
-      "normalized_link": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring",
-      "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
-      "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of... To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_research",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-14",
-      "last_seen_date": "2026-10-14",
-      "canonical_key": "ai办公进入场景整合期智能体竞争从 单点提效 转向 核心业务流闭环 workbuddy agent 企业微信 腾讯 体协",
-      "normalized_title": "ai办公进入场景整合期智能体竞争从 单点提效 转向 核心业务流闭环 workbuddy agent 企业微信 腾讯 体协",
-      "normalized_link": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOWWpJMll0OWlzbHR3Qk5UZFpBZjYtUTN4eW1OSjBha2RWMGRJRVhKcnhoWFNoMU9HSFJwdTJfQmVBTkpGR3pGVnNEa0V4a2NxQjJUVmsteTFoTjZsQzlDazNBYWFUQVlqNElJYVI1cTF6dS1aUF9kbkZGSWdiLS1xQ2NlRnRkZ0lVODlPRGJkWFZBVG9mcUVwbkl4SWoxeDZxZ0dUMnl6cDlnc0ZpeGJPc2EyN2N4TVpPa2FUaDNqeDBLYjhRa2FKaEtpR0pjV1FnSFFQeDFYaTdQUVk5VlZfbEhyc0UxSkhlS29Za3lqVkR3am53TVZaUkRnV3dUQmVOb2tXT3FRZzVUSVVyTHJHZzRnNDJWWGxaVk0wN2JiS0MzYmNOQkZtN0Y1djVHekxFYW5xYVd6alZyM3E1d2JsakNnWGxpc21aWTd1UksxeXNBRVdQWnEtVmFwdjFrM1U0clZqRV93b1RjRWYtVjRwWWR1SmQ3bmxTRklQclpzMWZUbER0NlFZMHREQ1RJZ0o5WURxMG53dU5ac1hmV2Q5Z0NGZ3ZmcTh6cUNvZEJPdkxmVjJvS0VxRmFzRFpFVUZRV09vODlkZFIwMFZWUDc3Zk14ZldPVjVvNzlfYTVEaG11RzVtUE1Hcjk2NnRwZS1NUVQ0ckYwZTlPOXpaY01RZ0QyeVo5OWdRTDNYRlBhR2cyeDBVMDh1QjVWRlZVeGxIb3R5WEEwY3VoZ2psaThRcXIycVF0dFVYVHBXRlhpUUhmaTZxcE9FS0ZGaVZiTG9sd3c2eXFkcGZSU0FnSkZ5anNUcmYzZkFsRXNyU0F1MnRnRzFmVEdBeFVyWVVYS3JxTFBUMnozUGlLejQ1cmQ2WlVwbGI2ZnVnR2ZEdVhya3A4SHFUbmNxeThJaGVZNkNV?oc=5",
-      "title": "AI办公进入场景整合期智能体竞争从“单点提效”转向“核心业务流闭环”|WorkBuddy|Agent|企业微信|腾讯|体协 - 新浪财经",
-      "summary": "AI办公进入场景整合期智能体竞争从“单点提效”转向“核心业务流闭环”|WorkBuddy|Agent|企业微信|腾讯|体协 新浪财经",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMisAVBVV95cUxOWWpJMll0OWlzbHR3Qk5UZFpBZjYtUTN4eW1OSjBha2RWMGRJRVhKcnhoWFNoMU9HSFJwdTJfQmVBTkpGR3pGVnNEa0V4a2NxQjJUVmsteTFoTjZsQzlDazNBYWFUQVlqNElJYVI1cTF6dS1aUF9kbkZGSWdiLS1xQ2NlRnRkZ0lVODlPRGJkWFZBVG9mcUVwbkl4SWoxeDZxZ0dUMnl6cDlnc0ZpeGJPc2EyN2N4TVpPa2FUaDNqeDBLYjhRa2FKaEtpR0pjV1FnSFFQeDFYaTdQUVk5VlZfbEhyc0UxSkhlS29Za3lqVkR3am53TVZaUkRnV3dUQmVOb2tXT3FRZzVUSVVyTHJHZzRnNDJWWGxaVk0wN2JiS0MzYmNOQkZtN0Y1djVHekxFYW5xYVd6alZyM3E1d2JsakNnWGxpc21aWTd1UksxeXNBRVdQWnEtVmFwdjFrM1U0clZqRV93b1RjRWYtVjRwWWR1SmQ3bmxTRklQclpzMWZUbER0NlFZMHREQ1RJZ0o5WURxMG53dU5ac1hmV2Q5Z0NGZ3ZmcTh6cUNvZEJPdkxmVjJvS0VxRmFzRFpFVUZRV09vODlkZFIwMFZWUDc3Zk14ZldPVjVvNzlfYTVEaG11RzVtUE1Hcjk2NnRwZS1NUVQ0ckYwZTlPOXpaY01RZ0QyeVo5OWdRTDNYRlBhR2cyeDBVMDh1QjVWRlZVeGxIb3R5WEEwY3VoZ2psaThRcXIycVF0dFVYVHBXRlhpUUhmaTZxcE9FS0ZGaVZiTG9sd3c2eXFkcGZSU0FnSkZ5anNUcmYzZkFsRXNyU0F1MnRnRzFmVEdBeFVyWVVYS3JxTFBUMnozUGlLejQ1cmQ2WlVwbGI2ZnVnR2ZEdVhya3A4SHFUbmNxeThJaGVZNkNV?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-14",
-      "last_seen_date": "2026-10-14",
-      "canonical_key": "digikey加速引入tdk sensei edgerx starter 赋能工业ai与预测性维护",
-      "normalized_title": "digikey加速引入tdk sensei edgerx starter 赋能工业ai与预测性维护",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14YzRPT2k0MkJtU2Z6RWk2X0RCWV9jeGNkYlhXdlYzbkVkd2FWLWxRUGRibE1XZ1k1TjFfZjJraUg2bWN6TzF4OERlajJNMm1NNEdB?oc=5",
-      "title": "DigiKey加速引入TDK SensEI edgeRX Starter，赋能工业AI与预测性维护 - 电子工程专辑",
-      "summary": "DigiKey加速引入TDK SensEI edgeRX Starter，赋能工业AI与预测性维护 电子工程专辑",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14YzRPT2k0MkJtU2Z6RWk2X0RCWV9jeGNkYlhXdlYzbkVkd2FWLWxRUGRibE1XZ1k1TjFfZjJraUg2bWN6TzF4OERlajJNMm1NNEdB?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "predictive_maintenance"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "predictive_maintenance"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-14",
       "last_seen_date": "2026-10-20",
       "canonical_key": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
       "normalized_title": "nvidia run ai is now open source as part of nvidia dsx ai factory platform",
@@ -237,39 +124,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-10-14",
-      "last_seen_date": "2026-10-14",
-      "canonical_key": "recording device hidden in toilet paper found in top",
-      "normalized_title": "recording device hidden in toilet paper found in top",
-      "normalized_link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
-      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-      "summary": "It took OpenAI two days to notice that a recording device was hidden in a restricted executive conference room where leadership met to discuss highly confidential information, including technical progress, government engagements, and commercial partnerships. Only those with special clearance are su…",
-      "source": "Ars Technica - All content",
-      "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-      "category": "研究论文",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "research",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "research",
-          "security"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-15",
@@ -5713,7 +5567,7 @@
     },
     {
       "first_seen_date": "2026-11-13",
-      "last_seen_date": "2026-11-13",
+      "last_seen_date": "2026-11-14",
       "canonical_key": "introducing chatgpt wallet",
       "normalized_title": "introducing chatgpt wallet",
       "normalized_link": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -5750,7 +5604,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-13",
@@ -5856,6 +5710,146 @@
         "topics": [
           "agent",
           "incident"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-14",
+      "last_seen_date": "2026-11-14",
+      "canonical_key": "2026进博会观察 全球ai创新 中国市场扮演什么角色",
+      "normalized_title": "2026进博会观察 全球ai创新 中国市场扮演什么角色",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByN2h1b2pILXVhSERVdkdUdmFjWE16a1gxMFRqRU9MV29UTVF4MkJVUjNMR2dUd2tBenVNSi14MkJRM1VGVGZWVVlsZjJQc1VXTjlHSWthQkJRMWNhVmJLeA?oc=5",
+      "title": "2026进博会观察：全球AI创新，中国市场扮演什么角色？ - ThePaper.cn",
+      "summary": "2026进博会观察：全球AI创新，中国市场扮演什么角色？ ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByN2h1b2pILXVhSERVdkdUdmFjWE16a1gxMFRqRU9MV29UTVF4MkJVUjNMR2dUd2tBenVNSi14MkJRM1VGVGZWVVlsZjJQc1VXTjlHSWthQkJRMWNhVmJLeA?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-14",
+      "last_seen_date": "2026-11-14",
+      "canonical_key": "直面ai服务器1u电源痛点 475v高压牛角电容的选型边界与温升控制",
+      "normalized_title": "直面ai服务器1u电源痛点 475v高压牛角电容的选型边界与温升控制",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LbzJuM3U5eXU2X3dSVVJIbmItbHQ0SWQydk0yS0sxVGt4UUJFcmNOU193VFNpM1pLb1JwMDJhbGY5RGFWWlVvU3lzdjN0SG5OWHZiTkRR?oc=5",
+      "title": "直面AI服务器1U电源痛点：475V高压牛角电容的选型边界与温升控制 - Sohu",
+      "summary": "直面AI服务器1U电源痛点：475V高压牛角电容的选型边界与温升控制 Sohu",
+      "source": "Sohu",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LbzJuM3U5eXU2X3dSVVJIbmItbHQ0SWQydk0yS0sxVGt4UUJFcmNOU193VFNpM1pLb1JwMDJhbGY5RGFWWlVvU3lzdjN0SG5OWHZiTkRR?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-14",
+      "last_seen_date": "2026-11-14",
+      "canonical_key": "building strong safety evaluations",
+      "normalized_title": "building strong safety evaluations",
+      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
+      "title": "Building strong safety evaluations - Anthropic",
+      "summary": "Building strong safety evaluations Anthropic",
+      "source": "Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "company_research",
+        "official_report",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "company_research",
+          "official_report",
+          "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-14",
+      "last_seen_date": "2026-11-14",
+      "canonical_key": "anthropic sees ai agent swarms patching flaws within a year",
+      "normalized_title": "anthropic sees ai agent swarms patching flaws within a year",
+      "normalized_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEZFd1lnRm5ob1VYTm5PN3NpeXBobmZIOGhhVDFPbkdXanhOakVwdXhPOWlnRF9Qd0swRTZkNk5RZjFVSWRwaXBLa3VyazNfd1VOQTRDeHE1MUVRZDNqNzJ3OVZjZk1CTXN3dnNNQWtGbk4wUVEzU0NDYkxmUk1uaEthdzJ0bDBSQTJLUWg1WVd4b0pvQzdtMGtqZHZIQmM?oc=5",
+      "title": "Anthropic Sees AI Agent Swarms Patching Flaws Within a Year - BankInfoSecurity",
+      "summary": "Anthropic Sees AI Agent Swarms Patching Flaws Within a Year BankInfoSecurity",
+      "source": "BankInfoSecurity",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEZFd1lnRm5ob1VYTm5PN3NpeXBobmZIOGhhVDFPbkdXanhOakVwdXhPOWlnRF9Qd0swRTZkNk5RZjFVSWRwaXBLa3VyazNfd1VOQTRDeHE1MUVRZDNqNzJ3OVZjZk1CTXN3dnNNQWtGbk4wUVEzU0NDYkxmUk1uaEthdzJ0bDBSQTJLUWg1WVd4b0pvQzdtMGtqZHZIQmM?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "security"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "security"
         ]
       },
       "seen_count": 1
