@@ -1,11 +1,11 @@
 {
   "date": "2026-11-15",
-  "generated_at": "2026-11-16T09:02:41.062653+08:00",
+  "generated_at": "2026-11-16T09:59:05.612749+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 20,
-    "failed_count": 2
+    "success_count": 21,
+    "failed_count": 1
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -17,18 +17,45 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 13,
-    "history_size_after": 12,
-    "history_duplicate_count": 10
+    "history_size_before": 12,
+    "history_size_after": 13,
+    "history_duplicate_count": 15
   },
-  "raw_item_count": 67,
-  "deduped_item_count": 25,
-  "filtered_item_count": 0,
-  "curated_item_count": 0,
-  "curated_items": [],
+  "raw_item_count": 78,
+  "deduped_item_count": 31,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-11-11T09:24:07+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "mcp"
+      ],
+      "concept_hint": "MCP",
+      "score": 43,
+      "canonical_key": "sites and the next generation of web apps",
+      "dedupe_key": "sites and the next generation of web apps",
+      "selection_reason": "learning_high_score"
+    }
+  ],
   "rejected_stats": {
-    "duplicate": 42,
-    "history_duplicate": 10,
+    "duplicate": 47,
+    "history_duplicate": 15,
     "same_source_limit": 0,
     "old_resource": 15,
     "similar_selected": 0,

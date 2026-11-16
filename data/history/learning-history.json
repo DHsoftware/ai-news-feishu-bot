@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:02:41.062653+08:00",
+  "updated_at": "2026-11-16T09:59:05.612749+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -479,6 +479,42 @@
           "cli",
           "codex",
           "security"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-15",
+      "last_seen_date": "2026-11-15",
+      "canonical_key": "sites and the next generation of web apps",
+      "normalized_title": "sites and the next generation of web apps",
+      "normalized_link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "summary": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "mcp"
         ]
       },
       "seen_count": 1

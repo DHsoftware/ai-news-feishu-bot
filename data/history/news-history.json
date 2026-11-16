@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:02:41.062653+08:00",
+  "updated_at": "2026-11-16T09:59:05.612749+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5735,7 +5735,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-15",
@@ -5768,7 +5768,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-15",
@@ -5799,7 +5799,7 @@
           "robotics"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-15",
@@ -5831,7 +5831,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-15",
@@ -5860,7 +5860,7 @@
           "autonomous_driving"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
