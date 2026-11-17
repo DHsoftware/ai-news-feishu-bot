@@ -1,52 +1,8 @@
 {
-  "updated_at": "2026-11-16T09:59:05.612749+08:00",
+  "updated_at": "2026-11-17T11:54:37.579106+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-09-29",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "ai native by design lessons learned from building nvidia tensorrt model connect",
-      "normalized_title": "ai native by design lessons learned from building nvidia tensorrt model connect",
-      "normalized_link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect",
-      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-      "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT... Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around codi…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "chip",
-        "coding_agent",
-        "company_research",
-        "opensource",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "chip",
-          "coding_agent",
-          "company_research",
-          "inference",
-          "opensource",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 11
-    },
     {
       "first_seen_date": "2026-10-08",
       "last_seen_date": "2026-10-27",
@@ -124,186 +80,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-10-16",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
-      "normalized_title": "jp urban digital launches ai workflow automation services to help businesses streamline operations",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
-      "title": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations - The Globe and Mail",
-      "summary": "JP Urban Digital Launches AI Workflow Automation Services to Help Businesses Streamline Operations The Globe and Mail",
-      "source": "The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa1NQWmZQVGV2cjh0SXlKU1p6LUNiWEJTbUdpM08yWE5FdVo5UU1pelFRaEljdDh6bG9HaUtuam05aF9SeGhPWTJjb0w1WGVhdlcxc1FLTmZuckxsUGE5ZndwS0RfZFdqNUh4TE16Uk9EM2VHcnJQNnA5UkRmNTd1ZFphRV9JYk5ZdGV0NzlQU0FaT0FzRFcwV0NyNXpZR2p5QzdBVzJjLVFYZUJFa3FuRk5rTU1nbDBJcG44U05MNEhrSTNEdnh4TmxPU1Q0a2FnXzFFQXVoQVpFY3RkcUxHYThfQmY4amxpc2NhLUh6QXppa3JkRjk3RUpKTTk2Z3htbDR0ZVZHeEZRMzQ?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-16",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "enabot ebo 评测 air 2 plus 一款可以引导您在家中行走的机器人伴侣",
-      "normalized_title": "enabot ebo 评测 air 2 plus 一款可以引导您在家中行走的机器人伴侣",
-      "normalized_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNW1sS0JEeHNpV3hreDc1RWc4Sm9RQTNVc09GTnZpYTh0R0hzb1VBOG9ITXFJU1REUDRyakhmZHhWNFVNRlpSWEZ3WmVrcXpVSnA4dHRFdmtIVjN5RERCaGpCWkxydkMyUmhUX1dxSG9udUg3M2s0c1E0Vm0zR045UlpfY3ZWTmprendJeW9OYkNnT3lGNnY5X2l2dnM5Y3o2UVJoQ2FaaTlra2UzSDBsVVBrRG5PQ0t3QnY4RzhRMF90OVozU3Zr?oc=5",
-      "title": "Enabot EBO 评测 Air 2 Plus：一款可以引导您在家中行走的机器人伴侣 - Letem světem Applem",
-      "summary": "Enabot EBO 评测 Air 2 Plus：一款可以引导您在家中行走的机器人伴侣 Letem světem Applem",
-      "source": "Letem světem Applem",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNW1sS0JEeHNpV3hreDc1RWc4Sm9RQTNVc09GTnZpYTh0R0hzb1VBOG9ITXFJU1REUDRyakhmZHhWNFVNRlpSWEZ3WmVrcXpVSnA4dHRFdmtIVjN5RERCaGpCWkxydkMyUmhUX1dxSG9udUg3M2s0c1E0Vm0zR045UlpfY3ZWTmprendJeW9OYkNnT3lGNnY5X2l2dnM5Y3o2UVJoQ2FaaTlra2UzSDBsVVBrRG5PQ0t3QnY4RzhRMF90OVozU3Zr?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "obc",
-        "power_electronics",
-        "robotics"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "dcdc",
-          "obc",
-          "power_electronics",
-          "robotics"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-16",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "openai约700个智能体测评逃逸事件引发ai安全与对齐争议",
-      "normalized_title": "openai约700个智能体测评逃逸事件引发ai安全与对齐争议",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiV2ZhNFZmWnpfZnl5Um55MjY0NGFUdk1Dc2ZpeFcxbkpmQzBmYjNxZW9MV3lla054OGZPTFBndUlRTzl3WWJTb0haSXlGNDFCXzdEYg?oc=5",
-      "title": "OpenAI约700个智能体测评逃逸事件引发AI安全与对齐争议 - 虎嗅网",
-      "summary": "OpenAI约700个智能体测评逃逸事件引发AI安全与对齐争议 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiV2ZhNFZmWnpfZnl5Um55MjY0NGFUdk1Dc2ZpeFcxbkpmQzBmYjNxZW9MV3lla054OGZPTFBndUlRTzl3WWJTb0haSXlGNDFCXzdEYg?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-16",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "fine tuning nvidia nemotron for saudi arabic dialects with a path to other languages",
-      "normalized_title": "fine tuning nvidia nemotron for saudi arabic dialects with a path to other languages",
-      "normalized_link": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages",
-      "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-      "summary": "Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and... Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Region…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
-      "category": "官方研究",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "ai_research",
-        "benchmark",
-        "chip",
-        "company_research",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "nvidia"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_research",
-          "benchmark",
-          "chip",
-          "company_research",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-16",
-      "last_seen_date": "2026-10-16",
-      "canonical_key": "can agentic ai transform corporate banking self service experiences",
-      "normalized_title": "can agentic ai transform corporate banking self service experiences",
-      "normalized_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
-      "title": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? - Finextra Research",
-      "summary": "Can Agentic AI Transform Corporate Banking Self-Service Experiences? Finextra Research",
-      "source": "Finextra Research",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-17",
@@ -5861,6 +5637,195 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "nvidia sweeps mlperf training and endpoints as vera rubin debuts with leading performance",
+      "normalized_title": "nvidia sweeps mlperf training and endpoints as vera rubin debuts with leading performance",
+      "normalized_link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x gen…",
+      "source": "NVIDIA Blog",
+      "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "rubin",
+          "vera"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "helping ai coding agents work smarter for less",
+      "normalized_title": "helping ai coding agents work smarter for less",
+      "normalized_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMC1vbDhQcGpubTdvZG5BUmhZOHRidDFKMTdTLXo2SWk5RDg3THlEc2p2S3dCMXUtb28taWo1aERsNUJBRnlfUE1SeERkMFZVY01aVWh5NHpvR0dRdEpsQk9DQnNrODBQLXpnVklkUnB1Wm9ydjVZbnc1SVVReGVFQ0Z0UV9aRTVzNFBiTTZHMXdFb0dfcE04WXQ1V2xwY2QxWG1ZQms0SVhIcVp2X1VuY3dxRnNJN3pBNkJfT3gteWFfWW9vdGc?oc=5",
+      "title": "Helping AI coding agents work smarter, for less - Microsoft",
+      "summary": "Helping AI coding agents work smarter, for less Microsoft",
+      "source": "Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMC1vbDhQcGpubTdvZG5BUmhZOHRidDFKMTdTLXo2SWk5RDg3THlEc2p2S3dCMXUtb28taWo1aERsNUJBRnlfUE1SeERkMFZVY01aVWh5NHpvR0dRdEpsQk9DQnNrODBQLXpnVklkUnB1Wm9ydjVZbnc1SVVReGVFQ0Z0UV9aRTVzNFBiTTZHMXdFb0dfcE04WXQ1V2xwY2QxWG1ZQms0SVhIcVp2X1VuY3dxRnNJN3pBNkJfT3gteWFfWW9vdGc?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "engineering_productivity"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "engineering_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "rockwell automation integrates nvidia omniverse into emulate3d to advance industrial simulation and ai powered factory design",
+      "normalized_title": "rockwell automation integrates nvidia omniverse into emulate3d to advance industrial simulation and ai powered factory design",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSzdDY1Q5aWhITDlMOWZmUFFHQkUtUkt5VUtsc2N3QWYwWm9sWTluSXR4UU8zZ25xZEV4YmdNNDU2Qm56MzlMYVA3UnBNZ2tSUlc1RUJtSmhrYVh4YnhzdVhTWmtDMVNOeThfb3h1aGVud1BKQlp4WnIxNGFQbmo2YWFrNkxYUEpxZnJzR0NuWTJqYmJYMkNnYWxlZzlfbWVQbUVrTmg0N29UVFgtR1Npa2xsTllXWkx4SEJhSG9UbElOZy11WlYwRlJpZW9aTkthVkc3TDg2b2tGTldoYjRwOFozbklOcXM?oc=5",
+      "title": "Rockwell Automation Integrates NVIDIA Omniverse into Emulate3D to Advance Industrial Simulation and AI-Powered Factory Design - Macau Business",
+      "summary": "Rockwell Automation Integrates NVIDIA Omniverse into Emulate3D to Advance Industrial Simulation and AI-Powered Factory Design Macau Business",
+      "source": "Macau Business",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSzdDY1Q5aWhITDlMOWZmUFFHQkUtUkt5VUtsc2N3QWYwWm9sWTluSXR4UU8zZ25xZEV4YmdNNDU2Qm56MzlMYVA3UnBNZ2tSUlc1RUJtSmhrYVh4YnhzdVhTWmtDMVNOeThfb3h1aGVud1BKQlp4WnIxNGFQbmo2YWFrNkxYUEpxZnJzR0NuWTJqYmJYMkNnYWxlZzlfbWVQbUVrTmg0N29UVFgtR1Npa2xsTllXWkx4SEJhSG9UbElOZy11WlYwRlJpZW9aTkthVkc3TDg2b2tGTldoYjRwOFozbklOcXM?oc=5",
+      "category": "AI组织提效",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "simulation_optimization",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "simulation_optimization",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "剑桥 牛津大学等联合发文 智能爆炸的可能路径与治理挑战",
+      "normalized_title": "剑桥 牛津大学等联合发文 智能爆炸的可能路径与治理挑战",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SRV9BQTg4V1BWWFF5bU1xdVkzY1ZJT3BXVlFtYnVUc01QSnZOYU92S1A3R2VVNXpNVnNvbTNnTU5Ia1p1bG1ESHFKazd0eWszOGJvRWxFdGFQQTh6bGFsZw?oc=5",
+      "title": "剑桥、牛津大学等联合发文：智能爆炸的可能路径与治理挑战 - 信息化观察网",
+      "summary": "剑桥、牛津大学等联合发文：智能爆炸的可能路径与治理挑战 信息化观察网",
+      "source": "信息化观察网",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SRV9BQTg4V1BWWFF5bU1xdVkzY1ZJT3BXVlFtYnVUc01QSnZOYU92S1A3R2VVNXpNVnNvbTNnTU5Ia1p1bG1ESHFKazd0eWszOGJvRWxFdGFQQTh6bGFsZw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "ai生成的代码必须开源 开发者吵翻了 被开源代码喂大的anthropic 怕是第一个不同意",
+      "normalized_title": "ai生成的代码必须开源 开发者吵翻了 被开源代码喂大的anthropic 怕是第一个不同意",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sa1AtU1NKaDBPM05FdERGN3lCcnpVRUtlWnFIZ042SEZwbXZNQXI5bUpxQ3hMOEVuSFNESGdqMFNGMzF1OVhDSE9CMXJNak5yWGU1MA?oc=5",
+      "title": "“AI生成的代码必须开源，”开发者吵翻了，被开源代码喂大的Anthropic 怕是第一个不同意 - 虎嗅",
+      "summary": "“AI生成的代码必须开源，”开发者吵翻了，被开源代码喂大的Anthropic 怕是第一个不同意 虎嗅",
+      "source": "虎嗅",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sa1AtU1NKaDBPM05FdERGN3lCcnpVRUtlWnFIZ042SEZwbXZNQXI5bUpxQ3hMOEVuSFNESGdqMFNGMzF1OVhDSE9CMXJNak5yWGU1MA?oc=5",
+      "category": "开源模型",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
