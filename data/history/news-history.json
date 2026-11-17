@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:54:37.579106+08:00",
+  "updated_at": "2026-11-17T12:27:09.398287+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5685,7 +5685,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-16",
@@ -5724,7 +5724,7 @@
           "engineering_productivity"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-16",
@@ -5759,7 +5759,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-16",
@@ -5823,6 +5823,73 @@
         ],
         "topics": [
           "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "ibm翟峰 重塑ai运营模式 构建可管控 可复用 可衡量的企业级ai能力",
+      "normalized_title": "ibm翟峰 重塑ai运营模式 构建可管控 可复用 可衡量的企业级ai能力",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JbExqZ0tPNHdmQ2NjYm9PWkV0WGlpYzRmMFU2NW8tSGtGRnpkeV84S2wtSWdZMnJKSGVWaFZYMENvUzN2WERiMnVhUzlidlMybXo5SVE1U3J1NERrVDhoV3NTZw?oc=5",
+      "title": "IBM翟峰：重塑AI运营模式，构建可管控、可复用、可衡量的企业级AI能力 - IBM",
+      "summary": "IBM翟峰：重塑AI运营模式，构建可管控、可复用、可衡量的企业级AI能力 IBM",
+      "source": "IBM",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1JbExqZ0tPNHdmQ2NjYm9PWkV0WGlpYzRmMFU2NW8tSGtGRnpkeV84S2wtSWdZMnJKSGVWaFZYMENvUzN2WERiMnVhUzlidlMybXo5SVE1U3J1NERrVDhoV3NTZw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_transformation",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_transformation",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-16",
+      "last_seen_date": "2026-11-16",
+      "canonical_key": "大模型挖到了金子 anthropic挖到了吗",
+      "normalized_title": "大模型挖到了金子 anthropic挖到了吗",
+      "normalized_link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OcjhaZWhuMERpUnY1bmVfUkZkdHlWamRIYmg3aEl6RDRQU09NbkIzZ3lBUEpBOXN6SENIa1BEZWU1TjVONWtlRDJWZXdZQzNhaW85YklJaGpvWGdmeG84UVEzd2g4OTdwRm44eg?oc=5",
+      "title": "大模型挖到了金子，Anthropic挖到了吗？ - 腾讯新闻",
+      "summary": "大模型挖到了金子，Anthropic挖到了吗？ 腾讯新闻",
+      "source": "腾讯新闻",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OcjhaZWhuMERpUnY1bmVfUkZkdHlWamRIYmg3aEl6RDRQU09NbkIzZ3lBUEpBOXN6SENIa1BEZWU1TjVONWtlRDJWZXdZQzNhaW85YklJaGpvWGdmeG84UVEzd2g4OTdwRm44eg?oc=5",
+      "category": "中国AI",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "llm"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "llm",
+          "model_capability"
         ]
       },
       "seen_count": 1

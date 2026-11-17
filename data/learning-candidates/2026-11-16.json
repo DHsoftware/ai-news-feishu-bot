@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-17T11:54:37.579106+08:00",
+  "generated_at": "2026-11-17T12:27:09.398287+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 19,
-    "failed_count": 3
+    "success_count": 20,
+    "failed_count": 2
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -17,7 +17,7 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 13,
+    "history_size_before": 12,
     "history_size_after": 12,
     "history_duplicate_count": 16
   },
