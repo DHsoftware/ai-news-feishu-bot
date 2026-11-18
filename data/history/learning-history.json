@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T12:27:09.398287+08:00",
+  "updated_at": "2026-11-18T10:54:27.755869+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -476,6 +476,55 @@
           "cli",
           "codex",
           "mcp"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-17",
+      "last_seen_date": "2026-11-17",
+      "canonical_key": "codex cli release 0 164 0",
+      "normalized_title": "codex cli release 0 164 0",
+      "normalized_link": "https://developers.openai.com/codex/changelog",
+      "title": "Codex CLI Release: 0.164.0",
+      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( #54380 , #54381 ) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( #54378 , #54383 ) Preview viewed and…",
+      "source": "OpenAI Developers",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-421457270",
+      "source_type": "official_doc",
+      "source_quality": "high",
+      "summary_quality": "high",
+      "concept_hint": "MCP",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "cli",
+        "code_review",
+        "codex",
+        "mcp",
+        "official",
+        "workflow"
+      ],
+      "event_signature": {
+        "entities": [
+          "amazon"
+        ],
+        "products": [
+          "codex",
+          "mcp"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "bedrock",
+          "cli",
+          "code_review",
+          "codex",
+          "mcp",
+          "official",
+          "terminal",
+          "workflow"
         ]
       },
       "seen_count": 1
