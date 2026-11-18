@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T10:54:27.755869+08:00",
+  "updated_at": "2026-11-18T11:41:31.448537+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5500,7 +5500,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-16",
@@ -5771,6 +5771,141 @@
         "actions": [],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-17",
+      "last_seen_date": "2026-11-17",
+      "canonical_key": "building ai that can work across the enterprise",
+      "normalized_title": "building ai that can work across the enterprise",
+      "normalized_link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+      "title": "Building AI that can work across the enterprise",
+      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a d…",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-17",
+      "last_seen_date": "2026-11-17",
+      "canonical_key": "co designing sparse attention for efficient long",
+      "normalized_title": "co designing sparse attention for efficient long",
+      "normalized_link": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference",
+      "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+      "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,... Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thous…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-17",
+      "last_seen_date": "2026-11-17",
+      "canonical_key": "copilot is the new os for work and now office runs inside of it",
+      "normalized_title": "copilot is the new os for work and now office runs inside of it",
+      "normalized_link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "summary": "Opening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company's vision for its new \"frontier ecosystem,\" announcing Tuesday the general availability of Word, Excel, and PowerPoint inside Copilot, which he described as \"the new OS for work.\" The announcement is a striking…",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [
+          "microsoft"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [
+          "availability"
+        ],
+        "topics": [
+          "agent",
+          "coding"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-17",
+      "last_seen_date": "2026-11-17",
+      "canonical_key": "harvard researchers find ai coding agents shifted the bottleneck to code review",
+      "normalized_title": "harvard researchers find ai coding agents shifted the bottleneck to code review",
+      "normalized_link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
