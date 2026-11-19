@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T11:41:31.448537+08:00",
+  "updated_at": "2026-11-19T10:34:07.167955+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -83,81 +83,6 @@
     },
     {
       "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
-      "canonical_key": "putting earth ai to work geospatial agents for our planet s biggest challenges",
-      "normalized_title": "putting earth ai to work geospatial agents for our planet s biggest challenges",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamdhbmQ0UE1lV2RVZ1ZqTVNNUXVoa2FXRkxRQWVkN1JHSGxCUGx3V192M3VyRnRjMU5sQWVmYWcyUDVLUEJXLV9UcFZ3Y09iRFZmejQ1U25rVzFkT0xTYVdBTlpncXcwR1ZMX3NxUGRudFZLSklQMGNxSjZfOFZ4azI1am5HNWYtSWJMYS1OekMwZEwyX295WFZUZGNlRkg4cWEtbC1qcnd4MVk?oc=5",
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges - Google Research",
-      "summary": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges Google Research",
-      "source": "Google Research",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamdhbmQ0UE1lV2RVZ1ZqTVNNUXVoa2FXRkxRQWVkN1JHSGxCUGx3V192M3VyRnRjMU5sQWVmYWcyUDVLUEJXLV9UcFZ3Y09iRFZmejQ1U25rVzFkT0xTYVdBTlpncXcwR1ZMX3NxUGRudFZLSklQMGNxSjZfOFZ4azI1am5HNWYtSWJMYS1OekMwZEwyX295WFZUZGNlRkg4cWEtbC1qcnd4MVk?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "coding_agent",
-        "company_research"
-      ],
-      "event_signature": {
-        "entities": [
-          "google"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "coding_agent",
-          "company_research",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
-      "canonical_key": "清华开源 智能体操作系统任务成本降83 ai记忆可查可改",
-      "normalized_title": "清华开源 智能体操作系统任务成本降83 ai记忆可查可改",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56R2NNeGE4SnhCdmFqbUtVb2ZGRHNfVkJUalhFV3JNZG95VGJ0WU95U0FDWnctNHRzamdNNkhQUEFUOTQ4Y0JwVg?oc=5",
-      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改 - 智源社区",
-      "summary": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56R2NNeGE4SnhCdmFqbUtVb2ZGRHNfVkJUalhFV3JNZG95VGJ0WU95U0FDWnctNHRzamdNNkhQUEFUOTQ4Y0JwVg?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_transformation",
-        "opensource",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_transformation",
-          "opensource",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-18",
       "last_seen_date": "2026-10-20",
       "canonical_key": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
       "normalized_title": "anthropic发布内部就业报告 智能体工时达到人类6倍 元工作时代 来了",
@@ -194,70 +119,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
-      "canonical_key": "hybrid reasoning agents llm agents that think in latent space act through text",
-      "normalized_title": "hybrid reasoning agents llm agents that think in latent space act through text",
-      "normalized_link": "https://arxiv.org/abs/2610.18861",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "summary": "Abstract page for arXiv paper 2610.18861: Hybrid Reasoning Agents",
-      "source": "Hacker News",
-      "link": "https://arxiv.org/abs/2610.18861",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "llm",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "llm",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-18",
-      "last_seen_date": "2026-10-18",
-      "canonical_key": "show hn whatsapp mcp running free on cloudflare",
-      "normalized_title": "show hn whatsapp mcp running free on cloudflare",
-      "normalized_link": "https://github.com/finereli/whatsapp-mcp",
-      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://github.com/finereli/whatsapp-mcp",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "agent",
-        "cloud",
-        "mcp"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "mcp"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "cloud",
-          "mcp"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-19",
@@ -5906,6 +5767,194 @@
           "ai_code_review",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-18",
+      "canonical_key": "maintainers don t need more ai bug reports they need fixes",
+      "normalized_title": "maintainers don t need more ai bug reports they need fixes",
+      "normalized_link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "summary": "AI has made finding potential vulnerabilities fast and cheap. Fixing them still takes human judgment, and in open source, that work falls to maintainers. Many are already flooded with AI-generated security findings, including duplicates and reports that aren’t vulnerabilities at all. Another raw sc…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "opensource",
+        "security",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github",
+          "microsoft"
+        ],
+        "products": [],
+        "actions": [
+          "opensource",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "opensource",
+          "security",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-18",
+      "canonical_key": "tcl李东生 ai提升生产效率 近三年累计创造约25亿元的效益",
+      "normalized_title": "tcl李东生 ai提升生产效率 近三年累计创造约25亿元的效益",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhLXh2bWY4cXExWUVKWnE5UkdvTkVURlVTNXYzMWUzNFlXMDBVVThLTTRvc1NNMWE3YzUzbW84YjBHUUUyRDEzUjltM2tvQW1SRzRJTXhkTG5ERlpEUTQtWA?oc=5",
+      "title": "TCL李东生：AI提升生产效率，近三年累计创造约25亿元的效益 - ThePaper.cn",
+      "summary": "TCL李东生：AI提升生产效率，近三年累计创造约25亿元的效益 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhLXh2bWY4cXExWUVKWnE5UkdvTkVURlVTNXYzMWUzNFlXMDBVVThLTTRvc1NNMWE3YzUzbW84YjBHUUUyRDEzUjltM2tvQW1SRzRJTXhkTG5ERlpEUTQtWA?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "research",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "research",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-18",
+      "canonical_key": "siemens agibot agentic ai for additive manufacturing",
+      "normalized_title": "siemens agibot agentic ai for additive manufacturing",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaTUtSTZZT0RkTEVQdzZsRDhEWUJzUklSVXQ3RDdmcThxSHp4MWVCYWllWGdRT1VaeEJ4Z1Y4Mklpa2Y3VU9jVDd6UFlkcXh0cVYzSjlrQkRwWHpqOHpnQ2F2N1lSN0xhdEwzZ09Sc1dnM2JXMXFXbDVWdlk5S2J4SVd2TVFJVWRlcFdVX01xcEtMemha?oc=5",
+      "title": "Siemens & AGIBOT: Agentic AI for Additive Manufacturing - Manufacturing Digital",
+      "summary": "Siemens & AGIBOT: Agentic AI for Additive Manufacturing Manufacturing Digital",
+      "source": "Manufacturing Digital",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaTUtSTZZT0RkTEVQdzZsRDhEWUJzUklSVXQ3RDdmcThxSHp4MWVCYWllWGdRT1VaeEJ4Z1Y4Mklpa2Y3VU9jVDd6UFlkcXh0cVYzSjlrQkRwWHpqOHpnQ2F2N1lSN0xhdEwzZ09Sc1dnM2JXMXFXbDVWdlk5S2J4SVd2TVFJVWRlcFdVX01xcEtMemha?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-18",
+      "canonical_key": "ai 生成的代码必须开源 开发者吵翻了 被开源代码喂大的 anthropic 怕是第一个不同意",
+      "normalized_title": "ai 生成的代码必须开源 开发者吵翻了 被开源代码喂大的 anthropic 怕是第一个不同意",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjZTZqRjN6UTVJdkV4ZUJWcTlzWTBPd24wb0lQZFVUMkxtUzZTZ2VKSldUNVJmRGVMa2E2TklCUkZYLVBrMmxTSVl5eFhCRzhpTmpRSC1CYkoxZw?oc=5",
+      "title": "“AI 生成的代码必须开源！”开发者吵翻了，被开源代码喂大的 Anthropic 怕是第一个不同意 - InfoQ.cn",
+      "summary": "“AI 生成的代码必须开源！”开发者吵翻了，被开源代码喂大的 Anthropic 怕是第一个不同意 InfoQ.cn",
+      "source": "InfoQ.cn",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjZTZqRjN6UTVJdkV4ZUJWcTlzWTBPd24wb0lQZFVUMkxtUzZTZ2VKSldUNVJmRGVMa2E2TklCUkZYLVBrMmxTSVl5eFhCRzhpTmpRSC1CYkoxZw?oc=5",
+      "category": "开源模型",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "opensource"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "opensource"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-18",
+      "canonical_key": "nvidia vera rubin nvl72 achieves up to 2x blackwell ultra performance in mlperf training v6 1",
+      "normalized_title": "nvidia vera rubin nvl72 achieves up to 2x blackwell ultra performance in mlperf training v6 1",
+      "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
+      "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
+      "summary": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf... As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_research",
+        "benchmark",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [
+          "rubin",
+          "vera"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_research",
+          "benchmark",
+          "chip",
+          "company_research",
+          "technical_blog"
         ]
       },
       "seen_count": 1
