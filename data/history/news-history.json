@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:20:15.715155+08:00",
+  "updated_at": "2026-11-20T10:19:08.785679+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -119,142 +119,6 @@
         ]
       },
       "seen_count": 6
-    },
-    {
-      "first_seen_date": "2026-10-19",
-      "last_seen_date": "2026-10-19",
-      "canonical_key": "muse glimmer 30b an on device agentic model",
-      "normalized_title": "muse glimmer 30b an on device agentic model",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
-      "title": "Muse Glimmer 30B: An On-Device Agentic Model - AI at Meta",
-      "summary": "Muse Glimmer 30B: An On-Device Agentic Model AI at Meta",
-      "source": "AI at Meta",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-19",
-      "last_seen_date": "2026-10-19",
-      "canonical_key": "closing the gap between agentic cx pilots and production emerj artificial intelligence research",
-      "normalized_title": "closing the gap between agentic cx pilots and production emerj artificial intelligence research",
-      "normalized_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGxFbWlGMHJaRUsxUll6VWU0X3hvbmQ4M0RrbU1aM0ctQlprTWk3WElRVkdqVkRBNW8tUS1IdXV3Tzk2R3I0Q1JmZGMwRVRGUVM4OUVJZG9nc3dOV2o5VUFBdHc2RDBtMmdxa2h0Mk54WWVGOGw1X3M2T2JtVFZuaw?oc=5",
-      "title": "Closing the Gap Between Agentic CX Pilots and Production - Emerj Artificial Intelligence Research",
-      "summary": "Closing the Gap Between Agentic CX Pilots and Production Emerj Artificial Intelligence Research",
-      "source": "Emerj Artificial Intelligence Research",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGxFbWlGMHJaRUsxUll6VWU0X3hvbmQ4M0RrbU1aM0ctQlprTWk3WElRVkdqVkRBNW8tUS1IdXV3Tzk2R3I0Q1JmZGMwRVRGUVM4OUVJZG9nc3dOV2o5VUFBdHc2RDBtMmdxa2h0Mk54WWVGOGw1X3M2T2JtVFZuaw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "production"
-        ],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "org_productivity",
-          "research",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-19",
-      "last_seen_date": "2026-10-19",
-      "canonical_key": "anthropic拟以5 股份善后ai社会冲击 ipo前安全叙事与商业扩张矛盾显现",
-      "normalized_title": "anthropic拟以5 股份善后ai社会冲击 ipo前安全叙事与商业扩张矛盾显现",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xVUY1ZE9vY3RDNVRpc1ZUOEU5RC1hNmtMdE8tSE1EdDVaVEkzbTFqUGFKcGJRU3dyeThtOExtYWoxeVhmclpyQkdhNXJzVjNfOC1qaw?oc=5",
-      "title": "Anthropic拟以5%股份善后AI社会冲击，IPO前安全叙事与商业扩张矛盾显现 - 虎嗅网",
-      "summary": "Anthropic拟以5%股份善后AI社会冲击，IPO前安全叙事与商业扩张矛盾显现 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xVUY1ZE9vY3RDNVRpc1ZUOEU5RC1hNmtMdE8tSE1EdDVaVEkzbTFqUGFKcGJRU3dyeThtOExtYWoxeVhmclpyQkdhNXJzVjNfOC1qaw?oc=5",
-      "category": "中国AI",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-19",
-      "last_seen_date": "2026-10-19",
-      "canonical_key": "muse glimmer 30b an on device agentic model research",
-      "normalized_title": "muse glimmer 30b an on device agentic model research",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
-      "title": "Muse Glimmer 30B: An On-Device Agentic Model | Research - AI at Meta",
-      "summary": "Muse Glimmer 30B: An On-Device Agentic Model | Research AI at Meta",
-      "source": "AI at Meta",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjZZVk1ERVYyQmZEMEZSZE1yTFg4M3hYV0hyMmtqamx2VmgyYldwMTd6MzZmX1hIMkFJSWxhaUdZREo0QUFIWGdEXzhjczNCY0ItVklUQmJPSFFMNVFyNVJoTTY4Z2NjdDBhQmFJX01VTmZaS1NkMW8yc0trcnBxVy1KX3NZcTM1eGY2RUZZbw?oc=5",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "official_research",
-      "source_type": "research_paper",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "company_research"
-      ],
-      "event_signature": {
-        "entities": [
-          "meta"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "company_research",
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-20",
@@ -5917,7 +5781,7 @@
     },
     {
       "first_seen_date": "2026-11-18",
-      "last_seen_date": "2026-11-18",
+      "last_seen_date": "2026-11-19",
       "canonical_key": "nvidia vera rubin nvl72 achieves up to 2x blackwell ultra performance in mlperf training v6 1",
       "normalized_title": "nvidia vera rubin nvl72 achieves up to 2x blackwell ultra performance in mlperf training v6 1",
       "normalized_link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
@@ -5957,7 +5821,165 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-11-19",
+      "last_seen_date": "2026-11-19",
+      "canonical_key": "how openai s performance factory keeps chatgpt fast",
+      "normalized_title": "how openai s performance factory keeps chatgpt fast",
+      "normalized_link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "codex",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "codex",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-19",
+      "last_seen_date": "2026-11-19",
+      "canonical_key": "apple hiring signals entry into ai agent race",
+      "normalized_title": "apple hiring signals entry into ai agent race",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2VIYjc3YWpILXpqWXAybmJYTDB1QUQtcEJrbFk1aGxfUnlVNFB3ZVRYODlBN2dpdmp6V20zaW5oSXRMNTJMWHpKYmNvNWxrNGhPRWlHOVN4d253OXVDaE9Mazl6WnktaFU3dVFjUlNyZkRFaDQwUFlOdzlHNncyUUN1OTA?oc=5",
+      "title": "Apple Hiring Signals Entry Into AI Agent Race - The Tech Buzz",
+      "summary": "Apple Hiring Signals Entry Into AI Agent Race The Tech Buzz",
+      "source": "The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2VIYjc3YWpILXpqWXAybmJYTDB1QUQtcEJrbFk1aGxfUnlVNFB3ZVRYODlBN2dpdmp6V20zaW5oSXRMNTJMWHpKYmNvNWxrNGhPRWlHOVN4d253OXVDaE9Mazl6WnktaFU3dVFjUlNyZkRFaDQwUFlOdzlHNncyUUN1OTA?oc=5",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "apple"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-19",
+      "last_seen_date": "2026-11-19",
+      "canonical_key": "工业ai智能体爆发 2026世界 中国十大智能制造榜单揭晓",
+      "normalized_title": "工业ai智能体爆发 2026世界 中国十大智能制造榜单揭晓",
+      "normalized_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsZXBOdmJNWEF0dENiMlNVNmJncXVVdmRfN01oUHMwcHpGWTNycllKb3ByTm9ZdHg3RHRQdTlrYk9HbFFqNG5SX1JKeWk1aWczaWE2QVVid3FPbEdsUElCNy03WXJmM2xqOFFJ?oc=5",
+      "title": "工业AI智能体爆发！2026世界&中国十大智能制造榜单揭晓 - Jstv.com",
+      "summary": "工业AI智能体爆发！2026世界&中国十大智能制造榜单揭晓 Jstv.com",
+      "source": "Jstv.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsZXBOdmJNWEF0dENiMlNVNmJncXVVdmRfN01oUHMwcHpGWTNycllKb3ByTm9ZdHg3RHRQdTlrYk9HbFFqNG5SX1JKeWk1aWczaWE2QVVid3FPbEdsUElCNy03WXJmM2xqOFFJ?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-19",
+      "last_seen_date": "2026-11-19",
+      "canonical_key": "openai内部上线 性能工厂 codex智能体日均17次自动排查 三个多月狂扫1700 次调查",
+      "normalized_title": "openai内部上线 性能工厂 codex智能体日均17次自动排查 三个多月狂扫1700 次调查",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PVEdpN3g3Xy1PXzlIbXZjT0ZXdkVBMGRwVjNrQkhYeHNJMVhvQzBDSWpRN2NKWlhPTENnMTBic0xOckF5M2Z3dXhR?oc=5",
+      "title": "OpenAI内部上线“性能工厂”：Codex智能体日均17次自动排查，三个多月狂扫1700+次调查 - 区块周刊BlockWeeks",
+      "summary": "OpenAI内部上线“性能工厂”：Codex智能体日均17次自动排查，三个多月狂扫1700+次调查 区块周刊BlockWeeks",
+      "source": "区块周刊BlockWeeks",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PVEdpN3g3Xy1PXzlIbXZjT0ZXdkVBMGRwVjNrQkhYeHNJMVhvQzBDSWpRN2NKWlhPTENnMTBic0xOckF5M2Z3dXhR?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "codex",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex"
+        ],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "codex",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
