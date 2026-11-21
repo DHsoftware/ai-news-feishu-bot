@@ -1,15 +1,15 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-21T10:15:36.128442+08:00",
+  "generated_at": "2026-11-21T11:10:57.178597+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 228,
-    "failed_count": 2,
+    "success_count": 221,
+    "failed_count": 9,
     "global_source_count": 16,
     "global_success_count": 15,
     "china_source_count": 34,
-    "china_success_count": 213
+    "china_success_count": 206
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 164,
-    "history_size_after": 164,
-    "history_duplicate_count": 57
+    "history_size_after": 165,
+    "history_duplicate_count": 51
   },
-  "raw_item_count": 4778,
-  "deduped_item_count": 3530,
-  "filtered_item_count": 378,
+  "raw_item_count": 4641,
+  "deduped_item_count": 3436,
+  "filtered_item_count": 364,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -107,13 +107,13 @@
       "selection_reason": "required_productivity"
     },
     {
-      "title": "Singapore Pushes AI Into Fraud Defense, SME Lending and Agentic Payments - BigGo Finance",
-      "summary": "Singapore Pushes AI Into Fraud Defense, SME Lending and Agentic Payments BigGo Finance",
+      "title": "Veterans get specialized training with new Meta AI glasses - DC News Now",
+      "summary": "Veterans get specialized training with new Meta AI glasses DC News Now",
       "summary_source": "rss_description",
-      "summary_quality": "medium",
-      "published_at": "2026-11-19T14:25:00+08:00",
-      "source": "BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GVFNTVXdGdlQxVlNnbkhxMFVuSERzd0xzamRoTENkVXlIUk85MHNHWE5hUW1CWFdZMndNUFdQYU56elVDR18tQ0lsX09wRXN5cWFXT3g4V2RDVkRuRnJHdFlDN3F0aVQ3bGpNQzZ6ZGg1RFhnRlE?oc=5",
+      "summary_quality": "low",
+      "published_at": "2026-11-21T06:55:02+08:00",
+      "source": "DC News Now",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUdhdUpBbExSTEFiaHlzTUtCR215TC1GSnFud0o2OC1HWTZJZmxoX0dHOUxuWFA1aWNhZnJscjVDVDlieVZHUzdmdzk2UG5ncjRMeVpBTE92X1ZaZlVqdUhsbnNtZFVEckRNMVo1anR1MjFYY1FHMk1wRGo1MV93aFhucUl4bXNHMnB2X2VTdE9WN2VyamZDSXZnVmdPTm5lUXdR0gGoAUFVX3lxTE5CNDMzVWtNR0dFMjVwNzlGRS1Gcy1acE9ZM0U5aG9EOXdPSlc1bE9MNFV4VldaYVI3elhPX2Q2eGxMU2JHYWJjMDVEVm53U09KZnhMNFkzcGpLdlFCU0poSFFTOHNINUVxTnUtWWtXeTBOcS1hNURjRHFmRHhsbTlqUGhoTlA0eWJDalg0WGdBNlVSdG8wTjRhbUItZFc4dXFzWFh5VUpjUA?oc=5",
       "language": "en",
       "region": "global",
       "source_group": "power_electronics",
@@ -126,16 +126,16 @@
         "dcdc"
       ],
       "topic_tags": [
-        "agent",
+        "chip",
         "dcdc",
         "obc",
         "power_electronics"
       ],
       "category": "OBC/DCDC",
-      "dedupe_key": "singapore pushes ai into fraud defense sme lending and agentic payments",
-      "canonical_key": "singapore pushes ai into fraud defense sme lending and agentic payments",
-      "normalized_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GVFNTVXdGdlQxVlNnbkhxMFVuSERzd0xzamRoTENkVXlIUk85MHNHWE5hUW1CWFdZMndNUFdQYU56elVDR18tQ0lsX09wRXN5cWFXT3g4V2RDVkRuRnJHdFlDN3F0aVQ3bGpNQzZ6ZGg1RFhnRlE?oc=5",
-      "score": 63,
+      "dedupe_key": "veterans get specialized training with new meta ai glasses",
+      "canonical_key": "veterans get specialized training with new meta ai glasses",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUdhdUpBbExSTEFiaHlzTUtCR215TC1GSnFud0o2OC1HWTZJZmxoX0dHOUxuWFA1aWNhZnJscjVDVDlieVZHUzdmdzk2UG5ncjRMeVpBTE92X1ZaZlVqdUhsbnNtZFVEckRNMVo1anR1MjFYY1FHMk1wRGo1MV93aFhucUl4bXNHMnB2X2VTdE9WN2VyamZDSXZnVmdPTm5lUXdR0gGoAUFVX3lxTE5CNDMzVWtNR0dFMjVwNzlGRS1Gcy1acE9ZM0U5aG9EOXdPSlc1bE9MNFV4VldaYVI3elhPX2Q2eGxMU2JHYWJjMDVEVm53U09KZnhMNFkzcGpLdlFCU0poSFFTOHNINUVxTnUtWWtXeTBOcS1hNURjRHFmRHhsbTlqUGhoTlA0eWJDalg0WGdBNlVSdG8wTjRhbUItZFc4dXFzWFh5VUpjUA?oc=5",
+      "score": 68,
       "selection_reason": "power_electronics_boost"
     },
     {
@@ -198,14 +198,14 @@
     }
   ],
   "rejected_stats": {
-    "duplicate": 1248,
-    "history_duplicate": 57,
-    "weak_relevance": 165,
+    "duplicate": 1205,
+    "history_duplicate": 51,
+    "weak_relevance": 162,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 2987,
-    "same_entity_limit": 86,
+    "old_news": 2910,
+    "same_entity_limit": 78,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,

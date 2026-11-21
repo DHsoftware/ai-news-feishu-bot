@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T10:15:36.128442+08:00",
+  "updated_at": "2026-11-21T11:10:57.178597+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5810,7 +5810,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-20",
@@ -5844,7 +5844,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-20",
@@ -5917,7 +5917,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-20",
@@ -5944,6 +5944,41 @@
         "actions": [],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-20",
+      "last_seen_date": "2026-11-20",
+      "canonical_key": "veterans get specialized training with new meta ai glasses",
+      "normalized_title": "veterans get specialized training with new meta ai glasses",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUdhdUpBbExSTEFiaHlzTUtCR215TC1GSnFud0o2OC1HWTZJZmxoX0dHOUxuWFA1aWNhZnJscjVDVDlieVZHUzdmdzk2UG5ncjRMeVpBTE92X1ZaZlVqdUhsbnNtZFVEckRNMVo1anR1MjFYY1FHMk1wRGo1MV93aFhucUl4bXNHMnB2X2VTdE9WN2VyamZDSXZnVmdPTm5lUXdR0gGoAUFVX3lxTE5CNDMzVWtNR0dFMjVwNzlGRS1Gcy1acE9ZM0U5aG9EOXdPSlc1bE9MNFV4VldaYVI3elhPX2Q2eGxMU2JHYWJjMDVEVm53U09KZnhMNFkzcGpLdlFCU0poSFFTOHNINUVxTnUtWWtXeTBOcS1hNURjRHFmRHhsbTlqUGhoTlA0eWJDalg0WGdBNlVSdG8wTjRhbUItZFc4dXFzWFh5VUpjUA?oc=5",
+      "title": "Veterans get specialized training with new Meta AI glasses - DC News Now",
+      "summary": "Veterans get specialized training with new Meta AI glasses DC News Now",
+      "source": "DC News Now",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUdhdUpBbExSTEFiaHlzTUtCR215TC1GSnFud0o2OC1HWTZJZmxoX0dHOUxuWFA1aWNhZnJscjVDVDlieVZHUzdmdzk2UG5ncjRMeVpBTE92X1ZaZlVqdUhsbnNtZFVEckRNMVo1anR1MjFYY1FHMk1wRGo1MV93aFhucUl4bXNHMnB2X2VTdE9WN2VyamZDSXZnVmdPTm5lUXdR0gGoAUFVX3lxTE5CNDMzVWtNR0dFMjVwNzlGRS1Gcy1acE9ZM0U5aG9EOXdPSlc1bE9MNFV4VldaYVI3elhPX2Q2eGxMU2JHYWJjMDVEVm53U09KZnhMNFkzcGpLdlFCU0poSFFTOHNINUVxTnUtWWtXeTBOcS1hNURjRHFmRHhsbTlqUGhoTlA0eWJDalg0WGdBNlVSdG8wTjRhbUItZFc4dXFzWFh5VUpjUA?oc=5",
+      "category": "OBC/DCDC",
+      "region": "global",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "chip",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [
+          "meta"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "dcdc",
+          "obc",
+          "power_electronics"
         ]
       },
       "seen_count": 1
