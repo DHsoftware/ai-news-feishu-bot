@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T09:20:01.263272+08:00",
+  "updated_at": "2026-11-22T10:10:34.068888+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5797,7 +5797,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-20",
@@ -5897,7 +5897,7 @@
           "research"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-21",
@@ -5934,7 +5934,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-21",
@@ -5991,6 +5991,39 @@
         "topics": [
           "agent",
           "ai_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-21",
+      "last_seen_date": "2026-11-21",
+      "canonical_key": "pandex official european law for ai agents over mcp",
+      "normalized_title": "pandex official european law for ai agents over mcp",
+      "normalized_link": "https://www.pandex.io",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://www.pandex.io",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "mcp"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [
+          "mcp"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "mcp"
         ]
       },
       "seen_count": 1

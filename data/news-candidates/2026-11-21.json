@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generated_at": "2026-11-22T09:20:01.263272+08:00",
+  "generated_at": "2026-11-22T10:10:34.068888+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 165,
-    "history_size_after": 166,
-    "history_duplicate_count": 35
+    "history_size_before": 166,
+    "history_size_after": 167,
+    "history_duplicate_count": 34
   },
-  "raw_item_count": 4802,
-  "deduped_item_count": 3547,
-  "filtered_item_count": 248,
+  "raw_item_count": 4788,
+  "deduped_item_count": 3555,
+  "filtered_item_count": 240,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -141,31 +141,6 @@
       "selection_reason": "china_quota"
     },
     {
-      "title": "AI比人贵了…OpenAI：内部Agent开销已达研究员薪酬两倍 - 华尔街见闻",
-      "summary": "AI比人贵了…OpenAI：内部Agent开销已达研究员薪酬两倍 华尔街见闻",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-11-20T19:10:39+08:00",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GemxvR2xmUnYtcTJMMzNxQkgtVTdVajJ1LWVKVUZLSDBxQ0EwQVBmaUtzVlNOSm5xbkszVnVkRUQ5MkxmUGhKTGQycF90cWVYdmlR?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [],
-      "topic_tags": [
-        "agent"
-      ],
-      "category": "AI Agent",
-      "dedupe_key": "ai比人贵了 openai 内部agent开销已达研究员薪酬两倍",
-      "canonical_key": "ai比人贵了 openai 内部agent开销已达研究员薪酬两倍",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GemxvR2xmUnYtcTJMMzNxQkgtVTdVajJ1LWVKVUZLSDBxQ0EwQVBmaUtzVlNOSm5xbkszVnVkRUQ5MkxmUGhKTGQycF90cWVYdmlR?oc=5",
-      "score": 36,
-      "selection_reason": "china_quota"
-    },
-    {
       "title": "Here are the top AI agents that can live in your text messages",
       "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
       "summary_source": "rss_description",
@@ -190,17 +165,44 @@
       "normalized_link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
       "score": 37,
       "selection_reason": "fill_remaining_high_score"
+    },
+    {
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "summary": "Comments",
+      "summary_source": "rss_description",
+      "summary_quality": "low",
+      "published_at": "2026-11-22T04:47:41+08:00",
+      "source": "Hacker News",
+      "link": "https://www.pandex.io",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "mcp"
+      ],
+      "category": "AI编程工具",
+      "dedupe_key": "pandex official european law for ai agents over mcp",
+      "canonical_key": "pandex official european law for ai agents over mcp",
+      "normalized_link": "https://www.pandex.io",
+      "score": 35,
+      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1255,
-    "history_duplicate": 35,
-    "weak_relevance": 132,
+    "duplicate": 1233,
+    "history_duplicate": 34,
+    "weak_relevance": 133,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3167,
-    "same_entity_limit": 214,
+    "old_news": 3182,
+    "same_entity_limit": 208,
     "similar_selected": 0,
     "company_research_limit": 0,
     "auto_driving_limit": 0,
