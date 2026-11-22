@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:10:57.178597+08:00",
+  "updated_at": "2026-11-22T09:20:01.263272+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -35,93 +35,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-21",
-      "last_seen_date": "2026-10-21",
-      "canonical_key": "openai models are coming to google cloud",
-      "normalized_title": "openai models are coming to google cloud",
-      "normalized_link": "https://openai.com/index/openai-models-google-cloud",
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/openai-models-google-cloud",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "cloud",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report"
-      ],
-      "event_signature": {
-        "entities": [
-          "google",
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "availability"
-        ],
-        "topics": [
-          "agent",
-          "ai_research",
-          "cloud",
-          "cloud_platform",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "official_report"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-21",
-      "last_seen_date": "2026-10-21",
-      "canonical_key": "how obc is advancing japan s cloud and ai transformation",
-      "normalized_title": "how obc is advancing japan s cloud and ai transformation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1VUcWx6TUQyUnZhOFhERThUOXFnMEcwWW5LWVRzcW42MjFaOTBWVWUzMDdzV3JQUVBFMWdiVkkwNjhhQ1p5emNwY0pta0JLWWVsdzVaNmdiQ3BUTDN6N1lmVjB2M1F5c0lmc0RiNDZUTjk1MURiS2pMcFlyY0lsZnlvbnZydjIyeFRUSGh1LUhLREJ2ZG1kNDM3WUFDR09GcnBlNA?oc=5",
-      "title": "How OBC Is Advancing Japan’s Cloud and AI Transformation - The Worldfolio",
-      "summary": "How OBC Is Advancing Japan’s Cloud and AI Transformation The Worldfolio",
-      "source": "The Worldfolio",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1VUcWx6TUQyUnZhOFhERThUOXFnMEcwWW5LWVRzcW42MjFaOTBWVWUzMDdzV3JQUVBFMWdiVkkwNjhhQ1p5emNwY0pta0JLWWVsdzVaNmdiQ3BUTDN6N1lmVjB2M1F5c0lmc0RiNDZUTjk1MURiS2pMcFlyY0lsZnlvbnZydjIyeFRUSGh1LUhLREJ2ZG1kNDM3WUFDR09GcnBlNA?oc=5",
-      "category": "OBC/DCDC",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "cloud",
-        "obc",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [
-          "obc"
-        ],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "cloud",
-          "cloud_platform",
-          "obc",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-21",
@@ -164,39 +77,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-21",
-      "last_seen_date": "2026-10-21",
-      "canonical_key": "openai收购orchestra bio 推进ai辅助药物研发 ai",
-      "normalized_title": "openai收购orchestra bio 推进ai辅助药物研发 ai",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOWXJjbVF0aEU1UHZ5SVo5d3BXelN5TG5KRWNDUFB1MVl2TldVSVNWdW5ldG9uZXdteTlCR1gwbWRYdTZlbmxYdWpYU1FWaUEtSzFZU2hn?oc=5",
-      "title": "OpenAI收购Orchestra Bio 推进AI辅助药物研发- AI - 亿邦动力",
-      "summary": "OpenAI收购Orchestra Bio 推进AI辅助药物研发- AI 亿邦动力",
-      "source": "亿邦动力",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOWXJjbVF0aEU1UHZ5SVo5d3BXelN5TG5KRWNDUFB1MVl2TldVSVNWdW5ldG9uZXdteTlCR1gwbWRYdTZlbmxYdWpYU1FWaUEtSzFZU2hn?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 2
     },
     {
       "first_seen_date": "2026-10-21",
@@ -5881,7 +5761,7 @@
     },
     {
       "first_seen_date": "2026-11-20",
-      "last_seen_date": "2026-11-20",
+      "last_seen_date": "2026-11-21",
       "canonical_key": "gpt周报 腾讯workbuddy和 豆包工作 披露日活 微信智能体 小微 日活用户3000万 openai发布两款新模型",
       "normalized_title": "gpt周报 腾讯workbuddy和 豆包工作 披露日活 微信智能体 小微 日活用户3000万 openai发布两款新模型",
       "normalized_link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44TE9aYXJyc1AyajBoQjF5ZEdtQ1U0bkg4UzBSclRpX2J3cW5LWkNLbF9xMm9UQzM1NUE0a0trMVd1YjRUb2JJMHFOUTRyaVNHT3lOSG1uWlZDRV9SOTBxWWh2N2w?oc=5",
@@ -5917,7 +5797,7 @@
           "model_capability"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-20",
@@ -5979,6 +5859,138 @@
           "dcdc",
           "obc",
           "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-21",
+      "last_seen_date": "2026-11-21",
+      "canonical_key": "how google duplex evolved to also call businesses for you in gemini",
+      "normalized_title": "how google duplex evolved to also call businesses for you in gemini",
+      "normalized_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlRVWE01Qm4tMzF5bnZxeFJXajNPR05fMTNxd184akFELTB1aF84OEZWUjRsUkRRMG4zYVlhRmI2T0lKZHV2MWVGbDdqNkdnWWNSenJkWWhtMkFzczFhMGEyLW0xM1B1Yy1lMGg5NUNLMkJ1TjhGZlBQeVZoUjRYZjVfcmtPNjlrQzVLNTYwRzFOSzY3WnJ6Z0NDd2Vvdw?oc=5",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini - Google Research",
+      "summary": "How Google Duplex evolved to also call businesses for you in Gemini Google Research",
+      "source": "Google Research",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlRVWE01Qm4tMzF5bnZxeFJXajNPR05fMTNxd184akFELTB1aF84OEZWUjRsUkRRMG4zYVlhRmI2T0lKZHV2MWVGbDdqNkdnWWNSenJkWWhtMkFzczFhMGEyLW0xM1B1Yy1lMGg5NUNLMkJ1TjhGZlBQeVZoUjRYZjVfcmtPNjlrQzVLNTYwRzFOSzY3WnJ6Z0NDd2Vvdw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "official_research",
+      "source_type": "research_paper",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "coding_agent",
+        "company_research"
+      ],
+      "event_signature": {
+        "entities": [
+          "google"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "coding_agent",
+          "company_research",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-21",
+      "last_seen_date": "2026-11-21",
+      "canonical_key": "zite ai business app builder integrated databases workflow automation",
+      "normalized_title": "zite ai business app builder integrated databases workflow automation",
+      "normalized_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjhQYTdUMXFUdGFWOXRGdFpSLTYwMjdkNDRmb2w3VmNQRWotcldwbk5PS2xaSERFWXU3UlBGV2tJSHhRTGtsV0FZM1Q3UVVOOWdUelV1alZHUG1oT214cGFnVEg1UGdqdElKLUdzTGFPeVZRSXNYelpKeDcwZGxPay1scE55MlZMazhtbXAyZXBZaE9fdGVz?oc=5",
+      "title": "Zite – AI Business App Builder, Integrated Databases & Workflow Automation - Quasa.io",
+      "summary": "Zite – AI Business App Builder, Integrated Databases & Workflow Automation Quasa.io",
+      "source": "Quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjhQYTdUMXFUdGFWOXRGdFpSLTYwMjdkNDRmb2w3VmNQRWotcldwbk5PS2xaSERFWXU3UlBGV2tJSHhRTGtsV0FZM1Q3UVVOOWdUelV1alZHUG1oT214cGFnVEg1UGdqdElKLUdzTGFPeVZRSXNYelpKeDcwZGxPay1scE55MlZMazhtbXAyZXBZaE9fdGVz?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-21",
+      "last_seen_date": "2026-11-21",
+      "canonical_key": "ai比人贵了 openai 内部agent开销已达研究员薪酬两倍",
+      "normalized_title": "ai比人贵了 openai 内部agent开销已达研究员薪酬两倍",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GemxvR2xmUnYtcTJMMzNxQkgtVTdVajJ1LWVKVUZLSDBxQ0EwQVBmaUtzVlNOSm5xbkszVnVkRUQ5MkxmUGhKTGQycF90cWVYdmlR?oc=5",
+      "title": "AI比人贵了…OpenAI：内部Agent开销已达研究员薪酬两倍 - 华尔街见闻",
+      "summary": "AI比人贵了…OpenAI：内部Agent开销已达研究员薪酬两倍 华尔街见闻",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GemxvR2xmUnYtcTJMMzNxQkgtVTdVajJ1LWVKVUZLSDBxQ0EwQVBmaUtzVlNOSm5xbkszVnVkRUQ5MkxmUGhKTGQycF90cWVYdmlR?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "china",
+      "source_type": "",
+      "topic_tags": [
+        "agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-21",
+      "last_seen_date": "2026-11-21",
+      "canonical_key": "here are the top ai agents that can live in your text messages",
+      "normalized_title": "here are the top ai agents that can live in your text messages",
+      "normalized_link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "ai_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent"
         ]
       },
       "seen_count": 1
