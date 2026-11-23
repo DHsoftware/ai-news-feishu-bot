@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T09:44:31.806360+08:00",
+  "updated_at": "2026-11-23T10:41:50.826886+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5784,7 +5784,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-22",
@@ -5845,7 +5845,7 @@
           "official_report"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-22",
@@ -5874,6 +5874,67 @@
         "topics": [
           "agent",
           "opensource"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-22",
+      "last_seen_date": "2026-11-22",
+      "canonical_key": "powering ai processors 48v vertical power delivery changes the game",
+      "normalized_title": "powering ai processors 48v vertical power delivery changes the game",
+      "normalized_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZVBIZkxNMGpHQ0RPMmxLWWtOYTE4M01RN1ByRDFGZE1CYnc4NjMtV0VIcE5ZR2cxQ3hOZHlBRVlHVG1LZFMzUFBfRmgtOGNaV3lYTy1uNmRpSjRXR0JlUjlBZHdzNm5HSnRsamtGeE5Pdjh4aUV3dFN4SnV2VHdGSW1rUEhLcTM4cTZEeTRKcXZ6MXpuSDJRZ2V1cWwyM1VkcTRTbjB2bHU4SE15b2xZNkdaU1VETFVsUTBHU3FVdzBxZ2VQTUhVaFlDSksxNWhFOXBMWWo1bG50M3lsZTFJWg?oc=5",
+      "title": "Powering AI Processors: 48V Vertical Power Delivery Changes the Game - Vicor Corporation",
+      "summary": "Powering AI Processors: 48V Vertical Power Delivery Changes the Game Vicor Corporation",
+      "source": "Vicor Corporation",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZVBIZkxNMGpHQ0RPMmxLWWtOYTE4M01RN1ByRDFGZE1CYnc4NjMtV0VIcE5ZR2cxQ3hOZHlBRVlHVG1LZFMzUFBfRmgtOGNaV3lYTy1uNmRpSjRXR0JlUjlBZHdzNm5HSnRsamtGeE5Pdjh4aUV3dFN4SnV2VHdGSW1rUEhLcTM4cTZEeTRKcXZ6MXpuSDJRZ2V1cWwyM1VkcTRTbjB2bHU4SE15b2xZNkdaU1VETFVsUTBHU3FVdzBxZ2VQTUhVaFlDSksxNWhFOXBMWWo1bG50M3lsZTFJWg?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-22",
+      "last_seen_date": "2026-11-22",
+      "canonical_key": "通信行业研究 美国收紧先进算力获取管制 anthropic完成ipo",
+      "normalized_title": "通信行业研究 美国收紧先进算力获取管制 anthropic完成ipo",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PNnE0V2ctcGFzXzRINlFWU3dUSnRibHpnWkNzcWdnOE9jWjRmMmZmWWJkc1FMdXF0cWNDRDhVVlR0Rm42VS1vR2hvWXNpbmgtU1hVb1I2Qjh5N1QyVFBtdUVB?oc=5",
+      "title": "通信行业研究：美国收紧先进算力获取管制，Anthropic完成IPO - 证券之星",
+      "summary": "通信行业研究：美国收紧先进算力获取管制，Anthropic完成IPO 证券之星",
+      "source": "证券之星",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PNnE0V2ctcGFzXzRINlFWU3dUSnRibHpnWkNzcWdnOE9jWjRmMmZmWWJkc1FMdXF0cWNDRDhVVlR0Rm42VS1vR2hvWXNpbmgtU1hVb1I2Qjh5N1QyVFBtdUVB?oc=5",
+      "category": "AI芯片",
+      "region": "china",
+      "source_group": "auto_china",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "chip",
+          "research"
         ]
       },
       "seen_count": 1

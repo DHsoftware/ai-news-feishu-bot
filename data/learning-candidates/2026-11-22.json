@@ -1,11 +1,11 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-23T09:44:31.806360+08:00",
+  "generated_at": "2026-11-23T10:41:50.826886+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 22,
-    "success_count": 18,
-    "failed_count": 4
+    "success_count": 21,
+    "failed_count": 1
   },
   "selection_config": {
     "target_learning_candidate_count": 1,
@@ -31,7 +31,7 @@
       "summary": "Run coding tasks in the cloud, review results, and get started with Codex Cloud.",
       "summary_source": "page_meta_description",
       "summary_quality": "high",
-      "published_at": "2026-11-23T09:44:31.806360+08:00",
+      "published_at": "2026-11-23T10:41:50.826886+08:00",
       "source": "OpenAI",
       "source_type": "official_doc",
       "source_quality": "high",
