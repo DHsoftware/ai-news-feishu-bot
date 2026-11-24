@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:41:50.826886+08:00",
+  "updated_at": "2026-11-24T13:19:10.162499+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -35,268 +35,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "using ai agents to teach robots like microduck to walk in simulation",
-      "normalized_title": "using ai agents to teach robots like microduck to walk in simulation",
-      "normalized_link": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
-      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-      "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions... Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balanc…",
-      "source": "NVIDIA Technical Blog",
-      "link": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "ai_agent",
-        "ai_research",
-        "chip",
-        "company_research",
-        "regulation",
-        "robotics",
-        "simulation_optimization",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_agent",
-          "ai_research",
-          "chip",
-          "company_research",
-          "policy_regulation",
-          "regulation",
-          "robotics",
-          "simulation_optimization",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "beyond copilots the agentic enterprise",
-      "normalized_title": "beyond copilots the agentic enterprise",
-      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
-      "title": "Beyond copilots: The agentic enterprise - Infosys",
-      "summary": "Beyond copilots: The agentic enterprise Infosys",
-      "source": "Infosys",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOakdyeVVnX3h6NTRaWUdrZFpCY0pzNWE1cnUzbDhfX3RONzlfM3YzdmRqOTZuSThGd24xM0hjQmpKWHhKRlh0Y1poenFLWmMwdW1KeWxBYnZZQ1lnblZCNDYwZEpKX2hpQkFWV2hyVkFMbUJ6aExfdS02Y3FiMTVtcUxsMmwwT2M?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "ai_transformation",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_transformation",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "论文周报丨8篇论文聚焦agent harness新进展 覆盖编程智能体 具身控制 图像 生成",
-      "normalized_title": "论文周报丨8篇论文聚焦agent harness新进展 覆盖编程智能体 具身控制 图像 生成",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByVGVrUkJVT2tuN1NtODFWTHp2Mms1YlFSRTFLQW80cGpoVnd1eDlwYnRXczdpbC1XeERlUVRwenlaRXZXZTU1NA?oc=5",
-      "title": "论文周报丨8篇论文聚焦Agent Harness新进展，覆盖编程智能体/具身控制/图像视频生成 - 智源社区",
-      "summary": "论文周报丨8篇论文聚焦Agent Harness新进展，覆盖编程智能体/具身控制/图像视频生成 智源社区",
-      "source": "智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByVGVrUkJVT2tuN1NtODFWTHp2Mms1YlFSRTFLQW80cGpoVnd1eDlwYnRXczdpbC1XeERlUVRwenlaRXZXZTU1NA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
-      "normalized_title": "personal agent成q4最热ai赛道 meta openai anthropic竞逐 产品形态仍待iphone时刻",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
-      "title": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 - 虎嗅",
-      "summary": "Personal Agent成Q4最热AI赛道：Meta、OpenAI、Anthropic竞逐，产品形态仍待iPhone时刻 虎嗅",
-      "source": "虎嗅",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fcTBWcnAxWHh6UUpjeFVTUlpuanUzcmtnMndPMHdIZ09JdmdodWE5TGpVRnJoa2NXOGpQNjZ1N3EtZVZaYXJwcm4xRFQ2YjlSYjdpNg?oc=5",
-      "category": "AI Agent",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "meta",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "how bug bounty sharpens one researcher s security skills",
-      "normalized_title": "how bug bounty sharpens one researcher s security skills",
-      "normalized_link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n ! As home to the world’s developers, GitHub is dedicated to the security and reliability of the code behind mi…",
-      "source": "The GitHub Blog",
-      "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "agent",
-        "coding_agent",
-        "company_research",
-        "security",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [
-          "github"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "coding_agent",
-          "company_research",
-          "research",
-          "security",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "lindy ai work assistant workflow automation meeting management",
-      "normalized_title": "lindy ai work assistant workflow automation meeting management",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
-      "title": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management - Quasa.io",
-      "summary": "Lindy – AI Work Assistant, Workflow Automation & Meeting Management Quasa.io",
-      "source": "Quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUV0M2dEdmYtc2Y3M2pYc2RpTzR6NHBVZWJkcTlQaVpEb1NINTJfSEx0a0xCZWpKNExvbEVMekV2OHRmVTRvQjg0VTBiWG5pYWxOMVdwRnhTa19kajdUMm5sYjdYWXZfZURoU3RfQ3VNbHFqN2J5ZFh6VHM4dkpORWxycEMyY2RvVFk0OTVn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-23",
-      "last_seen_date": "2026-10-23",
-      "canonical_key": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
-      "normalized_title": "英飞凌与nvidia合作开发氮化镓电源转换系统 支持800 vdc ai数据中心",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
-      "title": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 - 国际电子商情",
-      "summary": "英飞凌与NVIDIA合作开发氮化镓电源转换系统，支持800 VDC AI数据中心 国际电子商情",
-      "source": "国际电子商情",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56YVpERFR6VUJnLUN6bGtudVdCb04tamVjT3VOZFBOVUR2Q2g4ZEJXN2FDYW56Y2poYTUyWldjd3kxcV9HV3Vtb1lNeG55TE9fbnc?oc=5",
-      "category": "OBC/DCDC",
-      "region": "china",
-      "source_group": "power_electronics",
-      "source_type": "news_search",
-      "topic_tags": [
-        "dcdc",
-        "gan",
-        "obc",
-        "power_electronics"
-      ],
-      "event_signature": {
-        "entities": [
-          "infineon",
-          "nvidia"
-        ],
-        "products": [
-          "gan"
-        ],
-        "actions": [
-          "partnership"
-        ],
-        "topics": [
-          "dcdc",
-          "gan",
-          "obc",
-          "power_electronics"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-24",
@@ -5935,6 +5673,199 @@
         "topics": [
           "chip",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "richpanel helps companies automate 50 of support in 30 days",
+      "normalized_title": "richpanel helps companies automate 50 of support in 30 days",
+      "normalized_link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source": "OpenAI News",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "category": "AI Agent",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "official_blog",
+      "topic_tags": [
+        "agent",
+        "ai_research",
+        "company_research",
+        "official_report"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_research",
+          "company_research",
+          "model_capability",
+          "official_report"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "rpa与ai agent融合 astronrpa开源企业级自动化平台深度解析",
+      "normalized_title": "rpa与ai agent融合 astronrpa开源企业级自动化平台深度解析",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RUkxZckdwZ3ZybTJPMXNQTUQ2ajQ4UWhoNlNxYUFuNW5Td3pKMFB4ZDYyTUFzcGRGdHV3SkMwT2lKNXFFOE9WRW5tZWtyd1I0MXhmQ0QybTRMcVMyVFhn?oc=5",
+      "title": "RPA与AI Agent融合：AstronRPA开源企业级自动化平台深度解析 - CSDN",
+      "summary": "RPA与AI Agent融合：AstronRPA开源企业级自动化平台深度解析 CSDN",
+      "source": "CSDN",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RUkxZckdwZ3ZybTJPMXNQTUQ2ajQ4UWhoNlNxYUFuNW5Td3pKMFB4ZDYyTUFzcGRGdHV3SkMwT2lKNXFFOE9WRW5tZWtyd1I0MXhmQ0QybTRMcVMyVFhn?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "opensource",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [
+          "opensource"
+        ],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "opensource",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "accelerating direct sparse solvers for computational engineering with nvidia cudss 1 0",
+      "normalized_title": "accelerating direct sparse solvers for computational engineering with nvidia cudss 1 0",
+      "normalized_link": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0",
+      "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+      "summary": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational flui…",
+      "source": "NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "company_research",
+        "simulation_optimization",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "production"
+        ],
+        "topics": [
+          "ai_research",
+          "company_research",
+          "simulation_optimization",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "anthropic上线代码审查工具claude ship 新增两款ai代理",
+      "normalized_title": "anthropic上线代码审查工具claude ship 新增两款ai代理",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQmZSMmFhcWQyaTFsWXhpM2c3QTRLblNpeW5nZi1uS2I3ZkhGQy1wcVV0bmFjUzd4VERwamhyeWR6UlpRa0ZKOWxvTXZDQm8zVzZuUkhwZkZKS3JXOUluWTlB?oc=5",
+      "title": "Anthropic上线代码审查工具Claude Ship 新增两款AI代理 - 观点网",
+      "summary": "Anthropic上线代码审查工具Claude Ship 新增两款AI代理 观点网",
+      "source": "观点网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtQmZSMmFhcWQyaTFsWXhpM2c3QTRLblNpeW5nZi1uS2I3ZkhGQy1wcVV0bmFjUzd4VERwamhyeWR6UlpRa0ZKOWxvTXZDQm8zVzZuUkhwZkZKS3JXOUluWTlB?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release",
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "anthropic releases code review agent bundle called claude ship",
+      "normalized_title": "anthropic releases code review agent bundle called claude ship",
+      "normalized_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHk5S3NHTnc0MGJFNTlFbVdBRVhMRWFFUlozVzVrNk5lT0tsMHRfeW15ajY4SHptM0tCVkwtemNqYkJ0ekFGOW9IcWpCdjR6LVRFMHpUWmQ1QmFtcWtqbENhbzVYMVFNQm1iekh4YzJ3Wk5xNlJIVFNFLXVfbEVyamVDVWoyc1YyMW5mUDY4czRUODcyVmRaOExxelJHemwyRUVIdjlkWE5NUUw2S0IxUW1RdFZGdw?oc=5",
+      "title": "Anthropic Releases Code Review Agent Bundle Called 'Claude Ship' - Gizmodo",
+      "summary": "Anthropic Releases Code Review Agent Bundle Called 'Claude Ship' Gizmodo",
+      "source": "Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRHk5S3NHTnc0MGJFNTlFbVdBRVhMRWFFUlozVzVrNk5lT0tsMHRfeW15ajY4SHptM0tCVkwtemNqYkJ0ekFGOW9IcWpCdjR6LVRFMHpUWmQ1QmFtcWtqbENhbzVYMVFNQm1iekh4YzJ3Wk5xNlJIVFNFLXVfbEVyamVDVWoyc1YyMW5mUDY4czRUODcyVmRaOExxelJHemwyRUVIdjlkWE5NUUw2S0IxUW1RdFZGdw?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1

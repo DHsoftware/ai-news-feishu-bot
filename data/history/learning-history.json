@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:41:50.826886+08:00",
+  "updated_at": "2026-11-24T13:19:10.162499+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -528,6 +528,51 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-23",
+      "canonical_key": "connect your team s data to chatgpt",
+      "normalized_title": "connect your team s data to chatgpt",
+      "normalized_link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+      "title": "Connect Your Team’s Data to ChatGPT",
+      "summary": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection. You’ll also see how to add a custom plugin or MCP server and why connecting your team’s…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Tool Calling",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "mcp",
+        "tools"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [
+          "codex",
+          "mcp"
+        ],
+        "actions": [
+          "update"
+        ],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "mcp",
+          "tools"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
