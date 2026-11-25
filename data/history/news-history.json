@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T12:11:59.552575+08:00",
+  "updated_at": "2026-11-25T12:52:29.445458+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5508,7 +5508,7 @@
     },
     {
       "first_seen_date": "2026-11-23",
-      "last_seen_date": "2026-11-23",
+      "last_seen_date": "2026-11-24",
       "canonical_key": "rpa与ai agent融合 astronrpa开源企业级自动化平台深度解析",
       "normalized_title": "rpa与ai agent融合 astronrpa开源企业级自动化平台深度解析",
       "normalized_link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RUkxZckdwZ3ZybTJPMXNQTUQ2ajQ4UWhoNlNxYUFuNW5Td3pKMFB4ZDYyTUFzcGRGdHV3SkMwT2lKNXFFOE9WRW5tZWtyd1I0MXhmQ0QybTRMcVMyVFhn?oc=5",
@@ -5543,7 +5543,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-23",
@@ -5580,7 +5580,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-23",
@@ -5706,7 +5706,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-24",
@@ -5780,6 +5780,43 @@
           "ai_code_review",
           "coding",
           "coding_agent"
+        ]
+      },
+      "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-24",
+      "last_seen_date": "2026-11-24",
+      "canonical_key": "沈向洋谈ai时代新机会 重新思考基础设施和基础软件",
+      "normalized_title": "沈向洋谈ai时代新机会 重新思考基础设施和基础软件",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04M2N0ZzlZZkFyZ09jT0pJVzI3c2ZXRU9Ga2J6QV9McDBxTFBsNFVUZjFsN2xicm42bnZlTzJXMDdMUlFXNl9ESWNWdmpGdWdPMktvYjZKbVN0TVU0VG9zNw?oc=5",
+      "title": "沈向洋谈AI时代新机会：重新思考基础设施和基础软件 - ThePaper.cn",
+      "summary": "沈向洋谈AI时代新机会：重新思考基础设施和基础软件 ThePaper.cn",
+      "source": "ThePaper.cn",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04M2N0ZzlZZkFyZ09jT0pJVzI3c2ZXRU9Ga2J6QV9McDBxTFBsNFVUZjFsN2xicm42bnZlTzJXMDdMUlFXNl9ESWNWdmpGdWdPMktvYjZKbVN0TVU0VG9zNw?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "research"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "research"
         ]
       },
       "seen_count": 1
