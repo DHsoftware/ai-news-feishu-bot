@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T12:52:29.445458+08:00",
+  "updated_at": "2026-11-26T11:34:03.443276+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -35,205 +35,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "工作流 票价 分账比例 观众反馈 云片场 首部ai超写实电影上院线背后 主创访谈",
-      "normalized_title": "工作流 票价 分账比例 观众反馈 云片场 首部ai超写实电影上院线背后 主创访谈",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GSVp0UWl3V2hFZW5ZaGVQQWNET1duSGRPTzhUc2pvTHNuRFRZS2ZfSlJVdXBEbW5uLUdPOTVZc1pzXzMxVzVvN2RZTUhxNDJNaldTczJpZkRnbE9mLTZBUA?oc=5",
-      "title": "工作流、票价、分账比例、观众反馈、云片场……首部AI超写实电影上院线背后 | 主创访谈 - ThePaper.cn",
-      "summary": "工作流、票价、分账比例、观众反馈、云片场……首部AI超写实电影上院线背后 | 主创访谈 ThePaper.cn",
-      "source": "ThePaper.cn",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GSVp0UWl3V2hFZW5ZaGVQQWNET1duSGRPTzhUc2pvTHNuRFRZS2ZfSlJVdXBEbW5uLUdPOTVZc1pzXzMxVzVvN2RZTUhxNDJNaldTczJpZkRnbE9mLTZBUA?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "cloud",
-        "coding",
-        "coding_agent",
-        "research"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "cloud",
-          "coding",
-          "coding_agent",
-          "research"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
-      "normalized_title": "梅赛德斯 奔驰 plm ai上线 加速产品开发效率",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
-      "title": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 - 汽车之家",
-      "summary": "梅赛德斯-奔驰 PLM.AI上线 加速产品开发效率 汽车之家",
-      "source": "汽车之家",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EUFFwNmtRWk1NTF9nWThqb05CbE1EM19DZGU2cjhyZjI4R2xFR2JhNVJkVXZRYjQ0d3c4RndtRUVuTml5YVpJWUdXQmc1SHZidXNEUXdsVjk0ejg?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "automotive",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "automotive",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "r opensource just banned ai non",
-      "normalized_title": "r opensource just banned ai non",
-      "normalized_link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to thi…",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "category": "开源模型",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "opensource"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "openai and anthropic cut their llm prices by up to 80 within a few months why",
-      "normalized_title": "openai and anthropic cut their llm prices by up to 80 within a few months why",
-      "normalized_link": "https://minimaxir.com/2026/10/cheap-llms",
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://minimaxir.com/2026/10/cheap-llms/",
-      "category": "全球AI",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "llm"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic",
-          "openai"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "llm"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "show hn hurston 1 open source tts that speak southern american and afro",
-      "normalized_title": "show hn hurston 1 open source tts that speak southern american and afro",
-      "normalized_link": "https://huggingface.co/destined/hurston-1",
-      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
-      "summary": "Comments",
-      "source": "Hacker News",
-      "link": "https://huggingface.co/destined/hurston-1",
-      "category": "开源模型",
-      "region": "global",
-      "source_group": "global",
-      "source_type": "",
-      "topic_tags": [
-        "opensource"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "opensource"
-        ],
-        "topics": [
-          "opensource"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-25",
-      "last_seen_date": "2026-10-25",
-      "canonical_key": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
-      "normalized_title": "百万级员工 全球数千门店 比亚迪在企业微信上 原地ai升级",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
-      "title": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” - 搜狐网",
-      "summary": "百万级员工、全球数千门店：比亚迪在企业微信上“原地AI升级” 搜狐网",
-      "source": "搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2s0ZXBySmlyNkRDUU05akRGSEg4N0xocXUyczdicTJEMUFHeklZQ1dpY1lvZjlMX1lOenkzR0lnN1hqLXJra1hoTlR2UENwUTRrY2daMV8tU0FpTFRlSVZCQUYxVVczR3lzSUVCWXFBRmdKbXpjYmdnRXNxOXBPM0tIdGRuZVVK?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "automotive",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "byd"
-        ],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "ai_transformation",
-          "automotive",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-26",
@@ -5667,7 +5468,7 @@
     },
     {
       "first_seen_date": "2026-11-24",
-      "last_seen_date": "2026-11-24",
+      "last_seen_date": "2026-11-25",
       "canonical_key": "production monitoring with codex",
       "normalized_title": "production monitoring with codex",
       "normalized_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwVC1HOU9KVmxSTGlVNnVSaHBPcWhHcGoxZTJlSXBBR3c2R3Q5ZjJQanhWUTRTaW9Ga21KSThVRFNyYTJtOUJLOVhCLUg5TVlqZS1Uc2lqSGU0NGZMM2dOeXphVDl1MjFYc05iWm0wWFBRMWRLRGc?oc=5",
@@ -5706,7 +5507,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-24",
@@ -5817,6 +5618,158 @@
           "coding",
           "coding_agent",
           "research"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-25",
+      "canonical_key": "清华大学教授李宁已确认出席 aicon 北京 分享生成式人工智能驱动的组织变革与组织管理",
+      "normalized_title": "清华大学教授李宁已确认出席 aicon 北京 分享生成式人工智能驱动的组织变革与组织管理",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lOEN4aWVxbHFpS09iWjdFYW5xTGJtYm1tTkd1RVJwRW9ZRm04cmttVE94cGlGS3ZEODM5ZlExS2JQUk1lYUxxS0k0QjFRdlI2cUdzUFBwY3JJZlFwRVE?oc=5",
+      "title": "清华大学教授李宁已确认出席 AICon 北京，分享生成式人工智能驱动的组织变革与组织管理 - InfoQ.cn",
+      "summary": "清华大学教授李宁已确认出席 AICon 北京，分享生成式人工智能驱动的组织变革与组织管理 InfoQ.cn",
+      "source": "InfoQ.cn",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lOEN4aWVxbHFpS09iWjdFYW5xTGJtYm1tTkd1RVJwRW9ZRm04cmttVE94cGlGS3ZEODM5ZlExS2JQUk1lYUxxS0k0QjFRdlI2cUdzUFBwY3JJZlFwRVE?oc=5",
+      "category": "AI编程工具",
+      "region": "china",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "org_productivity"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "org_productivity"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-25",
+      "canonical_key": "从智能体终端到物理ai 高通etienne chaponniere解析6g的全新能力需求",
+      "normalized_title": "从智能体终端到物理ai 高通etienne chaponniere解析6g的全新能力需求",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBadGQxblRHMEE3Yl96bkZlQmw3d2RzMmZzREY2VGtlUWliTVBBd1dKVTRqYVotQzZFMVZQcU5RQVp0NElEakl6OFUyMUJIM2dIY3l3?oc=5",
+      "title": "从智能体终端到物理AI，高通Etienne Chaponniere解析6G的全新能力需求 - 电子工程专辑EE Times China",
+      "summary": "从智能体终端到物理AI，高通Etienne Chaponniere解析6G的全新能力需求 电子工程专辑EE Times China",
+      "source": "电子工程专辑EE Times China",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBadGQxblRHMEE3Yl96bkZlQmw3d2RzMmZzREY2VGtlUWliTVBBd1dKVTRqYVotQzZFMVZQcU5RQVp0NElEakl6OFUyMUJIM2dIY3l3?oc=5",
+      "category": "OBC/DCDC",
+      "region": "china",
+      "source_group": "power_electronics",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "dcdc",
+        "obc",
+        "power_electronics"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "dcdc",
+          "obc",
+          "power_electronics"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-25",
+      "canonical_key": "how to choose the next safe step in application modernization",
+      "normalized_title": "how to choose the next safe step in application modernization",
+      "normalized_link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "title": "How to choose the next safe step in application modernization",
+      "summary": "A request to modernize an application often starts with a technology question: Which framework should replace the old one? Before you choose, find out what still works. Then collect evidence that can act as a regression net for that behavior and show where modernization is necessary. I used an evid…",
+      "source": "The GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "github"
+        ],
+        "products": [
+          "copilot"
+        ],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-25",
+      "canonical_key": "anthropic launches claude ship for ai code reviews and approvals",
+      "normalized_title": "anthropic launches claude ship for ai code reviews and approvals",
+      "normalized_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3h3NFdiOGRYQXEzaWU3SXYyRzVjMHNWc1Z0R0lBRFEwcENKdDhFYkN0c21yQW1oY0ZZQjBuakR6bkc3WllqMGxOVFFVSW9PcXQxM0ZqVkEtR0tWQWF4eFVVTWxBNENvaERUVElQVlY5OW9WN0tJdDliUFRyVDVsNzJvaUJWdXlpQXlYcG9vcU1tY0U?oc=5",
+      "title": "Anthropic Launches Claude Ship For AI Code Reviews And Approvals - Dataconomy",
+      "summary": "Anthropic Launches Claude Ship For AI Code Reviews And Approvals Dataconomy",
+      "source": "Dataconomy",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3h3NFdiOGRYQXEzaWU3SXYyRzVjMHNWc1Z0R0lBRFEwcENKdDhFYkN0c21yQW1oY0ZZQjBuakR6bkc3WllqMGxOVFFVSW9PcXQxM0ZqVkEtR0tWQWF4eFVVTWxBNENvaERUVElQVlY5OW9WN0tJdDliUFRyVDVsNzJvaUJWdXlpQXlYcG9vcU1tY0U?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "ai_code_review",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "ai_code_review",
+          "coding",
+          "coding_agent"
         ]
       },
       "seen_count": 1
