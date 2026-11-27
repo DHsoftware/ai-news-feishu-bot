@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T11:37:58.954606+08:00",
+  "updated_at": "2026-11-27T12:11:46.344081+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5466,7 +5466,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-25",
@@ -5507,7 +5507,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "first_seen_date": "2026-11-26",
@@ -5575,7 +5575,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-26",
@@ -5606,6 +5606,74 @@
           "ai_transformation",
           "org_productivity",
           "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-26",
+      "last_seen_date": "2026-11-26",
+      "canonical_key": "logitech targets developers with ai workflow gadgets",
+      "normalized_title": "logitech targets developers with ai workflow gadgets",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlV0R1JBWGN5QW5iMnBOcFBvZjdsNjVjQVpSSmZzR0ZQNWlUV2Q3S01rMjNuV3VFa3pZaXpfTFAzcDhDZFBFTGhpc3l5WXVHZlMwM2VvQ1A4T3FUZ1g4ZVQ1QkM2cFZELUNvQ3pXcXRsd2lnT3djUGlWS3VkUzhvM09FUFRFd3M?oc=5",
+      "title": "Logitech targets developers with AI workflow gadgets - IT Brief New Zealand",
+      "summary": "Logitech targets developers with AI workflow gadgets IT Brief New Zealand",
+      "source": "IT Brief New Zealand",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlV0R1JBWGN5QW5iMnBOcFBvZjdsNjVjQVpSSmZzR0ZQNWlUV2Q3S01rMjNuV3VFa3pZaXpfTFAzcDhDZFBFTGhpc3l5WXVHZlMwM2VvQ1A4T3FUZ1g4ZVQ1QkM2cFZELUNvQ3pXcXRsd2lnT3djUGlWS3VkUzhvM09FUFRFd3M?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-26",
+      "last_seen_date": "2026-11-26",
+      "canonical_key": "nvidia hits pause on chip shipments to southeast asia",
+      "normalized_title": "nvidia hits pause on chip shipments to southeast asia",
+      "normalized_link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "category": "AI芯片",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "chip"
+      ],
+      "event_signature": {
+        "entities": [
+          "nvidia"
+        ],
+        "products": [],
+        "actions": [
+          "partnership"
+        ],
+        "topics": [
+          "chip"
         ]
       },
       "seen_count": 1

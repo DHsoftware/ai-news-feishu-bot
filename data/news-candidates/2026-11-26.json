@@ -1,15 +1,15 @@
 {
   "date": "2026-11-26",
-  "generated_at": "2026-11-27T11:37:58.954606+08:00",
+  "generated_at": "2026-11-27T12:11:46.344081+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
-    "success_count": 221,
-    "failed_count": 9,
+    "success_count": 227,
+    "failed_count": 3,
     "global_source_count": 16,
     "global_success_count": 15,
     "china_source_count": 34,
-    "china_success_count": 206
+    "china_success_count": 212
   },
   "selection_config": {
     "news_region_mode": "balanced",
@@ -32,13 +32,13 @@
     "dedupe_days": 14,
     "retention_days": 30,
     "similarity_threshold": 0.82,
-    "history_size_before": 160,
-    "history_size_after": 156,
-    "history_duplicate_count": 29
+    "history_size_before": 156,
+    "history_size_after": 158,
+    "history_duplicate_count": 32
   },
-  "raw_item_count": 4862,
-  "deduped_item_count": 3675,
-  "filtered_item_count": 341,
+  "raw_item_count": 4995,
+  "deduped_item_count": 3783,
+  "filtered_item_count": 352,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -75,36 +75,37 @@
       "selection_reason": "required_agent_or_coding"
     },
     {
-      "title": "从个人AI提效迈向组织效能跃迁，行业大咖共探人与智能体协同新范式 - 新浪财经",
-      "summary": "从个人AI提效迈向组织效能跃迁，行业大咖共探人与智能体协同新范式 新浪财经",
+      "title": "Logitech targets developers with AI workflow gadgets - IT Brief New Zealand",
+      "summary": "Logitech targets developers with AI workflow gadgets IT Brief New Zealand",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-11-26T17:36:21+08:00",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NR2hNV21KR191RjBSRjk0SlZ0WXFrMnRTa01CS09zbGs4TGZUOVYxWXlXM0hNMHJiZTdUd01wWlNXMkZjRDdiOEhGeXFDbUJ2RHlGTEphWVFTUGZtRWhmc1JFVlVOWGl4am1jRnBPQVFrTkxOWGF2aw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_productivity",
+      "published_at": "2026-11-27T09:52:00+08:00",
+      "source": "IT Brief New Zealand",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlV0R1JBWGN5QW5iMnBOcFBvZjdsNjVjQVpSSmZzR0ZQNWlUV2Q3S01rMjNuV3VFa3pZaXpfTFAzcDhDZFBFTGhpc3l5WXVHZlMwM2VvQ1A4T3FUZ1g4ZVQ1QkM2cFZELUNvQ3pXcXRsd2lnT3djUGlWS3VkUzhvM09FUFRFd3M?oc=5",
+      "language": "en",
+      "region": "global",
+      "source_group": "ai_agent",
       "source_type": "news_search",
       "source_quality": "",
       "is_official_source": false,
       "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
+        "ai_agent",
+        "agentic_ai",
+        "coding_agent"
       ],
       "topic_tags": [
         "agent",
+        "agentic_ai",
         "ai_agent",
-        "ai_transformation",
-        "org_productivity",
+        "coding",
+        "coding_agent",
         "workflow_automation"
       ],
-      "category": "AI Agent",
-      "dedupe_key": "从个人ai提效迈向组织效能跃迁 行业大咖共探人与智能体协同新范式",
-      "canonical_key": "从个人ai提效迈向组织效能跃迁 行业大咖共探人与智能体协同新范式",
-      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NR2hNV21KR191RjBSRjk0SlZ0WXFrMnRTa01CS09zbGs4TGZUOVYxWXlXM0hNMHJiZTdUd01wWlNXMkZjRDdiOEhGeXFDbUJ2RHlGTEphWVFTUGZtRWhmc1JFVlVOWGl4am1jRnBPQVFrTkxOWGF2aw?oc=5",
-      "score": 57,
+      "category": "AI编程工具",
+      "dedupe_key": "logitech targets developers with ai workflow gadgets",
+      "canonical_key": "logitech targets developers with ai workflow gadgets",
+      "normalized_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlV0R1JBWGN5QW5iMnBOcFBvZjdsNjVjQVpSSmZzR0ZQNWlUV2Q3S01rMjNuV3VFa3pZaXpfTFAzcDhDZFBFTGhpc3l5WXVHZlMwM2VvQ1A4T3FUZ1g4ZVQ1QkM2cFZELUNvQ3pXcXRsd2lnT3djUGlWS3VkUzhvM09FUFRFd3M?oc=5",
+      "score": 59,
       "selection_reason": "required_productivity"
     },
     {
@@ -139,37 +140,6 @@
       "selection_reason": "power_electronics_boost"
     },
     {
-      "title": "Anthropic报告：AI职场效率红利分配矛盾与组织重构 - https://zgeo.net/",
-      "summary": "Anthropic报告：AI职场效率红利分配矛盾与组织重构 https://zgeo.net/",
-      "summary_source": "rss_description",
-      "summary_quality": "low",
-      "published_at": "2026-11-26T12:27:12+08:00",
-      "source": "https://zgeo.net/",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wb0FhQ3hPdlZyMTA1cnNEWHhuSG5yTDBrOElXbWdnX29JX21HVFBFbHdlWU1ld2VDOXhZbDE4cE84NWl5TUQzNkF2SmVYQ1pVQ2FQanpGREJGUjhsR1pvWld1YVA5S0lJUmVQUGVNVkV4dw?oc=5",
-      "language": "zh",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "source_quality": "",
-      "is_official_source": false,
-      "tags": [
-        "org_productivity",
-        "ai_transformation",
-        "workflow_automation"
-      ],
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "category": "AI组织提效",
-      "dedupe_key": "anthropic报告 ai职场效率红利分配矛盾与组织重构",
-      "canonical_key": "anthropic报告 ai职场效率红利分配矛盾与组织重构",
-      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wb0FhQ3hPdlZyMTA1cnNEWHhuSG5yTDBrOElXbWdnX29JX21HVFBFbHdlWU1ld2VDOXhZbDE4cE84NWl5TUQzNkF2SmVYQ1pVQ2FQanpGREJGUjhsR1pvWld1YVA5S0lJUmVQUGVNVkV4dw?oc=5",
-      "score": 50,
-      "selection_reason": "china_quota"
-    },
-    {
       "title": "Anthropic Launches Claude Ship For AI Code Reviews And Approvals - Dataconomy",
       "summary": "Anthropic Launches Claude Ship For AI Code Reviews And Approvals Dataconomy",
       "summary_source": "rss_description",
@@ -202,18 +172,43 @@
       "normalized_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3h3NFdiOGRYQXEzaWU3SXYyRzVjMHNWc1Z0R0lBRFEwcENKdDhFYkN0c21yQW1oY0ZZQjBuakR6bkc3WllqMGxOVFFVSW9PcXQxM0ZqVkEtR0tWQWF4eFVVTWxBNENvaERUVElQVlY5OW9WN0tJdDliUFRyVDVsNzJvaUJWdXlpQXlYcG9vcU1tY0U?oc=5",
       "score": 74,
       "selection_reason": "fill_remaining_high_score"
+    },
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-11-27T04:03:54+08:00",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "language": "en",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "source_quality": "",
+      "is_official_source": false,
+      "tags": [],
+      "topic_tags": [
+        "chip"
+      ],
+      "category": "AI芯片",
+      "dedupe_key": "nvidia hits pause on chip shipments to southeast asia",
+      "canonical_key": "nvidia hits pause on chip shipments to southeast asia",
+      "normalized_link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "score": 62,
+      "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1187,
-    "history_duplicate": 29,
+    "duplicate": 1212,
+    "history_duplicate": 32,
     "weak_relevance": 200,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3134,
-    "same_entity_limit": 163,
-    "similar_selected": 0,
+    "old_news": 3231,
+    "same_entity_limit": 152,
+    "similar_selected": 1,
     "company_research_limit": 4,
     "auto_driving_limit": 0,
     "smart_cockpit_limit": 0,

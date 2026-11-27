@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T11:37:58.954606+08:00",
+  "updated_at": "2026-11-27T12:11:46.344081+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -573,7 +573,7 @@
           "incident"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     }
   ]
 }
