@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T12:07:28.801890+08:00",
+  "updated_at": "2026-11-27T11:37:58.954606+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -35,271 +35,6 @@
         ]
       },
       "seen_count": 3
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "how ultrafast cut incident investigation from hours to minutes at openai",
-      "normalized_title": "how ultrafast cut incident investigation from hours to minutes at openai",
-      "normalized_link": "https://openai.com/index/openai-cut-incident-investigation",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/openai-cut-incident-investigation",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "codex",
-        "coding",
-        "coding_agent",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "codex",
-          "coding",
-          "coding_agent",
-          "company_research",
-          "incident",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
-      "normalized_title": "ai coding 从副驾驶到自动驾驶 网易发布下一代产品形态",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
-      "title": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 - Sohu",
-      "summary": "AI Coding 从副驾驶到自动驾驶，网易发布下一代产品形态 Sohu",
-      "source": "Sohu",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW16WlRLaURrN2s1VlJ0bEE2VmZhUzNZc0doVXZWSDYwTExJX0tBM0RKelFVWllaUG8xcFdBRTRhTG9tQVRXVkI0YVd4UTFlWkRSOHd0T1hPTXk2eURvT3k3VkhzazlmNkFSWlcweXphV3FSM3VrR0hkZjg0cm5KR1l4am1ZbDdkYlR6OQ?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "autonomous_driving",
-        "coding",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "ai_transformation",
-          "autonomous_driving",
-          "coding",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "智能体直接调用数字孪生开发平台 漂视网络新产品dpe赋形正式接入workbuddy与deepseek harness生态",
-      "normalized_title": "智能体直接调用数字孪生开发平台 漂视网络新产品dpe赋形正式接入workbuddy与deepseek harness生态",
-      "normalized_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPQnZLSDZMa2o0NkVJVHhxZk1Nbl82Nmc2cGlDaDN3ZW9scTJCZjR4M2RjY1U5Z1VrVW42UkR5aE5mNWV4VTFPSmtSLWxXZzVtbFpGUmlNeWNuMkhOUXdoLTc1VFQ5RjFGZU1RSGlB?oc=5",
-      "title": "智能体直接调用数字孪生开发平台！漂视网络新产品DPE赋形正式接入WorkBuddy与DeepSeek Harness生态 - 中华网",
-      "summary": "智能体直接调用数字孪生开发平台！漂视网络新产品DPE赋形正式接入WorkBuddy与DeepSeek Harness生态 中华网",
-      "source": "中华网",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPQnZLSDZMa2o0NkVJVHhxZk1Nbl82Nmc2cGlDaDN3ZW9scTJCZjR4M2RjY1U5Z1VrVW42UkR5aE5mNWV4VTFPSmtSLWxXZzVtbFpGUmlNeWNuMkhOUXdoLTc1VFQ5RjFGZU1RSGlB?oc=5",
-      "category": "AI编程工具",
-      "region": "china",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "digital_twin"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "digital_twin"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
-      "normalized_title": "gpt 6 1 sol helps coderabbit strengthen security across complex codebases",
-      "normalized_link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "source": "OpenAI News",
-      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "category": "AI Agent",
-      "region": "global",
-      "source_group": "company_research",
-      "source_type": "official_blog",
-      "topic_tags": [
-        "agent",
-        "ai_research",
-        "company_research",
-        "official_report",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "ai_research",
-          "company_research",
-          "model_capability",
-          "official_report",
-          "security"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "anthropic details what stops claude duet from going rogue",
-      "normalized_title": "anthropic details what stops claude duet from going rogue",
-      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnZPWXdUUTFNZGM1VHp0dGg3OTVhdndRVlRVZTNiRTBKWTdnZzhQdXVqbHJKcjNfR3VwcUlNeXRHOGk5RXZBMlBIa2hIV3FMSHlPVzktYzFOS0dJREJLN3QwQ0tPWWFMaFB1bUZpQjRESV84S1hySmgxcGd5Tnc1bFRSUFdhdFRhWV9RTmRn?oc=5",
-      "title": "Anthropic details what stops Claude Duet from going rogue - Help Net Security",
-      "summary": "Anthropic details what stops Claude Duet from going rogue Help Net Security",
-      "source": "Help Net Security",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnZPWXdUUTFNZGM1VHp0dGg3OTVhdndRVlRVZTNiRTBKWTdnZzhQdXVqbHJKcjNfR3VwcUlNeXRHOGk5RXZBMlBIa2hIV3FMSHlPVzktYzFOS0dJREJLN3QwQ0tPWWFMaFB1bUZpQjRESV84S1hySmgxcGd5Tnc1bFRSUFdhdFRhWV9RTmRn?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "security"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "security"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "referralmd completes the referral with end to end ai powered workflow automation",
-      "normalized_title": "referralmd completes the referral with end to end ai powered workflow automation",
-      "normalized_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
-      "title": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation - Business Wire",
-      "summary": "ReferralMD Completes the Referral with End-to-End AI-Powered Workflow Automation Business Wire",
-      "source": "Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd3NBQklBVHg4VTF4RThudzZEZlh1MUVHTXl3QzRFM0RfdFl4dXZHTnE5eXBkWU5tdjloeFlLcmRGVzBYd2EwSWpQdER3dFlYYVpLVmNhNFAybHRzMWNGVHd1M1g4R1lPSWttcVVpMjJEd3BLV0pkVFNjT0dYWmhEX2pzRHRIUHhsOWxwaUVxVGV5bDNLdjlQVTZLVVJscjRoYUFlSzBveWg0aS1ManVVdHZ2ZW1XN3p4VlBhWUhDeGVjR3ZtZFdubmxHVldUMWVDUmFz?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-26",
-      "last_seen_date": "2026-10-26",
-      "canonical_key": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
-      "normalized_title": "openai集中发布722篇数学论文 ai数学成果引发数学家对研究替代的担忧",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
-      "title": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 - 虎嗅网",
-      "summary": "OpenAI集中发布722篇数学论文，AI数学成果引发数学家对研究替代的担忧 虎嗅网",
-      "source": "虎嗅网",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54LW1rek9PYXdVRThGZXpaNXh3U1A5OHdydVh6QUIzd0FfN0ZVTHVXbTlnMFI1VjEwY0dFSTkwZ0dWQVZ2TF80cmFxSEZzcnVURTBjSA?oc=5",
-      "category": "研究论文",
-      "region": "china",
-      "source_group": "china",
-      "source_type": "",
-      "topic_tags": [
-        "research"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [],
-        "actions": [
-          "release"
-        ],
-        "topics": [
-          "research"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-27",
@@ -5696,7 +5431,7 @@
     },
     {
       "first_seen_date": "2026-11-25",
-      "last_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-26",
       "canonical_key": "how to choose the next safe step in application modernization",
       "normalized_title": "how to choose the next safe step in application modernization",
       "normalized_link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
@@ -5731,11 +5466,11 @@
           "technical_blog"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "first_seen_date": "2026-11-25",
-      "last_seen_date": "2026-11-25",
+      "last_seen_date": "2026-11-26",
       "canonical_key": "anthropic launches claude ship for ai code reviews and approvals",
       "normalized_title": "anthropic launches claude ship for ai code reviews and approvals",
       "normalized_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3h3NFdiOGRYQXEzaWU3SXYyRzVjMHNWc1Z0R0lBRFEwcENKdDhFYkN0c21yQW1oY0ZZQjBuakR6bkc3WllqMGxOVFFVSW9PcXQxM0ZqVkEtR0tWQWF4eFVVTWxBNENvaERUVElQVlY5OW9WN0tJdDliUFRyVDVsNzJvaUJWdXlpQXlYcG9vcU1tY0U?oc=5",
@@ -5772,7 +5507,108 @@
           "coding_agent"
         ]
       },
-      "seen_count": 2
+      "seen_count": 3
+    },
+    {
+      "first_seen_date": "2026-11-26",
+      "last_seen_date": "2026-11-26",
+      "canonical_key": "从个人ai提效迈向组织效能跃迁 行业大咖共探人与智能体协同新范式",
+      "normalized_title": "从个人ai提效迈向组织效能跃迁 行业大咖共探人与智能体协同新范式",
+      "normalized_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NR2hNV21KR191RjBSRjk0SlZ0WXFrMnRTa01CS09zbGs4TGZUOVYxWXlXM0hNMHJiZTdUd01wWlNXMkZjRDdiOEhGeXFDbUJ2RHlGTEphWVFTUGZtRWhmc1JFVlVOWGl4am1jRnBPQVFrTkxOWGF2aw?oc=5",
+      "title": "从个人AI提效迈向组织效能跃迁，行业大咖共探人与智能体协同新范式 - 新浪财经",
+      "summary": "从个人AI提效迈向组织效能跃迁，行业大咖共探人与智能体协同新范式 新浪财经",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NR2hNV21KR191RjBSRjk0SlZ0WXFrMnRTa01CS09zbGs4TGZUOVYxWXlXM0hNMHJiZTdUd01wWlNXMkZjRDdiOEhGeXFDbUJ2RHlGTEphWVFTUGZtRWhmc1JFVlVOWGl4am1jRnBPQVFrTkxOWGF2aw?oc=5",
+      "category": "AI Agent",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_agent",
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_agent",
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-26",
+      "last_seen_date": "2026-11-26",
+      "canonical_key": "electronica 2026 energy intelligence and connectivity power the physical ai era",
+      "normalized_title": "electronica 2026 energy intelligence and connectivity power the physical ai era",
+      "normalized_link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5eDhNWWNFVW1Nc2l6dXZ2YjN1dkw2b28tZFI3WUhzNlJUWGZXdjQxSmV5NndfdHphYllEM1kwTFU5Y3hwVTNPdVN5NURWQQ?oc=5",
+      "title": "electronica 2026: energy, intelligence, and connectivity power the physical AI era - STMicroelectronics",
+      "summary": "electronica 2026: energy, intelligence, and connectivity power the physical AI era STMicroelectronics",
+      "source": "STMicroelectronics",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5eDhNWWNFVW1Nc2l6dXZ2YjN1dkw2b28tZFI3WUhzNlJUWGZXdjQxSmV5NndfdHphYllEM1kwTFU5Y3hwVTNPdVN5NURWQQ?oc=5",
+      "category": "功率电子",
+      "region": "global",
+      "source_group": "technical_report",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "company_research",
+        "power_electronics",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [
+          "st"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "company_research",
+          "power_electronics",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-26",
+      "last_seen_date": "2026-11-26",
+      "canonical_key": "anthropic报告 ai职场效率红利分配矛盾与组织重构",
+      "normalized_title": "anthropic报告 ai职场效率红利分配矛盾与组织重构",
+      "normalized_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wb0FhQ3hPdlZyMTA1cnNEWHhuSG5yTDBrOElXbWdnX29JX21HVFBFbHdlWU1ld2VDOXhZbDE4cE84NWl5TUQzNkF2SmVYQ1pVQ2FQanpGREJGUjhsR1pvWld1YVA5S0lJUmVQUGVNVkV4dw?oc=5",
+      "title": "Anthropic报告：AI职场效率红利分配矛盾与组织重构 - https://zgeo.net/",
+      "summary": "Anthropic报告：AI职场效率红利分配矛盾与组织重构 https://zgeo.net/",
+      "source": "https://zgeo.net/",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wb0FhQ3hPdlZyMTA1cnNEWHhuSG5yTDBrOElXbWdnX29JX21HVFBFbHdlWU1ld2VDOXhZbDE4cE84NWl5TUQzNkF2SmVYQ1pVQ2FQanpGREJGUjhsR1pvWld1YVA5S0lJUmVQUGVNVkV4dw?oc=5",
+      "category": "AI组织提效",
+      "region": "china",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "ai_transformation",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_transformation",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
