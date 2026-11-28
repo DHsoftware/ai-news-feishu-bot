@@ -1,41 +1,8 @@
 {
-  "updated_at": "2026-11-27T12:11:46.344081+08:00",
+  "updated_at": "2026-11-28T11:18:32.414253+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
-    {
-      "first_seen_date": "2026-10-08",
-      "last_seen_date": "2026-10-27",
-      "canonical_key": "navitas 2 0 breaking the ai infrastructure power wall",
-      "normalized_title": "navitas 2 0 breaking the ai infrastructure power wall",
-      "normalized_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTnRVWTV0aldfUmR4eXg4bDRwa3RmUkZkcmp4RUkxSjVZTV8yc0txZEZleDRnM0hwNV9TU1gyY0tSdko5MnkxOGNzRmNKcXFMVEQtT1JZNHNWdjczZXBJRXpYQlZFV0oyWXl4UUQyenhfaXg1TFcwSkQxdGdkTFE?oc=5",
-      "title": "Navitas 2.0: ‘Breaking the AI Infrastructure Power Wall’ - Navitas Semiconductor",
-      "summary": "Navitas 2.0: ‘Breaking the AI Infrastructure Power Wall’ Navitas Semiconductor",
-      "source": "Navitas Semiconductor",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTnRVWTV0aldfUmR4eXg4bDRwa3RmUkZkcmp4RUkxSjVZTV8yc0txZEZleDRnM0hwNV9TU1gyY0tSdko5MnkxOGNzRmNKcXFMVEQtT1JZNHNWdjczZXBJRXpYQlZFV0oyWXl4UUQyenhfaXg1TFcwSkQxdGdkTFE?oc=5",
-      "category": "功率电子",
-      "region": "global",
-      "source_group": "technical_report",
-      "source_type": "technical_blog",
-      "topic_tags": [
-        "company_research",
-        "gan",
-        "power_electronics",
-        "technical_blog"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "company_research",
-          "gan",
-          "power_electronics",
-          "technical_blog"
-        ]
-      },
-      "seen_count": 3
-    },
     {
       "first_seen_date": "2026-10-27",
       "last_seen_date": "2026-10-28",
@@ -81,152 +48,6 @@
         ]
       },
       "seen_count": 4
-    },
-    {
-      "first_seen_date": "2026-10-27",
-      "last_seen_date": "2026-10-27",
-      "canonical_key": "pietra e commerce operations platform ai workflows product sourcing",
-      "normalized_title": "pietra e commerce operations platform ai workflows product sourcing",
-      "normalized_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
-      "title": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing - Quasa.io",
-      "summary": "Pietra – E-Commerce Operations Platform, AI Workflows & Product Sourcing Quasa.io",
-      "source": "Quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG0wbHJRY2hLdm9MRWxWcU45Qks1WDZIRlp0d2hXeXZfQkpRSHVnM1VLWWtzVEtFT1hJRldSZFVwVERkWFJQazEzLUxoOFU4eTkwY0FtXzRkeEs5c1pkSHRJQ0ZtOFEyVDE0Z1lPT3pwMUdaNGxWZEpNRkVwV0F0Qlc3bXRxMXdqcDVjTnBXYlAyY20y?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "coding",
-        "coding_agent",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "coding",
-          "coding_agent",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
-    },
-    {
-      "first_seen_date": "2026-10-27",
-      "last_seen_date": "2026-10-27",
-      "canonical_key": "算力 芯 动向 anthropic招股书撕开算力账单 高端ai芯片需求的强信号 藏在长约里",
-      "normalized_title": "算力 芯 动向 anthropic招股书撕开算力账单 高端ai芯片需求的强信号 藏在长约里",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Sdy1Ka05LNmV0Qjk3TF9aejB6U095eUp3M25sbjlSY2hKN0lfMUhFdlFNZllnVnZxOGtRWUZGRkRvNElJVVJSN2I3cWtJOVJVT2NrTDdvQUxrcEU?oc=5",
-      "title": "算力 “芯” 动向｜Anthropic招股书撕开算力账单：高端AI芯片需求的强信号，藏在长约里 - www.doit.com.cn",
-      "summary": "算力 “芯” 动向｜Anthropic招股书撕开算力账单：高端AI芯片需求的强信号，藏在长约里 www.doit.com.cn",
-      "source": "www.doit.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Sdy1Ka05LNmV0Qjk3TF9aejB6U095eUp3M25sbjlSY2hKN0lfMUhFdlFNZllnVnZxOGtRWUZGRkRvNElJVVJSN2I3cWtJOVJVT2NrTDdvQUxrcEU?oc=5",
-      "category": "AI芯片",
-      "region": "china",
-      "source_group": "auto_china",
-      "source_type": "",
-      "topic_tags": [
-        "chip"
-      ],
-      "event_signature": {
-        "entities": [
-          "anthropic"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "chip"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-27",
-      "last_seen_date": "2026-10-27",
-      "canonical_key": "oracle adds openai s chatgpt codex to business apps expands cloud infra chip roster",
-      "normalized_title": "oracle adds openai s chatgpt codex to business apps expands cloud infra chip roster",
-      "normalized_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV1JlNXpZb3BqV2FqQVNNcnF0Qmw4OUpMeVhJRHZ3bnEwUGVKVjB3N2UtTDdkS1Bpa052c3pMZ0s4Ulo1anZ4QklldDlwQUUxelcyZldhejRjalFwQUQtbDkzZ0N3ZUwtRlNVV25ha0tBRXhPTzY1c1dKSlBYdmhHQjl1MW54QkFsYXptcTZxTUlOWmlSY0lQWXFaUDhMVDlpSzVnZUg4NkRVeld2TkR4UnJZY1RBQy1FdUFBVzRWUjM1ZjRpTlhaMtIB0AFBVV95cUxNak5lclZaS0lFZE9kUk5VN0Zka21tUXJPYXgwNkx4MmFlNUV5Vkw1TUpvVnpEQmREVFdMVHBaMmltTFJ5cjhvMEZkbnVEa1hwSTBEYl92aHBONVpSMC1COHdsbDRVRmxHNmtoeW8xQ2FZdHJxU1phSnRLLVpOUlBjYTdpelFqM1FadzdCVXZHR3VqZXphOW9QaUpfVUR6YnJOd0p1V1lUT3EzLVMwM0dlSVJvZEQzbUVzUTFodkJNY0RESjgyM2FGRGg2eE45MDhU?oc=5",
-      "title": "Oracle Adds OpenAI's ChatGPT, Codex To Business Apps; Expands Cloud Infra Chip Roster - NDTV Profit",
-      "summary": "Oracle Adds OpenAI's ChatGPT, Codex To Business Apps; Expands Cloud Infra Chip Roster NDTV Profit",
-      "source": "NDTV Profit",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV1JlNXpZb3BqV2FqQVNNcnF0Qmw4OUpMeVhJRHZ3bnEwUGVKVjB3N2UtTDdkS1Bpa052c3pMZ0s4Ulo1anZ4QklldDlwQUUxelcyZldhejRjalFwQUQtbDkzZ0N3ZUwtRlNVV25ha0tBRXhPTzY1c1dKSlBYdmhHQjl1MW54QkFsYXptcTZxTUlOWmlSY0lQWXFaUDhMVDlpSzVnZUg4NkRVeld2TkR4UnJZY1RBQy1FdUFBVzRWUjM1ZjRpTlhaMtIB0AFBVV95cUxNak5lclZaS0lFZE9kUk5VN0Zka21tUXJPYXgwNkx4MmFlNUV5Vkw1TUpvVnpEQmREVFdMVHBaMmltTFJ5cjhvMEZkbnVEa1hwSTBEYl92aHBONVpSMC1COHdsbDRVRmxHNmtoeW8xQ2FZdHJxU1phSnRLLVpOUlBjYTdpelFqM1FadzdCVXZHR3VqZXphOW9QaUpfVUR6YnJOd0p1V1lUT3EzLVMwM0dlSVJvZEQzbUVzUTFodkJNY0RESjgyM2FGRGg2eE45MDhU?oc=5",
-      "category": "AI编程工具",
-      "region": "global",
-      "source_group": "ai_agent",
-      "source_type": "news_search",
-      "topic_tags": [
-        "agent",
-        "agentic_ai",
-        "ai_agent",
-        "cloud",
-        "codex",
-        "coding",
-        "coding_agent"
-      ],
-      "event_signature": {
-        "entities": [
-          "openai"
-        ],
-        "products": [
-          "codex"
-        ],
-        "actions": [
-          "expand",
-          "update"
-        ],
-        "topics": [
-          "agent",
-          "agentic_ai",
-          "ai_agent",
-          "cloud",
-          "cloud_platform",
-          "codex",
-          "coding",
-          "coding_agent"
-        ]
-      },
-      "seen_count": 2
-    },
-    {
-      "first_seen_date": "2026-10-27",
-      "last_seen_date": "2026-10-27",
-      "canonical_key": "张祺 博士 dr qi zhang",
-      "normalized_title": "张祺 博士 dr qi zhang",
-      "normalized_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
-      "title": "张祺 博士 (Dr. Qi Zhang) - Microsoft Source",
-      "summary": "张祺 博士 (Dr. Qi Zhang) Microsoft Source",
-      "source": "Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR09OWGtmbzJJM1lOc1JfOEkyUWNMYzNleGhzaWdwOE0tXy0yQTVxX3didWtOU0FrQVY2M3Axb09UdWQwTTVDb2UyUmpFX20xV2N0Q255UGpKU0Fib01SX052NEFqWXlMWURpVHY1YjRpRHk2RHJIRTRFUUF5X2E1SEhMM1UwaEhhLXp1eHFfcXFzTldtNkhvNjVXaw?oc=5",
-      "category": "AI组织提效",
-      "region": "china",
-      "source_group": "ai_productivity",
-      "source_type": "news_search",
-      "topic_tags": [
-        "ai_transformation",
-        "org_productivity",
-        "workflow_automation"
-      ],
-      "event_signature": {
-        "entities": [
-          "microsoft"
-        ],
-        "products": [],
-        "actions": [],
-        "topics": [
-          "ai_transformation",
-          "org_productivity",
-          "workflow_automation"
-        ]
-      },
-      "seen_count": 1
     },
     {
       "first_seen_date": "2026-10-28",
@@ -5674,6 +5495,179 @@
         ],
         "topics": [
           "chip"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "advent of code 2026 tis the season to code in kotlin",
+      "normalized_title": "advent of code 2026 tis the season to code in kotlin",
+      "normalized_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsR0cxcUxxdGc2d0lyOVBhb0hMOTFGX3RBWVpTdTBMcXhPankybXBlb1ZwRXZJV2lTSjlZWXBZMkZhWHluNDZuMHp3U2VuNElZMjlTM29BOVpmRnAtUU1DeXZ4V0s4R1I2ZVlRdXhTdUhjcTluUVcxcVNYUlM?oc=5",
+      "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin - The JetBrains Blog",
+      "summary": "Advent of Code 2026: ’Tis the Season to Code in Kotlin The JetBrains Blog",
+      "source": "The JetBrains Blog",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsR0cxcUxxdGc2d0lyOVBhb0hMOTFGX3RBWVpTdTBMcXhPankybXBlb1ZwRXZJV2lTSjlZWXBZMkZhWHluNDZuMHp3U2VuNElZMjlTM29BOVpmRnAtUU1DeXZ4V0s4R1I2ZVlRdXhTdUhjcTluUVcxcVNYUlM?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "company_blog",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "agent",
+        "coding_agent",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent",
+          "company_research",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "banks may use ai coding agents instead of hiring more software developers bfsi economictimes indiatimes com",
+      "normalized_title": "banks may use ai coding agents instead of hiring more software developers bfsi economictimes indiatimes com",
+      "normalized_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd21HNzhKRjA4WFNYRldrdnRUcllOeERKcHdGeGhWd2RkRm95VHdUeVdVWnZQX1Nic0hxZ0RGRHBSdEExRGJ5dmhpbHUybHJSVGMxUk9VVXNtcUlpNUljcG5NVUVlOG1sYk96bDJjR1J3TmV1VENrUXA1QUkwVEJOZVl3U1EzZkJVTnp4MlJSMHlaa0dub2MycFpicVhJYzVFME14LW1ydG9mMnE4dWJJNHlYUExnU25KWVEzdmFzRWk0SkhzWVhYOUFSZ0V2c3PSAdQBQVVfeXFMUHhyQUc5ZG5MUDNwUXVON3RFOW5PdUhSYWRMbTB0VmRwaWFuXzhTeHBIU2NOWUstd0pkbEEtMEZFMVUxY2I4UEpRUmtHTExUMW1CTS0tMlR3V0hIdnRmUWlkcHhMamlFeGRNczNMQVJZdEV4eDYxaEUtdVlRbnBvQ1VYVE00cEZSRFRvYjNVaUpsQUFYXzFGN1FVWC1JQ0oyR240ZjRNY1o4VlJVWnpBUlI0Q2NCaFRQSTlIbUlFRHVGQmkzS2xNTzJkU3ZkU0xyMmpockQ?oc=5",
+      "title": "Banks may use AI coding agents instead of hiring more software developers - bfsi.economictimes.indiatimes.com",
+      "summary": "Banks may use AI coding agents instead of hiring more software developers bfsi.economictimes.indiatimes.com",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd21HNzhKRjA4WFNYRldrdnRUcllOeERKcHdGeGhWd2RkRm95VHdUeVdVWnZQX1Nic0hxZ0RGRHBSdEExRGJ5dmhpbHUybHJSVGMxUk9VVXNtcUlpNUljcG5NVUVlOG1sYk96bDJjR1J3TmV1VENrUXA1QUkwVEJOZVl3U1EzZkJVTnp4MlJSMHlaa0dub2MycFpicVhJYzVFME14LW1ydG9mMnE4dWJJNHlYUExnU25KWVEzdmFzRWk0SkhzWVhYOUFSZ0V2c3PSAdQBQVVfeXFMUHhyQUc5ZG5MUDNwUXVON3RFOW5PdUhSYWRMbTB0VmRwaWFuXzhTeHBIU2NOWUstd0pkbEEtMEZFMVUxY2I4UEpRUmtHTExUMW1CTS0tMlR3V0hIdnRmUWlkcHhMamlFeGRNczNMQVJZdEV4eDYxaEUtdVlRbnBvQ1VYVE00cEZSRFRvYjNVaUpsQUFYXzFGN1FVWC1JQ0oyR240ZjRNY1o4VlJVWnpBUlI0Q2NCaFRQSTlIbUlFRHVGQmkzS2xNTzJkU3ZkU0xyMmpockQ?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_productivity",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "ai_transformation",
+        "coding",
+        "coding_agent",
+        "org_productivity",
+        "workflow_automation"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "ai_transformation",
+          "coding",
+          "coding_agent",
+          "org_productivity",
+          "workflow_automation"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "building on nemotron 3 5 parse open data fine",
+      "normalized_title": "building on nemotron 3 5 parse open data fine",
+      "normalized_link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "summary": "",
+      "source": "Hugging Face - Blog",
+      "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "category": "官方研究",
+      "region": "global",
+      "source_group": "company_research",
+      "source_type": "technical_blog",
+      "topic_tags": [
+        "ai_research",
+        "chip",
+        "company_research",
+        "technical_blog"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "ai_research",
+          "chip",
+          "company_research",
+          "inference",
+          "technical_blog"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "anthropic launches claude ship to review fix and approve github pull requests",
+      "normalized_title": "anthropic launches claude ship to review fix and approve github pull requests",
+      "normalized_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbzZmVHNueXZlYVlWR3kySVdJTkptRkVsTDR2dmxGV3l4ejdpbjBlLVR1cTVkS1RVbXhQSEVyX3NFX0ZkYmU1Y2VTQ1lCYXlYTU5LaVZlUmxZcmVlZ3p0N0FZY2Z1RzdfY1J6Y3MxODg1eVBTN09QUnUtTHNXLU5pTl9xVkZJWXZYMk13bFd3?oc=5",
+      "title": "Anthropic Launches Claude Ship to Review, Fix and Approve GitHub Pull Requests - TechRepublic",
+      "summary": "Anthropic Launches Claude Ship to Review, Fix and Approve GitHub Pull Requests TechRepublic",
+      "source": "TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbzZmVHNueXZlYVlWR3kySVdJTkptRkVsTDR2dmxGV3l4ejdpbjBlLVR1cTVkS1RVbXhQSEVyX3NFX0ZkYmU1Y2VTQ1lCYXlYTU5LaVZlUmxZcmVlZ3p0N0FZY2Z1RzdfY1J6Y3MxODg1eVBTN09QUnUtTHNXLU5pTl9xVkZJWXZYMk13bFd3?oc=5",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "ai_agent",
+      "source_type": "news_search",
+      "topic_tags": [
+        "agent",
+        "agentic_ai",
+        "ai_agent",
+        "coding",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [
+          "anthropic",
+          "github"
+        ],
+        "products": [],
+        "actions": [
+          "release"
+        ],
+        "topics": [
+          "agent",
+          "agentic_ai",
+          "ai_agent",
+          "coding",
+          "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "sessiongraph visualize all your coding agent sessions in one interactive graph",
+      "normalized_title": "sessiongraph visualize all your coding agent sessions in one interactive graph",
+      "normalized_link": "https://sessiongraph.ai",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://sessiongraph.ai/",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "agent",
+        "coding_agent"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "coding_agent"
         ]
       },
       "seen_count": 1

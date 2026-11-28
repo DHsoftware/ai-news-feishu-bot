@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-28T11:18:32.414253+08:00",
+  "timezone": "Asia/Shanghai",
+  "fetch_status": {
+    "source_count": 22,
+    "success_count": 21,
+    "failed_count": 1
+  },
+  "selection_config": {
+    "target_learning_candidate_count": 1,
+    "max_same_source_learning": 1,
+    "max_items_for_llm": 1
+  },
+  "history_dedupe": {
+    "history_path": "data/history/learning-history.json",
+    "dedupe_days": 14,
+    "retention_days": 30,
+    "similarity_threshold": 0.82,
+    "history_size_before": 14,
+    "history_size_after": 15,
+    "history_duplicate_count": 12
+  },
+  "raw_item_count": 74,
+  "deduped_item_count": 29,
+  "filtered_item_count": 1,
+  "curated_item_count": 1,
+  "curated_items": [
+    {
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "summary": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked with Linux maintainers to get fixes upstream. Read the full research: https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "summary_source": "rss_description",
+      "summary_quality": "medium",
+      "published_at": "2026-11-24T04:03:11+08:00",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/w-ltt0Np2cY",
+      "language": "en",
+      "region": "global",
+      "source_group": "youtube",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "is_official_source": true,
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "human_in_the_loop"
+      ],
+      "concept_hint": "Human-in-the-loop",
+      "score": 27,
+      "canonical_key": "investigating linux vulnerabilities with gpt",
+      "dedupe_key": "investigating linux vulnerabilities with gpt",
+      "selection_reason": "learning_high_score"
+    }
+  ],
+  "rejected_stats": {
+    "duplicate": 45,
+    "history_duplicate": 12,
+    "same_source_limit": 0,
+    "old_resource": 16,
+    "similar_selected": 0,
+    "google_or_youtube_deprioritized": 0,
+    "low_quality_learning_source": 0
+  }
+}

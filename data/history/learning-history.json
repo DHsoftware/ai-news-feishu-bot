@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T12:11:46.344081+08:00",
+  "updated_at": "2026-11-28T11:18:32.414253+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -574,6 +574,47 @@
         ]
       },
       "seen_count": 2
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "investigating linux vulnerabilities with gpt",
+      "normalized_title": "investigating linux vulnerabilities with gpt",
+      "normalized_link": "https://www.youtube.com/shorts/w-ltt0Np2cY",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "summary": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, ap…",
+      "source": "OpenAI YouTube",
+      "link": "https://www.youtube.com/shorts/w-ltt0Np2cY",
+      "source_type": "official_video",
+      "source_quality": "high",
+      "summary_quality": "medium",
+      "concept_hint": "Human-in-the-loop",
+      "is_official_source": true,
+      "language": "en",
+      "region": "global",
+      "tags": [
+        "agent",
+        "cli",
+        "codex",
+        "human_in_the_loop"
+      ],
+      "event_signature": {
+        "entities": [
+          "openai"
+        ],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "agent",
+          "cli",
+          "codex",
+          "human_in_the_loop",
+          "model_capability",
+          "research",
+          "security"
+        ]
+      },
+      "seen_count": 1
     }
   ]
 }
