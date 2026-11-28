@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T11:18:32.414253+08:00",
+  "updated_at": "2026-11-28T11:52:52.640624+08:00",
   "timezone": "Asia/Shanghai",
   "retention_days": 30,
   "items": [
@@ -5530,7 +5530,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-27",
@@ -5567,7 +5567,7 @@
           "workflow_automation"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-27",
@@ -5601,7 +5601,7 @@
           "technical_blog"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-27",
@@ -5641,7 +5641,7 @@
           "coding_agent"
         ]
       },
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "first_seen_date": "2026-11-27",
@@ -5668,6 +5668,33 @@
         "topics": [
           "agent",
           "coding_agent"
+        ]
+      },
+      "seen_count": 1
+    },
+    {
+      "first_seen_date": "2026-11-27",
+      "last_seen_date": "2026-11-27",
+      "canonical_key": "prospero bloat free native ai coding harness with imgui",
+      "normalized_title": "prospero bloat free native ai coding harness with imgui",
+      "normalized_link": "https://github.com/skeeto/prospero",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "link": "https://github.com/skeeto/prospero",
+      "category": "AI编程工具",
+      "region": "global",
+      "source_group": "global",
+      "source_type": "",
+      "topic_tags": [
+        "coding"
+      ],
+      "event_signature": {
+        "entities": [],
+        "products": [],
+        "actions": [],
+        "topics": [
+          "coding"
         ]
       },
       "seen_count": 1

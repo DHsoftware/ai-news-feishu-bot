@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-28T11:18:32.414253+08:00",
+  "generated_at": "2026-11-28T11:52:52.640624+08:00",
   "timezone": "Asia/Shanghai",
   "fetch_status": {
     "source_count": 230,
@@ -33,12 +33,12 @@
     "retention_days": 30,
     "similarity_threshold": 0.82,
     "history_size_before": 158,
-    "history_size_after": 158,
-    "history_duplicate_count": 30
+    "history_size_after": 159,
+    "history_duplicate_count": 26
   },
-  "raw_item_count": 4946,
-  "deduped_item_count": 3695,
-  "filtered_item_count": 314,
+  "raw_item_count": 4993,
+  "deduped_item_count": 3767,
+  "filtered_item_count": 315,
   "curated_item_count": 5,
   "curated_items": [
     {
@@ -173,13 +173,13 @@
       "selection_reason": "fill_remaining_high_score"
     },
     {
-      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
       "summary": "Comments",
       "summary_source": "rss_description",
       "summary_quality": "low",
-      "published_at": "2026-11-28T05:07:34+08:00",
+      "published_at": "2026-11-28T04:23:14+08:00",
       "source": "Hacker News",
-      "link": "https://sessiongraph.ai/",
+      "link": "https://github.com/skeeto/prospero",
       "language": "en",
       "region": "global",
       "source_group": "global",
@@ -188,26 +188,25 @@
       "is_official_source": false,
       "tags": [],
       "topic_tags": [
-        "agent",
-        "coding_agent"
+        "coding"
       ],
       "category": "AI编程工具",
-      "dedupe_key": "sessiongraph visualize all your coding agent sessions in one interactive graph",
-      "canonical_key": "sessiongraph visualize all your coding agent sessions in one interactive graph",
-      "normalized_link": "https://sessiongraph.ai",
-      "score": 39,
+      "dedupe_key": "prospero bloat free native ai coding harness with imgui",
+      "canonical_key": "prospero bloat free native ai coding harness with imgui",
+      "normalized_link": "https://github.com/skeeto/prospero",
+      "score": 37,
       "selection_reason": "fill_remaining_high_score"
     }
   ],
   "rejected_stats": {
-    "duplicate": 1251,
-    "history_duplicate": 30,
-    "weak_relevance": 175,
+    "duplicate": 1226,
+    "history_duplicate": 26,
+    "weak_relevance": 169,
     "same_source_limit": 0,
     "china_limit": 0,
     "auto_china_limit": 0,
-    "old_news": 3206,
-    "same_entity_limit": 293,
+    "old_news": 3283,
+    "same_entity_limit": 324,
     "similar_selected": 0,
     "company_research_limit": 2,
     "auto_driving_limit": 0,
